@@ -3,20 +3,23 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>2026年9月28日 17:00 每小時議題快報：失業率回升與「人手短缺／輸入外勞」的爭議｜香港議題雷達</title>
+<title>2026年9月28日 17:00 每小時議題快報｜香港議題雷達</title>
 <link rel="canonical" href="https://allegrotto1.github.io/hk-issue-radar/reports/2026-09-28-17/"/>
-<link rel="stylesheet" href="/hk-issue-radar/assets/site.css"/>
 </head>
-<body class="day">
-  <header class="top"><div class="wrap">
-    <a class="brand" href="/hk-issue-radar/"><span>香港議題雷達</span><small>HK Issue Radar</small></a>
-    <nav aria-label="主要導覽"><a href="/hk-issue-radar/#latest">最新</a><a href="/hk-issue-radar/#archive">按日存檔</a><a href="/hk-issue-radar/tracker/"><span class="hide-sm">Threads </span>追蹤</a></nav>
-  </div></header>
-  <main id="main" class="wrap" style="padding:32px 0">
-    <p class="label">【每小時議題快報｜2026年9月28日 17:00 HKT】</p>
-    <h1>2026年9月28日 17:00</h1>
-    <p>全文頁面推送中；請先看首頁摘要，或稍後重新整理本頁。</p>
-    <p><a href="/hk-issue-radar/">返回首頁</a> · <a href="/hk-issue-radar/days/2026-09-28/">當日存檔</a></p>
-  </main>
+<body>
+<p id="s">載入 17:00 快報全文…</p>
+<script>
+(async () => {
+  const parts = ["r0.z64", "r1.z64"];
+  const texts = await Promise.all(parts.map(p => fetch(new URL(p, location.href)).then(r => {
+    if (!r.ok) throw new Error(p + " " + r.status);
+    return r.text();
+  })));
+  const bin = Uint8Array.from(atob(texts.join("")), c => c.charCodeAt(0));
+  const ds = new DecompressionStream("deflate");
+  const html = await new Response(new Blob([bin]).stream().pipeThrough(ds)).text();
+  document.open(); document.write(html); document.close();
+})().catch(e => { document.getElementById("s").textContent = "載入失敗：" + e; });
+</script>
 </body>
 </html>
