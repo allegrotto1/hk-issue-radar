@@ -132,3 +132,10 @@ details.snaps summary:hover{ color:var(--fg); }
   .hist{ grid-template-columns:1fr; }
 }
 @media (prefers-reduced-motion:reduce){ *{ transition:none!important; } }
+.group{border:1px solid var(--line,#e5e5e5);border-radius:12px;margin:0 0 20px;padding:0 16px}
+.group>summary{cursor:pointer;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px;padding:14px 0;font-weight:600;font-size:1.1rem;list-style:none}
+.group>summary::-webkit-details-marker{display:none}
+.group>summary::before{content:"▸";font-size:.9em;transition:transform .15s}
+.group[open]>summary::before{transform:rotate(90deg)}
+.group .gm{font-weight:400;font-size:.85rem;opacity:.7}
+.group>ol.posts{margin-top:0}

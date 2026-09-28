@@ -100,6 +100,7 @@
     var posts=(d.posts||[]).slice().sort(function(a,b){return lastViews(b)-lastViews(a);});
     document.getElementById("cnt").textContent=posts.length+" 個帖文";
     if(!posts.length){document.getElementById("list").innerHTML='<p class="empty">暫時未有追蹤帖文。</p>';return;}
+  function postsHtml(posts){
     var h='<ol class="posts">';
     posts.forEach(function(p,i){
       var S=p.snapshots||[], L=S[S.length-1], P=S.length>1?S[S.length-2]:null, F=S[0];
@@ -120,7 +121,18 @@
         '<p class="cap">最新 '+hkt(L.taken_at,true)+' HKT</p></div>'+
         '<details class="snaps"><summary>快照紀錄（'+S.length+'）</summary>'+table(S)+'</details></div></li>';
     });
-    document.getElementById("list").innerHTML=h+'</ol>';
+    return h+'</ol>';
+  }
+    var G=(d.groups||[]), byG={}, rest=[];
+    posts.forEach(function(p){ if(p.group&&G.some(function(g){return g.id==p.group;})) (byG[p.group]=byG[p.group]||[]).push(p); else rest.push(p); });
+    var out='';
+    G.forEach(function(g){ var ps=byG[g.id]; if(!ps||!ps.length) return;
+      var tot=0, ap=false; ps.forEach(function(p){var L=p.snapshots[p.snapshots.length-1]; if(L&&L.views){tot+=L.views.value; if(L.views.approx) ap=true;}});
+      out+='<details class="group" open><summary><span class="gi" aria-hidden="true">📁</span><span class="gt">'+esc(g.title)+'</span>'+
+        '<span class="gm">'+ps.length+' 個帖文 · 合計瀏覽 '+(ap?'約':'')+num(tot)+'</span></summary>'+postsHtml(ps)+'</details>';
+    });
+    if(rest.length) out+=(out?'<details class="group" open><summary><span class="gi" aria-hidden="true">📁</span><span class="gt">未分組</span><span class="gm">'+rest.length+' 個帖文</span></summary>'+postsHtml(rest)+'</details>':postsHtml(rest));
+    document.getElementById("list").innerHTML=out;
   }
   fetch("data.json",{cache:"no-store"}).then(function(r){if(!r.ok) throw r.status; return r.json();}).then(render)
     .catch(function(){document.getElementById("list").innerHTML='<p class="empty">未能載入數據（data.json），請稍後再試。</p>';});
