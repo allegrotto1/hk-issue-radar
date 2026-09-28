@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-09-28T15:39:23+08:00",
- "generated_at": "2026-09-28T15:40:17+08:00",
+ "updated_at": "2026-09-28T16:38:42+08:00",
+ "generated_at": "2026-09-28T16:39:15+08:00",
  "posts": [
   {
    "id": "DdyCsmTkt3H",
@@ -15,7 +15,8 @@
    "estimated_posted_at": {"value":"2026-09-27T15:25:00+08:00","estimate":true,"relative_shown":"23h","observed_at":"2026-09-28T14:25:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-09-28T14:25:00+08:00","likes":{"raw":"2.2K","value":2200,"approx":true},"replies":{"raw":"302","value":302,"approx":false},"reposts":{"raw":"78","value":78,"approx":false},"shares":{"raw":"193","value":193,"approx":false},"views":{"raw":"106K","value":106000,"approx":true}},
-    {"taken_at":"2026-09-28T15:39:11+08:00","likes":{"raw":"2,335","value":2335,"approx":false},"replies":{"raw":"306","value":306,"approx":false},"reposts":{"raw":"81","value":81,"approx":false},"shares":{"raw":"207","value":207,"approx":false},"views":{"raw":"10萬","value":100000,"approx":true}}
+    {"taken_at":"2026-09-28T15:39:11+08:00","likes":{"raw":"2,335","value":2335,"approx":false},"replies":{"raw":"306","value":306,"approx":false},"reposts":{"raw":"81","value":81,"approx":false},"shares":{"raw":"207","value":207,"approx":false},"views":{"raw":"10萬","value":100000,"approx":true}},
+    {"taken_at":"2026-09-28T16:38:33+08:00","likes":{"raw":"2,351","value":2351,"approx":false},"replies":{"raw":"306","value":306,"approx":false},"reposts":{"raw":"81","value":81,"approx":false},"shares":{"raw":"209","value":209,"approx":false},"views":{"raw":"11萬","value":110000,"approx":true}}
    ]
   },
   {
@@ -28,7 +29,8 @@
    "estimated_posted_at": {"value":"2026-09-27T19:25:00+08:00","estimate":true,"relative_shown":"19h","observed_at":"2026-09-28T14:25:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-09-28T14:25:00+08:00","likes":{"raw":"340","value":340,"approx":false},"replies":{"raw":"38","value":38,"approx":false},"reposts":{"raw":"5","value":5,"approx":false},"shares":{"raw":"10","value":10,"approx":false},"views":{"raw":"23.9K","value":23900,"approx":true}},
-    {"taken_at":"2026-09-28T15:39:23+08:00","likes":{"raw":"375","value":375,"approx":false},"replies":{"raw":"45","value":45,"approx":false},"reposts":{"raw":"5","value":5,"approx":false},"shares":{"raw":"10","value":10,"approx":false},"views":{"raw":"2.8萬","value":28000,"approx":true}}
+    {"taken_at":"2026-09-28T15:39:23+08:00","likes":{"raw":"375","value":375,"approx":false},"replies":{"raw":"45","value":45,"approx":false},"reposts":{"raw":"5","value":5,"approx":false},"shares":{"raw":"10","value":10,"approx":false},"views":{"raw":"2.8萬","value":28000,"approx":true}},
+    {"taken_at":"2026-09-28T16:38:42+08:00","likes":{"raw":"425","value":425,"approx":false},"replies":{"raw":"55","value":55,"approx":false},"reposts":{"raw":"6","value":6,"approx":false},"shares":{"raw":"13","value":13,"approx":false},"views":{"raw":"3.3萬","value":33000,"approx":true}}
    ]
   }
  ]
