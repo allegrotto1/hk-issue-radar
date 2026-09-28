@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-09-28T16:38:42+08:00",
- "generated_at": "2026-09-28T16:39:15+08:00",
+ "updated_at": "2026-09-28T16:59:00+08:00",
+ "generated_at": "2026-09-28T16:59:33+08:00",
  "posts": [
   {
    "id": "DdyCsmTkt3H",
@@ -31,6 +31,18 @@
     {"taken_at":"2026-09-28T14:25:00+08:00","likes":{"raw":"340","value":340,"approx":false},"replies":{"raw":"38","value":38,"approx":false},"reposts":{"raw":"5","value":5,"approx":false},"shares":{"raw":"10","value":10,"approx":false},"views":{"raw":"23.9K","value":23900,"approx":true}},
     {"taken_at":"2026-09-28T15:39:23+08:00","likes":{"raw":"375","value":375,"approx":false},"replies":{"raw":"45","value":45,"approx":false},"reposts":{"raw":"5","value":5,"approx":false},"shares":{"raw":"10","value":10,"approx":false},"views":{"raw":"2.8萬","value":28000,"approx":true}},
     {"taken_at":"2026-09-28T16:38:42+08:00","likes":{"raw":"425","value":425,"approx":false},"replies":{"raw":"55","value":55,"approx":false},"reposts":{"raw":"6","value":6,"approx":false},"shares":{"raw":"13","value":13,"approx":false},"views":{"raw":"3.3萬","value":33000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DdyT-H1k15l",
+   "url": "https://www.threads.com/@americafirst_hk90/post/DdyT-H1k15l",
+   "platform": "threads",
+   "summary": "以「香港經濟」話題邀請網民分享身邊反映香港經濟差嘅個案，作者先列出四個例子（相熟美甲師兼職送外賣、朋友失業、公司裁員等）",
+   "tag": "香港經濟",
+   "first_seen": "2026-09-28T16:59:00+08:00",
+   "estimated_posted_at": {"value":"2026-09-27T17:59:00+08:00","estimate":true,"relative_shown":"23h","observed_at":"2026-09-28T16:59:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-09-28T16:59:00+08:00","likes":{"raw":"3.6K","value":3600,"approx":true},"replies":{"raw":"179","value":179,"approx":false},"reposts":{"raw":"47","value":47,"approx":false},"shares":{"raw":"802","value":802,"approx":false},"views":{"raw":"324K","value":324000,"approx":true}}
    ]
   }
  ]
