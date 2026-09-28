@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>2026年9月28日 19:00 每小時議題快報｜香港議題雷達</title>
+<link rel="canonical" href="https://allegrotto1.github.io/hk-issue-radar/reports/2026-09-28-19/"/>
+</head>
+<body>
+<p id="s">載入 19:00 快報全文…</p>
+<script>
+(async () => {
+  const parts = ['h0.hex', 'h1.hex', 'h2.hex', 'h3.hex', 'h4.hex', 'h5.hex', 'h6.hex', 'h7.hex'];
+  const texts = await Promise.all(parts.map(p => fetch(new URL(p, location.href)).then(r => {
+    if (!r.ok) throw new Error(p + " " + r.status);
+    return r.text();
+  })));
+  const hex = texts.join("").trim();
+  const bin = new Uint8Array(hex.length/2);
+  for (let i=0;i<bin.length;i++) bin[i]=parseInt(hex.substr(i*2,2),16);
+  const ds = new DecompressionStream("deflate");
+  const html = await new Response(new Blob([bin]).stream().pipeThrough(ds)).text();
+  document.open(); document.write(html); document.close();
+})().catch(e => { document.getElementById("s").textContent = "載入失敗：" + e; });
+</script>
+</body>
+</html>
