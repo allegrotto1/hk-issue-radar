@@ -1,1 +1,37 @@
-y
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>2026年9月28日 13:00 每小時議題快報｜香港議題雷達</title>
+<meta name="description" content="【每小時議題快報｜2026年9月28日 13:00 HKT】失業率回升與「人手短缺／輸入外勞」的爭議 · 大埔宏福苑火災：問責、賠償與獨立委員會報告進度 · 住宅租金持續創新高與租客負擔 · 港人北上消費意欲是否減退。"/>
+<link rel="canonical" href="https://allegrotto1.github.io/hk-issue-radar/reports/2026-09-28-13/"/>
+<meta name="robots" content="index,follow"/>
+<link rel="icon" href="/hk-issue-radar/favicon.svg" type="image/svg+xml"/>
+<link rel="prev" href="https://allegrotto1.github.io/hk-issue-radar/reports/2026-09-28-11/"/>
+<meta property="article:published_time" content="2026-09-28T05:13:47Z"/>
+</head>
+<body>
+<p id="b">載入議題快報…</p>
+<script>
+(async () => {
+  const n = 40;
+  const parts = [];
+  for (let i = 0; i < n; i++) {
+    const r = await fetch('./' + i + '.b64', {cache: 'no-cache'});
+    if (!r.ok) throw new Error(i + '.b64 ' + r.status);
+    parts.push((await r.text()).trim());
+  }
+  const bin = atob(parts.join(''));
+  const bytes = Uint8Array.from(bin, c => c.charCodeAt(0));
+  const html = new TextDecoder('utf-8').decode(bytes);
+  document.open();
+  document.write(html);
+  document.close();
+})().catch(e => {
+  document.getElementById('b').textContent = '載入失敗：' + e;
+});
+</script>
+<noscript><p>請啟用 JavaScript 以檢視本快報全文。</p></noscript>
+</body>
+</html>
