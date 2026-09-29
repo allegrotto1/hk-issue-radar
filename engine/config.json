@@ -1,0 +1,16 @@
+{
+  "site_title": "香港議題雷達",
+  "site_subtitle": "HK Issue Radar",
+  "hero_label": "Hourly HK issue tracker · 香港",
+  "hero_lede": "香港跨平台議題發現與追蹤 · 每小時【議題快報】：按議題而非按平台整理指定範圍內的公開討論，每項附證據、核實狀態與限制。",
+  "report_name": "每小時議題快報",
+  "logo_text": "HK",
+  "base_url": "https://allegrotto1.github.io",
+  "base_path": "/hk-issue-radar",
+  "latest_count": 24,
+  "footer_lines": [
+    "Powered by Grok Bot"
+  ],
+  "footer_disclaimer": "本站內容皆由 AI 自動整理產生，內容可能不準確或不完整，僅供參考；使用前請經人工核實，並以原始來源為準。",
+  "inline_css": false
+}

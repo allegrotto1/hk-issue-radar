@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "mode": "fixture",
+  "window": { "start": "2026-09-28T03:00:00Z", "end": "2026-09-28T04:00:00Z" },
+  "generated_at": "2026-09-28T04:06:30Z",
+  "summary": "【示例資料】此份快報全屬虛構，只用來預覽版面：本輪列出 3 個虛構議題及 1 條早期線索。",
+  "sources": {
+    "readable": [
+      { "name": "示例論壇 A", "platform": "論壇（虛構）", "items": 42, "note": "只讀公開版面" },
+      { "name": "示例社交平台 B", "platform": "社交平台（虛構）", "items": 118 },
+      { "name": "示例新聞網站 C", "platform": "新聞（虛構）", "items": 9 }
+    ],
+    "failed": [
+      { "name": "示例影片平台 D", "reason": "示例：連線逾時（HTTP 504）" }
+    ],
+    "gaps": [
+      "示例：本輪未涵蓋私人群組及需登入內容。",
+      "示例：示例社交平台 B 只取得最近 200 則公開貼文。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "EX-20260928-001",
+      "name": "【示例資料】議題 A：虛構的公共交通班次調整討論",
+      "status": "new",
+      "observed": { "start": "2026-09-28T03:00:00Z", "end": "2026-09-28T04:00:00Z" },
+      "seen": [
+        "示例文字：多個虛構平台上出現關於一條虛構路線班次調整的討論，焦點集中在繁忙時段等候時間。",
+        "示例文字：此段只用於展示「今輪看到甚麼」欄位可容納多段文字。"
+      ],
+      "viewpoints": [
+        { "label": "關注等候時間", "share": "約 50%", "summary": "示例：擔心繁忙時段等候時間變長。", "evidence_ids": ["E1", "E2"] },
+        { "label": "支持調整", "share": "約 30%", "summary": "示例：認為可改善整體路線效率。", "evidence_ids": ["E3"] },
+        { "label": "中立／查詢", "share": "約 20%", "summary": "示例：主要詢問實施日期及細節。" }
+      ],
+      "data": [
+        { "metric": "相關貼文數", "value": 57, "comparison": "示例：上一小時 12 則", "evidence_ids": ["E1", "E2"] },
+        { "metric": "涉及平台", "value": "3 個", "comparison": "示例：首次跨越兩個以上平台" }
+      ],
+      "why": "示例：討論量在一小時內明顯上升，並同時出現在多於一個虛構平台，符合「新發現」門檻。",
+      "verification": { "status": "partially_verified", "note": "示例：已讀取其中一篇虛構公告全文，其餘只讀片段。" },
+      "evidence": [
+        { "evidence_id": "E1", "url": "https://example.com/forum-a/thread/0001", "platform": "示例論壇 A", "published_at": "2026-09-28T03:12:00Z", "observed_at": "2026-09-28T03:40:00Z", "read_level": "full" },
+        { "evidence_id": "E2", "url": "https://example.com/social-b/post/0002", "platform": "示例社交平台 B", "published_at": "2026-09-28T03:25:00Z", "observed_at": "2026-09-28T03:41:00Z", "read_level": "snippet", "note": "示例：只讀取預覽文字。" },
+        { "evidence_id": "E3", "url": "https://example.com/news-c/article/0003", "platform": "示例新聞網站 C", "published_at": null, "observed_at": "2026-09-28T03:50:00Z", "read_level": "partial" }
+      ],
+      "limits": "示例：樣本只包括公開可讀內容，比例為粗略估算。",
+      "next_steps": "示例：下一輪核對虛構營運者的正式公告，並觀察討論是否延續。"
+    },
+    {
+      "issue_id": "EX-20260927-014",
+      "name": "【示例資料】議題 B：虛構的社區設施開放時間爭議",
+      "status": "tracking",
+      "seen": "示例文字：延續上一份虛構快報的議題，本輪討論量持平，出現少量新的虛構回應。",
+      "viewpoints": [
+        { "label": "要求延長開放", "share": "多數", "summary": "示例：希望晚間延長開放。", "evidence_ids": ["E1"] },
+        { "label": "關注人手", "share": "少數", "summary": "示例：擔心人手不足。" }
+      ],
+      "data": [
+        "示例：本輪相關貼文 21 則，上一輪 24 則，大致持平。"
+      ],
+      "why": "示例：屬持續追蹤議題，雖未大幅增長，但仍有新回應。",
+      "verification": { "status": "unverified", "note": "示例：未能找到虛構官方回應全文。" },
+      "evidence": [
+        { "evidence_id": "E1", "url": "https://example.com/forum-a/thread/0014", "platform": "示例論壇 A", "published_at": "2026-09-28T02:58:00Z", "observed_at": "2026-09-28T03:30:00Z", "read_level": "title_only" }
+      ],
+      "limits": "示例：只取得標題，無法確認內文。",
+      "next_steps": "示例：繼續追蹤兩輪；如無新發展則標示降溫。"
+    },
+    {
+      "issue_id": "EX-20260926-007",
+      "name": "【示例資料】議題 C：虛構的公共政策諮詢觀點轉向",
+      "status": "shift",
+      "seen": "示例文字：與上一份虛構快報相比，討論重心由「成本」轉向「推行時間表」。",
+      "viewpoints": [
+        { "label": "關注時間表", "share": "約 45%（上輪約 20%）", "summary": "示例：較多人討論實施時間。" },
+        { "label": "關注成本", "share": "約 35%（上輪約 60%）", "summary": "示例：成本討論比例下降。" },
+        { "label": "其他", "share": "約 20%", "summary": "示例：零散意見。" }
+      ],
+      "data": [
+        { "metric": "觀點比例變化", "value": "時間表 +25 個百分點", "comparison": "示例：對比上一輪" }
+      ],
+      "why": "示例：觀點分布出現明顯變化，標示為「觀點變化」。",
+      "verification": { "status": "verified", "note": "示例：已完整讀取兩篇虛構來源。" },
+      "evidence": [
+        { "evidence_id": "E1", "url": "https://example.com/news-c/article/0007", "platform": "示例新聞網站 C", "published_at": "2026-09-28T01:05:00Z", "observed_at": "2026-09-28T03:20:00Z", "read_level": "full" },
+        { "evidence_id": "E2", "url": "https://example.com/social-b/post/0071", "platform": "示例社交平台 B", "published_at": "2026-09-28T03:33:00Z", "observed_at": "2026-09-28T03:45:00Z", "read_level": "full" }
+      ],
+      "limits": "示例：比例基於少量樣本，只作方向參考。",
+      "next_steps": "示例：觀察下一輪比例是否穩定。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "EX-LEAD-20260928-01",
+      "name": "【示例資料】線索甲：虛構的新興話題，只見於單一平台",
+      "seen": "示例文字：只在一個虛構平台出現少量討論，暫未達列入主要議題門檻。",
+      "viewpoints": [],
+      "data": [ { "metric": "相關貼文數", "value": 6 } ],
+      "why": "示例：增長速度較快，值得留意。",
+      "verification": { "status": "unverified" },
+      "evidence": [
+        { "evidence_id": "E1", "url": "https://example.com/social-b/post/0100", "platform": "示例社交平台 B", "published_at": "2026-09-28T03:52:00Z", "observed_at": "2026-09-28T03:58:00Z", "read_level": "snippet" }
+      ],
+      "limits": "示例：單一來源，未能交叉核實。",
+      "next_steps": "示例：下一輪檢查其他平台有否出現。"
+    }
+  ],
+  "tracking": [
+    { "issue_id": "EX-20260927-014", "name": "【示例資料】議題 B：虛構的社區設施開放時間爭議", "kind": "follow_up", "text": "示例：延續追蹤中，見上方議題 B。", "related_report": "2026-09-28-10" },
+    { "issue_id": "EX-20260927-009", "name": "【示例資料】更正示例", "kind": "correction", "text": "示例：上一份虛構快報把某虛構數字寫成 120，應為 102，現予更正。", "related_report": "2026-09-28-10" }
+  ],
+  "usage": {
+    "sources_attempted": 4,
+    "sources_ok": 3,
+    "items_collected": 169,
+    "items_read_full": 5,
+    "llm_calls": 7,
+    "tokens_in": 48210,
+    "tokens_out": 3920,
+    "cost_usd": 0.0,
+    "runtime_seconds": 92.4,
+    "notes": "示例：fixture 模式下用量數字為虛構。"
+  }
+}

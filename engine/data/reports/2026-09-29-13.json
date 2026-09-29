@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-09-29T05:00:00Z",
+    "end": "2026-09-29T06:00:00Z"
+  },
+  "generated_at": "2026-09-29T05:33:00Z",
+  "summary": [
+    "第十三輪（13:00 HKT）補版。13:03 的排程有跑完，但沒有寫入這個工作區，GitHub Pages 亦沒有 13:00。",
+    "熱門排序 https://lihkg.com/category/1?order=hot 仍然是空頁。下面的標題來自吹水台第一頁 https://lihkg.com/category/1，頁面沒有標明是熱門還是最新。",
+    "時事：死亡螺旋標題，列表分數 925。內地：追稅小組標題回到第一頁，834。經濟：樓市短炒標題，最高 146。官員：張宇人兩條仍在，分數是 -2 同 -292。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台第 1 頁",
+        "platform": "連登",
+        "items": 30,
+        "note": "13:31 HKT 讀到標題同分數字。沒有 thread id。排序名稱沒有顯示。"
+      }
+    ],
+    "failed": [
+      {
+        "name": "連登吹水台熱門排序",
+        "reason": "https://lihkg.com/category/1?order=hot 沒有讀到帖文列表。"
+      }
+    ],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "今輪未能確認列表是熱門排序。",
+      "個別帖連結未出現。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-LIVELIHOOD-MOOD",
+      "name": "香港死亡螺旋",
+      "status": "tracking",
+      "seen": "吹水台第一頁時事台標題：「越黎越覺得香港入左死亡螺旋」。列表分數 925。同一頁另有「香港越嚟越難生存」，分數 24。沒有打開帖。",
+      "viewpoints": [
+        {
+          "label": "標題——死亡螺旋",
+          "summary": "標題覺得香港進入死亡螺旋。只是一句判斷，沒有附上數據。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "925",
+          "comparison": "上一輪同一頁這條是 -11，而家是這頁最高",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港時事用這條。分數高過追稅那條的 834。上一輪它不佔主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T05:32:00Z",
+          "read_level": "title_only",
+          "note": "吹水台第 1 頁。分數 925 是標題旁的數字。"
+        }
+      ],
+      "limits": "不能把標題寫成已核實的經濟結論。",
+      "next_steps": "有帖文網址先打開。"
+    },
+    {
+      "issue_id": "HK-BLOOMBERG-TAX-SQUAD",
+      "name": "內地追稅小組同在港內地財富",
+      "status": "tracking",
+      "seen": "吹水台第一頁時事台標題：「彭博爆料：內地富豪「人盯人」追稅小組成立，目標直指在港13.3萬億內地財富！」。列表分數 834。上一輪第一頁不見。沒有打開帖，亦沒有核對彭博原文。",
+      "viewpoints": [
+        {
+          "label": "標題——追稅小組",
+          "summary": "標題稱有追稅小組，目標指向在港的內地財富，並寫了一個萬億數字。數字未核。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "834",
+          "comparison": "11:00 那輪同一列表曾見 746；12:00 第一頁不見",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地用這條。它回到第一頁，而且分數只低過死亡螺旋。",
+      "verification": {
+        "status": "unverified",
+        "note": "萬億數字只存在於標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T05:32:00Z",
+          "read_level": "title_only",
+          "note": "同一頁。"
+        }
+      ],
+      "limits": "未讀彭博原文，不能確認小組是否成立。",
+      "next_steps": "帖內如果有原文連結，先打開再改核實狀態。"
+    },
+    {
+      "issue_id": "HK-PROPERTY-FLIP",
+      "name": "樓市短炒獲利",
+      "status": "new",
+      "seen": "吹水台第一頁有三條房屋台「短炒獲利」標題。最高一條：「短炒獲利｜上然2房598萬「零議價」沽出 持貨10個月 賺逾77萬離場」，分數 146。另外兩條分數是 45 同 -2。成交價未核。",
+      "viewpoints": [
+        {
+          "label": "標題——短炒獲利",
+          "summary": "三條標題都在講單位持有一段時間後賣出、標題寫有獲利。沒有成交紀錄。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "最高一條的列表分數",
+          "value": "146",
+          "comparison": "同頁另兩條短炒標題為 45 同 -2",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港經濟用這組。上一輪的富豪傳記標題已經不在第一頁。金錢焦慮那條分數只得 9。",
+      "verification": {
+        "status": "unverified",
+        "note": "獲利數字只是標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T05:32:00Z",
+          "read_level": "title_only",
+          "note": "同一頁。三條都標了房屋台。"
+        }
+      ],
+      "limits": "不能把標題上的萬元寫成已成交獲利。",
+      "next_steps": "有土地註冊處或原文連結先核對。"
+    },
+    {
+      "issue_id": "HK-LABOUR-MARKET",
+      "name": "張宇人言論同醫護回應",
+      "status": "cooling",
+      "seen": "兩條仍在第一頁。吹水台：「張宇人會唔會道歉？張宇人轟工會扮打電台訴苦護士搵工難」，分數 -2。時事台：「張宇人：舉高腳挺醫護輸入外勞」，分數 -292。上一輪同一題分數是 -22。",
+      "viewpoints": [
+        {
+          "label": "仍在第一頁，分數更低",
+          "summary": "官員這一類還有張宇人，所以保留，但不當今輪熱點。沒有新的原話。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "兩條列表分數",
+          "value": "-2 同 -292",
+          "comparison": "上一輪同一題列表分數 -22",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港政府官員這一頁再見到的是這兩條。分數是負數，放最後。",
+      "verification": {
+        "status": "unverified",
+        "note": "仍是標題級。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T05:32:00Z",
+          "read_level": "title_only",
+          "note": "同一頁。不記錄發帖別名。"
+        }
+      ],
+      "limits": "分數只是列表旁的數字。",
+      "next_steps": "下一輪第一頁不見就移出主位。"
+    }
+  ],
+  "early_leads": [],
+  "tracking": [
+    {
+      "issue_id": "HK-TYCOON-PLAYBOOK",
+      "name": "巴菲特同富豪學徒",
+      "kind": "cooling",
+      "text": "上一輪分數 246。今輪第一頁未見。",
+      "related_report": "2026-09-29-12"
+    },
+    {
+      "issue_id": "HK-ASIAN-GAMES-110H",
+      "name": "亞運 110 米欄奪金同打招呼",
+      "kind": "cooling",
+      "text": "上一輪分數 175。今輪第一頁未見。",
+      "related_report": "2026-09-29-12"
+    },
+    {
+      "issue_id": "HK-MONEY-ANXIETY",
+      "name": "香港人金錢焦慮",
+      "kind": "follow_up",
+      "text": "標題仍在，分數 9，低過樓市短炒，不佔經濟主位。",
+      "related_report": "2026-09-29-11"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 2,
+    "sources_ok": 1,
+    "items_collected": 30,
+    "items_read_full": 0,
+    "llm_calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_usd": 0,
+    "runtime_seconds": 90,
+    "notes": "13:00 排程未寫入本工作區，依 13:31 的吹水台第一頁補版。熱門排序失敗。"
+  }
+}

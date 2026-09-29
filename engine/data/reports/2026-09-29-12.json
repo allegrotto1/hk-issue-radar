@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-09-29T04:00:00Z",
+    "end": "2026-09-29T05:00:00Z"
+  },
+  "generated_at": "2026-09-29T04:08:00Z",
+  "summary": [
+    "第十二輪（12:00 HKT）。排程有起動，但未寫入呢個預覽，所以依 12:05 打開的吹水台第一頁補做。",
+    "熱門頁仍然空內容，沒有用。只收吹水台標題同列表分數，沒有打開個別帖，沒有帖文連結。",
+    "經濟：財經台「巴菲特、李家誠」標題，分數 246。時事：亞運 110 米欄標題，分數 175。官員：張宇人／醫護那條仍在，分數由上一輪 143 跌到 -22。內地：上一輪追稅標題已不在第一頁；這一頁沒有足夠的內地主帖，不另開卡。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台第 1 頁",
+        "platform": "連登",
+        "items": 30,
+        "note": "12:05 HKT 前後讀到標題同分數字，沒有 thread id"
+      }
+    ],
+    "failed": [
+      {
+        "name": "連登熱門",
+        "reason": "公開頁沒有讀到帖文列表。見到就停，沒有用 API，沒有估分。"
+      }
+    ],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "熱門版今輪失敗。",
+      "內地這一類今頁沒有可入卡的主帖。",
+      "個別帖連結未出現。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-TYCOON-PLAYBOOK",
+      "name": "巴菲特同富豪學徒",
+      "status": "new",
+      "seen": "吹水台第一頁財經台標題：「市面咁多巴菲特 李家誠傳 點解唔買黎好好學做富豪」。列表分數 246。沒有打開帖，不知道在討論邊一本傳記或邊位商人。",
+      "viewpoints": [
+        {
+          "label": "標題——學富豪",
+          "summary": "問點解不去讀巴菲特和標題所寫的傳記來學做富豪。只是一條問句，沒有投資建議，也沒有核實銷量。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "246",
+          "comparison": "今頁四類裡最高",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港經濟用呢條。上一輪的金錢焦慮標題已經不在第一頁，這條分數更高，而且標了財經台。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。人名按標題原文，沒有改。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T04:06:00Z",
+          "read_level": "title_only",
+          "note": "吹水台第 1 頁。分數 246 是標題旁的數字。"
+        }
+      ],
+      "limits": "未讀內文，不能講有邊個建議買邊本書。",
+      "next_steps": "有帖文網址先打開，先至寫具體書名或人物。"
+    },
+    {
+      "issue_id": "HK-ASIAN-GAMES-110H",
+      "name": "亞運 110 米欄奪金同打招呼",
+      "status": "new",
+      "seen": "吹水台第一頁時事台標題：「亞運 110米欄陳圓將奪金：對日選手打招呼遭無視 我真有一點憤怒」。列表分數 175。沒有打開帖，也沒有核對賽果。",
+      "viewpoints": [
+        {
+          "label": "標題——奪金之後的打招呼",
+          "summary": "標題稱陳圓將奪金，並寫對日本選手打招呼被無視、感到憤怒。賽果和經過都未核。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "175",
+          "comparison": "低過財經那條的 246，高過官員帖",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港時事用呢條，因為分數高過仍在頁上的「難生存」標題（37）。上一輪沒有這張卡。",
+      "verification": {
+        "status": "unverified",
+        "note": "賽果未對官方成績。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T04:06:00Z",
+          "read_level": "title_only",
+          "note": "同一頁。"
+        }
+      ],
+      "limits": "不能把標題寫成已確認的比賽結果。",
+      "next_steps": "帖內如果有官方成績連結，先打開再改核實狀態。"
+    },
+    {
+      "issue_id": "HK-LABOUR-MARKET",
+      "name": "張宇人言論同醫護回應",
+      "status": "cooling",
+      "seen": "同一條標題仍在吹水台第一頁：「遭張宇人質疑工會打手 當事醫護現身反擊」。列表分數而家是 -22。上一輪同一頁顯示 143。",
+      "viewpoints": [
+        {
+          "label": "仍在第一頁，但分數轉負",
+          "summary": "官員這一類還有這條，所以保留，但不當今輪熱點。沒有新的原話。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "-22",
+          "comparison": "上一輪同一列表為 143",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港政府官員這一頁只再見到這條。分數明顯跌，放最後。",
+      "verification": {
+        "status": "unverified",
+        "note": "仍是標題級。分數變化只比較兩次列表。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T04:06:00Z",
+          "read_level": "title_only",
+          "note": "同一頁。不記錄發帖別名。"
+        }
+      ],
+      "limits": "兩次分數都不是打開帖後的淨讚，只是列表旁的數字。",
+      "next_steps": "若下一輪第一頁不見，就移出主位。"
+    }
+  ],
+  "early_leads": [],
+  "tracking": [
+    {
+      "issue_id": "HK-BLOOMBERG-TAX-SQUAD",
+      "name": "內地追稅小組同在港內地財富",
+      "kind": "cooling",
+      "text": "上一輪吹水台第一頁分數 746。今輪第一頁已不見，內地這一類不另開新卡。",
+      "related_report": "2026-09-29-11"
+    },
+    {
+      "issue_id": "HK-LIVELIHOOD-MOOD",
+      "name": "香港難生存、死亡螺旋",
+      "kind": "follow_up",
+      "text": "兩條仍在第一頁，分數分別是 37 同 -11（上一輪 -29 同 23）。低過亞運那條，不佔時事主位。",
+      "related_report": "2026-09-29-11"
+    },
+    {
+      "issue_id": "HK-MONEY-ANXIETY",
+      "name": "香港人金錢焦慮",
+      "kind": "cooling",
+      "text": "今輪第一頁未見，由財經台富豪傳記那條取代。",
+      "related_report": "2026-09-29-11"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 2,
+    "sources_ok": 1,
+    "items_collected": 30,
+    "items_read_full": 0,
+    "llm_calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_usd": 0,
+    "runtime_seconds": 120,
+    "notes": "12:00 排程未寫入本預覽，依當刻吹水台補版。熱門失敗。內地主帖不足，沒有硬填。"
+  }
+}

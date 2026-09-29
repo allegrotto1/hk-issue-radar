@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-09-29T03:00:00Z",
+    "end": "2026-09-29T04:00:00Z"
+  },
+  "generated_at": "2026-09-29T03:35:00Z",
+  "summary": [
+    "第十一輪改為只讀連登吹水台同熱門。熱門頁打不開（空內容），所以全部來自吹水台第 1 頁的標題同分數，沒有打開個別帖，亦沒有用報章填卡。",
+    "四類都有標題：內地（追稅小組，版面顯示 746）、香港政府官員（張宇人／醫護回應，143）、香港時事（「越嚟越難生存」「死亡螺旋」）、香港經濟（金錢焦慮，57）。",
+    "分數是列表旁邊見到的數字，不是打開帖之後的淨讚。沒有帖文永久連結，所以只核到「呢個標題當時在吹水台第一頁」。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台第 1 頁",
+        "platform": "連登",
+        "items": 30,
+        "note": "只讀到標題、所屬台、相對時間同分數字；沒有 thread id"
+      }
+    ],
+    "failed": [
+      {
+        "name": "連登熱門",
+        "reason": "公開頁沒有讀到帖文列表（空內容）。見到就停，沒有改用 API，亦沒有估分。"
+      }
+    ],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "熱門版今輪失敗，不能同吹水台對照。",
+      "個別帖連結未出現，不能引用回覆。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-BLOOMBERG-TAX-SQUAD",
+      "name": "內地追稅小組同在港內地財富",
+      "status": "tracking",
+      "seen": "吹水台第一頁有一條時事台標題：「彭博爆料：內地富豪『人盯人』追稅小組成立，目標直指在港13.3萬億內地財富」。旁邊分數顯示 746，相對時間「1 分鐘前」。13.3 萬億是標題原文，沒有打開帖核對內文。",
+      "viewpoints": [
+        {
+          "label": "吹水台標題——追稅打到在港財富",
+          "summary": "標題把內地追稅小組同在港內地財富連在一起。只見標題，未知帖內是否附報道連結或只是轉述。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "746",
+          "comparison": "今輪四類標題裡最高；熱門版未讀到",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地這一類以呢條為準，因為吹水台第一頁上它的分數最高。根據是列表排序同分數，不是報章。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。沒有帖文網址，沒有讀內文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T03:32:00Z",
+          "read_level": "title_only",
+          "note": "吹水台第 1 頁。分數 746 是標題旁顯示的數字。"
+        }
+      ],
+      "limits": "未讀帖內。不能把標題裡的 13.3 萬億當成已核實數字。",
+      "next_steps": "下一輪若讀到帖文連結，先打開再決定升不升做已核實。"
+    },
+    {
+      "issue_id": "HK-LABOUR-MARKET",
+      "name": "張宇人言論同醫護回應",
+      "status": "shift",
+      "seen": "吹水台第一頁時事台標題：「遭張宇人質疑工會打手 當事醫護現身反擊：感非常侮辱 批有權貴『不當勞工是人』強調『愛國愛港深藍深紅』 否認隸屬任何工會」。旁邊分數 143，「1 分鐘前」。這是官員這一類，不再把整張勞動卡攤開。",
+      "viewpoints": [
+        {
+          "label": "標題所述——官員質疑，當事醫護否認",
+          "summary": "標題寫張宇人質疑對方是工會打手，當事醫護反擊並否認屬任何工會。沒有讀到雙方原文。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "143",
+          "comparison": "低過追稅標題的 746，高過下面兩類",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港政府官員這一類用呢條。上一期勞動卡太闊，今輪收窄到列表上實際出現的官員帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題，未核對訪問或醫護回應原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T03:32:00Z",
+          "read_level": "title_only",
+          "note": "同一頁。不記錄發帖別名。"
+        }
+      ],
+      "limits": "未打開帖，不知道有沒有附新聞連結。",
+      "next_steps": "有帖文網址先補官員原話同醫護回應。"
+    },
+    {
+      "issue_id": "HK-LIVELIHOOD-MOOD",
+      "name": "香港難生存、死亡螺旋",
+      "status": "new",
+      "seen": "吹水台第一頁兩條時事台標題同時在：「香港越嚟越難生存」（分數 -29，剛剛）同「越黎越覺得香港入左死亡螺旋」（分數 23，3 分鐘前）。當香港時事，不另開民生大卡。",
+      "viewpoints": [
+        {
+          "label": "兩條標題——城市前景負面",
+          "summary": "兩條都是感覺判斷，不是新公布的統計。一條分數為負，一條為正，不能說成一面倒。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "兩條列表分數",
+          "value": "-29 同 23",
+          "comparison": "都低過追稅同官員那兩條",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港時事這一類，今頁沒有更具體的突發公共事件標題壓過這組情緒帖，所以用這兩條，並寫明分數不高。",
+      "verification": {
+        "status": "unverified",
+        "note": "標題級。沒有數據支撑「死亡螺旋」。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T03:32:00Z",
+          "read_level": "title_only",
+          "note": "兩條標題同頁。"
+        }
+      ],
+      "limits": "情緒標題，不能當成經濟統計。",
+      "next_steps": "若之後帖內引用具體失業率或離港數字，先打開再入數據表。"
+    },
+    {
+      "issue_id": "HK-MONEY-ANXIETY",
+      "name": "香港人金錢焦慮",
+      "status": "new",
+      "seen": "吹水台第一頁時事台標題：「其實金錢焦慮 全球係咪香港人最嚴重？」，分數 57，「1 分鐘前」。當香港經濟這一類。沒有讀到比較數據。",
+      "viewpoints": [
+        {
+          "label": "標題是一條問句",
+          "summary": "問香港人的金錢焦慮是不是全球最嚴重。列表上沒有答案，不把它答成事實。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "57",
+          "comparison": "四類裡最低的一張主卡",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港經濟這一類，今頁最貼的是這條，而不是單一商戶加價。分數普通，所以排最後。",
+      "verification": {
+        "status": "unverified",
+        "note": "問句標題。沒有全球比較。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T03:32:00Z",
+          "read_level": "title_only",
+          "note": "同一頁。"
+        }
+      ],
+      "limits": "不能回答「是不是全球最嚴重」。",
+      "next_steps": "有帖內數據或第二條經濟帖先再寫。"
+    }
+  ],
+  "early_leads": [],
+  "tracking": [
+    {
+      "issue_id": "HK-WANGFUK-ACCOUNTABILITY",
+      "name": "大埔宏福苑問責與賠償",
+      "kind": "cooling",
+      "text": "今輪只看吹水台第一頁，未見這題，不佔主位。",
+      "related_report": "2026-09-29-10"
+    },
+    {
+      "issue_id": "HK-HOUSING-RENT",
+      "name": "住宅租金、長策與白表",
+      "kind": "cooling",
+      "text": "今頁未見租金或白表主標題，不重複。",
+      "related_report": "2026-09-29-10"
+    },
+    {
+      "issue_id": "HK-NATIONAL-DAY-FIREWORKS",
+      "name": "國慶煙花封路",
+      "kind": "cooling",
+      "text": "早前用報章寫過。今輪改為只看吹水台／熱門，這一頁未見煙花標題，撤出主位。",
+      "related_report": "2026-09-29-11"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 2,
+    "sources_ok": 1,
+    "items_collected": 30,
+    "items_read_full": 0,
+    "llm_calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_usd": 0,
+    "runtime_seconds": 180,
+    "notes": "只收吹水台同熱門。熱門失敗。四類都用吹水台標題，沒有用新聞補。"
+  }
+}

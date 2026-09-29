@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-09-29T06:00:00Z",
+    "end": "2026-09-29T07:00:00Z"
+  },
+  "generated_at": "2026-09-29T06:10:00Z",
+  "summary": [
+    "第十四輪（14:00 HKT）。14:03 的自動排程有跑完，但沒有把檔案推上網站，所以這版是補上的。",
+    "熱門排序頁仍然是空的。吹水台第一頁頭段同 13:00 一樣：死亡螺旋 925、追稅小組 834、張宇人道歉那條 -2。",
+    "「肥豪女朋友過咗身」之後少了一條標題，後面的分數對不齊上一輪，那些數字這輪不引用。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台第 1 頁",
+        "platform": "連登",
+        "items": 24,
+        "note": "14:08 HKT。只採用與 13:00 對得上的頭段分數。沒有 thread id。"
+      }
+    ],
+    "failed": [
+      {
+        "name": "連登吹水台熱門排序",
+        "reason": "https://lihkg.com/category/1?order=hot 沒有讀到帖文列表。"
+      }
+    ],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "今輪仍未能確認列表是熱門排序。",
+      "頁面後段分數不可用。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-LIVELIHOOD-MOOD",
+      "name": "香港死亡螺旋",
+      "status": "tracking",
+      "seen": "吹水台第一頁時事台標題仍是「越黎越覺得香港入左死亡螺旋」。列表分數仍是 925，與 13:00 相同。沒有打開帖。",
+      "viewpoints": [
+        {
+          "label": "標題未變",
+          "summary": "仍是一句判斷，沒有新的數據。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "925",
+          "comparison": "與 13:00 相同",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港時事。這一頁最高、而且分數對得上的仍是這條。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T06:08:00Z",
+          "read_level": "title_only",
+          "note": "吹水台第 1 頁頭段。"
+        }
+      ],
+      "limits": "不能寫成已核實的經濟結論。",
+      "next_steps": "有帖文網址先打開。"
+    },
+    {
+      "issue_id": "HK-BLOOMBERG-TAX-SQUAD",
+      "name": "內地追稅小組同在港內地財富",
+      "status": "tracking",
+      "seen": "標題仍在第一頁：「彭博爆料：內地富豪「人盯人」追稅小組成立，目標直指在港13.3萬億內地財富！」。分數仍是 834。沒有核對彭博原文。",
+      "viewpoints": [
+        {
+          "label": "標題未變",
+          "summary": "萬億數字仍只在標題裡。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "吹水台列表分數",
+          "value": "834",
+          "comparison": "與 13:00 相同",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地。頭段第二高，而且對得上。",
+      "verification": {
+        "status": "unverified",
+        "note": "未讀彭博原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T06:08:00Z",
+          "read_level": "title_only",
+          "note": "同一頁頭段。"
+        }
+      ],
+      "limits": "不能確認追稅小組是否成立。",
+      "next_steps": "帖內有原文連結先打開。"
+    },
+    {
+      "issue_id": "HK-PROPERTY-FLIP",
+      "name": "樓市短炒獲利",
+      "status": "tracking",
+      "seen": "房屋台「短炒獲利｜上車客斥409萬購大埔上然1房」仍在，分數 45，與 13:00 相同。另外兩條短炒標題還在頁上，但落在分數對不齊的後段，這輪不引用它們的數字。",
+      "viewpoints": [
+        {
+          "label": "只有一條分數可靠",
+          "summary": "可靠的仍是持貨一年、標題寫獲利的那條。成交未核。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "可靠的列表分數",
+          "value": "45",
+          "comparison": "與 13:00 這條相同；上一輪的 146 這輪未能覆核",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港經濟。支付寶消費券那條分數 157 更高，但是飲食台的派券標題，不當樓市。",
+      "verification": {
+        "status": "unverified",
+        "note": "獲利數字只是標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T06:08:00Z",
+          "read_level": "title_only",
+          "note": "同一頁頭段。"
+        }
+      ],
+      "limits": "不能把標題上的萬元寫成已成交。",
+      "next_steps": "後段分數對齊之後先覆核另外兩條。"
+    },
+    {
+      "issue_id": "HK-LABOUR-MARKET",
+      "name": "張宇人言論同醫護回應",
+      "status": "cooling",
+      "seen": "吹水台「張宇人會唔會道歉？」仍在，分數 -2，與 13:00 相同。另一條「舉高腳」標題還在，但落在分數對不齊的後段，這輪不引用新數字。",
+      "viewpoints": [
+        {
+          "label": "仍在，不是熱點",
+          "summary": "官員這一頁對得上的仍是這條負分標題。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "-2",
+          "comparison": "與 13:00 這條相同",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港政府官員。負分，放最後。",
+      "verification": {
+        "status": "unverified",
+        "note": "標題級。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-09-29T06:08:00Z",
+          "read_level": "title_only",
+          "note": "同一頁頭段。不記錄發帖別名。"
+        }
+      ],
+      "limits": "分數只是列表旁的數字。",
+      "next_steps": "下一輪不見就移出主位。"
+    }
+  ],
+  "early_leads": [],
+  "tracking": [
+    {
+      "issue_id": "HK-ALIPAY-VOUCHER",
+      "name": "支付寶現金消費券",
+      "kind": "follow_up",
+      "text": "飲食台標題仍在，分數 157，與 13:00 相同。不是樓市，不佔經濟主位。",
+      "related_report": "2026-09-29-14"
+    },
+    {
+      "issue_id": "HK-TYCOON-PLAYBOOK",
+      "name": "巴菲特同富豪學徒",
+      "kind": "cooling",
+      "text": "今輪頭段未見。",
+      "related_report": "2026-09-29-12"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 2,
+    "sources_ok": 1,
+    "items_collected": 24,
+    "items_read_full": 0,
+    "llm_calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_usd": 0,
+    "runtime_seconds": 40,
+    "notes": "14:00 排程未推上網站。依 14:08 頭段補版。Threads 另有 14:08 快照。"
+  }
+}

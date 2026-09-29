@@ -1,0 +1,832 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-09-29T02:00:00Z",
+    "end": "2026-09-29T03:00:00Z"
+  },
+  "generated_at": "2026-09-29T02:09:54Z",
+  "summary": [
+    "第八輪報告（10:00 HKT／9月29日）：相對 09:00，連登再以 3 分區各讀第 1–2 頁（259 列／約 101 個不重複帖 URL）並打開 8 個帖首頁；source_failure 仍為 null。熱門 page=2 與 page=1 同清單（分數輕微漂移）；時事台 page=2 同 60 條但頂部插入剛更新帖；吹水台 page=2 為洗牌即時清單。",
+    "勞動卡維持觀點變化：官方 09:55 發出《政府就本港護士人力規劃及就業情況作出說明》（GIA 全文）——相對 09:00 最大官方升級（醫管局約 3,200 空缺、完成評核約 99% 獲聘、非本地培訓於醫管局約 50 人／不足 0.2%）。連登「外勞炒走客」約 +778（09:00 約 +733）；張宇人廚房帖約 −124；盧寵茂「畢業即失業」帖約 −210；新開「死亡螺旋」帖約 +34。護協譴責新聞仍流通，未見點名回應該譴責之另稿。",
+    "宏福苑觀點變化延續：特設銷售今起揀樓新聞線仍在（文匯報等），惟連登頭兩頁未再見到 09:00 的「點解要賠錢／還款寬限」帖；本輪改打開黃碧嬌「落水太深／引退」轉載帖（約 −71），移居深圳傳聞帖仍在列表（約 −195）未打開——屬未核實傳聞。",
+    "房屋持續追蹤：白表／長者樓換樓補文匯報與 news.gov.hk 出口；連登租金指數轉載約 +2。國安小火龍約 −156，無 9/29 新官方稿，維持降溫。彭博追稅約 +126 仍單一論壇不升格。北上／樓價後市維持早期線索（TVB 今早樂觀評論旁觀）。",
+    "Facebook 未覆蓋；連登 = 3 分區 pages 1–2 + ≤8 帖第 1 頁；Threads 只限搜尋索引；影片未觀看。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登公開分區（熱門、時事台、吹水台）列表第 1–2 頁及 8 個帖首頁，瀏覽器低量讀取",
+        "platform": "LIHKG",
+        "items": 259,
+        "note": "10:00 HKT 前後唯讀、未登入；source_failure=null；259 列表列／約 101 個不重複帖 URL；另打開 8 個帖讀第 1 頁；淨評分為列表／頁面淨分數；熱門 page=2≈page=1；時事台 page=2 同集有序差；吹水台 page=2 洗牌"
+      },
+      {
+        "name": "搜尋引擎收錄的公開 Threads 帖文",
+        "platform": "Threads",
+        "items": 12,
+        "note": "只讀搜尋摘要；直接讀取為 JS 殼；屬延遲發現"
+      },
+      {
+        "name": "搜尋引擎收錄的連登帖文標題／摘要",
+        "platform": "LIHKG",
+        "items": 5,
+        "note": "多數只有標題；發布時間大多不詳或偏舊，屬延遲發現；與瀏覽器板面分開計"
+      },
+      {
+        "name": "公開新聞網站與政府新聞公報",
+        "platform": "新聞",
+        "items": 32,
+        "note": "含護士人力規劃 GIA 09:55 說明、華人發展論壇致辭、宏福苑揀樓／還款寬限延續、白表文匯／news.gov.hk、TVB 消費樓市評論、啟德醫院、黃金周／皇崗等"
+      }
+    ],
+    "failed": [
+      {
+        "name": "Threads 帖文直接讀取",
+        "reason": "未登入時只返回 JavaScript 頁面框架，無帖文內容；本輪只靠搜尋引擎摘要"
+      },
+      {
+        "name": "連登公開 JSON API",
+        "reason": "本輪按既定流程不繞過；改用瀏覽器讀公開分區／帖頁"
+      },
+      {
+        "name": "獨立媒體 inmediahk.net 護協稿全文",
+        "reason": "歷來 Cloudflare 攔截風險；搜尋可見標題，未讀正文"
+      },
+      {
+        "name": "信報專訪頁全文",
+        "reason": "僅得摘要／可能付費牆，未全文"
+      },
+      {
+        "name": "觀察窗口內新發社交帖即時收錄（搜尋引擎）",
+        "reason": "索引有延遲；搜尋所見社交帖大多日期不詳或早於窗口"
+      },
+      {
+        "name": "宏福苑揀樓首日中午前即時進度新稿",
+        "reason": "本輪未穩見「進行中／完成戶數」即時新聞；仍以今早「今起揀樓」報道為主"
+      }
+    ],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "連登只覆蓋 3 個分區（熱門、時事台、吹水台）各第 1–2 頁；熱門 ?page=2 在 SPA 下與第 1 頁相同；時事台／吹水台第 2 頁為即時清單變體；最多打開 8 個帖的第 1 頁，未讀全部回應。",
+      "Threads 未接入官方 API，只限搜尋引擎已收錄帖文；直接讀取為 JS 殼。",
+      "影片／部分主帖圖片未觀看或未細看。",
+      "Instagram／YouTube／小紅書／其他論壇未覆蓋（北上「意欲下降」小紅書原文未讀）。",
+      "搜尋引擎收錄有延遲：窗口內新帖大多未被收錄；列表所示相對時間很可能是最後回應時間，不是發帖時間。",
+      "僅有少數可比小時，「降溫／觀點變化」只反映本輪列表／樣本變化，不作香港整體民意斷言。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-LABOUR-MARKET",
+      "name": "失業率回升與「人手短缺／輸入外勞」的爭議",
+      "status": "shift",
+      "seen": [
+        "官方觀點變化：相對 09:00，政府於 09:55 HKT 發出《政府就本港護士人力規劃及就業情況作出說明》（GIA 全文）——重申醫管局約 3,200 護士空缺、流失率由 10.9% 降至 5.4%；2025 年潛在畢業生約 4,000、應徵醫管局約 2,500；完成評核的註冊護士申請人約 99% 獲聘；醫管局任職非本地培訓註冊護士約 50 人、佔不足 0.2%；強調本地優先。屬護協／張宇人／盧寵茂爭議後的正式書面說明；未見另稿點名回應護協譴責。",
+        "連登本輪打開：①「外勞炒走自己的客」約 +778（09:00 約 +733；列表約 +776）——首頁多連北上／短視僱主，亦有反對。②張宇人「廚房唔夠人／外勞」約 −124。③盧寵茂「畢業即失業說法不實」約 −210（分數近乎持平）。④新開「死亡螺旋」帖約 +34——外勞／專才／消費／樓市連鎖論，屬論壇意見。護協譴責新聞（HK01／Dimsum 等）仍索引。啟德醫院 10/5 開院續作旁觀。"
+      ],
+      "viewpoints": [
+        {
+          "label": "官方書面說明：短缺仍在、本地優先、非本地佔比極低——本輪新",
+          "summary": "GIA 以數據回應「畢業即失業／搶飯碗」討論；數字為政府口徑。",
+          "evidence_ids": [
+            "N1",
+            "N4"
+          ]
+        },
+        {
+          "label": "外勞會削弱本地消費循環（對象：餐飲／零售僱主策略）",
+          "summary": "論點帖淨評分相對 09:00 再微升；亦見「死亡螺旋」新帖延伸至專才／AI。只反映單一帖／樣本。",
+          "evidence_ids": [
+            "S1",
+            "S4"
+          ]
+        },
+        {
+          "label": "質疑「廚房人手不足故要輸入外勞／新菜式」說法",
+          "summary": "首頁多指預製菜與租金；屬論壇意見。",
+          "evidence_ids": [
+            "S2"
+          ]
+        },
+        {
+          "label": "質疑「畢業即失業說法不實」——論壇延續 vs 官方書面",
+          "summary": "論壇帖分數持平約 −210；官方同日書面說明重申高獲聘率。",
+          "evidence_ids": [
+            "S3",
+            "N1"
+          ]
+        },
+        {
+          "label": "工會／護協譴責張宇人說法——新聞轉述（延續）",
+          "summary": "護協／診協促收回言論；本輪仍無點名回應該譴責之另稿。",
+          "evidence_ids": [
+            "N2",
+            "N3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "醫管局護士空缺（政府 9/29 說明）",
+          "value": "約 3,200",
+          "comparison": "流失率由高峰 10.9% 降至 5.4%；十年間護士人數約 +5,500（+23%）",
+          "evidence_ids": [
+            "N1"
+          ]
+        },
+        {
+          "metric": "註冊護士申請人獲聘比例（政府 9/29 說明）",
+          "value": "完成面試／評核者約 99% 獲聘",
+          "comparison": "2025 潛在畢業生約 4,000，應徵醫管局約 2,500（約 60%）",
+          "evidence_ids": [
+            "N1"
+          ]
+        },
+        {
+          "metric": "醫管局非本地培訓註冊護士（政府 9/29 說明）",
+          "value": "約 50 人，佔醫管局護士不足 0.2%",
+          "comparison": "有限度／特別註冊非本地註冊護士佔整體不足 0.5%",
+          "evidence_ids": [
+            "N1"
+          ]
+        },
+        {
+          "metric": "經季節性調整失業率（基線）",
+          "value": "3.8%（2026 年 6–8 月）",
+          "comparison": "5–7 月為 3.7%",
+          "evidence_ids": [
+            "N5"
+          ]
+        },
+        {
+          "metric": "連登列表／帖頁淨評分（單一淨分數）",
+          "value": "「炒走客」約 +778；廚房外勞約 −124；盧寵茂帖約 −210；「死亡螺旋」約 +34",
+          "comparison": "09:00「炒走客」約 +733、廚房約 −120、盧寵茂約 −210；不作整體升溫斷言"
+        }
+      ],
+      "why": "相對 09:00，政府發出護士人力正式書面說明，屬官方口徑明顯升級；論壇外勞削消費線分數再微升並出現「死亡螺旋」新帖，故維持觀點變化。",
+      "verification": {
+        "status": "partially_verified",
+        "note": "護士人力書面說明與失業基線經 GIA 核實；護協譴責經新聞轉述；連登只讀列表及帖首頁；Threads 數字未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "S1",
+          "url": "https://lihkg.com/thread/4161806/page/1",
+          "platform": "連登（LIHKG）",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "partial",
+          "note": "瀏覽器讀取首頁。帖頁淨評分約 +778。"
+        },
+        {
+          "evidence_id": "S2",
+          "url": "https://lihkg.com/thread/4161735/page/1",
+          "platform": "連登（LIHKG）",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "partial",
+          "note": "瀏覽器讀取首頁。淨評分約 −124。"
+        },
+        {
+          "evidence_id": "S3",
+          "url": "https://lihkg.com/thread/4161359/page/1",
+          "platform": "連登（LIHKG）",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "partial",
+          "note": "瀏覽器讀取首頁。淨評分約 −210。"
+        },
+        {
+          "evidence_id": "S4",
+          "url": "https://lihkg.com/thread/4161954/page/1",
+          "platform": "連登（LIHKG）",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "partial",
+          "note": "本輪新打開「死亡螺旋」帖。淨評分約 +34。"
+        },
+        {
+          "evidence_id": "S5",
+          "url": "https://www.threads.com/@hklabourrights/post/Dc4hIVYkv62",
+          "platform": "Threads",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "snippet",
+          "note": "只讀搜尋摘要。延遲發現；餐飲空缺率爭議數字未獨立核實。"
+        },
+        {
+          "evidence_id": "N1",
+          "url": "https://www.info.gov.hk/gia/general/202609/29/P2026092800860.htm",
+          "platform": "新聞背景：政府新聞公報",
+          "published_at": "2026-09-29T01:55:00Z",
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "標香港時間 9 時 55 分；護士人力規劃及就業情況說明。09:00 未收。"
+        },
+        {
+          "evidence_id": "N2",
+          "url": "https://www.hk01.com/%E6%94%BF%E6%83%85/60394579/%E5%BC%B5%E5%AE%87%E4%BA%BA%E8%BD%9F%E5%B7%A5%E6%9C%83%E6%89%AE%E6%89%93%E9%9B%BB%E5%8F%B0%E8%A8%B4%E8%8B%A6%E8%AD%B7%E5%A3%AB%E6%90%B5%E5%B7%A5%E9%9B%A3-%E8%AD%B7%E5%8D%94%E4%B8%8D%E6%BB%BF-%E8%A8%BA%E5%8D%94%E8%AD%B4%E8%B2%AC%E7%84%A1%E8%83%B8%E8%A5%9F",
+          "platform": "新聞背景：香港01",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "snippet",
+          "note": "護協／診協譴責；本輪搜尋仍見。"
+        },
+        {
+          "evidence_id": "N3",
+          "url": "https://www.dimsumdaily.hk/tommy-cheung-says-unions-may-stage-nurse-job-calls/",
+          "platform": "新聞背景：Dimsum Daily",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "英文晚間出口延續。"
+        },
+        {
+          "evidence_id": "N4",
+          "url": "https://www.info.gov.hk/gia/general/202609/27/P2026092700277.htm",
+          "platform": "新聞背景：政府新聞公報",
+          "published_at": "2026-09-27T04:03:00Z",
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "盧寵茂 9/27 會見；今日書面說明為延續。"
+        },
+        {
+          "evidence_id": "N5",
+          "url": "https://www.info.gov.hk/gia/general/202609/17/P2026091700341.htm",
+          "platform": "新聞背景：政府新聞公報",
+          "published_at": "2026-09-17T08:30:00Z",
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "6–8 月失業及就業不足統計。"
+        },
+        {
+          "evidence_id": "N6",
+          "url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800610.htm",
+          "platform": "新聞背景：政府新聞公報（代醫管局）",
+          "published_at": "2026-09-28T12:22:00Z",
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "啟德醫院 10/5 分階段投入；旁觀。"
+        }
+      ],
+      "limits": "書面說明非點名回護協；連登分數變化不作民意比例。啟德醫院與護士爭議無直接因果證據。",
+      "next_steps": "若工會／護協回應今日 GIA 說明，或「外勞削消費」跨平台重複，再更新核實狀態與表述比重。"
+    },
+    {
+      "issue_id": "HK-WANGFUK-ACCOUNTABILITY",
+      "name": "大埔宏福苑火災：問責、賠償與獨立委員會報告進度",
+      "status": "shift",
+      "seen": [
+        "新聞線延續：特設銷售計劃今日（9/29）起揀樓（文匯報等：首日約 35 戶）；還款寬限至 2027 年 5 月底仍在。本輪未見中午前「揀樓進度／完成戶數」即時新稿。獨立委員會報告期限仍為預計十月底前。",
+        "連登觀點變化：相對 09:00，頭兩頁未再見到「點解要賠錢」（當時約 +116）與還款寬限轉載帖；本輪改打開黃碧嬌「落水太深／引退」轉載帖（約 −71）——首頁多質疑授權票／切割時機；「據悉移居深圳」帖仍在列表（約 −195）未打開，屬未核實傳聞。Threads 收購「水分」短片仍延遲索引。"
+      ],
+      "viewpoints": [
+        {
+          "label": "官方重置／特設銷售今起揀樓——政策進度（延續）",
+          "summary": "首日約 35 戶；兩個月陸續揀樓。屬安置進度，非問責結論。",
+          "evidence_ids": [
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "label": "紓困措施延續——官方／銀行安排",
+          "summary": "28 間零售銀行還款寬限至 2027 年 5 月底。",
+          "evidence_ids": [
+            "N3",
+            "N4"
+          ]
+        },
+        {
+          "label": "黃碧嬌引退／授權票爭議——論壇轉載（本輪打開）",
+          "summary": "轉述新聞指健康理由辭職等；首頁多質疑。移居傳聞未打開核實。本報不作事實。",
+          "evidence_ids": [
+            "S1"
+          ]
+        },
+        {
+          "label": "收購意願「水分」——Threads 未核實",
+          "summary": "搜尋摘要轉述；影片未觀看。",
+          "evidence_ids": [
+            "S2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "特設銷售計劃揀樓（新聞報道）",
+          "value": "2026-09-29 起；首日約 35 戶；其後約兩個月陸續揀樓",
+          "comparison": "本輪未見中午前完成戶數更新",
+          "evidence_ids": [
+            "N1"
+          ]
+        },
+        {
+          "metric": "還款寬限期（金管局／銀行公會）",
+          "value": "再延六個月至 2027 年 5 月底",
+          "comparison": "涵蓋 28 間零售銀行",
+          "evidence_ids": [
+            "N3",
+            "N4"
+          ]
+        },
+        {
+          "metric": "報告提交期限（政府公報）",
+          "value": "預計十月底前",
+          "comparison": "原目標為委員會運作起 9 個月內",
+          "evidence_ids": [
+            "N5"
+          ]
+        },
+        {
+          "metric": "連登列表淨評分（單一淨分數）",
+          "value": "黃碧嬌「落水太深」帖約 −71（本輪打開）；移居深圳傳聞帖約 −195（未打開）",
+          "comparison": "09:00「點解要賠錢」約 +116、還款寬限約 0——本輪頭兩頁未再見到"
+        }
+      ],
+      "why": "官方揀樓日仍在進行中，但論壇可見焦點由賠償／還款寬限轉為黃碧嬌引退轉載，故維持觀點變化。",
+      "verification": {
+        "status": "partially_verified",
+        "note": "揀樓啟動與還款寬限經新聞／金管局核實；黃碧嬌相關僅論壇轉載＋未核實傳聞；Threads 影片未看。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "S1",
+          "url": "https://lihkg.com/thread/4161637/page/1",
+          "platform": "連登（LIHKG）",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "partial",
+          "note": "本輪瀏覽器打開首頁；圖片未逐張細看。淨評分約 −71。"
+        },
+        {
+          "evidence_id": "S2",
+          "url": "https://www.threads.com/@samilivehk/post/Dcy9jLfmnN6",
+          "platform": "Threads",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "snippet",
+          "note": "只讀搜尋摘要。延遲發現；影片未觀看。"
+        },
+        {
+          "evidence_id": "N1",
+          "url": "https://www.wenweipo.com/a/202609/29/AP6abad2cbe4b01d54a2852ea3.html",
+          "platform": "新聞背景：香港文匯報",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "特設銷售今起揀樓；本輪再核。"
+        },
+        {
+          "evidence_id": "N2",
+          "url": "http://www.hkcd.com.hk/hkcdweb/content/2026/09/28/content_8777501.html",
+          "platform": "新聞背景：香港商報",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "何永賢預告首批 35 戶。"
+        },
+        {
+          "evidence_id": "N3",
+          "url": "https://www.hkma.gov.hk/chi/news-and-media/press-releases/2026/09/20260928-5/",
+          "platform": "新聞背景：香港金融管理局",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "還款寬限原文。"
+        },
+        {
+          "evidence_id": "N4",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1871879-20260928.htm",
+          "platform": "新聞背景：香港電台 RTHK",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "還款寬限第二出口。"
+        },
+        {
+          "evidence_id": "N5",
+          "url": "https://www.info.gov.hk/gia/general/202608/18/P2026081800217.htm",
+          "platform": "新聞背景：政府新聞公報",
+          "published_at": "2026-08-18T04:10:00Z",
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "獨立委員會報告期限基線。"
+        }
+      ],
+      "limits": "論壇對個別人物的質疑未核實；移居傳聞未打開；揀樓即時進度缺稿。議題敏感，只作摘要。",
+      "next_steps": "留意揀樓進度報道與 10 月底報告；若有拘捕／起訴或獨立新聞確認人事去向再更新。"
+    },
+    {
+      "issue_id": "HK-HOUSING-RENT",
+      "name": "住宅租金創新高、長策進度與資助房屋新措施",
+      "status": "tracking",
+      "seen": [
+        "新聞延續：長策進度與白表出租／長者樓換樓本輪補文匯報白表稿與 news.gov.hk 出口；差估署 8 月租金指數 210.3、售價 320.5 基線仍在。",
+        "連登：吹水台見差估署租金指數轉載帖約 +2，討論極薄。Threads 劏房／樓價延遲摘要仍在。無新房屋辯論主帖，故持續追蹤。"
+      ],
+      "viewpoints": [
+        {
+          "label": "租金再破頂——市場數據（新聞轉述差估署）",
+          "summary": "8 月租金指數創新高；多源新聞數字一致。",
+          "evidence_ids": [
+            "N1"
+          ]
+        },
+        {
+          "label": "官方房屋供應與流轉措施——政策背景",
+          "summary": "長策進度報告；白表出租名額 3,000／樓換樓申請進行中。",
+          "evidence_ids": [
+            "N2",
+            "N3",
+            "N4"
+          ]
+        },
+        {
+          "label": "劏房／簡樸房租金——Threads 延遲發現",
+          "summary": "搜尋摘要引較早中位數；數字未核實。",
+          "evidence_ids": [
+            "S1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "私人住宅租金指數（差估署 8 月，新聞報道）",
+          "value": "210.3，按月升約 1.64%，按年升約 5.26%",
+          "comparison": "報道稱再創新高",
+          "evidence_ids": [
+            "N1"
+          ]
+        },
+        {
+          "metric": "私人住宅售價指數（差估署 8 月，新聞報道）",
+          "value": "320.5，按月微升 0.06%，按年升約 10.98%",
+          "comparison": "首 8 個月累升約 6.98%（報道所述）",
+          "evidence_ids": [
+            "N1"
+          ]
+        },
+        {
+          "metric": "長策下一個十年房屋供應目標",
+          "value": "420,000（需求推算約 419,300）",
+          "comparison": "公私營比例 70:30；未來五年年均公營逾 3.5 萬",
+          "evidence_ids": [
+            "N2"
+          ]
+        },
+        {
+          "metric": "白表出租計劃名額",
+          "value": "3,000",
+          "comparison": "業權滿十年可申請；與長者樓換樓同日接受申請",
+          "evidence_ids": [
+            "N3",
+            "N4"
+          ]
+        }
+      ],
+      "why": "官方房屋數據線與白表出口延續；連登僅極薄租金轉載，社交偏薄，故持續追蹤。",
+      "verification": {
+        "status": "partially_verified",
+        "note": "差估署數字經星島等核實；長策／白表經公報及新聞網；Threads 劏房數字未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "S1",
+          "url": "https://www.threads.com/@liberresearch/post/DPwGOnGCW3F",
+          "platform": "Threads",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "snippet",
+          "note": "只讀搜尋摘要。延遲發現；帖內數字未核實。"
+        },
+        {
+          "evidence_id": "N1",
+          "url": "https://www.stheadline.com/realtime-property/3620180/%E5%B7%AE%E4%BC%B0%E7%BD%B28%E6%9C%88%E6%A8%93%E5%83%B9%E6%8C%87%E6%95%B8%E5%9B%9E%E5%8D%87006-%E7%A7%9F%E9%87%91%E6%8C%87%E6%95%B8%E5%86%8D%E5%89%B5%E6%96%B0%E9%AB%98",
+          "platform": "新聞背景：星島頭條",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "差估署 8 月指數基線。"
+        },
+        {
+          "evidence_id": "N2",
+          "url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800242.htm",
+          "platform": "新聞背景：政府新聞公報",
+          "published_at": "2026-09-28T06:35:00Z",
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "《長遠房屋策略》2026 年周年進度報告。"
+        },
+        {
+          "evidence_id": "N3",
+          "url": "https://www.wenweipo.com/a/202609/29/AP6abad2d2e4b01d54a2852ea5.html",
+          "platform": "新聞背景：香港文匯報",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "白表／樓換樓今早文匯報出口；09:00 web raw 未單列。"
+        },
+        {
+          "evidence_id": "N4",
+          "url": "https://www.news.gov.hk/chi/2026/09/20260928/20260928_133524_025.html",
+          "platform": "新聞背景：香港政府新聞網",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "白表出租官方新聞網出口。"
+        }
+      ],
+      "limits": "本輪連登房屋辯論極薄。",
+      "next_steps": "若白表／租金破頂出現多帖多平台討論，再調整社交比重。"
+    },
+    {
+      "issue_id": "HK-TAIHANG-FIREDRAGON",
+      "name": "大坑舞火龍加入「國安小火龍」的討論",
+      "status": "cooling",
+      "seen": [
+        "連登本輪再打開主帖（4161746）；淨評分約 −156（09:00 約 −151）。首頁負評／嘲諷為主；圖片未細看。仍為單一主帖延續。",
+        "新聞面：HK01 等 9/26–27 報道仍索引；未見 9/29 新官方稿或多平台新爆發。依準則維持降溫並保留主卡。"
+      ],
+      "viewpoints": [
+        {
+          "label": "論壇批評線本輪再取樣——仍單一帖",
+          "summary": "首頁負評為主；不作「民意再升溫」推論。",
+          "evidence_ids": [
+            "S1"
+          ]
+        },
+        {
+          "label": "官方表述：文化安全／社會安全與薪火相傳——新聞報道",
+          "summary": "多則新聞仍報道國安處紫色小火龍與少年警訊舞動細節；無本輪新稿。",
+          "evidence_ids": [
+            "N1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登列表淨評分（單一淨分數）",
+          "value": "國安小火龍主帖約 −156（本輪再打開）",
+          "comparison": "09:00 約 −151；無新多平台爆發，維持降溫標籤"
+        },
+        {
+          "metric": "新聞報道中的「國安小火龍」規格（報道所述）",
+          "value": "全長約 20 米、重約 35 公斤、紫色主調",
+          "comparison": "由少年警訊成員舞動（報道所述）",
+          "evidence_ids": [
+            "N1"
+          ]
+        }
+      ],
+      "why": "列表仍見但新聞無新稿、仍為單一主帖延續，按準則維持降溫並保留卡以便對照。",
+      "verification": {
+        "status": "partially_verified",
+        "note": "活動經多則新聞互證；論壇批評只讀本輪帖首頁。不評估活動本身對錯。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "S1",
+          "url": "https://lihkg.com/thread/4161746/page/1",
+          "platform": "連登（LIHKG）",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "partial",
+          "note": "本輪瀏覽器再讀首頁。淨評分約 −156。"
+        },
+        {
+          "evidence_id": "N1",
+          "url": "https://www.hk01.com/%E7%AA%81%E7%99%BC/60393980/%E5%A4%A7%E5%9D%91-%E5%9C%8B%E5%AE%89%E5%B0%8F%E7%81%AB%E9%BE%8D-%E9%A6%96%E4%BA%AE%E7%9B%B8-%E5%B0%91%E5%B9%B4%E8%AD%A6%E8%A8%8A%E8%88%9E%E5%8B%95%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3",
+          "platform": "新聞背景：香港01",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "snippet",
+          "note": "頁面標 2026-09-26；本輪未見更新官方稿。"
+        }
+      ],
+      "limits": "降溫標籤與列表可見度並存；絕不作「民意反彈結束／再起」結論。",
+      "next_steps": "若再出現多平台重複或官方新表述，改回 tracking／shift；否則下輪可只保留 tracking 條。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-NORTHBOUND-CONSUMPTION",
+      "name": "港人北上消費意欲：論壇「降溫」說與平台訂單增長並存",
+      "status": "lead",
+      "seen": [
+        "連登本輪：未打開北上意欲專帖；「死亡螺旋／外勞消費」論點旁及本地消費，但不另升格。",
+        "新聞：黃金周口岸流量預測與皇崗聯檢大樓具備通車條件延續；HK01 小紅書「意欲下降」標題仍索引。NEW：TVB 樓‧言板（07:45）稱零售連升、訪港旅客初步高位——樂觀評論與意欲下降敘事並存。Threads 新見北上心理機制個人評論。維持早期線索。"
+      ],
+      "viewpoints": [
+        {
+          "label": "論壇／轉載「意欲下降」——新聞標題＋Threads 延遲",
+          "summary": "HK01 標題轉述小紅書；小紅書原文未覆蓋；連登無新北上主帖。",
+          "evidence_ids": [
+            "N2",
+            "S1"
+          ]
+        },
+        {
+          "label": "官方：黃金周跨境流量預測——政策口徑",
+          "summary": "口岸流量預測不是「港人北上意欲」直接測量。",
+          "evidence_ids": [
+            "N1"
+          ]
+        },
+        {
+          "label": "本地零售／訪港樂觀評論——TVB 專欄（本輪新）",
+          "summary": "屬評論轉述統計，非「北上意欲」測量；與降溫敘事並存。",
+          "evidence_ids": [
+            "N3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "黃金周經各管制站進出預測（入境處／GIA）",
+          "value": "約 744 萬人次總進出；約 631 萬陸路",
+          "comparison": "與「北上意欲」不同指標",
+          "evidence_ids": [
+            "N1"
+          ]
+        }
+      ],
+      "why": "官方口岸預測、意欲下降轉載與今早零售樂觀評論並存，論壇無北上專帖爆發，維持早期線索。",
+      "verification": {
+        "status": "unverified",
+        "note": "未以官方跨境消費統計核實「意欲」；小紅書原文未覆蓋；TVB 為評論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "N1",
+          "url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800602.htm",
+          "platform": "新聞背景：政府新聞公報",
+          "published_at": "2026-09-28T10:20:00Z",
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "GIA 黃金周流量預測。"
+        },
+        {
+          "evidence_id": "N2",
+          "url": "https://www.hk01.com/%E7%86%B1%E7%88%86%E8%A9%B1%E9%A1%8C/60394350/%E5%B0%8F%E7%B4%85%E6%9B%B8%E7%86%B1%E8%AD%B0-%E6%B8%AF%E4%BA%BA%E5%8C%97%E4%B8%8A%E6%B6%88%E8%B2%BB%E6%84%8F%E6%85%BE%E4%B8%8B%E9%99%8D-%E5%88%97%E6%B7%B1%E5%9C%B33%E5%A4%A7%E5%95%8F%E9%A1%8C-%E5%AE%8C%E5%85%A8%E4%B8%8D%E5%80%BC%E5%BE%97",
+          "platform": "新聞背景：香港01",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "snippet",
+          "note": "搜尋標題；小紅書原文未覆蓋。"
+        },
+        {
+          "evidence_id": "N3",
+          "url": "https://news.tvb.com/tc/1197877-%E6%B6%88%E8%B2%BB%E5%9B%9E%E6%9A%96%E5%A4%96%E8%B2%BF%E5%8B%81%E6%A8%93%E5%B8%82%E5%8F%AF%E4%BF%9D%E5%BC%B7%E5%8B%A2%E6%A8%93%E8%A8%80%E6%9D%BF",
+          "platform": "新聞背景：無綫新聞 TVB",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "標 2026-09-29 07:45；消費／樓市樂觀評論。09:00 未收。"
+        },
+        {
+          "evidence_id": "S1",
+          "url": "https://www.threads.com/@bruce_ginger_cat/post/DXacgLGElqQ",
+          "platform": "Threads",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "snippet",
+          "note": "本輪搜尋新見；個人評論、延遲發現。"
+        }
+      ],
+      "limits": "「北上意欲」與「訪港旅客／總進出／零售」不是同一指標。",
+      "next_steps": "黃金周期間若有官方零售／出境實績或論壇再爆發，再考慮升級或收窄表述。"
+    },
+    {
+      "issue_id": "HK-PROPERTY-OUTLOOK",
+      "name": "樓價後市：指數橫行與微升並存",
+      "status": "lead",
+      "seen": "差估署 8 月售價指數按月微升 0.06% 基線延續。NEW：TVB 樓‧言板今早樂觀看樓市長線。Threads 業界全年預測／撻訂等延遲摘要仍在。連登本輪無後市辯論主帖（「金錢焦慮」高分帖屬心態討論，不升格樓價卡）。維持早期線索。",
+      "viewpoints": [
+        {
+          "label": "指數微升／橫行——市場數據",
+          "summary": "差估署售價指數按月微升。",
+          "evidence_ids": [
+            "N1"
+          ]
+        },
+        {
+          "label": "樂觀後市評論——TVB 專欄（本輪新）",
+          "summary": "屬評論意見，非官方預測。",
+          "evidence_ids": [
+            "N2"
+          ]
+        },
+        {
+          "label": "業界預測／結構性支撐——Threads 延遲發現",
+          "summary": "全年升幅等帖內數字未核實。",
+          "evidence_ids": [
+            "S1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "私人住宅售價指數（差估署 8 月，新聞報道）",
+          "value": "320.5，按月微升 0.06%",
+          "comparison": "按年升約 10.98%",
+          "evidence_ids": [
+            "N1"
+          ]
+        }
+      ],
+      "why": "數據基線清楚；今早樂觀評論出現但社交辯論仍薄，維持早期線索。",
+      "verification": {
+        "status": "partially_verified",
+        "note": "指數經新聞核實；專欄／Threads 後市看法屬意見。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "N1",
+          "url": "https://www.stheadline.com/realtime-property/3620180/%E5%B7%AE%E4%BC%B0%E7%BD%B28%E6%9C%88%E6%A8%93%E5%83%B9%E6%8C%87%E6%95%B8%E5%9B%9E%E5%8D%87006-%E7%A7%9F%E9%87%91%E6%8C%87%E6%95%B8%E5%86%8D%E5%89%B5%E6%96%B0%E9%AB%98",
+          "platform": "新聞背景：星島頭條",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "與房屋租金卡共用差估署報道。"
+        },
+        {
+          "evidence_id": "N2",
+          "url": "https://news.tvb.com/tc/1197877-%E6%B6%88%E8%B2%BB%E5%9B%9E%E6%9A%96%E5%A4%96%E8%B2%BF%E5%8B%81%E6%A8%93%E5%B8%82%E5%8F%AF%E4%BF%9D%E5%BC%B7%E5%8B%A2%E6%A8%93%E8%A8%80%E6%9D%BF",
+          "platform": "新聞背景：無綫新聞 TVB",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "full",
+          "note": "標 2026-09-29 07:45；樂觀評論。"
+        },
+        {
+          "evidence_id": "S1",
+          "url": "https://www.threads.com/@seehse/post/DZDIv6OD_oI",
+          "platform": "Threads",
+          "published_at": null,
+          "observed_at": "2026-09-29T02:05:00Z",
+          "read_level": "snippet",
+          "note": "只讀搜尋摘要；業界全年預測，未核實。"
+        }
+      ],
+      "limits": "幾乎沒有窗口內深度樓價後市辯論帖。",
+      "next_steps": "留意下一期樓價數據及是否出現多平台討論。"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-POLICY-ADDRESS-2026",
+      "name": "2026 年施政報告及首個五年規劃的民生評價",
+      "kind": "follow_up",
+      "text": [
+        "本輪仍無足夠獨立於勞動／房屋／跨境措施的新施政報告主卡證據。GIA 新增行政長官於首屆華人發展論壇視像致辭（談五年規劃／內聯外通），屬官方表述旁觀、證據不足以另開主卡。",
+        "輸入外勞、長策／白表、黃金周口岸已分別併入相關卡；護士人力書面說明併入勞動卡。"
+      ],
+      "related_report": "2026-09-29-09"
+    },
+    {
+      "issue_id": "HK-TAIHANG-FIREDRAGON",
+      "name": "大坑舞火龍加入「國安小火龍」的討論",
+      "kind": "cooling",
+      "text": "本輪連登列表再見到並打開主帖（約 −156），惟無 9/29 新官方稿或多平台爆發；主卡維持降溫。若下輪再僅單一帖延續，可考慮只保留本追蹤條。",
+      "related_report": "2026-09-29-09"
+    },
+    {
+      "issue_id": "HK-BLOOMBERG-TAX-SQUAD",
+      "name": "彭博「內地追稅小組／在港資產」論壇轉載（未升格）",
+      "kind": "follow_up",
+      "text": "連登再打開轉載帖（https://lihkg.com/thread/4161890/page/1，淨評分約 +126，09:00 約 +105）：轉述彭博指內地稅務組建專責小組、瞄準在港約 1.7 萬億美元資產等。淨評分再升但仍僅單一論壇來源；本輪新聞搜尋未穩見第二獨立出口核實，故不升格主卡或早期線索；描述為正在流傳的宣稱，本報不背書。若多源證實再評估。",
+      "related_report": "2026-09-29-09"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 6,
+    "sources_ok": 4,
+    "items_collected": 308,
+    "items_read_full": 16,
+    "llm_calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_usd": 0,
+    "runtime_seconds": 720,
+    "extra": {
+      "連登瀏覽器：分區列表列（3 板 × pages 1–2）": 259,
+      "連登瀏覽器：不重複帖 URL": 101,
+      "連登瀏覽器：帖子首頁": 8,
+      "Threads 搜尋摘要": 12,
+      "連登搜尋標題／摘要": 5,
+      "新聞／公報頁": 32,
+      "列為證據的條目": 30
+    },
+    "notes": [
+      "items_collected 約為連登列表 259＋Threads 12＋連登搜尋 5＋新聞 32。",
+      "items_read_full 約指較完整閱讀的新聞／公報與連登帖首頁中偏完整者（粗略）。",
+      "runtime_seconds 為本輪瀏覽＋彙整與寫報的粗略估計，非精確計時。",
+      "模型 tokens／成本本輪記 0（未另計 LLM API）。",
+      "source_failure：連登瀏覽器本輪 null（無 captcha／驗證牆／rate limit）。",
+      "最大新官方信號：護士人力 GIA 09:55 說明；彭博追稅不升格；金錢焦慮高分帖不另開卡；華人發展論壇致辭併入施政追蹤旁觀。"
+    ]
+  }
+}
