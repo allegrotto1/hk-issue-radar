@@ -105,11 +105,12 @@
     posts.forEach(function(p,i){
       var S=p.snapshots||[], L=S[S.length-1], P=S.length>1?S[S.length-2]:null, F=S[0];
       var ep=p.estimated_posted_at;
-      h+='<li class="post"><p class="meta-line"><span class="rank">#'+(i+1)+'</span>'+
+      h+='<li class="post'+(p.stopped_at?' stopped':'')+'"><p class="meta-line"><span class="rank">#'+(i+1)+'</span>'+
+        (p.stopped_at?'<span class="tag s-stop">已停止</span>':'')+
         (p.tag?'<span class="tag s-new">'+esc(p.tag)+'</span>':'')+
         '<span>首次記錄 '+hkt(p.first_seen,true)+'</span>'+
         (ep&&ep.value?'<span title="由相對時間「'+esc(ep.relative_shown)+'」推算">估計發帖 ≈'+hkt(ep.value,true)+'（估算）</span>':'')+
-        '<span>快照 '+S.length+' 個</span>'+(p.stopped_at?'<span class="tag">已停止追蹤 '+hkt(p.stopped_at,true)+'</span>':'')+'</p>'+
+        '<span>快照 '+S.length+' 個</span>'+(p.stopped_at?'<span>停止於 '+hkt(p.stopped_at,true)+'</span>':'')+'</p>'+
         '<h3>'+esc(p.summary)+'</h3>'+
         '<p class="src"><a class="ext" href="'+esc(p.url)+'" target="_blank" rel="noopener nofollow">Threads 帖文 '+esc(p.id)+'</a></p>';
       if(!L){h+='<p class="empty">未有快照。</p></li>';return;}

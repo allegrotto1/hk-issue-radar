@@ -70,6 +70,7 @@ a:focus-visible{ outline:2px solid var(--focus); outline-offset:3px; border-radi
   font:500 11px/18px var(--mono); color:var(--muted); vertical-align:1px; }
 
 .tag.s-new{ color:var(--fg); border-color:var(--fg); }
+.tag.s-stop{ color:var(--bg); background:var(--fg); border-color:var(--fg); font-weight:600; }
 /* notices */
 .notice{ margin:0 0 40px; padding:14px 18px; border:1px dashed var(--line-2); border-radius:var(--radius); background:var(--bg-2); color:var(--fg-2); font-size:.875rem; line-height:1.7; }
 .notice strong{ color:var(--fg); }
@@ -87,6 +88,8 @@ footer.site .disc{ margin-top:1rem; max-width:44rem; font-size:.8125rem; }
 .posts{ list-style:none; margin:0; padding:0; border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; background:var(--bg); }
 .post{ padding:24px; }
 .post + .post{ border-top:1px solid var(--line); }
+.post.stopped{ background:var(--bg-2); }
+.post.stopped h3{ color:var(--fg-2); font-weight:500; }
 .post .meta-line{ display:flex; flex-wrap:wrap; align-items:center; gap:6px 14px; margin:0 0 8px; font:400 12px/1.6 var(--mono); color:var(--muted); }
 .post .meta-line .tag{ margin-right:0; }
 .post .rank{ color:var(--fg); font-weight:500; }
