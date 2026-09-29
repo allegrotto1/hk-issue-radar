@@ -16,7 +16,7 @@
 <meta property="og:url" content="https://allegrotto1.github.io/hk-issue-radar/tracker/"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=Geist+Mono:wght@400;500&amp;display=swap"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap"/>
 <link rel="stylesheet" href="tracker.css"/>
 </head>
 <body>
@@ -39,7 +39,7 @@
     <noscript><p class="empty">呢頁需要 JavaScript 讀取 <a href="data.json">data.json</a>。</p></noscript>
   </div></section>
   <section class="section" aria-labelledby="h-notes"><div class="wrap">
-    <div class="sec-head"><h2 id="h-notes">方法同限制</h2><span class="label">Method &amp; limits</span></div>
+    <div class="sec-head"><h2 id="h-notes">方法同限制</h2><span class="label">Method & limits</span></div>
     <ul class="notes">
       <li>計數由編輯每小時一次，喺<strong>未登入</strong>狀態下讀取 Threads 公開帖文頁面顯示嘅數字（人手記錄，唔係官方 API）。</li>
       <li>Threads 會將大數字縮寫（例如 2.2K、106K），所以涉及呢啲數字嘅增減同百分比只係約數；縮寫顯示冇變，唔代表實際冇增長。</li>
@@ -59,7 +59,7 @@
 <script>
 (function(){
   var M=[["likes","讚"],["replies","回覆"],["reposts","轉發"],["shares","分享"],["views","瀏覽"]];
-  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&","<":"<",">":">",'"':""","'":"&#39;"}[c];});}
   function parts(iso){
     var d=new Date(iso); if(isNaN(d)) return null; var o={};
     new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Hong_Kong",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"})
@@ -109,7 +109,7 @@
         (p.tag?'<span class="tag s-new">'+esc(p.tag)+'</span>':'')+
         '<span>首次記錄 '+hkt(p.first_seen,true)+'</span>'+
         (ep&&ep.value?'<span title="由相對時間「'+esc(ep.relative_shown)+'」推算">估計發帖 ≈'+hkt(ep.value,true)+'（估算）</span>':'')+
-        '<span>快照 '+S.length+' 個</span></p>'+
+        '<span>快照 '+S.length+' 個</span>'+(p.stopped_at?'<span class="tag">已停止追蹤 '+hkt(p.stopped_at,true)+'</span>':'')+'</p>'+
         '<h3>'+esc(p.summary)+'</h3>'+
         '<p class="src"><a class="ext" href="'+esc(p.url)+'" target="_blank" rel="noopener nofollow">Threads 帖文 '+esc(p.id)+'</a></p>';
       if(!L){h+='<p class="empty">未有快照。</p></li>';return;}
