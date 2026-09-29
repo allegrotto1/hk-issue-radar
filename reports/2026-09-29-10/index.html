@@ -15,7 +15,8 @@
     if (!r.ok) throw new Error(p + " " + r.status);
     return r.text();
   })));
-  const hex = texts.join("").trim();
+  const hex = texts.join("").replace(/\s+/g, "");
+  if (hex.length % 2 || /[^0-9a-fA-F]/.test(hex)) throw new Error("bad hex data (" + hex.length + ")");
   const bin = new Uint8Array(hex.length/2);
   for (let i=0;i<bin.length;i++) bin[i]=parseInt(hex.substr(i*2,2),16);
   const ds = new DecompressionStream("deflate");
