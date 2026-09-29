@@ -514,8 +514,20 @@ class Site:
         ]
         if canon:
             head.append(f'<meta property="og:url" content="{e(canon)}"/>\n')
+        if self.base_url:
+            img = self.abs("/og.jpg")
+            banner = self.abs("/x-banner.jpg")
+            head += [
+                f'<meta property="og:image" content="{e(img)}"/>\n',
+                '<meta property="og:image:width" content="1200"/>\n',
+                '<meta property="og:image:height" content="630"/>\n',
+                f'<meta property="x:game:image" content="{e(banner)}"/>\n',
+                '<meta name="twitter:card" content="summary_large_image"/>\n',
+                f'<meta name="twitter:image" content="{e(img)}"/>\n',
+            ]
+        else:
+            head.append('<meta name="twitter:card" content="summary"/>\n')
         head += [
-            '<meta name="twitter:card" content="summary"/>\n',
             '<link rel="preconnect" href="https://fonts.googleapis.com"/>\n',
             '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>\n',
             '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700'

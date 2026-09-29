@@ -20,6 +20,8 @@ else
   gh repo clone allegrotto1/hk-issue-radar "$DEST" -- --depth 1
 fi
 cp -a "$SITE/index.html" "$SITE/404.html" "$SITE/sitemap.xml" "$SITE/favicon.svg" "$DEST/"
+if [ -f /workspace/public/og.jpg ]; then cp -a /workspace/public/og.jpg "$DEST/og.jpg"; fi
+if [ -f /workspace/public/x-banner.jpg ]; then cp -a /workspace/public/x-banner.jpg "$DEST/x-banner.jpg"; fi
 mkdir -p "$DEST/assets" "$DEST/tracker"
 cp -a "$SITE/assets/site.css" "$DEST/assets/site.css"
 if [ -d "$SITE/days" ]; then
