@@ -363,6 +363,7 @@ class Site:
                    (ROOT / "assets" / "extra.css").read_text(encoding="utf-8") + ADHD_CSS
         self.base_path = s(cfg.get("base_path")).rstrip("/")
         self.base_url = s(cfg.get("base_url")).rstrip("/")
+        self.share_origin = s(cfg.get("share_origin")).rstrip("/")
 
     # urls
     def u(self, path: str) -> str:
@@ -514,9 +515,9 @@ class Site:
         ]
         if canon:
             head.append(f'<meta property="og:url" content="{e(canon)}"/>\n')
-        if self.base_url:
-            img = self.abs("/og.jpg")
-            banner = self.abs("/x-banner.jpg")
+        if self.share_origin:
+            img = self.share_origin + "/og.jpg"
+            banner = self.share_origin + "/x-banner.jpg"
             head += [
                 f'<meta property="og:image" content="{e(img)}"/>\n',
                 '<meta property="og:image:width" content="1200"/>\n',
@@ -525,7 +526,7 @@ class Site:
                 '<meta name="twitter:card" content="summary_large_image"/>\n',
                 f'<meta name="twitter:image" content="{e(img)}"/>\n',
             ]
-        else:
+        elif self.base_url:
             head.append('<meta name="twitter:card" content="summary"/>\n')
         head += [
             '<link rel="preconnect" href="https://fonts.googleapis.com"/>\n',
