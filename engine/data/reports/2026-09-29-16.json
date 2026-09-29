@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-09-29T08:00:00Z",
+    "end": "2026-09-29T09:00:00Z"
+  },
+  "generated_at": "2026-09-29T09:11:00Z",
+  "summary": [
+    "第十六輪（16:00 HKT）沒有成功上線。16:03 的自動作業有跑到 16:09，回覆是推不上 GitHub，列表沒有存下來。",
+    "所以這一版不寫議題卡。16:00 當刻的標題同分數沒有留下，不會用 15:00 或 17:00 的列表冒充。",
+    "下一版 17:00 的熱門排序頁有讀到，以那一版為準。"
+  ],
+  "sources": {
+    "readable": [],
+    "failed": [
+      {
+        "name": "16:00 自動作業",
+        "reason": "16:03–16:09 有跑，但沒有把報告推上 GitHub，工作區亦沒有留下 JSON。"
+      }
+    ],
+    "gaps": [
+      "這一小時沒有可引用的吹水台列表。",
+      "Facebook 未覆蓋。"
+    ]
+  },
+  "issues": [],
+  "early_leads": [],
+  "tracking": [
+    {
+      "issue_id": "HK-LIVELIHOOD-MOOD",
+      "name": "香港死亡螺旋",
+      "kind": "follow_up",
+      "text": "15:00 分數 925。16:00 沒有新讀數。17:00 熱門頁改為 413。",
+      "related_report": "2026-09-29-17"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 0,
+    "items_collected": 0,
+    "items_read_full": 0,
+    "llm_calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost_usd": 0,
+    "runtime_seconds": 0,
+    "notes": "只補回缺了的小時頁，不填假列表。"
+  }
+}
