@@ -1,0 +1,28 @@
+name: republish radar
+on:
+  schedule:
+    # 09:08–19:28 HKT (UTC+8), twice an hour, after the :03 editorial run.
+    - cron: "8,28 1-11 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  republish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild Pages from the report JSON
+        run: bash engine/republish.sh "$GITHUB_WORKSPACE"
+      - name: Commit if the homepage changed
+        run: |
+          git add index.html 404.html sitemap.xml favicon.svg assets days reports tracker
+          if git diff --cached --quiet; then
+            echo "nothing to republish"
+            exit 0
+          fi
+          git -c user.email="allegrotto1@users.noreply.github.com" -c user.name="allegrotto1" \
+            commit -m "radar: republish $(TZ=Asia/Hong_Kong date +%Y-%m-%d\ %H:%M) HKT"
+          git push
