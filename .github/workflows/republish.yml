@@ -1,7 +1,10 @@
 name: republish radar
 on:
+  push:
+    paths:
+      - "engine/data/reports/**"
   schedule:
-    # 09:08–19:28 HKT (UTC+8), twice an hour, after the :03 editorial run.
+    # 09:08–19:28 HKT (UTC+8). Backup only; a new report JSON republishes immediately.
     - cron: "8,28 1-11 * * *"
   workflow_dispatch:
 permissions:
