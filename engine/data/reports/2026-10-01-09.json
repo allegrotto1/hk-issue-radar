@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {"start": "2026-10-01T01:00:00Z", "end": "2026-10-01T02:00:00Z"},
+  "generated_at": "2026-10-01T01:03:00Z",
+  "summary": [
+    "09:00 HKT 2026-10-01；吹水台熱門第 1 頁。https://lihkg.com/category/1?order=hot 有列表，屬已確認熱門排序。",
+    "對照 2026-10-01-00。護士失業 82→157、雨傘文件 45→124 仍佔主位。新見國慶商場掛旗 41、蔡天凰郭官 33、湯告魯斯《挖掘者》取消放映 45。機管局終止合約、警方《爆炸頭》聲明、衞生署腸胃炎本頁未見。",
+    "內地：雨傘運動12年解放軍機密文件曝光廣州軍區高層曾促準備介入香港 124。強國萬達少爺王絲蔥新女 -90。",
+    "香港政府官員：本頁未見張宇人、陳祖光、警方爆炸頭聲明、衞生署。可見「蔡天凰慘案，郭官有料呀！」33。",
+    "香港時事：護士失業護協再發聲明 157。雨傘12年文件 124。今年國慶係咪少左商場掛國旗 41。湯告魯斯《挖掘者》疑涉政治諷刺香港取消放映 45。蔡天鳳主控資產來歷 88。惠英紅巴黎遇劫 83。田啟文入稟索償779萬 -34。",
+    "香港經濟：月入十二萬係咩水平 -60。鄧龍威比特幣輝達 -102。機管局提前終止合約本頁未見。"
+  ],
+  "sources": {
+    "readable": [{"name": "連登吹水台熱門排序", "platform": "連登", "items": 20, "note": "09:03 HKT。https://lihkg.com/category/1?order=hot 有列表。只抄標題同旁邊分數。"}],
+    "failed": [],
+    "gaps": ["Facebook 未覆蓋。", "未打開任何帖文。", "娛樂、體育、成人、潮流、上班閒話標題有見但不入四類。"]
+  },
+  "issues": [
+    {"issue_id": "HK-NURSE-UNEMPLOYMENT", "name": "護士失業護協再發聲明", "status": "tracking", "seen": "標題「護士失業　護協再發九點聲明反駁　強調應屆生確面對就業困境　有人失業半年無工開」。列表分數 157。", "viewpoints": [{"label": "分數上升仍在熱門", "summary": "00:00 輪 82，本輪 157。", "evidence_ids": ["L1"]}], "data": [{"metric": "熱門列表分數", "value": "157", "comparison": "上一輪 82", "evidence_ids": ["L1"]}], "why": "香港時事／香港經濟。標題在這一頁。", "verification": {"status": "unverified", "note": "只有標題。"}, "evidence": [{"evidence_id": "L1", "url": "https://lihkg.com/category/1?order=hot", "platform": "連登", "published_at": null, "observed_at": "2026-10-01T01:03:00Z", "read_level": "title_only", "note": "熱門排序頁。"}], "limits": "聲明原文未核。", "next_steps": "有帖文網址先打開。"},
+    {"issue_id": "HK-UMBRELLA-PLA-DOCS", "name": "雨傘12年解放軍機密文件", "status": "shift", "seen": "標題「雨傘運動12年　解放軍機密文件曝光　廣州軍區高層曾促準備介入香港」。列表分數 124。", "viewpoints": [{"label": "分數明顯上升", "summary": "00:00 輪 45，本輪 124。", "evidence_ids": ["L1"]}], "data": [{"metric": "熱門列表分數", "value": "124", "comparison": "上一輪 45", "evidence_ids": ["L1"]}], "why": "內地／香港時事。標題在這一頁。", "verification": {"status": "unverified", "note": "只有標題。"}, "evidence": [{"evidence_id": "L1", "url": "https://lihkg.com/category/1?order=hot", "platform": "連登", "published_at": null, "observed_at": "2026-10-01T01:03:00Z", "read_level": "title_only", "note": "熱門排序頁。"}], "limits": "文件真偽未核。", "next_steps": "有帖文網址先打開。"},
+    {"issue_id": "HK-NATIONAL-DAY-FLAGS", "name": "國慶商場掛旗少了", "status": "new", "seen": "標題「今年國慶係咪少左商場掛國旗」。列表分數 41。", "viewpoints": [{"label": "本頁新見", "summary": "上一輪熱門頁未見此標題，本輪 41。", "evidence_ids": ["L1"]}], "data": [{"metric": "熱門列表分數", "value": "41", "comparison": "上一輪未見", "evidence_ids": ["L1"]}], "why": "香港時事。標題在這一頁。", "verification": {"status": "unverified", "note": "只有標題。"}, "evidence": [{"evidence_id": "L1", "url": "https://lihkg.com/category/1?order=hot", "platform": "連登", "published_at": null, "observed_at": "2026-10-01T01:03:00Z", "read_level": "title_only", "note": "熱門排序頁。"}], "limits": "未核實掛旗數量。", "next_steps": "有帖文網址先打開。"},
+    {"issue_id": "HK-CAI-TIANFENG-GUO-OFFICIAL", "name": "蔡天凰案郭官有料", "status": "new", "seen": "標題「蔡天凰慘案，郭官有料呀！」。列表分數 33。另見「蔡天鳳單野個主控一開始已經將蔡天鳳資產來歷畫死個框」88。", "viewpoints": [{"label": "本頁新見官員向標題", "summary": "上一輪熱門頁未見郭官標題，本輪 33；同題主控資產來歷 88。", "evidence_ids": ["L1"]}], "data": [{"metric": "熱門列表分數", "value": "33", "comparison": "上一輪未見", "evidence_ids": ["L1"]}], "why": "香港政府官員／香港時事。標題在這一頁。", "verification": {"status": "unverified", "note": "只有標題。"}, "evidence": [{"evidence_id": "L1", "url": "https://lihkg.com/category/1?order=hot", "platform": "連登", "published_at": null, "observed_at": "2026-10-01T01:03:00Z", "read_level": "title_only", "note": "熱門排序頁。"}], "limits": "庭上陳述未核。", "next_steps": "核對公開審訊報道。"},
+    {"issue_id": "HK-MISSION-IMPOSSIBLE-CUT", "name": "挖掘者香港取消放映", "status": "new", "seen": "標題「湯告魯斯《挖掘者》疑涉政治諷刺香港取消放映」。列表分數 45。", "viewpoints": [{"label": "本頁新見", "summary": "上一輪熱門頁未見此標題，本輪 45。", "evidence_ids": ["L1"]}], "data": [{"metric": "熱門列表分數", "value": "45", "comparison": "上一輪未見", "evidence_ids": ["L1"]}], "why": "香港時事。標題在這一頁。", "verification": {"status": "unverified", "note": "只有標題。"}, "evidence": [{"evidence_id": "L1", "url": "https://lihkg.com/category/1?order=hot", "platform": "連登", "published_at": null, "observed_at": "2026-10-01T01:03:00Z", "read_level": "title_only", "note": "熱門排序頁。"}], "limits": "取消原因未核官方。", "next_steps": "核對院線或發行公布。"},
+    {"issue_id": "HK-INCOME-120K", "name": "月入十二萬係咩水平", "status": "shift", "seen": "標題「月入十二萬係咩水平？」。列表分數 -60。", "viewpoints": [{"label": "負評加深", "summary": "00:00 輪 -26，本輪 -60。", "evidence_ids": ["L1"]}], "data": [{"metric": "熱門列表分數", "value": "-60", "comparison": "上一輪 -26", "evidence_ids": ["L1"]}], "why": "香港經濟。標題在這一頁。", "verification": {"status": "unverified", "note": "只有標題。"}, "evidence": [{"evidence_id": "L1", "url": "https://lihkg.com/category/1?order=hot", "platform": "連登", "published_at": null, "observed_at": "2026-10-01T01:03:00Z", "read_level": "title_only", "note": "熱門排序頁。"}], "limits": "觀感帖，無收入數據。", "next_steps": "有帖文網址先打開。"},
+    {"issue_id": "HK-WANDA-YOUNG-MASTER", "name": "萬達少爺新女", "status": "shift", "seen": "標題「強國萬達少爺王絲蔥新女」。列表分數 -90。", "viewpoints": [{"label": "負評再加深", "summary": "00:00 輪 -62，本輪 -90。", "evidence_ids": ["L1"]}], "data": [{"metric": "熱門列表分數", "value": "-90", "comparison": "上一輪 -62", "evidence_ids": ["L1"]}], "why": "內地。標題在這一頁。", "verification": {"status": "unverified", "note": "只有標題。"}, "evidence": [{"evidence_id": "L1", "url": "https://lihkg.com/category/1?order=hot", "platform": "連登", "published_at": null, "observed_at": "2026-10-01T01:03:00Z", "read_level": "title_only", "note": "熱門排序頁。"}], "limits": "娛樂向標題，身份未核。", "next_steps": "有帖文網址先打開。"}
+  ],
+  "early_leads": [
+    {"issue_id": "HK-TIN-KAI-MAN-LAWSUIT", "name": "田啟文入稟索償司機", "status": "shift", "seen": "標題「田啟文入稟向私家車司機索償779萬元」。列表分數 -34。", "viewpoints": [{"label": "負分加深", "summary": "00:00 輪 -17，本輪 -34。", "evidence_ids": ["L1"]}], "data": [{"metric": "熱門列表分數", "value": "-34", "comparison": "上一輪 -17", "evidence_ids": ["L1"]}], "why": "香港時事。標題在這一頁。", "verification": {"status": "unverified", "note": "只有標題。"}, "evidence": [{"evidence_id": "L1", "url": "https://lihkg.com/category/1?order=hot", "platform": "連登", "published_at": null, "observed_at": "2026-10-01T01:03:00Z", "read_level": "title_only", "note": "熱門排序頁。"}], "limits": "訴訟主張未核。", "next_steps": "核對法庭報道。"},
+    {"issue_id": "HK-KARA-WAI-PARIS", "name": "惠英紅巴黎遇劫", "status": "shift", "seen": "標題「惠英紅巴黎遇劫 微博貼相：車被人砸了窗戶，包被搶了」。列表分數 83。", "viewpoints": [{"label": "重返熱門且轉正", "summary": "00:00 輪本頁未見；更早輪曾標 cooling。本輪 83。", "evidence_ids": ["L1"]}], "data": [{"metric": "熱門列表分數", "value": "83", "comparison": "00:00 輪未見", "evidence_ids": ["L1"]}], "why": "香港時事。標題在這一頁。", "verification": {"status": "unverified", "note": "只有標題。"}, "evidence": [{"evidence_id": "L1", "url": "https://lihkg.com/category/1?order=hot", "platform": "連登", "published_at": null, "observed_at": "2026-10-01T01:03:00Z", "read_level": "title_only", "note": "熱門排序頁。"}], "limits": "微博原文未核。", "next_steps": "有帖文網址先打開。"}
+  ],
+  "tracking": [
+    {"issue_id": "HK-AA-CONTRACT-END", "name": "機管局提前終止商場合約", "kind": "cooling", "text": "本輪熱門頁未再見到此標題。", "related_report": "2026-10-01-00"},
+    {"issue_id": "HK-NSO-EXPLOSION-HEAD", "name": "警方就爆炸頭發聲明", "kind": "cooling", "text": "本輪熱門頁未再見到此標題。", "related_report": "2026-10-01-00"},
+    {"issue_id": "HK-DENG-BTC-NVIDIA", "name": "鄧龍威比特幣與輝達", "kind": "follow_up", "text": "本輪仍見「鄧龍威26年前買左比特幣，nvdia出黎已經係香港首富」，列表分數 -102。", "related_report": "2026-10-01-00"},
+    {"issue_id": "HK-BIRTH-LOTTERY", "name": "議員倡設生育六合彩", "kind": "cooling", "text": "本輪熱門頁未再見到此標題。", "related_report": "2026-09-30-19"},
+    {"issue_id": "HK-CHEUNG-YU-YAN-LABOUR", "name": "張宇人撐外勞醫護", "kind": "cooling", "text": "本輪熱門頁未再見到此標題。", "related_report": "2026-09-30-19"},
+    {"issue_id": "HK-CHAN-CHO-KWONG-BIRTH", "name": "陳祖光問點解唔生育", "kind": "cooling", "text": "本輪熱門頁未再見到此標題。", "related_report": "2026-09-30-19"}
+  ]
+}
