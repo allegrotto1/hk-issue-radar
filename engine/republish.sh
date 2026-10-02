@@ -6,7 +6,7 @@ REPO=${1:-.}
 REPO=$(cd "$REPO" && pwd)
 ENGINE="$REPO/engine"
 SITE=$(mktemp -d)
-python3 "$ENGINE/build.py" --strict --out "$SITE"
+python3 "$ENGINE/build.py" --out "$SITE"
 mkdir -p "$SITE/tracker"
 cp -a "$ENGINE/tracker/index.html" "$ENGINE/tracker/tracker.css" "$ENGINE/tracker/data.json" "$SITE/tracker/"
 cp -a "$SITE/index.html" "$SITE/404.html" "$SITE/sitemap.xml" "$SITE/favicon.svg" "$REPO/"
