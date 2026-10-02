@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-02T16:00:00Z",
+    "end": "2026-10-02T17:00:00Z"
+  },
+  "generated_at": "2026-10-02T16:12:20Z",
+  "summary": [
+    "00:00 HKT 2026-10-03。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot ，頁面標題為吹水台，有列表，未見登入牆或 captcha。未打開帖文，只抄標題、台別同列表分數。",
+    "內地：有。「其實點解啲大陸人個身會咁臭？」285；「十一黃金周　尖沙咀兩間麥當勞凌晨爆滿　內地人佔多數　氣氛熱鬧」-15；「「世紀大擁堵」深中出江門9小時」52；「100% 中国製 鐮倉高校前平交道打卡點，現已橫空出世！！！」37；「點解啲大陸妹咁鍾意帶呢款眼鏡？」-12；「深圳皇室假期執笠」21。",
+    "香港政府官員：這一頁未見標題點名司局長、法官或其他官員職位。煙花垃圾帖引述崔定邦，標題冇寫職位，只放線索，不當官員卡。",
+    "香港時事：有。赤柱豪宅鋼筋 111、蔡天鳳案多條、外傭加人工 111、煙花垃圾 -178、亞運港隊女選手傻笑 46。星島標題指大埔名校女老師遭連登起底 24，本報不轉載個人資料，不入主卡。",
+    "香港經濟：有。「香港越嚟越難生存」949；機管局 11 SKIES 改名做國家品牌出海平台 -108；觀塘 APM Five-Guys 結業標題 59；四人晚餐 $93000 -180；美股討論區 -1。",
+    "色情、疑似流出、娛樂同體育標題有見，不收做主卡。舊卡若本頁唔見就不佔主位。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 38,
+        "note": "00:12 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同旁邊分數，未估分。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未打開任何帖文。",
+      "Threads 本輪只做已有追蹤帖的數字，不用來填卡。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-HARD-TO-SURVIVE",
+      "name": "香港越嚟越難生存",
+      "status": "shift",
+      "seen": "吹水台熱門第 1 頁仍見標題「香港越嚟越難生存」，時事台，列表分數 949，19 頁，時間顯示剛剛。",
+      "viewpoints": [
+        {
+          "label": "列表仍最高",
+          "summary": "本頁四類相關標題入面，呢條分數最高。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "949",
+          "comparison": "同頁 19 頁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟。舊題仍在本頁，按見到的分數排最前。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4161989/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁上的帖文連結。"
+        }
+      ],
+      "limits": "未核對帖內例子。",
+      "next_steps": "下一輪再睇呢條仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-BODY-ODOR",
+      "name": "大陸人身體氣味帖",
+      "status": "new",
+      "seen": "標題「其實點解啲大陸人個身會咁臭？」，時事台，列表分數 285，5 頁，1 小時前。",
+      "viewpoints": [
+        {
+          "label": "內地相關最高分",
+          "summary": "本頁內地相關標題入面分數最高，內容係身體氣味投訴。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "285",
+          "comparison": "同頁 5 頁",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地。新見，分數高過黃金周同深中擁堵。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4163135/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁上的帖文連結。"
+        }
+      ],
+      "limits": "未核對回覆，不把標題說法當事實。",
+      "next_steps": "若下輪仍在，先記分數變化。"
+    },
+    {
+      "issue_id": "HK-STANLEY-REBAR",
+      "name": "赤柱豪宅鋼筋唔見",
+      "status": "new",
+      "seen": "標題「過億元赤柱豪宅ONE STANLEY，好多鋼筋唔見咗。」時事台，分數 111，4 頁，2 分鐘前。另見「消失的鋼筋??!!」房屋台，分數 22，3 頁，剛剛。",
+      "viewpoints": [
+        {
+          "label": "兩條同一方向",
+          "summary": "時事台 111，房屋台 22，都係鋼筋不見。",
+          "evidence_ids": [
+            "L3",
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "111",
+          "comparison": "另一條 22",
+          "evidence_ids": [
+            "L3",
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港時事。本頁新見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖，未核對工程或官方說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4163392/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T16:12:00Z",
+          "read_level": "title_only",
+          "note": "赤柱豪宅標題。"
+        },
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4163409/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "read_level": "title_only",
+          "note": "房屋台鋼筋標題。",
+          "observed_at": "2026-10-02T16:12:00Z"
+        }
+      ],
+      "limits": "樓盤名稱只照標題抄，未核實。",
+      "next_steps": "有公開工程或屋宇署說法先再寫。"
+    },
+    {
+      "issue_id": "HK-CAI-TIANFENG-COOK",
+      "name": "蔡天鳳案烹煮同收納箱",
+      "status": "shift",
+      "seen": "本頁多條：屋內發現雙腿肩膀大腿同湯煲頭顱 58；控方指烹煮時加青紅蘿蔔掩蓋惡臭 61；鄺港傑兩度買帶轆收納箱並買攪拌機切肉機 71；點解烹調會有惡臭 -47；鄺球點解要殺 -9。",
+      "viewpoints": [
+        {
+          "label": "案情標題續出",
+          "summary": "最高一條 71，烹煮條 61，發現遺骸條 58。",
+          "evidence_ids": [
+            "L5",
+            "L6",
+            "L7"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "71",
+          "comparison": "另見 61、58、-47、-9",
+          "evidence_ids": [
+            "L5",
+            "L6",
+            "L7"
+          ]
+        }
+      ],
+      "why": "香港時事。舊案，本頁有新標題先入卡。",
+      "verification": {
+        "status": "unverified",
+        "note": "控方說法只照標題，未核對庭上紀錄。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4163165/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T16:12:00Z",
+          "read_level": "title_only",
+          "note": "收納箱標題，分數 71。"
+        },
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4163233/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T16:12:00Z",
+          "read_level": "title_only",
+          "note": "烹煮標題，分數 61。"
+        },
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4163304/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T16:12:00Z",
+          "read_level": "title_only",
+          "note": "遺骸標題，分數 58。"
+        }
+      ],
+      "limits": "案情細節未核。",
+      "next_steps": "對公開審訊報道。"
+    },
+    {
+      "issue_id": "HK-HELPER-WAGE-WHO",
+      "name": "外傭加人工邊個決定",
+      "status": "new",
+      "seen": "標題「點解外傭可以加人工邊個決定？」，時事台，分數 111，6 頁，40 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "政策問句",
+          "summary": "標題問決定者，未點名官員。",
+          "evidence_ids": [
+            "L8"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "111",
+          "comparison": "同頁 6 頁",
+          "evidence_ids": [
+            "L8"
+          ]
+        }
+      ],
+      "why": "香港時事。新見。不當官員卡。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/thread/4163305/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁上的帖文連結。"
+        }
+      ],
+      "limits": "最低工資或中介安排未核。",
+      "next_steps": "若標題出現部門或官員先另開卡。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-FIREWORKS-RUBBISH-CHUI",
+      "name": "煙花匯演垃圾崔定邦引述",
+      "status": "new",
+      "seen": "標題「煙花匯演後遺留大量垃圾 崔定邦：「不單只有旅客，亦包括大量本地市民」」，時事台，分數 -178，5 頁，8 分鐘前。",
+      "why": "香港時事線索。標題有引述，但冇寫職位，所以唔入官員類。",
+      "verification": {
+        "status": "unverified",
+        "note": "引述未核對原話。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": "https://lihkg.com/thread/4163283/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁上的帖文連結。"
+        }
+      ],
+      "limits": "負分只代表列表顯示，不解釋成反對人數。"
+    },
+    {
+      "issue_id": "HK-11SKIES-RENAME",
+      "name": "11 SKIES 改名國家品牌出海",
+      "status": "new",
+      "seen": "標題「機管局：11 SKIES將會改名 國家品牌「出海」平台 甚至設國家品牌車的體驗館 相信吸引到人流」，時事台，分數 -108，6 頁，7 分鐘前。",
+      "why": "香港經濟線索。機管局係標題主語，未見官員姓名。",
+      "verification": {
+        "status": "unverified",
+        "note": "未核對機管局公布。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L10",
+          "url": "https://lihkg.com/thread/4163362/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁上的帖文連結。"
+        }
+      ],
+      "limits": "改名同體驗館只照標題。"
+    }
+  ],
+  "tracking": [],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 38,
+    "items_read_full": 0,
+    "notes": "只讀吹水台熱門第 1 頁列表。"
+  }
+}
