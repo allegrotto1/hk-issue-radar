@@ -1,0 +1,739 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-02T02:00:00Z",
+    "end": "2026-10-02T03:00:00Z"
+  },
+  "generated_at": "2026-10-02T02:08:00Z",
+  "summary": [
+    "10:00 HKT 2026-10-02；吹水台熱門第 1 頁。https://lihkg.com/category/1?order=hot 有列表，屬已確認熱門排序。",
+    "對照 2026-10-02-09。國安公署 -8→-18、內地男子大駡 18→-10、廣府猴 -24 未變、特首夫人與女官華服 -138→-143、郭官有料 855→868、紅磡煙花後男子死亡 88→92、鄺球曾是警察 643→695、亞運港隊女選手傻笑 32→19、農米莊結業 49→58、美心賣出Starbucks亞洲特許 20→263、四人晚餐93000 -20→-56、美股認真討論區 1 未變。新見旺角站工程圍板打卡爆紅 -21。陪審團、TVB陪審員聽不懂、陳書君出櫃本頁未見。",
+    "內地：國安公署新總部海帆道興建中 獲爆料指工地由旅遊巴接駁工人、嚴限香港人進入 -18。內地男子大駡香港人沒質素 -10。點解要北方人要叫粵語使用者做廣府猴？咁樣好唔尊重 -24，分數未變。皇岡吸煙、雨傘12年文件本頁未見。",
+    "香港政府官員：特首夫人林麗嬋加上九名女官 齊穿華服賀77國慶 包括蔡若蓮、麥美娟、甯漢豪、羅淑佩 -143。蔡天凰慘案，郭官有料呀！ 868。蔡天鳳案陪審團、TVB稱陪審員聽不懂本頁未見。醫衞局反駁、主控畫框本頁未見。",
+    "香港時事：紅磡海濱國慶煙花匯演後 男子漂浮海面 昏迷送院後死亡 92。蔡天鳳案最令人心寒嘅係鄺球曾經係一個警察嚟 695。（亞運）港隊女選手出場時傻笑5秒 紅爆日本 19。旺角站工程圍板變打卡佈景板意外爆紅　福建客讚更勝月台 | 香港 -21。陳書君出櫃、畫師跳樓、德福、啟德、大美督、杜拜航空、耳仔鵪鶉、遊日麥當勞本頁未見。",
+    "香港經濟：雞湯米線專門店農米莊正式全線結業 主打連湯都可以飲埋十年營運成絕響 58。美心賣出Starbuck亞洲特許經營 263。（有圖）喺香港4個人食個Dinner要$93000 其實係咩玩法 -56。美股認真討論區 V̄DCCCXXVII 1，分數未變。月入十二萬、下跌無現金、紅茶冰室、來港消費200本頁未見。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 35,
+        "note": "10:08 HKT。https://lihkg.com/category/1?order=hot 有列表。只抄標題同旁邊分數。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未打開任何帖文。",
+      "娛樂、體育、成人、潮流、上班閒話標題有見但不入四類。",
+      "陪審團、TVB陪審員聽不懂、陳書君出櫃、醫衞局反駁、主控畫框、畫師跳樓、德福、啟德、大美督、杜拜航空、耳仔鵪鶉、遊日麥當勞、月入十二萬、下跌無現金、紅茶冰室、來港消費200、皇岡吸煙、雨傘12年文件本頁未見。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-NSO-HOIFAN-HQ",
+      "name": "國安公署海帆道新總部",
+      "status": "shift",
+      "seen": "標題國安公署新總部海帆道興建中 獲爆料指工地由旅遊巴接駁工人、嚴限香港人進入，分數-18。",
+      "viewpoints": [
+        {
+          "label": "分數轉負加深",
+          "summary": "09:00 輪 -8，本輪 -18。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-18",
+          "comparison": "09:00 輪 -8",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地。中央駐港機構工地標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "工地安排未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-MAN-QUALITY",
+      "name": "內地男子大駡香港人沒質素",
+      "status": "shift",
+      "seen": "標題內地男子大駡香港人沒質素，分數-10。",
+      "viewpoints": [
+        {
+          "label": "由正轉負",
+          "summary": "09:00 輪 18，本輪 -10。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-10",
+          "comparison": "09:00 輪 18",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地。對香港人質素的標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "事件細節未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-NORTHERN-CANTONESE-SLUR",
+      "name": "北方人叫粵語使用者廣府猴",
+      "status": "tracking",
+      "seen": "標題點解要北方人要叫粵語使用者做廣府猴？咁樣好唔尊重，分數-24。",
+      "viewpoints": [
+        {
+          "label": "分數未變",
+          "summary": "09:00 輪 -24，本輪 -24。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-24",
+          "comparison": "09:00 輪 -24，未變",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地。稱呼爭議標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "出處未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-CE-WIFE-OFFICIALS-GOWN",
+      "name": "特首夫人與女官華服賀國慶",
+      "status": "tracking",
+      "seen": "標題（有圖） 特首夫人林麗嬋加上九名女官 齊穿華服賀77國慶 包括蔡若蓮、麥美娟、甯漢豪、羅淑佩，分數-143。",
+      "viewpoints": [
+        {
+          "label": "仍在熱門",
+          "summary": "09:00 輪 -138，本輪 -143。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-143",
+          "comparison": "09:00 輪 -138",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港政府官員。特首夫人與點名女官標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "場合未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-CAI-TIANFENG-GUO-OFFICIAL",
+      "name": "蔡天凰案郭官有料",
+      "status": "tracking",
+      "seen": "標題蔡天凰慘案，郭官有料呀！，分數868。",
+      "viewpoints": [
+        {
+          "label": "高分維持",
+          "summary": "09:00 輪 855，本輪 868。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "868",
+          "comparison": "09:00 輪 855",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港政府官員。郭官標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "料未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-HUNG-HOM-FIREWORK-DEATH",
+      "name": "紅磡煙花後男子海面死亡",
+      "status": "tracking",
+      "seen": "標題紅磡海濱國慶煙花匯演後 男子漂浮海面 昏迷送院後死亡，分數92。",
+      "viewpoints": [
+        {
+          "label": "仍在熱門",
+          "summary": "09:00 輪 88，本輪 92。",
+          "evidence_ids": [
+            "L6"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "92",
+          "comparison": "09:00 輪 88",
+          "evidence_ids": [
+            "L6"
+          ]
+        }
+      ],
+      "why": "香港時事。煙花後海面死亡標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "死因未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-CAI-KWONG-EX-POLICE",
+      "name": "蔡天鳳案鄺球曾是警察",
+      "status": "shift",
+      "seen": "標題蔡天鳳案最令人心寒嘅係鄺球曾經係一個警察嚟，分數695。",
+      "viewpoints": [
+        {
+          "label": "分數再升",
+          "summary": "09:00 輪 643，本輪 695。",
+          "evidence_ids": [
+            "L7"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "695",
+          "comparison": "09:00 輪 643",
+          "evidence_ids": [
+            "L7"
+          ]
+        }
+      ],
+      "why": "香港時事。鄺球曾任警察標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "履歷未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-ASIANGAMES-ATHLETE-SMILE",
+      "name": "亞運港隊女選手出場傻笑",
+      "status": "shift",
+      "seen": "標題（亞運）港隊女選手出場時傻笑5秒 紅爆日本，分數19。",
+      "viewpoints": [
+        {
+          "label": "分數回落",
+          "summary": "09:00 輪 32，本輪 19。",
+          "evidence_ids": [
+            "L8"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "19",
+          "comparison": "09:00 輪 32",
+          "evidence_ids": [
+            "L8"
+          ]
+        }
+      ],
+      "why": "香港時事。亞運出場標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "賽事片段未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-MONGKOK-HOARDING",
+      "name": "旺角站圍板打卡爆紅",
+      "status": "new",
+      "seen": "標題旺角站工程圍板變打卡佈景板意外爆紅　福建客讚更勝月台 | 香港，分數-21。",
+      "viewpoints": [
+        {
+          "label": "本頁新見",
+          "summary": "09:00 輪未見此標題。本輪 -21。",
+          "evidence_ids": [
+            "L9"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-21",
+          "comparison": "上一輪未見",
+          "evidence_ids": [
+            "L9"
+          ]
+        }
+      ],
+      "why": "香港時事。港鐵旺角站圍板標題在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "工程未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-NONGMI-CLOSURE",
+      "name": "農米莊全線結業",
+      "status": "tracking",
+      "seen": "標題雞湯米線專門店農米莊正式全線結業 主打連湯都可以飲埋十年營運成絕響，分數58。",
+      "viewpoints": [
+        {
+          "label": "仍在熱門",
+          "summary": "09:00 輪 49，本輪 58。",
+          "evidence_ids": [
+            "L10"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "58",
+          "comparison": "09:00 輪 49",
+          "evidence_ids": [
+            "L10"
+          ]
+        }
+      ],
+      "why": "香港經濟。結業標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L10",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "結業公告未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-MAXIM-STARBUCKS-ASIA",
+      "name": "美心賣出Starbucks亞洲特許",
+      "status": "shift",
+      "seen": "標題美心賣出Starbuck亞洲特許經營，分數263。",
+      "viewpoints": [
+        {
+          "label": "分數急升",
+          "summary": "09:00 輪 20，本輪 263。",
+          "evidence_ids": [
+            "L11"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "263",
+          "comparison": "09:00 輪 20",
+          "evidence_ids": [
+            "L11"
+          ]
+        }
+      ],
+      "why": "香港經濟。美心特許經營標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L11",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "交易未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-DINNER-93000",
+      "name": "四人晚餐九萬三",
+      "status": "shift",
+      "seen": "標題（有圖）喺香港4個人食個Dinner要$93000 其實係咩玩法，分數-56。",
+      "viewpoints": [
+        {
+          "label": "負分加深",
+          "summary": "09:00 輪 -20，本輪 -56。",
+          "evidence_ids": [
+            "L12"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-56",
+          "comparison": "09:00 輪 -20",
+          "evidence_ids": [
+            "L12"
+          ]
+        }
+      ],
+      "why": "香港經濟。高價晚餐標題仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L12",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "帳單未核。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-US-STOCK-THREAD",
+      "name": "美股認真討論區",
+      "status": "tracking",
+      "seen": "標題美股認真討論區 V̄DCCCXXVII，分數1。",
+      "viewpoints": [
+        {
+          "label": "分數未變",
+          "summary": "09:00 輪 1，本輪 1。",
+          "evidence_ids": [
+            "L13"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "1",
+          "comparison": "09:00 輪 1，未變",
+          "evidence_ids": [
+            "L13"
+          ]
+        }
+      ],
+      "why": "香港經濟。財經台討論串仍在這一頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L13",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T02:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "不是單一公司消息。",
+      "next_steps": "只跟標題。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "US-DEATH-ROW-SURVIVED",
+      "name": "美國女死囚注藥未死",
+      "kind": "tracking",
+      "text": "標題美國女死囚注兩劑毒藥未死更打鼻鼾 獲送院接受治療，分數72。09:00 輪 67，本輪 72。不是四類主線。",
+      "related_report": "2026-10-02-09"
+    },
+    {
+      "issue_id": "HK-CLAUDE-BAN",
+      "name": "Claude 封禁大量香港人",
+      "kind": "new",
+      "text": "標題Claude 今日ban左大量香港人，分數187。09:00 輪未見。不是四類主線。",
+      "related_report": "2026-10-02-09"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-CAI-JURY-ENGLISH",
+      "name": "蔡天鳳案選出陪審團",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-02-09"
+    },
+    {
+      "issue_id": "HK-TVB-JURY-COMPREHENSION",
+      "name": "TVB稱陪審員聽不懂法官指示",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-02-09"
+    },
+    {
+      "issue_id": "HK-CHAN-COMING-OUT",
+      "name": "陳書君坦白出櫃",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-02-09"
+    },
+    {
+      "issue_id": "HK-HA-NURSES-REBUTTAL",
+      "name": "醫衞局反駁護士協會",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-CAI-PROSECUTOR-ASSET-FRAME",
+      "name": "蔡天鳳主控畫死資產框",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-ARTIST-LOAN-DEATH",
+      "name": "畫師約稿騙局跳樓",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-KOWLOONBAY-TELFORD-DEATH",
+      "name": "德福花園少女服藥死亡",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-KAI-TAK-FALL-DEATH",
+      "name": "啟德世運道男子墮樓",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-TAIMEIUK-NATIONAL-RUN",
+      "name": "大美督國慶長跑暈倒",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-DUBAI-COCKPIT-RESCUE",
+      "name": "杜拜航空乘客闖駕駛艙",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-HK-SILENCE",
+      "name": "香港人耳仔定鵪鶉",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-JAPAN-MCD-DEATH",
+      "name": "遊日疑吃麥當勞後離世",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-INCOME-120K",
+      "name": "月入十二萬係咩水平",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-NO-CASH-DOWNTURN",
+      "name": "下跌時無現金",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-RED-TEA-SHRIMP",
+      "name": "紅茶冰室蝦仁智商稅",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-VISITOR-SPEND-200",
+      "name": "來港消費四個人200元",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-HUANGGANG-SMOKING-QUEUE",
+      "name": "皇岡排隊被大陸人斥吸煙",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    },
+    {
+      "issue_id": "HK-UMBRELLA-PLA-DOCS",
+      "name": "雨傘12年解放軍文件",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-01-19"
+    }
+  ]
+}
