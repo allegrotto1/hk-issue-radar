@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-02T08:00:00Z",
+    "end": "2026-10-02T09:00:00Z"
+  },
+  "generated_at": "2026-10-02T08:10:00Z",
+  "summary": [
+    "16:10 HKT 2026-10-02；吹水台熱門第 1 頁。https://lihkg.com/category/1?order=hot 有列表，屬已確認熱門排序。只抄看見的標題同旁邊分數。沒有用戶名。沒有打開帖。頁尾「（亞運）港隊女選手出場時傻笑5秒 紅爆日本」標題仍在，旁邊分數被頁尾截斷，本輪不記分數。",
+    "對照 2026-10-02-15。仍在本頁：大陸人身體氣味 118→46、林郁婷金牌 -12→10、拳后5：0 7→2、郭官有料 970→32、大埔名校女老師 3→139、麥當勞沽鋪 30→6、今日港股 2→13、四人晚餐 -133→41、外勞又ai 7→0、鄺港傑IKEA刀具店 39→0、控方刀具店 4→14、護士丁書悅 7→-6。",
+    "本頁未見，題目未變或降溫：國安公署海帆道、TVB陪審員、天文台、鄺球曾是警察、旺角站圍板、亞運柔道咬人、東升西降、簡約公屋、紅茶冰室、農米莊、美心Starbucks。",
+    "內地：其實點解啲大陸人個身會咁臭？ 46。「台灣女兒」林郁婷奪得亞運拳擊女子60公斤級金牌！ 10。亞運｜「台灣拳后」林郁婷5：0戰勝中國好手　連2屆亞運摘金 2。國安公署本頁未見。東升西降本頁未見。",
+    "香港政府官員：蔡天凰慘案，郭官有料呀！ 32。TVB陪審員、天文台本頁未見。",
+    "香港時事：星島：大埔名校女老師慘遭 連登起底 139。名媛蔡天鳳碎屍案 控方指鄺家烹煮蔡天鳳時 加入青紅蘿蔔以掩蓋惡臭味 7。蔡天鳳碎屍案｜控方指鄺球租屋後到刀具店購碎肉工具 鄺港傑買膠箱、手套及繩子 14。鄺球點解要殺蔡天鳳？ 37。港燈擬柴灣建變電站 毗鄰樂翠臺居民反對 -101。又外勞又ai , 點樣生存？ 0。港隊女選手傻笑標題仍在，分數未見。",
+    "香港經濟：麥當勞又沽香港鋪頭 6。老老實實今日港股跌乜7？ 13。（有圖）喺香港4個人食個Dinner要$93000 其實係咩玩法 41。做唔住觀塘APMFive-Guys結業-一年連關4店 -20。紅茶冰室本頁未見，題目未變。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 35,
+        "note": "16:10 HKT。https://lihkg.com/category/1?order=hot 有列表。只抄標題同旁邊分數。頁尾港隊女選手傻笑標題在，旁邊分數未見。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未打開任何帖文。",
+      "娛樂、體育、成人、潮流、上班閒話標題有見但不入四類，成人向標題不記。",
+      "國安公署、TVB陪審員、天文台、鄺球曾是警察、旺角站圍板、柔道咬人、東升西降、簡約公屋、紅茶冰室本頁未見。",
+      "頁尾港隊女選手標題旁邊分數未抄到。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-MAINLAND-BODY-ODOUR",
+      "name": "大陸人身體氣味",
+      "status": "shift",
+      "seen": "標題其實點解啲大陸人個身會咁臭？，分數 46。",
+      "viewpoints": [
+        {
+          "label": "分數由三位數回落",
+          "summary": "15:00 輪 118，本輪 46。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "46",
+          "comparison": "15:00 輪 118",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地。本頁相關標題仍在。林郁婷金牌 -12→10，拳后5：0 7→2。國安公署、東升西降本頁未見。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題同旁邊分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T08:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "只是標題，沒有打開帖。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-CAI-TIANFENG-GUO-OFFICIAL",
+      "name": "蔡天凰案郭官有料",
+      "status": "shift",
+      "seen": "標題蔡天凰慘案，郭官有料呀！，分數 32。",
+      "viewpoints": [
+        {
+          "label": "分數由高位急跌",
+          "summary": "15:00 輪 970，本輪 32。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "32",
+          "comparison": "15:00 輪 970",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員。標題仍在。TVB陪審員、天文台本頁未見。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題同旁邊分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T08:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "只是標題，沒有打開帖。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-TAIPO-TEACHER-DOXX",
+      "name": "大埔名校女老師遭起底",
+      "status": "shift",
+      "seen": "標題星島：大埔名校女老師慘遭 連登起底，分數 139。",
+      "viewpoints": [
+        {
+          "label": "分數由個位升到三位數",
+          "summary": "15:00 輪 3，本輪 139。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "139",
+          "comparison": "15:00 輪 3",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事。本頁時事分數最高之一。同頁蔡天鳳烹煮青紅蘿蔔 7、刀具店 14、鄺球點解要殺 37、港燈柴灣變電站 -101、外勞又ai 0。鄺球曾是警察本頁未見。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題同旁邊分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T08:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "只是標題，沒有打開帖。",
+      "next_steps": "只跟標題。"
+    },
+    {
+      "issue_id": "HK-DINNER-93000",
+      "name": "四人晚餐九萬三",
+      "status": "shift",
+      "seen": "標題（有圖）喺香港4個人食個Dinner要$93000 其實係咩玩法，分數 41。",
+      "viewpoints": [
+        {
+          "label": "分數由負轉正",
+          "summary": "15:00 輪 -133，本輪 41。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "41",
+          "comparison": "15:00 輪 -133",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟。本頁相關標題分數較高。麥當勞沽鋪 30→6，今日港股 2→13。新見觀塘APM Five Guys結業 -20。紅茶冰室本頁未見。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題同旁邊分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T08:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "只是標題，沒有打開帖。",
+      "next_steps": "只跟標題。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-CAI-CARROT-ODOUR",
+      "name": "蔡天鳳案青紅蘿蔔掩蓋氣味",
+      "status": "new",
+      "seen": "標題名媛蔡天鳳碎屍案 控方指鄺家烹煮蔡天鳳時 加入青紅蘿蔔以掩蓋惡臭味，時事台，分數 7。",
+      "why": "香港時事。本頁新題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題同旁邊分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T08:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "未打開帖。",
+      "next_steps": "若下一輪仍在，再記分數。"
+    },
+    {
+      "issue_id": "HK-FIVE-GUYS-APM",
+      "name": "觀塘APM Five Guys結業",
+      "status": "new",
+      "seen": "標題做唔住觀塘APMFive-Guys結業-一年連關4店，時事台，分數 -20。",
+      "why": "香港經濟。本頁新題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題同旁邊分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T08:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "未打開帖。",
+      "next_steps": "若下一輪仍在，再記分數。"
+    },
+    {
+      "issue_id": "HK-HK-ELECTRIC-CHAIWAN",
+      "name": "港燈柴灣變電站",
+      "status": "new",
+      "seen": "標題港燈擬柴灣建變電站 毗鄰樂翠臺居民反對，時事台，分數 -101。",
+      "why": "香港時事。本頁新題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題同旁邊分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T08:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "未打開帖。",
+      "next_steps": "若下一輪仍在，再記分數。"
+    },
+    {
+      "issue_id": "HK-CAI-WHY-KILL",
+      "name": "鄺球點解要殺蔡天鳳",
+      "status": "new",
+      "seen": "標題鄺球點解要殺蔡天鳳？，時事台，分數 37。",
+      "why": "香港時事。本頁新題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有標題同旁邊分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-02T08:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁。"
+        }
+      ],
+      "limits": "未打開帖。",
+      "next_steps": "若下一輪仍在，再記分數。"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-LIN-YUTING-GOLD",
+      "name": "林郁婷亞運金牌",
+      "kind": "shift",
+      "text": "仍在本頁。「台灣女兒」林郁婷奪得亞運拳擊女子60公斤級金牌！，分數 -12→10。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-TAIWAN-BOXER-ASIAN-GAMES",
+      "name": "亞運台灣拳后勝中國",
+      "kind": "shift",
+      "text": "仍在本頁。亞運｜「台灣拳后」林郁婷5：0戰勝中國好手　連2屆亞運摘金，分數 7→2。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-MCD-HK-STORES",
+      "name": "麥當勞又沽香港鋪頭",
+      "kind": "shift",
+      "text": "仍在本頁。麥當勞又沽香港鋪頭，分數 30→6。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-HANG-SENG-TODAY",
+      "name": "今日港股",
+      "kind": "shift",
+      "text": "仍在本頁。老老實實今日港股跌乜7？，分數 2→13。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-LABOUR-MARKET",
+      "name": "外勞",
+      "kind": "shift",
+      "text": "仍在本頁。又外勞又ai , 點樣生存？，分數 7→0。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-CAI-KNIFE-SHOP",
+      "name": "蔡天鳳案刀具店",
+      "kind": "shift",
+      "text": "仍在本頁。蔡天鳳碎屍案｜控方指鄺球租屋後到刀具店購碎肉工具 鄺港傑買膠箱、手套及繩子，分數 4→14。同頁鄺港傑IKEA收納箱標題分數 39→0。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-NURSE-DING",
+      "name": "護士丁書悅",
+      "kind": "shift",
+      "text": "仍在本頁。護士丁書悅用乖乖水姦網友判囚逾7年 出獄後約一年先「釘牌」 空窗期獲院舍聘任護理總監，分數 7→-6。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-ASIANGAMES-SMILE",
+      "name": "亞運港隊女選手傻笑",
+      "kind": "tracking",
+      "text": "標題（亞運）港隊女選手出場時傻笑5秒 紅爆日本仍在本頁。旁邊分數被頁尾截斷，本輪不記分數。上一輪 32。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-NSO-HOIFAN-HQ",
+      "name": "國安公署海帆道新總部",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-TVB-JURY",
+      "name": "TVB陪審員聽不懂法官",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-HKO-RAIN",
+      "name": "天文台落雨預報",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-CAI-KWONG-EX-POLICE",
+      "name": "蔡天鳳案鄺球曾是警察",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-15"
+    },
+    {
+      "issue_id": "HK-MONGKOK-HOARDING",
+      "name": "旺角站圍板打卡爆紅",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-14"
+    },
+    {
+      "issue_id": "HK-ASIANGAMES-JUDO-BITE",
+      "name": "亞運柔道中國選手咬人",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-14"
+    },
+    {
+      "issue_id": "HK-EAST-RISE-WEST-FALL",
+      "name": "東升西降",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-14"
+    },
+    {
+      "issue_id": "HK-LIGHT-PUBLIC-HOUSING",
+      "name": "簡約公屋點解有人住",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-14"
+    },
+    {
+      "issue_id": "HK-RED-TEA-SHRIMP",
+      "name": "紅茶冰室蝦仁智商稅",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-14"
+    },
+    {
+      "issue_id": "HK-NONGMI-CLOSURE",
+      "name": "農米莊全線結業",
+      "kind": "cooling",
+      "text": "本輪熱門第一頁未見。題目未變。",
+      "related_report": "2026-10-02-13"
+    },
+    {
+      "issue_id": "HK-MAXIM-STARBUCKS-ASIA",
+      "name": "美心賣出Starbucks亞洲特許",
+      "kind": "cooling",
+      "text": "本輪熱門頁未再見到此標題。",
+      "related_report": "2026-10-02-13"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 35,
+    "items_read_full": 0,
+    "notes": "只讀熱門第一頁標題同旁邊分數。"
+  }
+}
