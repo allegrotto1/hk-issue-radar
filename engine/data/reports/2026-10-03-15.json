@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-03T07:00:00Z",
+    "end": "2026-10-03T08:00:00Z"
+  },
+  "generated_at": "2026-10-03T07:08:00Z",
+  "summary": [
+    "15:00 HKT 2026-10-03。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot ，頁面標題為吹水台，有列表，未見登入牆或 captcha。未打開帖文。分數用同一列頁數選單的帖文編號對上標題，不抄用戶名。對照 2026-10-03-14.json。",
+    "內地：有，主線轉到壽司。「大陸人買壽司去麥當勞開餐」162（14 版 135），4 頁，21 分鐘前。皇室假期仍在，但這一頁是 38、6 頁、32 分鐘前，低過 14 版所記 1037。眼鏡由 36 轉到 -62，4 頁。國足友賽由 -17 轉到 54，3 頁。鎌倉打卡點這一頁未見，不沿用。新題「呢幾日多左大陸小姐姐來香港，有冇覺得市容好左？」-22，2 頁，未過壽司。",
+    "香港政府官員：這一頁仍有立法會議員姓名。「江玉歡促派便衣車廂內執法 嚴打手機噪音」162（14 版 -82），3 頁，剛剛。管浩鳴這一頁未見，不沿用。",
+    "香港時事：有，主線轉到生存帖。「香港越嚟越難生存」1046，21 頁，5 分鐘前；14 版標題在頁尾、分數未抄到，今次抄到。14 版主線「其實香港係搞緊咩野」落到 -17，2 頁。黃澤林奪金由 42 升到 380，8 頁。天水圍男警墮樓 49，2 頁，剛剛，新題。蔡天鳳案標題仍在，不轉述作案細節，不入主卡。",
+    "香港經濟：有，主線由電費轉到赤柱豪宅。「過億元赤柱豪宅ONE STANLEY，好多鋼筋唔見咗。」347（14 版 -15），11 頁，1 分鐘前。電費落到 -52（14 版 340），5 頁。11 SKIES 由 46 到 52，4 頁。房屋台「消失的鋼筋??!!」383，10 頁。分手裁員帖在感情台 -142，不當主卡。大阪麥當勞 -17 是日本標題，不入主卡。",
+    "色情、娛樂同體育標題有見，不收做主卡。亞運港隊討論區分數 0，不入主卡。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 39,
+        "note": "15:08 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同旁邊分數，未估分。帖文編號由同一列頁數選單對上：4163404、4163318、4161989、4163392、4163074、4163067、4163524、4163486、4163448、4163488、4163409、4163555、4163616、4163534、4163112。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未打開任何帖文。",
+      "Threads 本輪未用來填卡。",
+      "鎌倉打卡點、管浩鳴這一頁未見，不沿用舊分。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-MAINLAND-SUSHI-MCD",
+      "name": "大陸人買壽司去麥當勞開餐",
+      "status": "shift",
+      "seen": "標題「大陸人買壽司去麥當勞開餐」，時事台，列表分數 162，4 頁，21 分鐘前。14 版同題 135。",
+      "viewpoints": [
+        {
+          "label": "內地主線改到壽司",
+          "summary": "壽司由 135 升到 162，高過這一頁的皇室假期 38 同眼鏡 -62。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "162",
+          "comparison": "14 版 135；同頁 4 頁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地。舊題仍在，分數再升，並且高過同頁其他內地題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4163404/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T07:08:00Z",
+          "read_level": "title_only",
+          "note": "壽司標題，分數 162。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-LEGCO-KONG",
+      "name": "江玉歡促車廂便衣執法",
+      "status": "shift",
+      "seen": "標題「江玉歡促派便衣車廂內執法 嚴打手機噪音」，時事台，列表分數 162，3 頁，剛剛。14 版同題 -82。",
+      "viewpoints": [
+        {
+          "label": "官員題由負轉正",
+          "summary": "這一頁仍只有江玉歡這個官員姓名，分數由 -82 轉到 162。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "162",
+          "comparison": "14 版 -82；同頁 3 頁",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員。舊題仍在，分數由負轉正，繼續做主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4163318/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T07:08:00Z",
+          "read_level": "title_only",
+          "note": "江玉歡標題，分數 162。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-HARD-TO-SURVIVE",
+      "name": "香港越嚟越難生存",
+      "status": "shift",
+      "seen": "標題「香港越嚟越難生存」，時事台，列表分數 1046，21 頁，5 分鐘前。14 版標題在頁尾，分數未抄到。",
+      "viewpoints": [
+        {
+          "label": "時事主線改到生存帖",
+          "summary": "今次抄到 1046，是這一頁最高分。14 版主線「其實香港係搞緊咩野」已落到 -17。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "1046",
+          "comparison": "14 版分數未抄到；同頁 21 頁",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事。舊題仍在，今次先抄到分數，並且高過同頁其他時事題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4161989/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T07:08:00Z",
+          "read_level": "title_only",
+          "note": "生存標題，分數 1046。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-STANLEY-REBAR",
+      "name": "赤柱豪宅鋼筋唔見",
+      "status": "shift",
+      "seen": "標題「過億元赤柱豪宅ONE STANLEY，好多鋼筋唔見咗。」，時事台，列表分數 347，11 頁，1 分鐘前。14 版同題 -15。",
+      "viewpoints": [
+        {
+          "label": "經濟主線由電費轉到豪宅",
+          "summary": "赤柱豪宅由 -15 升到 347。電費由 340 落到 -52，11 SKIES 只到 52。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "347",
+          "comparison": "14 版 -15；同頁 11 頁",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟。舊題仍在，分數由負轉正，高過電費同 11 SKIES。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4163392/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T07:08:00Z",
+          "read_level": "title_only",
+          "note": "赤柱豪宅標題，分數 347。"
+        }
+      ]
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-ASIAN-GAMES-WONG",
+      "name": "亞運網球男單黃澤林奪金",
+      "status": "shift",
+      "seen": "標題「亞運網球男單 黃澤林奪金」，時事台，380，8 頁，7 分鐘前。14 版 42。",
+      "why": "香港時事。舊題仍在，分數再升，未過生存帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4163555/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T07:08:00Z",
+          "read_level": "title_only",
+          "note": "黃澤林標題，分數 380。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-TIN-SHUI-WAI-OFFICER",
+      "name": "天水圍男警墮樓",
+      "status": "new",
+      "seen": "標題「天水圍天澤邨潤澤樓32歲男警墮樓死亡」，時事台，49，2 頁，剛剛。14 版未見。",
+      "why": "香港時事。新題仍在這一頁，分數未過生存帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4163616/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T07:08:00Z",
+          "read_level": "title_only",
+          "note": "天水圍男警標題，分數 49。"
+        }
+      ]
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-SZ-ROYAL-HOLIDAY",
+      "name": "深圳皇室假期執笠",
+      "status": "cooling",
+      "seen": "標題「深圳皇室假期執笠」，時事台，38，6 頁，32 分鐘前。14 版記 1037。",
+      "note": "內地。舊題仍在，這一頁分數低過 14 版所記，亦低過壽司。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-GLASSES",
+      "name": "大陸妹眼鏡款式",
+      "status": "cooling",
+      "seen": "標題「點解啲大陸妹咁鍾意帶呢款眼鏡？」，學術台，-62，4 頁，31 分鐘前。14 版 36。",
+      "note": "內地。舊題仍在，由正轉負。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-FOOTBALL",
+      "name": "國足友賽負巴勒斯坦",
+      "status": "shift",
+      "seen": "標題「國足友賽0:5負巴勒斯坦 主場兩場全敗狂失8球 網民：臉都不要了﹗應原地解散」，時事台，54，3 頁，4 分鐘前。14 版 -17。",
+      "note": "內地。舊題仍在，由負轉正，未過壽司。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-VISITORS",
+      "name": "大陸小姐姐來香港",
+      "status": "new",
+      "seen": "標題「呢幾日多左大陸小姐姐來香港，有冇覺得市容好左？」，時事台，-22，2 頁，14 分鐘前。14 版未見。",
+      "note": "內地。新題仍在，分數為負，未過壽司。"
+    },
+    {
+      "issue_id": "HK-WHAT-IS-HAPPENING",
+      "name": "其實香港係搞緊咩野",
+      "status": "cooling",
+      "seen": "標題「其實香港係搞緊咩野」，時事台，-17，2 頁，37 分鐘前。14 版 317。",
+      "note": "香港時事。舊題仍在，分數回落，不再做主位。"
+    },
+    {
+      "issue_id": "HK-REBAR-MISSING",
+      "name": "消失的鋼筋",
+      "status": "shift",
+      "seen": "標題「消失的鋼筋??!!」，房屋台，383，10 頁，3 分鐘前。14 版 -61。",
+      "note": "香港經濟。舊題仍在，分數由負轉正，未過赤柱豪宅主卡以外的並列高分。"
+    },
+    {
+      "issue_id": "HK-POWER-BILL",
+      "name": "張致恒一期電費",
+      "status": "cooling",
+      "seen": "標題「大顛！張致恒一期電費：$9,489」，時事台，-52，5 頁，28 分鐘前。14 版 340。",
+      "note": "香港經濟。舊題仍在，分數由正轉負，不再做主位。"
+    },
+    {
+      "issue_id": "HK-11SKIES-SIZE",
+      "name": "11 SKIES 面積",
+      "status": "shift",
+      "seen": "標題「屌，11 SKIES原來有成5個圍方咁撚大？」，時事台，52，4 頁，6 分鐘前。14 版 46。",
+      "note": "香港經濟。舊題仍在，分數略升，未過赤柱豪宅。"
+    },
+    {
+      "issue_id": "HK-LIGHT-PUBLIC-HOUSING",
+      "name": "簡約公屋",
+      "status": "new",
+      "seen": "標題「到底d人點解可以住到簡約公屋？」，時事台，85，6 頁，16 分鐘前。14 版未見。",
+      "note": "香港經濟。新題仍在，分數未過赤柱豪宅。"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 39,
+    "items_read_full": 0,
+    "notes": "只讀吹水台熱門第 1 頁列表。14 版未再出現的題不佔主位，包括鎌倉打卡點、管浩鳴。蔡天鳳案標題仍在，不轉述作案細節。色情同娛樂標題不入主卡。分數以頁數選單帖文編號對上，不抄用戶名。"
+  }
+}
