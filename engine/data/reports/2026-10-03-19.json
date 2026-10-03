@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-03T11:00:00Z",
+    "end": "2026-10-03T12:00:00Z"
+  },
+  "generated_at": "2026-10-03T11:05:00Z",
+  "summary": [
+    "19:00 HKT 2026-10-03。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot ，頁面標題為吹水台，有列表，未見登入牆或 captcha。未打開帖文。分數用同一張卡對上標題，不抄用戶名。對照 2026-10-03-18.json。",
+    "內地：有，主線轉走。18 版主線「深圳皇室假期執笠」標題仍在頁末，但同一張卡分數被頁尾截斷，這次不抄分、不沿用 43。現時最高的內地題是「呢幾日多左大陸小姐姐來香港，有冇覺得市容好左？」500（18 版 -51），9 頁，10 分鐘前。破邊洲黃金周膠樽 204，3 頁。眼鏡 111（18 版 -67），3 頁。",
+    "香港政府官員：有，主線轉走。18 版「江玉歡促派便衣車廂內執法」這一頁未見，不沿用。現時見到的官員姓名是陳美寶。「11 SKIES將升級轉型　陳美寶：探討無縫交通接駁　配合二號航廈重新定位高端旅遊地標」29，2 頁，5 分鐘前。",
+    "香港時事：有，主線轉走。18 版主線「湯告魯斯套Digger被禁對白流出，難怪香港唔俾上畫」仍在，但分數由 324 到 -34，6 頁，10 分鐘前。現時最高的非體育時事題是火燒回憶帖 422，4 頁，12 分鐘前。天水圍男警由 272 到 -1，36 頁。聖若瑟校規由 -10 到 -59，3 頁。蔡天鳳案 Day8 標題仍在，分數 288，不轉述作案細節，不入主卡。",
+    "香港經濟：有，主線轉走。18 版主線「消失的鋼筋??!!」仍在，由 448、11 頁到 54、4 頁，2 分鐘前。赤柱豪宅由 374 到 -84，3 頁。11 SKIES 面積由 74 到 3，2 頁。張致恒電費這一頁未見，不沿用。「唔到你唔服李嘉誠」112（18 版 135），3 頁，高過鋼筋。",
+    "色情、娛樂同體育標題有見，不收做主卡。黃澤林奪金由 491 到 20，3 頁，仍屬體育相關，不入主卡。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 37,
+        "note": "19:05 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同同一張卡分數，未估分。帖文編號由同一張卡對上：4163534、4163654、4163067、4163074、4163590、4163527、4163608、4163616、4163536、4163566、4163680、4163592、4163409、4163392、4163488、4163555。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未打開任何帖文。",
+      "Threads 本輪未用來填卡。",
+      "江玉歡、張致恒電費這一頁未見，不沿用舊分。",
+      "皇室假期標題在頁末，同一張卡分數未顯示，不沿用 18 版 43。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-MAINLAND-VISITORS",
+      "name": "大陸小姐姐來香港",
+      "status": "shift",
+      "seen": "標題「呢幾日多左大陸小姐姐來香港，有冇覺得市容好左？」，時事台，列表分數 500，9 頁，10 分鐘前。18 版同題記 -51、2 頁。",
+      "viewpoints": [
+        {
+          "label": "內地主線轉到旅客觀感",
+          "summary": "這一列分數 500、9 頁，高過同頁破邊洲 204 同眼鏡 111。皇室假期標題仍在，分數未顯示。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "500",
+          "comparison": "18 版記 -51；同頁 9 頁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地。舊題仍在這一頁，分數由負轉正並且高過其他可見內地題，主線不再用未見分數的皇室假期。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4163534/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T11:05:00Z",
+          "read_level": "title_only",
+          "note": "大陸小姐姐標題，分數 500，9 頁。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-CHAN-MEI-BO-11SKIES",
+      "name": "陳美寶談 11 SKIES 轉型",
+      "status": "new",
+      "seen": "標題「11 SKIES將升級轉型　陳美寶：探討無縫交通接駁　配合二號航廈重新定位高端旅遊地標」，時事台，列表分數 29，2 頁，5 分鐘前。18 版未收此題。",
+      "viewpoints": [
+        {
+          "label": "官員姓名這一頁只見陳美寶",
+          "summary": "江玉歡這一頁未見。陳美寶標題分數 29、2 頁。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "29",
+          "comparison": "18 版無此題；同頁 2 頁",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員。這一頁見到的官員姓名是運輸及物流局局長陳美寶，江玉歡未見，不沿用。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4163590/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T11:05:00Z",
+          "read_level": "title_only",
+          "note": "陳美寶標題，分數 29，2 頁。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-FIRE-SAVINGS",
+      "name": "兼職女生火燒回憶同儲蓄",
+      "status": "new",
+      "seen": "標題「一個女仔好好地咁邊讀書邊返兼職 一場火燒曬由細到大嘅回憶 儲錢儲到六位數燒到負債 佢到底賺咗喺邊？」，時事台，列表分數 422，4 頁，12 分鐘前。18 版未收此題。",
+      "viewpoints": [
+        {
+          "label": "時事主線轉到火警帖",
+          "summary": "這一列分數 422、4 頁，高過被禁對白 -34 同天水圍 -1。蔡天鳳案 Day8 標題 288，不入主卡。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "422",
+          "comparison": "18 版無此題；同頁 4 頁",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事。被禁對白仍在但分數轉負，這一頁最高的非體育時事題是火燒回憶帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4163527/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T11:05:00Z",
+          "read_level": "title_only",
+          "note": "火燒回憶標題，分數 422，4 頁。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-LI-KA-SHING-UNCONVINCED",
+      "name": "唔到你唔服李嘉誠",
+      "status": "shift",
+      "seen": "標題「唔到你唔服李嘉誠」，財經台，列表分數 112，3 頁，1 分鐘前。18 版同題記 135、2 頁。",
+      "viewpoints": [
+        {
+          "label": "經濟主線轉到李嘉誠",
+          "summary": "這一列分數 112、3 頁，高過消失的鋼筋 54。赤柱豪宅 -84，11 SKIES 面積 3。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "112",
+          "comparison": "18 版記 135；同頁 3 頁",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟。舊題仍在，分數回落但仍高過鋼筋同赤柱，主線不再用回落的鋼筋。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4163592/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T11:05:00Z",
+          "read_level": "title_only",
+          "note": "李嘉誠標題，分數 112，3 頁。"
+        }
+      ]
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-GOLDEN-WEEK-LITTER",
+      "name": "黃金周破邊洲膠樽",
+      "status": "new",
+      "seen": "標題「10.1黃金周｜破邊洲預約連日近半「甩底」　「东鹏特饮」、「农夫山泉」等簡體字飲品膠樽亂棄山野」，時事台，列表分數 204，3 頁，1 分鐘前。",
+      "why": "內地。新題在這一頁，分數 204，未過大陸小姐姐。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4163654/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-03T11:05:00Z",
+          "read_level": "title_only",
+          "note": "破邊洲標題，分數 204，3 頁。"
+        }
+      ]
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-SZ-ROYAL-HOLIDAY",
+      "name": "深圳皇室假期執笠",
+      "status": "tracking",
+      "seen": "標題「深圳皇室假期執笠」，時事台，頁末可見，同一張卡分數未顯示。",
+      "note": "內地。舊題標題仍在，分數被頁尾截斷，不沿用 18 版 43，未過大陸小姐姐。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-GLASSES",
+      "name": "大陸妹眼鏡款式",
+      "status": "shift",
+      "seen": "標題「點解啲大陸妹咁鍾意帶呢款眼鏡？」，學術台，分數 111，3 頁，7 分鐘前。",
+      "note": "內地。舊題仍在，由 18 版 -67 到 111，未過大陸小姐姐。"
+    },
+    {
+      "issue_id": "HK-DIGGER-BANNED-LINE",
+      "name": "湯告魯斯被禁對白",
+      "status": "cooling",
+      "seen": "標題「湯告魯斯套Digger被禁對白流出，難怪香港唔俾上畫」，時事台，分數 -34，6 頁，10 分鐘前。",
+      "note": "香港時事。舊主線仍在，由 324 到 -34，不再做主位。"
+    },
+    {
+      "issue_id": "HK-TIN-SHUI-WAI-OFFICER",
+      "name": "天水圍男警墮樓",
+      "status": "cooling",
+      "seen": "標題「天水圍天澤邨潤澤樓32歲男警墮樓死亡」，時事台，分數 -1，36 頁，剛剛。",
+      "note": "香港時事。舊題仍在，由 272 到 -1，未過火燒回憶帖。"
+    },
+    {
+      "issue_id": "HK-ST-JOSEPH-RULES",
+      "name": "聖若瑟英文中學校規",
+      "status": "cooling",
+      "seen": "標題「聖若瑟英文中學實施嚴厲校規猶如坐監！5分鐘小息時間學生不准擅自離開班房！」，時事台，分數 -59，3 頁，剛剛。",
+      "note": "香港時事。舊題仍在，由 -10 到 -59，未過火燒回憶帖。"
+    },
+    {
+      "issue_id": "HK-ABBY-CASE-TITLE",
+      "name": "蔡天鳳案審理標題",
+      "status": "shift",
+      "seen": "蔡天鳳案 Day8 標題仍在時事台，分數 288，5 頁，17 分鐘前。另一條「可以打入香港十大奇案頭三?」分數 -4，2 頁。",
+      "note": "香港時事。標題仍在，不轉述作案細節，不入主卡。"
+    },
+    {
+      "issue_id": "HK-ASIAN-GAMES-WONG",
+      "name": "亞運網球男單黃澤林奪金",
+      "status": "cooling",
+      "seen": "標題「亞運網球男單 黃澤林奪金」，時事台，分數 20，3 頁，3 分鐘前。",
+      "note": "體育相關。舊題仍在，由 491 到 20，不入主卡。"
+    },
+    {
+      "issue_id": "HK-REBAR-MISSING",
+      "name": "消失的鋼筋",
+      "status": "cooling",
+      "seen": "標題「消失的鋼筋??!!」，房屋台，分數 54，4 頁，2 分鐘前。",
+      "note": "香港經濟。舊主線仍在，由 448、11 頁到 54、4 頁，未過李嘉誠。"
+    },
+    {
+      "issue_id": "HK-STANLEY-REBAR",
+      "name": "赤柱豪宅鋼筋唔見",
+      "status": "cooling",
+      "seen": "標題「過億元赤柱豪宅ONE STANLEY，好多鋼筋唔見咗。」，時事台，分數 -84，3 頁，1 分鐘前。",
+      "note": "香港經濟。舊題仍在，由 374 到 -84，未過李嘉誠。"
+    },
+    {
+      "issue_id": "HK-11SKIES-SIZE",
+      "name": "11 SKIES 面積",
+      "status": "cooling",
+      "seen": "標題「屌，11 SKIES原來有成5個圍方咁撚大？」，時事台，分數 3，2 頁，12 分鐘前。",
+      "note": "香港經濟。舊題仍在，由 74 到 3，未過李嘉誠。"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 37,
+    "items_read_full": 0,
+    "notes": "只讀吹水台熱門第 1 頁列表。18 版未再出現的題不佔主位，包括江玉歡、張致恒電費。皇室假期標題仍在，分數未顯示，不沿用舊分。被禁對白這次抄到 -34、6 頁。蔡天鳳案標題仍在，不轉述作案細節。色情同娛樂標題不入主卡。分數以同一張卡對上，不抄用戶名。"
+  }
+}
