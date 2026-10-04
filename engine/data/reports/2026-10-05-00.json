@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-04T16:00:00Z",
+    "end": "2026-10-04T17:00:00Z"
+  },
+  "generated_at": "2026-10-04T16:12:00Z",
+  "summary": [
+    "00:12 HKT 2026-10-05。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，HTML 對上 45 條帖文標題同 thread id。未見登入牆或 captcha。未打開帖文，只抄標題、台別、列表分數同頁數。",
+    "內地：有，主位用新見帖。時事台「內地司機因語言溝通問題 教啟德保安「做人」 ：學一下普通話 在中國混要學普通話」54、2 頁、2 小時前。舊題屯馬線座位仍在，336、3 頁，改做線索。學術台「點解啲大陸妹咁鍾意帶呢款眼鏡？」25、2 頁；時事台中國年輕夫婦澳洲永居遇車禍 -107、8 頁；創意台「返深圳揼完邪骨有啲反思」-198、7 頁。上一版大陸小姐姐市容、黃金週、柏林馬拉松本頁未見，不沿用舊分。",
+    "香港政府官員：未見點名官員。上一版孫玉菡帖、屋宇署赤柱圖則帖本頁未見，不沿用舊分。今輪用時事台「食環署：派員到西貢營地「呼籲遊人正確使用公廁」」164、4 頁、2 分鐘前。另見時事台「屋宇署又瀨野........」-42、3 頁、18 分鐘前，分數低，只在摘要。",
+    "香港時事：有，主位換新帖。時事台鑽石山女子持刀兩條：突發帖分數 2、36 頁、剛剛；荷里活廣場更新帖 99、4 頁、6 分鐘前。房屋台「建灝地產One Stanley豆腐工程 公關團隊係咪炒得？」141、7 頁、4 分鐘前；時事台建灝深夜回應 -20、5 頁、1 分鐘前。海洋公園動物走失 41、4 頁、1 小時前，上一版 12、2 頁。長沙灣牡丹樓墮下 -89、4 頁。蔡天鳳碎屍案仍在，114、8 頁，舊題不佔主位。湯告魯斯禁對白、鄺球本頁未見，不沿用舊分。",
+    "香港經濟：有，主位換新帖。房屋台「穗禾苑點解跌得咁勁」552、6 頁、剛剛。舊題吹水台「香港離境稅都幾撚癲」242、8 頁、6 分鐘前，做線索。財經台「唔到你唔服李嘉誠」-77、4 頁、14 分鐘前，上一版 75，分數轉負，不佔主位。上一版油塘二手樓、單身公屋深圳北本頁未見，不沿用舊分。",
+    "色情、娛樂同體育帖有見，不收做主卡。創意台飛機杯帖 -349、8 頁。玩具台 BANDAI 帖 691、6 頁。學術台 AI 餅 349、6 頁。時事台台灣選舉 388、5 頁，不是香港四類主位。頁末 Cornell 標題看見，旁邊分數未在列表對上，不估分。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 45,
+        "note": "00:12 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同旁邊分數，未估分。頁面 HTML 見到 thread id，對上 45 條標題。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未打開任何帖文。",
+      "Threads 本輪只做已有追蹤帖的數字，不用來填卡。",
+      "上一版孫玉菡帖本頁未見，不沿用 -29。",
+      "上一版屋宇署赤柱圖則帖本頁未見，不沿用 -110。",
+      "上一版大陸小姐姐市容帖本頁未見，不沿用 364。",
+      "上一版油塘二手樓帖本頁未見，不沿用 313。",
+      "頁末 Cornell 標題看見，旁邊分數未對上，不估分。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-SUI-WO-DROP",
+      "name": "穗禾苑叫價回落",
+      "status": "new",
+      "seen": "房屋台標題「穗禾苑點解跌得咁勁」，列表分數 552，6 頁，剛剛。",
+      "viewpoints": [
+        {
+          "label": "列表高分",
+          "summary": "本頁四類相關標題入面，呢條分數最高。標題只問點解跌得勁，未見成交價。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "552",
+          "comparison": "同頁 6 頁",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港經濟。新題，按見到的分數排最前。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文，未核對屋苑成交。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4164054/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁 HTML 見到 thread/4164054，對上該標題。"
+        }
+      ],
+      "limits": "未核對叫價或成交，不把標題當成樓價已跌的幅度。",
+      "next_steps": "下一輪再睇呢條仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-DIAMOND-HILL-KNIFE",
+      "name": "鑽石山女子持刀",
+      "status": "new",
+      "seen": "時事台兩條。突發帖「（突發）鑽石山疑有女子持刀遊蕩 警出動反恐特勤隊追尋下落」，列表分數 2，36 頁，剛剛。更新帖「鑽石山驚傳女子持刀　人員持盾搜索荷里活廣場 閉路電視顯示最後出沒於慈正邨正暉樓 （更新）」，列表分數 99，4 頁，6 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "同一題兩帖",
+          "summary": "突發帖頁數多、分數低；更新帖分數較高、頁數較少。兩條都只見到標題。",
+          "evidence_ids": ["L2", "L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "突發帖列表分數",
+          "value": "2",
+          "comparison": "同頁 36 頁",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "metric": "更新帖列表分數",
+          "value": "99",
+          "comparison": "同頁 4 頁",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事。新題，兩條都在本頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文，未核對警方通報。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4164087/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁 HTML 見到 thread/4164087，對上突發標題。"
+        },
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4164093/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁 HTML 見到 thread/4164093，對上更新標題。"
+        }
+      ],
+      "limits": "標題寫疑有持刀同人員搜索，未核對是否已尋回或有人受傷。",
+      "next_steps": "下一輪再睇兩條仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ONE-STANLEY-PR",
+      "name": "One Stanley 豆腐工程",
+      "status": "new",
+      "seen": "房屋台「建灝地產One Stanley豆腐工程 公關團隊係咪炒得？」141、7 頁、4 分鐘前。時事台「建灝地產深夜回應：嚴肅跟進赤柱ONE STANLEY獨立屋施工質量事項」-20、5 頁、1 分鐘前。上一版屋宇署圖則帖本頁未見。",
+      "viewpoints": [
+        {
+          "label": "工程帖同回應帖",
+          "summary": "工程帖分數高過回應帖。回應帖標題寫嚴肅跟進施工質量，帖內原文未核。",
+          "evidence_ids": ["L4", "L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "工程帖列表分數",
+          "value": "141",
+          "comparison": "同頁 7 頁",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "metric": "回應帖列表分數",
+          "value": "-20",
+          "comparison": "同頁 5 頁",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港時事。赤柱獨立屋質量係舊題延續，今輪係新標題，屋宇署圖則帖已不在本頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文，未核對署方或發展商原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4163736/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁 HTML 見到 thread/4163736，對上工程標題。"
+        },
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4163854/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁 HTML 見到 thread/4163854，對上回應標題。"
+        }
+      ],
+      "limits": "不把標題裡的豆腐工程寫成已核實的施工結論。",
+      "next_steps": "下一輪再睇工程帖同回應帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-FEHD-SAI-KUNG",
+      "name": "食環署西貢營地公廁",
+      "status": "new",
+      "seen": "時事台標題「食環署：派員到西貢營地「呼籲遊人正確使用公廁」」，列表分數 164，4 頁，2 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "部門標題",
+          "summary": "本頁未見點名官員。呢條係署方行動標題，分數高過屋宇署又瀨野的 -42。",
+          "evidence_ids": ["L6"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "164",
+          "comparison": "同頁 4 頁",
+          "evidence_ids": ["L6"]
+        }
+      ],
+      "why": "香港政府官員。未見點名官員，用仍在頁上的署方帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文，未核對食環署公布。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4164069/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁 HTML 見到 thread/4164069，對上該標題。"
+        }
+      ],
+      "limits": "標題引號入面的字未對署方原文。",
+      "next_steps": "下一輪再睇呢條仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-KAITAK-MANDARIN",
+      "name": "啟德內地司機同普通話",
+      "status": "new",
+      "seen": "時事台標題「內地司機因語言溝通問題 教啟德保安「做人」 ：學一下普通話 在中國混要學普通話」，列表分數 54，2 頁，2 小時前。",
+      "viewpoints": [
+        {
+          "label": "新見內地相關",
+          "summary": "分數低過仍在頁上的屯馬線 336，但屯馬線係舊題，今輪新題優先入主位。",
+          "evidence_ids": ["L7"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "54",
+          "comparison": "同頁 2 頁",
+          "evidence_ids": ["L7"]
+        }
+      ],
+      "why": "內地。新見標題，涉及啟德同語言。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文，未核對現場片段。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4163562/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁 HTML 見到 thread/4163562，對上該標題。"
+        }
+      ],
+      "limits": "不把標題寫成已核實的對話。",
+      "next_steps": "下一輪再睇呢條仲在唔在熱門第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-TML-MAINLAND-SEAT",
+      "name": "屯馬線大陸人座位",
+      "status": "tracking",
+      "seen": "時事台標題「屯馬線「香港男神」屌晒大陸人強行5人坐4人座！值得respect！！！」，列表分數 336，3 頁，1 小時前。上一版 54、3 頁。",
+      "why": "內地。舊題仍在，分數回升，高過新主卡啟德 54，但新題優先，不做主卡。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/thread/4163800/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T16:12:00Z",
+          "read_level": "title_only",
+          "note": "本輪熱門頁 HTML 見到 thread/4163800，對上該標題。"
+        }
+      ],
+      "limits": "不把標題當成已核實的車廂片段。"
+    },
+    {
+      "issue_id": "HK-DEPARTURE-TAX",
+      "name": "香港離境稅",
+      "status": "tracking",
+      "seen": "吹水台標題「香港離境稅都幾撚癲」，列表分數 242，8 頁，6 分鐘前。上一版 106、6 頁。",
+      "why": "香港經濟。舊題仍在，分數回升，低過新主卡穗禾苑 552。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文，未核對稅項是否已實施。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": "https://lihkg.com/thread/4163758/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T16:12:00Z",
+          "read_level": "title_only",
+          "note": "本輪熱門頁 HTML 見到 thread/4163758，對上該標題。"
+        }
+      ],
+      "limits": "標題未說明稅額同生效日期。"
+    }
+  ],
+  "tracking": [],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 45,
+    "items_read_full": 0,
+    "notes": "只讀吹水台熱門第 1 頁列表。對照 2026-10-04-14.json（06:08Z）。"
+  }
+}
