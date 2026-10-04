@@ -5,44 +5,43 @@
     "start": "2026-10-04T04:00:00Z",
     "end": "2026-10-04T05:00:00Z"
   },
-  "generated_at": "2026-10-04T04:06:00Z",
+  "generated_at": "2026-10-04T04:09:00Z",
   "summary": [
-    "12:00 HKT 2026-10-04。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，結構化列表約 39 條，未見登入牆或 captcha。未打開帖文，只抄標題、台別、列表分數同頁數。",
-    "內地：有，主位換帖。時事台「深圳皇室假期執笠」169、10 頁，上一版 JSON 本頁未見。舊主卡時事台「呢幾日多左大陸小姐姐來香港，有冇覺得市容好左？」19、9 頁，上一版 161、5 頁。時事台十一黃金週大陸環境帖 -119、6 頁，上一版 43、4 頁。學術台眼鏡帖 19、8 頁，上一版 17。時事台屯馬線大陸人座位帖 -20、4 頁，上一版 26、4 頁。",
-    "香港政府官員：有，主位未變。時事台「羅局長繼續坐喺度都贏」802、6 頁，上一版 87、6 頁。舊卡孫玉菡社福數據平台帖 -12、2 頁，上一版 -61、3 頁。",
-    "香港時事：有，主位換帖。時事台「湯告魯斯套Digger被禁對白流出，難怪香港唔俾上畫」419、8 頁，上一版 2、35 頁。舊主卡「其實鄺球當初點解會咁on9決定落手」145、3 頁，上一版 449、19 頁。蔡天鳳案 Day8 帖 60、9 頁，上一版 JSON 未見。屋宇署 One Stanley 圖則不符帖 6、2 頁，本頁新見；房屋台公關帖 92、6 頁，上一版 90；深夜回應帖 33、3 頁，上一版 25。上一版屋宇署調查帖 418 本頁未見。陳凱林帖標題仍在，列表分數被頁尾遮住，不抄分。",
-    "香港經濟：有，主位換帖。房屋台「油塘呢口價令我重新評估香港二手樓前景」307、6 頁，上一版 -79、4 頁。舊主卡吹水台「香港離境稅都幾撚癲」161、6 頁，上一版 153、6 頁。時事台 11 SKIES 97、7 頁，上一版 92。財經台「唔到你唔服李嘉誠」66、3 頁，上一版 62。",
-    "色情、娛樂同體育帖有見，不收做主卡。創意台連床哥帖 580、5 頁，體育台標槍帖 -120、4 頁，只在摘要記一筆。兼職女仔一場火燒回憶本頁未見。"
+    "12:09 HKT 2026-10-04。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，列表可見約 36 條後被頁尾截斷。未見登入牆或 captcha。未打開帖文，只抄標題、台別、列表分數同頁數。",
+    "內地：有，主位未變。時事台「深圳皇室假期執笠」169、10 頁，剛剛，上一版同檔 169、10 頁。舊卡時事台「呢幾日多左大陸小姐姐來香港，有冇覺得市容好左？」60、9 頁，上一版 19、9 頁。時事台十一黃金週大陸環境帖 -119、6 頁，與上一版相同。學術台眼鏡帖 19、8 頁，未變。時事台屯馬線大陸人座位帖 -20、4 頁，未變。",
+    "香港政府官員：有，主位換帖。上一版主卡時事台「羅局長繼續坐喺度都贏」本頁未見，不沿用 802。仍在頁上的是時事台「港府計劃建立「社福數據分享平台」 精準篩選「高風險人士或家庭」 孫玉菡：市民不可以選擇退出」-13、2 頁，4 分鐘前，上一版 -12、2 頁。",
+    "香港時事：有，主位未變。時事台「湯告魯斯套Digger被禁對白流出，難怪香港唔俾上畫」419、8 頁，51 分鐘前，上一版 419、8 頁。舊卡「其實鄺球當初點解會咁on9決定落手」146、3 頁，上一版 145、3 頁。屋宇署 One Stanley 圖則不符帖 6、2 頁；房屋台公關帖 92、6 頁；深夜回應帖 34、3 頁，上一版 33。上一版蔡天鳳案 Day8 帖本頁未見。陳凱林帖標題仍在，列表分數被頁尾遮住，不抄分。",
+    "香港經濟：有，主位換帖。財經台「唔到你唔服李嘉誠」307、6 頁，1 小時前，上一版 66、3 頁。舊主卡房屋台「油塘呢口價令我重新評估香港二手樓前景」-119、5 頁，上一版 307、6 頁。吹水台「香港離境稅都幾撚癲」163、6 頁，上一版 161。時事台 11 SKIES 97、7 頁，未變。",
+    "色情、娛樂同體育帖有見，不收做主卡。創意台連床哥帖 580、5 頁，體育台標槍帖 -120、4 頁，只在摘要記一筆。"
   ],
   "sources": {
     "readable": [
       {
         "name": "連登吹水台熱門排序",
         "platform": "連登",
-        "items": 39,
-        "note": "12:06 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同旁邊分數，未估分。"
+        "items": 36,
+        "note": "12:09 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同旁邊分數，未估分。頁面 HTML 見到 thread id，對得上列表順序。"
       }
     ],
     "failed": [],
     "gaps": [
       "Facebook 未覆蓋。",
       "未打開任何帖文。",
-      "本輪列表渲染未抽出帖文 href，新題只用熱門排序頁做證據。",
       "陳凱林帖標題仍在，分數被頁尾遮住，不抄分。",
-      "上一版兼職女仔一場火燒回憶帖本頁未見，不沿用舊分。",
-      "上一版屋宇署調查赤柱 One Stanley 418 分帖本頁未見，不沿用舊分。"
+      "上一版羅局長帖本頁未見，不沿用 802。",
+      "上一版蔡天鳳案 Day8 帖本頁未見，不沿用舊分。"
     ]
   },
   "issues": [
     {
       "issue_id": "HK-SZ-ROYAL-HOLIDAY-CLOSE",
       "name": "深圳皇室假期執笠",
-      "status": "new",
-      "seen": "時事台標題「深圳皇室假期執笠」，列表分數 169，10 頁，6 分鐘前。上一版 JSON 寫明本頁未見。",
+      "status": "tracking",
+      "seen": "時事台標題「深圳皇室假期執笠」，列表分數 169，10 頁，剛剛。上一版同標題 169、10 頁。",
       "viewpoints": [
         {
-          "label": "重返熱門頁",
-          "summary": "上一版熱門第 1 頁未見。今次見到 169、10 頁。",
+          "label": "分數未變",
+          "summary": "標題仍在。列表分數仍是 169，頁數仍是 10。",
           "evidence_ids": [
             "L1"
           ]
@@ -52,13 +51,13 @@
         {
           "metric": "熱門列表分數",
           "value": "169",
-          "comparison": "上一版本頁未見；同頁 10 頁",
+          "comparison": "上一版 169；同頁 10 頁",
           "evidence_ids": [
             "L1"
           ]
         }
       ],
-      "why": "內地。舊題返到本頁，分數高過小姐姐同黃金週帖，升做主卡。",
+      "why": "內地。舊題仍在本頁，分數未變，仍高過小姐姐 60 同黃金週 -119，繼續做主卡。",
       "verification": {
         "status": "unverified",
         "note": "只有列表標題同分數，未打開帖文，未核對結業消息。"
@@ -69,23 +68,23 @@
           "url": "https://lihkg.com/thread/4163074/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163074，對上該標題。"
         }
       ],
       "limits": "不把標題當成已核實的結業公告。",
       "next_steps": "下一輪睇呢條仲在唔在本頁，以及分數有無回落。"
     },
     {
-      "issue_id": "HK-LUO-DIRECTOR",
-      "name": "羅局長繼續坐喺度都贏",
+      "issue_id": "HK-SUN-YUK-HAN-DATA",
+      "name": "孫玉菡談社福數據平台",
       "status": "shift",
-      "seen": "時事台標題「羅局長繼續坐喺度都贏」，列表分數 802，6 頁，7 分鐘前。上一版同標題 87、6 頁。",
+      "seen": "時事台標題「港府計劃建立「社福數據分享平台」 精準篩選「高風險人士或家庭」 孫玉菡：市民不可以選擇退出」，列表分數 -13，2 頁，4 分鐘前。上一版同標題 -12、2 頁。上一版主卡羅局長帖本頁未見。",
       "viewpoints": [
         {
-          "label": "分數大升",
-          "summary": "標題仍無全名。列表分數由 87 見到 802。",
+          "label": "官員主位換到仍在頁上的帖",
+          "summary": "羅局長標題今輪未見。孫玉菡帖仍在，分數由 -12 見到 -13。",
           "evidence_ids": [
             "L2"
           ]
@@ -94,41 +93,41 @@
       "data": [
         {
           "metric": "熱門列表分數",
-          "value": "802",
-          "comparison": "上一版 87；同頁 6 頁",
+          "value": "-13",
+          "comparison": "上一版 -12；同頁 2 頁；羅局長帖本頁未見",
           "evidence_ids": [
             "L2"
           ]
         }
       ],
-      "why": "香港政府官員。舊題仍在，分數大升，仍高過孫玉菡帖，繼續做主卡。",
+      "why": "香港政府官員。舊主卡離開本頁，這條仍在，升做主卡。",
       "verification": {
         "status": "unverified",
-        "note": "只有列表標題同分數。"
+        "note": "只有列表標題同分數，未打開帖文，未核對政策文本。"
       },
       "evidence": [
         {
           "evidence_id": "L2",
-          "url": "https://lihkg.com/thread/4163702/page/1",
+          "url": "https://lihkg.com/thread/4163780/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163780，對上該標題。"
         }
       ],
-      "limits": "不補全名，不解釋分數點解升到 802。",
-      "next_steps": "下一輪睇呢條仲在唔在本頁，以及有無寫出全名。"
+      "limits": "不把標題當成已公布的政策全文，不解釋負分。",
+      "next_steps": "下一輪睇羅局長帖返唔返本頁，以及這條分數有無再動。"
     },
     {
       "issue_id": "HK-DIGGER-BANNED-LINES",
       "name": "湯告魯斯套片被禁對白",
-      "status": "shift",
-      "seen": "時事台標題「湯告魯斯套Digger被禁對白流出，難怪香港唔俾上畫」，列表分數 419，8 頁，45 分鐘前。上一版同標題 2、35 頁。",
+      "status": "tracking",
+      "seen": "時事台標題「湯告魯斯套Digger被禁對白流出，難怪香港唔俾上畫」，列表分數 419，8 頁，51 分鐘前。上一版同標題 419、8 頁。",
       "viewpoints": [
         {
-          "label": "分數回升",
-          "summary": "標題未變。列表分數由 2 見到 419。",
+          "label": "分數未變",
+          "summary": "標題仍在。列表分數仍是 419，頁數仍是 8。",
           "evidence_ids": [
             "L3"
           ]
@@ -138,40 +137,40 @@
         {
           "metric": "熱門列表分數",
           "value": "419",
-          "comparison": "上一版 2；同頁 8 頁",
+          "comparison": "上一版 419；同頁 8 頁",
           "evidence_ids": [
             "L3"
           ]
         }
       ],
-      "why": "香港時事。舊題仍在，分數由低位回升，高過鄺球帖，升做主卡。",
+      "why": "香港時事。舊題仍在，分數未變，仍高過鄺球 146，繼續做主卡。",
       "verification": {
         "status": "unverified",
-        "note": "只有列表標題同分數，未核對禁映決定。"
+        "note": "只有列表標題同分數，未打開帖文，未核對禁映決定。"
       },
       "evidence": [
         {
           "evidence_id": "L3",
-          "url": "https://lihkg.com/thread/4163608/page/1",
+          "url": "https://lihkg.com/thread/4163582/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163582，對上該標題。"
         }
       ],
       "limits": "不把標題當成已核實的電檢決定。",
-      "next_steps": "下一輪睇呢條仲在唔在本頁，以及分數有無再回落。"
+      "next_steps": "下一輪睇呢條仲在唔在本頁。"
     },
     {
-      "issue_id": "HK-YAU-TONG-PRICE",
-      "name": "油塘二手樓前景",
+      "issue_id": "HK-LI-KA-SHING",
+      "name": "唔到你唔服李嘉誠",
       "status": "shift",
-      "seen": "房屋台標題「油塘呢口價令我重新評估香港二手樓前景」，列表分數 307，6 頁，1 小時前。上一版同標題 -79、4 頁。",
+      "seen": "財經台標題「唔到你唔服李嘉誠」，列表分數 307，6 頁，1 小時前。上一版同標題 66、3 頁。",
       "viewpoints": [
         {
-          "label": "分數由負轉正",
-          "summary": "標題未變。列表分數由 -79 見到 307。",
+          "label": "分數同頁數上升",
+          "summary": "標題仍在。列表分數由 66 見到 307，頁數由 3 見到 6。",
           "evidence_ids": [
             "L4"
           ]
@@ -181,39 +180,39 @@
         {
           "metric": "熱門列表分數",
           "value": "307",
-          "comparison": "上一版 -79；同頁 6 頁",
+          "comparison": "上一版 66、3 頁；今次 6 頁",
           "evidence_ids": [
             "L4"
           ]
         }
       ],
-      "why": "香港經濟。舊題仍在，分數方向轉咗，高過離境稅帖，升做主卡。",
+      "why": "香港經濟。舊題仍在，分數高過離境稅 163 同油塘 -119，升做主卡。",
       "verification": {
         "status": "unverified",
-        "note": "只有列表標題同分數，未核對成交價。"
+        "note": "只有列表標題同分數，未打開帖文。"
       },
       "evidence": [
         {
           "evidence_id": "L4",
-          "url": "https://lihkg.com/thread/4163545/page/1",
+          "url": "https://lihkg.com/thread/4163596/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163596，對上該標題。"
         }
       ],
-      "limits": "不把標題口價當成已核實的樓價。",
-      "next_steps": "下一輪睇呢條仲在唔在本頁，以及分數有無回落。"
+      "limits": "不把標題當成已核實的商業或股價事件。",
+      "next_steps": "下一輪睇分數是否仍高過油塘同離境稅。"
     }
   ],
   "early_leads": [
     {
       "issue_id": "HK-MAINLAND-VISITORS-LOOK",
       "name": "大陸小姐姐同市容",
-      "status": "cooling",
-      "seen": "時事台標題「呢幾日多左大陸小姐姐來香港，有冇覺得市容好左？」，列表分數 19，9 頁，37 分鐘前。上一版 161、5 頁。",
-      "why": "內地。舊主卡仍在，分數回落，不再做主卡。",
+      "status": "shift",
+      "seen": "時事台標題「呢幾日多左大陸小姐姐來香港，有冇覺得市容好左？」，列表分數 60，9 頁，12 分鐘前。上一版 19、9 頁。",
+      "why": "內地。舊題仍在，分數回升，但仍低過皇室假期 169，不做主卡。",
       "verification": {
         "status": "unverified",
         "note": "未打開帖文。"
@@ -224,9 +223,9 @@
           "url": "https://lihkg.com/thread/4163534/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163534，對上該標題。"
         }
       ],
       "limits": "不把標題觀感當成已核實的旅客數據。"
@@ -234,9 +233,9 @@
     {
       "issue_id": "HK-GOLDEN-WEEK-MAINLAND",
       "name": "十一黃金週大陸環境",
-      "status": "cooling",
-      "seen": "時事台標題「今年十一黃金週令我發現到而家大陸個環境真係好差 唔係連登仔誇大」，列表分數 -119，6 頁，8 分鐘前。上一版 43、4 頁。",
-      "why": "內地。舊題仍在，分數由正轉負。",
+      "status": "tracking",
+      "seen": "時事台標題「今年十一黃金週令我發現到而家大陸個環境真係好差 唔係連登仔誇大」，列表分數 -119，6 頁，13 分鐘前。上一版 -119、6 頁。",
+      "why": "內地。分數未變，仍低過主卡。",
       "verification": {
         "status": "unverified",
         "note": "未打開帖文。"
@@ -244,22 +243,22 @@
       "evidence": [
         {
           "evidence_id": "L6",
-          "url": "https://lihkg.com/thread/4163760/page/1",
+          "url": "https://lihkg.com/thread/4163732/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163732，對上該標題。"
         }
       ],
-      "limits": "不把標題觀感當成已核實的環境數據。"
+      "limits": "不把標題當成已核實的環境數據。"
     },
     {
       "issue_id": "HK-MAINLAND-GLASSES",
       "name": "大陸妹眼鏡",
       "status": "tracking",
-      "seen": "學術台標題「點解啲大陸妹咁鍾意帶呢款眼鏡？」，列表分數 19，8 頁，42 分鐘前。上一版 17、8 頁。",
-      "why": "內地。舊題仍在，分數差不多。",
+      "seen": "學術台標題「點解啲大陸妹咁鍾意帶呢款眼鏡？」，列表分數 19，8 頁，47 分鐘前。上一版 19、8 頁。",
+      "why": "內地。分數未變。",
       "verification": {
         "status": "unverified",
         "note": "未打開帖文。"
@@ -267,22 +266,22 @@
       "evidence": [
         {
           "evidence_id": "L7",
-          "url": "https://lihkg.com/thread/4163067/page/1",
+          "url": "https://lihkg.com/thread/4163400/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163400，對上該標題。"
         }
       ],
-      "limits": "不把標題當成已核實的消費數據。"
+      "limits": "只記列表分數。"
     },
     {
       "issue_id": "HK-TML-MAINLAND-SEAT",
       "name": "屯馬線大陸人座位",
-      "status": "cooling",
-      "seen": "時事台標題「屯馬線「香港男神」屌晒大陸人強行5人坐4人座！值得respect！！！」，列表分數 -20，4 頁，剛剛。上一版 26、4 頁。",
-      "why": "內地。舊題仍在，分數由正轉負。",
+      "status": "tracking",
+      "seen": "時事台標題「屯馬線「香港男神」屌晒大陸人強行5人坐4人座！值得respect！！！」，列表分數 -20，4 頁，剛剛。上一版 -20、4 頁。",
+      "why": "內地。分數未變。",
       "verification": {
         "status": "unverified",
         "note": "未打開帖文。"
@@ -290,179 +289,138 @@
       "evidence": [
         {
           "evidence_id": "L8",
-          "url": "https://lihkg.com/category/1?order=hot",
+          "url": "https://lihkg.com/thread/4163854/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "本輪列表未抽出帖文 href，證據只記熱門排序頁。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163854，對上該標題。"
         }
       ],
-      "limits": "不把標題當成已核實的車廂事件。"
-    },
-    {
-      "issue_id": "HK-SUN-YUK-HAN-DATA",
-      "name": "孫玉菡談社福數據平台",
-      "status": "tracking",
-      "seen": "時事台標題「港府計劃建立「社福數據分享平台」 精準篩選「高風險人士或家庭」 孫玉菡：市民不可以選擇退出」，列表分數 -12，2 頁，4 分鐘前。上一版 -61、3 頁。",
-      "why": "香港政府官員。舊題仍在，分數仍負，未高過羅局長帖。",
-      "verification": {
-        "status": "unverified",
-        "note": "未打開帖文，未核對官員原話。"
-      },
-      "evidence": [
-        {
-          "evidence_id": "L9",
-          "url": "https://lihkg.com/thread/4163811/page/1",
-          "platform": "連登",
-          "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
-          "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
-        }
-      ],
-      "limits": "不把標題當成已核實的政策條文。"
+      "limits": "不核對車廂事件。"
     },
     {
       "issue_id": "HK-KWONG-BALL",
       "name": "鄺球落手",
-      "status": "cooling",
-      "seen": "時事台標題「其實鄺球當初點解會咁on9決定落手」，列表分數 145，3 頁，37 分鐘前。上一版 449、19 頁。同頁蔡天鳳案 Day8 帖 60、9 頁，上一版 JSON 未見。",
-      "why": "香港時事。舊主卡仍在，分數回落，不再做主卡。",
+      "status": "tracking",
+      "seen": "時事台標題「其實鄺球當初點解會咁on9決定落手」，列表分數 146，3 頁，42 分鐘前。上一版 145、3 頁。",
+      "why": "香港時事。仍在，分數近乎未變，低過湯告魯斯帖。",
       "verification": {
         "status": "unverified",
-        "note": "未打開帖文，未核對庭審紀錄。"
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": "https://lihkg.com/thread/4163430/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-04T04:09:00Z",
+          "read_level": "title_only",
+          "note": "本輪熱門頁 HTML 見到 thread/4163430，對上該標題。"
+        }
+      ],
+      "limits": "不重述案情。"
+    },
+    {
+      "issue_id": "HK-ONE-STANLEY-REBAR",
+      "name": "赤柱豪宅鋼筋同屋宇署",
+      "status": "tracking",
+      "seen": "同頁仍在：時事台「屋宇署：赤柱One Stanley獨立屋鋼筋配置與圖則不符　未有構成明顯危險」6、2 頁、5 分鐘前，上一版 6、2 頁；房屋台「建灝地產One Stanley豆腐工程 公關團隊係咪炒得？」92、6 頁、36 分鐘前，上一版 92；時事台深夜回應帖 34、3 頁，上一版 33。",
+      "why": "香港時事。三條仍在，分數近乎未變，不做主卡。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
       },
       "evidence": [
         {
           "evidence_id": "L10",
-          "url": "https://lihkg.com/thread/4163430/page/1",
+          "url": "https://lihkg.com/thread/4163842/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
-        },
-        {
-          "evidence_id": "L11",
-          "url": "https://lihkg.com/category/1?order=hot",
-          "platform": "連登",
-          "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
-          "read_level": "title_only",
-          "note": "蔡天鳳案 Day8 標題見於本頁，未抽出 href。"
+          "note": "屋宇署標題對上 thread/4163842。公關帖 thread/4163717。深夜回應帖 thread/4163793。"
         }
       ],
-      "limits": "不把標題當成已核實的案情。"
+      "limits": "不把標題當成已核實的工程結論。"
     },
     {
-      "issue_id": "HK-ONE-STANLEY-REBAR",
-      "name": "赤柱豪宅鋼筋同屋宇署調查",
-      "status": "shift",
-      "seen": "同頁仍在：時事台「屋宇署：赤柱One Stanley獨立屋鋼筋配置與圖則不符　未有構成明顯危險」6、2 頁、15 分鐘前，上一版 JSON 未見；房屋台「建灝地產One Stanley豆腐工程 公關團隊係咪炒得？」92、6 頁、30 分鐘前，上一版 90；時事台「建灝地產深夜回應：嚴肅跟進赤柱ONE STANLEY獨立屋施工質量事項」33、3 頁、剛剛，上一版 25。上一版屋宇署調查帖 418 本頁未見。",
-      "why": "香港時事。官方回覆帖新見，調查高分帖未見，未高過湯告魯斯主卡。",
+      "issue_id": "HK-YAU-TONG-PRICE",
+      "name": "油塘二手樓前景",
+      "status": "cooling",
+      "seen": "房屋台標題「油塘呢口價令我重新評估香港二手樓前景」，列表分數 -119，5 頁，3 分鐘前。上一版 307、6 頁。",
+      "why": "香港經濟。舊主卡仍在，分數由正轉負，不再做主卡。",
       "verification": {
         "status": "unverified",
-        "note": "未打開帖文，未核對屋宇署公告。"
+        "note": "未打開帖文，未核對成交價。"
       },
       "evidence": [
         {
-          "evidence_id": "L12",
-          "url": "https://lihkg.com/category/1?order=hot",
+          "evidence_id": "L11",
+          "url": "https://lihkg.com/thread/4163483/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "本輪列表未抽出帖文 href，證據只記熱門排序頁。"
-        },
-        {
-          "evidence_id": "L13",
-          "url": "https://lihkg.com/thread/4163409/page/1",
-          "platform": "連登",
-          "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
-          "read_level": "title_only",
-          "note": "公關帖沿用上一版已見連結。深夜回應同屋宇署圖則帖未抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163483，對上該標題。"
         }
       ],
-      "limits": "不把標題當成已核實的屋宇署公告。"
+      "limits": "不把列表分數當成樓價指數。"
     },
     {
       "issue_id": "HK-DEPARTURE-TAX",
       "name": "香港離境稅",
       "status": "tracking",
-      "seen": "吹水台標題「香港離境稅都幾撚癲」，列表分數 161，6 頁，剛剛。上一版 153、6 頁。",
-      "why": "香港經濟。舊主卡仍在，分數差不多，未高過油塘帖。",
+      "seen": "吹水台標題「香港離境稅都幾撚癲」，列表分數 163，6 頁，剛剛。上一版 161、6 頁。",
+      "why": "香港經濟。仍在，分數近乎未變，低過李嘉誠帖。",
       "verification": {
         "status": "unverified",
         "note": "未打開帖文。"
       },
       "evidence": [
         {
-          "evidence_id": "L14",
-          "url": "https://lihkg.com/thread/4163758/page/1",
+          "evidence_id": "L12",
+          "url": "https://lihkg.com/thread/4163736/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163736，對上該標題。"
         }
       ],
-      "limits": "不把標題當成已核實的離境稅政策。"
+      "limits": "不把標題當成已立法的稅項。"
     },
     {
       "issue_id": "HK-11-SKIES-SIZE",
       "name": "11 SKIES 有幾大",
       "status": "tracking",
-      "seen": "時事台標題「屌，11 SKIES原來有成5個圍方咁撚大？」，列表分數 97，7 頁，21 分鐘前。上一版 92、7 頁。",
-      "why": "香港經濟。舊題仍在，分數差不多。",
+      "seen": "時事台標題「屌，11 SKIES原來有成5個圍方咁撚大？」，列表分數 97，7 頁，27 分鐘前。上一版 97、7 頁。",
+      "why": "香港經濟。分數未變。",
       "verification": {
         "status": "unverified",
         "note": "未打開帖文。"
       },
       "evidence": [
         {
-          "evidence_id": "L15",
+          "evidence_id": "L13",
           "url": "https://lihkg.com/thread/4163488/page/1",
           "platform": "連登",
           "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
+          "observed_at": "2026-10-04T04:09:00Z",
           "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
+          "note": "本輪熱門頁 HTML 見到 thread/4163488，對上該標題。"
         }
       ],
-      "limits": "不把標題面積比喻當成已核實的樓面。"
-    },
-    {
-      "issue_id": "HK-LI-KA-SHING",
-      "name": "唔到你唔服李嘉誠",
-      "status": "tracking",
-      "seen": "財經台標題「唔到你唔服李嘉誠」，列表分數 66，3 頁，9 分鐘前。上一版 62、3 頁。",
-      "why": "香港經濟。舊題仍在，分數差不多。",
-      "verification": {
-        "status": "unverified",
-        "note": "未打開帖文。"
-      },
-      "evidence": [
-        {
-          "evidence_id": "L16",
-          "url": "https://lihkg.com/thread/4163592/page/1",
-          "platform": "連登",
-          "published_at": null,
-          "observed_at": "2026-10-04T04:06:00Z",
-          "read_level": "title_only",
-          "note": "沿用上一版已見帖文連結。本輪只抄熱門列表標題同分數，未再抽出 href。"
-        }
-      ],
-      "limits": "不把標題當成已核實的商業判斷。"
+      "limits": "不核對商場面積。"
     }
   ],
   "tracking": [],
   "usage": {
     "sources_attempted": 1,
     "sources_ok": 1,
-    "items_collected": 39,
+    "items_collected": 36,
     "items_read_full": 0,
-    "notes": "只讀吹水台熱門第 1 頁列表。對照 2026-10-04-11.json。"
+    "notes": "只讀吹水台熱門第 1 頁列表。對照同一小時 2026-10-04-12.json（04:06Z）。"
   }
 }
