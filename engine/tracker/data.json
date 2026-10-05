@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-05T00:12:36+08:00",
- "generated_at": "2026-10-05T00:15:43+08:00",
+ "updated_at": "2026-10-06T00:13:54+08:00",
+ "generated_at": "2026-10-06T00:13:54+08:00",
  "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"}],
  "posts": [
   {
@@ -130,7 +130,8 @@
     {"taken_at":"2026-10-01T00:08:06+08:00","likes":{"raw":"1.6K","value":1600,"approx":true},"replies":{"raw":"135","value":135,"approx":false},"reposts":{"raw":"126","value":126,"approx":false},"shares":{"raw":"769","value":769,"approx":false},"views":{"raw":"53.5K","value":53500,"approx":true}},
     {"taken_at":"2026-10-03T00:12:52+08:00","likes":{"raw":"1.6K","value":1600,"approx":true},"replies":{"raw":"135","value":135,"approx":false},"reposts":{"raw":"126","value":126,"approx":false},"shares":{"raw":"773","value":773,"approx":false},"views":{"raw":"53.8K","value":53800,"approx":true}},
     {"taken_at":"2026-10-04T00:10:48+08:00","likes":{"raw":"1.6K","value":1600,"approx":true},"replies":{"raw":"135","value":135,"approx":false},"reposts":{"raw":"126","value":126,"approx":false},"shares":{"raw":"773","value":773,"approx":false},"views":{"raw":"53.8K","value":53800,"approx":true}},
-    {"taken_at":"2026-10-05T00:12:36+08:00","likes":{"raw":"1.6K","value":1600,"approx":true},"replies":{"raw":"135","value":135,"approx":false},"reposts":{"raw":"126","value":126,"approx":false},"shares":{"raw":"773","value":773,"approx":false},"views":{"raw":"53.9K","value":53900,"approx":true}}
+    {"taken_at":"2026-10-05T00:12:36+08:00","likes":{"raw":"1.6K","value":1600,"approx":true},"replies":{"raw":"135","value":135,"approx":false},"reposts":{"raw":"126","value":126,"approx":false},"shares":{"raw":"773","value":773,"approx":false},"views":{"raw":"53.9K","value":53900,"approx":true}},
+    {"taken_at":"2026-10-06T00:13:54+08:00","likes":{"raw":"1.6K","value":1600,"approx":true},"replies":{"raw":"135","value":135,"approx":false},"reposts":{"raw":"126","value":126,"approx":false},"shares":{"raw":"773","value":773,"approx":false},"views":{"raw":"53.9K","value":53900,"approx":true}}
    ]
   }
  ]
