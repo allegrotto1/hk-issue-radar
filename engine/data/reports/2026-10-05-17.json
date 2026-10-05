@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-05T09:00:00Z",
+    "end": "2026-10-05T10:00:00Z"
+  },
+  "generated_at": "2026-10-05T09:06:00Z",
+  "summary": [
+    "17:06 HKT 2026-10-05。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆。分數在標題下方、時間之後。最後一條「沖繩日常！美國海軍陸戰隊員搶劫殺人被捕！酒店內發現日本妹遺體！」文字被截斷，未見到對上分數，不收。未抽出 thread id，只沿用早前同一標題已對過的 id。",
+    "對照 2026-10-05-16.json。屋宇署又瀨、買樓點樣下定決心、投資瘋子本頁未見，不沿用。東張西望乒乓球拍騙案、讀完護士包有工開、油塘二手樓口價、鑽石山持刀、赤柱豪宅鋼筋、單身公屋搬深圳北、中國年輕夫婦澳洲車禍、十一黃金週本頁仍未見。11 skies 對東薈城本頁重現。",
+    "內地：有，未換題。時事台深圳火鍋店創業 10、6 頁、1 分鐘前，上一版 196、8 頁，記 cooling。創意台返深圳揼完邪骨 -181、5 頁、14 分鐘前，上一版 -30、2 頁，記 cooling。時事台日本麻辣燙改名 18、5 頁、38 分鐘前，上一版 17、5 頁，記 tracking。",
+    "香港政府官員：有，主位換題。屋宇署標題本頁未見，不沿用。時事台 HK01 接任醫管局主席陳健波 -35、7 頁、2 分鐘前，上一版 -32、6 頁，仍在頁，記 tracking。",
+    "香港時事：有。時事台海洋公園動物走失 178、7 頁、8 分鐘前，上一版 6、6 頁，分數回升，升做主位，記 shift。牛津大學 BNO 移英研究 8、6 頁、35 分鐘前，上一版 540、4 頁，記 cooling。蔡天鳳碎屍案蔡母出庭 143、3 頁、4 分鐘前，上一版 114、2 頁，記 shift。同案法醫青紅蘿蔔湯 87、8 頁、剛剛，上一版 69、6 頁，記 shift。反戰團體銅鑼灣街站 -68、3 頁、2 分鐘前，上一版 -216、5 頁，記 shift。陳淨心酒店乞衣 -79、8 頁、3 分鐘前，上一版 -223、4 頁，記 shift。德貞女子中學國安教育重走長征路 -248、5 頁、1 分鐘前，本頁新見，記 new。天水圍電動輪椅衝出馬路 -320、7 頁、2 分鐘前，本頁新見，記 new。",
+    "香港經濟：有。房屋台穗禾苑 170、3 頁、22 分鐘前，上一版 -175、5 頁，分數由負轉正，仍作主位，記 shift。World「搬去英國定係香港買樓好」14、3 頁、1 分鐘前，上一版 55、5 頁，記 cooling。時事台 11 skies 對東薈城 92、4 頁、1 小時前，上一版本頁未見，記 new。",
+    "色情、娛樂同體育帖有見，不收做主卡。亂倫案標題有見，不收做主卡。未打開任何帖文。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 37,
+        "note": "17:06 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同對上的分數，未估分。未打開帖文。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未打開任何帖文。",
+      "本輪渲染頁未抽出 thread id，只沿用早前同一標題已對過的 id。",
+      "屋宇署又瀨標題本頁未見。",
+      "買樓點樣下定決心標題本頁未見。",
+      "投資瘋子標題本頁未見。",
+      "東張西望乒乓球拍騙案標題本頁未見。",
+      "讀完護士包有工開標題本頁未見。",
+      "油塘二手樓口價標題本頁未見。",
+      "鑽石山持刀標題本頁未見。",
+      "赤柱豪宅鋼筋標題本頁未見。",
+      "單身公屋搬深圳北標題本頁未見。",
+      "中國年輕夫婦澳洲車禍標題本頁未見。",
+      "十一黃金週標題本頁未見。",
+      "Threads 本輪未重讀。",
+      "沖繩海軍陸戰隊員一條文字被截斷，未見到分數。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-SZ-HOTPOT",
+      "name": "深圳火鍋店創業",
+      "status": "cooling",
+      "seen": "時事台標題「深圳火鍋店　90後甘肅女掟¥200萬創業　日蝕¥6900　網民促執笠止蝕　有片」，列表分數 10，6 頁，1 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "分數回落",
+          "summary": "上一版 196、8 頁。今輪仍在熱門第 1 頁，對上 10、6 頁。時事台，未打開。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "10",
+          "comparison": "上一版 196、8 頁；今輪 6 頁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地。舊題仍在這一頁，沒有更高分的新內地題可換主位。分數由 196 到 10，記 cooling。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 10。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把標題金額當成已核實的營運數字。"
+    },
+    {
+      "issue_id": "HK-HA-CHAIR",
+      "name": "醫管局主席陳健波",
+      "status": "tracking",
+      "seen": "時事台標題「HK01消息：接任醫管局主席 72歲保險界「老行尊」陳健波大熱 護士搵工難 成「燙手山芋」」，列表分數 -35，7 頁，2 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "分數大致未變",
+          "summary": "上一版 -32、6 頁。今輪 -35、7 頁。屋宇署標題本頁未見，改以此為官員主位。未打開。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-35",
+          "comparison": "上一版 -32、6 頁；今輪 7 頁",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員。屋宇署本頁未見，不沿用。陳健波仍在這一頁，分數由 -32 到 -35，記 tracking。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 -35。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把 HK01 標題當成已核實的任命。"
+    },
+    {
+      "issue_id": "HK-OCEAN-PARK-MISSING",
+      "name": "海洋公園動物走失",
+      "status": "shift",
+      "seen": "時事台標題「海洋公園有動物走失咁大件事居然冇人講？」，列表分數 178，7 頁，8 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "分數回升",
+          "summary": "上一版 6、6 頁。今輪 178、7 頁，是本頁香港時事正分最高之一。未打開。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "178",
+          "comparison": "上一版 6、6 頁；今輪 7 頁",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事。舊題仍在這一頁，分數由 6 到 178，牛津 BNO 由 540 跌到 8，改以此為主位，記 shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 178。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把標題當成已核實的走失個案。"
+    },
+    {
+      "issue_id": "HK-SUI-WO-COURT",
+      "name": "穗禾苑樓價",
+      "status": "shift",
+      "seen": "房屋台標題「穗禾苑點解跌得咁勁」，列表分數 170，3 頁，22 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "分數由負轉正",
+          "summary": "上一版 -175、5 頁。今輪 170、3 頁。房屋台，未打開。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "170",
+          "comparison": "上一版 -175、5 頁；今輪 3 頁",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟。舊題仍在這一頁，分數由 -175 到 170，買樓下決心同投資瘋子本頁未見，仍作主位，記 shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 170。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把標題當成已核實的樓價跌幅。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-SHENZHEN-MASSAGE",
+      "name": "返深圳之後的反思",
+      "status": "cooling",
+      "seen": "創意台標題「返深圳揼完邪骨有啲反思」，列表分數 -181，5 頁，14 分鐘前。",
+      "why": "內地。上一版 -30、2 頁，今輪 -181、5 頁。thread/4163878 沿用早前已對過的 id。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4163878/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 -181。thread/4163878 沿用早前同一標題已對過的 id，本輪未再從 HTML 抽出。"
+        }
+      ],
+      "limits": "不把標題當成已核實的深圳消費或服務描述。"
+    },
+    {
+      "issue_id": "HK-JP-MALATANG",
+      "name": "日本麻辣燙改名",
+      "status": "tracking",
+      "seen": "時事台標題「日本妹排隊排到癲！中國麻辣燙喺日本紅到連「譚仔三哥」都要改名做「譚仔麻辣湯」搶客！」，列表分數 18，5 頁，38 分鐘前。",
+      "why": "內地。上一版 17、5 頁，今輪 18、5 頁。未對過 thread id，不寫帖文網址。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 18。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把標題當成已核實的改名或客流。"
+    },
+    {
+      "issue_id": "HK-BNO-OXFORD",
+      "name": "牛津 BNO 移英研究",
+      "status": "cooling",
+      "seen": "時事台標題「牛津大學最新研究16 萬BNO移英港人，66%因香港不安全移英，80% 對生活滿意」，列表分數 8，6 頁，35 分鐘前。",
+      "why": "香港時事。上一版 540、4 頁，今輪 8、6 頁，不再作主位。未對過 thread id，不寫帖文網址。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 8。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把標題百分比當成已核實的研究結論。"
+    },
+    {
+      "issue_id": "HK-ABBY-CHOI-MOTHER",
+      "name": "蔡天鳳案蔡母出庭",
+      "status": "shift",
+      "seen": "時事台標題「蔡天鳳碎屍案｜蔡母張燕花出庭作供 指女兒求學時兩度懷孕 鄺家從未付一毛錢 「全家都係使我個女嘅錢」」，列表分數 143，3 頁，4 分鐘前。",
+      "why": "香港時事。上一版 114、2 頁，今輪 143、3 頁。未對過 thread id，不寫帖文網址。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 143。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把標題當成已核實的庭上證供。"
+    },
+    {
+      "issue_id": "HK-11-SKIES",
+      "name": "11 skies 對東薈城",
+      "status": "new",
+      "seen": "時事台標題「其實11 skies係咪根本冇得同東薈城鬥？單睇人流同地理都差成九班」，列表分數 92，4 頁，1 小時前。",
+      "why": "香港經濟。上一版本頁未見，今輪 92、4 頁。未對過 thread id，不寫帖文網址。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 92。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把標題當成已核實的人流比較。"
+    },
+    {
+      "issue_id": "HK-UK-OR-HK-FLAT",
+      "name": "搬英國定香港買樓",
+      "status": "cooling",
+      "seen": "World 標題「搬去英國定係香港買樓好」，列表分數 14，3 頁，1 分鐘前。",
+      "why": "香港經濟。上一版 55、5 頁，今輪 14、3 頁。未對過 thread id，不寫帖文網址。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L10",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 14。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把標題當成已核實的樓價或移民比較。"
+    },
+    {
+      "issue_id": "HK-TAK-CHING-NS",
+      "name": "德貞國安教育長征路",
+      "status": "new",
+      "seen": "時事台標題「德貞女子中學搞國安教育 女學生體驗著草鞋 「重走長征路」」，列表分數 -248，5 頁，1 分鐘前。",
+      "why": "香港時事。本頁新見，-248、5 頁。不是點名官員，不放官員主位。未對過 thread id，不寫帖文網址。",
+      "verification": {
+        "status": "unverified",
+        "note": "未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L11",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-05T09:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序渲染頁見到該標題同分數 -248。沒有早前對過的 thread id，不寫帖文網址。"
+        }
+      ],
+      "limits": "不把標題當成已核實的校園活動安排。"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "THREADS-LABOUR",
+      "name": "Threads 外勞相關追蹤",
+      "note": "17 輪未重讀 Threads。沿用 00 版已讀數字，不用來填卡。"
+    }
+  ],
+  "usage": {
+    "source": "lihkg-category-1-hot",
+    "threads_login": false
+  }
+}
