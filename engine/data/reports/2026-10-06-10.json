@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-06T02:00:00Z",
+    "end": "2026-10-06T03:00:00Z"
+  },
+  "generated_at": "2026-10-06T02:06:00Z",
+  "summary": [
+    "10:06 HKT 2026-10-06。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出 37 條 thread id。分數在時間之後、頁數之前。對照 2026-10-06-09.json。",
+    "內地：有，返頁。創意台「返深圳揼完邪骨有啲反思」thread/4163878 再次在頁，115、3 頁、43 分鐘前。上一版熱門第 1 頁未見、記 cooling，更早分數 920、9 頁，記 shift。同頁時事台「中國女學生偷食室友外賣 被斷正後惱羞成怒」93、6 頁、9 分鐘前，作線索。國慶香港只放一日假係香港假期題，不入內地主卡。FBI 張婉瑩、台灣選舉、日本案件都不是內地題。",
+    "香港政府官員：有，未換題。時事台啟德醫院交通不便，標題引盧寵茂稱親身實測港鐵轉巴士認為方便，34、10 頁、7 分鐘前。上一版 -153、17 頁，仍在頁，分數由負轉正、頁數減少，記 shift。同頁「盧寵茂呢條撚屌真係唱反調上腦」211、3 頁、1 分鐘前，上一版 357、4 頁，作同一題反應帖，不另開卡。",
+    "香港時事：有。蔡母出庭作供標題 26、2 頁、3 分鐘前，上一版 70、33 頁，記 shift。同案 7000 萬標題 65、4 頁、剛剛，上一版 12、7 頁。另有收譚家逾 3 億 160、8 頁，「邊個有返工」30、2 頁，上一版 170、3 頁。七旬婦偷檸檬茶 6、2 頁、1 小時前，上一版 119、5 頁，記 cooling。德貞國安教育本頁未見。",
+    "香港經濟：有，未換題。房屋台「One Stanley 成億超級豪宅都變危樓」-8、6 頁、6 分鐘前，上一版 86、3 頁，仍在頁，記 shift。穗禾苑本頁未見。財經台「帳面蝕緊錢」係個人帖，不入卡。",
+    "列表首條見「大毒梟高可晴」462、4 頁、3 分鐘前，未對上 thread id，不入卡。色情、娛樂同體育帖有見，不收做主卡。未讀帖文內文。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 37,
+        "note": "10:03 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同對上的分數，未估分。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表。",
+      "列表首條「大毒梟高可晴」未對上 thread id。",
+      "「蔡天鳳案可以打入香港十大奇案頭三?」分數被頁尾截斷，不抄分。",
+      "Threads 本輪未用。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-SHENZHEN-MASSAGE",
+      "name": "返深圳之後的反思",
+      "status": "shift",
+      "seen": "創意台標題「返深圳揼完邪骨有啲反思」。列表分數 115，3 頁，43 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "上一版不在頁，今期返頁但分數低好多",
+          "summary": "上一版熱門第 1 頁未見該標題，記 cooling。更早同一 thread 分數 920、9 頁。今期 115、3 頁，仍在頁。未打開內文。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "115",
+          "comparison": "上一版不在第 1 頁；更早 920、9 頁。今期 3 頁，43 分鐘前。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地。同一標題由不在頁返到熱門第 1 頁，分數同頁數都變，記 shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4163878/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4163878、該標題、分數 115、3 頁。"
+        }
+      ],
+      "limits": "未核對帖文是否講述深圳經歷，亦未讀回覆。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    },
+    {
+      "issue_id": "HK-LO-CHUNG-MAU",
+      "name": "盧寵茂談啟德醫院交通",
+      "status": "shift",
+      "seen": "時事台標題「啟德醫院被投訴交通不便 盧寵茂：「我親身實測港鐵轉巴士 認為交通方便、每個人都有自己習慣的comfort zone」」。列表分數 34，10 頁，7 分鐘前。同頁另有時事台「盧寵茂呢條撚屌真係唱反調上腦」，211，3 頁，1 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "原帖分數由負轉正、頁數減少",
+          "summary": "上一版同一標題 -153、17 頁。今期 34、10 頁，仍在熱門第 1 頁。未打開內文，未知正分係支持實測定係其他原因。",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "反應帖仍在、分數回落",
+          "summary": "同頁仍見罵唱反調的標題，分數 211、3 頁，上一版 357、4 頁。只作同一官員題的反應，不另開卡。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "34",
+          "comparison": "上一版 -153、17 頁。今期 10 頁，7 分鐘前。反應帖 211、3 頁，上一版 357、4 頁。",
+          "evidence_ids": [
+            "L2",
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港政府官員。同一標題仍在頁，分數同頁數都變，記 shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4164435/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164435、該標題、分數 34、10 頁。"
+        },
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4164559/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164559、標題「盧寵茂呢條撚屌真係唱反調上腦」、分數 211、3 頁。"
+        }
+      ],
+      "limits": "未核對盧寵茂原話出處，亦未讀回覆。",
+      "next_steps": "下一輪再睇兩條仲在唔在第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ABBY-MOTHER",
+      "name": "蔡天鳳案蔡母出庭",
+      "status": "shift",
+      "seen": "時事台標題「蔡天鳳碎屍案｜蔡母張燕花出庭作供 指女兒求學時兩度懷孕 鄺家從未付一毛錢 「全家都係使我個女嘅錢」」。列表分數 26，2 頁，3 分鐘前。同案「名媛蔡天鳳碎屍案 蔡母指鄺港智獲蔡天鳳及譚方駿「打本」 做生意 前後拎咗 7000萬」65，4 頁，剛剛。另有「蔡天鳳碎屍案 蔡天鳳收譚家逾3億 戶口有1億 蔡母稱無可能送樓鄺家：「佢全家食我哋」」160，8 頁，13 分鐘前；「蔡天鳳案入面邊個有返工?」30，2 頁，1 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "出庭標題分數同頁數大跌",
+          "summary": "上一版同一出庭標題 70、33 頁。今期 26、2 頁，仍在熱門第 1 頁。",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "同案其他標題仍在",
+          "summary": "7000 萬標題由上一版 12、7 頁變成 65、4 頁。收譚家逾 3 億 160、8 頁。「邊個有返工」由 170、3 頁變成 30、2 頁。十大奇案標題在頁，分數被頁尾截斷，不抄分。",
+          "evidence_ids": [
+            "L5",
+            "L6",
+            "L7"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "26",
+          "comparison": "出庭帖上一版 70、33 頁。7000 萬帖上一版 12、7 頁，今期 65、4 頁。",
+          "evidence_ids": [
+            "L4",
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港時事。同一案仍在頁，主標題分數同頁數都變，記 shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對庭審紀錄。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4164312/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164312、蔡母出庭標題、分數 26、2 頁。"
+        },
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4164460/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164460、7000 萬標題、分數 65、4 頁。"
+        },
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4164390/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164390、收譚家逾 3 億標題、分數 160、8 頁。"
+        },
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4164541/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164541、「蔡天鳳案入面邊個有返工?」、分數 30、2 頁。"
+        }
+      ],
+      "limits": "未核對庭審內容，標題數字只作列表所見。",
+      "next_steps": "下一輪再睇出庭帖同 7000 萬帖仲在唔在第 1 頁。"
+    },
+    {
+      "issue_id": "HK-LEMON-TEA-THEFT",
+      "name": "七旬婦偷檸檬茶判囚",
+      "status": "cooling",
+      "seen": "時事台標題「七旬婦認偷4包檸檬茶 有21次盜竊案底 鄭紀航指須嚴懲慣犯 判囚1個月「佢咁坎坷底下 都有3個物業 都可喜可賀吖」」。列表分數 6，2 頁，1 小時前。",
+      "viewpoints": [
+        {
+          "label": "仍在頁但分數同頁數大跌",
+          "summary": "上一版 119、5 頁、10 分鐘前。今期 6、2 頁、1 小時前。仍在熱門第 1 頁，熱度明顯回落，記 cooling。",
+          "evidence_ids": [
+            "L8"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "6",
+          "comparison": "上一版 119、5 頁。今期 2 頁，1 小時前。",
+          "evidence_ids": [
+            "L8"
+          ]
+        }
+      ],
+      "why": "香港時事。同一標題仍在頁，但分數由 119 跌到 6，記 cooling。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對判詞。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/thread/4164396/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164396、該標題、分數 6、2 頁。"
+        }
+      ],
+      "limits": "未核對判刑是否如此。",
+      "next_steps": "下一輪睇會否跌出第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ONE-STANLEY",
+      "name": "One Stanley 豪宅被指變危樓",
+      "status": "shift",
+      "seen": "房屋台標題「One Stanley 成億超級豪宅都變危樓」。列表分數 -8，6 頁，6 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "分數由正轉負、頁數增加",
+          "summary": "上一版同一標題 86、3 頁、2 分鐘前，當時記 new。今期 -8、6 頁，仍在熱門第 1 頁。未打開內文，未知負分係質疑危樓說法定係其他原因。",
+          "evidence_ids": [
+            "L9"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-8",
+          "comparison": "上一版 86、3 頁。今期 6 頁，6 分鐘前。",
+          "evidence_ids": [
+            "L9"
+          ]
+        }
+      ],
+      "why": "香港經濟。同一標題仍在頁，分數同頁數都變，記 shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對樓宇狀況。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": "https://lihkg.com/thread/4164219/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164219、該標題、分數 -8、6 頁。"
+        }
+      ],
+      "limits": "未核對是否真有結構問題。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-CN-TAKEAWAY",
+      "name": "中國女學生偷食室友外賣",
+      "status": "lead",
+      "seen": "時事台標題「中國女學生偷食室友外賣 被斷正後惱羞成怒」。列表分數 93，6 頁，9 分鐘前。",
+      "why": "內地生活題，本頁新見。不佔主位，主位留給返頁的深圳帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L10",
+          "url": "https://lihkg.com/thread/4164418/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門列表對上 thread/4164418、分數 93、6 頁。"
+        }
+      ],
+      "limits": "未核對事件是否發生。"
+    },
+    {
+      "issue_id": "HK-NATIONAL-DAY-HOLIDAY",
+      "name": "國慶香港只放一日假",
+      "status": "lead",
+      "seen": "時事台標題「覺唔覺得 中國國慶 在中國香港只放一日假，係好唔尊重同有點輕視？」。列表分數 -144，3 頁，7 分鐘前。",
+      "why": "香港假期同對國慶安排的反應，不是內地主卡，亦未見官員名字。放線索。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L11",
+          "url": "https://lihkg.com/thread/4164616/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門列表對上 thread/4164616、分數 -144、3 頁。"
+        }
+      ],
+      "limits": "未核對公眾假期安排。"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-TAK-CHING-NS",
+      "name": "德貞國安教育長征路",
+      "kind": "cooling",
+      "text": "上一版仍在熱門第 1 頁，-175、7 頁。今期該頁未見 thread/4164333，不佔主位。",
+      "related_report": "2026-10-06-09"
+    },
+    {
+      "issue_id": "HK-CHAN-JING-SUM",
+      "name": "陳淨心酒店乞衣",
+      "kind": "cooling",
+      "text": "今期熱門第 1 頁仍未見 thread/4164248，不佔主位。",
+      "related_report": "2026-10-06-00"
+    },
+    {
+      "issue_id": "HK-TSW-WHEELCHAIR",
+      "name": "天水圍電動輪椅衝出馬路",
+      "kind": "cooling",
+      "text": "今期熱門第 1 頁未見 thread/4164326。",
+      "related_report": "2026-10-06-00"
+    },
+    {
+      "issue_id": "HK-SUI-WO",
+      "name": "穗禾苑跌價",
+      "kind": "cooling",
+      "text": "早前香港經濟主位。今期熱門第 1 頁仍未見，不沿用。",
+      "related_report": "2026-10-05-19"
+    },
+    {
+      "issue_id": "HK-JOHN-LEE-YOUTH",
+      "name": "李家超年輕人放中心",
+      "kind": "cooling",
+      "text": "今期熱門第 1 頁仍未見，不佔官員主位。",
+      "related_report": "2026-10-05-19"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 37,
+    "items_read_full": 0,
+    "notes": "只讀吹水台熱門第 1 頁。未讀內文。"
+  }
+}
