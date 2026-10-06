@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-06T16:00:00Z",
+    "end": "2026-10-06T17:00:00Z"
+  },
+  "generated_at": "2026-10-06T16:12:00Z",
+  "summary": [
+    "00:12 HKT 2026-10-07。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出 35 條 thread id。分數同頁數用列表可見數字，未估分。同一小時未有舊檔，寫本份。",
+    "對照 2026-10-06-19.json。特朗普提案褫奪國籍、李家超點名赤柱豪宅 One Stanley、One Stanley 危樓帖，本頁未見，不佔主位。",
+    "內地：有，未換題。創意台「返深圳揼完邪骨有啲反思」thread/4163878 仍在頁，50、5 頁、6 分鐘前。同頁時事台女學生外賣 thread/4164418，7、2 頁、5 分鐘前，不佔主位。",
+    "香港政府官員：有，升做主位。時事台「信報：港府高官揚言 本港建築「安全標準過高」」thread/4164705，176、3 頁、1 小時前。上一版摘要見過 145、4 頁，當時不佔主位。李家超本頁未見。",
+    "香港時事：有。新見九龍灣淘大天橋斜坡 EU 車 thread/4164730，75、9 頁、53 分鐘前；港鐵責任 thread/4164814，68、6 頁、19 分鐘前，放線索。蔡母報警 thread/4164743 仍在，176、4 頁、3 分鐘前，上一版 37、5 頁，記 shift。裝修工謀殺罪成 thread/4164736 仍在，151、7 頁、1 分鐘前，上一版 91、9 頁，不另開卡。公屋虛報監禁、虐兒個案放線索。",
+    "香港經濟：有，未換題。財經台金管局問滙豐星洲 AI 中心 thread/4164694，463、6 頁、剛剛。上一版財經台同題 67、5 頁。儲蓄保災情 thread/4164809 只有 4、4 頁，不佔主位。美股討論區同美債帖係美國市場，不入卡。",
+    "色情、娛樂同體育帖有見，不收做主卡。飲食台有廣告爭議帖，不寫商戶名。未讀帖文內文。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 35,
+        "note": "00:08 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同對上的分數，未估分。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表同帖文連結。",
+      "Threads 本輪只做已有追蹤帖的數字，不用來填卡。",
+      "飲食台廣告爭議帖不寫商戶名。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-HKMA-HSBC-AI",
+      "name": "金管局問滙豐星洲 AI 中心",
+      "status": "shift",
+      "seen": "財經台標題「據報金管局曾向滙豐質問為何於星設AI中心　施壓背景為盼鞏固香港國際金融中心地位」。列表分數 463，6 頁，剛剛。上一版財經台同題 67、5 頁。",
+      "viewpoints": [
+        {
+          "label": "分數急升",
+          "summary": "同一題仍在熱門第 1 頁，分數由上一版 67 升到 463，頁數由 5 到 6。未打開內文，未知回覆係質疑施壓定係支持鞏固金融中心。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "463",
+          "comparison": "上一版財經台同題 67、5 頁；今版 6 頁、剛剛",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港經濟。本頁相關帖入面分數最高，仍在頁，升做今期頭位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對金管局或銀行表述。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4164694/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T16:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164694、該標題、分數 463、6 頁。"
+        }
+      ],
+      "limits": "不把標題「據報」當成已核實的金管局行動。",
+      "next_steps": "下一輪再睇呢條仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-OFFICIALS-BUILDING-STANDARD",
+      "name": "港府高官談建築安全標準",
+      "status": "new",
+      "seen": "時事台標題「信報：港府高官揚言 本港建築「安全標準過高」」。列表分數 176，3 頁，1 小時前。上一版摘要見過 145、4 頁，當時不佔主位。",
+      "viewpoints": [
+        {
+          "label": "升做主位",
+          "summary": "標題點到港府高官，未具名。分數較上一版摘要高，頁數由 4 變 3。未打開內文。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "176",
+          "comparison": "上一版摘要 145、4 頁；今版 3 頁、1 小時前",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員。李家超帖本頁未見，呢條新入主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對信報原文，亦未知高官姓名。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4164705/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T16:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164705、該標題、分數 176、3 頁。"
+        }
+      ],
+      "limits": "不把標題引述當成已核實的官員發言全文。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ABBY-MOTHER",
+      "name": "蔡天鳳案後續標題",
+      "status": "shift",
+      "seen": "時事台標題「蔡母於失蹤8小時後報警 鄺港智粗口怒斥：「X街啦，你報警都唔話我知！」」。列表分數 176，4 頁，3 分鐘前。上一版同題 37、5 頁。同頁另有加多利山物業標題 -186、3 頁，翻拍 casting 15、2 頁，不另開卡。",
+      "viewpoints": [
+        {
+          "label": "報警標題分數升",
+          "summary": "蔡母報警呢條仍在熱門第 1 頁，分數由上一版 37 升到 176。同案其他標題分數有正有負，未讀內文。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "176",
+          "comparison": "上一版同題 37、5 頁；今版 4 頁、3 分鐘前",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事。舊題仍在頁而且分數明顯上升，保留主位，不霸住新題前面。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對庭上紀錄。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4164743/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T16:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164743、該標題、分數 176、4 頁。"
+        }
+      ],
+      "limits": "標題入面的引述未經內文或庭審紀錄核對。",
+      "next_steps": "下一輪再睇蔡母報警帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-TAODA-BRIDGE-EU",
+      "name": "淘大天橋斜坡 EU 車出事",
+      "status": "new",
+      "seen": "時事台標題「九龍灣淘大天橋斜坡，一架EU車出事！」。列表分數 75，9 頁，53 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "新見交通帖",
+          "summary": "本頁新見的香港交通意外標題，頁數 9。未打開內文，未知傷亡或官方說法。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "75",
+          "comparison": "同頁 9 頁，53 分鐘前",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港時事。新題，頁數多過同頁部分舊題，入主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對交通消息。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4164730/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T16:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164730、該標題、分數 75、9 頁。"
+        }
+      ],
+      "limits": "不把標題「出事」當成已核實的意外詳情。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-SZ-BONE-SETTING",
+      "name": "返深圳揼邪骨反思",
+      "status": "shift",
+      "seen": "創意台標題「返深圳揼完邪骨有啲反思」。列表分數 50，5 頁，6 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "仍在熱門",
+          "summary": "內地消費經驗帖仍在吹水台熱門第 1 頁。未打開內文，未知反思係價定係手法。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "50",
+          "comparison": "同頁 5 頁，6 分鐘前",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "內地。本頁仲見，放主位尾，避免舊題霸前。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4163878/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T16:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4163878、該標題、分數 50、5 頁。"
+        }
+      ],
+      "limits": "個人經驗帖，不代表深圳業界情況。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-MTR-DUTY",
+      "name": "港鐵被問要否解釋",
+      "status": "lead",
+      "seen": "時事台標題「港鐵其實係咪有責任解釋下」。列表分數 68，6 頁，19 分鐘前。標題未寫事件內容。",
+      "why": "香港時事新題，但標題未寫明要解釋咩，先放線索。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4164814/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T16:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164814、該標題、分數 68、6 頁。"
+        }
+      ],
+      "limits": "未讀內文，未知係事故、服務定其他。"
+    },
+    {
+      "issue_id": "HK-PRH-FALSE-DECLARATION",
+      "name": "公屋虛報物業判監",
+      "status": "lead",
+      "seen": "時事台標題「兩公屋居民因虛報沒有物業被判監禁兩星期，即時執行」。列表分數 60，4 頁，14 分鐘前。同頁虐兒個案 69、2 頁，不另開線索。",
+      "why": "香港時事新題，分數未高過主位，先放線索。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對判詞。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4164820/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-06T16:08:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164820、該標題、分數 60、4 頁。"
+        }
+      ],
+      "limits": "不把標題當成已核實的判刑全文。"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-JOHN-LEE-ONE-STANLEY",
+      "name": "李家超點名赤柱豪宅 One Stanley",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。",
+      "related_report": "2026-10-06-19"
+    },
+    {
+      "issue_id": "HK-TRUMP-CITIZENSHIP",
+      "name": "特朗普提案褫奪兩名美籍華人國籍",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。",
+      "related_report": "2026-10-06-19"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 35,
+    "items_read_full": 0,
+    "notes": "只讀連登吹水台熱門第 1 頁列表。未登入，未用連登 API。"
+  }
+}
