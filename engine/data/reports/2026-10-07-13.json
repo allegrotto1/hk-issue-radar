@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-07T05:00:00Z",
+    "end": "2026-10-07T06:00:00Z"
+  },
+  "generated_at": "2026-10-07T05:12:00Z",
+  "summary": [
+    "13:12 HKT 2026-10-07。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出 36 條 thread id。分數同頁數用列表可見數字，未估分。",
+    "對照 2026-10-07-10.json。港鐵被問要否解釋、港府高官談建築安全標準、國足不敵塔吉克、蔡母報警、公屋虛報、西九財赤、內地生港鐵查票、倫敦經貿辦，本頁未見，不佔主位。",
+    "內地：有，換題。時事台「內地女跑柏林馬拉松稱刷新PB　被揭「坐單車參賽」」thread/4163895，-134、3 頁、1 小時前。上一版國足題本頁未見。同頁體育台「以後中國隊想搵魚腩刷分都幾難」40、3 頁、4 分鐘前，不佔主位。",
+    "香港政府官員：本頁未見。上一版「信報：港府高官揚言 本港建築「安全標準過高」」thread/4164705 不在這一頁。李家超、西九 CEO 馮程淑儀標題亦未見。沒有新官員題，未變到可入卡的標題。",
+    "香港時事：有，主位轉到屯門女童啤酒帖的新標題。時事台「女童拎啤酒｜父母還原事件稱「訓練肌肉」 便利店特價掃貨惹誤會 事件不涉虐兒 純屬誤會一場」thread/4165059，-117、18 頁、剛剛。原虐兒標題 thread/4164932 仍在，17、11 頁、11 分鐘前，上一版 281、22 頁，記 cooling。蔡天鳳庭上錄音 thread/4164833，108、8 頁、剛剛，放第二卡。裝修工謀殺罪成 thread/4164736 仍在，2、34 頁，放線索。",
+    "香港經濟：有，未換題。財經台「呢排開始多儲蓄保災情，唔好講賺，本金都收唔足」thread/4164809，143、3 頁、14 分鐘前。上一版 281、4 頁、剛剛，記 cooling。美債帖同美股討論區係美國市場，不入卡。複利帖 38、3 頁，不佔主位。",
+    "色情、娛樂同體育帖有見，不收做主卡。未讀帖文內文。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 36,
+        "note": "13:12 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同對上的分數，未估分。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表同帖文連結。",
+      "香港政府官員本頁無對應標題。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-TUEN-MUN-BEER-CHILD",
+      "name": "屯門女童拎啤酒父母還原",
+      "status": "shift",
+      "seen": "時事台標題「女童拎啤酒｜父母還原事件稱「訓練肌肉」 便利店特價掃貨惹誤會 事件不涉虐兒 純屬誤會一場」。列表分數 -117，18 頁，剛剛。同題原帖「[虐兒個案] 狂燥人渣老豆迫個骨瘦如柴既女攞幾打啤酒」thread/4164932 仍在，17、11 頁、11 分鐘前。上一版該原帖 281、22 頁。",
+      "viewpoints": [
+        {
+          "label": "敘事轉到父母版本",
+          "summary": "新標題頁數 18，分數為負。原虐兒標題仍在熱門第 1 頁，但分數由上一版 281 落到 17，頁數由 22 落到 11。未打開內文，未知兩邊講法。",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-117",
+          "comparison": "新標題 18 頁、剛剛；原帖今版 17、11 頁，上一版 281、22 頁",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港時事。本頁相關帖頁數最多，主位由港鐵解釋題轉到這組標題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對校方或警方說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4165059/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T05:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165059、該標題、分數 -117、18 頁。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4164932/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T05:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164932、虐兒個案標題、分數 17、11 頁。"
+        }
+      ],
+      "limits": "不把任一標題當成已核實的虐兒或誤會結論。",
+      "next_steps": "下一輪再睇兩條仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ABBY-COURT-AUDIO",
+      "name": "蔡天鳳案庭上錄音標題",
+      "status": "shift",
+      "seen": "時事台標題「庭上播放錄音 蔡天鳳稱鄺球為「賊老頭」」。列表分數 108，8 頁，剛剛。同頁加多利山物業標題 thread/4164878，9、2 頁、39 分鐘前。上一版蔡母報警標題本頁未見。",
+      "viewpoints": [
+        {
+          "label": "同案換標題",
+          "summary": "蔡天鳳案仍在熱門第 1 頁，但主標題由蔡母報警換成庭上錄音。未打開內文。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "108",
+          "comparison": "8 頁、剛剛；同頁物業標題 9、2 頁",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事。上一版蔡母題不在本頁，改跟仍在列表的庭上錄音標題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對庭審紀錄。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4164833/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T05:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164833、該標題、分數 108、8 頁。"
+        }
+      ],
+      "limits": "不把標題引語當成已核實的庭審原文。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-SAVINGS-INSURANCE",
+      "name": "儲蓄保災情",
+      "status": "cooling",
+      "seen": "財經台標題「呢排開始多儲蓄保災情，唔好講賺，本金都收唔足」。列表分數 143，3 頁，14 分鐘前。上一版 281、4 頁、剛剛。",
+      "viewpoints": [
+        {
+          "label": "分數回落",
+          "summary": "同一題仍在熱門第 1 頁，分數由 281 落到 143，頁數由 4 到 3。未打開內文，未知係保單投訴定討論。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "143",
+          "comparison": "上一版 281、4 頁；今版 3 頁、14 分鐘前",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟。本頁未換題，分數回落，主位仍係這條。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對保單數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4164809/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T05:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164809、該標題、分數 143、3 頁。"
+        }
+      ],
+      "limits": "不把標題「災情」當成已核實的保單虧損。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "CN-MARATHON-BIKE",
+      "name": "內地女跑馬拉松被揭坐單車",
+      "status": "new",
+      "seen": "時事台標題「內地女跑柏林馬拉松稱刷新PB　被揭「坐單車參賽」」。列表分數 -134，3 頁，1 小時前。",
+      "viewpoints": [
+        {
+          "label": "新見內地題",
+          "summary": "上一版國足題本頁未見。這條內地選手標題在熱門第 1 頁，分數為負。未打開內文。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-134",
+          "comparison": "同頁 3 頁，1 小時前",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "內地。本頁仍見的內地相關標題，換入主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對賽事紀錄。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4163895/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T05:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4163895、該標題、分數 -134、3 頁。"
+        }
+      ],
+      "limits": "不把標題「被揭」當成已核實的賽事違規。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-MTR-FARE-DISCRETION",
+      "name": "港鐵內部查飛指引",
+      "status": "lead",
+      "seen": "時事台標題「【三等港豬】港鐵內部查飛指引 同事可酌情處理或豁免個別案例 要客氣對待 避免令遊客們感到反感」。列表分數 -9，2 頁，1 分鐘前。",
+      "why": "香港時事新題，分數近零、頁數少，先放線索。不是政府官員標題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4165055/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T05:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165055、該標題、分數 -9、2 頁。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-RENO-MURDER",
+      "name": "淘大裝修工謀殺罪成",
+      "status": "lead",
+      "seen": "時事台標題「52歲裝修工譚潤超淘大花園吸煙起爭執 打死48歲巴士司機 謀殺罪成 判處終身監禁」。列表分數 2，34 頁，2 分鐘前。",
+      "why": "舊題仍在，頁數多但分數近零，不佔主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4164736/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T05:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164736、該標題、分數 2、34 頁。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-FAKE-AIRLINE-SCAM",
+      "name": "假扮香港航空客服騙案",
+      "status": "lead",
+      "seen": "時事台標題「[大癲!] 騙徒假扮香港航空客服 能準確說出航班編號及起飛時間 出發前一日訛稱機票取消 最多騙走$136萬！」。列表分數 10，3 頁，17 分鐘前。",
+      "why": "香港時事新題，分數低，先放線索。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/thread/4165031/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T05:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165031、該標題、分數 10、3 頁。"
+        }
+      ]
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-OFFICIALS-BUILDING-STANDARD",
+      "name": "港府高官談建築安全標準",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。沒有新官員題。",
+      "related_report": "2026-10-07-10"
+    },
+    {
+      "issue_id": "HK-MTR-DUTY",
+      "name": "港鐵被問要否解釋",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。",
+      "related_report": "2026-10-07-10"
+    },
+    {
+      "issue_id": "CN-NATIONAL-TEAM-TAJIK",
+      "name": "國足友賽不敵塔吉克",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。",
+      "related_report": "2026-10-07-10"
+    },
+    {
+      "issue_id": "HK-ABBY-MOTHER",
+      "name": "蔡天鳳案蔡母報警標題",
+      "kind": "cooling",
+      "text": "蔡母報警標題本頁未見。同案改見庭上錄音標題。",
+      "related_report": "2026-10-07-10"
+    },
+    {
+      "issue_id": "HK-PRH-FALSE-DECLARATION",
+      "name": "公屋虛報物業判監",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。",
+      "related_report": "2026-10-07-10"
+    },
+    {
+      "issue_id": "HK-CHILD-ABUSE-BEER",
+      "name": "虐兒個案啤酒帖",
+      "kind": "cooling",
+      "text": "原標題仍在，分數由 281 落到 17。主位改跟父母還原標題。",
+      "related_report": "2026-10-07-10"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 36,
+    "items_read_full": 0,
+    "notes": "只讀連登吹水台熱門第 1 頁列表。未登入，未用連登 API。"
+  }
+}
