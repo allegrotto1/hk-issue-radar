@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-07T02:00:00Z",
+    "end": "2026-10-07T03:00:00Z"
+  },
+  "generated_at": "2026-10-07T02:06:00Z",
+  "summary": [
+    "10:06 HKT 2026-10-07。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出 39 條 thread id。分數同頁數用列表可見數字，未估分。",
+    "對照 2026-10-07-09.json。金管局問滙豐星洲 AI 中心、淘大天橋斜坡 EU 車、返深圳揼邪骨、李家超點名赤柱豪宅，本頁未見，不佔主位。公屋虛報判監本頁再見。",
+    "內地：有，未換題。時事台「國足主場0:1塔吉克 友誼賽3連敗 網民：這是職業的嗎？」thread/4164875，14、2 頁、19 分鐘前。上一版 2、2 頁、1 分鐘前。同頁解放軍 2035 標題 -36、3 頁、25 分鐘前，上一版 -34、2 頁，不佔主位。倫敦經貿辦衛志樑標題 36、2 頁，放線索。",
+    "香港政府官員：有，未換題。時事台「信報：港府高官揚言 本港建築「安全標準過高」」thread/4164705，225、5 頁、8 分鐘前。上一版 213、4 頁、1 小時前。李家超本頁未見。西九文化區財赤同 CEO 馮程淑儀 thread/4164811，-136、5 頁、剛剛，上一版 -128、5 頁，仍放線索。",
+    "香港時事：有，未換題。時事台「港鐵其實係咪有責任解釋下」thread/4164814，679、7 頁、3 分鐘前。上一版 655、7 頁、18 分鐘前。虐兒個案 thread/4164932，281、22 頁、剛剛，上一版 253、21 頁。蔡母報警 thread/4164743 仍在，94、10 頁、1 小時前，分數同上，仍記 cooling。公屋虛報 thread/4164820 回到本頁，114、5 頁、7 分鐘前。內地生港鐵查票 thread/4164923，-140、3 頁，上一版線索 -75、2 頁。",
+    "香港經濟：有，未換題。財經台「呢排開始多儲蓄保災情，唔好講賺，本金都收唔足」thread/4164809，281、4 頁、剛剛。上一版 261、3 頁、8 分鐘前。金管局問滙豐本頁未見。美債帖係美國市場，不入卡。複利帖分數為負，不佔主位。",
+    "色情、娛樂同體育帖有見，不收做主卡。未讀帖文內文。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 39,
+        "note": "10:03 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同對上的分數，未估分。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表同帖文連結。",
+      "Threads 本輪未覆蓋。",
+      "色情同娛樂帖不收做主卡。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-MTR-DUTY",
+      "name": "港鐵被問要否解釋",
+      "status": "tracking",
+      "seen": "時事台標題「港鐵其實係咪有責任解釋下」。列表分數 679，7 頁，3 分鐘前。上一版 655、7 頁、18 分鐘前。標題仍未寫事件內容。",
+      "viewpoints": [
+        {
+          "label": "分數再升",
+          "summary": "同一題仍在熱門第 1 頁，分數由 655 升到 679，頁數仍是 7。未打開內文，未知要解釋的係事故、服務定其他。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "679",
+          "comparison": "上一版 655、7 頁；今版 7 頁、3 分鐘前",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事。本頁相關帖入面分數最高，主位未變。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對港鐵說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4164814/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164814、該標題、分數 679、7 頁。"
+        }
+      ],
+      "limits": "不把標題當成已核實的港鐵責任。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-SAVINGS-INSURANCE",
+      "name": "儲蓄保災情",
+      "status": "tracking",
+      "seen": "財經台標題「呢排開始多儲蓄保災情，唔好講賺，本金都收唔足」。列表分數 281，4 頁，剛剛。上一版 261、3 頁、8 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "分數續升",
+          "summary": "同一題仍在熱門第 1 頁，分數由 261 升到 281，頁數由 3 到 4。未打開內文。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "281",
+          "comparison": "上一版 261、3 頁；今版 4 頁、剛剛",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港經濟。本頁仍在的香港保險相關標題，主位未變。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對保單或監管數字。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4164809/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164809、該標題、分數 281、4 頁。"
+        }
+      ],
+      "limits": "不把標題「本金都收唔足」當成已核實的賠付結果。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CHILD-ABUSE-BEER",
+      "name": "虐兒個案啤酒帖",
+      "status": "tracking",
+      "seen": "時事台標題「[虐兒個案] 狂燥人渣老豆迫個骨瘦如柴既女攞幾打啤酒」。列表分數 281，22 頁，剛剛。上一版 253、21 頁。同頁屯門女童獨拎啤酒標題 -2、5 頁，不另開卡。",
+      "viewpoints": [
+        {
+          "label": "分數續升",
+          "summary": "同一題仍在熱門第 1 頁，分數由 253 升到 281，頁數由 21 到 22。未打開內文。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "281",
+          "comparison": "上一版 253、21 頁；今版 22 頁、剛剛",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事。仍在頁，分數再升，不佔頭位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對警方或校方說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4164932/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164932、該標題、分數 281、22 頁。"
+        }
+      ],
+      "limits": "不把標題指控當成已核實的案件事實。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-OFFICIALS-BUILDING-STANDARD",
+      "name": "港府高官談建築安全標準",
+      "status": "tracking",
+      "seen": "時事台標題「信報：港府高官揚言 本港建築「安全標準過高」」。列表分數 225，5 頁，8 分鐘前。上一版 213、4 頁、1 小時前。",
+      "viewpoints": [
+        {
+          "label": "分數續升",
+          "summary": "同一題仍在熱門第 1 頁，分數由 213 升到 225，頁數由 4 到 5。未打開內文。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "225",
+          "comparison": "上一版 213、4 頁；今版 5 頁、8 分鐘前",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港政府官員。李家超本頁未見，呢條係本頁仍在的官員相關標題，主位未變。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對信報或官員表述。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4164705/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164705、該標題、分數 225、5 頁。"
+        }
+      ],
+      "limits": "不把標題「揚言」當成已核實的官員原話。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ABBY-MOTHER",
+      "name": "蔡天鳳案後續標題",
+      "status": "cooling",
+      "seen": "時事台標題「蔡母於失蹤8小時後報警 鄺港智粗口怒斥：「X街啦，你報警都唔話我知！」」。列表分數 94，10 頁，1 小時前。上一版同題 94、10 頁、5 分鐘前。同頁加多利山物業標題 12、8 頁，不另開卡。",
+      "viewpoints": [
+        {
+          "label": "分數未變",
+          "summary": "同一題仍在熱門第 1 頁，分數維持 94，頁數維持 10。未打開內文。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "94",
+          "comparison": "上一版 94、10 頁；今版 10 頁、1 小時前",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港時事。仍在頁，分數未回升，不再佔頭位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對庭審紀錄。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4164743/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164743、該標題、分數 94、10 頁。"
+        }
+      ],
+      "limits": "不把標題粗口引述當成已核實的庭上發言。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "CN-NATIONAL-TEAM-TAJIK",
+      "name": "國足友賽不敵塔吉克",
+      "status": "tracking",
+      "seen": "時事台標題「國足主場0:1塔吉克 友誼賽3連敗 網民：這是職業的嗎？」。列表分數 14，2 頁，19 分鐘前。上一版 2、2 頁、1 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "分數回升但仍低",
+          "summary": "同一題仍在熱門第 1 頁，分數由 2 升到 14，頁數仍是 2。未打開內文。",
+          "evidence_ids": [
+            "L6"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "14",
+          "comparison": "上一版 2、2 頁；今版 2 頁、19 分鐘前",
+          "evidence_ids": [
+            "L6"
+          ]
+        }
+      ],
+      "why": "內地。上一版內地主位仍在本頁，未換題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對賽果。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4164875/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164875、該標題、分數 14、2 頁。"
+        }
+      ],
+      "limits": "不把標題比分當成已核對的官方賽果。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-PRH-FALSE-DECLARATION",
+      "name": "公屋虛報物業判監",
+      "status": "shift",
+      "seen": "時事台標題「兩公屋居民因虛報沒有物業被判監禁兩星期，即時執行」。列表分數 114，5 頁，7 分鐘前。上一版本頁未見。",
+      "viewpoints": [
+        {
+          "label": "回到熱門頁",
+          "summary": "00 版之後 09 版本頁未見。今頁再見，分數 114、5 頁。未打開內文。",
+          "evidence_ids": [
+            "L7"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "114",
+          "comparison": "上一版本頁未見；今版 5 頁、7 分鐘前",
+          "evidence_ids": [
+            "L7"
+          ]
+        }
+      ],
+      "why": "香港時事。公屋判監標題回到本頁，不佔頭位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未打開帖文內文，未核對判詞。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4164820/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164820、該標題、分數 114、5 頁。"
+        }
+      ],
+      "limits": "不把標題刑期當成已核對的判詞。",
+      "next_steps": "下一輪再睇仲在唔在熱門第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-WKCD-DEFICIT",
+      "name": "西九文化區財赤同高層薪酬",
+      "status": "cooling",
+      "seen": "時事台標題「西九文化區財赤9.98億 7名高層薪酬總開支過2千萬 CEO馮程淑儀：已「肥下瘦上」再減請唔到人」。列表分數 -136，5 頁，剛剛。上一版 -128、5 頁。",
+      "why": "香港政府官員相關題仍在頁，分數更負，仍放線索。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對年報。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/thread/4164811/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164811、該標題、分數 -136、5 頁。"
+        }
+      ],
+      "limits": "不把標題數字當成已核實的財報。"
+    },
+    {
+      "issue_id": "HK-MTR-MAINLAND-STUDENT",
+      "name": "內地生港鐵查票標題",
+      "status": "cooling",
+      "seen": "時事台標題「內地生頭等未拍卡 出示身份證罰款 用通行證僅警告 港鐵:按程序查逃票 強調無論是何背景或持哪種證明文件 都不是考慮因素」。列表分數 -140，3 頁，5 分鐘前。上一版 -75、2 頁。",
+      "why": "香港時事相關題仍在頁，分數更負，仍放線索。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對港鐵說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": "https://lihkg.com/thread/4164923/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164923、該標題、分數 -140、3 頁。"
+        }
+      ],
+      "limits": "不把標題當成已核實的罰款個案。"
+    },
+    {
+      "issue_id": "CN-LONDON-TRADE-OFFICE",
+      "name": "倫敦經貿辦案標題",
+      "status": "new",
+      "seen": "時事台標題「倫敦經貿辦案｜衛志樑替中國監控香港異見人士　判囚10年再遭警方「永不錄用」」。列表分數 36，2 頁，15 分鐘前。",
+      "why": "內地相關新見標題，分數低，先放線索。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對判詞。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L10",
+          "url": "https://lihkg.com/thread/4164967/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-07T02:06:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164967、該標題、分數 36、2 頁。"
+        }
+      ],
+      "limits": "不把標題刑期當成已核對的判詞。"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-HKMA-HSBC-AI",
+      "name": "金管局問滙豐星洲 AI 中心",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。",
+      "related_report": "2026-10-07-09"
+    },
+    {
+      "issue_id": "HK-TAODA-BRIDGE-EU",
+      "name": "淘大天橋斜坡 EU 車出事",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。",
+      "related_report": "2026-10-07-09"
+    },
+    {
+      "issue_id": "HK-SZ-BONE-SETTING",
+      "name": "返深圳揼邪骨反思",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。",
+      "related_report": "2026-10-07-09"
+    },
+    {
+      "issue_id": "HK-JOHN-LEE-ONE-STANLEY",
+      "name": "李家超點名赤柱豪宅 One Stanley",
+      "kind": "cooling",
+      "text": "本頁未見，不佔主位。",
+      "related_report": "2026-10-07-09"
+    },
+    {
+      "issue_id": "CN-PLA-2035",
+      "name": "解放軍2035標題",
+      "kind": "tracking",
+      "text": "時事台標題仍在，分數 -36、3 頁、25 分鐘前。上一版 -34、2 頁。不佔主位。",
+      "related_report": "2026-10-07-09"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 39,
+    "items_read_full": 0,
+    "notes": "只讀連登吹水台熱門第 1 頁列表。未登入，未用連登 API。"
+  }
+}
