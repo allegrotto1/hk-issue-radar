@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-08T03:00:00Z",
+    "end": "2026-10-08T04:00:00Z"
+  },
+  "generated_at": "2026-10-08T03:12:00Z",
+  "summary": [
+    "11 點版。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出 37 條可見標題。分數同頁數用卡上可見數字，未估分。Cammi 帖分數未完整顯示，不抄。",
+    "內地：有，主帖仍在但分數急跌。娛樂台「古天樂《偵戰》大陸票房慘淡 上映5天撤檔」thread/4165142 仍在，1、3 頁、2 分鐘前。10 點版 27、4 頁、55 分鐘前。標 cooling。時事台山東相親帖 thread/4165324 仍在，54、4 頁、29 分鐘前，10 點版 -8、2 頁，放線索。上班台淘寶高仿證書標題仍在，-34、3 頁、30 分鐘前，不另開卡。",
+    "香港政府官員：有，題目仍在，分數同頁數再升。時事台「已放風 : 無局長會為宏福苑負責而下台」thread/4165413，497、4 頁、1 分鐘前。10 點版 375、3 頁、5 分鐘前。李家超本頁未見。",
+    "香港時事：有，女童拎啤酒一組仍在，頭帖已換。今頁同題最高係「叫𡃁妹拎啤酒個老母原來係鏡粉嚟」thread/4165107，224、8 頁、14 分鐘前。10 點版同帖 95、4 頁。管浩鳴標題帖 thread/4165371，177、13 頁、1 分鐘前，10 點版 -34、3 頁。10 點版頭帖 thread/4165273 仍在，99、16 頁、剛剛，10 點版 210、7 頁。另見翠屏北邨失火帖，-33、2 頁，不併入。",
+    "香港經濟：有，主帖未換但分數上升。房屋台「問：胡說樓市.....」thread/4164973，138、4 頁、1 小時前。10 點版 109、4 頁。新見時事台離境稅及機場建設費帖 thread/4165447，107、3 頁、7 分鐘前，放線索。茶餐廳後叫餐 thread/4165297 仍在，-51、5 頁、28 分鐘前，10 點版 -29、3 頁。",
+    "色情帖、體育帖、自殘字眼帖有見，不收做主卡。未成年相關案件標題有見，不收做主卡。未讀帖文內文。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 37,
+        "note": "11:12 HKT 前後。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同卡上的分數，未估分。主帖網址由點進帖後的網址欄核對。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表同帖文連結。",
+      "Threads 本輪未用來填卡。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-TM-CHILD-BEER",
+      "name": "屯門女童拎啤酒 父母涉虐兒",
+      "status": "shift",
+      "seen": "時事台多條同題仍在。今頁最高同題「叫𡃁妹拎啤酒個老母原來係鏡粉嚟」thread/4165107，列表分數 224，8 頁，14 分鐘前。10 點版同帖 95、4 頁。管浩鳴標題帖 thread/4165371，177、13 頁、1 分鐘前，10 點版 -34、3 頁。10 點版頭帖「數吓對綜援夫妻點爽法,唔洗做公屋住日日飲酒日本旅行迪士尼金卡生3件追星」thread/4165273 仍在，99、16 頁、剛剛，10 點版 210、7 頁。東張訪問帖仍見，95、4 頁、35 分鐘前。更新留院帖仍見，-29、3 頁、剛剛。家庭背景帖仍見，6、3 頁、9 分鐘前。星島繼父帖仍見，14、3 頁、33 分鐘前。佔中父母聯想帖仍見，-42、2 頁、18 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "同題頭帖換成鏡粉標題",
+          "summary": "列表同時有鏡粉、管浩鳴、綜援旅行、東張、家庭背景同星島繼父幾個標題。鏡粉帖由 95 升到 224，頁數由 4 升到 8。管浩鳴帖由 -34 升到 177，頁數由 3 升到 13。原頭帖分數由 210 跌到 99，頁數由 7 升到 16。未打開內文。",
+          "evidence_ids": [
+            "L1",
+            "L2",
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "224",
+          "comparison": "10 點版鏡粉帖 95、4 頁；管浩鳴帖今頁 177、13 頁，10 點版 -34、3 頁；綜援帖今頁 99、16 頁，10 點版 210、7 頁",
+          "evidence_ids": [
+            "L1",
+            "L2",
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事。本頁同題帖仍然最多，頭帖已由綜援旅行帖換成鏡粉帖，分數同頁數都有明顯變動。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對警方或社署。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4165107/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-08T03:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165107、該標題、分數 224、8 頁、14 分鐘前。網址由點進帖後核對。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4165371/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-08T03:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165371、該標題、分數 177、13 頁、1 分鐘前。網址由點進帖後核對。"
+        },
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4165273/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-08T03:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165273、該標題、分數 99、16 頁、剛剛。網址由點進帖後核對。"
+        }
+      ],
+      "limits": "不把標題入面的綜援、旅行、鏡粉或神職人員評語當成已核實事實。",
+      "next_steps": "下一輪再睇鏡粉帖同管浩鳴帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-WANG-FUK-BUREAU",
+      "name": "宏福苑問責 局長會否下台",
+      "status": "shift",
+      "seen": "時事台「已放風 : 無局長會為宏福苑負責而下台」thread/4165413。列表分數 497，4 頁，1 分鐘前。10 點版同帖 375、3 頁、5 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "放風標題分數再升",
+          "summary": "標題寫已放風、無局長會為宏福苑負責而下台。分數由 375 升到 497，頁數由 3 升到 4。未打開內文，未知放風來源。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "497",
+          "comparison": "10 點版同帖 375、3 頁",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港政府官員。本頁直接寫到局長會否為宏福苑下台的標題，分數比 10 點版更高。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未核對政府聲明。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4165413/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-08T03:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165413、該標題、分數 497、4 頁、1 分鐘前。網址由點進帖後核對。"
+        }
+      ],
+      "limits": "不把「已放風」「無局長會下台」當成已核實的政府決定。",
+      "next_steps": "下一輪再睇該帖仲在唔在熱門第 1 頁，以及有無官員姓名帖回到本頁。"
+    },
+    {
+      "issue_id": "CN-LOUIS-KOO-BOX",
+      "name": "古天樂《偵戰》大陸票房撤檔",
+      "status": "cooling",
+      "seen": "娛樂台「古天樂《偵戰》大陸票房慘淡 上映5天撤檔」thread/4165142。列表分數 1，3 頁，2 分鐘前。10 點版同帖 27、4 頁、55 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "撤檔標題仍在但分數跌到 1",
+          "summary": "標題寫大陸票房慘淡、上映 5 天撤檔。分數由 27 跌到 1，頁數由 4 跌到 3。未打開內文，未知票房數字來源。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "1",
+          "comparison": "10 點版同帖 27、4 頁",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "內地。本頁仍見以大陸票房同撤檔做標題的帖，但分數已明顯冷卻，繼續佔內地主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未核對票房或撤檔公告。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4165142/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-08T03:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165142、該標題、分數 1、3 頁、2 分鐘前。網址由點進帖後核對。"
+        }
+      ],
+      "limits": "不把標題「慘淡」「撤檔」當成已核實票房數字。",
+      "next_steps": "下一輪再睇該帖仲在唔在熱門第 1 頁。若離開，改睇山東相親帖可否頂上。"
+    },
+    {
+      "issue_id": "HK-PROPERTY-CHAT",
+      "name": "連登樓市討論帖",
+      "status": "shift",
+      "seen": "房屋台「問：胡說樓市.....」thread/4164973。列表分數 138，4 頁，1 小時前。10 點版同帖 109、4 頁。",
+      "viewpoints": [
+        {
+          "label": "樓市帖分數上升",
+          "summary": "標題只寫問樓市，未見具體樓價數字。分數由 109 升到 138，頁數仍是 4。未打開內文。",
+          "evidence_ids": [
+            "L6"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "138",
+          "comparison": "10 點版同帖 109、4 頁",
+          "evidence_ids": [
+            "L6"
+          ]
+        }
+      ],
+      "why": "香港經濟。本頁樓市帖仍是分數最高的相關標題，繼續佔經濟主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未知討論係樓價、成交定按揭。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4164973/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-08T03:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4164973、該標題、分數 138、4 頁、1 小時前。網址由點進帖後核對。"
+        }
+      ],
+      "limits": "不把討論帖標題當成樓市數據。",
+      "next_steps": "下一輪再睇樓市帖分數，以及離境稅帖會否升過樓市帖。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-DEPARTURE-TAX",
+      "name": "綜援人士離境稅及機場建設費",
+      "status": "new",
+      "seen": "時事台「數百元稅費成基層重擔 有意見倡免綜援人士離境稅及機場建設費」thread/4165447。列表分數 107，3 頁，7 分鐘前。10 點版未見此標題。",
+      "why": "香港經濟線索。新見標題，分數未高過樓市帖，不佔主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對政府收費。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4165447/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-08T03:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165447、該標題、分數 107、3 頁、7 分鐘前。網址由點進帖後核對。"
+        }
+      ],
+      "limits": "不把標題「有意見倡免」當成已落實的政策。"
+    },
+    {
+      "issue_id": "HK-CHA-CHAN-TENG",
+      "name": "茶餐廳不准後叫餐",
+      "status": "tracking",
+      "seen": "時事台「HK01 本地一間連鎖茶餐廳不准「後叫餐飲」 分開下單要收正價」thread/4165297。列表分數 -51，5 頁，28 分鐘前。10 點版同帖 -29、3 頁。",
+      "why": "香港經濟線索。標題仍在，分數更負，不佔主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對餐廳公告。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/thread/4165297/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-08T03:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165297、該標題、分數 -51、5 頁、28 分鐘前。網址由點進帖後核對。"
+        }
+      ],
+      "limits": "不把標題「不准後叫餐」當成已核實的店規。"
+    },
+    {
+      "issue_id": "CN-SHANDONG-MARRIAGE",
+      "name": "山東男子赴巴國相親",
+      "status": "shift",
+      "seen": "時事台「山東男子相親15年無果，到巴國娶媳婦花了30萬全家滿意」thread/4165324。列表分數 54，4 頁，29 分鐘前。10 點版同帖 -8、2 頁。",
+      "why": "內地線索。分數由負轉正，但仍低過主位所需，不取代古天樂帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": "https://lihkg.com/thread/4165324/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-08T03:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165324、該標題、分數 54、4 頁、29 分鐘前。網址由點進帖後核對。"
+        }
+      ],
+      "limits": "不把標題金額當成已核實開支。"
+    },
+    {
+      "issue_id": "HK-TSUI-PING-FIRE",
+      "name": "翠屏北邨單位失火",
+      "status": "cooling",
+      "seen": "時事台「翠屏北邨單位失火｜13歲男童蹲冷氣機頂避難送院　母親涉虐兒被捕」仍在本頁。列表分數 -33，2 頁，11 分鐘前。10 點版同題 29、2 頁。本輪未再點進核對網址。",
+      "why": "香港時事線索。標題仍在，分數由正轉負，不佔主位，亦不併入屯門女童帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數，未核對警方或消防。"
+      },
+      "evidence": [],
+      "limits": "不把標題「涉虐兒被捕」當成已核實的案件結果。本輪無新網址。"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-HSBC-AI-ADVISORS",
+      "name": "滙豐傳炒財務顧問改用AI",
+      "kind": "follow_up",
+      "text": "10 點版已標 cooling。11 點這一頁仍未見該標題，繼續 cooling，不另開卡。",
+      "related_report": "2026-10-08-10"
+    },
+    {
+      "issue_id": "HK-ABBY-MOTHER",
+      "name": "蔡天鳳案相關帖",
+      "kind": "follow_up",
+      "text": "本頁仍見。時事台蔡天鳳案辯方盤問標題，列表分數 35、10 頁、剛剛。娛樂台翁子光帖，256、10 頁、1 分鐘前。屬舊題，不佔主位。本輪未再點進核對網址。",
+      "related_report": "2026-10-08-10"
+    },
+    {
+      "issue_id": "HK-PAYME-UNIONPAY",
+      "name": "PayMe 銀聯卡盜用帖",
+      "kind": "follow_up",
+      "text": "時事台 payme 銀聯卡盜用標題仍在，列表分數 -14、6 頁、3 分鐘前。不佔經濟主位。本輪未再點進核對網址。",
+      "related_report": "2026-10-08-10"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 37,
+    "items_read_full": 0,
+    "notes": "只讀吹水台熱門第 1 頁列表。未打開帖文內文。主帖網址由點進後的網址欄核對。"
+  }
+}
