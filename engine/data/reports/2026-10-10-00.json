@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-09T16:00:00Z",
+    "end": "2026-10-09T17:00:00Z"
+  },
+  "generated_at": "2026-10-09T16:12:00Z",
+  "summary": [
+    "00 點版。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出 38 條 thread 連結。分數、頁數、時間用同一張卡上的可見數字，未估分。赤柱帖 thread/4166104 已打開，頁面標題同列表。其餘未讀內文。同一小時未見舊檔，新寫這份。",
+    "內地：有。創意台閒魚帖 thread/4165604 仍在，-109、5 頁、8 分鐘前；09 點版未佔主卡。新見時事台華為制動帖 thread/4165862，-65、3 頁、10 分鐘前。時事台內地司機清水灣道帖 thread/4166126，63、4 頁、43 分鐘前。手機台國行 iPhone 帖 thread/4164548，42、4 頁、10 分鐘前。時事台安踏收購帖 thread/4165933，-15、4 頁、3 分鐘前，放線索。去完大陸觀感帖、魚子醬帖本頁未見。",
+    "香港政府官員：本頁未見在任官員主帖。李家超、鄧炳強本頁未見。女童帖標題提到社署，不當成官員卡。周庭直立板帖 thread/4165637，-122、9 頁、7 分鐘前，不是政府官員帖，不另開卡。施永青帖 thread/4166160，-14、2 頁、5 分鐘前，不是官員。",
+    "香港時事：有。富泰女童一組仍在熱門。頭帖換成「屯門富泰邨女童拎啤酒疑受虐｜三姊弟仍留醫檢查，社署評估出院後不適宜回家，會有臨時合適住宿安排」thread/4166043，495、8 頁、2 分鐘前。另一帖「富泰邨兩公婆驚人背景曝光」thread/4165770，512、14 頁、26 分鐘前。新見上環九巴打窗帖 thread/4165331，286、6 頁、9 分鐘前。新見赤柱施工不符圖則帖 thread/4166104，100、4 頁、2 分鐘前。蔡天鳳案標題 thread/4165915，14、2 頁、18 分鐘前，屬舊題，不佔主位。",
+    "香港經濟：有，但本頁無樓價或股市主帖。清水灣開價帖本頁未見。綜援發放形式帖 thread/4166016，360、6 頁、1 小時前，放主卡。安踏收購帖放線索。列表另見「九龍治水」，-115、5 頁、1 分鐘前，未抽到 thread 連結，不開卡、不補網址。",
+    "色情帖、體育帖、娛樂帖有見，不收做主卡。飲食台美食帖有見，不寫商戶名。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 38,
+        "note": "00:07 HKT 後讀頁。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同卡上的分數，未估分。赤柱帖已對過頁面標題。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "除赤柱帖外未讀帖文內文，只讀熱門列表同帖文連結。",
+      "Threads 本輪只做已有追蹤帖的數字，不用來填卡。",
+      "列表可見「九龍治水」但未抽到 thread 連結，不補網址。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-TM-CHILD-BEER",
+      "name": "屯門女童拎啤酒 父母涉虐兒",
+      "status": "tracking",
+      "seen": "時事台頭帖換成「屯門富泰邨女童拎啤酒疑受虐｜三姊弟仍留醫檢查，社署評估出院後不適宜回家，會有臨時合適住宿安排」。列表分數 495，8 頁，2 分鐘前。同頁「富泰邨兩公婆驚人背景曝光　契哥成功搶老婆 經常網上炫富 買名牌手袋、滑雪裝備，甚至舉家到處旅行，生活奢華」，512，14 頁，26 分鐘前。另有「其實小癲 social media 推到綜援女兩公婆咩都無哂 加3 個子女可能要俾社署」，-325，3 頁，1 分鐘前；「濫用綜援，不排除轉介警方跟進」，-52，5 頁，20 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只見標題。社署安排、炫富、轉介警方都係標題字，未打開內文，未知回覆係講案情、綜援定係講拍片。",
+          "evidence_ids": ["L1", "L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "女童社署帖列表分數",
+          "value": "495",
+          "comparison": "8 頁，2 分鐘前",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "metric": "兩公婆背景帖列表分數",
+          "value": "512",
+          "comparison": "14 頁，26 分鐘前",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港時事。本頁分數最高的一組，09 點版已有同一案，今期有新標題同社署字眼，繼續放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對社署或警方說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4166043/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166043、該標題、分數 495、8 頁、2 分鐘前、時事台。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4165770/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165770、該標題、分數 512、14 頁、26 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成案情或社署決定的核實記述。",
+      "next_steps": "下一輪再睇呢組仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-SHEUNG-WAN-BUS-WINDOW",
+      "name": "上環九巴打爆車窗被捕",
+      "status": "new",
+      "seen": "時事台「上環23歲姓鄧「壯漢」搭九巴嫌慢 失控打爆車窗玻璃被捕 （圖）」。列表分數 286，6 頁，9 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。未打開內文，未知圖同回覆係講事發經過定係講車務。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "286",
+          "comparison": "6 頁，9 分鐘前",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事。今期新見，分數高過赤柱帖，先排。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未核對警方或巴士公司說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4165331/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165331、該標題、分數 286、6 頁、9 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題年齡、姓氏或被捕當成已核實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CSSA-CLAIM-FORM",
+      "name": "綜援改以申領形式發放",
+      "status": "new",
+      "seen": "時事台「綜援係咪應該要轉成claim錢嘅形式發放？」。列表分數 360，6 頁，1 小時前。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。未打開內文，未知回覆係講發放方式定係講富泰案。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "360",
+          "comparison": "6 頁，1 小時前",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟。本頁無樓價或股市主帖，這條係福利發放討論，分數高，新開主卡。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未核對社署現行發放方式。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4166016/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166016、該標題、分數 360、6 頁、1 小時前、時事台。"
+        }
+      ],
+      "limits": "不把問句當成政策已改。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-STANLEY-WORKS",
+      "name": "赤柱地盤施工不符圖則",
+      "status": "new",
+      "seen": "時事台「赤柱One Stanley施工不符圖則 發展商承諾增六年結構保養 額外提供全資驗樓」。列表分數 100，4 頁，2 分鐘前。已打開帖頁，頁面標題同列表。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只對過頁面標題。未讀回覆，未知圖則或保養承諾係轉帖定係討論。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "100",
+          "comparison": "4 頁，2 分鐘前",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港時事。今期新見，涉及地盤同圖則，放主卡。",
+      "verification": {
+        "status": "partially_verified",
+        "note": "帖頁標題同列表一致。圖則、保養年期未核對屋宇署或發展商文本。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4166104/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T16:12:00Z",
+          "read_level": "partial",
+          "note": "熱門排序頁對上 thread/4166104、分數 100、4 頁、2 分鐘前、時事台。帖頁標題同列表。"
+        }
+      ],
+      "limits": "不把標題承諾當成已核實的工程安排。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "CN-HUAWEI-BRAKE",
+      "name": "華為制動未斷及免費升級",
+      "status": "new",
+      "seen": "時事台「華為死撐個break冇斷到！但因應極端情況 將會為車主免費升級！」。列表分數 -65，3 頁，10 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。未打開內文，未知係講邊款車或邊次檢測。",
+          "evidence_ids": ["L6"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-65",
+          "comparison": "3 頁，10 分鐘前",
+          "evidence_ids": ["L6"]
+        }
+      ],
+      "why": "內地。今期新見的內地車廠帖，09 點版摘要話電動車斷裂帖未見。閒魚帖仍在但早前已提過，這條先開卡。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未核對車廠公告。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4165862/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165862、該標題、分數 -65、3 頁、10 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題「冇斷到」或免費升級當成已核實。",
+      "next_steps": "下一輪再睇呢帖同閒魚帖仲在唔在熱門第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "CN-MAINLAND-DRIVER-CWB",
+      "name": "內地司機清水灣道逆線",
+      "status": "lead",
+      "seen": "時事台「（有片）41歲內地司機清水灣道七人車逆線 險撞兩車 涉危駕被帶署助查」。列表分數 63，4 頁，43 分鐘前。",
+      "why": "內地同香港時事都沾邊。分數低過主卡，先放線索。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未核對警方說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "url": "https://lihkg.com/thread/4166126/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166126、該標題、分數 63、4 頁、43 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題年齡或危駕當成已核實。"
+    },
+    {
+      "issue_id": "CN-ANTA-PUMA",
+      "name": "安踏完成收購 PUMA 股權",
+      "status": "lead",
+      "seen": "時事台「安踏完成收購PUMA股權」。列表分數 -15，4 頁，3 分鐘前。",
+      "why": "內地同香港經濟都沾邊。分數低，先放線索，不當成抵制名單。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未核對公司公告。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E2",
+          "url": "https://lihkg.com/thread/4165933/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165933、該標題、分數 -15、4 頁、3 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題收購完成當成已核實的交易。"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "HK-TM-CHILD-BEER",
+      "name": "屯門女童拎啤酒 父母涉虐兒",
+      "kind": "shift",
+      "text": "09 點版已有同一案。今期熱門第 1 頁換成社署安排標題 thread/4166043，495、8 頁，以及兩公婆背景帖 thread/4165770，512、14 頁。",
+      "related_report": "2026-10-09-09"
+    }
+  ],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 38,
+    "items_read_full": 0,
+    "notes": "只讀連登吹水台熱門第 1 頁。赤柱帖對過頁面標題，其餘 title_only。未估分。"
+  }
+}
