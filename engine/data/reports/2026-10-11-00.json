@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-10T16:00:00Z",
+    "end": "2026-10-10T17:00:00Z"
+  },
+  "generated_at": "2026-10-10T16:12:00Z",
+  "summary": [
+    "00 點版。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出約 35 條 thread 連結。分數、頁數、時間用同一張卡上的可見數字，未估分。未打開帖文內文。同一小時未見舊檔，新寫這份。",
+    "內地：有。今次去完大陸探親兩極化帖 thread/4166382，-55、5 頁、剛剛。星島深圳租金帖 thread/4166456，99、12 頁、剛剛。歐盟對中報復帖 thread/4165725，13、2 頁、24 分鐘前。山東男子巴國娶媳婦帖 thread/4165324，本頁有見。深圳 kpmg 帖不收做主卡。",
+    "香港政府官員：有。楊何蓓茵宏福苑失責公務員帖 thread/4166395，2、2 頁、4 分鐘前。公務員跳 point 楊何蓓茵「毋須擔心」帖 thread/4166368，-116、6 頁、4 小時前。郵政改合約制帖 thread/4166343，384、9 頁、剛剛。",
+    "香港時事：有。郵政改合約制帖分數高。公屋 Attendance 制度帖 thread/4165913，93、6 頁、17 分鐘前。17 歲 PolyU 少女登獅子山帖 thread/4166338，54、4 頁、3 分鐘前。西貢大網仔燒炭帖 thread/4166198，53、12 頁、8 分鐘前。屯門啤酒妹錯重點帖 thread/4166178，33、3 頁、2 分鐘前。英雄聯盟炸地鐵帖 thread/4166468，-19、7 頁、9 分鐘前。",
+    "香港經濟：有。深圳租金棄港投深帖。郵政改合約制涉政府聘用。公屋 Attendance 制度帖。公務員跳 point 帖。本頁無樓價或股市主帖。",
+    "色情帖、體育帖、娛樂帖有見，不收做主卡。飲食台美食帖有見，不寫商戶名。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 35,
+        "note": "00:07 HKT 後讀頁。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同卡上的分數，未估分。未打開帖文內文。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表同帖文連結。",
+      "Threads 本輪只做已有追蹤帖的數字，不用來填卡。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-POST-CONTRACT",
+      "name": "郵政改合約制 政府研優先聘用受影響者",
+      "status": "new",
+      "seen": "時事台「郵政改合約制｜政府研優先聘用受影響者　並提供轉職系試任期」。列表分數 384，9 頁，剛剛。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講合約細節定係講影響人數。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "郵政帖列表分數",
+          "value": "384",
+          "comparison": "9 頁，剛剛",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港時事、香港政府、香港經濟。本頁分數最高之一，新見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對政府說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4166343/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166343、該標題、分數 384、9 頁、剛剛、時事台。"
+        }
+      ],
+      "limits": "不把標題當成政府決定的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-SZ-RENT",
+      "name": "深圳租金吸引 港人擬棄港投深",
+      "status": "new",
+      "seen": "時事台「星島：深圳租金好吸引 港人擬「棄港投深」」。列表分數 99，12 頁，剛剛。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講租金比較定係講遷居。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "深圳租金帖列表分數",
+          "value": "99",
+          "comparison": "12 頁，剛剛",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港經濟、內地。本頁活躍，新見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4166456/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166456、該標題、分數 99、12 頁、剛剛、時事台。"
+        }
+      ],
+      "limits": "不把標題當成租金數據的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-YEUNG-HUNG-FUK",
+      "name": "楊何蓓茵談宏福苑失責公務員",
+      "status": "new",
+      "seen": "時事台「楊何蓓茵：宏福苑事件不排除就失責公務員開展紀律行動」。列表分數 2，2 頁，4 分鐘前。同頁另有公務員跳 point 楊何蓓茵帖。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講事件定係講官員。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "宏福苑帖列表分數",
+          "value": "2",
+          "comparison": "2 頁，4 分鐘前",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港政府官員。本頁有見在任官員主帖，新見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對官員說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4166395/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166395、該標題、分數 2、2 頁、4 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成紀律行動的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "CN-POLARIZATION",
+      "name": "去完大陸探親感社會兩極化",
+      "status": "new",
+      "seen": "時事台「今次去完大陸探親 令我感覺到而家大陸社會越嚟越兩極化」。列表分數 -55，5 頁，剛剛。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講個人觀感定係講數據。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "兩極化帖列表分數",
+          "value": "-55",
+          "comparison": "5 頁，剛剛",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "內地。本頁有見，新見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4166382/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166382、該標題、分數 -55、5 頁、剛剛、時事台。"
+        }
+      ],
+      "limits": "不把標題當成社會狀況的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-PUBLIC-HOUSING-ATTENDANCE",
+      "name": "公屋應否整 Attendance 制度",
+      "status": "new",
+      "seen": "時事台「其實公屋係唔係應該要整Attendance 制度」。列表分數 93，6 頁，17 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講制度設計定係講現況。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "公屋帖列表分數",
+          "value": "93",
+          "comparison": "6 頁，17 分鐘前",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港時事、香港經濟。本頁有見，新見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4165913/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4165913、該標題、分數 93、6 頁、17 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成公屋政策的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-CIVIL-PAY-CURVE",
+      "name": "公務員跳 point 楊何蓓茵毋須擔心",
+      "status": "早期線索",
+      "seen": "時事台「公務員跳point要拉 curve涉約4.1萬人 、6萬頂薪公僕會否被交人頭 楊何蓓菌：「毋須擔心」」。列表分數 -116，6 頁，4 小時前。",
+      "why": "香港政府官員、香港經濟。本頁有見，放線索。",
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4166368/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166368、該標題、分數 -116、6 頁、4 小時前、時事台。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-TM-BEER-GIRL",
+      "name": "屯門啤酒妹單嘢錯晒重點",
+      "status": "早期線索",
+      "seen": "時事台「屯門啤酒妹單嘢大家錯晒重點」。列表分數 33，3 頁，2 分鐘前。",
+      "why": "香港時事。本頁有見，放線索。",
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4166178/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T16:12:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166178、該標題、分數 33、3 頁、2 分鐘前、時事台。"
+        }
+      ]
+    }
+  ],
+  "tracking": [],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 35,
+    "notes": "只讀連登吹水台熱門第 1 頁。未用 API，未登入，未估分。"
+  }
+}
