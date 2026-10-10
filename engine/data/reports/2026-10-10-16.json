@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-10T08:00:00Z",
+    "end": "2026-10-10T09:00:00Z"
+  },
+  "generated_at": "2026-10-10T08:05:00Z",
+  "summary": [
+    "16 點版。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出多條 thread。分數、頁數、時間用列表可見數字，未估分。對照 15 點版。",
+    "內地：有。清水灣道內地司機帖 thread/4166126 重新出現，列表分數 95，9 頁，2 分鐘前（上期本頁未見）。閒魚帖本頁未見。",
+    "香港政府官員：有。施永青相關「生兩胎才有權避孕」帖 thread/4166293 仍在，分數 -142，6 頁，1 小時前（上期 -31）。葛珮帆「得算力，得天下」帖 thread/4166363 新見，分數 -4，3 頁，4 分鐘前。",
+    "香港時事：有。杜凱琹宣佈參選選舉委員會帖 thread/4166335 仍在，分數 141，2 頁，1 分鐘前（上期 -57）。PolyU 少女獅子山睇日出送院帖 thread/4166338 仍在，分數 261，5 頁，剛剛（上期 -85）。蔡天鳳案新帖 thread/4166340 分數 -43，3 頁，剛剛。",
+    "香港經濟：有。讚唔讚成綜援大規模改革帖 thread/4166333 仍在，分數 -404，5 頁，1 小時前（上期 186）。加密貨幣投資騙局帖 thread/4166327 新見，分數 33，7 頁，剛剛。",
+    "色情帖、體育帖、娛樂帖有見，不收做主卡。飲食台美食帖有見，不寫商戶名。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 30,
+        "note": "16:03 HKT 後讀頁。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同卡上的分數，未估分。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表同帖文連結。",
+      "部分分數從列表文字解析，頁數與分數緊連。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-DRIVER",
+      "name": "清水灣道內地司機逆線",
+      "status": "shift",
+      "seen": "時事台「（有片）41歲內地司機清水灣道七人車逆線 險撞兩車 涉危駕被帶署助查」。列表分數 95，9 頁，2 分鐘前。上期本頁未見。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只見標題。未打開內文。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "95",
+          "comparison": "9 頁，2 分鐘前",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地相關。上期本頁未見，本期重新出現在熱門第 1 頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4166126/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T08:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166126、該標題、分數 95、9 頁、2 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成事實核實。",
+      "next_steps": "下一輪再睇仲在唔在。"
+    },
+    {
+      "issue_id": "CN-XIANYU",
+      "name": "閒魚大陸二手平台討論",
+      "status": "cooling",
+      "seen": "上期創意台「大家有冇聽過「閒魚」呢個大陸二手平台？」。本頁未見。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "本頁未見。",
+          "evidence_ids": []
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "未見",
+          "comparison": "本頁未見",
+          "evidence_ids": []
+        }
+      ],
+      "why": "內地相關。上期在熱門，本期本頁未見。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有上期列表標題。"
+      },
+      "evidence": [],
+      "limits": "不把標題當成事實核實。",
+      "next_steps": "下一輪再睇仲在唔在。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-SHI",
+      "name": "施永青生兩胎才有權避孕",
+      "status": "shift",
+      "seen": "時事台「施永青：「生兩胎才有權避孕」」。列表分數 -142，6 頁，1 小時前。上期 -31。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只見標題。未打開內文。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "-142",
+          "comparison": "6 頁，1 小時前",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員相關（施永青為前官員/商界）。仍在熱門第 1 頁，分數更負。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4166293/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T08:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166293、該標題、分數 -142、6 頁、1 小時前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成事實核實。",
+      "next_steps": "下一輪再睇仲在唔在。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-GE",
+      "name": "葛珮帆得算力得天下",
+      "status": "new",
+      "seen": "時事台「葛珮帆：「得算力，得天下」」。列表分數 -4，3 頁，4 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只見標題。未打開內文。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "-4",
+          "comparison": "3 頁，4 分鐘前",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港政府官員相關。新見於熱門第 1 頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4166363/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T08:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166363、該標題、分數 -4、3 頁、4 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成事實核實。",
+      "next_steps": "下一輪再睇仲在唔在。"
+    },
+    {
+      "issue_id": "HK-DOKAYCHUN",
+      "name": "杜凱琹宣佈參選選舉委員會",
+      "status": "shift",
+      "seen": "時事台「香港乒乓球隊一姐杜凱琹宣佈參選 2026年選舉委員會界別分組一般選舉」。列表分數 141，2 頁，1 分鐘前。上期 -57。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只見標題。未打開內文。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "141",
+          "comparison": "2 頁，1 分鐘前",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港時事。仍在熱門第 1 頁，分數由負轉正。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4166335/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T08:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166335、該標題、分數 141、2 頁、1 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成事實核實。",
+      "next_steps": "下一輪再睇仲在唔在。"
+    },
+    {
+      "issue_id": "HK-POLYU",
+      "name": "PolyU少女獅子山睇日出送院",
+      "status": "shift",
+      "seen": "時事台「17歲PolyU少女偕2名同學登獅子山睇日出 感到好凍 直升機送院救治」。列表分數 261，5 頁，剛剛。上期 -85。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只見標題。未打開內文。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "261",
+          "comparison": "5 頁，剛剛",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港時事。仍在熱門第 1 頁，分數大幅上升。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4166338/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T08:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166338、該標題、分數 261、5 頁、剛剛、時事台。"
+        }
+      ],
+      "limits": "不把標題當成事實核實。",
+      "next_steps": "下一輪再睇仲在唔在。"
+    },
+    {
+      "issue_id": "HK-CAITIANFENG",
+      "name": "蔡天鳳案返工帖",
+      "status": "new",
+      "seen": "上班台「其實蔡天鳳案最恐怖嘅唔係人頭煲湯 而係原來得我需要返工」。列表分數 -43，3 頁，剛剛。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只見標題。未打開內文。",
+          "evidence_ids": ["L6"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "-43",
+          "comparison": "3 頁，剛剛",
+          "evidence_ids": ["L6"]
+        }
+      ],
+      "why": "香港時事相關。新見於熱門第 1 頁。上期另一蔡天鳳帖本頁未見。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4166340/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T08:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166340、該標題、分數 -43、3 頁、剛剛、上班台。"
+        }
+      ],
+      "limits": "不把標題當成事實核實。",
+      "next_steps": "下一輪再睇仲在唔在。"
+    },
+    {
+      "issue_id": "HK-CSSA-REFORM",
+      "name": "綜援大規模改革討論",
+      "status": "shift",
+      "seen": "時事台「讚唔讚成綜援大規模改革？」。列表分數 -404，5 頁，1 小時前。上期 186。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只見標題。未打開內文。",
+          "evidence_ids": ["L7"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "-404",
+          "comparison": "5 頁，1 小時前",
+          "evidence_ids": ["L7"]
+        }
+      ],
+      "why": "香港經濟相關。仍在熱門第 1 頁，分數大幅下降。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4166333/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T08:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166333、該標題、分數 -404、5 頁、1 小時前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成事實核實。",
+      "next_steps": "下一輪再睇仲在唔在。"
+    },
+    {
+      "issue_id": "HK-CRYPTO-SCAM",
+      "name": "加密貨幣投資騙局失2100萬",
+      "status": "new",
+      "seen": "時事台「[人傻錢多] 6旬婦墮加密貨幣投資騙局失2,100萬！」。列表分數 33，7 頁，剛剛。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只見標題。未打開內文。",
+          "evidence_ids": ["L8"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "列表分數",
+          "value": "33",
+          "comparison": "7 頁，剛剛",
+          "evidence_ids": ["L8"]
+        }
+      ],
+      "why": "香港經濟相關。新見於熱門第 1 頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/thread/4166327/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-10T08:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166327、該標題、分數 33、7 頁、剛剛、時事台。"
+        }
+      ],
+      "limits": "不把標題當成事實核實。",
+      "next_steps": "下一輪再睇仲在唔在。"
+    }
+  ]
+}
