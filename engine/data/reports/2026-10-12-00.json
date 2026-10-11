@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-11T16:00:00Z",
+    "end": "2026-10-11T17:00:00Z"
+  },
+  "generated_at": "2026-10-11T16:10:00Z",
+  "summary": [
+    "00 點版。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出約 33 條 thread 連結。分數、頁數、時間用同一張卡上的可見數字，未估分。未打開帖文內文。同一小時未見舊檔，新寫這份。",
+    "內地：有。X瘋傳內蒙古多地疑似爆發鼠疫帖 thread/4166733，172、7 頁、16 分鐘前。今次去完大陸探親兩極化帖 thread/4166382，620、11 頁、5 分鐘前。燒山俄羅斯鼠疫帖 thread/4165670 本頁有見。",
+    "香港政府官員：無。本頁無在任香港政府官員主帖。康文處公園執法帖有見，屬部門而非點名官員。",
+    "香港時事：有。中大學生叫雞公開個人資料帖 thread/4166557，662、12 頁、1 分鐘前。條女帶貓去公園比康文處圍帖 thread/4166637，620、11 頁、5 分鐘前。預製炒蛋帖 thread/4166674，595、15 頁、14 分鐘前。灣仔男子跌死帖 thread/4166762，270、6 頁、32 分鐘前。",
+    "香港經濟：有。今日叔輩話玩美股帖 thread/4166788，124、6 頁、11 分鐘前，財經台。原來拼多多買波鞋平過香港帖 thread/4166751 本頁有見。Pokemon30周年卡炒燶帖 thread/4166749，120、8 頁、1 分鐘前。澳門賭收連跌帖屬澳門，不作香港主卡。",
+    "色情帖、體育帖、娛樂帖有見，不收做主卡。飲食台美食帖有見，不寫商戶名。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 33,
+        "note": "00:08 HKT 後讀頁。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同卡上的分數，未估分。未打開帖文內文。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表同帖文連結。",
+      "Threads 本輪只做已有追蹤帖的數字，不用來填卡。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-IM-PLAGUE",
+      "name": "內蒙古多地疑似爆發鼠疫",
+      "status": "new",
+      "seen": "時事台「X瘋傳突發爆料：內蒙古多地疑似爆發鼠疫，數千病例遭封鎖！」。列表分數 172，7 頁，16 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講爆料來源定係講核實。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "鼠疫帖列表分數",
+          "value": "172",
+          "comparison": "7 頁，16 分鐘前",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地。本頁有見突發爆料帖，新見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對衛生部門說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4166733/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-11T16:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166733、該標題、分數 172、7 頁、16 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成病例數字或封鎖範圍的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "CN-POLARIZATION",
+      "name": "去完大陸探親感社會兩極化",
+      "status": "new",
+      "seen": "時事台「今次去完大陸探親 令我感覺到而家大陸社會越嚟越兩極化」。列表分數 620，11 頁，5 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講個人觀感定係講對比。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "兩極化帖列表分數",
+          "value": "620",
+          "comparison": "11 頁，5 分鐘前",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "內地。本頁分數高，有見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4166382/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-11T16:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166382、該標題、分數 620、11 頁、5 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成社會狀況的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CUHK-PRIVACY",
+      "name": "中大學生叫雞公開個人資料",
+      "status": "new",
+      "seen": "時事台「中大學生叫雞比公開個人資料 同學竟涉嫌參與網路欺凌及電話騷擾」。列表分數 662，12 頁，1 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講事件細節定係講校園反應。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "中大帖列表分數",
+          "value": "662",
+          "comparison": "12 頁，1 分鐘前",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事。本頁分數最高之一，新見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對校方說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4166557/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-11T16:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166557、該標題、分數 662、12 頁、1 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成個人資料外洩或騷擾的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-LCSD-PARK",
+      "name": "條女帶貓去公園比康文處圍",
+      "status": "new",
+      "seen": "時事台「條女帶貓去公園比康文處圍屌，最後成功反cup 叫隻康文狗道歉」。列表分數 620，11 頁，5 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講執法定係講公園規例。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "康文處帖列表分數",
+          "value": "620",
+          "comparison": "11 頁，5 分鐘前",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港時事、香港政府相關。本頁分數高，新見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對康文處說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4166637/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-11T16:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166637、該標題、分數 620、11 頁、5 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成執法過程或道歉的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-PREMADE-EGG",
+      "name": "預製炒蛋 出街食炒蛋隨時中伏",
+      "status": "new",
+      "seen": "時事台「預製炒蛋　出街食炒蛋隨時中伏？　市面驚現預製炒蛋　網民崩潰：配料表長過元素週期表！」。列表分數 595，15 頁，14 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講配料定係講食安。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "預製炒蛋帖列表分數",
+          "value": "595",
+          "comparison": "15 頁，14 分鐘前",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港時事、香港經濟。本頁活躍，新見，放主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對食肆或食安中心說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4166674/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-11T16:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166674、該標題、分數 595、15 頁、14 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成預製食品比例的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-WAN-CHAI-FALL",
+      "name": "灣仔男子疑醉酒坐欄杆跌死",
+      "status": "早期線索",
+      "seen": "時事台「更新：「灣仔男子疑醉酒坐欄杆失平衡 由一樓跌落停車場跌死 未發現遺書 原定今日與妻赴越南旅行」」。列表分數 270，6 頁，32 分鐘前。",
+      "why": "香港時事。本頁有見，放線索。",
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4166762/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-11T16:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166762、該標題、分數 270、6 頁、32 分鐘前、時事台。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-US-STOCKS",
+      "name": "叔輩話玩美股玩埋今年好啦",
+      "status": "早期線索",
+      "seen": "財經台「今日有個叔輩同我講話玩美股玩埋今年好啦」。列表分數 124，6 頁，11 分鐘前。",
+      "why": "香港經濟。本頁有見，放線索。",
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4166788/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-11T16:10:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4166788、該標題、分數 124、6 頁、11 分鐘前、財經台。"
+        }
+      ]
+    }
+  ],
+  "tracking": [],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 33,
+    "notes": "只讀連登吹水台熱門第 1 頁。未用 API，未登入，未估分。"
+  }
+}
