@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-12T07:00:00Z",
+    "end": "2026-10-12T08:00:00Z"
+  },
+  "generated_at": "2026-10-12T07:07:32Z",
+  "summary": [
+    "15 點版。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。抽出約 30 條 thread。分數、頁數、時間用同一張卡上的可見數字，未估分。未打開帖文內文。對照 2026-10-12-14.json。",
+    "內地：有。內蒙古呼倫貝爾發布鼠疫風險提示帖，列表分數 20，4 頁，1 分鐘前（14 點 -1，shift）。冒險樂園宣佈大陸客免費入會帖，分數 -10。37歲內地黑工男子全裸倒斃香港米埔魚塘帖，分數 -26。",
+    "香港政府官員：有。73歲盧偉國迎娶90後嬌妻余仲欣帖，列表分數 25，4 頁，15 分鐘前（14 點 -227，shift）。盧偉國為前立法會議員。",
+    "香港時事：有。慈雲山慈正邨13歲少年墮樓當場死亡帖，列表分數 -104，3 頁，1 分鐘前（14 點摘要有提及分數 19，cooling）。蔡天鳳碎屍案帖，分數 37。超市連爆鼠患帖，分數 27。觀塘APM三女子涉打架帖，分數 8。14 點電車出軌帖未再在本頁。",
+    "香港經濟：有。原來拼多多買波鞋平過香港買好多帖，列表分數 275，9 頁，1 分鐘前（14 點 566，tracking）。Pokemon30周年卡已炒燶帖，分數 319。14 點美股帖未再在本頁。",
+    "色情帖、體育帖、娛樂帖有見，不收做主卡。飲食台美食帖有見，不寫商戶名。Facebook 未覆蓋。未見虛構分數。本頁為熱門排序。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 30,
+        "note": "15:07 HKT 後讀頁。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同卡上的分數，未估分。未打開帖文內文。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表。",
+      "未能從 DOM 提取具體 thread URL，只用列表頁。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-IM-PLAGUE",
+      "name": "內蒙古呼倫貝爾發布鼠疫風險提示",
+      "status": "shift",
+      "seen": "時事台「內蒙古呼倫貝爾發布鼠疫風險提示」。列表分數 20，4 頁，1 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講風險提示定係講核實。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "鼠疫帖列表分數",
+          "value": "20",
+          "comparison": "4 頁，1 分鐘前；14 點為 -1",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地。本頁仍有見，分數較 14 點上升，放 shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對衛生部門說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-12T07:07:32Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上該標題、分數 20、4 頁、1 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成病例數字或封鎖範圍的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-LO-WAI-KWOK",
+      "name": "73歲盧偉國迎娶90後嬌妻",
+      "status": "shift",
+      "seen": "時事台「73歲盧偉國迎娶90後嬌妻余仲欣 草坪花拱門下展幸福笑容」。列表分數 25，4 頁，15 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講年齡差定係講政治背景。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "盧偉國帖列表分數",
+          "value": "25",
+          "comparison": "4 頁，15 分鐘前；14 點為 -227",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員。本頁仍有見，分數較 14 點大幅上升，放 shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對當事人說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-12T07:07:32Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上該標題、分數 25、4 頁、15 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成婚禮細節的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-TSZ-WAN-SHAN",
+      "name": "慈雲山慈正邨13歲少年墮樓",
+      "status": "cooling",
+      "seen": "時事台「慈雲山慈正邨13歲少年墮樓 當場死亡」。列表分數 -104，3 頁，1 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講事故原因定係講屋邨安全。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "墮樓帖列表分數",
+          "value": "-104",
+          "comparison": "3 頁，1 分鐘前；14 點摘要有提及分數 19",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事。本頁仍有見，分數較 14 點下降，放 cooling。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對警方說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-12T07:07:32Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上該標題、分數 -104、3 頁、1 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成事故細節的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-PINDUODUO-SHOES",
+      "name": "拼多多買波鞋平過香港",
+      "status": "tracking",
+      "seen": "潮流台「原來拼多多買波鞋平過香港買好多」。列表分數 275，9 頁，1 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文，未知回覆係講價錢定係講品質風險。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "拼多多波鞋帖列表分數",
+          "value": "275",
+          "comparison": "9 頁，1 分鐘前；14 點為 566",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟。本頁仍有見，分數仍高但較 14 點下降，放 tracking。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-12T07:07:32Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上該標題、分數 275、9 頁、1 分鐘前、潮流台。"
+        }
+      ],
+      "limits": "不把標題當成價錢比較的核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
