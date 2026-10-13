@@ -314,6 +314,8 @@ class Report:
 
     @property
     def title(self) -> str:
+        if self.hour == "00":
+            return f"{zh_date(self.date)} 深夜雷達"
         return f"{zh_date(self.date)} {self.hour}:00 每小時議題快報"
 
     def heads(self) -> list[tuple[str, str, str]]:
@@ -548,6 +550,7 @@ class Site:
             f'    <a class="brand" href="{e(self.u("/"))}">{self.logo()}<span>{e(c["site_title"])}</span>'
             f'<small>{e(c.get("site_subtitle", ""))}</small></a>\n'
             f'    <nav aria-label="主要導覽"><a href="{e(self.u("/#latest"))}"{cur}>最新</a>'
+            f'<a href="{e(self.u("/#night"))}">深夜雷達</a>'
             f'<a href="{e(self.u("/#archive"))}">按日存檔</a>'
             f'<a href="{e(self.u("/tracker/"))}"><span class="hide-sm">Threads </span>追蹤</a></nav>\n'
             '  </div></header>\n'
@@ -598,28 +601,35 @@ class Site:
     def home(self) -> str:
         c = self.cfg
         n = int(c.get("latest_count", 24))
-        latest = self.reports[:n]
+        hourly = [r for r in self.reports if r.hour != "00"]
+        night = [r for r in self.reports if r.hour == "00"]
+        latest = hourly[:n]
         chips = []
-        if self.reports:
-            chips.append(f'<span class="chip dark">最新 {e(self.reports[0].when)} HKT</span>')
+        if hourly:
+            chips.append(f'<span class="chip dark">最新 {e(hourly[0].when)} HKT</span>')
         else:
             chips.append('<span class="chip dark">尚未有快報</span>')
-        chips.append(f'<span class="chip">{len(self.reports)} 份快報</span>')
+        chips.append(f'<span class="chip">{len(hourly)} 份每小時快報</span>')
+        chips.append(f'<span class="chip">{len(night)} 份深夜雷達</span>')
         chips.append('<span class="chip">zh-Hant-HK</span>')
         if any(r.mode == "fixture" for r in self.reports):
             chips.append('<span class="chip dashed">含示例資料</span>')
         cards = [self.card(r) for r in latest]
         listing = ("    " + self.capped(cards, '<ul class="days">\n', '    </ul>\n') + "\n" if cards
-                   else '    <p class="empty">尚未有快報。</p>\n')
+                   else '    <p class="empty">尚未有每小時快報。</p>\n')
+        night_cards = [self.card(r) for r in night[:12]]
+        night_listing = ("    " + self.capped(night_cards, '<ul class="days">\n', '    </ul>\n') + "\n"
+                         if night_cards else '    <p class="empty">尚未有深夜雷達。</p>\n')
         top = ""
-        if self.reports:
-            r0 = self.reports[0]
-            kp = self.key_points(r0, self.u(self.report_path(r0.id)))
+        lead = hourly[0] if hourly else (self.reports[0] if self.reports else None)
+        if lead:
+            kp = self.key_points(lead, self.u(self.report_path(lead.id)))
             if kp:
+                kind = "深夜雷達" if lead.hour == "00" else f"{lead.hour}:00 快報"
                 top = ('  <section class="hl-top" aria-labelledby="h-key"><div class="wrap">\n'
-                       f'    <h2 id="h-key" class="label">重點｜{e(r0.when)} HKT</h2>\n'
+                       f'    <h2 id="h-key" class="label">重點｜{e(lead.when)} HKT</h2>\n'
                        f'    {kp}\n'
-                       f'    <a class="go" href="{e(self.u(self.report_path(r0.id)))}">閱讀 {e(r0.hour)}:00 快報全文 →</a>\n'
+                       f'    <a class="go" href="{e(self.u(self.report_path(lead.id)))}">閱讀 {e(kind)} 全文 →</a>\n'
                        '  </div></section>\n')
         main = (
             top +
@@ -631,8 +641,13 @@ class Site:
             '  </div></section>\n'
             '  <section class="section" id="latest" aria-labelledby="h-latest"><div class="wrap">\n'
             f'    <div class="sec-head"><h2 id="h-latest">最新{e(c.get("report_name", "每小時議題快報"))}</h2>'
-            f'<span class="label">Latest {n}</span></div>\n'
+            f'<span class="label">Hourly · 09:00–19:00</span></div>\n'
             f'{listing}'
+            '  </div></section>\n'
+            '  <section class="section" id="night" aria-labelledby="h-night"><div class="wrap">\n'
+            '    <div class="sec-head"><h2 id="h-night">深夜雷達</h2>'
+            '<span class="label">00:00 HKT</span></div>\n'
+            f'{night_listing}'
             '  </div></section>\n'
             '  <section class="section" id="archive" aria-labelledby="h-archive"><div class="wrap">\n'
             '    <div class="sec-head"><h2 id="h-archive">按日存檔</h2><span class="label">Archive</span></div>\n'
