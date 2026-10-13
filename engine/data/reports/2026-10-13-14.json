@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-13T06:00:00Z",
+    "end": "2026-10-13T07:00:00Z"
+  },
+  "generated_at": "2026-10-13T06:06:00Z",
+  "summary": [
+    "14 點版。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。分數、頁數、時間用同一張卡上的可見數字，未估分。未打開帖文內文。對照 13 點版。",
+    "內地：有。有消息指因應俄羅斯鼠疫北京全面進入緊急狀態帖仍在，分數 83、7 頁、33 分鐘前（對比 13 點 -67，shift 上升）。",
+    "香港政府官員：有。郵政改合約制｜工聯會引述公務員事務局帖仍在，分數 9、5 頁、剛剛（對比 13 點 7，tracking）。屈穎妍宏福苑問責帖提及局長，分數 146。",
+    "香港時事：有。蔡天鳳案已經變左審蔡老母帖仍在，分數 210、7 頁、2 分鐘前（對比 13 點 561，cooling）。估唔到有生之年見到香港越嚟越荒謬帖分數 614、5 頁、12 分鐘前（對比 -13，shift 上升）。還是懷念當年舊皇崗口岸帖分數 271、7 頁、10 分鐘前（對比 39，shift）。反修例釋囚帖分數 -44（對比 83，cooling）。美媒 ICE 拘留美港人帖分數 67、9 頁、剛剛，新見。",
+    "香港經濟：有。數碼港女總監涉造假詐騙政府資助帖仍在，分數 51、3 頁、4 分鐘前（對比 53，tracking）。冒險樂園宣佈大陸客免費入會帖分數 -150、5 頁、25 分鐘前（對比 -7，cooling）。美股認真討論區帖分數 1、13 頁、剛剛（對比 134，cooling）。大空頭Michael Burry預測帖分數 -25、2 頁、1 小時前（對比 -146，shift）。",
+    "色情帖、體育帖、娛樂帖、AV 帖有見，不收做主卡。飲食台美食帖有見，不寫商戶名。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 40,
+        "note": "14:04 HKT 後讀頁。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同卡上的分數，未估分。未打開帖文內文。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表同帖文連結。",
+      "部分新帖未取得 thread URL，只用列表可見標題同分數。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-BJ-PLAGUE-EMERGENCY",
+      "name": "有消息指因應俄羅斯鼠疫北京全面進入緊急狀態",
+      "status": "shift",
+      "seen": "時事台「有消息指，因應俄羅斯鼠疫，北京全面進入緊急狀態！」。列表分數 83，7 頁，33 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文。分數大幅上升。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "鼠疫緊急狀態帖列表分數",
+          "value": "83",
+          "comparison": "7 頁，33 分鐘前；對比 13 點版 -67",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地。本頁仍有見，分數上升，shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對官方說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4167215/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-13T06:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4167215、該標題、分數 83、7 頁、33 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成官方確認。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-POST-CONTRACT",
+      "name": "郵政改合約制｜工聯會引述公務員事務局",
+      "status": "tracking",
+      "seen": "時事台「郵政改合約制｜工聯會引述公務員事務局：受影響人員可轉任助理文書主任　將優先考慮並放寬學歷要求」。列表分數 9，5 頁，剛剛。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文。分數輕微上升。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "郵政合約制帖列表分數",
+          "value": "9",
+          "comparison": "5 頁，剛剛；對比 13 點版 7",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員。本頁仍有見，分數相近，tracking。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4167436/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-13T06:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4167436、該標題、分數 9、5 頁、剛剛、時事台。"
+        }
+      ],
+      "limits": "不把標題當成政策核實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CAI-TIANFENG",
+      "name": "蔡天鳳案已經變左審蔡老母",
+      "status": "cooling",
+      "seen": "時事台「蔡天鳳案已經變左審蔡老母」。列表分數 210，7 頁，2 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文。分數下跌。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "蔡天鳳案帖列表分數",
+          "value": "210",
+          "comparison": "7 頁，2 分鐘前；對比 13 點版 561",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事。本頁仍有見，分數下跌，cooling。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4167161/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-13T06:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4167161、該標題、分數 210、7 頁、2 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成案件核實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ABSURD",
+      "name": "估唔到有生之年見到香港越嚟越荒謬",
+      "status": "shift",
+      "seen": "時事台「估唔到有生之年見到香港越嚟越荒謬」。列表分數 614，5 頁，12 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文。分數大幅上升。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "荒謬帖列表分數",
+          "value": "614",
+          "comparison": "5 頁，12 分鐘前；對比 13 點版 -13",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港時事。本頁仍有見，分數上升，shift。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4167094/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-13T06:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4167094、該標題、分數 614、5 頁、12 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成事件核實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-DIGITAL-PORT-FRAUD",
+      "name": "數碼港女總監涉造假 詐騙政府資助 涉款約2000萬元",
+      "status": "tracking",
+      "seen": "時事台「數碼港女總監涉造假 詐騙政府資助 涉款約2000萬元」。列表分數 51，3 頁，4 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "只有列表標題。未打開內文。分數相近。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "數碼港詐騙帖列表分數",
+          "value": "51",
+          "comparison": "3 頁，4 分鐘前；對比 13 點版 53",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港經濟。本頁仍有見，分數相近，tracking。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4167284/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-13T06:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4167284、該標題、分數 51、3 頁、4 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成案件核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "HK-ICE-DEPORT",
+      "name": "美媒：ICE自6月起拘至少12名留美港人",
+      "status": "早期線索",
+      "seen": "時事台「美媒：ICE自6月起拘至少12名留美港人 逼簽「自願離境」否則監禁」。列表分數 67，9 頁，剛剛。",
+      "why": "香港時事。本頁新見，放線索。",
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": null,
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-13T06:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上該標題、分數 67、9 頁、剛剛、時事台。未取得 thread URL。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-AMUSEMENT-FREE",
+      "name": "冒險樂園宣佈大陸客免費入會",
+      "status": "早期線索",
+      "seen": "時事台「冒險樂園宣佈大陸客免費入會！」。列表分數 -150，5 頁，25 分鐘前。",
+      "why": "香港經濟。本頁仍有見，分數下跌，放線索。",
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4167088/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-13T06:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4167088、該標題、分數 -150、5 頁、25 分鐘前、時事台。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-US-STOCKS",
+      "name": "美股認真討論區",
+      "status": "早期線索",
+      "seen": "財經台「美股認真討論區 V̄DCCCXXXIX」。列表分數 1，13 頁，剛剛。",
+      "why": "香港經濟。本頁仍有見，分數下跌，放線索。",
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/thread/4167431/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-13T06:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上 thread/4167431、該標題、分數 1、13 頁、剛剛、財經台。"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-BURRY",
+      "name": "大空頭Michael Burry預測",
+      "status": "早期線索",
+      "seen": "財經台「大空頭Michael Burry預測：投資人只剩不到 270 天為下一階段 2008 年式的崩盤做準備」。列表分數 -25，2 頁，1 小時前。",
+      "why": "香港經濟。本頁仍有見，分數上升，放線索。",
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": null,
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-13T06:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門排序頁對上該標題、分數 -25、2 頁、1 小時前、財經台。未取得 thread URL。"
+        }
+      ]
+    }
+  ],
+  "tracking": [],
+  "usage": {
+    "sources_attempted": 1,
+    "sources_ok": 1,
+    "items_collected": 40,
+    "notes": "只讀連登吹水台熱門第 1 頁。未用 API，未登入，未估分。對照 2026-10-13-13.json。"
+  }
+}
