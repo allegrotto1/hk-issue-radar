@@ -40,7 +40,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "data": [
@@ -48,7 +50,9 @@
           "metric": "大粉紅公審K11帖列表分數",
           "value": "94",
           "comparison": "6 頁，19 分鐘前",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "why": "內地。本頁有見大粉紅公審香港店舖帖，放新題。",
@@ -59,12 +63,12 @@
       "evidence": [
         {
           "evidence_id": "L1",
-          "url": "https://lihkg.com/category/1?order=hot",
+          "url": "https://lihkg.com/thread/4167878/page/1",
           "platform": "連登",
           "published_at": null,
           "observed_at": "2026-10-14T09:05:00Z",
           "read_level": "title_only",
-          "note": "熱門排序頁對上該標題、分數 94、6 頁、19 分鐘前、時事台。"
+          "note": "熱門排序頁對上該標題、分數 94、6 頁、19 分鐘前、時事台。 帖文連結補自同日已見的同一議題。"
         }
       ],
       "limits": "不把標題當成公審或低消爭議的核實記述。",
@@ -79,7 +83,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "data": [
@@ -87,7 +93,9 @@
           "metric": "行政長官選舉帖列表分數",
           "value": "265",
           "comparison": "9 頁，32 分鐘前",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "why": "香港政府官員。本頁有見高分政事台帖，放新題。",
@@ -98,12 +106,12 @@
       "evidence": [
         {
           "evidence_id": "L2",
-          "url": "https://lihkg.com/category/1?order=hot",
+          "url": "https://lihkg.com/thread/4167633/page/1",
           "platform": "連登",
           "published_at": null,
           "observed_at": "2026-10-14T09:05:00Z",
           "read_level": "title_only",
-          "note": "熱門排序頁對上該標題、分數 265、9 頁、32 分鐘前、政事台。"
+          "note": "熱門排序頁對上該標題、分數 265、9 頁、32 分鐘前、政事台。 帖文連結補自同日已見的同一議題。"
         }
       ],
       "limits": "不把標題當成選舉進程或候選人的核實記述。",
@@ -118,7 +126,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "data": [
@@ -126,7 +136,9 @@
           "metric": "大埔金舖劫案帖列表分數",
           "value": "70",
           "comparison": "12 頁，剛剛",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "why": "香港時事。本頁有見高互動突發帖，放新題。",
@@ -137,12 +149,12 @@
       "evidence": [
         {
           "evidence_id": "L3",
-          "url": "https://lihkg.com/category/1?order=hot",
+          "url": "https://lihkg.com/thread/4167983/page/1",
           "platform": "連登",
           "published_at": null,
           "observed_at": "2026-10-14T09:05:00Z",
           "read_level": "title_only",
-          "note": "熱門排序頁對上該標題、分數 70、12 頁、剛剛、時事台。"
+          "note": "熱門排序頁對上該標題、分數 70、12 頁、剛剛、時事台。 帖文連結補自同日已見的同一議題。"
         }
       ],
       "limits": "不把標題當成劫案細節的核實記述。",
@@ -157,7 +169,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "data": [
@@ -165,7 +179,9 @@
           "metric": "巴士加價帖列表分數",
           "value": "-66",
           "comparison": "7 頁，5 分鐘前（上小時 -46、4 頁）",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "why": "香港經濟。本頁有見更新版申請加價帖，分數更負，放追蹤。",
@@ -176,12 +192,12 @@
       "evidence": [
         {
           "evidence_id": "L4",
-          "url": "https://lihkg.com/category/1?order=hot",
+          "url": "https://lihkg.com/thread/4167899/page/1",
           "platform": "連登",
           "published_at": null,
           "observed_at": "2026-10-14T09:05:00Z",
           "read_level": "title_only",
-          "note": "熱門排序頁對上該標題、分數 -66、7 頁、5 分鐘前、時事台。"
+          "note": "熱門排序頁對上該標題、分數 -66、7 頁、5 分鐘前、時事台。 帖文連結補自同日已見的同一議題。"
         }
       ],
       "limits": "不把標題當成加價獲批或幅度的核實記述。",
@@ -196,7 +212,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L5"]
+          "evidence_ids": [
+            "L5"
+          ]
         }
       ],
       "data": [
@@ -204,7 +222,9 @@
           "metric": "鄺球蔡天鳳帖列表分數",
           "value": "42",
           "comparison": "3 頁，53 分鐘前（上小時 105、11 頁）",
-          "evidence_ids": ["L5"]
+          "evidence_ids": [
+            "L5"
+          ]
         }
       ],
       "why": "香港時事。本頁仍有見但分數同頁數明顯下降，放降溫。",
@@ -215,12 +235,12 @@
       "evidence": [
         {
           "evidence_id": "L5",
-          "url": "https://lihkg.com/category/1?order=hot",
+          "url": "https://lihkg.com/thread/4167605/page/1",
           "platform": "連登",
           "published_at": null,
           "observed_at": "2026-10-14T09:05:00Z",
           "read_level": "title_only",
-          "note": "熱門排序頁對上該標題、分數 42、3 頁、53 分鐘前、時事台。"
+          "note": "熱門排序頁對上該標題、分數 42、3 頁、53 分鐘前、時事台。 帖文連結補自同日已見的同一議題。"
         }
       ],
       "limits": "不把標題當成毆打或言論的核實記述。",
