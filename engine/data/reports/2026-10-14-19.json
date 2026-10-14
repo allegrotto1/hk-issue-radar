@@ -40,7 +40,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "data": [
@@ -48,7 +50,9 @@
           "metric": "大粉紅公審K11帖列表分數",
           "value": "-56",
           "comparison": "2 頁，32 分鐘前；上一輪 -62",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "why": "內地。本頁仍有見大粉紅公審香港店舖帖，分數仍低，放 cooling。",
@@ -61,8 +65,8 @@
           "evidence_id": "L1",
           "url": "https://lihkg.com/thread/4167878/page/1",
           "platform": "連登",
-          "author": "鳳凰城大腸",
-          "author_url": "",
+          "author": "不賣隔夜肉",
+          "author_url": "https://lihkg.com/profile/47226",
           "published_at": null,
           "observed_at": "2026-10-14T11:05:00Z",
           "read_level": "title_only",
@@ -81,7 +85,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "data": [
@@ -89,7 +95,9 @@
           "metric": "行政長官選舉帖列表分數",
           "value": "-67",
           "comparison": "10 頁，37 分鐘前；上一輪 -30",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "why": "香港政府官員。本頁仍有見政事台帖，分數繼續下跌，放 cooling。",
@@ -102,8 +110,8 @@
           "evidence_id": "L2",
           "url": "https://lihkg.com/thread/4167633/page/1",
           "platform": "連登",
-          "author": "精密而周詳",
-          "author_url": "",
+          "author": "IronFist",
+          "author_url": "https://lihkg.com/profile/99493",
           "published_at": null,
           "observed_at": "2026-10-14T11:05:00Z",
           "read_level": "title_only",
@@ -122,7 +130,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "data": [
@@ -130,7 +140,9 @@
           "metric": "大埔金行遇劫帖列表分數",
           "value": "110",
           "comparison": "3 頁，11 分鐘前；上一輪 16",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "why": "香港時事。本頁仍有見大埔金行遇劫帖，分數上升，放 tracking。",
@@ -143,8 +155,8 @@
           "evidence_id": "L3",
           "url": "https://lihkg.com/thread/4167983/page/1",
           "platform": "連登",
-          "author": "九龍治水",
-          "author_url": "",
+          "author": "達瑪拉斯",
+          "author_url": "https://lihkg.com/profile/244704",
           "published_at": null,
           "observed_at": "2026-10-14T11:05:00Z",
           "read_level": "title_only",
@@ -163,7 +175,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "data": [
@@ -171,7 +185,9 @@
           "metric": "柬埔寨園區港女月賺帖列表分數",
           "value": "23",
           "comparison": "5 頁，1 分鐘前；上一輪 -82",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "why": "香港經濟。本頁仍有見星島柬埔寨園區帖，分數由負轉正，放 shift。",
@@ -184,8 +200,8 @@
           "evidence_id": "L4",
           "url": "https://lihkg.com/thread/4167858/page/1",
           "platform": "連登",
-          "author": "馬交FD麻鳩煩",
-          "author_url": "",
+          "author": "天蠍座",
+          "author_url": "https://lihkg.com/profile/80481",
           "published_at": null,
           "observed_at": "2026-10-14T11:05:00Z",
           "read_level": "title_only",
