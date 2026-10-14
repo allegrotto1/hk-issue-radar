@@ -649,7 +649,7 @@ class Site:
     def home(self) -> str:
         c = self.cfg
         n = int(c.get("latest_count", 24))
-        hourly = [r for r in self.reports if r.hour != "00"]
+        hourly = list(self.reports)
         night = [r for r in self.reports if r.hour == "00"]
         latest = hourly[:n]
         chips = []
@@ -689,7 +689,7 @@ class Site:
             '  </div></section>\n'
             '  <section class="section" id="latest" aria-labelledby="h-latest"><div class="wrap">\n'
             f'    <div class="sec-head"><h2 id="h-latest">最新{e(c.get("report_name", "每小時議題快報"))}</h2>'
-            f'<span class="label">Hourly · 09:00–19:00</span></div>\n'
+            f'<span class="label">Hourly · 09:00–23:00 + 00:00</span></div>\n'
             f'{listing}'
             '  </div></section>\n'
             '  <section class="section" id="night" aria-labelledby="h-night"><div class="wrap">\n'

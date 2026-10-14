@@ -4,8 +4,9 @@ on:
     paths:
       - "engine/data/reports/**"
   schedule:
-    # 09:08–19:28 HKT (UTC+8). Backup only; a new report JSON republishes immediately.
-    - cron: "8,28 1-11 * * *"
+    # Backup only. 09:08–23:28 and 00:08–00:28 HKT. A new report JSON republishes immediately.
+    - cron: "8,28 1-15 * * *"
+    - cron: "8,28 16 * * *"
   workflow_dispatch:
 permissions:
   contents: write
