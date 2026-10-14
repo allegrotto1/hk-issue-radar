@@ -40,7 +40,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "data": [
@@ -48,7 +50,9 @@
           "metric": "林心如進口動物帖列表分數",
           "value": "3",
           "comparison": "3 頁，1 分鐘前（上小時約 0）",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "why": "內地。本頁有見雙程證女子相關帖，分數大致穩定，放追蹤。",
@@ -81,7 +85,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "data": [
@@ -89,7 +95,9 @@
           "metric": "行政長官選舉帖列表分數",
           "value": "-43",
           "comparison": "3 頁，1 分鐘前（上小時 -67、10 頁）",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "why": "香港政府官員。本頁有見，分數較上小時略升但仍負，放追蹤。",
@@ -103,7 +111,7 @@
           "url": "https://lihkg.com/thread/4167633/page/1",
           "platform": "連登",
           "author": "IronFist",
-          "author_url": "",
+          "author_url": "https://lihkg.com/profile/99493",
           "published_at": null,
           "observed_at": "2026-10-14T12:09:00Z",
           "read_level": "title_only",
@@ -122,7 +130,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "data": [
@@ -130,7 +140,9 @@
           "metric": "大埔金行遇劫帖列表分數",
           "value": "28",
           "comparison": "3 頁，34 分鐘前（上小時 110）",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "why": "香港時事。本頁有見，分數較上小時明顯回落，放降溫。",
@@ -144,7 +156,7 @@
           "url": "https://lihkg.com/thread/4167983/page/1",
           "platform": "連登",
           "author": "達瑪拉斯",
-          "author_url": "",
+          "author_url": "https://lihkg.com/profile/244704",
           "published_at": null,
           "observed_at": "2026-10-14T12:09:00Z",
           "read_level": "title_only",
@@ -163,7 +175,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "data": [
@@ -171,7 +185,9 @@
           "metric": "DQ戶口帖列表分數",
           "value": "-138",
           "comparison": "6 頁，5 分鐘前（上小時 257）",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "why": "香港經濟。本頁有見，分數由正大幅轉負回落，放降溫。",
