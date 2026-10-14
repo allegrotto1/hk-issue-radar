@@ -154,6 +154,37 @@ def safe_url(u) -> str | None:
     return u
 
 
+def thread_url(it) -> str | None:
+    """Only a real LIHKG thread link. Category or search pages are not the post."""
+    if not isinstance(it, dict):
+        return None
+    for ev in it.get("evidence") or []:
+        if not isinstance(ev, dict):
+            continue
+        u = safe_url(ev.get("url"))
+        if not u:
+            continue
+        path = urlsplit(u).path
+        if re.search(r"/thread/\d+", path):
+            return u
+    return None
+
+
+def parse_ts(v, field: str) -> datetime:
+    t = s(v)
+    if not t:
+        raise ReportError(f"{field}: missing timestamp")
+    if t.endswith(("Z", "z")):
+        t = t[:-1] + "+00:00"
+    try:
+        dt = datetime.fromisoformat(t)
+    except ValueError:
+        raise ReportError(f"{field}: not ISO 8601: {v!r}")
+    if dt.tzinfo is None:
+        raise ReportError(f"{field}: timestamp must carry a zone (store UTC, e.g. ...Z): {v!r}")
+    return dt.astimezone(timezone.utc)
+
+
 def parse_ts(v, field: str) -> datetime:
     t = s(v)
     if not t:
@@ -318,10 +349,13 @@ class Report:
             return f"{zh_date(self.date)} 深夜雷達"
         return f"{zh_date(self.date)} {self.hour}:00 每小時議題快報"
 
-    def heads(self) -> list[tuple[str, str, str]]:
+    def heads(self) -> list[tuple[str, str, str, str | None]]:
         out = [(it, *status_of(it.get("status"))) for it in self.issues]
         out += [(it, *STATUS["lead"]) for it in self.early_leads]
-        return [(s(it.get("name")), lab, cls) for it, lab, cls in out[:MAX_HEADS]]
+        rows = []
+        for it, lab, cls in out[:MAX_HEADS]:
+            rows.append((s(it.get("name")), lab, cls, thread_url(it)))
+        return rows
 
 
 def load_reports(data_dir: Path, strict: bool) -> tuple[list[Report], int]:
@@ -571,7 +605,9 @@ class Site:
         en, zh = weekday(r.date)
         heads = r.heads()
         if heads:
-            lis = "".join(f"<li>{tag(lab, cls)}{e(name)}</li>" for name, lab, cls in heads)
+            lis = "".join(
+                f"<li>{tag(lab, cls)}{ext_link(url, name) if url else e(name)}</li>"
+                for name, lab, cls, url in heads)
         else:
             lis = '<li class="bot">本輪未有達門檻的議題</li>'
         fx = "<span>FIXTURE · 示例資料</span>" if r.mode == "fixture" else ""
@@ -737,7 +773,7 @@ class Site:
         out = [
             f'      <li class="item" id="{e(anchor)}">\n',
             f'        <span class="num">{numtxt}</span>\n',
-            f'        <h3>{e(s(it.get("name")))}</h3>\n',
+            f'        <h3>{ext_link(thread_url(it), s(it.get("name"))) if thread_url(it) else e(s(it.get("name")))}</h3>\n',
             f'        <p class="meta-line">{tag(lab, cls)}{tag("早期線索", "s-lead") if lead and lab != "早期線索" else ""}'
             f'<span>議題 ID <b>{e(iid)}</b></span><span>觀察時段 <b>{e(fmt_window(o_a, o_b))}</b></span></p>\n',
         ]
