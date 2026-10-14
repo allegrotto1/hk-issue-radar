@@ -1,0 +1,625 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-09T10:00:00Z",
+    "end": "2026-10-09T11:00:00Z"
+  },
+  "generated_at": "2026-10-09T10:05:00Z",
+  "summary": [
+    "18 點版。只讀連登吹水台熱門排序第 1 頁 https://lihkg.com/category/1?order=hot 。頁面標題為吹水台，有列表，未見登入牆或 captcha。可見對得上 /thread/ 的卡片 37 張。分數、頁數、時間用同一張卡上的可見數字，未估分。對照 2026-10-09-17.json。不記用戶名。",
+    "內地：有，主帖仍在，分數同頁數再變。肺鼠疫帖仍在，標題「肺鼠疫燒到中國? 　東北三省瘋傳「封城」警訊　疾呼儲糧、準備「這些藥」」，40、4 頁、1 分鐘前，17 點版 24、3 頁、22 分鐘前。閒魚帖仍在，-87、5 頁、2 分鐘前，17 點版 165、6 頁、5 分鐘前。手機係咪蝗語帖仍在，212、7 頁、52 分鐘前，17 點版 -7、6 頁、剛剛。新見安踏完成收購 PUMA 股權帖，-34、2 頁、剛剛。山東男子相親帖本頁未見。",
+    "香港政府官員：本頁未見在任官員姓名主帖，未變。李家超、鄧炳強、謝展寰本頁未見。安達臣道屋宇署帖本頁未見。警察學院帖仍在，「警察學院首辦學士課程　警員免學費在職進修、設120學額　下月成立香港國際警務學院」，20、4 頁、剛剛，17 點版 -25、2 頁、2 分鐘前，是機構課程帖，不是在任官員姓名帖，不佔官員位。施永青避孕套主因帖仍在，9、5 頁、剛剛，17 點版 -97、5 頁、2 分鐘前；17 點版「一日最衰都係避孕套」本頁未見。不是在任官員姓名帖。周庭直立板帖仍在，469、13 頁、10 分鐘前，17 點版 142、5 頁、6 分鐘前，不是官員姓名帖。",
+    "香港時事：有，女童相關帖仍在，新見出院安排標題，分數同頁數變。新見「屯門富泰邨女童拎啤酒疑受虐｜三姊弟仍留醫檢查，社署評估出院後不適宜回家，會有臨時合適住宿安排」，-37、3 頁、1 分鐘前。17 點版星島乞求生父帖本頁未見。富泰邨背景帖仍在，-10、9 頁、1 分鐘前，17 點版 102、13 頁、34 分鐘前。繼祖母書包帖仍在，43、5 頁、6 分鐘前，17 點版 -62、3 頁、3 分鐘前。長沙灣有線採訪車起火帖仍在，-70、3 頁、28 分鐘前，17 點版 37、5 頁、14 分鐘前。綜援 claim 錢帖仍在，-29、7 頁、7 分鐘前，17 點版 60、3 頁、1 分鐘前。新皇崗口岸帖仍在，262、5 頁、4 分鐘前，17 點版 9、4 頁、剛剛。供樓人旅行帖仍在，222、10 頁、3 分鐘前，17 點版 -55、3 頁、1 分鐘前。公屋 Attendance 帖仍在，25、3 頁、1 小時前，17 點版 203、10 頁、1 分鐘前。公屋旅行帖仍在，102、13 頁、1 分鐘前，17 點版 -288、16 頁、1 分鐘前。學生會訪問老師帖仍在，-81、3 頁、剛剛，17 點版 239、5 頁、1 分鐘前。蔡天鳳法官退庭帖仍在，192、5 頁、1 分鐘前，17 點版 32、17 頁、剛剛。小巴司機帖本頁未見。",
+    "香港經濟：有，主帖仍在，分數同頁數大變。觀塘快樂番薯帖仍在，-303、16 頁、16 分鐘前，17 點版 38、4 頁、1 小時前。財經台「為什麼我永遠不買美股」仍在，-11、4 頁、16 分鐘前，17 點版 -109、2 頁、39 分鐘前。上班台壽司郎帖仍在，218、13 頁、1 分鐘前，17 點版 -43、6 頁、16 分鐘前。財經台美股認真討論區仍在，-67、7 頁、4 分鐘前，17 點版 0、4 頁、剛剛，不是香港店舖題，不佔主位。清水灣開價帖再出現，30、4 頁、23 分鐘前，17 點版本頁未見。安踏收購 PUMA 帖是內地品牌股權題，不佔香港店舖主位。",
+    "娛樂帖、體育帖有見，不收做主卡，亦不抄色情標題。蔡天鳳案法官帖分數 192、5 頁，屬舊題，不佔主位。未讀帖文內文。Facebook 未覆蓋。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 37,
+        "note": "18:05 HKT 前後讀頁。https://lihkg.com/category/1?order=hot 有列表。只抄標題、台別同卡上的分數，未估分。37 張卡 href 都對得上標題。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "未讀帖文內文，只讀熱門列表。",
+      "Threads 本輪未用來填卡。",
+      "不記用戶名，不收色情標題做主卡。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-PLAGUE-NORTHEAST",
+      "name": "肺鼠疫燒到中國封城警訊帖",
+      "status": "shift",
+      "seen": "時事台「肺鼠疫燒到中國? 　東北三省瘋傳「封城」警訊　疾呼儲糧、準備「這些藥」」。列表分數 40，4 頁，1 分鐘前。17 點版同一標題 24、3 頁、22 分鐘前。閒魚帖同手機蝗語帖仍在，分數都變。山東相親帖本頁未見。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。分數由 24 變 40，頁數由 3 頁變 4 頁。未打開內文，未知封城或儲藥說法是否已核實。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "40",
+          "comparison": "4 頁，1 分鐘前。17 點版 24、3 頁、22 分鐘前",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地公共衛生傳聞帖仍在這一頁，分數同頁數有變。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對疾控或封城。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4165865/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T10:05:00Z",
+          "read_level": "title_only",
+          "note": "卡上 href /thread/4165865/page/1 對上肺鼠疫標題。本頁可見分數 40、4 頁、1 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成封城或疫情已經證實。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    },
+    {
+      "issue_id": "HK-OFFICIALS-ABSENT",
+      "name": "在任官員姓名主帖",
+      "status": "tracking",
+      "seen": "本頁未見李家超、鄧炳強、謝展寰或其他在任官員姓名主帖。警察學院課程帖仍在，20、4 頁、剛剛。施永青避孕套主因帖仍在，9、5 頁、剛剛。周庭直立板帖仍在，469、13 頁、10 分鐘前。都不是在任官員姓名帖。",
+      "viewpoints": [
+        {
+          "label": "列表",
+          "summary": "官員位未變：仍無在任官員姓名主帖。機構課程帖同分數有變，不佔官員位。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "在任官員姓名主帖",
+          "value": "0",
+          "comparison": "17 點版同樣未見。警察學院帖由 -25、2 頁變 20、4 頁",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "四類都要有官員位。這一頁仍無在任官員姓名主帖，所以寫未變。",
+      "verification": {
+        "status": "unverified",
+        "note": "只核對這一頁標題有無官員姓名，未搜其他台。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/category/1?order=hot",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T10:05:00Z",
+          "read_level": "title_only",
+          "note": "熱門第 1 頁 37 張卡未見在任官員姓名。警察學院帖 href /thread/4165932/page/1。"
+        }
+      ],
+      "limits": "未見不等於當日沒有官員新聞，只代表這一頁沒有。",
+      "next_steps": "下一輪再睇熱門第 1 頁有無官員姓名。"
+    },
+    {
+      "issue_id": "HK-TM-CHILD-BEER",
+      "name": "屯門女童拎啤酒 父母涉虐兒",
+      "status": "shift",
+      "seen": "時事台新見「屯門富泰邨女童拎啤酒疑受虐｜三姊弟仍留醫檢查，社署評估出院後不適宜回家，會有臨時合適住宿安排」。列表分數 -37，3 頁，1 分鐘前。17 點版星島乞求生父帖本頁未見。富泰邨背景帖仍在，-10、9 頁、1 分鐘前。繼祖母書包帖仍在，43、5 頁、6 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。同一題新標題出現，分數 -37、3 頁。未打開內文，未知社署安排是否已核實。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-37",
+          "comparison": "3 頁，1 分鐘前。17 點版乞求生父帖 76、4 頁，本頁未見該標題",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事女童題仍在這一頁，標題同分數有變。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對社署或醫院。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4166043/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T10:05:00Z",
+          "read_level": "title_only",
+          "note": "卡上 href /thread/4166043/page/1 對上女童出院安排標題。本頁可見分數 -37、3 頁、1 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成虐兒事實已經證實。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    },
+    {
+      "issue_id": "HK-KWUN-TONG-SWEET-POTATO",
+      "name": "觀塘快樂番薯不足兩月結業",
+      "status": "shift",
+      "seen": "時事台「$10/杯珍珠奶茶亦難撐！？　觀塘「快樂番薯」開業不足兩月結業　網民驚呼：開源道史上最快執笠鋪頭」。列表分數 -303，16 頁，16 分鐘前。17 點版同一標題 38、4 頁、1 小時前。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。分數由 38 變 -303，頁數由 4 頁變 16 頁。未打開內文，未知結業是否已核實。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-303",
+          "comparison": "16 頁，16 分鐘前。17 點版 38、4 頁、1 小時前",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟店舖題仍在這一頁，分數同頁數有變。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對結業。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4165870/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T10:05:00Z",
+          "read_level": "title_only",
+          "note": "卡上 href /thread/4165870/page/1 對上該標題。本頁可見分數 -303、16 頁、16 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成結業已經證實。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    }
+  ],
+  "early_leads": [
+    {
+      "issue_id": "CN-XIANYU",
+      "name": "大陸二手平台閒魚",
+      "status": "shift",
+      "seen": "創意台「大家有冇聽過「閒魚」呢個大陸二手平台？」。列表分數 -87，5 頁，2 分鐘前。17 點版同一標題 165、6 頁、5 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。分數由 165 變 -87，頁數由 6 頁變 5 頁。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-87",
+          "comparison": "5 頁，2 分鐘前。17 點版 165、6 頁",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "內地平台討論。帖仍在，分數同頁數有變，不佔主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4165604/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T10:05:00Z",
+          "read_level": "title_only",
+          "note": "卡上 href /thread/4165604/page/1 對上閒魚標題。本頁可見分數 -87、5 頁、2 分鐘前、創意台。"
+        }
+      ],
+      "limits": "不把標題當成平台情況已經證實。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    },
+    {
+      "issue_id": "CN-ANTA-PUMA",
+      "name": "安踏完成收購 PUMA 股權",
+      "status": "new",
+      "seen": "時事台「安踏完成收購PUMA股權」。列表分數 -34，2 頁，剛剛。17 點版本頁未見。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。新見，分數 -34、2 頁。未打開內文。",
+          "evidence_ids": [
+            "L6"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "-34",
+          "comparison": "2 頁，剛剛。17 點版本頁未見",
+          "evidence_ids": [
+            "L6"
+          ]
+        }
+      ],
+      "why": "內地品牌股權題新上這一頁，不佔肺鼠疫主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對收購公告。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4165933/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T10:05:00Z",
+          "read_level": "title_only",
+          "note": "卡上 href /thread/4165933/page/1 對上安踏標題。本頁可見分數 -34、2 頁、剛剛、時事台。"
+        }
+      ],
+      "limits": "不把標題當成收購已經完成。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    },
+    {
+      "issue_id": "HK-POLICE-ACADEMY",
+      "name": "警察學院首辦學士課程",
+      "status": "shift",
+      "seen": "時事台「警察學院首辦學士課程　警員免學費在職進修、設120學額　下月成立香港國際警務學院」。列表分數 20，4 頁，剛剛。17 點版同一標題 -25、2 頁、2 分鐘前。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。分數由 -25 變 20，頁數由 2 頁變 4 頁。",
+          "evidence_ids": [
+            "L7"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "20",
+          "comparison": "4 頁，剛剛。17 點版 -25、2 頁",
+          "evidence_ids": [
+            "L7"
+          ]
+        }
+      ],
+      "why": "機構課程帖仍在，分數同頁數有變。不是在任官員姓名帖，不佔官員位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L7",
+          "url": "https://lihkg.com/thread/4165932/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T10:05:00Z",
+          "read_level": "title_only",
+          "note": "卡上 href /thread/4165932/page/1 對上警察學院標題。本頁可見分數 20、4 頁、剛剛、時事台。"
+        }
+      ],
+      "limits": "不把標題當成課程安排已經證實。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    },
+    {
+      "issue_id": "HK-SHIH-CONDOM",
+      "name": "施永青避孕套谷生育帖",
+      "status": "shift",
+      "seen": "時事台「施永青：避孕套是生育率下降主因 政府若能切入研究 更容易找到谷生育方法 「最簡單是強制生產一定比例會漏的 不合規格次貨」」。列表分數 9，5 頁，剛剛。17 點版同一標題 -97、5 頁、2 分鐘前。17 點版「一日最衰都係避孕套」本頁未見。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。主因帖分數由 -97 變 9，頁數仍是 5 頁。另一條避孕套帖本頁未見。",
+          "evidence_ids": [
+            "L8"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "9",
+          "comparison": "5 頁，剛剛。17 點版 -97、5 頁",
+          "evidence_ids": [
+            "L8"
+          ]
+        }
+      ],
+      "why": "評論政府生育方法的帖仍在，分數有變。施永青不是在任官員，不佔官員位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L8",
+          "url": "https://lihkg.com/thread/4165973/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T10:05:00Z",
+          "read_level": "title_only",
+          "note": "卡上 href /thread/4165973/page/1 對上施永青主因標題。本頁可見分數 9、5 頁、剛剛、時事台。"
+        }
+      ],
+      "limits": "不把標題當成政府政策。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    },
+    {
+      "issue_id": "HK-HUANGGANG-PORT",
+      "name": "新皇崗口岸下周一開通",
+      "status": "shift",
+      "seen": "時事台「新皇崗口岸下周一早上六時半開通」。列表分數 262，5 頁，4 分鐘前。17 點版同一標題 9、4 頁、剛剛。",
+      "viewpoints": [
+        {
+          "label": "單帖",
+          "summary": "只有列表標題。分數由 9 變 262，頁數由 4 頁變 5 頁。",
+          "evidence_ids": [
+            "L9"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "熱門列表分數",
+          "value": "262",
+          "comparison": "5 頁，4 分鐘前。17 點版 9、4 頁",
+          "evidence_ids": [
+            "L9"
+          ]
+        }
+      ],
+      "why": "口岸開通帖仍在，分數同頁數有變，不佔女童主位。",
+      "verification": {
+        "status": "unverified",
+        "note": "只有列表標題同分數。未打開帖文，未核對口岸通告。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L9",
+          "url": "https://lihkg.com/thread/4165912/page/1",
+          "platform": "連登",
+          "published_at": null,
+          "observed_at": "2026-10-09T10:05:00Z",
+          "read_level": "title_only",
+          "note": "卡上 href /thread/4165912/page/1 對上皇崗標題。本頁可見分數 262、5 頁、4 分鐘前、時事台。"
+        }
+      ],
+      "limits": "不把標題當成開通時間已經證實。",
+      "next_steps": "下一輪再睇仲在唔在第 1 頁。"
+    }
+  ],
+  "tracking": [
+    {
+      "issue_id": "CN-SHANDONG-MARRIAGE",
+      "name": "山東男子巴國娶媳婦帖",
+      "status": "cooling",
+      "note": "17 點版 thread/仍在，本頁未見該標題。"
+    },
+    {
+      "issue_id": "CN-EV-BREAK",
+      "name": "電動車斷裂帖",
+      "status": "cooling",
+      "note": "本頁未見。"
+    },
+    {
+      "issue_id": "CN-FAKE-JP-PASSPORT",
+      "name": "中國人持假日本護照入境以色列被拒",
+      "status": "cooling",
+      "note": "本頁未見。肺鼠疫帖已放主卡。"
+    },
+    {
+      "issue_id": "CN-EU-MARKET-RETALIATION",
+      "name": "歐盟意案與中國市場報復措施",
+      "status": "cooling",
+      "note": "本頁未見 thread/4165725。"
+    },
+    {
+      "issue_id": "CN-CAVIAR-PRICE",
+      "name": "魚子醬帖",
+      "status": "cooling",
+      "note": "本頁未見。"
+    },
+    {
+      "issue_id": "CN-RUSSIA-PLAGUE",
+      "name": "俄羅斯鼠疫帖",
+      "status": "cooling",
+      "note": "本頁未見。"
+    },
+    {
+      "issue_id": "CN-PHONE-LOCUST",
+      "name": "手機係咪蝗語帖",
+      "status": "shift",
+      "note": "時事台「[世界大戰] 手機 係咪蝗語/大陸用語？」212、7 頁、52 分鐘前。17 點版 -7、6 頁、剛剛。不佔內地主位。卡上 href /thread/4165719/page/1。"
+    },
+    {
+      "issue_id": "HK-ANDERSON-BD-DEMO",
+      "name": "安達臣道屋宇署",
+      "status": "cooling",
+      "note": "本頁未見官員或屋宇署主帖。"
+    },
+    {
+      "issue_id": "HK-WANG-FUK-BUREAU",
+      "name": "宏福苑問責 局長會否下台",
+      "status": "cooling",
+      "note": "本頁未見官員主帖。"
+    },
+    {
+      "issue_id": "HK-CHOW-TING-SUP",
+      "name": "周庭學玩直立板",
+      "status": "shift",
+      "note": "時事台帖仍在，469、13 頁、10 分鐘前。17 點版 142、5 頁、6 分鐘前。不是官員姓名帖，不佔主位。卡上 href /thread/4165637/page/1。"
+    },
+    {
+      "issue_id": "HK-PH-ATTENDANCE",
+      "name": "公屋 Attendance 制度帖",
+      "status": "shift",
+      "note": "時事台帖仍在，25、3 頁、1 小時前。17 點版 203、10 頁、1 分鐘前。卡上 href /thread/4165913/page/1。"
+    },
+    {
+      "issue_id": "HK-PH-TRAVEL",
+      "name": "住公屋點解唔可以旅行",
+      "status": "shift",
+      "note": "時事台帖仍在，102、13 頁、1 分鐘前。17 點版 -288、16 頁、1 分鐘前。卡上 href /thread/4165888/page/1。"
+    },
+    {
+      "issue_id": "HK-MORTGAGE-TRAVEL",
+      "name": "供樓人30年後先可以旅行",
+      "status": "shift",
+      "note": "時事台帖仍在，222、10 頁、3 分鐘前。17 點版 -55、3 頁、1 分鐘前。卡上 href /thread/4165921/page/1。"
+    },
+    {
+      "issue_id": "HK-PH-FALSE-ASSET",
+      "name": "公屋虛報物業監禁",
+      "status": "cooling",
+      "note": "本頁未見。"
+    },
+    {
+      "issue_id": "HK-STUDENT-TEACHER",
+      "name": "學生會訪問老師唔記得讀咩科",
+      "status": "shift",
+      "note": "時事台帖仍在，-81、3 頁、剛剛。17 點版 239、5 頁、1 分鐘前。卡上 href /thread/4165834/page/1。"
+    },
+    {
+      "issue_id": "HK-CSSA-CLAIM",
+      "name": "綜援轉成 claim 錢發放",
+      "status": "shift",
+      "note": "時事台帖仍在，-29、7 頁、7 分鐘前。17 點版 60、3 頁、1 分鐘前。卡上 href /thread/4166016/page/1。"
+    },
+    {
+      "issue_id": "HK-CSSA-RANT",
+      "name": "拎綜援原來咁爽帖",
+      "status": "cooling",
+      "note": "本頁未見 thread/4165580。"
+    },
+    {
+      "issue_id": "HK-CSSA-EXIT-BONUS",
+      "name": "離開綜援現金獎勵",
+      "status": "cooling",
+      "note": "本頁未見 thread/4165605。"
+    },
+    {
+      "issue_id": "HK-ABUSE-MOTHER",
+      "name": "虐兒案母親帖",
+      "status": "cooling",
+      "note": "17 點版星島啤酒女童綜援母親帖 thread/4165636 本頁未見。繼祖母書包帖仍在，43、5 頁、6 分鐘前，卡上 href /thread/4165937/page/1。"
+    },
+    {
+      "issue_id": "HK-FUTAI-BG",
+      "name": "富泰邨背景帖",
+      "status": "shift",
+      "note": "時事台帖仍在，-10、9 頁、1 分鐘前。17 點版 102、13 頁、34 分鐘前。卡上 href /thread/4165770/page/1。"
+    },
+    {
+      "issue_id": "HK-ABBY-CHOI-JUDGE",
+      "name": "蔡天鳳法官退庭帖",
+      "status": "shift",
+      "note": "時事台法官退庭帖仍在，192、5 頁、1 分鐘前。17 點版 32、17 頁、剛剛。不佔主位。卡上 href /thread/4165915/page/1。"
+    },
+    {
+      "issue_id": "HK-MINIBUS-FATAL",
+      "name": "小巴司機未等乘客上車",
+      "status": "cooling",
+      "note": "17 點版 thread 本頁未見。"
+    },
+    {
+      "issue_id": "HK-CABLE-VAN-FIRE",
+      "name": "長沙灣有線採訪車起火",
+      "status": "shift",
+      "note": "時事台帖仍在，-70、3 頁、28 分鐘前。17 點版 37、5 頁、14 分鐘前。卡上 href /thread/4165969/page/1。"
+    },
+    {
+      "issue_id": "HK-CIVIL-ENG",
+      "name": "土木工程來香港冇前途",
+      "status": "cooling",
+      "note": "本頁未見 thread/4164782。"
+    },
+    {
+      "issue_id": "HK-COMPOUND-INTEREST",
+      "name": "愈有錢愈有得玩複利效應",
+      "status": "cooling",
+      "note": "本頁未見。"
+    },
+    {
+      "issue_id": "HK-CLEARWATER-BAY-PRICE",
+      "name": "清水灣樓盤開價討論",
+      "status": "shift",
+      "note": "房屋台「點睇33清水灣依個開價？」再出現，30、4 頁、23 分鐘前。17 點版本頁未見。卡上 href /thread/4165439/page/1。"
+    },
+    {
+      "issue_id": "HK-MPF-MANULIFE",
+      "name": "強積金宏利",
+      "status": "cooling",
+      "note": "本頁未見。"
+    },
+    {
+      "issue_id": "HK-PAYME-UNIONPAY",
+      "name": "PayMe 銀聯",
+      "status": "cooling",
+      "note": "本頁未見。"
+    },
+    {
+      "issue_id": "HK-MIXUE-MK-CLOSE",
+      "name": "蜜雪冰城旺角店收皮",
+      "status": "cooling",
+      "note": "本頁未見。"
+    },
+    {
+      "issue_id": "HK-NO-US-STOCKS",
+      "name": "為什麼我永遠不買美股",
+      "status": "shift",
+      "note": "財經台帖仍在，-11、4 頁、16 分鐘前。17 點版 -109、2 頁、39 分鐘前。不佔主位。卡上 href /thread/4165155/page/1。"
+    },
+    {
+      "issue_id": "HK-SUSHIR0-LABOR",
+      "name": "壽司郎點解咁多人做",
+      "status": "shift",
+      "note": "上班台帖仍在，218、13 頁、1 分鐘前。17 點版 -43、6 頁、16 分鐘前。不佔主位。卡上 href /thread/4165546/page/1。"
+    },
+    {
+      "issue_id": "HK-OPENAI-REVENUE",
+      "name": "OpenAI 營收帖",
+      "status": "cooling",
+      "note": "本頁未見 thread/4165806。"
+    },
+    {
+      "issue_id": "HK-US-STOCK-THREAD",
+      "name": "美股認真討論區",
+      "status": "shift",
+      "note": "財經台帖仍在，-67、7 頁、4 分鐘前。17 點版 0、4 頁、剛剛。不是香港店舖題。卡上 href /thread/4166018/page/1。"
+    }
+  ]
+}
