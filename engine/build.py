@@ -351,7 +351,7 @@ class Report:
     @property
     def title(self) -> str:
         if self.hour == "08":
-            return f"{zh_date(self.date)} 早上快報"
+            return f"{zh_date(self.date)} 深夜雷達"
         return f"{zh_date(self.date)} {self.hour}:00 每小時議題快報"
 
     def heads(self) -> list[tuple[str, str, str, str | None, str, str | None]]:
@@ -590,7 +590,7 @@ class Site:
             f'    <a class="brand" href="{e(self.u("/"))}">{self.logo()}<span>{e(c["site_title"])}</span>'
             f'<small>{e(c.get("site_subtitle", ""))}</small></a>\n'
             f'    <nav aria-label="主要導覽"><a href="{e(self.u("/#latest"))}"{cur}>最新</a>'
-            f'<a href="{e(self.u("/#night"))}">早上快報</a>'
+            f'<a href="{e(self.u("/#night"))}">深夜雷達</a>'
             f'<a href="{e(self.u("/#archive"))}">按日存檔</a>'
             f'<a href="{e(self.u("/tracker/"))}"><span class="hide-sm">Threads </span>追蹤</a></nav>\n'
             '  </div></header>\n'
@@ -658,7 +658,7 @@ class Site:
         else:
             chips.append('<span class="chip dark">尚未有快報</span>')
         chips.append(f'<span class="chip">{len(hourly)} 份每小時快報</span>')
-        chips.append(f'<span class="chip">{len(night)} 份早上快報</span>')
+        chips.append(f'<span class="chip">{len(night)} 份深夜雷達</span>')
         chips.append('<span class="chip">zh-Hant-HK</span>')
         if any(r.mode == "fixture" for r in self.reports):
             chips.append('<span class="chip dashed">含示例資料</span>')
@@ -667,13 +667,13 @@ class Site:
                    else '    <p class="empty">尚未有每小時快報。</p>\n')
         night_cards = [self.card(r) for r in night[:12]]
         night_listing = ("    " + self.capped(night_cards, '<ul class="days">\n', '    </ul>\n') + "\n"
-                         if night_cards else '    <p class="empty">尚未有早上快報。</p>\n')
+                         if night_cards else '    <p class="empty">尚未有深夜雷達。</p>\n')
         top = ""
         lead = hourly[0] if hourly else (self.reports[0] if self.reports else None)
         if lead:
             kp = self.key_points(lead, self.u(self.report_path(lead.id)))
             if kp:
-                kind = "早上快報" if lead.hour == "08" else f"{lead.hour}:00 快報"
+                kind = "深夜雷達" if lead.hour == "08" else f"{lead.hour}:00 快報"
                 top = ('  <section class="hl-top" aria-labelledby="h-key"><div class="wrap">\n'
                        f'    <h2 id="h-key" class="label">重點｜{e(lead.when)} HKT</h2>\n'
                        f'    {kp}\n'
@@ -693,7 +693,7 @@ class Site:
             f'{listing}'
             '  </div></section>\n'
             '  <section class="section" id="night" aria-labelledby="h-night"><div class="wrap">\n'
-            '    <div class="sec-head"><h2 id="h-night">早上快報</h2>'
+            '    <div class="sec-head"><h2 id="h-night">深夜雷達</h2>'
             '<span class="label">08:00 HKT</span></div>\n'
             f'{night_listing}'
             '  </div></section>\n'
