@@ -40,7 +40,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "data": [
@@ -48,7 +50,9 @@
           "metric": "猴痘胡同帖列表分數",
           "value": "92",
           "comparison": "7 頁，4 分鐘前（上小時 87、6 頁）",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "why": "香港時事。本頁有見，分數大致穩定，放追蹤。",
@@ -79,7 +83,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "data": [
@@ -87,7 +93,9 @@
           "metric": "鄺球蔡天鳳帖列表分數",
           "value": "105",
           "comparison": "11 頁，20 分鐘前（上小時 96、11 頁）",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "why": "香港時事。本頁有見，分數輕微上升，放追蹤。",
@@ -118,7 +126,9 @@
         {
           "label": "列表標題",
           "summary": "只有列表標題。未打開內文。",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "data": [
@@ -126,7 +136,9 @@
           "metric": "巴士加價帖列表分數",
           "value": "-46",
           "comparison": "4 頁，1 分鐘前（上小時約 -63、4 頁）",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "why": "香港經濟／時事。本頁有見更新版申請加價帖，分數輕微回升但仍負，放追蹤。",
@@ -173,7 +185,15 @@
         "status": "unverified",
         "note": "本頁未見該標題。"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "platform": "連登",
+          "read_level": "title_only",
+          "url": "https://lihkg.com/thread/4167589/page/1",
+          "note": " 帖文連結補自同日已見的同一議題。"
+        }
+      ],
       "limits": "不把之前標題當成官員發言的核實記述。",
       "next_steps": "下一輪再睇有冇重返熱門第 1 頁。"
     }
