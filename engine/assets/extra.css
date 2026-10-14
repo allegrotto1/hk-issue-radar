@@ -59,3 +59,6 @@
 .fields.grid2 > div + div{ border-top:0; }
 .fields.grid2 > div:last-child:nth-child(odd){ grid-column:1 / -1; }
 @media (max-width:720px){ .fields.grid2{ grid-template-columns:1fr; } }
+
+.heads .who{ display:inline; margin-left:.55rem; color:var(--muted); font-size:.8125rem; }
+.heads .who a{ color:inherit; }

@@ -209,6 +209,9 @@ footer.site .disc{ margin-top:1rem; max-width:44rem; font-size:.8125rem; }
 .fields.grid2 > div:last-child:nth-child(odd){ grid-column:1 / -1; }
 @media (max-width:720px){ .fields.grid2{ grid-template-columns:1fr; } }
 
+.heads .who{ display:inline; margin-left:.55rem; color:var(--muted); font-size:.8125rem; }
+.heads .who a{ color:inherit; }
+
 /* ADHD-friendly layout: 重點 block, edition diff, collapsed list overflow */
 .keypts{ margin:0; padding:0; list-style:none; border:1px solid var(--line); border-left:3px solid var(--fg); border-radius:var(--radius); }
 .keypts li{ padding:10px 16px; line-height:1.7; color:var(--fg-2); }
