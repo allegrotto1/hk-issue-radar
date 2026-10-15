@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-15T10:00:00Z",
+    "end": "2026-10-15T11:00:00Z"
+  },
+  "generated_at": "2026-10-15T10:08:00Z",
+  "summary": [
+    "18 點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 。抽出可見標題同淨評分。對選定四類議題打開內文（API），讀樓主第一則同頭頁留言。取得實際 no_of_reply。對照上一版 17 點。",
+    "內地：未變。「原來大陸有啲醫院做嘢真係好求其 餵多咗藥俾人食都有」仍在本頁，分數 -82。上一輪 30，變動 -112，屬留言轉向（由讚多變踩多）。放轉變。實際回覆數 51。",
+    "香港政府官員：未變。「鄧炳強透露親身接獲詐騙電話...」仍在本頁，分數 36。上一輪 -100，變動 +136，屬留言轉向（由踩多變讚多）。放轉變。實際回覆數 212。",
+    "香港時事：新題。「蔡天鳳碎屍案｜辯方指譚方駿曾向鄺港智提出發展「同性關係」...」本頁分數 233。上一輪未見。放新。實際回覆數 439。",
+    "香港經濟：未變。「大公報A1：議員倡「香港第二高鐵站」」仍在本頁，分數 47。上一輪 -76，變動 +123，屬留言轉向（由踩多變讚多）。放轉變。實際回覆數 80。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 30,
+        "note": "18:06 HKT 讀 https://lihkg.com/category/1?order=hot 。有完整列表，抄標題、淨評分。選定帖用 API 讀樓主同頭頁留言，取得 no_of_reply。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第一頁可見標題。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "ML-HOSPITAL-MED",
+      "name": "大陸醫院餵多藥",
+      "status": "shift",
+      "seen": "時事台「原來大陸有啲醫院做嘢真係好求其 餵多咗藥俾人食都有」。樓主 不管五毛的連登 講大陸親戚入院，護士應食兩粒但比咗五粒，食過量差啲醒唔到，姑娘只講對唔住就走。頭頁留言多數批評大陸醫院求其、無紅包就差、香港政府引入大陸醫護；有人反駁香港都有醫療事故、大陸護士抽血準快。觀點分佈：批評居多，有互相反駁。分數負代表踩多過讚。實際回覆數 51。",
+      "viewpoints": [
+        {
+          "label": "批評大陸醫院求其／低級錯誤",
+          "summary": "多數留言同意樓主，話大陸人做野求求其其、無紅包就差、護士餵錯藥。高分留言如樓主本身、有人話「竟然會認錯已經好好」。",
+          "share": "多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "反駁／香港都有／正面",
+          "summary": "少數留言話香港都有醫療事故、大陸護士抽血準同快、或話唔洗講呢啲。有互相反駁。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-82",
+          "comparison": "分數負代表踩多過讚；上一輪 30，變動 -112，屬留言轉向（觀點由讚多變踩多，仍以批評為主但列表淨分轉負）。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地相關。本頁仍見，分數大變，放轉變。",
+      "verification": {
+        "status": "anecdotal",
+        "note": "個人經歷分享，未有官方確認。留言有不同意見。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4168319/page/1",
+          "platform": "連登",
+          "author": "不管五毛的連登",
+          "author_url": "https://lihkg.com/profile/415993",
+          "published_at": null,
+          "observed_at": "2026-10-15T10:08:00Z",
+          "read_level": "full_thread_page1",
+          "note": "熱門列表淨分 -82。開帖／API 讀樓主同頭頁留言。實際回覆數 51。"
+        }
+      ],
+      "limits": "觀點依頭頁留言。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": 51
+    },
+    {
+      "issue_id": "HK-DENG-SCAM",
+      "name": "鄧炳強接獲詐騙電話",
+      "status": "shift",
+      "seen": "時事台「鄧炳強透露親身接獲詐騙電話 對方竟「太歲頭上動土」自稱是保安局人員 指鄧炳強涉嫌干犯內地法律」。樓主 極速神驅 轉述鄧炳強社交平台短片，話接獲詐騙電話，對方自稱保安局人員，叫佢去總部10樓，鄧反問並叫對方過嚟。頭頁留言多數嘲諷局長都中招、實名制無用、高調證明做唔到野，高讚如「咁高調話自己做唔撚到野咁得意既」。觀點分佈：嘲諷同質疑為主。分數正代表讚多過踩。實際回覆數 212。",
+      "viewpoints": [
+        {
+          "label": "嘲諷／質疑成效",
+          "summary": "多數留言嘲諷，話局長面對詐騙犯只可以叫人上嚟、實名制唔work、高調證明做唔到。高讚留言如「咁高調話自己做唔撚到野咁得意既」、「完美證明實名制電話卡唔work」。",
+          "share": "多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "其他反應",
+          "summary": "少數留言話香港真係電騙之都、或講其他。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "36",
+          "comparison": "分數正代表讚多過踩；上一輪 -100，變動 +136，屬留言轉向（觀點由踩多變讚多，仍以嘲諷為主但列表淨分轉正）。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員相關。本頁仍見，分數大變，放轉變。",
+      "verification": {
+        "status": "reported",
+        "note": "樓主引述官方短片／報導，屬公開事件。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4168303/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-15T10:08:00Z",
+          "read_level": "full_thread_page1",
+          "note": "熱門列表淨分 36。開帖／API 讀樓主同頭頁留言。實際回覆數 212。"
+        }
+      ],
+      "limits": "觀點依頭頁留言。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": 212
+    },
+    {
+      "issue_id": "HK-ABBY-CHOI",
+      "name": "蔡天鳳碎屍案同性關係指控",
+      "status": "new",
+      "seen": "時事台「蔡天鳳碎屍案｜辯方指譚方駿曾向鄺港智提出發展「同性關係」，譚方駿：絕對不同意」。樓主 mnmmnn 轉載 Now 新聞，講辯方指控譚方駿曾向鄺港智提出發展同性關係，譚絕對不同意。頭頁留言多數討論「gay」、踢爆、激烈，有人話真係、係咪玩屎忽。觀點分佈：嘲諷同追細節為主。分數正代表讚多過踩。實際回覆數 439。上一輪未見此帖。",
+      "viewpoints": [
+        {
+          "label": "嘲諷／追同性指控",
+          "summary": "多數留言集中討論同性關係指控，話「gay」、「係咪踢爆人地玩屎忽」、「咁撚激烈」。高分留言多屬此類。",
+          "share": "多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "其他反應",
+          "summary": "少數留言只講「真係」或空，或講其他細節。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "233",
+          "comparison": "分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事相關。本頁新見高分，放新。",
+      "verification": {
+        "status": "reported",
+        "note": "樓主轉載新聞報導，屬法庭公開審訊內容。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4168370/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-15T10:08:00Z",
+          "read_level": "full_thread_page1",
+          "note": "熱門列表淨分 233。開帖／API 讀樓主同頭頁留言。實際回覆數 439。"
+        }
+      ],
+      "limits": "觀點依頭頁留言。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": 439
+    },
+    {
+      "issue_id": "HK-ECON-HSR2",
+      "name": "議員倡香港第二高鐵站",
+      "status": "shift",
+      "seen": "時事台「大公報A1：議員倡「香港第二高鐵站」」。樓主 芝麻仁冇蘑菇 轉載大公報，講立法會議員姚銘倡港深西部鐵路向北延伸接通深圳寶安機場，甚至考慮升級為「香港第二高鐵站」。頭頁留言多數講「大茶飯」、「再發多D債起高鐵」、「又幾多億呀」、「清空XG儲備尚未成功」。觀點分佈：質疑開支同債為主。分數正代表讚多過踩。實際回覆數 80。",
+      "viewpoints": [
+        {
+          "label": "質疑開支／發債",
+          "summary": "多數留言質疑成本，話「大茶飯」、「再發多D債起高鐵」、「又幾多億呀」、「清空XG儲備尚未成功」。",
+          "share": "多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "其他反應",
+          "summary": "少數留言講北都搭高鐵定羅湖，或講其他。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "47",
+          "comparison": "分數正代表讚多過踩；上一輪 -76，變動 +123，屬留言轉向（觀點由踩多變讚多，仍以質疑為主但列表淨分轉正）。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟相關。本頁仍見，分數大變，放轉變。",
+      "verification": {
+        "status": "reported",
+        "note": "樓主轉載大公報報導，屬公開建議。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4168346/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-15T10:08:00Z",
+          "read_level": "full_thread_page1",
+          "note": "熱門列表淨分 47。開帖／API 讀樓主同頭頁留言。實際回覆數 80。"
+        }
+      ],
+      "limits": "觀點依頭頁留言。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": 80
+    }
+  ]
+}
