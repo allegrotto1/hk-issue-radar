@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-15T05:00:00Z",
+    "end": "2026-10-15T06:00:00Z"
+  },
+  "generated_at": "2026-10-15T05:10:00Z",
+  "summary": [
+    "13 點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot ，有列表。抽出可見標題、分數、頁數。對有帖文連結的議題打開內文讀樓主第一則同頭一頁留言，記留言數、讚踩，寫觀點分佈。樓主花名同個人頁由帖文確認。",
+    "內地：有。「中共宣布制裁沈伯洋父親公司！ 國台辦：禁止與中企進行交易」仍在本頁，列表分數 -14、約 2 頁。留言多嘲諷雙標，放追蹤。",
+    "香港政府官員：有。「鄧炳強透露親身接獲詐騙電話 對方竟「太歲頭上動土」自稱是保安局人員 指鄧炳強涉嫌干犯內地法律」本頁見，分數 -35、約 7 頁。留言多批評反詐成效差，放新。",
+    "香港時事：有。「蔡天鳳最後語音訊息：你又出咗去食煙煙豬呀？」仍在，分數 218、約 17 頁。留言有同情亦有嫌挖私隱，放追蹤。另「港鐵藍田｜廢老冇地鐵唔識搭車」仍在，分數 113、約 2 頁，放追蹤。",
+    "香港經濟：有。「到咗財自既階段，反而有啲擔心退休之後點算」仍在，分數 -110、約 3 頁。樓主擔心財自後悶，留言有建議有笑，放追蹤。另「大公報：紮鐵模板日薪壓低近千元 「難聘」本地工人 招聘「走過場」 承建商藉口輸入外勞」見，分數 2、約 3 頁，放追蹤。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 30,
+        "note": "13:03 HKT 後讀頁。https://lihkg.com/category/1?order=hot 有列表。抄標題、分數、頁數。對選定議題打開帖文讀樓主同頭頁留言。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "部分帖文只讀頭一頁留言，未讀完全部。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "ML-SANCTION-SHEN",
+      "name": "中共宣布制裁沈伯洋父親公司",
+      "status": "tracking",
+      "seen": "時事台「中共宣布制裁沈伯洋父親公司！ 國台辦：禁止與中企進行交易」。列表分數 -14，約 2 頁。樓主貼 Instagram 連結。頭一頁留言多數嘲諷沈伯洋口講台獨暗地同大陸做生意，亦有人話中共助選或雙標。留言約 2 頁。",
+      "viewpoints": [
+        {
+          "label": "嘲諷雙標",
+          "summary": "留言大概過半指沈伯洋家人同中共做生意卻講台獨，係黃絲本色。",
+          "share": "留言大概過半",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "其他觀點",
+          "summary": "少數話中共想幫民進黨贏，或質疑國民黨交流唔算統戰。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-14",
+          "comparison": "約 2 頁；分數負代表踩多過讚；上一輪約 14。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地相關。本頁仍見，放追蹤。",
+      "verification": {
+        "status": "unverified",
+        "note": "帖文引述國台辦制裁，但未對官方原文核實細節。留言觀點屬個人意見。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4168214/page/1",
+          "platform": "連登",
+          "author": "公民開智",
+          "author_url": "https://lihkg.com/profile/70063",
+          "published_at": null,
+          "observed_at": "2026-10-15T05:10:00Z",
+          "read_level": "first_page",
+          "note": "熱門排序頁對上該標題、分數 -14。打開帖文確認樓主同頭頁留言。"
+        }
+      ],
+      "limits": "不把標題或留言當成事實核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-DENG-SCAM",
+      "name": "鄧炳強接獲詐騙電話",
+      "status": "new",
+      "seen": "時事台「鄧炳強透露親身接獲詐騙電話 對方竟「太歲頭上動土」自稱是保安局人員 指鄧炳強涉嫌干犯內地法律」。列表分數 -35，約 7 頁。樓主引述新聞，講鄧炳強社交平台短片反問騙徒。頭一頁留言多批評反詐措施無效、實名制唔 work、局長無能，亦有人笑。留言約 7 頁。",
+      "viewpoints": [
+        {
+          "label": "批評成效",
+          "summary": "留言大概過半指保安局局長都接詐騙電話，顯示反詐失敗，實名電話卡無用。",
+          "share": "留言大概過半",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "其他",
+          "summary": "少數話型或笑死，或質疑點解干犯內地法律。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-35",
+          "comparison": "約 7 頁；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員相關。本頁新見，放新。",
+      "verification": {
+        "status": "unverified",
+        "note": "帖文引述鄧炳強社交平台同新聞報道，未直接核對官方原文。留言屬意見。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4168303/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-15T05:10:00Z",
+          "read_level": "first_page",
+          "note": "熱門排序頁對上該標題、分數 -35。打開帖文確認樓主同頭頁留言。"
+        }
+      ],
+      "limits": "不把標題當成事實核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CAI-VOICE",
+      "name": "蔡天鳳最後語音訊息",
+      "status": "tracking",
+      "seen": "時事台「蔡天鳳最後語音訊息：你又出咗去食煙煙豬呀？」。列表分數 218，約 17 頁。樓主貼新聞連結。頭一頁留言有人覺得 sad、感情好，亦有人批評挖私隱、笑話訊息內容。留言約 17 頁。",
+      "viewpoints": [
+        {
+          "label": "同情或感嘆",
+          "summary": "部分留言覺得兩人感情好、sad，或講訊息時間線。",
+          "share": "留言大概過半",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "批評挖私隱",
+          "summary": "少數話人都死咗仲挖私隱，不如好好判案。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "218",
+          "comparison": "約 17 頁；分數正代表讚多過踩；上一輪約 97。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事。本頁仍見，分數上升，放追蹤。",
+      "verification": {
+        "status": "unverified",
+        "note": "帖文引述新聞報道語音訊息，未核對原始證據。留言屬意見。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4167926/page/1",
+          "platform": "連登",
+          "author": "MB月島螢",
+          "author_url": "https://lihkg.com/profile/187437",
+          "published_at": null,
+          "observed_at": "2026-10-15T05:10:00Z",
+          "read_level": "first_page",
+          "note": "熱門排序頁對上該標題、分數 218。打開帖文確認樓主同頭頁留言。"
+        }
+      ],
+      "limits": "不把標題當成事實核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-MTR-LAMTIN",
+      "name": "港鐵藍田廢老唔識搭車",
+      "status": "tracking",
+      "seen": "時事台「港鐵藍田｜廢老冇地鐵唔識搭車」。列表分數 113，約 2 頁。樓主批評長者地鐵故障唔識搭其他車，缺乏危機意識。頭一頁留言多同意，話巨嬰、識搭巴士唔慢。留言約 2 頁。",
+      "viewpoints": [
+        {
+          "label": "同意批評",
+          "summary": "留言大概過半同意廢老或香港人缺乏應變，建議用巴士或 google map。",
+          "share": "留言大概過半",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "其他",
+          "summary": "少數話正常人或長者就係咁。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "113",
+          "comparison": "約 2 頁；分數正代表讚多過踩；上一輪約 191。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港時事。本頁仍見，放追蹤。",
+      "verification": {
+        "status": "unverified",
+        "note": "帖文引述 Threads 影片同個人觀察，未核對港鐵官方故障紀錄。留言屬意見。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4168186/page/1",
+          "platform": "連登",
+          "author": "命裡無時學鄺球",
+          "author_url": "https://lihkg.com/profile/121546",
+          "published_at": null,
+          "observed_at": "2026-10-15T05:10:00Z",
+          "read_level": "first_page",
+          "note": "熱門排序頁對上該標題、分數 113。打開帖文確認樓主同頭頁留言。"
+        }
+      ],
+      "limits": "不把標題當成事實核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-FI",
+      "name": "財自後擔心退休點算",
+      "status": "tracking",
+      "seen": "財經台「到咗財自既階段，反而有啲擔心退休之後點算」。列表分數 -110，約 3 頁。樓主話財自後怕悶、怕抑鬱、怕難搵返工。頭一頁留言有人建議訓到自然醒、打機、搵 hea 工，有人笑找小白臉或買魚蛋唔使考慮價錢。留言約 3 頁。",
+      "viewpoints": [
+        {
+          "label": "建議生活方式",
+          "summary": "部分留言話財自就自由，訓、打機、上連登就一日。",
+          "share": "留言大概過半",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "質疑或笑",
+          "summary": "少數話如果擔心就未真財自，或建議搵小白臉。",
+          "share": "少數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-110",
+          "comparison": "約 3 頁；分數負代表踩多過讚；上一輪約 30。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港經濟相關。本頁仍見，放追蹤。",
+      "verification": {
+        "status": "unverified",
+        "note": "個人經驗分享，無政策內容。留言屬意見。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4168058/page/1",
+          "platform": "連登",
+          "author": "思晴",
+          "author_url": "https://lihkg.com/profile/652918",
+          "published_at": null,
+          "observed_at": "2026-10-15T05:10:00Z",
+          "read_level": "first_page",
+          "note": "熱門排序頁對上該標題、分數 -110。打開帖文確認樓主同頭頁留言。"
+        }
+      ],
+      "limits": "不把標題當成事實核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-LABOR",
+      "name": "大公報報導建造業外勞壓低工資",
+      "status": "tracking",
+      "seen": "時事台「大公報：紮鐵模板日薪壓低近千元 「難聘」本地工人 招聘「走過場」 承建商藉口輸入外勞」。列表分數 2，約 3 頁。樓主引述大公報，指部分承建商開低薪走過場申請外勞。頭一頁未詳讀全部，但帖文內容詳細。",
+      "viewpoints": [
+        {
+          "label": "列表標題",
+          "summary": "帖文引述報道指工資中位數同工會統計相差近千元，本地工人難搵工。",
+          "share": "主要觀點",
+          "evidence_ids": ["L6"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "2",
+          "comparison": "約 3 頁；分數正代表讚多過踩；上一輪約 -12。",
+          "evidence_ids": ["L6"]
+        }
+      ],
+      "why": "香港經濟相關。本頁仍見，放追蹤。",
+      "verification": {
+        "status": "unverified",
+        "note": "帖文引述大公報報道同發展局回覆，未核對官方最新數據。查唔到即時官方反駁。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L6",
+          "url": "https://lihkg.com/thread/4168253/page/1",
+          "platform": "連登",
+          "author": "碧街",
+          "author_url": "https://lihkg.com/profile/208323",
+          "published_at": null,
+          "observed_at": "2026-10-15T05:10:00Z",
+          "read_level": "first_page",
+          "note": "熱門排序頁對上該標題、分數 2。打開帖文確認樓主內容。"
+        }
+      ],
+      "limits": "不把標題當成事實核實記述。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
