@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-15T11:00:00Z",
+    "end": "2026-10-15T12:00:00Z"
+  },
+  "generated_at": "2026-10-15T11:10:00Z",
+  "summary": [
+    "19 點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 。抽出可見標題同淨評分。選定四類議題。API 被 Cloudflare 擋住，replies 寫 null，並在 seen 話明。對照上一版 18 點。",
+    "內地：新題。「中國今次卷死內存股了」本頁分數 21。上一輪未見。放新。實際回覆數開唔到 API。",
+    "香港政府官員：本頁熱門列表未見上一輪「鄧炳強透露親身接獲詐騙電話」標題。放降溫。",
+    "香港時事：追蹤。「蔡天鳳碎屍案｜辯方指譚方駿曾向鄺港智提出發展「同性關係」，譚方駿：絕對不同意」本頁仍見，分數 68。上一輪 58，變動 +10，屬列表刷新。放追蹤。實際回覆數開唔到 API。",
+    "香港經濟：新題。「美股跌成咁，大家開始驚未？」本頁分數 -6。上一輪未見。放新。實際回覆數開唔到 API。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 20,
+        "note": "19:10 HKT 讀 https://lihkg.com/category/1?order=hot 。有完整列表，抄標題、淨評分、樓主。API_v2 被 Cloudflare 擋，replies null。帖文內文頁未能完整載入。"
+      }
+    ],
+    "failed": ["lihkg api_v2 (Cloudflare block)", "thread page content not loading"],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第一頁可見標題。",
+      "API 開唔到，replies 為 null，觀點僅能從標題推斷有限。作者個人頁連結部分沿用上一版。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-MEMORY-STOCKS",
+      "name": "中國今次卷死內存股了",
+      "status": "new",
+      "seen": "財經台「中國今次卷死內存股了」。樓主 要靜去自修室啦屌。本頁分數 21，2 頁。開唔到 API，replies null。留言觀點開唔到詳細。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "內存股討論",
+          "summary": "開唔到詳細留言頁內容，僅能從標題推斷討論中國內存股表現。開唔到所以唔估具體分佈。",
+          "share": "未知（開唔到）",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "21",
+          "comparison": "分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地相關。本頁熱門，放新。",
+      "verification": {
+        "status": "anecdotal",
+        "note": "市場討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4168312/page/1",
+          "platform": "連登",
+          "author": "要靜去自修室啦屌",
+          "author_url": "https://lihkg.com/profile/118346",
+          "published_at": null,
+          "observed_at": "2026-10-15T11:10:00Z",
+          "read_level": "list_only",
+          "note": "熱門列表淨分 21。開帖未能載入內文。API 開唔到，replies null。個人頁連結未見。"
+        }
+      ],
+      "limits": "觀點依標題；API 擋無法讀留言分佈。author_url 未能取得。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": null
+    },
+    {
+      "issue_id": "HK-OFFICIAL-DENG",
+      "name": "鄧炳強接獲詐騙電話",
+      "status": "cooling",
+      "seen": "本頁熱門列表未見「鄧炳強透露親身接獲詐騙電話 對方竟「太歲頭上動土」自稱是保安局人員 指鄧炳強涉嫌干犯內地法律」。上一輪已降溫。",
+      "viewpoints": [
+        {
+          "label": "官員詐騙討論",
+          "summary": "本頁未見，唔估觀點。",
+          "share": "未知",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "未見",
+          "comparison": "上一輪未在熱門，本輪仍未見。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員。本頁未見，放降溫。",
+      "verification": {
+        "status": "reported",
+        "note": "新聞報導。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/416XXXX/page/1",
+          "platform": "連登",
+          "author": "不管五毛的連登",
+          "author_url": "https://lihkg.com/profile/415993",
+          "published_at": null,
+          "observed_at": "2026-10-15T11:10:00Z",
+          "read_level": "not_on_hot",
+          "note": "本頁熱門未見。沿用上一輪 author_url。"
+        }
+      ],
+      "limits": "本頁未見。",
+      "next_steps": "下一輪再查有無重上熱門。",
+      "replies": null
+    },
+    {
+      "issue_id": "HK-ABBY-CHOI",
+      "name": "蔡天鳳碎屍案同性關係指控",
+      "status": "tracking",
+      "seen": "時事台「蔡天鳳碎屍案｜辯方指譚方駿曾向鄺港智提出發展「同性關係」，譚方駿：絕對不同意」。樓主 mnmmnn。本頁分數 68，20 頁。開唔到 API，replies null。留言觀點開唔到詳細。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "案件進展討論",
+          "summary": "開唔到詳細留言，僅見標題。屬庭審報導討論。",
+          "share": "未知（開唔到）",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "68",
+          "comparison": "分數正代表讚多過踩；上一輪 58，變動 +10，屬列表刷新（帖仍在、留言觀點未變）。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事。本頁仍見，分數小升，放追蹤。",
+      "verification": {
+        "status": "reported",
+        "note": "庭審報導。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4168370/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-15T11:10:00Z",
+          "read_level": "list_only",
+          "note": "熱門列表淨分 68。開帖未能載入內文。API 開唔到，replies null。"
+        }
+      ],
+      "limits": "觀點依標題；API 擋。",
+      "next_steps": "下一輪再睇分數。",
+      "replies": null
+    },
+    {
+      "issue_id": "HK-ECON-US-STOCKS",
+      "name": "美股跌成咁大家開始驚未",
+      "status": "new",
+      "seen": "財經台「美股跌成咁，大家開始驚未？」。樓主 要靜去自修室啦屌。本頁分數 -6，2 頁。開唔到 API，replies null。留言觀點開唔到詳細。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "美股跌勢討論",
+          "summary": "開唔到詳細留言頁內容，僅能從標題推斷討論美股下跌。開唔到所以唔估具體分佈。",
+          "share": "未知（開唔到）",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-6",
+          "comparison": "分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟／市場相關。本頁熱門，放新。",
+      "verification": {
+        "status": "anecdotal",
+        "note": "市場討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4168285/page/1",
+          "platform": "連登",
+          "author": "要靜去自修室啦屌",
+          "author_url": "https://lihkg.com/profile/118346",
+          "published_at": null,
+          "observed_at": "2026-10-15T11:10:00Z",
+          "read_level": "list_only",
+          "note": "熱門列表淨分 -6。開帖未能載入內文。API 開唔到，replies null。個人頁連結未見。"
+        }
+      ],
+      "limits": "觀點依標題；API 擋無法讀留言分佈。author_url 未能取得。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": null
+    }
+  ]
+}
