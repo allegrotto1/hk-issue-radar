@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-15T12:00:00Z",
+    "end": "2026-10-15T13:00:00Z"
+  },
+  "generated_at": "2026-10-15T12:10:00Z",
+  "summary": [
+    "20 點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 。抽出可見標題同淨評分。選定四類議題。API 被 Cloudflare 擋住，replies 寫 null，並在 seen 話明。對照上一版 19 點。",
+    "內地：追蹤。「中國今次卷死內存股了」本頁分數 36。上一輪 21，變動 +15，屬列表刷新。放追蹤。實際回覆數開唔到 API。",
+    "香港政府官員：轉向。「鄧炳強透露親身接獲詐騙電話」本頁分數 -126。上一輪降溫未見，本輪重現高負分。放轉向。實際回覆數開唔到 API。",
+    "香港時事：新題。「蔡天鳳碎屍案｜譚方駿借500萬賭後未想要還」本頁分數 -2。上一輪未見此特定標題。放新。實際回覆數開唔到 API。",
+    "香港經濟：追蹤。「美股跌成咁，大家開始驚未？」本頁分數 -5。上一輪 -6，變動小，屬列表刷新。放追蹤。實際回覆數開唔到 API。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 20,
+        "note": "20:10 HKT 讀 https://lihkg.com/category/1?order=hot 。有完整列表，抄標題、淨評分、樓主。API_v2 被 Cloudflare 擋，replies null。帖文內文頁部分載入但留言詳細未能完整提取。"
+      }
+    ],
+    "failed": ["lihkg api_v2 (Cloudflare block)", "full comment thread extraction limited"],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第一頁可見標題。",
+      "API 開唔到，replies 為 null，觀點僅能從標題及有限頁面推斷，唔估具體分佈。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-MEMORY-STOCKS",
+      "name": "中國今次卷死內存股了",
+      "status": "tracking",
+      "seen": "財經台「中國今次卷死內存股了」。樓主 要靜去自修室啦屌。本頁分數 36，5 頁。帖文講中國內存股表現被「卷死」。開唔到 API，replies null。留言頁未能完整讀取詳細觀點分佈，唔估。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "內存股討論",
+          "summary": "開唔到詳細留言頁內容，僅能從標題推斷討論中國內存股市場表現。開唔到所以唔估具體分佈及反駁情況。",
+          "share": "未知（開唔到）",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "36",
+          "comparison": "分數正代表讚多過踩；上一輪 21，變動 +15，屬列表刷新（帖仍在、留言觀點未變）。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地相關。本頁熱門，放追蹤。",
+      "verification": {
+        "status": "anecdotal",
+        "note": "市場討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4168312/page/1",
+          "platform": "連登",
+          "author": "要靜去自修室啦屌",
+          "author_url": "https://lihkg.com/profile/118346",
+          "published_at": null,
+          "observed_at": "2026-10-15T12:10:00Z",
+          "read_level": "list_and_partial_thread",
+          "note": "熱門列表淨分 36。開帖未能完整載入留言詳細。API 開唔到，replies null。"
+        }
+      ],
+      "limits": "觀點依標題；API 擋無法讀留言分佈。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": null
+    },
+    {
+      "issue_id": "HK-OFFICIAL-DENG",
+      "name": "鄧炳強透露親身接獲詐騙電話",
+      "status": "shift",
+      "seen": "時事台「鄧炳強透露親身接獲詐騙電話 對方竟「太歲頭上動土」自稱是保安局人員 指鄧炳強涉嫌干犯內地法律」。樓主 極速神驅。本頁分數 -126，10 頁。上一輪降溫未見，本輪重現。帖文講保安局局長鄧炳強接獲詐騙電話。開唔到 API，replies null。留言頁未能完整讀取，唔估觀點轉向。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "官員詐騙事件討論",
+          "summary": "開唔到詳細留言頁內容。標題顯示討論鄧炳強接獲自稱保安局人員的詐騙電話。開唔到所以唔估分佈。",
+          "share": "未知（開唔到）",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-126",
+          "comparison": "分數負代表踩多過讚；上一輪未見（降溫），本輪重現高負分，屬留言或列表轉向。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員。本頁重現高負分，放轉向。",
+      "verification": {
+        "status": "reported",
+        "note": "新聞報導事件。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4168303/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-15T12:10:00Z",
+          "read_level": "list_and_partial_thread",
+          "note": "熱門列表淨分 -126。API 開唔到，replies null。"
+        }
+      ],
+      "limits": "觀點依標題；API 擋無法讀留言分佈。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": null
+    },
+    {
+      "issue_id": "HK-CAI-CASE",
+      "name": "蔡天鳳碎屍案｜譚方駿借500萬賭後未想要還",
+      "status": "new",
+      "seen": "時事台「蔡天鳳碎屍案｜譚方駿借500萬賭後未想要還：太陽城集團都執笠 我還錢咪好傻仔」。樓主 極速神驅。本頁分數 -2，2 頁。帖文講蔡天鳳案中譚方駿借錢賭博後不想還，提及太陽城集團。開唔到 API，replies null。留言頁未能完整讀取詳細觀點，唔估。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "案件細節討論",
+          "summary": "開唔到詳細留言頁內容，僅能從標題推斷討論案件金錢往來及辯護。開唔到所以唔估分佈及反駁。",
+          "share": "未知（開唔到）",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-2",
+          "comparison": "分數負代表踩多過讚；上一輪未見此特定標題。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事。本頁熱門，放新。",
+      "verification": {
+        "status": "reported",
+        "note": "法庭案件報導。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4168380/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-15T12:10:00Z",
+          "read_level": "list_and_partial_thread",
+          "note": "熱門列表淨分 -2。API 開唔到，replies null。"
+        }
+      ],
+      "limits": "觀點依標題；API 擋無法讀留言分佈。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": null
+    },
+    {
+      "issue_id": "HK-ECON-US-STOCK",
+      "name": "美股跌成咁，大家開始驚未？",
+      "status": "tracking",
+      "seen": "財經台「美股跌成咁，大家開始驚未？」。樓主 要靜去自修室啦屌。本頁分數 -5，2 頁。帖文講美股下跌，問香港人是否開始擔心。開唔到 API，replies null。留言頁未能完整讀取，唔估觀點。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "美股下跌擔憂",
+          "summary": "開唔到詳細留言頁內容，僅能從標題推斷討論美股跌勢對香港影響。開唔到所以唔估分佈。",
+          "share": "未知（開唔到）",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-5",
+          "comparison": "分數負代表踩多過讚；上一輪 -6，變動小，屬列表刷新。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟。本頁熱門，放追蹤。",
+      "verification": {
+        "status": "anecdotal",
+        "note": "市場討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4168285/page/1",
+          "platform": "連登",
+          "author": "要靜去自修室啦屌",
+          "author_url": "https://lihkg.com/profile/118346",
+          "published_at": null,
+          "observed_at": "2026-10-15T12:10:00Z",
+          "read_level": "list_and_partial_thread",
+          "note": "熱門列表淨分 -5。API 開唔到，replies null。"
+        }
+      ],
+      "limits": "觀點依標題；API 擋無法讀留言分佈。",
+      "next_steps": "下一輪再睇分數同仲在唔在熱門。",
+      "replies": null
+    }
+  ]
+}
