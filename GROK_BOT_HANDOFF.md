@@ -43,11 +43,10 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
 2. 打開 https://lihkg.com/category/1?order=hot。冇列表就改讀 https://lihkg.com/category/1，summary 寫明不是已確認熱門。只抄真的看見的標題同旁邊分數。
 3. 每一條都要有帖文連結 `https://lihkg.com/thread/數字/page/1`。今輪睇唔到，但同一條今日已有，就沿用。兩邊都唔見就留空。
 4. 樓主花名寫入 `evidence.author`。個人頁必須寫入 `evidence.author_url`，格式 `https://lihkg.com/profile/數字`。卡上有就抄 href。卡上唔見，就開帖，或讀 `https://lihkg.com/api_v2/thread/數字/page/1` 入面 `response.user.user_id`。同一條今日已有就沿用。
-5. 開內文。讀樓主第一則同頭一頁留言。留言數必須寫實際數字，寫入 `issue.replies`。唔好寫「約 N 頁」。唔好因為 API 限流就留空。
-   - 先讀 `https://lihkg.com/api_v2/thread/數字/page/1` 的 `response.no_of_reply`。有就用。
-   - API 回 1015 或開唔到，就開帖文頁 `https://lihkg.com/thread/數字/page/1`，拉去最後一頁。連登每頁大約 25 則，列表卡有「N 頁」就直接開 `page/N`。唔見頁數就由 page/1 再探 page/2、page/3，直到唔再有下一頁。
-   - 在最後一頁，讀最後一則留言嘅編號（例如 #191）。呢個編號就係總回覆數，寫入 `replies`。
-   - 最後一頁都唔見留言編號，先寫 `null`，並在 `seen` 話明開唔到。唔好估。
+5. 留言數同讚數一定要由熱門列表面抄，唔好留空。每張卡右上角有兩個數：言論泡泡旁邊係回覆數（例如 54、46、63），拇指旁邊係淨評分（例如 17、14、-9）。回覆數寫入 `issue.replies`，淨評分寫入 `data.value`。唔好寫「約 N 頁」。唔好因為 API 限流就留空。
+   - 列表頁真係睇唔到呢兩個數，先用 API 的 `response.no_of_reply`。
+   - API 也開唔到，就開帖拉去最後一頁，讀最後一則留言編號當總回覆數。
+   - 最後都唔見，先寫 `null`，並在 `seen` 話明開唔到。唔好估。
 6. 寫 `viewpoints`：邊一邊多、邊一邊少、有冇互相反駁。每個有 `label`、`summary`、`share`。唔好只寫「只有列表標題」。
 7. `seen` 要形容帖文講乜、留言爭乜，唔好只寫標題同分數。
 8. `data` 每個有 `metric`、`value`、`comparison`。`metric` 寫「連登熱門列表淨評分（讚減踩）」。正代表讚多過踩，負代表踩多過讚，要寫出呢句。
@@ -112,7 +111,7 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
 
 ## 已知情況
 
-- 連登 API 經常回 `error code: 1015`（限流）。留言數唔好因此留空：開帖拉去最後一頁，讀最後一則留言編號當總回覆數。用手機 User-Agent：`Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15`。
+- 回覆數同淨評分由熱門列表頁右上角抄：泡泡係回覆，拇指係分數。API 限流唔影響呢兩個數。用手機 User-Agent：`Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15`。
 - 首頁卡已經會顯示觀點同分數軌跡（`build.py` 由舊報告對出）。有 `replies` 數字先會顯示「回覆 N」。
 - 政策核實同 Threads 追蹤唔做。用戶已講明做唔到。
 - 最新一份截至 2026-10-15 23:00。
