@@ -1,0 +1,114 @@
+# 香港議題雷達 · 自動化接手備忘
+
+給下一個 Grok bot。當主對話用完額度，跟這份做。唔好改版面，唔好改 `engine/build.py`。
+
+公開網站：https://allegrotto1.github.io/hk-issue-radar/
+Repo：`allegrotto1/hk-issue-radar`
+時區：`Asia/Hong_Kong`
+
+## 你做咩
+
+你只寫快報內容，每次只推一個檔：
+
+`engine/data/reports/YYYY-MM-DD-HH.json`
+
+推上去之後，已有的 GitHub Action（`.github/workflows/republish.yml`）自己重建首頁。你唔好自己建站。
+
+## 兩條自動化
+
+| 名稱 | task_id | 幾時跑 | 寫邊個檔 |
+|---|---|---|---|
+| 香港議題雷達每小時快報 | `2536d52b-af07-448e-a2d4-aabf98cd2b6e` | 09:00–23:00 同 00:00，每小時一次，共 16 次 | `YYYY-MM-DD-HH.json` |
+| 香港議題雷達早上快報 | `6d0d110f-5857-40f2-bbbc-f27bd511f321` | 每日 08:00 一次 | `YYYY-MM-DD-08.json` |
+
+01:00–07:00 唔寫。08:00 只由早上快報寫。00:00 歸每小時快報，唔好另開一條。
+
+如果而家唔係呢啲鐘，即刻停，唔好寫檔，唔好 push。
+
+## 禁止
+
+- `publish_pages.sh`、`republish.sh`、`rsync`、`tar`、整個資料夾上傳
+- `git add -A`、`git add .`、`git add -u`
+- 複製頁面去 `/workspace/public`
+- 覆蓋或刪除其他檔
+- 估 thread 編號、估個人頁數字、估分數、估回覆數
+- 寫真名、相片、或其他身份資料
+- 由用戶名判斷金主、操盤方、水軍、係咪普通人
+
+push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。多過一個就唔好 push。
+
+## 步驟
+
+1. `gh repo clone allegrotto1/hk-issue-radar /tmp/hk-issue-radar`。已有就 `git fetch` 並 `reset --hard origin/main`。
+2. 打開 https://lihkg.com/category/1?order=hot。冇列表就改讀 https://lihkg.com/category/1，summary 寫明不是已確認熱門。只抄真的看見的標題同旁邊分數。
+3. 每一條都要有帖文連結 `https://lihkg.com/thread/數字/page/1`。今輪睇唔到，但同一條今日已有，就沿用。兩邊都唔見就留空。
+4. 樓主花名寫入 `evidence.author`。個人頁必須寫入 `evidence.author_url`，格式 `https://lihkg.com/profile/數字`。卡上有就抄 href。卡上唔見，就開帖，或讀 `https://lihkg.com/api_v2/thread/數字/page/1` 入面 `response.user.user_id`。同一條今日已有就沿用。
+5. 開內文。讀樓主第一則同頭一頁留言。留言數必須寫實際 `no_of_reply`，寫入 `issue.replies`（數字）。唔好寫「約 N 頁」。API 回 1015 就寫 `replies: null`，並在 `seen` 話明開唔到。唔好估。
+6. 寫 `viewpoints`：邊一邊多、邊一邊少、有冇互相反駁。每個有 `label`、`summary`、`share`。唔好只寫「只有列表標題」。
+7. `seen` 要形容帖文講乜、留言爭乜，唔好只寫標題同分數。
+8. `data` 每個有 `metric`、`value`、`comparison`。`metric` 寫「連登熱門列表淨評分（讚減踩）」。正代表讚多過踩，負代表踩多過讚，要寫出呢句。
+9. 分數起跌：對照同一條 `/thread/數字` 上一版的 `data.value`。變動大過 30，在 `comparison` 寫明係列表刷新（帖仍在、觀點未變）定留言轉向（由讚變踩或由踩變讚）。上一輪未見就寫「上一輪未見」。
+10. 四類都要有：內地、香港政府官員、香港時事、香港經濟。只用仍在這一頁的標題。冇新題就寫明未變。`status` 只可以是 `new`、`tracking`、`shift`、`cooling`。
+11. 只寫入 `/tmp/hk-issue-radar/engine/data/reports/YYYY-MM-DD-HH.json`。
+12. 只可以 `git add` 呢一個檔。commit，`push origin HEAD`。推唔上就再試一次。仍然失敗，回覆寫明失敗，唔好話已經上線。
+
+做完用兩句話講四類各係邊一條，以及每一條有冇實際回覆數。
+
+## JSON 格式
+
+```json
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": { "start": "2026-10-15T15:00:00Z", "end": "2026-10-15T16:00:00Z" },
+  "generated_at": "2026-10-15T15:05:00Z",
+  "summary": "四類各係邊一條，有冇缺類。",
+  "sources": { "url": "https://lihkg.com/category/1?order=hot", "failed": [] },
+  "issues": [
+    {
+      "issue_id": "HK-...",
+      "name": "標題",
+      "status": "new",
+      "seen": "樓主講乜、留言爭乜。回覆 191。",
+      "replies": 191,
+      "viewpoints": [
+        { "label": "批評成效", "summary": "留言大概過半指反詐失敗。", "share": "留言大概過半", "evidence_ids": ["L1"] }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "191",
+          "comparison": "回覆 191；分數正代表讚多過踩；上一輪 97。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港時事。本頁仍見。",
+      "verification": { "status": "unverified", "note": "未對官方原文。" },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4167926/page/1",
+          "platform": "連登",
+          "author": "樓主花名",
+          "author_url": "https://lihkg.com/profile/187437",
+          "published_at": null,
+          "observed_at": "2026-10-15T15:05:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
+```
+
+`window.start` 係該小時香港時間的 UTC。香港 = UTC+8。
+
+## 已知情況
+
+- 連登 API 經常回 `error code: 1015`（限流）。開唔到就留空，唔好估。用手機 User-Agent：`Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15`。
+- 首頁卡已經會顯示觀點同分數軌跡（`build.py` 由舊報告對出）。有 `replies` 數字先會顯示「回覆 N」。
+- 政策核實同 Threads 追蹤唔做。用戶已講明做唔到。
+- 最新一份截至 2026-10-15 23:00。
