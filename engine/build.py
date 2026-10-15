@@ -154,6 +154,21 @@ def safe_url(u) -> str | None:
     return u
 
 
+def thread_id(it) -> str | None:
+    u = thread_url(it)
+    if not u:
+        return None
+    m = re.search(r"/thread/(\d+)", urlsplit(u).path)
+    return m.group(1) if m else None
+
+
+def score_of(it) -> str:
+    for dpt in it.get("data") or []:
+        if isinstance(dpt, dict) and s(dpt.get("value")):
+            return s(dpt.get("value"))
+    return ""
+
+
 def thread_url(it) -> str | None:
     """Only a real LIHKG thread link. Category or search pages are not the post."""
     if not isinstance(it, dict):
@@ -354,13 +369,13 @@ class Report:
             return f"{zh_date(self.date)} 深夜雷達"
         return f"{zh_date(self.date)} {self.hour}:00 每小時議題快報"
 
-    def heads(self) -> list[tuple[str, str, str, str | None, str, str | None]]:
+    def heads(self) -> list[tuple]:
         out = [(it, *status_of(it.get("status"))) for it in self.issues]
         out += [(it, *STATUS["lead"]) for it in self.early_leads]
         rows = []
         for it, lab, cls in out[:MAX_HEADS]:
             name, url = author_of(it)
-            rows.append((s(it.get("name")), lab, cls, thread_url(it), name, url))
+            rows.append((s(it.get("name")), lab, cls, thread_url(it), name, url, it))
         return rows
 
 
@@ -401,6 +416,14 @@ class Site:
         for r in reports:
             days.setdefault(r.date, []).append(r)
         self.days = dict(sorted(days.items(), reverse=True))  # newest first
+        index: dict[str, list[tuple[str, str]]] = {}
+        for r in sorted(reports, key=lambda x: x.id):
+            for it in r.issues:
+                tid = thread_id(it)
+                sc = score_of(it)
+                if tid and sc:
+                    index.setdefault(tid, []).append((r.id, sc))
+        self.score_index = index
         self.css = (ROOT / "assets" / "base.css").read_text(encoding="utf-8") + "\n" + \
                    (ROOT / "assets" / "extra.css").read_text(encoding="utf-8") + ADHD_CSS
         self.base_path = s(cfg.get("base_path")).rstrip("/")
@@ -607,18 +630,59 @@ class Site:
         return f'  <footer class="site"><div class="wrap">\n{lines}  </div></footer>\n'
 
     # shared pieces
+
+    def head_extra(self, r: Report, it: dict) -> str:
+        """Reply count, main viewpoint, and score trajectory for the homepage card."""
+        bits = []
+        replies = it.get("replies")
+        if replies in (None, ""):
+            for ev in it.get("evidence") or []:
+                if isinstance(ev, dict) and ev.get("replies") not in (None, ""):
+                    replies = ev.get("replies")
+                    break
+        if replies not in (None, ""):
+            bits.append(f"回覆 {e(str(replies))}")
+        vps = it.get("viewpoints") or []
+        if vps and isinstance(vps[0], dict):
+            lab = s(vps[0].get("label"))
+            if lab and lab not in ("列表標題", "其他", "其他觀點"):
+                bits.append(e(lab))
+        trail = self.score_trail(r, it)
+        if trail:
+            bits.append(e(trail))
+        if not bits:
+            return ""
+        return '<span class="extra">' + " · ".join(bits) + "</span>"
+
+    def score_trail(self, r: Report, it: dict) -> str:
+        tid = thread_id(it)
+        if not tid:
+            return ""
+        hist = self.score_index.get(tid) or []
+        prev = None
+        for rid, score in hist:
+            if rid < r.id:
+                prev = (rid, score)
+            elif rid == r.id:
+                break
+        cur = score_of(it)
+        if prev and cur:
+            return f"{prev[0][-5:]} {prev[1]} → {cur}"
+        return ""
+
     def card(self, r: Report) -> str:
         en, zh = weekday(r.date)
         heads = r.heads()
         if heads:
             bits = []
-            for name, lab, cls, url, aname, aurl in heads:
+            for name, lab, cls, url, aname, aurl, it in heads:
                 title = ext_link(url, name) if url else e(name)
                 who = ""
                 if aname or aurl:
                     label = aname or "樓主"
                     who = '<span class="who">' + (ext_link(aurl, label) if aurl else e(label)) + "</span>"
-                bits.append(f"<li>{tag(lab, cls)}{title}{who}</li>")
+                extra = self.head_extra(r, it)
+                bits.append(f"<li>{tag(lab, cls)}{title}{who}{extra}</li>")
             lis = "".join(bits)
         else:
             lis = '<li class="bot">本輪未有達門檻的議題</li>'
