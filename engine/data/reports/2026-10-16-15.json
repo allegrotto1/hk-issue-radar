@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-16T07:00:00Z",
+    "end": "2026-10-16T08:00:00Z"
+  },
+  "generated_at": "2026-10-16T07:05:00Z",
+  "summary": [
+    "15 點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 。有完整列表，用 API 確認部分回覆數及樓主，開帖讀樓主第一則同頭頁留言。對照 14 點版。",
+    "內地：新。「網傳洛陽掘出秦始皇「傳國玉璽」 以和氏璧琢成 相傳五代十國時失蹤」本頁分數 35。上一輪未見。留言討論真偽、歷史傳說同網傳可信度。實際回覆數 59。",
+    "香港政府官員：追蹤。「兩屋邨共48部𨋢工程失誤　工程師稱須調查原因不排除是監工問題」本頁可見。相關機電署帖上一輪分數 93，本輪未見於首頁第一頁，判斷 cooling。",
+    "香港時事：追蹤。「名媛蔡天鳳碎屍案 譚方駿認父代還$600萬賭債 其中$100萬是「茶水錢」 鄺球為唯一能找渠道聯絡「偏門嘅人」」本頁分數 -43。頭頁留言討論茶水錢、偏門、有錢人世界等。實際回覆數 99。",
+    "香港經濟：追蹤。「今年FG其實可以點」本頁分數 63。上一輪 -36，變動 +99，分數由負轉正，留言觀點未見明顯轉向，判斷為列表刷新（帖仍在）。實際回覆數 110。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 30,
+        "note": "15:05 HKT 讀 https://lihkg.com/category/1?order=hot 。部分用 API 提取回覆數及樓主，部分開帖讀內文。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第一頁可見標題。",
+      "部分帖 API 限流時用最後頁或列表數字。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-LUOYANG-JADE-SEAL",
+      "name": "網傳洛陽掘出秦始皇「傳國玉璽」 以和氏璧琢成 相傳五代十國時失蹤",
+      "status": "new",
+      "seen": "時事台帖，樓主天蠍座。本頁淨評分 35。帖文轉網傳洛陽出土傳國玉璽相關消息，以和氏璧琢成，五代十國失蹤。頭頁留言討論真偽、歷史傳聞同網傳可信程度。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "質疑真偽",
+          "summary": "留言主要討論是否真實出土、網傳是否誇大或假消息。",
+          "share": "主要",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "歷史興趣",
+          "summary": "有留言談傳國玉璽傳說、和氏璧同歷史失蹤。",
+          "share": "約三成",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "35",
+          "comparison": "分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "replies": 59,
+      "evidence": [
+        {
+          "id": "L1",
+          "title": "網傳洛陽掘出秦始皇「傳國玉璽」 以和氏璧琢成 相傳五代十國時失蹤",
+          "url": "https://lihkg.com/thread/4168756/page/1",
+          "author": "天蠍座",
+          "author_url": "https://lihkg.com/profile/80481",
+          "platform": "連登",
+          "evidence_id": "L1"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-EMSD-ELEVATOR-RELATED",
+      "name": "兩屋邨共48部𨋢工程失誤　工程師稱須調查原因不排除是監工問題",
+      "status": "tracking",
+      "seen": "時事台帖。本頁可見相關標題。上一輪機電署帖分數 93，本輪首頁未見該原帖，判斷 cooling。留言仍關注公屋安全同工程問題。",
+      "viewpoints": [
+        {
+          "label": "關注安全",
+          "summary": "留言討論公屋升降機耐火門框漏裝、工程失誤同監工責任。",
+          "share": "主要",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "null",
+          "comparison": "上一輪機電署帖 93，本輪未見於首頁，判斷 cooling。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L2",
+          "title": "兩屋邨共48部𨋢工程失誤　工程師稱須調查原因不排除是監工問題",
+          "url": "https://lihkg.com/thread/4168553/page/1",
+          "author": "掃地僧",
+          "author_url": "https://lihkg.com/profile/291865",
+          "platform": "連登",
+          "evidence_id": "L2"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-CAI-TIANFENG-CASE",
+      "name": "名媛蔡天鳳碎屍案 譚方駿認父代還$600萬賭債 其中$100萬是「茶水錢」 鄺球為唯一能找渠道聯絡「偏門嘅人」",
+      "status": "tracking",
+      "seen": "時事台帖，樓主mnmmnn。本頁淨評分 -43。帖文轉審訊內容，譚方駿供稱父代還600萬賭債其中100萬茶水錢，鄺球協助聯絡偏門。頭頁留言有有錢人世界難想像、識人好過識字、球哥咁勁等互駁。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "驚訝茶水錢",
+          "summary": "留言主要驚訝100萬茶水錢、有錢人世界、偏門渠道。",
+          "share": "主要",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "討論鄺球角色",
+          "summary": "有留言談鄺球黑白兩道、協助還債、識人。",
+          "share": "約三成",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "其他互駁",
+          "summary": "討論有錢人、爸爸幫還債、同性關係傳聞等。",
+          "share": "約兩成",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-43",
+          "comparison": "分數負代表踩多過讚；上一輪未見此特定標題。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "replies": 99,
+      "evidence": [
+        {
+          "id": "L3",
+          "title": "名媛蔡天鳳碎屍案 譚方駿認父代還$600萬賭債 其中$100萬是「茶水錢」 鄺球為唯一能找渠道聯絡「偏門嘅人」",
+          "url": "https://lihkg.com/thread/4168705/page/1",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "platform": "連登",
+          "evidence_id": "L3"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-FG-JOB-VACANCIES",
+      "name": "今年FG其實可以點",
+      "status": "tracking",
+      "seen": "上班台帖，樓主事不關孔乙己。本頁淨評分 63。帖文轉 Now 新聞，大學生全職空缺大跌，議員關注輸入人才。頭頁留言討論畢業生就業、空缺跌幅同人才輸入。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "關注畢業生就業",
+          "summary": "留言討論空缺由8萬跌至3.1萬、輸入勞工競爭、北都產業。",
+          "share": "主要",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "質疑政策影響",
+          "summary": "有留言質疑人才計劃是否擠壓本地畢業生就業。",
+          "share": "約三成",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "63",
+          "comparison": "分數正代表讚多過踩；上一輪 -36，變動 +99，大過 30，留言觀點未見明顯轉向，判斷為列表刷新（帖仍在）。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "replies": 110,
+      "evidence": [
+        {
+          "id": "L4",
+          "title": "今年FG其實可以點",
+          "url": "https://lihkg.com/thread/4168389/page/1",
+          "author": "事不關孔乙己",
+          "author_url": "https://lihkg.com/profile/345071",
+          "platform": "連登",
+          "evidence_id": "L4"
+        }
+      ]
+    }
+  ]
+}
