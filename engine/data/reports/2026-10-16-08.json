@@ -22,7 +22,9 @@
         "note": "08:01 HKT 讀 https://lihkg.com/category/1?order=hot 。有完整列表，抄標題、淨評分。開帖讀內文及個人頁。API_v2 被擋住。"
       }
     ],
-    "failed": ["lihkg api_v2 (Cloudflare block)"],
+    "failed": [
+      "lihkg api_v2 (Cloudflare block)"
+    ],
     "gaps": [
       "Facebook 未覆蓋。",
       "只覆蓋熱門第一頁可見標題。",
@@ -40,20 +42,27 @@
           "label": "批評房屋署及公司",
           "summary": "多留言指公屋工程走數，臺日為中資公司，剛中大單，耐火門框缺失嚴重。",
           "share": "多數",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         },
         {
           "label": "事實陳述",
           "summary": "樓主及部分留言貼新聞連結及 FB 帖補充背景。",
           "share": "少數",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "57",
-          "comparison": "分數正代表讚多過踩；上一輪 -18，變動 +75，留言觀點仍以批評為主未見由讚轉踩或由踩轉讚，屬列表刷新。"
+          "comparison": "分數正代表讚多過踩；上一輪 -18，變動 +75，留言觀點仍以批評為主未見由讚轉踩或由踩轉讚，屬列表刷新。",
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "replies": 100,
@@ -64,7 +73,8 @@
           "url": "https://lihkg.com/thread/4168553/page/1",
           "author": "掃地僧",
           "author_url": "https://lihkg.com/profile/291865",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L1"
         }
       ]
     },
@@ -78,20 +88,27 @@
           "label": "關注借錢不還及投資",
           "summary": "留言討論譚方駿借錢不還的說法及蔡天鳳投資角色，有質疑有同情。",
           "share": "多數",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         },
         {
           "label": "案件背景補充",
           "summary": "樓主貼詳細庭上對話。",
           "share": "少數",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "-15",
-          "comparison": "分數負代表踩多過讚；上一輪未見此帖。"
+          "comparison": "分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "replies": 81,
@@ -102,7 +119,8 @@
           "url": "https://lihkg.com/thread/4168380/page/1",
           "author": "極速神驅",
           "author_url": "https://lihkg.com/profile/240362",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L2"
         }
       ]
     },
@@ -116,20 +134,27 @@
           "label": "讚平價及產能",
           "summary": "部分留言指平 RAM 好、對其他股有利、多謝阿爺。",
           "share": "約一半",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         },
         {
           "label": "質疑實際影響",
           "summary": "有留言指窮人無錢買、幾平都無用、或提到特定品牌插水。",
           "share": "約一半",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "97",
-          "comparison": "分數正代表讚多過踩；上一輪未見。"
+          "comparison": "分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "replies": 58,
@@ -140,7 +165,8 @@
           "url": "https://lihkg.com/thread/4168312/page/1",
           "author": "要靜去自修室啦屌",
           "author_url": "https://lihkg.com/profile/118346",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L3"
         }
       ]
     },
@@ -154,20 +180,27 @@
           "label": "開始驚",
           "summary": "多留言表達驚、不敢上水、蝕錢、刪app。",
           "share": "較多",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         },
         {
           "label": "唔使驚或躺平",
           "summary": "有留言指回調正常、兩個星期升返、躺平、買定離手。",
           "share": "較少",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "-20",
-          "comparison": "分數負代表踩多過讚；上一輪 0，變動 -20，留言觀點分佈未見明顯轉向，屬列表刷新。"
+          "comparison": "分數負代表踩多過讚；上一輪 0，變動 -20，留言觀點分佈未見明顯轉向，屬列表刷新。",
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "replies": 82,
@@ -178,7 +211,8 @@
           "url": "https://lihkg.com/thread/4168285/page/1",
           "author": "要靜去自修室啦屌",
           "author_url": "https://lihkg.com/profile/118346",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L4"
         }
       ]
     },
@@ -192,20 +226,27 @@
           "label": "質疑成本及必要",
           "summary": "絕大多數留言質疑又要發債、幾多億、清空儲備、羅湖更平。",
           "share": "多數",
-          "evidence_ids": ["L5"]
+          "evidence_ids": [
+            "L5"
+          ]
         },
         {
           "label": "中性或支持",
           "summary": "極少見明確支持，多為諷刺。",
           "share": "極少",
-          "evidence_ids": ["L5"]
+          "evidence_ids": [
+            "L5"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "-147",
-          "comparison": "分數負代表踩多過讚；上一輪未見。"
+          "comparison": "分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L5"
+          ]
         }
       ],
       "replies": 117,
@@ -216,7 +257,8 @@
           "url": "https://lihkg.com/thread/4168346/page/1",
           "author": "芝麻仁冇蘑菇",
           "author_url": "https://lihkg.com/profile/358086",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L5"
         }
       ]
     }

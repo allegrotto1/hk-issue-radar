@@ -22,7 +22,9 @@
         "note": "12:05 HKT 讀 https://lihkg.com/category/1?order=hot 。抄標題、淨評分（擁指旁數）。部分用 API 提取樓主第一則。"
       }
     ],
-    "failed": ["部分 lihkg api_v2 (rate limit 429)"],
+    "failed": [
+      "部分 lihkg api_v2 (rate limit 429)"
+    ],
     "gaps": [
       "Facebook 未覆蓋。",
       "只覆蓋熱門第一頁可見標題。",
@@ -40,26 +42,35 @@
           "label": "平價好消息",
           "summary": "樓主同部分留言指平 RAM 對消費者係好事。",
           "share": "約四成",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         },
         {
           "label": "懷疑中國產能",
           "summary": "有留言話低技術鬥價，懷疑真實影響。",
           "share": "約三成",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         },
         {
           "label": "其他互駁",
           "summary": "有政治相關留言互駁。",
           "share": "約三成",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "0",
-          "comparison": "分數正代表讚多過踩；上一輪 105，變動 -105 >30，留言觀點未見明顯轉向，判斷為列表刷新（帖仍在）。"
+          "comparison": "分數正代表讚多過踩；上一輪 105，變動 -105 >30，留言觀點未見明顯轉向，判斷為列表刷新（帖仍在）。",
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "replies": 67,
@@ -70,7 +81,8 @@
           "url": "https://lihkg.com/thread/4168312/page/1",
           "author": "要靜去自修室啦屌",
           "author_url": "https://lihkg.com/profile/118346",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L1"
         }
       ]
     },
@@ -84,20 +96,27 @@
           "label": "關注安全同欺詐",
           "summary": "留言主要討論公屋升降機安全、JV 走數同政府跟進。",
           "share": "主要",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         },
         {
           "label": "其他",
           "summary": "有短評講房屋問題。",
           "share": "少數",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "193",
-          "comparison": "分數正代表讚多過踩；上一輪 86，變動 +107 >30，留言觀點未見明顯轉向，判斷為列表刷新。"
+          "comparison": "分數正代表讚多過踩；上一輪 86，變動 +107 >30，留言觀點未見明顯轉向，判斷為列表刷新。",
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "replies": 206,
@@ -108,7 +127,8 @@
           "url": "https://lihkg.com/thread/4168553/page/1",
           "author": "掃地僧",
           "author_url": "https://lihkg.com/profile/291865",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L2"
         }
       ]
     },
@@ -122,26 +142,35 @@
           "label": "支持低成本結婚",
           "summary": "樓主同部分留言指法律簡單平，產業鏈利益綁住人。",
           "share": "約五成",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         },
         {
           "label": "男女責任討論",
           "summary": "有留言話男人唔生仔唔需要結婚，女人想綁一半身家。",
           "share": "約四成",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         },
         {
           "label": "其他",
           "summary": "有指抄文等。",
           "share": "少數",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "28",
-          "comparison": "分數正代表讚多過踩；上一輪 174，變動 -146 >30，留言觀點未見明顯由讚變踩，判斷為列表刷新（帖仍在）。"
+          "comparison": "分數正代表讚多過踩；上一輪 174，變動 -146 >30，留言觀點未見明顯由讚變踩，判斷為列表刷新（帖仍在）。",
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "replies": 114,
@@ -152,7 +181,8 @@
           "url": "https://lihkg.com/thread/4168596/page/1",
           "author": "機界原種",
           "author_url": "https://lihkg.com/profile/22675",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L3"
         }
       ]
     },
@@ -166,14 +196,19 @@
           "label": "關注職位跌",
           "summary": "新聞內容講空缺大跌，留言可能討論就業同人才政策。因限流開唔到完整。",
           "share": "主要",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "369",
-          "comparison": "分數正代表讚多過踩；上一輪 -30，變動 +399 >30，因開唔到完整留言觀點，判斷為列表刷新（帖仍在）。"
+          "comparison": "分數正代表讚多過踩；上一輪 -30，變動 +399 >30，因開唔到完整留言觀點，判斷為列表刷新（帖仍在）。",
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "replies": null,
@@ -184,7 +219,8 @@
           "url": "https://lihkg.com/thread/4168389/page/1",
           "author": "事不關孔乙己",
           "author_url": "https://lihkg.com/profile/345071",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L4"
         }
       ]
     }

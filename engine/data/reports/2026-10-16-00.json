@@ -22,7 +22,10 @@
         "note": "00:05 HKT 讀 https://lihkg.com/category/1?order=hot 。有完整列表，抄標題、淨評分。API_v2 被擋住，replies null。帖文頁部分載入，讀到樓主花名同個人頁同部分內文。"
       }
     ],
-    "failed": ["lihkg api_v2 (block)", "full comment thread extraction limited"],
+    "failed": [
+      "lihkg api_v2 (block)",
+      "full comment thread extraction limited"
+    ],
     "gaps": [
       "Facebook 未覆蓋。",
       "只覆蓋熱門第一頁可見標題。",
@@ -40,7 +43,9 @@
           "label": "暗網支付寶討論",
           "summary": "開唔到詳細留言頁完整內容，僅能從標題推斷討論大陸暗網接入香港支付寶。開唔到所以唔估具體分佈及反駁情況。",
           "share": "未知（開唔到）",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "data": [
@@ -48,7 +53,9 @@
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "-44",
           "comparison": "分數負代表踩多過讚；上一輪 -43，變動 -1，屬列表刷新（帖仍在、留言觀點未變）。",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "why": "內地相關。本頁熱門，放追蹤。",
@@ -83,7 +90,9 @@
           "label": "電梯欺詐討論",
           "summary": "開帖讀到部分留言，有人指臺日係中國公司用名混淆，有人質疑政府標案。開唔到完整分佈，唔估具體比例及反駁情況。",
           "share": "未知（開唔到）",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "data": [
@@ -91,7 +100,9 @@
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "-18",
           "comparison": "分數負代表踩多過讚；上一輪未見。",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "why": "香港政府官員/部門相關。本頁熱門，放新。",
@@ -126,7 +137,9 @@
           "label": "碎屍案討論",
           "summary": "開唔到詳細留言頁完整內容。標題顯示討論蔡天鳳案中譚方駿借錢唔還。開唔到所以唔估分佈及反駁。",
           "share": "未知（開唔到）",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "data": [
@@ -134,7 +147,9 @@
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "96",
           "comparison": "分數正代表讚多過踩；上一輪 -10，變動 +106，開唔到完整留言所以未見觀點轉向，屬列表刷新（帖仍在）。",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "why": "香港時事相關。本頁熱門，放追蹤。",
@@ -169,7 +184,9 @@
           "label": "美股下跌討論",
           "summary": "開唔到詳細留言頁完整內容。標題顯示討論美股下跌是否開始驚。開唔到所以唔估分佈及反駁。",
           "share": "未知（開唔到）",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "data": [
@@ -177,7 +194,9 @@
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "0",
           "comparison": "分數零代表讚踩平衡；上一輪 -12，變動 +12，開唔到完整留言所以未見觀點轉向，屬列表刷新（帖仍在）。",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "why": "香港經濟相關。本頁熱門，放追蹤。",

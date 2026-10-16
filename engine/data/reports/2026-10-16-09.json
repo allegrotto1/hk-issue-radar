@@ -22,7 +22,10 @@
         "note": "09:03 HKT 讀 https://lihkg.com/category/1?order=hot 。有完整列表，抄標題、淨評分。開帖讀個人頁。API_v2 被擋住，完整留言未能提取。"
       }
     ],
-    "failed": ["lihkg api_v2 (Cloudflare block)", "thread full content extraction (rendering limit)"],
+    "failed": [
+      "lihkg api_v2 (Cloudflare block)",
+      "thread full content extraction (rendering limit)"
+    ],
     "gaps": [
       "Facebook 未覆蓋。",
       "只覆蓋熱門第一頁可見標題。",
@@ -40,14 +43,19 @@
           "label": "未能提取",
           "summary": "開帖時因頁面主要顯示側邊列表，未能提取完整留言觀點分佈。",
           "share": "未知",
-          "evidence_ids": ["L1"]
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "99",
-          "comparison": "分數正代表讚多過踩；上一輪 97，變動 +2，屬列表刷新（觀點未見大變）。"
+          "comparison": "分數正代表讚多過踩；上一輪 97，變動 +2，屬列表刷新（觀點未見大變）。",
+          "evidence_ids": [
+            "L1"
+          ]
         }
       ],
       "replies": null,
@@ -58,7 +66,8 @@
           "url": "https://lihkg.com/thread/4168312/page/1",
           "author": "要靜去自修室啦屌",
           "author_url": "https://lihkg.com/profile/118346",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L1"
         }
       ]
     },
@@ -72,14 +81,19 @@
           "label": "未能提取完整",
           "summary": "開帖時未能提取頭頁留言觀點分佈細節，主要依標題及列表可見。",
           "share": "未知",
-          "evidence_ids": ["L2"]
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "69",
-          "comparison": "分數正代表讚多過踩；上一輪 57，變動 +12，留言觀點未見由讚轉踩，屬列表刷新。"
+          "comparison": "分數正代表讚多過踩；上一輪 57，變動 +12，留言觀點未見由讚轉踩，屬列表刷新。",
+          "evidence_ids": [
+            "L2"
+          ]
         }
       ],
       "replies": null,
@@ -90,7 +104,8 @@
           "url": "https://lihkg.com/thread/4168553/page/1",
           "author": "掃地僧",
           "author_url": "https://lihkg.com/profile/291865",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L2"
         }
       ]
     },
@@ -104,14 +119,19 @@
           "label": "未能提取",
           "summary": "開帖時因頁面主要顯示其他列表，未能提取完整留言互相反駁或觀點多寡。",
           "share": "未知",
-          "evidence_ids": ["L3"]
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "-82",
-          "comparison": "分數負代表踩多過讚；上一輪未見此帖。"
+          "comparison": "分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": [
+            "L3"
+          ]
         }
       ],
       "replies": null,
@@ -122,7 +142,8 @@
           "url": "https://lihkg.com/thread/4168508/page/1",
           "author": "Never祖DtLookUp",
           "author_url": "https://lihkg.com/profile/13663",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L3"
         }
       ]
     },
@@ -136,14 +157,19 @@
           "label": "未能提取",
           "summary": "開帖時未能提取頭頁留言，觀點分佈未知。",
           "share": "未知",
-          "evidence_ids": ["L4"]
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "0",
-          "comparison": "分數接近零代表讚踩大致平衡；上一輪未見此確切帖。"
+          "comparison": "分數接近零代表讚踩大致平衡；上一輪未見此確切帖。",
+          "evidence_ids": [
+            "L4"
+          ]
         }
       ],
       "replies": null,
@@ -154,7 +180,8 @@
           "url": "https://lihkg.com/thread/4168604/page/1",
           "author": "流浪熊@熊皮屍牛",
           "author_url": "https://lihkg.com/profile/489020",
-          "platform": "連登"
+          "platform": "連登",
+          "evidence_id": "L4"
         }
       ]
     }
