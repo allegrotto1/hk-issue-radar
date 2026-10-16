@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-16T09:00:00Z",
+    "end": "2026-10-16T10:00:00Z"
+  },
+  "generated_at": "2026-10-16T09:10:00Z",
+  "summary": [
+    "17點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 。有完整列表，分數由列表頁擁指旁邊抄取。API 及帖文內文渲染受阻，回覆數未能取得，寫 null。對照 16 點版。",
+    "內地：追蹤。「網傳洛陽掘出秦始皇「傳國玉璽」 以和氏璧琢成 相傳五代十國時失蹤」本頁分數 54。上一輪 -4，變動 +58，分數由負轉正，留言未能讀取，判斷列表刷新。回覆數 null。",
+    "香港政府官員：追蹤。「機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進」本頁分數 53。上一輪未見此帖。回覆數 null。",
+    "香港時事：追蹤。「名媛蔡天鳳碎屍案 譚方駿認父代還$600萬賭債 其中$100萬是「茶水錢」 鄺球為唯一能找渠道聯絡「偏門嘅人」」本頁分數 901。上一輪 5，變動 +896，分數由低轉高，留言未能讀取，判斷列表刷新。回覆數 null。",
+    "香港經濟：追蹤。「8月份英國新車銷量top10 第一第四都係大陸公司」本頁分數 -61。上一輪未見此帖。回覆數 null。"
+  ],
+  "issues": [
+    {
+      "issue_id": "CN-SEAL-JADE",
+      "name": "網傳洛陽掘出秦始皇「傳國玉璽」 以和氏璧琢成 相傳五代十國時失蹤",
+      "status": "tracking",
+      "seen": "時事台帖，樓主拾壹分平庸。本頁淨評分 54。帖文討論洛陽掘出傳國玉璽傳聞。因帖文頁面未能正常渲染內文及留言，觀點未能讀取。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "未能讀取",
+          "summary": "帖文內文及留言頁面未能正常載入，無法判斷觀點分佈。",
+          "share": "未知",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "54",
+          "comparison": "分數正代表讚多過踩；上一輪 -4，變動 +58 大過 30，留言未能確認是否轉向，判斷為列表刷新（帖仍在）。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L1",
+          "title": "網傳洛陽掘出秦始皇「傳國玉璽」 以和氏璧琢成 相傳五代十國時失蹤",
+          "url": "https://lihkg.com/thread/4168756",
+          "author": "拾壹分平庸",
+          "author_url": "https://lihkg.com/profile/80481",
+          "platform": "連登",
+          "evidence_id": "L1"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-ELEVATOR-FRAUD",
+      "name": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+      "status": "new",
+      "seen": "時事台帖，樓主鳳凰城大腸。本頁淨評分 53。帖文關於公屋升降機耐火門框漏裝及轉介警方。帖文內文未能正常讀取。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "未能讀取",
+          "summary": "帖文內文及留言未能正常載入。",
+          "share": "未知",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "53",
+          "comparison": "分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L2",
+          "title": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+          "url": "https://lihkg.com/thread/4168553",
+          "author": "鳳凰城大腸",
+          "author_url": "https://lihkg.com/profile/291865",
+          "platform": "連登",
+          "evidence_id": "L2"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-CAI-TIANFENG",
+      "name": "名媛蔡天鳳碎屍案 譚方駿認父代還$600萬賭債 其中$100萬是「茶水錢」 鄺球為唯一能找渠道聯絡「偏門嘅人」",
+      "status": "tracking",
+      "seen": "時事台帖，樓主城市獵人夫。本頁淨評分 901。帖文討論蔡天鳳案中賭債及茶水錢。內文及留言未能讀取。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "未能讀取",
+          "summary": "帖文內文及留言頁面未能正常載入，無法判斷觀點。",
+          "share": "未知",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "901",
+          "comparison": "分數正代表讚多過踩；上一輪 5，變動 +896 大過 30，留言未能確認，判斷為列表刷新。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L3",
+          "title": "名媛蔡天鳳碎屍案 譚方駿認父代還$600萬賭債 其中$100萬是「茶水錢」 鄺球為唯一能找渠道聯絡「偏門嘅人」",
+          "url": "https://lihkg.com/thread/4168705",
+          "author": "城市獵人夫",
+          "author_url": "https://lihkg.com/profile/16522",
+          "platform": "連登",
+          "evidence_id": "L3"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-UK-CAR-SALES",
+      "name": "8月份英國新車銷量top10 第一第四都係大陸公司",
+      "status": "new",
+      "seen": "時事台帖，樓主東升西降。本頁淨評分 -61。帖文討論英國新車銷量中國公司表現。內文未能讀取。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "未能讀取",
+          "summary": "帖文內文及留言未能正常載入。",
+          "share": "未知",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-61",
+          "comparison": "分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L4",
+          "title": "8月份英國新車銷量top10 第一第四都係大陸公司",
+          "url": "https://lihkg.com/thread/4168766",
+          "author": "東升西降",
+          "author_url": "https://lihkg.com/profile/188176",
+          "platform": "連登",
+          "evidence_id": "L4"
+        }
+      ]
+    }
+  ]
+}
