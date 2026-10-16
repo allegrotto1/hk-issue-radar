@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-16T13:00:00Z",
+    "end": "2026-10-16T14:00:00Z"
+  },
+  "generated_at": "2026-10-16T13:30:00Z",
+  "summary": [
+    "21點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 。有完整列表，淨評分由列表頁擁指旁邊抄取。API 成功取得回覆數及部分內文。對照 19 點版。",
+    "內地：新題。「小學副校長科大爆肌迎賓 以殘體字作ppt 惹起網民聲討 副校：「為遷就內地學生」」本頁分數 -52。回覆數 99。",
+    "香港政府官員：新題。「議員：用公帑向合資格市民派「智能手環」」本頁分數 -62。回覆數 65。",
+    "香港時事：新題。「蔡天鳳碎屍案｜指鄺球收45萬茶水錢後再借40萬 譚澤均：一蚊都無還過」本頁分數 17。回覆數 86。",
+    "香港經濟：新題。「信報：中國股市限制沽出」本頁分數 65。回覆數 58。"
+  ],
+  "issues": [
+    {
+      "issue_id": "CN-SCHOOL-VICE",
+      "name": "小學副校長科大爆肌迎賓 以殘體字作ppt 惹起網民聲討 副校：「為遷就內地學生」",
+      "status": "new",
+      "seen": "時事台帖，樓主Playjeris淫。本頁淨評分 -52。帖文附圖展示副校長爆肌迎賓及使用殘體字PPT，副校解釋為遷就內地學生，引發網民聲討。留言多嘲諷外貌、性暗示及批評教育政策。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "嘲諷外貌與性化",
+          "summary": "多數留言集中嘲諷副校長外貌「真心唔靚仔」、「大撚到」，或性暗示「Slutty想屌爆佢」、「他是會中出人的醒些」，樓主亦多次回應並補圖。",
+          "share": "多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "批評遷就內地學生",
+          "summary": "少數提及使用殘體字及迎賓方式為遷就內地學生，認為不恰當，但討論量少於外貌嘲諷。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-52",
+          "comparison": "分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "replies": 99,
+      "evidence": [
+        {
+          "id": "L1",
+          "title": "小學副校長科大爆肌迎賓 以殘體字作ppt 惹起網民聲討 副校：「為遷就內地學生」",
+          "url": "https://lihkg.com/thread/4168847",
+          "author": "Playjeris淫",
+          "author_url": "https://lihkg.com/profile/24160",
+          "platform": "連登",
+          "evidence_id": "L1"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-SMART-BAND",
+      "name": "議員：用公帑向合資格市民派「智能手環」",
+      "status": "new",
+      "seen": "時事台帖，樓主老貓再世_。本頁淨評分 -62。帖文轉載莊豪鋒議員倡議用公帑派智能手環鼓勵行路，達標可換食物折扣。留言強烈反對，指浪費公帑、可能利益輸送、監視疑慮。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "反對浪費公帑與利益輸送",
+          "summary": "主流意見認為是送錢給大陸產品、採購價虛高、ICAC睇唔到、間接貪污，「又送錢比大陸」、「邊個去建興自然一清二楚」。",
+          "share": "多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "監視與荒謬比喻",
+          "summary": "部分質疑是否24小時GPS、不可除下，或嘲諷為北韓式、全民植入晶片、學加拿大安樂死。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-62",
+          "comparison": "分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "replies": 65,
+      "evidence": [
+        {
+          "id": "L2",
+          "title": "議員：用公帑向合資格市民派「智能手環」",
+          "url": "https://lihkg.com/thread/4168839",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "platform": "連登",
+          "evidence_id": "L2"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-CAI-TRIAL",
+      "name": "蔡天鳳碎屍案｜指鄺球收45萬茶水錢後再借40萬 譚澤均：一蚊都無還過",
+      "status": "new",
+      "seen": "時事台帖，樓主極速神驅。本頁淨評分 17。帖文報道審訊第18日，譚澤均作證指鄺球收茶水錢後再借錢未還。留言關注庭上證供、金錢往來是否正常、旁聽情況。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "關注庭上細節與金錢往來",
+          "summary": "留言多討論譚澤均證供、現金交收地點（旺角警署門口）、是否正常、有否查賬，以及蔡天鳳與鄺家金錢關係。",
+          "share": "多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "旁聽與程序",
+          "summary": "少數詢問是否需通宵排隊旁聽、控辯表現。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "17",
+          "comparison": "分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "replies": 86,
+      "evidence": [
+        {
+          "id": "L3",
+          "title": "蔡天鳳碎屍案｜指鄺球收45萬茶水錢後再借40萬 譚澤均：一蚊都無還過",
+          "url": "https://lihkg.com/thread/4168775",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "platform": "連登",
+          "evidence_id": "L3"
+        }
+      ]
+    },
+    {
+      "issue_id": "CN-STOCK-RESTRICT",
+      "name": "信報：中國股市限制沽出",
+      "status": "new",
+      "seen": "時事台帖，樓主芝麻仁冇蘑菇。本頁淨評分 65。帖文轉載信報報道中國股市限制沽出。留言多預測市場將成死水、無人買入、下一步強制買入，諷刺「唔愛國」。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "悲觀與嘲諷政策",
+          "summary": "主流意見認為限制沽出會令資金不再流入、成一潭死水、無人買、籌碼變泥碼，或諷刺「邊個放就係惡意沽出+唔愛國」、「下一步就係強制買入」。",
+          "share": "多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "少數支持或中性",
+          "summary": "極少數「非常好」或解釋五險一金等，整體反對聲音主導。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "65",
+          "comparison": "分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "replies": 58,
+      "evidence": [
+        {
+          "id": "L4",
+          "title": "信報：中國股市限制沽出",
+          "url": "https://lihkg.com/thread/4168825",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "platform": "連登",
+          "evidence_id": "L4"
+        }
+      ]
+    }
+  ]
+}
