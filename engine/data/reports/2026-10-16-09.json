@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-16T01:00:00Z",
+    "end": "2026-10-16T02:00:00Z"
+  },
+  "generated_at": "2026-10-16T01:05:00Z",
+  "summary": [
+    "09 點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 第1頁。有完整列表，抄真見標題、淨評分（擁指旁數）。API_v2 被 Cloudflare 擋住，開帖讀到樓主花名及個人頁，但完整留言內文及最後一頁因頁面渲染限制未能提取，回覆數暫寫 null。對照 08 點版。",
+    "內地：追蹤。「中國今次卷死內存股了」本頁分數 99。帖講內存股情況，上一輪 97，變動小，屬列表刷新。實際回覆數未能提取。",
+    "香港政府官員：追蹤。「機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進」本頁分數 69。上一輪 57，變動 +12，留言觀點未見大轉，屬列表刷新。實際回覆數未能提取。",
+    "香港時事：新。「蔡天鳳案 鄺球於犯人欄疑哭泣」本頁分數 -82。帖講案件相關，上一輪未見此帖。實際回覆數未能提取。",
+    "香港經濟：追蹤。「美股認真討論區 V̄DCCCXLVI」本頁分數 0。討論美股，上一輪未見此確切帖。實際回覆數未能提取。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 30,
+        "note": "09:03 HKT 讀 https://lihkg.com/category/1?order=hot 。有完整列表，抄標題、淨評分。開帖讀個人頁。API_v2 被擋住，完整留言未能提取。"
+      }
+    ],
+    "failed": ["lihkg api_v2 (Cloudflare block)", "thread full content extraction (rendering limit)"],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第一頁可見標題。",
+      "回覆數因未能開到最後一頁而寫 null。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-MEMORY-STOCKS",
+      "name": "中國今次卷死內存股了",
+      "status": "tracking",
+      "seen": "財經台帖，樓主要靜去自修室啦屌。本頁淨評分 99。帖文標題講中國卷死內存股，可能涉及平價 RAM 或市場影響。因頁面渲染限制，未能讀到樓主第一則及頭頁留言細節，觀點分佈未能確認。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "未能提取",
+          "summary": "開帖時因頁面主要顯示側邊列表，未能提取完整留言觀點分佈。",
+          "share": "未知",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "99",
+          "comparison": "分數正代表讚多過踩；上一輪 97，變動 +2，屬列表刷新（觀點未見大變）。"
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L1",
+          "title": "中國今次卷死內存股了",
+          "url": "https://lihkg.com/thread/4168312/page/1",
+          "author": "要靜去自修室啦屌",
+          "author_url": "https://lihkg.com/profile/118346",
+          "platform": "連登"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-EMSD-ELEVATOR-FIREDOOR",
+      "name": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+      "status": "tracking",
+      "seen": "時事台帖，樓主掃地僧。本頁淨評分 69。帖文關於機電署發現公屋升降機耐火門框漏裝，涉嫌欺詐轉介警方。因頁面渲染限制，未能讀到完整留言，但從標題及先前追蹤，主要批評工程走數。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "未能提取完整",
+          "summary": "開帖時未能提取頭頁留言觀點分佈細節，主要依標題及列表可見。",
+          "share": "未知",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "69",
+          "comparison": "分數正代表讚多過踩；上一輪 57，變動 +12，留言觀點未見由讚轉踩，屬列表刷新。"
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L2",
+          "title": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+          "url": "https://lihkg.com/thread/4168553/page/1",
+          "author": "掃地僧",
+          "author_url": "https://lihkg.com/profile/291865",
+          "platform": "連登"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-CAI-TIANFENG-KWONG-CRY",
+      "name": "蔡天鳳案 鄺球於犯人欄疑哭泣",
+      "status": "new",
+      "seen": "時事台帖，樓主 Never祖DtLookUp。本頁淨評分 -82。帖文關於蔡天鳳案中鄺球在犯人欄疑似哭泣。因頁面渲染限制，未能讀到樓主第一則及留言觀點分佈。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "未能提取",
+          "summary": "開帖時因頁面主要顯示其他列表，未能提取完整留言互相反駁或觀點多寡。",
+          "share": "未知",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-82",
+          "comparison": "分數負代表踩多過讚；上一輪未見此帖。"
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L3",
+          "title": "蔡天鳳案 鄺球於犯人欄疑哭泣",
+          "url": "https://lihkg.com/thread/4168508/page/1",
+          "author": "Never祖DtLookUp",
+          "author_url": "https://lihkg.com/profile/13663",
+          "platform": "連登"
+        }
+      ]
+    },
+    {
+      "issue_id": "US-STOCK-DISCUSSION",
+      "name": "美股認真討論區 V̄DCCCXLVI",
+      "status": "tracking",
+      "seen": "財經台帖，樓主流浪熊@熊皮屍牛。本頁淨評分 0。帖文為美股認真討論區系列。因頁面渲染限制，未能讀到完整留言觀點。分數接近零，讚踩大致平衡。",
+      "viewpoints": [
+        {
+          "label": "未能提取",
+          "summary": "開帖時未能提取頭頁留言，觀點分佈未知。",
+          "share": "未知",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "0",
+          "comparison": "分數接近零代表讚踩大致平衡；上一輪未見此確切帖。"
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L4",
+          "title": "美股認真討論區 V̄DCCCXLVI",
+          "url": "https://lihkg.com/thread/4168604/page/1",
+          "author": "流浪熊@熊皮屍牛",
+          "author_url": "https://lihkg.com/profile/489020",
+          "platform": "連登"
+        }
+      ]
+    }
+  ]
+}
