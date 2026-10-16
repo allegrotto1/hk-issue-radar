@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-16T06:00:00Z",
+    "end": "2026-10-16T07:00:00Z"
+  },
+  "generated_at": "2026-10-16T06:05:00Z",
+  "summary": [
+    "14 點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 。有完整列表，部分用 API 確認標題、回覆數、淨評分，部分開帖讀樓主第一則同頭頁留言及最後頁。對照 13 點版。",
+    "內地：新。「超扯！　中國聯賽「驚見2顆球」　球員慌亂踢場面失控　網友笑：只有中國看得到」本頁分數 90。上一輪未見。留言討論雙球進網烏龍、中國足球混亂同搞笑。實際回覆數約 50（最後可見頁）。",
+    "香港政府官員：追蹤。「機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進」本頁分數 93。上一輪 91，變動 +2，留言仍關注公屋安全、走數同中國公司，未轉向。實際回覆數 215。",
+    "香港時事：新。「街訪：你會同一個窮但愛你的人結婚嗎？ 男答會，女答唔會。」本頁分數 106。上一輪未見。頭頁留言有男女現實、港女、離婚率等互駁。實際回覆數 111。",
+    "香港經濟：追蹤。「今年FG其實可以點」本頁分數 -36。上一輪 -34，變動 -2，留言仍討論畢業生空缺跌同人才輸入，未見明顯轉向。實際回覆數 109。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 30,
+        "note": "14:05 HKT 讀 https://lihkg.com/category/1?order=hot 。部分用 API 提取，部分開帖讀內文同最後頁。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第一頁可見標題。",
+      "部分帖 API 被 Cloudflare 限流，回覆數用最後頁留言編號。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-LEAGUE-DOUBLE-BALL",
+      "name": "超扯！　中國聯賽「驚見2顆球」　球員慌亂踢場面失控　網友笑：只有中國看得到",
+      "status": "new",
+      "seen": "時事台帖，樓主會員271829。本頁淨評分 90。帖文轉 X 片，中國甲級聯賽出現雙球進網離奇場面，裁判未暫停，雙方踢不同球。頭頁留言有一次兩粒、下次大賽用呢招、一人一個波等互駁同搞笑。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "覺得離譜搞笑",
+          "summary": "留言主要笑中國足球混亂、雙球進網只有中國有、烏龍狀況。",
+          "share": "主要",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "討論比賽規則",
+          "summary": "有留言話明知輸波可以踢多個波入場，或填補漏洞。",
+          "share": "約三成",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "90",
+          "comparison": "分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "replies": 50,
+      "evidence": [
+        {
+          "id": "L1",
+          "title": "超扯！　中國聯賽「驚見2顆球」　球員慌亂踢場面失控　網友笑：只有中國看得到",
+          "url": "https://lihkg.com/thread/4168267/page/1",
+          "author": "會員271829",
+          "author_url": "https://lihkg.com/profile/271829",
+          "platform": "連登",
+          "evidence_id": "L1"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-EMSD-ELEVATOR-FIREDOOR",
+      "name": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+      "status": "tracking",
+      "seen": "時事台帖，樓主掃地僧。本頁淨評分 93。帖文轉 Now 新聞，機電署指臺日電梯漏裝 48 部公屋升降機耐火門框，涉嫌欺詐轉介警方。頭頁留言討論台灣日本 JV、其實係中國電梯公司、公屋走數、私人盤也走等。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "關注安全同欺詐",
+          "summary": "留言主要討論公屋升降機安全、JV 走數同政府跟進轉介警方。",
+          "share": "主要",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "懷疑公司背景",
+          "summary": "有留言指臺日其實係中國電梯公司，投到大單後偷雞。",
+          "share": "約三成",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "93",
+          "comparison": "分數正代表讚多過踩；上一輪 91，變動 +2，留言觀點未見明顯轉向，判斷為列表刷新（帖仍在）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "replies": 215,
+      "evidence": [
+        {
+          "id": "L2",
+          "title": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+          "url": "https://lihkg.com/thread/4168553/page/1",
+          "author": "掃地僧",
+          "author_url": "https://lihkg.com/profile/291865",
+          "platform": "連登",
+          "evidence_id": "L2"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-STREET-INTERVIEW-MARRY-POOR",
+      "name": "街訪：你會同一個窮但愛你的人結婚嗎？ 男答會，女答唔會。",
+      "status": "new",
+      "seen": "時事台帖，樓主硬擦膠。本頁淨評分 106。帖文轉 Threads 街訪，男人答會同一個窮但愛自己的人結婚，女人答唔會。頭頁留言有男人先珍惜愛、港女愈來愈仆街、離婚率、華人社會下娶等互駁。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "支持現實觀點",
+          "summary": "部分留言同意女人較現實，男人可以自己搵錢，離婚唔係差。",
+          "share": "約四成",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "批評性別雙標",
+          "summary": "有留言話男人唔想女人太多錢以便控制，或華人社會下娶無問題。",
+          "share": "約三成",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "其他互駁",
+          "summary": "討論離婚率高、男人最緊要女人靚後生等。",
+          "share": "約三成",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "106",
+          "comparison": "分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "replies": 111,
+      "evidence": [
+        {
+          "id": "L3",
+          "title": "街訪：你會同一個窮但愛你的人結婚嗎？ 男答會，女答唔會。",
+          "url": "https://lihkg.com/thread/4168681/page/1",
+          "author": "硬擦膠",
+          "author_url": "https://lihkg.com/profile/12628",
+          "platform": "連登",
+          "evidence_id": "L3"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-FG-JOB-VACANCIES",
+      "name": "今年FG其實可以點",
+      "status": "tracking",
+      "seen": "上班台帖，樓主事不關孔乙己。本頁淨評分 -36。帖文轉 Now 新聞，大學生全職空缺由 2022 年約 8 萬跌至去年約 3.1 萬，行政 IT 等初階職位跌八成九成，議員關注輸入人才門檻。頭頁留言討論畢業生空缺跌、貧富、人才輸入等。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "關注畢業生就業",
+          "summary": "留言討論空缺大跌、輸入勞工競爭、北都產業匹配。",
+          "share": "主要",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "懷疑數據同政策",
+          "summary": "有留言質疑空缺跌幅同人才計劃是否影響本地就業。",
+          "share": "約三成",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-36",
+          "comparison": "分數負代表踩多過讚；上一輪 -34，變動 -2，留言觀點未見明顯轉向，判斷為列表刷新（帖仍在）。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "replies": 109,
+      "evidence": [
+        {
+          "id": "L4",
+          "title": "今年FG其實可以點",
+          "url": "https://lihkg.com/thread/4168389/page/1",
+          "author": "事不關孔乙己",
+          "author_url": "https://lihkg.com/profile/345071",
+          "platform": "連登",
+          "evidence_id": "L4"
+        }
+      ]
+    }
+  ]
+}
