@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-16T10:00:00Z",
+    "end": "2026-10-16T11:00:00Z"
+  },
+  "generated_at": "2026-10-16T10:05:00Z",
+  "summary": [
+    "18點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 。有完整列表，分數由列表頁擁指旁邊抄取。API 被阻，帖文內文渲染受限，回覆數未能從列表或最後頁取得，寫 null。對照 17 點版。",
+    "內地：追蹤。「網傳洛陽掘出秦始皇「傳國玉璽」 以和氏璧琢成 相傳五代十國時失蹤」本頁分數 -9。上一輪 54，變動 -63，分數由正轉負，留言未能讀取，判斷列表刷新。回覆數 null。",
+    "香港政府官員：追蹤。「機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進」本頁分數 100。上一輪 53，變動 +47，留言未能讀取，判斷列表刷新。回覆數 null。",
+    "香港時事：新題。「八鄉10歲仔疑拒溫習遭掌摑　男童23歲家姐通知社工　警現正追緝53歲父涉虐兒」本頁分數 13。上一輪未見此帖。回覆數 null。",
+    "香港經濟：追蹤。「自動駕駛出行平台「蘿蔔快跑」下周東涌載客試乘 料接待逾千人」本頁分數 0。上一輪未見此帖。回覆數 null。"
+  ],
+  "issues": [
+    {
+      "issue_id": "CN-SEAL-JADE",
+      "name": "網傳洛陽掘出秦始皇「傳國玉璽」 以和氏璧琢成 相傳五代十國時失蹤",
+      "status": "tracking",
+      "seen": "時事台帖，樓主天蠍座。本頁淨評分 -9。帖文討論洛陽掘出傳國玉璽傳聞。因帖文頁面未能正常渲染內文及留言，觀點未能讀取。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "未能讀取",
+          "summary": "帖文內文及留言頁面未能正常載入，無法判斷觀點分佈。",
+          "share": "未知",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-9",
+          "comparison": "分數負代表踩多過讚；上一輪 54，變動 -63 大過 30，留言未能確認是否轉向，判斷為列表刷新（帖仍在）。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L1",
+          "title": "網傳洛陽掘出秦始皇「傳國玉璽」 以和氏璧琢成 相傳五代十國時失蹤",
+          "url": "https://lihkg.com/thread/4168756",
+          "author": "天蠍座",
+          "author_url": "https://lihkg.com/profile/80481",
+          "platform": "連登",
+          "evidence_id": "L1"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-ELEVATOR-FRAUD",
+      "name": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+      "status": "tracking",
+      "seen": "時事台帖，樓主掃地僧。本頁淨評分 100。帖文關於公屋升降機耐火門框漏裝及轉介警方。帖文內文未能正常讀取。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "未能讀取",
+          "summary": "帖文內文及留言未能正常載入。",
+          "share": "未知",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "100",
+          "comparison": "分數正代表讚多過踩；上一輪 53，變動 +47 大過 30，留言未能確認，判斷為列表刷新（帖仍在）。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L2",
+          "title": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+          "url": "https://lihkg.com/thread/4168553",
+          "author": "掃地僧",
+          "author_url": "https://lihkg.com/profile/291865",
+          "platform": "連登",
+          "evidence_id": "L2"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-CHILD-ABUSE",
+      "name": "八鄉10歲仔疑拒溫習遭掌摑　男童23歲家姐通知社工　警現正追緝53歲父涉虐兒",
+      "status": "new",
+      "seen": "時事台帖，樓主mnmmnn。本頁淨評分 13。帖文關於八鄉男童疑遭父掌摑拒溫習，家姐通知社工，警追緝父。內文及留言未能讀取。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "未能讀取",
+          "summary": "帖文內文及留言頁面未能正常載入，無法判斷觀點。",
+          "share": "未知",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "13",
+          "comparison": "分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L3",
+          "title": "八鄉10歲仔疑拒溫習遭掌摑　男童23歲家姐通知社工　警現正追緝53歲父涉虐兒",
+          "url": "https://lihkg.com/thread/4168798",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "platform": "連登",
+          "evidence_id": "L3"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-ROBOTAXI",
+      "name": "自動駕駛出行平台「蘿蔔快跑」下周東涌載客試乘 料接待逾千人",
+      "status": "new",
+      "seen": "時事台帖，樓主銅鑼灣項少龍。本頁淨評分 0。帖文關於蘿蔔快跑自動駕駛平台下周在東涌試乘。內文及留言未能讀取。分數零代表讚踩持平。",
+      "viewpoints": [
+        {
+          "label": "未能讀取",
+          "summary": "帖文內文及留言頁面未能正常載入，無法判斷觀點。",
+          "share": "未知",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "0",
+          "comparison": "分數零代表讚踩持平；上一輪未見此帖。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L4",
+          "title": "自動駕駛出行平台「蘿蔔快跑」下周東涌載客試乘 料接待逾千人",
+          "url": "https://lihkg.com/thread/4168755",
+          "author": "銅鑼灣項少龍",
+          "author_url": "https://lihkg.com/profile/754701",
+          "platform": "連登",
+          "evidence_id": "L4"
+        }
+      ]
+    }
+  ]
+}
