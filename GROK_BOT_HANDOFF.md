@@ -40,7 +40,7 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
 ## 步驟
 
 1. `gh repo clone allegrotto1/hk-issue-radar /tmp/hk-issue-radar`。已有就 `git fetch` 並 `reset --hard origin/main`。
-2. 打開 https://lihkg.com/category/1?order=hot。冇列表就改讀 https://lihkg.com/category/1，summary 寫明不是已確認熱門。只抄真的看見的標題同旁邊分數。
+2. 打開 https://lihkg.com/category/1?order=hot。冇列表就改讀 https://lihkg.com/category/1，summary 寫明不是已確認熱門。只抄真的看見的標題。
 3. 每一條都要有帖文連結 `https://lihkg.com/thread/數字/page/1`。今輪睇唔到，但同一條今日已有，就沿用。兩邊都唔見就留空。
 4. 樓主花名寫入 `evidence.author`。個人頁必須寫入 `evidence.author_url`，格式 `https://lihkg.com/profile/數字`。卡上有就抄 href。卡上唔見，就開帖，或讀 `https://lihkg.com/api_v2/thread/數字/page/1` 入面 `response.user.user_id`。同一條今日已有就沿用。
 5. 留言數同讚數一定要由熱門列表面抄，唔好留空。每張卡右上角有兩個數：言論泡泡旁邊係回覆數（例如 54、46、63），拇指旁邊係淨評分（例如 17、14、-9）。回覆數寫入 `issue.replies`，淨評分寫入 `data.value`。唔好寫「約 N 頁」。唔好因為 API 限流就留空。
@@ -52,8 +52,10 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
 8. `data` 每個有 `metric`、`value`、`comparison`。`metric` 寫「連登熱門列表淨評分（讚減踩）」。正代表讚多過踩，負代表踩多過讚，要寫出呢句。
 9. 分數起跌：對照同一條 `/thread/數字` 上一版的 `data.value`。變動大過 30，在 `comparison` 寫明係列表刷新（帖仍在、觀點未變）定留言轉向（由讚變踩或由踩變讚）。上一輪未見就寫「上一輪未見」。
 10. 四類都要有：內地、香港政府官員、香港時事、香港經濟。只用仍在這一頁的標題。冇新題就寫明未變。`status` 只可以是 `new`、`tracking`、`shift`、`cooling`。
-11. 只寫入 `/tmp/hk-issue-radar/engine/data/reports/YYYY-MM-DD-HH.json`。
-12. 只可以 `git add` 呢一個檔。commit，`push origin HEAD`。推唔上就再試一次。仍然失敗，回覆寫明失敗，唔好話已經上線。
+11. 每一條 `evidence` 必須有 `evidence_id`，例如 `L1`、`L2`。唔好留空。缺呢個，`build.py --strict` 會失敗，成日首頁都唔會更新。
+12. 推送前自己查：每一個有 `author` 的 evidence 都要有 `author_url` 同 `evidence_id`；每一條都要有 `seen`、`viewpoints`、`data`、`replies`。有缺就先補。
+13. 只寫入 `/tmp/hk-issue-radar/engine/data/reports/YYYY-MM-DD-HH.json`。
+14. 只可以 `git add` 呢一個檔。commit，`push origin HEAD`。推唔上就再試一次。仍然失敗，回覆寫明失敗，唔好話已經上線。
 
 做完用兩句話講四類各係邊一條，以及每一條有冇實際回覆數。
 
@@ -63,8 +65,8 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
 {
   "schema_version": 1,
   "mode": "live",
-  "window": { "start": "2026-10-15T15:00:00Z", "end": "2026-10-15T16:00:00Z" },
-  "generated_at": "2026-10-15T15:05:00Z",
+  "window": { "start": "2026-10-16T09:00:00Z", "end": "2026-10-16T10:00:00Z" },
+  "generated_at": "2026-10-16T09:05:00Z",
   "summary": "四類各係邊一條，有冇缺類。",
   "sources": { "url": "https://lihkg.com/category/1?order=hot", "failed": [] },
   "issues": [
@@ -95,7 +97,7 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
           "author": "樓主花名",
           "author_url": "https://lihkg.com/profile/187437",
           "published_at": null,
-          "observed_at": "2026-10-15T15:05:00Z",
+          "observed_at": "2026-10-16T09:05:00Z",
           "read_level": "opened",
           "note": "熱門排序頁對上該標題。"
         }
@@ -112,6 +114,7 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
 ## 已知情況
 
 - 回覆數同淨評分由熱門列表頁右上角抄：泡泡係回覆，拇指係分數。API 限流唔影響呢兩個數。用手機 User-Agent：`Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15`。
+- 每一條 `evidence` 必須有 `evidence_id`。2026-10-16 08:00–12:00 缺呢個，重建失敗，首頁停喺昨日。已補返。之後唔好再漏。
 - 首頁卡已經會顯示觀點同分數軌跡（`build.py` 由舊報告對出）。有 `replies` 數字先會顯示「回覆 N」。
 - 政策核實同 Threads 追蹤唔做。用戶已講明做唔到。
-- 最新一份截至 2026-10-15 23:00。
+- 最新一份截至 2026-10-16 17:00。
