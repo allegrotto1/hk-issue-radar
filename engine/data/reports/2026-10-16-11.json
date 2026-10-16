@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-16T03:00:00Z",
+    "end": "2026-10-16T04:00:00Z"
+  },
+  "generated_at": "2026-10-16T03:05:00Z",
+  "summary": [
+    "11 點版。讀連登吹水台熱門排序 https://lihkg.com/category/1?order=hot 。有完整列表，抄真見標題、擁指旁淨評分。部分帖開到內文同頭頁留言，部分因渲染限制開唔到完整。API 被擋。對照 10 點版。",
+    "內地：追蹤。「中國今次卷死內存股了」本頁分數 105。上一輪 -20，變動 +125 >30，因開到留言觀點混合（平價對消費者好 vs 懷疑中國產能），可能列表刷新。實際回覆數未能穩定提取最後頁。",
+    "香港政府官員：追蹤。「機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進」本頁分數 86。上一輪 -89，變動 +175 >30，留言短評多講 JV 同房屋走數，可能列表刷新。實際回覆數 175（最後一則編號）。",
+    "香港時事：新。「香港結婚的最大騙局：一千蚊搞掂，卻冇人敢講」本頁分數 174。帖講法定結婚好平但產業鏈唔講。留言有支持低成本、有講男女責任。上一輪未見。實際回覆數 102。",
+    "香港經濟：新。「今年FG其實可以點」（內文講大學生全職空缺跌）本頁分數 -30。帖關於初階職位跌、人才輸入。上一輪未見。實際回覆數未能提取。"
+  ],
+  "sources": {
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 30,
+        "note": "11:03 HKT 讀 https://lihkg.com/category/1?order=hot 。抄標題、淨評分（擁指旁數）。部分開帖提取到樓主第一則同頭頁留言。"
+      }
+    ],
+    "failed": ["lihkg api_v2 (Cloudflare block)", "部分帖最後一頁提取不穩"],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第一頁可見標題。",
+      "部分回覆數因最後頁開唔到而寫 null。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "CN-MEMORY-STOCKS",
+      "name": "中國今次卷死內存股了",
+      "status": "tracking",
+      "seen": "財經台帖，樓主要靜去自修室啦屌。本頁淨評分 105。帖文講中國卷死內存股，人人有平 RAM 用。開到頭頁留言：有話平價對其他股好事、中國產能解決 win-win、有懷疑低技術鬥價、政治互駁。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "平價好消息",
+          "summary": "留言有指平 RAM 對消費者同其他科技股係好事，中國產能解決可 win-win。",
+          "share": "約四成",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "懷疑中國產能",
+          "summary": "有留言話低技術鬥價鬥量，GPU CPU 未整到，懷疑真實影響。",
+          "share": "約三成",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "其他",
+          "summary": "有政治相關互駁，如多謝阿爺、不反了等。",
+          "share": "約三成",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "105",
+          "comparison": "分數正代表讚多過踩；上一輪 -20，變動 +125 >30，因留言觀點混合未明顯轉向，判斷為列表刷新（帖仍在）。"
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L1",
+          "title": "中國今次卷死內存股了",
+          "url": "https://lihkg.com/thread/4168312/page/1",
+          "author": "要靜去自修室啦屌",
+          "author_url": "https://lihkg.com/profile/118346",
+          "platform": "連登"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-EMSD-ELEVATOR-FIREDOOR",
+      "name": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+      "status": "tracking",
+      "seen": "時事台帖，樓主掃地僧。本頁淨評分 86。帖文轉 Now 新聞，機電署發現公屋升降機耐火門框漏裝，涉嫌欺詐轉介警方。頭頁留言短，有問臺日 JV、housing 野都走數。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "關注欺詐",
+          "summary": "留言簡短回應新聞，有指 housing 走數常見，關注官方跟進。",
+          "share": "主要",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "其他短評",
+          "summary": "有問臺灣日本 JV 等。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "86",
+          "comparison": "分數正代表讚多過踩；上一輪 -89，變動 +175 >30，留言觀點未見明顯轉向（仍係關注新聞），判斷為列表刷新。"
+        }
+      ],
+      "replies": 175,
+      "evidence": [
+        {
+          "id": "L2",
+          "title": "機電署指「臺日電梯」涉漏裝48部公屋邨升降機耐火門框，涉嫌欺詐已轉介警方跟進",
+          "url": "https://lihkg.com/thread/4168553/page/1",
+          "author": "掃地僧",
+          "author_url": "https://lihkg.com/profile/291865",
+          "platform": "連登"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-MARRIAGE-COST-SCAM",
+      "name": "香港結婚的最大騙局：一千蚊搞掂，卻冇人敢講",
+      "status": "new",
+      "seen": "時事台帖，樓主機界原種。本頁淨評分 174。帖文詳細講香港法定結婚只需約一千蚊，但婚慶產業、議員、傳媒唔講，將簽紙包裝成寒酸。頭頁留言有支持低成本、有講男人唔生仔唔需要結婚、女人想綁身家等互駁。分數正代表讚多過踩。",
+      "viewpoints": [
+        {
+          "label": "支持低成本結婚",
+          "summary": "樓主同部分留言指法律簡單平，產業鏈利益綁住人。",
+          "share": "約五成",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "男女責任討論",
+          "summary": "有留言話男人唔生仔唔需要結婚，女人想綁一半身家。",
+          "share": "約四成",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "其他",
+          "summary": "有指抄 Threads 等。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "174",
+          "comparison": "分數正代表讚多過踩；上一輪未見此帖。"
+        }
+      ],
+      "replies": 102,
+      "evidence": [
+        {
+          "id": "L3",
+          "title": "香港結婚的最大騙局：一千蚊搞掂，卻冇人敢講",
+          "url": "https://lihkg.com/thread/4168596/page/1",
+          "author": "機界原種",
+          "author_url": "https://lihkg.com/profile/22675",
+          "platform": "連登"
+        }
+      ]
+    },
+    {
+      "issue_id": "HK-GRAD-JOBS-DROP",
+      "name": "今年FG其實可以點",
+      "status": "new",
+      "seen": "上班台帖，樓主事不關孔乙己。本頁淨評分 -30。內文轉 Now 新聞，大學生全職空缺跌至約3萬，行政 IT 初階跌八成，議員關注人才輸入門檻，局長話中高級為主。分數負代表踩多過讚。",
+      "viewpoints": [
+        {
+          "label": "關注職位跌",
+          "summary": "新聞內容講空缺大跌，留言（頭頁有限）可能討論就業同人才政策。",
+          "share": "主要",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-30",
+          "comparison": "分數負代表踩多過踩；上一輪未見此帖。"
+        }
+      ],
+      "replies": null,
+      "evidence": [
+        {
+          "id": "L4",
+          "title": "今年FG其實可以點",
+          "url": "https://lihkg.com/thread/4168389/page/1",
+          "author": "事不關孔乙己",
+          "author_url": "https://lihkg.com/profile/345071",
+          "platform": "連登"
+        }
+      ]
+    }
+  ]
+}
