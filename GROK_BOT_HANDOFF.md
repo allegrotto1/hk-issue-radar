@@ -58,13 +58,13 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
 7. `seen` 要形容帖文講乜、留言爭乜，唔好只寫標題同分數。
 8. `data` 每個有 `metric`、`value`、`comparison`。`metric` 寫「連登熱門列表淨評分（讚減踩）」。正代表讚多過踩，負代表踩多過讚，要寫出呢句。
 9. 分數起跌：對照同一條 `/thread/數字` 上一版的 `data.value`。變動大過 30，在 `comparison` 寫明係列表刷新（帖仍在、觀點未變）定留言轉向（由讚變踩或由踩變讚）。上一輪未見就寫「上一輪未見」。
-10. 四類都要有：內地、香港政府官員、香港時事、香港經濟。只用仍在這一頁的標題。冇新題就寫明未變。`status` 只可以是 `new`、`tracking`、`shift`、`cooling`。
+10. 五類都要有：內地、香港政府官員、香港時事、香港經濟、青年。青年包括青年政策、教育、青年問題。只用仍在這一頁的標題。某類唔見就在 summary 寫明，唔好撰。why 寫明屬哪一類。`status` 只可以是 `new`、`tracking`、`shift`、`cooling`。
 11. 每一條 `evidence` 必須有 `evidence_id`，例如 `L1`、`L2`。唔好留空。缺呢個，`build.py --strict` 會失敗，成日首頁都唔會更新。
 12. 推送前自己查：每一個有 `author` 的 evidence 都要有 `author_url` 同 `evidence_id`；每一條都要有 `seen`、`viewpoints`、`data`、`replies`。有缺就先補。
 13. 只寫入 `/tmp/hk-issue-radar/engine/data/reports/YYYY-MM-DD-HH.json`。
 14. 只可以 `git add` 呢一個檔。commit，`push origin HEAD`。推唔上就再試一次。仍然失敗，回覆寫明失敗，唔好話已經上線。
 
-做完用兩句話講四類各係邊一條，以及每一條有冇實際回覆數。
+做完用兩句話講五類各係邊一條，以及每一條有冇實際回覆數。
 
 ## JSON 格式
 
@@ -94,7 +94,7 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
           "evidence_ids": ["L1"]
         }
       ],
-      "why": "香港時事。本頁仍見。",
+      "why": "青年。本頁仍見。",
       "verification": { "status": "unverified", "note": "未對官方原文。" },
       "evidence": [
         {
@@ -124,4 +124,5 @@ push 之前用 `git diff --cached --name-only` 確認只有當期一個 JSON。�
 - 每一條 `evidence` 必須有 `evidence_id`。缺呢個，重建會失敗，首頁唔會更新。
 - 政策核實同 Threads 追蹤唔做。用戶已講明做唔到。
 - 由 2026-10-16 起，每小時改為每 3 小時：09、12、15、18、21、00。深夜雷達 08:00 唔改。
-- 最新一份截至 2026-10-16 19:00。之後 21:00 先有下一份。
+- 由 2026-10-17 起加第五類「青年」：青年政策、教育、青年問題。熱門頁冇就在 summary 寫明，唔好撰。why 寫明屬哪一類。
+- 最新一份截至 2026-10-16 21:00。下一份係 00:00。
