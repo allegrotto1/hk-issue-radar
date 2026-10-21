@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-21T13:00:00Z",
+    "end": "2026-10-21T14:00:00Z"
+  },
+  "generated_at": "2026-10-21T13:20:00Z",
+  "summary": [
+    "21 點快報。讀連登熱門排序列表（api_v2/thread/hot?cat_id=1，21:18 HKT 讀到 34 條），回覆數同淨評分由列表抄；入選帖再讀第 1 頁留言（按讚排序）。熱度排序以列表回覆數為準。對照 18 點版。",
+    "香港政府官員：高督墮樓帖仍在（回覆 143、分數 257，由 213 升 44）。青年：港大中期試作弊帖急升（回覆 134、分數 286，由 49 升 237）。",
+    "香港時事：蔡天鳳案鄰居氣味／叫外賣帖新上（回覆 93、分數 21）；18 點 Day20 帖已唔喺本頁。內地：登山客家屬拒付落山費帖仍在（回覆 92、分數 156，由 108 升 48）。香港經濟：工程界人工減四成帖新入選（回覆 85、分數 194）。",
+    "五類今輪齊，每條都有列表實際回覆數。求樓價跌帖仍在（回覆 82）但經濟類改以開工不足帖為主。本頁回覆最多係台慶劇討論（666）同美股區（557），屬五類以外。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 34,
+        "note": "21:18 HKT 讀 api_v2/thread/hot?cat_id=1 取得列表標題、回覆數、讚踩；再讀 api_v2/thread/<id>/page/1?order=score 取得樓主同高讚留言。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第 1 頁。",
+      "每條只讀留言第 1 頁（按讚排序），比例係粗略估計。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-OFFICIAL-POLICE-SI-DEATH",
+      "name": "曾負責2026單車節交通安排 高級督察陳浩文墮樓亡",
+      "status": "tracking",
+      "seen": "樓主轉述高級督察陳浩文墮樓亡，並指其曾負責 2026 單車節交通安排。高讚留言多數把事件同「推車節」截龍安排扯上，有人寫「支持身體力行問責制」、有人質疑是否個人原因或同事欺凌。回覆 143。",
+      "replies": 143,
+      "viewpoints": [
+        {
+          "label": "歸咎單車節問責",
+          "summary": "高讚留言多數把墮樓同單車節截龍／推車安排連結，諷刺為問責。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "未必關單車節",
+          "summary": "少數留言指可能係個人原因，未必同賽事有關。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "257",
+          "comparison": "回覆 143；分數正代表讚多過踩，負代表踩多過讚；上一輪 213。 分數由 213 升至 257（+44），帖仍在熱門、觀點大致未變，屬列表刷新加讚。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（死者係警隊高級督察、公務員；留言爭論單車節安排問責）。本輪五類入面回覆最多。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4170644/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-21T13:20:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由 api_v2/thread/hot?cat_id=1 列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把標題當成事實；墮樓原因未經官方確認。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "YOUTH-HKU-MIDTERM-CHEATING",
+      "name": "小紅書：慘到家了，香港大學Midterm cheating被抓",
+      "status": "shift",
+      "seen": "樓主轉小紅書帖，指港大 midterm 作弊被捉。高讚留言多數嘲諷要退學、學術誠信紀錄等於冇讀過；亦有人講學店唔會重罰客仔。回覆 134。",
+      "replies": 134,
+      "viewpoints": [
+        {
+          "label": "應退學嚴懲",
+          "summary": "高讚留言多數要退學，並指成績單出現 Academic Integrity 等於冇讀過。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "學店唔會重罰",
+          "summary": "部分留言指學校唔會重罰客仔，最多給一次機會。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "286",
+          "comparison": "回覆 134；分數正代表讚多過踩，負代表踩多過讚；上一輪 49。 分數由 49 升至 286（+237），帖仍在熱門、觀點大致未變，屬列表刷新加讚。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "青年（大學教育、學術誠信）。本輪青年類回覆同淨評分都最高；分數由上一輪 49 急升至 286。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對港大官方聲明。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4170737/page/1",
+          "platform": "連登",
+          "author": "陰乳GStr(真絲)",
+          "author_url": "https://lihkg.com/profile/7076",
+          "published_at": null,
+          "observed_at": "2026-10-21T13:20:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把小紅書轉述當成校方裁決。",
+      "next_steps": "下一輪再睇分數會唔會回落，以及有冇校方跟進帖。"
+    },
+    {
+      "issue_id": "HK-TSOI-TIN-FUNG-NEIGHBOR-SOUP",
+      "name": "蔡天鳳碎屍案 上層鄰居：晚上聞到青紅蘿蔔湯「好香味道」  之後更有致電叫外賣….",
+      "status": "new",
+      "seen": "樓主轉新聞：蔡天鳳案上層鄰居稱晚上聞到青紅蘿蔔湯氣味，其後有人致電叫外賣。留言多數用驚嚇／黑色幽默回應氣味同外賣細節，少部分追問叫咗咩外賣。回覆 93。",
+      "replies": 93,
+      "viewpoints": [
+        {
+          "label": "震驚氣味細節",
+          "summary": "多數留言用驚訝表情同黑色幽默回應「湯味」同叫外賣情節。",
+          "share": "多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "追問外賣細節",
+          "summary": "少部分留言追問叫咗咩外賣，把新聞細節當討論焦點。",
+          "share": "少部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "21",
+          "comparison": "回覆 93；分數正代表讚多過踩，負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事（本地碎屍案鄰居證供／新聞轉述）。18 點嘅 Day20 帖（thread/4170655）已唔喺本頁；本輪改以呢條鄰居氣味帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對法庭或警方原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4170693/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-21T13:20:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把鄰居轉述當成已證實事實。",
+      "next_steps": "下一輪睇呢帖仲在唔在熱門，以及有冇新證供帖。"
+    },
+    {
+      "issue_id": "MAINLAND-SICHUAN-HIKER-RESCUE-FEE",
+      "name": "內地登山客出事家屬拒付1萬元馬隊落山費，商議兩日後以7500元成交！！！",
+      "status": "tracking",
+      "seen": "樓主轉述內地登山客出事，家屬拒付馬隊落山費、商議後以 7500 元成交。高讚留言多數批評拖延救援、對比香港免費直升機；亦有人講呢啲時候要行資本主義、或覺得香港應向大陸學習收費。回覆 92。",
+      "replies": 92,
+      "viewpoints": [
+        {
+          "label": "批評拒付延誤",
+          "summary": "高讚留言多數批評家屬拒付、拖延救援，並對比香港免費救援。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "應收費／學大陸",
+          "summary": "部分留言指救援應收費，甚至講香港應向大陸學習。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "156",
+          "comparison": "回覆 92；分數正代表讚多過踩，負代表踩多過讚；上一輪 108。 分數由 108 升至 156（+48），帖仍在熱門、觀點大致未變，屬列表刷新加讚。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "內地（登山意外同救援收費）。本輪內地類回覆最多；本頁另有汕頭薯仔代飯帖（回覆 74）、中共社保虧空帖（回覆 52）、深圳物價帖（回覆 61）。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對內地官方或原文報道逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4170629/page/1",
+          "platform": "連登",
+          "author": "不賣隔夜肉",
+          "author_url": "https://lihkg.com/profile/47226",
+          "published_at": null,
+          "observed_at": "2026-10-21T13:20:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把轉述收費數字當成已核實事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-CONSTRUCTION-WAGE-CUT",
+      "name": "原來家下工程界都幾大穫，個愛國廢佬親戚做泥水油漆，人工減左4成，家下重要無固定盤一個月開得10日工",
+      "status": "new",
+      "seen": "樓主稱親戚做泥水油漆，人工減四成、一個月只開得十日工，怪工程界差同外勞搶工。高讚留言附和地盤冇工開、提外勞搶工；亦有人講無罷工即無事、或歸因政治後果。回覆 85。",
+      "replies": 85,
+      "viewpoints": [
+        {
+          "label": "外勞搶工／冇工開",
+          "summary": "高讚留言多數附和地盤同泥水油漆開工不足、被外勞搶走。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "無行動即無事",
+          "summary": "部分留言指冇人罷工就當無事，或把困境歸因政治後果。",
+          "share": "部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "194",
+          "comparison": "回覆 85；分數正代表讚多過踩，負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港經濟（建造業開工、人工同外勞）。本輪香港經濟類淨評分最高；18 點嘅求樓價跌帖仍在（回覆 82、分數 42），本頁另有勞工處本地招聘會 1300 職只聘 1 人帖（回覆 68）。",
+      "verification": {
+        "status": "unverified",
+        "note": "個人經歷轉述，未對官方就業數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4170691/page/1",
+          "platform": "連登",
+          "author": "天呀！幾時開眼",
+          "author_url": "https://lihkg.com/profile/403836",
+          "published_at": null,
+          "observed_at": "2026-10-21T13:20:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把單一親戚經歷當成全行業統計。",
+      "next_steps": "下一輪對照求樓價跌帖同勞工處招聘會帖邊條仲熱。"
+    }
+  ]
+}
