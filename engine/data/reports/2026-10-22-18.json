@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-22T10:00:00Z",
+    "end": "2026-10-22T11:00:00Z"
+  },
+  "generated_at": "2026-10-22T10:15:00Z",
+  "summary": [
+    "18 點快報。讀連登熱門排序列表（api_v2/thread/hot?cat_id=1，18:11 HKT 讀到 36 條），回覆數同淨評分由列表抄；入選帖再讀第 1 頁留言（按讚排序）。熱度排序以列表回覆數為準。對照 15 點版。",
+    "青年：港大中期試作弊帖仍居首（回覆 201、分數 607，由 596 升 11，列表刷新觀點未變）。內地：15 點深圳物價帖已唔喺本頁；改以內地大城市青年「拼床」帖入選（回覆 106、分數 33）。",
+    "香港經濟：15 點「跌到咁仲唔救市」帖已唔喺本頁；改以恒指急瀉至近 23000 點帖入選（回覆 103、分數 39）。香港政府官員：李家超獨立委員會報告問責帖仍在（回覆 97、分數 −75，由 −34 跌 41，列表刷新觀點未變）。香港時事：15 點 TVB 男導性騷擾帖仍在本頁但回覆較低；改以蔡天鳳碎屍案化驗師作供帖入選（回覆 94、分數 7）。",
+    "五類今輪齊，每條都有列表實際回覆數。本頁回覆另有美股討論（378）、足球吹水等，屬五類以外。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 36,
+        "note": "18:11 HKT 讀 api_v2/thread/hot?cat_id=1 取得列表標題、回覆數、讚踩；再讀 api_v2/thread/<id>/page/1?order=score 取得樓主同高讚留言。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第 1 頁。",
+      "每條只讀留言第 1 頁（按讚排序），比例係粗略估計。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-HKU-MIDTERM-CHEATING",
+      "name": "小紅書：慘到家了，香港大學Midterm cheating被抓",
+      "status": "tracking",
+      "seen": "樓主轉小紅書截圖講港大 midterm 作弊被抓。高讚留言多數叫退學、嘲「學店唔會得罪客仔」「Academic Integrity＝冇讀過」；亦有人借清朝斬頭等嘲諷語氣討論。回覆 201。",
+      "replies": 201,
+      "viewpoints": [
+        {
+          "label": "應退學／學術誠信零容忍",
+          "summary": "高讚留言多數叫退學、指成績表出現 Academic Integrity 等於冇讀過。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "嘲學店唔會嚴懲",
+          "summary": "部分留言指學店唔會得罪客仔，質疑實際懲處力度。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "607",
+          "comparison": "回覆 201；分數正代表讚多過踩，負代表踩多過讚；上一輪 596（升 11）；列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（高等教育／考試誠信同港大學生問題）。本頁仍見；另有青年宿舍豪花廁紙架帖（thread/4171103，回覆 54、分數 −8）同大學請河北彩花演唱會帖（thread/4171084，回覆 43、分數 77）。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對港大官方聲明或小紅書原文核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4170737/page/1",
+          "platform": "連登",
+          "author": "陰乳GStr(真絲)",
+          "author_url": "https://lihkg.com/profile/7076",
+          "published_at": null,
+          "observed_at": "2026-10-22T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由 api_v2/thread/hot?cat_id=1 列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把截圖轉述當成已核實校方處分結果。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "MAINLAND-YOUTH-SHARED-BED",
+      "name": "內地大城市青年為節省居住成本　興起「拼床」現象",
+      "status": "new",
+      "seen": "樓主轉述內地北漂／滬漂青年為慳房租「拼床（孖舖）」現象。高讚留言多數用色情或同性玩笑回應（問異性、摸耳、精神小妹）；亦有人對比香港籠屋都係單獨床位，話香港未聽過拼床。回覆 106。",
+      "replies": 106,
+      "viewpoints": [
+        {
+          "label": "調侃／色情玩笑",
+          "summary": "高讚留言多數問旁邊係咪異性、開拼床玩笑，或用粗口諧音嘲諷。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "對比香港居住",
+          "summary": "部分留言指香港籠屋都叫單獨床位，話本地未聽過拼床；亦有人用深圳企街收入對比省租動機。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "33",
+          "comparison": "回覆 106；分數正代表讚多過踩，負代表踩多過讚；上一輪未見作為入選議題（15 點 why 曾提同一帖回覆 81、分數 26）。15 點深圳物價帖（thread/4170334）已唔喺本頁。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（內地大城市青年居住成本／拼床現象）。本頁另有「防伊斯蘭中國超前部署」帖（thread/4170378，回覆 101、分數 163）。本輪以更清晰嘅內地社會現象帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉述網民現象，未對內地住房調查或官方數據核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4170996/page/1",
+          "platform": "連登",
+          "author": "會員271829",
+          "author_url": "https://lihkg.com/profile/271829",
+          "published_at": null,
+          "observed_at": "2026-10-22T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把論壇轉述當成已核實全國居住統計。",
+      "next_steps": "下一輪再睇拼床帖同防伊斯蘭帖邊條繼續升溫。"
+    },
+    {
+      "issue_id": "HK-ECON-HSI-DROP-600",
+      "name": "恒指跌幅進一步擴大至600點，跌至近 23000點水平",
+      "status": "new",
+      "seen": "樓主報導恒指急瀉約 600 點至近 23000。高讚留言多數嘲「廿年兩萬點」穩定、叫中央／金管局救市、話成分股被搶；亦有人嘲「由治及興」未到。回覆 103。",
+      "replies": 103,
+      "viewpoints": [
+        {
+          "label": "嘲港股長期橫行／叫救市",
+          "summary": "高讚留言多數話恆指廿年兩萬點、肥姐價愈遠、叫中央出手或質疑 HKMA。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "歸咎成分股／政策口號",
+          "summary": "部分留言指成分股被搶、或嘲由治及興未兌現。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "39",
+          "comparison": "回覆 103；分數正代表讚多過踩，負代表踩多過讚；上一輪未見作為入選議題（15 點 why 曾提同一帖回覆 84、分數 24）。15 點救市帖（thread/4170999）已唔喺本頁。本頁另有失業率升至 3.9% 帖（thread/4171141，回覆 95、分數 29）同恒指低過 2008 帖（thread/4171071，回覆 47、分數 36）。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港經濟（港股急瀉／金融中心情緒）。本輪以回覆最高嘅恒指急瀉帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "論壇報價帖，未對交易所即市數據逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4171024/page/1",
+          "platform": "連登",
+          "author": "伏黑惠",
+          "author_url": "https://lihkg.com/profile/18927",
+          "published_at": null,
+          "observed_at": "2026-10-22T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把單一熱帖情緒當成已核實市況或救市決策。",
+      "next_steps": "下一輪再睇恒指帖同失業率帖邊條繼續升溫。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-CE-WANGFUK-REPORT",
+      "name": "李家超：收到獨立委員會報告 短期內公布如何追究責任",
+      "status": "shift",
+      "seen": "樓主轉述特首李家超稱已收到獨立委員會報告，短期內公布如何追究責任。高讚留言多數冷嘲一定係市民錯、署方只會感謝報告、唔關問責官員事；亦有人話轉頭又賴制度，或提追究業主／食煙者。回覆 97。淨評分為負。",
+      "replies": 97,
+      "viewpoints": [
+        {
+          "label": "冷嘲唔會真問責",
+          "summary": "高讚留言多數話一定係市民錯、官員唔關事、署方只會感謝報告努力改善。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "質疑時機／制度甩鍋",
+          "summary": "部分留言話轉頭又話唔理想賴制度，或嘲追究對象會係業主而非官員。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-75",
+          "comparison": "回覆 97；分數正代表讚多過踩，負代表踩多過讚；上一輪 −34（跌 41）；列表刷新（帖仍在、觀點未變，踩數明顯增加）。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港政府官員（特首李家超／獨立委員會報告同問責）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對特首發言或獨立委員會報告原文逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4171072/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-22T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把留言冷嘲當成已核實問責結果。",
+      "next_steps": "下一輪再睇報告問責帖會唔會繼續升溫。"
+    },
+    {
+      "issue_id": "HK-CURRENT-CHOI-DISMEMBERMENT-TRIAL",
+      "name": "蔡天鳳碎屍案｜雙腿連盤骨被放在雪櫃內 政府化驗師形容「骨上面有啲肉」 大部分人肉已被切掉 只有少部份人肉仍在骨上",
+      "status": "new",
+      "seen": "樓主轉述蔡天鳳碎屍案審訊第 21 日，政府化驗師作供形容雪櫃內雙腿多為骨頭、人肉已被切掉。高讚留言多數震驚殘忍、質疑熟手手法同前差背景；亦有人罵鄺家父子心寒。回覆 94。",
+      "replies": 94,
+      "viewpoints": [
+        {
+          "label": "震驚殘忍／心寒",
+          "summary": "高讚留言多數話可以咁殘忍、想像唔到得副骨腳、罵手法狠毒。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "質疑手法／背景",
+          "summary": "部分留言質疑切肉熟手、兼職豬肉佬嘲諷，或聯想以前是否做過同類事。",
+          "share": "部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "7",
+          "comparison": "回覆 94；分數正代表讚多過踩，負代表踩多過讚；上一輪未見（本輪議題入選）。15 點 TVB 男導性騷擾帖（thread/4170980）仍在本頁（回覆 75、分數 −29），本輪以回覆較高嘅本地刑事案件帖入選。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港時事（本地刑事案件／蔡天鳳碎屍案審訊）。本頁另有荃灣高級督察墮樓帖（thread/4171049，回覆 28、分數 59）同 Starbucks 標籤歧視帖（thread/4171131，回覆 40、分數 40）。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對庭上供詞全文或傳媒原文逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4171157/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-22T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把論壇情緒或猜測當成已核實庭審事實以外的結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
