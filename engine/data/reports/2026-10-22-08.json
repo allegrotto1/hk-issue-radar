@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-22T00:00:00Z",
+    "end": "2026-10-22T01:00:00Z"
+  },
+  "generated_at": "2026-10-22T00:18:00Z",
+  "summary": [
+    "08 點早上快報。讀連登熱門排序列表（api_v2/thread/hot?cat_id=1，08:15 HKT 讀到 37 條），回覆數同淨評分由列表抄；入選帖再讀第 1 頁留言（按讚排序）。熱度排序以列表回覆數為準。對照 00 點版。",
+    "香港時事：［警世］真係唔好跟捱苦老細帖本輪回覆最多（回覆 267、分數 540），00 點門口遺子孫帖已唔喺本頁。青年：港大中期試作弊帖仍在（回覆 173、分數 497，由 400 升 97）。",
+    "香港經濟：工程界人工減四成帖仍在（回覆 141、分數 402，由 273 升 129）。內地：00 點汕頭薯仔帖仍在（回覆 98），本輪改以更熱嘅深圳物價帖入選（回覆 102、分數 −83）。香港政府官員：00 點高督墮樓帖已唔喺本頁；改以勞工處本地招聘會只 1 人獲聘帖入選（回覆 85、分數 80）。",
+    "五類今輪齊，每條都有列表實際回覆數。本頁回覆最多另有足球模擬人生（548），屬五類以外。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 37,
+        "note": "08:15 HKT 讀 api_v2/thread/hot?cat_id=1 取得列表標題、回覆數、讚踩；再讀 api_v2/thread/<id>/page/1?order=score 取得樓主同高讚留言。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第 1 頁。",
+      "每條只讀留言第 1 頁（按讚排序），比例係粗略估計。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-WORKPLACE-HARDSHIP-BOSS-WARNING",
+      "name": "［警世］真係唔好跟d捱苦捱出黎既老細",
+      "status": "new",
+      "seen": "樓主（工程業、二十尾）講跟一個凡事親力親為嘅老細，後尾覺得被當棋子、唔應跟捱苦出身嘅老闆。高讚留言多數附和「做到老細就係呢種人、下屬係棋」，亦有人話趁後生跟有料 PM 學野、或話十幾年後先覺老細係岩。回覆 267。",
+      "replies": 267,
+      "viewpoints": [
+        {
+          "label": "附和唔好跟／當棋子",
+          "summary": "高讚留言多數話做到老細嘅人唔再信人、下屬係棋，附和樓主警世。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "跟有料老細學野／事後覺得岩",
+          "summary": "部分留言指有料 PM 可少行冤枉路，或話十幾年後先覺得嗰種老細係岩。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "540",
+          "comparison": "回覆 267；分數正代表讚多過踩，負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（本地職場／跟老闆文化警世）。本輪五類入面回覆同淨評分都最高；00 點門口遺子孫帖（thread/4170494）已唔喺本頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "個人職場經歷轉述，未對其他來源。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4170206/page/1",
+          "platform": "連登",
+          "author": "替身使者",
+          "author_url": "https://lihkg.com/profile/205394",
+          "published_at": null,
+          "observed_at": "2026-10-22T00:18:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由 api_v2/thread/hot?cat_id=1 列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把單一樓主經歷當成全行業通則。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "YOUTH-HKU-MIDTERM-CHEATING",
+      "name": "小紅書：慘到家了，香港大學Midterm cheating被抓",
+      "status": "tracking",
+      "seen": "樓主轉小紅書帖，指港大 midterm 作弊被捉。高讚留言多數要退學、成績表出現 Academic Integrity 等於冇讀過；亦有人講學店唔會重罰客仔、最多一次機會。回覆 173。",
+      "replies": 173,
+      "viewpoints": [
+        {
+          "label": "應退學嚴懲",
+          "summary": "高讚留言多數要退學，並指成績單出現 Academic Integrity 等於冇讀過。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "學店唔會重罰",
+          "summary": "部分留言指學校唔會重罰客仔，最多給一次機會。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "497",
+          "comparison": "回覆 173；分數正代表讚多過踩，負代表踩多過讚；上一輪 400。 分數由 400 升至 497（+97），帖仍在熱門、觀點大致未變，屬列表刷新加讚。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "青年（大學教育、學術誠信）。本輪青年類回覆同淨評分都最高；分數由上一輪 400 再升至 497。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對港大官方聲明。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4170737/page/1",
+          "platform": "連登",
+          "author": "陰乳GStr(真絲)",
+          "author_url": "https://lihkg.com/profile/7076",
+          "published_at": null,
+          "observed_at": "2026-10-22T00:18:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把小紅書轉述當成校方裁決。",
+      "next_steps": "下一輪再睇分數會唔會回落，以及有冇校方跟進帖。"
+    },
+    {
+      "issue_id": "HK-ECON-CONSTRUCTION-WAGE-CUT",
+      "name": "原來家下工程界都幾大穫，個愛國廢佬親戚做泥水油漆，人工減左4成，家下重要無固定盤一個月開得10日工",
+      "status": "tracking",
+      "seen": "樓主稱親戚做泥水油漆，人工減四成、開工不足，怪工程界差同外勞搶工。高讚留言附和地盤冇工開、提外勞搶工；亦有人講無罷工即無事、或歸因政治後果。回覆 141。",
+      "replies": 141,
+      "viewpoints": [
+        {
+          "label": "外勞搶工／冇工開",
+          "summary": "高讚留言多數附和地盤同泥水油漆開工不足、被外勞搶走。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "無行動即無事／政治後果",
+          "summary": "部分留言指冇人罷工就當無事，或把困境歸因政治後果。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "402",
+          "comparison": "回覆 141；分數正代表讚多過踩，負代表踩多過讚；上一輪 273。 分數由 273 升至 402（+129），帖仍在熱門、觀點大致未變，屬列表刷新加讚。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港經濟（建造業開工、人工同外勞）。本輪香港經濟類淨評分最高；求樓價跌帖仍在（回覆 117、分數 85）。",
+      "verification": {
+        "status": "unverified",
+        "note": "個人經歷轉述，未對官方就業數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4170691/page/1",
+          "platform": "連登",
+          "author": "天呀！幾時開眼",
+          "author_url": "https://lihkg.com/profile/403836",
+          "published_at": null,
+          "observed_at": "2026-10-22T00:18:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把單一親戚經歷當成全行業統計。",
+      "next_steps": "下一輪對照求樓價跌帖邊條仲熱。"
+    },
+    {
+      "issue_id": "MAINLAND-SZ-PRICES-HK-SPENDING",
+      "name": "深圳物價被港人養鬼晒！！！",
+      "status": "new",
+      "seen": "樓主慨嘆深圳物價被港人消費養貴，並比較港深飲食業。高讚留言多數話深圳靠港人消費變一線、港人應被多謝；亦有人嫌深圳遠熱濃味、或指大陸人工不變卻收香港物價。回覆 102。",
+      "replies": 102,
+      "viewpoints": [
+        {
+          "label": "港人養大深圳／應多謝",
+          "summary": "高讚留言多數指深圳由八十年代起靠港人消費變一線，怨港人反骨。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "唔抵去／物價拉平",
+          "summary": "部分留言嫌遠熱濃味，或指大灣區物價樓價會拉平、大陸人工不變卻收香港價。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-83",
+          "comparison": "回覆 102；分數正代表讚多過踩，負代表踩多過讚；上一輪未見（本輪議題入選）。分數為負，列表踩多過讚。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "內地（深圳物價／港人北上消費爭議）。00 點汕頭薯仔帖（thread/4170675）仍在（回覆 98、分數 75）；本頁另有華為問界火帖（回覆 56）。本輪以回覆更多嘅深圳物價帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "個人感想帖，未對官方物價數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4170334/page/1",
+          "platform": "連登",
+          "author": "廿塊腹肌",
+          "author_url": "https://lihkg.com/profile/665397",
+          "published_at": null,
+          "observed_at": "2026-10-22T00:18:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把標題慨嘆當成已核實物價統計；淨評分為負，反映列表爭議大。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門，以及汕頭薯仔／華為問界帖邊條更熱。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-LD-LOCAL-HIRE-ONE",
+      "name": "勞工處：僱主輸入勞工前需在本地招聘，過去三個月招聘會1,300個職位 只有1人獲聘：",
+      "status": "new",
+      "seen": "樓主轉述勞工處數字：補充勞工計劃申請同本地招聘會近 1,300 職位只有 1 人獲聘。高讚留言多數嘲「戲都唔做」「joke」「嗰個獲聘已做戲」；亦有人話因為只有一個人去見工。回覆 85。",
+      "replies": 85,
+      "viewpoints": [
+        {
+          "label": "質疑招聘會做樣",
+          "summary": "高讚留言多數嘲諷招聘會係做戲、政策係 joke。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "因為冇人見工",
+          "summary": "少數留言指可能只有一個人去見工，所以只有一人獲聘。",
+          "share": "少數",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "80",
+          "comparison": "回覆 85；分數正代表讚多過踩，負代表踩多過讚；上一輪未見（本輪議題入選）。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港政府官員（勞工處政策同招聘會數字爭議）。00 點高督墮樓帖（thread/4170644）已唔喺本頁；本頁另有鄧炳強 APEC 警力帖（回覆 50、分數 −54）。本輪以回覆更多嘅勞工處帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對勞工處原文新聞逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4170736/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-22T00:18:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把留言嘲諷當成已核實政策結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門，以及鄧炳強 APEC 帖會唔會升溫。"
+    }
+  ]
+}
