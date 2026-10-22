@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-22T07:00:00Z",
+    "end": "2026-10-22T08:00:00Z"
+  },
+  "generated_at": "2026-10-22T07:13:00Z",
+  "summary": [
+    "15 點快報。讀連登熱門排序列表（api_v2/thread/hot?cat_id=1，15:12 HKT 讀到 38 條），回覆數同淨評分由列表抄；入選帖再讀第 1 頁留言（按讚排序）。熱度排序以列表回覆數為準。對照 12 點版。",
+    "青年：港大中期試作弊帖仍居首（回覆 196、分數 596，由 558 升 38，列表刷新觀點未變）。香港經濟：12 點七千外勞保安帖已唔喺本頁；改以「跌到咁仲唔救市」帖入選（回覆 160、分數 21）。",
+    "內地：深圳物價帖仍在（回覆 133、分數 −107，由 −97 跌 10）。香港時事：12 點港女轉信穆斯林帖已唔喺本頁；改以 TVB 男導性騷擾醜聞帖入選（回覆 64、分數 −27）。香港政府官員：12 點批准輸入 7275 保安員／鄧炳強帖已唔喺本頁；改以李家超獨立委員會報告問責帖入選（回覆 60、分數 −34）。",
+    "五類今輪齊，每條都有列表實際回覆數。本頁回覆另有美俄停火談判（164）、足球吹水等，屬五類以外。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "readable": [
+      {
+        "name": "連登吹水台熱門排序",
+        "platform": "連登",
+        "items": 38,
+        "note": "15:12 HKT 讀 api_v2/thread/hot?cat_id=1 取得列表標題、回覆數、讚踩；再讀 api_v2/thread/<id>/page/1?order=score 取得樓主同高讚留言。"
+      }
+    ],
+    "failed": [],
+    "gaps": [
+      "Facebook 未覆蓋。",
+      "只覆蓋熱門第 1 頁。",
+      "每條只讀留言第 1 頁（按讚排序），比例係粗略估計。"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-HKU-MIDTERM-CHEATING",
+      "name": "小紅書：慘到家了，香港大學Midterm cheating被抓",
+      "status": "shift",
+      "seen": "樓主轉小紅書截圖講港大 midterm 作弊被抓。高讚留言多數叫退學、嘲「學店唔會得罪客仔」「Academic Integrity＝冇讀過」；亦有人借清朝斬頭等嘲諷語氣討論。回覆 196。",
+      "replies": 196,
+      "viewpoints": [
+        {
+          "label": "應退學／學術誠信零容忍",
+          "summary": "高讚留言多數叫退學、指成績表出現 Academic Integrity 等於冇讀過。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "嘲學店唔會嚴懲",
+          "summary": "部分留言指學店唔會得罪客仔，質疑實際懲處力度。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "596",
+          "comparison": "回覆 196；分數正代表讚多過踩，負代表踩多過讚；上一輪 558（升 38）；列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（高等教育／考試誠信同港大學生問題）。本頁仍見；另有內地青年「拼床」帖（thread/4170996，回覆 81、分數 26）歸入內地類以外備註。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對港大官方聲明或小紅書原文核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4170737/page/1",
+          "platform": "連登",
+          "author": "陰乳GStr(真絲)",
+          "author_url": "https://lihkg.com/profile/7076",
+          "published_at": null,
+          "observed_at": "2026-10-22T07:13:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由 api_v2/thread/hot?cat_id=1 列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把截圖轉述當成已核實校方處分結果。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-ECON-STOCK-BAILOUT-CALL",
+      "name": "跌到咁撚樣仲唔救市",
+      "status": "new",
+      "seen": "樓主抱怨港股跌到咁仍唔救市。高讚留言多數指官員會話受外圍影響、大股東出貨填數、含指任何狀態都跌；亦有人話今年全球升得香港同第三世界齊跌，或提追稅。回覆 160。",
+      "replies": 160,
+      "viewpoints": [
+        {
+          "label": "批官員推外圍／唔救市",
+          "summary": "高讚留言多數話叫官員出嚟又係受外圍影響、公司賺蝕同加減息都跌，質疑救市同交易所定位。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "歸咎大股東出貨／追稅",
+          "summary": "部分留言指大陸科技平台股大股東出貨填數，或提追稅同官員人工不受影響。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "21",
+          "comparison": "回覆 160；分數正代表讚多過踩，負代表踩多過讚；上一輪未見作為入選議題（12 點 why 曾提同一帖回覆 107）。本頁另有恒指急瀉逾 600 點帖（thread/4171024，回覆 84、分數 24）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港經濟（港股／救市訴求同市場情緒）。12 點七千外勞保安帖（thread/4170864）已唔喺本頁；本輪以回覆最高嘅救市帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "論壇情緒帖，未對官方救市聲明或即市數據逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4170999/page/1",
+          "platform": "連登",
+          "author": "移民保全家",
+          "author_url": "https://lihkg.com/profile/132380",
+          "published_at": null,
+          "observed_at": "2026-10-22T07:13:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把單一熱帖情緒當成已核實市況或政策結果。",
+      "next_steps": "下一輪再睇救市帖同恒指帖邊條繼續升溫。"
+    },
+    {
+      "issue_id": "MAINLAND-SZ-PRICES-HK-SPENDING",
+      "name": "深圳物價被港人養鬼晒！！！",
+      "status": "tracking",
+      "seen": "樓主貼圖抱怨深圳物價被港人消費推高，並話同樣價錢寧願去大陸。高讚留言多數話深圳由八十年代靠港人消費變一線、大陸人工不變卻收香港物價；亦有人話深圳又臭又熱唔知有咩好去，或話大灣區化物價會拉平均。回覆 133。淨評分為負。",
+      "replies": 133,
+      "viewpoints": [
+        {
+          "label": "港人消費推高深圳物價",
+          "summary": "高讚留言多數指深圳靠港人消費起家，而家物價向香港睇齊但本地人工未跟上。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "唔抵去／大灣區拉平",
+          "summary": "部分留言嫌深圳體驗差唔抵去，或話兩地物價樓價只會拉平均。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-107",
+          "comparison": "回覆 133；分數正代表讚多過踩，負代表踩多過讚；上一輪 −97（跌 10，觀點未變）。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（深圳物價／港人北上消費）。本頁仍見；另有內地大城市青年「拼床」帖（thread/4170996，回覆 81、分數 26）同「防伊斯蘭中國超前部署」帖（thread/4170378，回覆 93、分數 142）。",
+      "verification": {
+        "status": "unverified",
+        "note": "個人觀感同截圖，未對物價統計核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4170334/page/1",
+          "platform": "連登",
+          "author": "廿塊腹肌",
+          "author_url": "https://lihkg.com/profile/665397",
+          "published_at": null,
+          "observed_at": "2026-10-22T07:13:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把論壇觀感當成已核實物價數據。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-CURRENT-TVB-DIRECTOR-HARASSMENT",
+      "name": "TVB又曝醜聞 男導性騷擾女演員 迫女演員除衫拍劇 被網民狂屌",
+      "status": "new",
+      "seen": "樓主轉述網民批評 TVB 男導性騷擾、迫女演員除衫拍劇，指職場霸凌同厭女劇情。高讚留言有人附和；亦有人反指「女拳」或質疑新聞谷收視。回覆 64。淨評分為負。",
+      "replies": 64,
+      "viewpoints": [
+        {
+          "label": "批 TVB 職場／厭女",
+          "summary": "樓主同部分留言指 TVB 不尊重女性、職場霸凌同厭女劇情。",
+          "share": "帖文同部分留言",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "反「女拳」／質疑動機",
+          "summary": "部分高讚留言反指女拳路線，或話做新聞谷收視都有人信。",
+          "share": "部分高讚",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-27",
+          "comparison": "回覆 64；分數正代表讚多過踩，負代表踩多過讚；上一輪未見（本輪議題入選）。12 點港女轉信穆斯林帖（thread/4170519）已唔喺本頁。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港時事（本地影視／職場性騷擾醜聞討論）。本頁另有「情願去英國對住穆斯林」帖（thread/4171021，回覆 75、分數 −81）。本輪以更清晰嘅本地機構醜聞帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對報導原文或當事人陳述核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4170980/page/1",
+          "platform": "連登",
+          "author": "我是(假)好人",
+          "author_url": "https://lihkg.com/profile/304410",
+          "published_at": null,
+          "observed_at": "2026-10-22T07:13:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把論壇指控當成已核實司法或公司調查結果。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-CE-WANGFUK-REPORT",
+      "name": "李家超：收到獨立委員會報告 短期內公布如何追究責任",
+      "status": "new",
+      "seen": "樓主轉述特首李家超稱已收到獨立委員會報告，短期內公布如何追究責任。高讚留言多數冷嘲一定係市民錯、署方只會感謝報告、唔關問責官員事；亦有人話會唔理想又賴制度，或話收齊業權先出報告。回覆 60。淨評分為負。",
+      "replies": 60,
+      "viewpoints": [
+        {
+          "label": "冷嘲唔會真問責",
+          "summary": "高讚留言多數話一定係市民錯、官員唔關事、署方只會感謝報告努力改善。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "質疑時機／制度甩鍋",
+          "summary": "部分留言話轉頭又話唔理想賴制度，或指收齊業權先出報告。",
+          "share": "部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-34",
+          "comparison": "回覆 60；分數正代表讚多過踩，負代表踩多過讚；上一輪未見（本輪議題入選）。12 點批准輸入 7275 保安員／鄧炳強帖（thread/4170824）已唔喺本頁。本頁另有李家超研究宏福苑報告帖（thread/4171063，回覆 44、分數 −22）。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港政府官員（特首李家超／獨立委員會報告同問責）。本輪以回覆較多嘅追究責任帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對特首發言或獨立委員會報告原文逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4171072/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-22T07:13:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；回覆數同淨評分由列表抄；再讀第 1 頁留言（按讚排序）。"
+        }
+      ],
+      "limits": "不把留言冷嘲當成已核實問責結果。",
+      "next_steps": "下一輪再睇報告問責帖同宏福苑相關帖會唔會升溫。"
+    }
+  ]
+}
