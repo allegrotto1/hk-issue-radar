@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-23T01:00:00Z",
+    "end": "2026-10-23T02:00:00Z"
+  },
+  "generated_at": "2026-10-23T01:28:00Z",
+  "summary": [
+    "09 點快報。讀連登熱門排序頁（category/1?order=hot，09:18–09:28 HKT 瀏覽器讀到約 36–37 條）；列表卡只顯示淨評分同頁數、無回覆數，API 被 Cloudflare 擋，故回覆數改由各帖最後一頁最高樓號抄。熱度排序以最後一頁回覆數為準。對照 08 點版。",
+    "香港時事：蔡天鳳碎屍案化驗師作供帖仍居本頁回覆最高（回覆 467、分數 93，由 458／90 續升，列表刷新觀點未變）。香港經濟：唔救市帖續在（回覆 199、分數 40，由 189／32 升）。",
+    "青年：19歲自願做兵帖續在（回覆 163、分數 969，由 159／942 升）。內地：防伊斯蘭超前部署帖續在（回覆 132、分數 270，由 128／258 升）。",
+    "香港政府官員：08 點勞工處輸入勞工招聘會帖已唔喺本頁；改以李家超研究宏福苑獨立委員會報告帖入選（回覆 64、分數 -36，上一輪未見）。五類今輪齊，每條都有最後一頁實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-CURRENT-CHOI-DISMEMBERMENT-TRIAL",
+      "name": "蔡天鳳碎屍案｜雙腿連盤骨被放在雪櫃內 政府化驗師形容「骨上面有啲肉」 大部分人肉已被切掉 只有少部份人肉仍在骨上",
+      "status": "tracking",
+      "seen": "樓主轉述蔡天鳳碎屍案審訊，政府化驗師作供形容雪櫃內雙腿多為骨頭、人肉已被切掉。高讚／末頁留言繼續圍繞冷血手法、授權書會否失效、碎屍是否為吞遺產，以及預謀定誤殺。回覆 467。",
+      "replies": 467,
+      "viewpoints": [
+        {
+          "label": "震驚殘忍／質疑預謀",
+          "summary": "有留言指樓生同租樓似事前準備，屬預謀；亦有人聯想兇手職業令佢冷血。",
+          "share": "末頁高讚附近多見",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "遺產／授權書揣測",
+          "summary": "另一派討論授權書會否因人死失效，以及碎屍是否為避免遺產繼承人出頭。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "93",
+          "comparison": "回覆 467；分數正代表讚多過踩，負代表踩多過讚；上一輪 90（升 3）、回覆由 458 升至 467；列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（本地刑事案件／蔡天鳳碎屍案審訊）。本頁仍見；本輪以回覆最高嘅時事帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對庭上供詞全文或傳媒原文逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171157/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-23T01:28:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分由列表卡拇指數抄；回覆數由最後一頁（19/19）最高樓號 467 抄；再讀末頁高讚留言。"
+        }
+      ],
+      "limits": "不把論壇情緒或猜測當成已核實庭審事實以外的結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-ECON-HSI-NO-BAILOUT",
+      "name": "跌到咁撚樣仲唔救市",
+      "status": "tracking",
+      "seen": "樓主怨港股跌到咁都未見救市。高讚留言用大躍進式反差諷刺官方樂觀說法，並數貿易戰、疫情、開關、加息都過完港股仍然唔得；亦有「低處未算低」同笑人仲玩港股。回覆 199。",
+      "replies": 199,
+      "viewpoints": [
+        {
+          "label": "怪官方／要救市",
+          "summary": "高讚留言諷刺官方話好但市況差，暗示要出手或承認問題。",
+          "share": "高讚留言多數方向",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "怪結構／笑人仲玩",
+          "summary": "另一派指港股長期上完又跌、低處未算低，仲玩就係自己揾苦食。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "40",
+          "comparison": "回覆 199；分數正代表讚多過踩，負代表踩多過讚；上一輪 32（升 8）、回覆由 189 升至 199；列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（港股跌勢／救市訴求）。本頁仍見；本輪以回覆最高嘅經濟帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對證監／財政當局官方回應或即市數據逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4170999/page/1",
+          "platform": "連登",
+          "author": "移民保全家",
+          "author_url": "https://lihkg.com/profile/132380",
+          "published_at": null,
+          "observed_at": "2026-10-23T01:28:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分由列表卡拇指數抄；回覆數由最後一頁（8/8）最高樓號 199 抄；再讀末頁高讚留言。"
+        }
+      ],
+      "limits": "不把論壇叫救市當成已公布政策。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "YOUTH-VOLUNTEER-ARMY-19",
+      "name": "港男永遠無進步過，19歲就自願做兵",
+      "status": "tracking",
+      "seen": "樓主嘲諷港男「永遠無進步」、話有人19歲就自願做兵。討論由青年選擇／從軍扯去男性壓力、女權同偷拍爭議；高讚留言叫齊對付女權，亦有人質疑「捉偷拍」係咪先發制人或搏follow。回覆 163。",
+      "replies": 163,
+      "viewpoints": [
+        {
+          "label": "怪女權／男性壓力",
+          "summary": "最高讚方向指香港男人壓力大，怪有人唔幫自己人，主張一齊對付女權。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "質疑捉偷拍敘事",
+          "summary": "另一派認為好多「捉偷拍」係誤會或女方先發制人；真正受害人會報警而唔係搞大龍鳳。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "969",
+          "comparison": "回覆 163；分數正代表讚多過踩，負代表踩多過讚；上一輪 942（升 27）、回覆由 159 升至 163；列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（青年選擇／19歲自願從軍同男性處境討論）。本頁仍見；本輪以淨評分同回覆都高嘅青年相關帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未核實樓主所指個案是否真實從軍申請。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171018/page/1",
+          "platform": "連登",
+          "author": "牙晴愛你1314",
+          "author_url": "https://lihkg.com/profile/22440",
+          "published_at": null,
+          "observed_at": "2026-10-23T01:28:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分由列表卡拇指數抄；回覆數由最後一頁（7/7）最高樓號 163 抄；再讀末頁高讚留言。"
+        }
+      ],
+      "limits": "不把單一帖情緒推成全部青年立場。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "MAINLAND-ISLAM-PREEMPTIVE",
+      "name": "防伊斯蘭嚟講，中国真係超前部署",
+      "status": "tracking",
+      "seen": "樓主稱論防伊斯蘭，中國屬「超前部署」。留言比較中國、俄羅斯、朝鮮管治同宗教控制，有人話三揀一都揀中國、舉佛教姓黨例子；亦有扯蘇聯解體同中東戰爭。回覆 132。",
+      "replies": 132,
+      "viewpoints": [
+        {
+          "label": "撐中國管控",
+          "summary": "有留言話三揀一都揀中國，用中國模式管其餘地方。",
+          "share": "部分高讚",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "比較其他國家／宗教控制",
+          "summary": "另一派談俄羅斯、朝鮮條件，以及中國佛教姓黨等例子，延展到歷史類比。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "270",
+          "comparison": "回覆 132；分數正代表讚多過踩，負代表踩多過讚；上一輪 258（升 12）、回覆由 128 升至 132；列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地（內地宗教／反恐政策議論）。本頁仍見；本輪以回覆最高嘅內地帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方宗教／反恐政策文件核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4170378/page/1",
+          "platform": "連登",
+          "author": "櫻庭遙花正宮",
+          "author_url": "https://lihkg.com/profile/528828",
+          "published_at": null,
+          "observed_at": "2026-10-23T01:28:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分由列表卡拇指數抄；回覆數由最後一頁（6/6）最高樓號 132 抄；再讀末頁高讚留言。"
+        }
+      ],
+      "limits": "不把論壇比較當成已核實國策評估。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-LEE-WANGFUK-REPORT",
+      "name": "李家超稱會仔細研究宏福苑獨立委員會報告",
+      "status": "new",
+      "seen": "樓主指李家超稱會仔細研究宏福苑獨立委員會報告。留言多數冷嘲：用AI三句（系統繁忙、無法回答、換個話題）比喻、話會層層交落司長局長AO再叫AI做；並指官員唔會落台、問責係笑話，頂多凍薪唔減薪。回覆 64。",
+      "replies": 64,
+      "viewpoints": [
+        {
+          "label": "嘲研究＝拖／交落手",
+          "summary": "高讚方向用AI三句同層層交辦諷刺「仔細研究」只係拖時間。",
+          "share": "高讚留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "質疑問責",
+          "summary": "另一派指官員唔會落台，頂多凍薪一定唔減人工，問責係笑話。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-36",
+          "comparison": "回覆 64；分數正代表讚多過踩，負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（行政長官回應宏福苑獨立委員會報告）。本頁仍見；08 點勞工處帖已唔喺本頁，改以呢條官員角度最清晰嘅帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對特首辦／獨立委員會原文逐條核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171063/page/1",
+          "platform": "連登",
+          "author": "掃地僧",
+          "author_url": "https://lihkg.com/profile/291865",
+          "published_at": null,
+          "observed_at": "2026-10-23T01:28:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分由列表卡拇指數抄；回覆數由最後一頁（3/3）最高樓號 64 抄；再讀末頁高讚留言同第1頁樓主資料。"
+        }
+      ],
+      "limits": "不把論壇冷嘲當成已公布問責結果。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
