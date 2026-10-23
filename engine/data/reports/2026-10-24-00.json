@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-23T16:00:00Z",
+    "end": "2026-10-23T17:00:00Z"
+  },
+  "generated_at": "2026-10-23T16:25:00Z",
+  "summary": [
+    "00 點快報。以瀏覽器熱門排序頁為準（category/1?order=hot，約 00:20 HKT；Chrome dump-dom 與 api_v2/thread/hot 同序共 37 卡）；卡分數同回覆取自該熱門 API；author_url 由各帖 API user_id。熱度排序以熱門卡淨評分為主。對照 21 點版：上一輪四帖（90後童年、荃灣督察、外勞保安、防伊斯蘭）已不在今輪 37 卡。",
+    "香港經濟：大快活盈喜帖新入選（回覆 112、分數 75）。香港時事：而家香港衰唔衰得過 2003 沙士帖新入選（回覆 503、分數 57）。",
+    "內地：菲律賓警告中國仁愛礁開戰帖新入選（回覆 108、分數 56）。青年：莊雅婷／新生嬰兒獎勵金同年輕夫婦生育壓力帖新入選（回覆 41、分數 −47）。",
+    "本輪熱門頁未見香港政府官員類（21 點已報未見；今輪 37 卡亦未見李家超／勞工處／湯家驊等官員向標題）。其餘四類齊，每條都有熱門 API 實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-ECON-CAFE-DE-CORAL-PROFIT-ALERT",
+      "name": "大快活盈喜",
+      "status": "new",
+      "seen": "樓主貼大快活盈喜相關圖／消息。早頁討論 gym 餐平唔平、減肥同健身客會唔會去食、味道同營養；末頁比較大家樂質素／紙餐具，亦有問美心分店係咪收皮。回覆 112。",
+      "replies": 112,
+      "viewpoints": [
+        {
+          "label": "gym餐平／抵食撐大快活",
+          "summary": "早頁多指 gym 餐平、味道正常、營養好過兩餸飯；亦有話真係好食、減肥同健身客會去。",
+          "share": "帖內多見",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "平點賺錢／產品爭議",
+          "summary": "有留言問 gym 餐咁平點賺錢；末頁有人比較大家樂雞胸炒飯同紙餐具，質疑對手質素。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "餐飲連鎖盛衰對照",
+          "summary": "末頁有人問美心係咪收皮、分店仲有冇，將盈喜放到連鎖餐飲競爭語境。",
+          "share": "末頁少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "75",
+          "comparison": "回覆 112；分數正代表讚多過踩，負代表踩多過讚；上一輪（21 點）未見。熱門卡淨評分 75。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（上市快餐連鎖盈喜同餐飲經營／客源議論）。本頁仍見；本輪以熱門卡淨評分最高嘅經濟向帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "盈喜數字未對公司公告原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171082/page/1",
+          "platform": "連登",
+          "author": "情陷夜西環",
+          "author_url": "https://lihkg.com/profile/312363",
+          "published_at": null,
+          "observed_at": "2026-10-23T16:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；卡淨評分 75；回覆取自熱門 API no_of_reply 112；author_url 由帖 API user_id。"
+        }
+      ],
+      "limits": "不把論壇對盈喜同對手嘅吹水當成已核實財務分析。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CURRENT-VS-SARS-2003",
+      "name": "而家香港衰唔衰得過2003年沙士個陣？",
+      "status": "new",
+      "seen": "樓主問而家香港衰唔衰得過 2003 沙士，定係未衰得過。早頁有人叫唔好做隱閉青年、話出街都旺、壽司郎排隊；亦有指呢種衰唔同嗰種衰。末頁有人講而家 247 便利店多過銀行、保持精神正常就算贏。回覆 503。",
+      "replies": 503,
+      "viewpoints": [
+        {
+          "label": "未算沙士咁衰／街上仍旺",
+          "summary": "早頁有留言指返工放工出街坐車都旺、壽司郎排隊，質疑「衰過沙士」說法。",
+          "share": "早頁多見",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "衰法唔同：精神同結構",
+          "summary": "有留言指呢種衰唔同沙士那種；末頁有人話保持精神正常就算贏、便利店多過銀行。",
+          "share": "帖內多見",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "追問點先算旺",
+          "summary": "末頁有人反問點先睇到旺唔旺，討論停留在觀感對打。",
+          "share": "末頁部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "57",
+          "comparison": "回覆 503；分數正代表讚多過踩，負代表踩多過讚；上一輪（21 點）未見。熱門卡淨評分 57。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（當下香港景氣／氣氛同 2003 沙士對照議論）。本頁仍見；本輪以回覆最多、分數較高嘅時事帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "觀感吹水帖，非經濟數據核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171408/page/1",
+          "platform": "連登",
+          "author": "不管五毛的連登",
+          "author_url": "https://lihkg.com/profile/415993",
+          "published_at": null,
+          "observed_at": "2026-10-23T16:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；卡淨評分 57；回覆熱門 API 503；author_url 由帖 API。"
+        }
+      ],
+      "limits": "不把「衰過沙士」標題當成已量度嘅客觀衰退結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-SCS-PH-WARNS-CHINA",
+      "name": "菲律賓警告中國若對仁愛礁有任何行為將會開戰 並啟動美菲共同防衛條約",
+      "status": "new",
+      "seen": "樓主轉菲防長警告：若中國對仁愛礁「馬德雷山號」動武可視作戰爭行為並可能觸發菲美共同防禦。早頁嘲菲「尾巴搖狗」、問點解中國唔似美國教訓別國；末頁多將菲傭／香港人受害記憶同開戰可能綁埋，亦有鼓吹開戰同質疑美國會否落場。回覆 108。",
+      "replies": 108,
+      "viewpoints": [
+        {
+          "label": "嘲菲挑釁／叫中國硬碰",
+          "summary": "早頁多指菲律賓國家層面挑釁、想尾巴搖狗；有人問點解中國唔教訓。",
+          "share": "帖內多見",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "美菲盟約會唔會真打",
+          "summary": "末頁有人指俄烏美國都唔落場，更加唔信會為菲打中國；亦有指菲有美軍撐腰所以唔驚。",
+          "share": "末頁多見",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "扯香港菲傭情緒",
+          "summary": "部分留言將開戰討論扯去菲傭同香港人衝突記憶，情緒濃過對條約條文本身。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "56",
+          "comparison": "回覆 108；分數正代表讚多過踩，負代表踩多過讚；上一輪（21 點）未見。熱門卡淨評分 56。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地（南海／仁愛礁同中菲美軍事外交議論）。本頁仍見；本輪以熱門卡分數較高嘅內地向帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對菲防長／中方原文；帖內多情緒延伸。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171564/page/1",
+          "platform": "連登",
+          "author": "友勝武愛",
+          "author_url": "https://lihkg.com/profile/379267",
+          "published_at": null,
+          "observed_at": "2026-10-23T16:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；卡淨評分 56；回覆熱門 API 108；author_url 由帖 API。"
+        }
+      ],
+      "limits": "不把留言開戰鼓吹或菲傭聯想當成已發生軍事衝突。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "YOUTH-FERTILITY-BONUS-PRESSURE",
+      "name": "莊雅婷透露有意生第二胎 年輕人應「有仔趁嫩生」？莊：現實壓力大 令年輕夫婦卻步",
+      "status": "new",
+      "seen": "樓主轉財委會延長新生嬰兒獎勵金（第二胎起加碼），並引最年輕區議員談自己有意生第二胎、肯定鼓勵生育組合拳，同時指現實壓力令年輕夫婦卻步。早頁多嘲諷叫佢帶頭生、人身攻擊；末頁繼續嘲「密密生」、亦有扯派錢同環保。回覆 41。",
+      "replies": 41,
+      "viewpoints": [
+        {
+          "label": "嘲官方叫人生／要你帶頭",
+          "summary": "早頁多嘲「你帶頭生十個先」、質疑鼓勵生育說話；人身攻擊亦多。",
+          "share": "帖內多見",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "現實壓力／要派錢先得",
+          "summary": "有留言將生育同窮人環保、派錢對立，暗示只靠口號唔夠。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "冷嘲密密生",
+          "summary": "末頁繼續用刻薄語氣嘲「密密生」，討論少觸及獎勵金細節本身。",
+          "share": "末頁多見",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-47",
+          "comparison": "回覆 41；分數正代表讚多過踩，負代表踩多過讚；上一輪（21 點）未見。熱門卡淨評分 −47。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（青年生育政策、獎勵金同年輕夫婦壓力議論）。本頁仍見；本輪以仍在熱門嘅青年政策向帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "獎勵金金額未對財委會／政府原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171505/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-23T16:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；卡淨評分 −47；回覆熱門 API 41；author_url 由帖 API。"
+        }
+      ],
+      "limits": "不把踩多嘅嘲諷帖當成已量度嘅青年生育民意調查；標題含公職人員稱謂，僅作帖文識別。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
