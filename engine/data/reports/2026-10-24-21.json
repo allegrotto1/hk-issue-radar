@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-24T13:00:00Z",
+    "end": "2026-10-24T14:00:00Z"
+  },
+  "generated_at": "2026-10-24T13:15:00Z",
+  "summary": [
+    "21 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 21:12 HKT）為準，共 32 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度排序以熱門卡淨評分為主。對照 18 點版：匯豐外判保安帖本輪已不在熱門第 1 頁，經濟類改入選大快活盈喜帖；官員類本輪有宏福苑火災問責／局長落台帖入選。",
+    "青年：達哥／JFFT 世代價值觀帖追蹤（回覆 191、分數 941；18 點 173／813）。香港時事：香港揸車 cut 線唔打燈帖追蹤（回覆 148、分數 436；18 點 130／350）。",
+    "內地：攜程／trip.com 疑洩客資料至詐騙園區帖追蹤（回覆 86、分數 151；18 點 79／122）。香港經濟：大快活盈喜帖新入選（回覆 121、分數 98）。香港政府官員：宏福苑火災問責｜議員促局長落台帖新入選（回覆 39、分數 15）。",
+    "五類均有帖；每條都有熱門 API 實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "列表數據取自 api_v2/thread/hot?cat_id=1（吹水台熱門）；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-DAGOR-JFFT-GEN-VALUES",
+      "name": "覺唔覺得達哥同JFFT分別代表90後同Gen Z 嘅相反價值觀",
+      "status": "tracking",
+      "seen": "樓主繼續對照達哥（心存善良、長板橋、正氣）同 JFFT（拒絕偽善、地獄梗、躺平擺爛）。早頁留言有人話兩邊同一班人、JFFT 以前都睇達哥大；亦有人踩達哥爛口／扮女人，或話 JFFT 冇達哥嗰種正氣英氣。回覆 191。",
+      "replies": 191,
+      "viewpoints": [
+        {
+          "label": "撐達哥正氣／正路偶像",
+          "summary": "樓主同部分留言將達哥寫成正向、有正氣英氣；對照 JFFT。",
+          "share": "樓主立場＋部分留言",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "兩邊同一圈／路線唔同",
+          "summary": "早頁有留言指兩邊同一班人；亦有人唔想二元對立。",
+          "share": "帖內常見對照",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "踩達哥／撐 JFFT 真性情",
+          "summary": "有留言踩達哥爛口；樓主設定則寫 JFFT 拒絕偽善、粗口真性情。",
+          "share": "部分留言＋樓主設定",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "941",
+          "comparison": "回覆 191；分數正代表讚多過踩，負代表踩多過讚；熱門 API like 1132−dislike 191＝淨評分 941。上一輪（18 點）淨評分 813、回覆 173。今輪 +128（過 30）、回覆 +18；帖仍在、觀點主線未變，屬列表刷新而非留言轉向。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（90 後／Gen Z 價值觀對照、青年文化偶像議論）。本頁仍見；本輪青年向帖以熱門卡淨評分最高入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對達哥／JFFT 公開內容原文；只記論壇對照。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171574/page/1",
+          "platform": "連登",
+          "author": "インキャ",
+          "author_url": "https://lihkg.com/profile/239195",
+          "published_at": null,
+          "observed_at": "2026-10-24T13:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API（thread/hot cat_id=1）對上該標題；卡淨評分 941；回覆取自熱門 API no_of_reply 191；author_url 由熱門／帖 API user_id。"
+        }
+      ],
+      "limits": "不把論壇對網紅價值觀對照當成世代調查結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CURRENT-DRIVING-NO-SIGNAL",
+      "name": "香港揸車cut線唔打燈係咪正常？",
+      "status": "tracking",
+      "seen": "樓主寫連翔道被的士唔打燈 cut 線，幾乎撞車；列貨車、的士、van、中港 7 人車為常見唔打燈車種。留言多罵唔打燈 on9／冇禮貌，亦有人討論急剎後被追撞邊個賠，以及轉入路口唔打燈。回覆 148。",
+      "replies": 148,
+      "viewpoints": [
+        {
+          "label": "唔打燈＝無禮／危險",
+          "summary": "樓主同多數留言指 cut 線唔打燈係 on9；巴士小巴埋站、轉彎亦常見唔打燈。",
+          "share": "樓主＋帖內多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "急剎責任／保險爭拗",
+          "summary": "樓主同部分留言擔心避 cut 線車急停、被後車撞時邊個賠。",
+          "share": "樓主＋部分留言",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "列常見車種",
+          "summary": "樓主點名貨車、的士、van、中港 7 人車十架有八架唔打燈。",
+          "share": "樓主列舉",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "436",
+          "comparison": "回覆 148；分數正代表讚多過踩，負代表踩多過讚；熱門 API like 455−dislike 19＝淨評分 436。上一輪（18 點）淨評分 350、回覆 130。今輪 +86（過 30）、回覆 +18；帖仍在、觀點主線未變，屬列表刷新而非留言轉向。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港時事（本地揸車文化、道路安全議論）。本頁仍見；本輪時事向帖以熱門卡淨評分入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對交通意外或警方紀錄；只記論壇議論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4171776/page/1",
+          "platform": "連登",
+          "author": "Fastreg",
+          "author_url": "https://lihkg.com/profile/109560",
+          "published_at": null,
+          "observed_at": "2026-10-24T13:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API（thread/hot cat_id=1）對上該標題；卡淨評分 436；回覆取自熱門 API no_of_reply 148；author_url 由熱門／帖 API user_id。"
+        }
+      ],
+      "limits": "不把單一經歷帖當成全港揸車統計。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁；對照石硤尾毒貓帖熱度。"
+    },
+    {
+      "issue_id": "MAINLAND-CTRIP-SCAM-PARK-DATA",
+      "name": "「警世」中國市公司攜程,trip.com汲疑將客戶賣比詐騙園區。",
+      "status": "tracking",
+      "seen": "樓主指 Threads 網民懷疑攜程／trip.com 將客戶資料賣去詐騙園區，並附圖。留言多講大陸個人資料便宜、Telegram 可買；有人分享收數電話講得出全名地址；亦有人指香港銀行 IT／call center 外判後資料一樣易漏；另有留言指「又玩老屈」。回覆 86。",
+      "replies": 86,
+      "viewpoints": [
+        {
+          "label": "指控平台洩客／賣料",
+          "summary": "樓主跟 Threads 指控攜程／trip.com 疑將客戶賣比詐騙園區。",
+          "share": "樓主＋轉述 Threads",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "大陸／跨境資料本已廉價流通",
+          "summary": "留言指身份證住址可喺 Telegram 平價買到，唔一定單一來源。",
+          "share": "帖內常見",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "香港外判／跨機構一樣漏／質疑屈機",
+          "summary": "有留言指香港 bank IT、call center 外判後資料一樣清楚；亦有人話「又玩老屈」。",
+          "share": "部分留言",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "151",
+          "comparison": "回覆 86；分數正代表讚多過踩，負代表踩多過讚；熱門 API like 157−dislike 6＝淨評分 151。上一輪（18 點）淨評分 122、回覆 79。今輪 +29、回覆 +7。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（內地上市公司／跨境旅遊平台個資與詐騙園區指控）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對攜程／trip.com 官方或執法公布；只記論壇轉述。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4171717/page/1",
+          "platform": "連登",
+          "author": "詐騙主腦習近平",
+          "author_url": "https://lihkg.com/profile/727799",
+          "published_at": null,
+          "observed_at": "2026-10-24T13:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API（thread/hot cat_id=1）對上該標題；卡淨評分 151；回覆取自熱門 API no_of_reply 86；author_url 由熱門／帖 API user_id。"
+        }
+      ],
+      "limits": "不把論壇轉述當成已證實洩密。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-FAIRWOOD-PROFIT-ALERT",
+      "name": "大快活盈喜",
+      "status": "new",
+      "seen": "樓主以圖帖開題「大快活盈喜」（OP 正文空白、以圖為主）。留言多數唔再講盈喜數字本身，而係比較大快活同大家樂：有人讚 gym 餐平、雞柳雞蛋方便叮；有人話近一兩年大家樂「搞唔掂」、廣告錢多食物柴；亦有留言指 2026 年 lunch $4x–$5x 仍可逆市賺。回覆 121。",
+      "replies": 121,
+      "viewpoints": [
+        {
+          "label": "撐大快活／gym 餐抵食",
+          "summary": "多留言讚大快活 gym 餐平、雞柳雞蛋方便、焗豬好過大家樂。",
+          "share": "帖內多數飲食討論",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "踩大家樂／風水輪流轉",
+          "summary": "有留言指大家樂廣告多、豬扒柴、魚柳以外唔掂；以前入大家樂而家轉大快活。",
+          "share": "帖內常見對照",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "盈喜／逆市賺錢疑問",
+          "summary": "標題係盈喜；有留言質疑 gym 餐咁平點賺錢，亦有人指 lunch 價位仍可逆市賺。",
+          "share": "標題＋部分留言",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "98",
+          "comparison": "回覆 121；分數正代表讚多過踩，負代表踩多過讚；熱門 API like 102−dislike 4＝淨評分 98。上一輪未見（18 點經濟類為匯豐外判保安帖，本輪已不在熱門第 1 頁）。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟（本地上市餐飲連鎖盈喜／競爭議論）。本頁仍見；本輪經濟向帖以熱門卡淨評分入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對大快活／大家樂官方業績公告原文核對數字；只記論壇標題同留言。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4171082/page/1",
+          "platform": "連登",
+          "author": "情陷夜西環",
+          "author_url": "https://lihkg.com/profile/312363",
+          "published_at": null,
+          "observed_at": "2026-10-24T13:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API（thread/hot cat_id=1）對上該標題；卡淨評分 98；回覆取自熱門 API no_of_reply 121；author_url 由熱門／帖 API user_id；OP 以圖為主。"
+        }
+      ],
+      "limits": "不把論壇飲食比較當成已核實業績數字。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁；對照匯豐保安帖有冇返熱門。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-WANGFUK-ACCOUNTABILITY",
+      "name": "宏福苑火災問責｜議員：若無局長落台 恐動搖社會對政府信心及惹公務員不滿",
+      "status": "new",
+      "seen": "帖文轉述宏福苑火災報告據報最快下周公布，社會關注政治／行政問責；有議員認為必須有局長落台，否則矛頭指向特首；亦引湯家驊「跟足工序有乜錯」言論惹議。留言有人點名保安局／消防署首長，質疑政治委任唔只係按本子辦事；亦有人話政府部門各自為政、對問責唔抱期望。回覆 39。",
+      "replies": 39,
+      "viewpoints": [
+        {
+          "label": "要局長政治問責／落台",
+          "summary": "帖文同部分留言認為無局長落台會動搖信心；有人點保安局或消防首長。",
+          "share": "帖文主線＋部分留言",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "跟工序／無錯失唔應落台",
+          "summary": "轉述湯家驊指官員跟足工序無錯失則無理由落台；有留言質疑呢個係幫預期降溫。",
+          "share": "帖文轉述＋部分議論",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "對問責唔抱期望",
+          "summary": "有留言話部門各自為政、不滿又可以點、信心一早搖走。",
+          "share": "部分留言",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "15",
+          "comparison": "回覆 39；分數正代表讚多過踩，負代表踩多過讚；熱門 API like 16−dislike 1＝淨評分 15。上一輪未見（18 點 summary 寫明熱門頁未見香港政府官員類）。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港政府官員（宏福苑火災政治／行政問責、局長落台議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對獨立調查報告或官方問責公布；只記論壇轉述同留言。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4171888/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-10-24T13:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API（thread/hot cat_id=1）對上該標題；卡淨評分 15；回覆取自熱門 API no_of_reply 39；author_url 由熱門／帖 API user_id。"
+        }
+      ],
+      "limits": "不把論壇問責討論當成已落實官員處分。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁；跟進報告公布後反應。"
+    }
+  ]
+}
