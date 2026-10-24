@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-24T00:00:00Z",
+    "end": "2026-10-24T01:00:00Z"
+  },
+  "generated_at": "2026-10-24T00:16:00Z",
+  "summary": [
+    "08 點早上快報。以熱門 API api_v2/thread/hot?cat_id=1（約 08:13 HKT）為準，共 33 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度排序以熱門卡淨評分為主。對照 00 點版：大快活盈喜、莊雅婷生育獎勵金已不在今輪 33 卡；仁愛礁帖仍在（56→82）。",
+    "青年：達哥／JFFT 世代價值觀帖新入選（回覆 59、分數 134）。香港政府官員：勞工處本地招聘會 1,300 職只有 1 人獲聘帖新入選（回覆 126、分數 119）。",
+    "香港時事：成田港航家庭促講粵語帖新入選（回覆 279、分數 97；同頁沙士比較帖分數 85 較低故未入選）。內地：仁愛礁菲防長警告帖追蹤（回覆 140、分數 82）。",
+    "香港經濟：公屋戶權／綠表居屋帖新入選（回覆 39、分數 11）。五類齊，每條都有熱門 API 實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-DAGOR-JFFT-GEN-VALUES",
+      "name": "覺唔覺得達哥同JFFT分別代表90後同Gen Z 嘅相反價值觀",
+      "status": "new",
+      "seen": "樓主開帖對照達哥（心存善良、長板橋、正氣）同 JFFT（拒絕偽善、地獄梗、躺平擺爛），問連登撐邊邊。早頁有人話兩邊同一班人、JFFT 以前都睇達哥大；亦有踩達哥爛口／扮嘢，同撐良少樣。末頁有人拒二元對立，話風格唔同各有觀眾。回覆 59。",
+      "replies": 59,
+      "viewpoints": [
+        {
+          "label": "撐達哥正氣／長板橋",
+          "summary": "樓主同部分留言將達哥寫成 90 後善良、守底線、有正氣英氣嘅代表。",
+          "share": "樓主立場＋帖內部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "撐 JFFT 真性情／反偽善",
+          "summary": "樓主將 JFFT 寫成 00／10 後拒絕偽善、粗口地獄梗、活在當下；末頁亦有話 JFFT 靚仔好多。",
+          "share": "樓主對照＋部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "唔好二元對立／其實同一圈",
+          "summary": "有留言指兩邊同一班人、JFFT 以前跟達哥大；末頁有人話風格唔同百貨應百客，唔使對立。",
+          "share": "帖內常見對照",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "134",
+          "comparison": "回覆 59；分數正代表讚多過踩，負代表踩多過讚；上一輪（00 點）未見。熱門 API like 180−dislike 46＝淨評分 134。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（90 後／Gen Z 價值觀對照、青年文化偶像議論）。本頁仍見；本輪青年向帖以熱門卡淨評分最高入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對達哥／JFFT 公開內容原文；只記論壇對照。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171574/page/1",
+          "platform": "連登",
+          "author": "インキャ",
+          "author_url": "https://lihkg.com/profile/239195",
+          "published_at": null,
+          "observed_at": "2026-10-24T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API（thread/hot cat_id=1）對上該標題；卡淨評分 134；回覆取自熱門 API no_of_reply 59；author_url 由熱門／帖 API user_id。"
+        }
+      ],
+      "limits": "不把論壇對網紅價值觀對照當成世代調查結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-GOV-LABOUR-DEPT-LOCAL-HIRE-1-OF-1300",
+      "name": "勞工處：僱主輸入勞工前需在本地招聘，過去三個月招聘會1,300個職位 只有1人獲聘：",
+      "status": "new",
+      "seen": "樓主轉述勞工處數字：今年首九個月補充勞工優化計劃申請二千多宗、要求輸入近 1.9 萬外勞；過去三個月飲食界招聘會近 1,300 職只有 1 人獲聘。留言多指招聘會係做戲、促進搭車經濟、條件苛刻（經驗／學歷／年齡）先得一人。回覆 126。",
+      "replies": 126,
+      "viewpoints": [
+        {
+          "label": "本地招聘係做戲／條件苛刻",
+          "summary": "早頁多話戲都唔做、扮嘢、促進搭車經濟；末頁有人列飲食職最低工資、要經驗、大學畢業、年齡唔過 30 等條件。",
+          "share": "帖內多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "外勞申請量大",
+          "summary": "樓主引述首九個月二千多宗申請、近 1.9 萬外勞名額訴求，將「只聘 1 人」放到輸入勞工政策語境。",
+          "share": "樓主轉述＋討論背景",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "質疑獲聘數字真實性",
+          "summary": "有留言joke／話嗰個獲聘嘅人已經做咗戲，質疑官方數字代表性。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "119",
+          "comparison": "回覆 126；分數正代表讚多過踩，負代表踩多過讚；上一輪（00 點）未見。熱門 API like 127−dislike 8＝淨評分 119。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員（勞工處補充勞工／本地招聘政策同數字）。本頁仍見；本輪官員向帖以熱門卡淨評分入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對勞工處／TVB 原文核對數字。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4170736/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-24T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 119；回覆熱門 API 126；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把論壇對招聘會「做戲」指控當成已核實政策結論。",
+      "next_steps": "下一輪再睇勞工處／外勞相關帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-CURRENT-HK-EXPRESS-NRT-CANTONESE",
+      "name": "$1500機票無飛機餐！　港人家庭大鬧日本機場促講粵語　地勤做法獲讚",
+      "status": "new",
+      "seen": "樓主轉 Threads 片段：成田香港航空櫃位一家四口疑因 $1500 機票無飛機餐鬧事，並促地勤講粵語。早頁嘲機票平／叫坐其他航、諷英語差；末頁有人話上網投訴得、但有人鐘意嘈盡，亦有斥垃圾乞兒。回覆 279。",
+      "replies": 279,
+      "viewpoints": [
+        {
+          "label": "嘲家庭嘈交／廉航預期",
+          "summary": "多留言指 $1500 本就廉航、飛機餐視乎機型要事先睇清；末頁有斥嘈交、乞兒式態度。",
+          "share": "帖內多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "促講粵語／服務爭議",
+          "summary": "標題同片段聚焦促地勤講粵語；有留言用英語能力諷刺反問。",
+          "share": "標題焦點＋部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "投訴得但唔好現場嘈",
+          "summary": "末頁有人話上網唱衰公司得，但有啲人根本鐘意嘈、有少少道理更加嘈盡。",
+          "share": "末頁部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "97",
+          "comparison": "回覆 279；分數正代表讚多過踩，負代表踩多過讚；上一輪（00 點）未見。熱門 API like 108−dislike 11＝淨評分 97。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事（港人外遊／航空服務同粵語溝通爭議）。本頁仍見；本輪時事向以熱門卡淨評分高過沙士比較帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對航空公司或機場官方說明。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4171223/page/1",
+          "platform": "連登",
+          "author": "會員271829",
+          "author_url": "https://lihkg.com/profile/271829",
+          "published_at": null,
+          "observed_at": "2026-10-24T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 97；回覆熱門 API 279；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把片段同論壇嘲諷當成已核實事件全貌。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-SCS-PH-WARNS-CHINA",
+      "name": "菲律賓警告中國若對仁愛礁有任何行為將會開戰 並啟動美菲共同防衛條約",
+      "status": "tracking",
+      "seen": "樓主轉風暴媒體：菲防長警告若對馬德雷山號動武屬戰爭行為、登艦或觸發菲美共同防禦。留言一面嘲菲「尾巴搖狗」、叫中國教訓；一面互指五毛／嚇鬼。回覆 140。",
+      "replies": 140,
+      "viewpoints": [
+        {
+          "label": "嘲菲挑釁／撐硬手段",
+          "summary": "早頁末頁多嘲菲防長癲、僕人國指揮美國；有人叫中國學美國教訓、快啲打。",
+          "share": "帖內多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "質疑大國畏首畏尾",
+          "summary": "有留言問點解中國唔似美國對委內瑞拉／伊朗咁教訓，話大國畏首畏尾先冇人驚。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "互指五毛／反戰嗓門",
+          "summary": "末頁有人互指五毛搞笑、亦有「咪撚戇鳩」式反駁開戰吹水。",
+          "share": "末頁少數對槓",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "82",
+          "comparison": "回覆 140；分數正代表讚多過踩，負代表踩多過讚；上一輪（00 點）淨評分 56、回覆 108。今輪 +26（未過 30）、回覆 +32；帖仍在、觀點仍以嘲菲／開戰吹水為主，屬列表刷新而非留言轉向。熱門 API like 92−dislike 10＝82。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "內地（南海仁愛礁／中菲同美菲條約張力）。本頁仍見；延續 00 點同一帖追蹤。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對菲國防部記者會原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4171564/page/1",
+          "platform": "連登",
+          "author": "友勝武愛",
+          "author_url": "https://lihkg.com/profile/379267",
+          "published_at": null,
+          "observed_at": "2026-10-24T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 82；回覆熱門 API 140；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把論壇開戰吹水當成外交或軍事事實。",
+      "next_steps": "下一輪再睇南海／仁愛礁帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-ECON-PUBLIC-HOUSING-GREEN-FORM",
+      "name": "公屋男：父親拒交出戶權以綠表抽居屋     遭喝斥警告「諗都唔好諗！」",
+      "status": "new",
+      "seen": "樓主轉 Threads：年輕網民慨嘆父拒交公屋戶權用綠表抽居屋，錯失向上流；對照有人 400 多萬買啟德居屋樓王。留言教 18 歲自己申請、一家人開二開三；亦有釐清租住公屋唔等於租置、叫白表／問點解唔買私樓。回覆 39。",
+      "replies": 39,
+      "viewpoints": [
+        {
+          "label": "怪老一輩死守戶權",
+          "summary": "樓主同部分留言將拒交戶權寫成阻年輕一代綠表上車；有話公屋淪帝位、開拖俾威風佢睇。",
+          "share": "樓主立場＋部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "自己 18 歲申請／家庭策略",
+          "summary": "有留言話 18 歲申請係常識、老竇帶去申請、一開二二開三；亦有後悔當年無申請。",
+          "share": "帖內常見經驗分享",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "釐清公屋類型／叫買私樓",
+          "summary": "有人指租住公屋唔係租置；有人叫入白表、問點解 400 萬唔直接買私樓（納米樓／舊樓取捨）。",
+          "share": "部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "11",
+          "comparison": "回覆 39；分數正代表讚多過踩，負代表踩多過讚；上一輪（00 點）未見。熱門 API like 12−dislike 1＝淨評分 11。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港經濟（公屋戶權、綠表居屋同置業向上流動）。本頁仍見；本輪經濟向以住房／戶權帖入選（00 點大快活盈喜已不在今輪 33 卡）。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對房委會綠表／戶籍規則原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4171637/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-24T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 11；回覆熱門 API 39；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把個案同論壇置業建議當成房屋政策結論。",
+      "next_steps": "下一輪再睇公屋／綠表／居屋相關帖仲在唔在熱門。"
+    }
+  ]
+}
