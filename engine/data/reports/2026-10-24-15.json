@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-24T07:00:00Z",
+    "end": "2026-10-24T08:00:00Z"
+  },
+  "generated_at": "2026-10-24T07:10:00Z",
+  "summary": [
+    "15 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 15:08 HKT）為準，共 33 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度排序以熱門卡淨評分為主。對照 12 點版：東張西望基隆街診所帖已不在今輪 33 卡。",
+    "本輪熱門頁未見香港政府官員類（有公務員跳 Point 制度討論帖，但非具名官員議題，故不入官員類）。青年：達哥／JFFT 世代價值觀帖追蹤（回覆 151、分數 696；12 點 114／534）。",
+    "香港時事：石硤尾公園毒貓落網帖新入選（回覆 61、分數 98）。香港經濟：匯豐外判／炒過百保安帖追蹤（回覆 59、分數 122；12 點 52／86）。內地：攜程／trip.com 疑洩客資料至詐騙園區帖追蹤（回覆 61、分數 88；12 點 40／48）。",
+    "四類有帖、官員類缺；每條都有熱門 API 實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-DAGOR-JFFT-GEN-VALUES",
+      "name": "覺唔覺得達哥同JFFT分別代表90後同Gen Z 嘅相反價值觀",
+      "status": "tracking",
+      "seen": "樓主開帖對照達哥（心存善良、長板橋、正氣）同 JFFT（拒絕偽善、地獄梗、躺平擺爛）。早頁最高讚留言話兩邊同一班人、JFFT 以前都睇達哥大；亦有人話 JFFT 冇達哥嗰種正氣、路線唔同（一個傾偈一個齋打機）。末頁仍有人自認達哥 fans。回覆 151。",
+      "replies": 151,
+      "viewpoints": [
+        {
+          "label": "撐達哥正氣／正路偶像",
+          "summary": "樓主同部分留言將達哥寫成正向、有正氣英氣；對照 JFFT。",
+          "share": "樓主立場＋部分留言",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "兩邊同一圈／路線唔同",
+          "summary": "早頁最高讚指兩邊同一班人；亦有人話一個傾偈一個齋打機、唔好二元對立。",
+          "share": "帖內常見對照",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "撐／理解 JFFT 真性情",
+          "summary": "樓主寫 JFFT 拒絕偽善、粗口真性情；部分留言跟從呢條對照線。",
+          "share": "樓主設定＋部分留言",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "696",
+          "comparison": "回覆 151；分數正代表讚多過踩，負代表踩多過讚；上一輪（12 點）淨評分 534、回覆 114。今輪 +162（過 30）、回覆 +37；帖仍在、觀點仍以達哥／JFFT 價值觀對照為主，屬列表刷新而非留言轉向。熱門 API like 843−dislike 147＝淨評分 696。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（90 後／Gen Z 價值觀對照、青年文化偶像議論）。本頁仍見；本輪青年向帖以熱門卡淨評分最高入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對達哥／JFFT 公開內容原文；只記論壇對照。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171574/page/1",
+          "platform": "連登",
+          "author": "インキャ",
+          "author_url": "https://lihkg.com/profile/239195",
+          "published_at": null,
+          "observed_at": "2026-10-24T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API（thread/hot cat_id=1）對上該標題；卡淨評分 696；回覆取自熱門 API no_of_reply 151；author_url 由熱門／帖 API user_id。"
+        }
+      ],
+      "limits": "不把論壇對網紅價值觀對照當成世代調查結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-HSBC-SECURITY-LAYOFF",
+      "name": "良心顧主！香港匯豐銀行炒過百保安員",
+      "status": "tracking",
+      "seen": "樓主指匯豐為慳錢外判／炒過百保安，質疑社會責任得個講字。留言有人話香港業績最好卻每次裁員「香港優先」、賺錢香港出糧新加坡；亦有話低技術職位外判正常、AI／高清 CCTV 取代。末頁有人話銀行唔係開善堂、匯豐一年裁員一次罰錢一次。回覆 59。",
+      "replies": 59,
+      "viewpoints": [
+        {
+          "label": "批匯豐偽社會責任／優先炒港人",
+          "summary": "樓主同多留言嘲匯豐賺錢仍炒人、香港員工優先被裁、盈利升仍減福利。",
+          "share": "樓主＋帖內多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "外判／AI 取代合理",
+          "summary": "部分留言話無技術職位本來就外判、有 AI 同高清 cam 唔使請人瞓覺。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "銀行裁員屬常態",
+          "summary": "末頁有人話銀行手起刀落唔係開善堂、匯豐見報慣常係裁員同罰錢。",
+          "share": "末頁部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "122",
+          "comparison": "回覆 59；分數正代表讚多過踩，負代表踩多過讚；上一輪（12 點）淨評分 86、回覆 52。今輪 +36（過 30）、回覆 +7；帖仍在、觀點仍以裁員／外判同社會責任為主，屬列表刷新而非留言轉向。熱門 API like 126−dislike 4＝淨評分 122。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港經濟（銀行裁員／外判保安、勞動市場同企業社會責任議論）。本頁仍見；本輪經濟向以熱門卡淨評分入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對匯豐官方裁員／外判公告核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4171724/page/1",
+          "platform": "連登",
+          "author": "毒者萌宅",
+          "author_url": "https://lihkg.com/profile/37730",
+          "published_at": null,
+          "observed_at": "2026-10-24T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 122；回覆熱門 API 59；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把論壇裁員數字當成已核實公司公告。",
+      "next_steps": "下一輪再睇匯豐／保安裁員相關帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-CURRENT-SHEKKIPMEI-CAT-POISON",
+      "name": "石硤尾公園34歲狂徒毒貓晚上落網",
+      "status": "new",
+      "seen": "樓主轉本地新聞：石硤尾公園連環毒殺流浪貓，34 歲夜跑男子被義工埋伏截獲；警方搜出鼠藥及生果刀拘捕。留言多數多謝貓義工、怒罵疑犯喊同狡辯；末頁有人話呢類人危險、亦有少數把餵貓同毒貓扯埋一齊吵。回覆 61。",
+      "replies": 61,
+      "viewpoints": [
+        {
+          "label": "怒毒貓／撐義工報警",
+          "summary": "早頁多數多謝義工天眼埋伏、怒疑犯落淚狡辯同身上有刀藥。",
+          "share": "帖內多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "指疑犯危險／要嚴懲",
+          "summary": "末頁有人話呢啲人好危險、專登跑去落毒；亦有人想睇對質片。",
+          "share": "末頁部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "把餵貓同毒貓扯埋",
+          "summary": "末頁少數留言話冇人餵貓就唔會有人毒貓，同主流怒毒貓對槓。",
+          "share": "末頁少數",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "98",
+          "comparison": "回覆 61；分數正代表讚多過踩，負代表踩多過讚；上一輪（12 點）未見本帖入選（12 點時事為東張西望寵物診所帖，已不在今輪 33 卡）。熱門 API like 101−dislike 3＝淨評分 98。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事（本地公園毒殺流浪貓案、義工搜證同警方拘捕）。本頁仍見；本輪時事向以熱門卡位置靠前同淨評分入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對警方公報／動保組織原文逐句核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4171796/page/1",
+          "platform": "連登",
+          "author": "只因我能離不離",
+          "author_url": "https://lihkg.com/profile/102938",
+          "published_at": null,
+          "observed_at": "2026-10-24T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 98；回覆熱門 API 61；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把論壇轉述當成已定罪事實。",
+      "next_steps": "下一輪再睇石硤尾毒貓／動保跟進帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "MAINLAND-CTRIP-SCAM-PARK-DATA",
+      "name": "「警世」中國市公司攜程,trip.com汲疑將客戶賣比詐騙園區。",
+      "status": "tracking",
+      "seen": "樓主指 Threads 多人指控攜程／trip.com 疑將客戶資料賣去詐騙園區。留言多數講大陸個人資料廉價、銀行 IT／call center 外判、收數電話掌握全名住址；少數話老屈或質疑「多名網民」來源。末頁有人叫唔用 trip.com、亦有人話樓主等收律師信。回覆 61。",
+      "replies": 61,
+      "viewpoints": [
+        {
+          "label": "信洩密／賣客常見",
+          "summary": "多數留言話大陸資料幾舊水就買到、大公司同 call center 易洩、自己亦收過掌握住址嘅收數電話。",
+          "share": "帖內多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "質疑老屈／來源",
+          "summary": "少數留言話又玩老屈；末頁有人質疑「多名網民」係邊個定 AI。",
+          "share": "少數對槓",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "避用大陸品牌",
+          "summary": "有留言話唔用 trip.com 就無事；亦有連去其他詐騙客服新聞。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "88",
+          "comparison": "回覆 61；分數正代表讚多過踩，負代表踩多過讚；上一輪（12 點）淨評分 48、回覆 40。今輪 +40（過 30）、回覆 +21；帖仍在、觀點仍以資料洩露／詐騙園區指控為主，屬列表刷新而非留言轉向。熱門 API like 91−dislike 3＝淨評分 88。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "內地（中國上市公司／旅遊平台客戶資料同跨境詐騙園區指控）。本頁仍見；本輪內地向以熱門卡淨評分入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對攜程／執法機關聲明核對；論壇轉述 Threads 指控。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4171717/page/1",
+          "platform": "連登",
+          "author": "詐騙主腦習近平",
+          "author_url": "https://lihkg.com/profile/727799",
+          "published_at": null,
+          "observed_at": "2026-10-24T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 88；回覆熱門 API 61；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把論壇同 Threads 指控當成已核實公司犯罪事實。",
+      "next_steps": "下一輪再睇攜程／資料洩露相關帖仲在唔在熱門。"
+    }
+  ]
+}
