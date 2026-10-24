@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-24T16:00:00Z",
+    "end": "2026-10-24T17:00:00Z"
+  },
+  "generated_at": "2026-10-24T16:15:00Z",
+  "summary": [
+    "00 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 00:12 HKT）為準，共 38 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度排序以熱門卡淨評分為主。對照 21 點版：達哥／JFFT 帖與大快活盈喜帖本輪已不在熱門第 1 頁，青年改入選港漂碩士求職帖、經濟改入選外勞交稅帖；揸車／攜程／宏福苑三帖仍在。",
+    "香港時事：香港揸車 cut 線唔打燈帖轉向（回覆 171、分數 519；21 點 148／436）。內地：攜程／trip.com 疑洩客資料帖追蹤（回覆 95、分數 175；21 點 86／151）。",
+    "香港經濟：外勞洗唔洗交稅帖新入選（回覆 132、分數 38）。香港政府官員：宏福苑火災問責帖追蹤（回覆 59、分數 36；21 點 39／15）。青年：港漂讀碩士求職無果帖新入選（回覆 50、分數 -34）。",
+    "五類均有帖；每條都有熱門 API 實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "列表數據取自 api_v2/thread/hot?cat_id=1（吹水台熱門入口）；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-CURRENT-DRIVING-NO-SIGNAL",
+      "name": "香港揸車cut線唔打燈係咪正常？",
+      "status": "shift",
+      "seen": "樓主述連翔道被的士唔打燈 cut 線，點名貨車／的士／van／中港七人車常見唔打燈；留言多數罵唔打燈 on9、轉彎唔打亦常見，少數反向質疑「打燈畀人督油」。回覆 171。",
+      "replies": 171,
+      "viewpoints": [
+        {
+          "label": "批評唔打燈",
+          "summary": "留言多數指 cut 線／轉彎唔打燈係冇禮貌兼危險，巴士小巴都有類似情況。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反向質疑打燈無用",
+          "summary": "少數留言指打燈反被人督油，除迴旋處外不嬲畀油就 cut。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "519",
+          "comparison": "回覆 171（上一輪 148）；分數正代表讚多過踩；上一輪 436，本輪 519（+83）。變動大過 30，屬列表刷新（帖仍在、觀點仍以批評唔打燈／cut 線為主）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（本地揸車文化、道路安全議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171776/page/1",
+          "platform": "連登",
+          "author": "Fastreg",
+          "author_url": "https://lihkg.com/profile/109560",
+          "published_at": null,
+          "observed_at": "2026-10-24T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API api_v2/thread/hot?cat_id=1 對上該標題；回覆數與淨評分取自同一熱門卡。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-CTRIP-SCAM-PARK-DATA",
+      "name": "「警世」中國市公司攜程,trip.com汲疑將客戶賣比詐騙園區。",
+      "status": "tracking",
+      "seen": "樓主指多名網民於 Threads 指攜程／trip.com 疑將客戶資料賣去詐騙園區；留言多數講大陸／香港個資易買、八達通都賣、亦有人話收數公司掌握全名地址，少數指老屈。回覆 95。",
+      "replies": 95,
+      "viewpoints": [
+        {
+          "label": "個資外洩可信",
+          "summary": "留言多數指大陸個資便宜可買、銀行 IT／call center 外判令資料易外流，亦有人親述收數來電掌握住址。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "質疑老屈",
+          "summary": "少數留言指又玩老屈，未見硬證據。",
+          "share": "少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "175",
+          "comparison": "回覆 95（上一輪 86）；分數正代表讚多過踩；上一輪 151，本輪 175（+24）。變動未過 30，觀點仍以個資外洩／詐騙園區風險為主。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（內地上市公司／跨境旅遊平台個資與詐騙風險議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方原文或監管調查。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4171717/page/1",
+          "platform": "連登",
+          "author": "詐騙主腦習近平",
+          "author_url": "https://lihkg.com/profile/727799",
+          "published_at": null,
+          "observed_at": "2026-10-24T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API 對上該標題；回覆數與淨評分取自熱門卡。"
+        }
+      ],
+      "limits": "不把網民指控當成已證實事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-FOREIGN-LABOUR-TAX",
+      "name": "有冇人知外勞洗唔洗交稅？？",
+      "status": "new",
+      "seen": "樓主問外勞做保安是否都交稅／housing；留言討論薪俸稅 60 天規則、是否與本地人工相同、MPF／工傷／公立醫院收費，亦有人問香港人可否扮外勞。回覆 132。",
+      "replies": 132,
+      "viewpoints": [
+        {
+          "label": "應跟足稅同勞工法",
+          "summary": "有留言指源自香港收入就要交稅，逾 60 天免稅規則適用訪客；若要交稅雇主應跟足勞工指引。",
+          "share": "留言常見",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "待遇同本地人／福利疑問",
+          "summary": "討論外勞人工是否同本地人、點追稅、使唔使供 MPF、工傷同公立醫院價錢。",
+          "share": "留言常見",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "38",
+          "comparison": "回覆 132；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港經濟（外勞稅務／勞動成本同本地就業議論）。本頁仍見。大快活盈喜帖本輪已不在熱門第 1 頁，故改入選本帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對稅務局原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4171251/page/1",
+          "platform": "連登",
+          "author": "唔鍾意著衫",
+          "author_url": "https://lihkg.com/profile/672163",
+          "published_at": null,
+          "observed_at": "2026-10-24T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API 對上該標題；回覆數與淨評分取自熱門卡。"
+        }
+      ],
+      "limits": "不把留言稅務解讀當成官方法律意見。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-WANGFUK-ACCOUNTABILITY",
+      "name": "宏福苑火災問責｜議員：若無局長落台 恐動搖社會對政府信心及惹公務員不滿",
+      "status": "tracking",
+      "seen": "樓主轉述宏福苑火災報告將公布、議員促若無局長落台恐動搖信心；留言多數賭特首唔郁、指保安局／消防署長責任、反駁「跟足工序就無錯」唔符合政治委任原意。回覆 59。",
+      "replies": 59,
+      "viewpoints": [
+        {
+          "label": "要求政治問責",
+          "summary": "留言多數認為應有局長／署長級問責，單有行政問責會惹公務員不滿，並質疑「跟本子辦事」不足。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "預期無人落台",
+          "summary": "有留言賭特首唔會郁、副手都未必上到。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "36",
+          "comparison": "回覆 59（上一輪 39）；分數正代表讚多過踩；上一輪 15，本輪 36（+21）。變動未過 30，觀點仍以要求政治問責／局長落台為主。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港政府官員（宏福苑火災政治／行政問責、局長落台議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方報告或議員原文核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4171888/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-10-24T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API 對上該標題；回覆數與淨評分取自熱門卡。"
+        }
+      ],
+      "limits": "不把議員說法或留言問責對象當成已落實決定。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁，並留意報告公布後分數轉向。"
+    },
+    {
+      "issue_id": "YOUTH-MAINLAND-HK-MASTER-JOBLESS",
+      "name": "港漂讀碩士花30萬　畢業狂投600份CV無果　慨嘆：香港只歡迎4種人",
+      "status": "new",
+      "seen": "樓主轉述港漂碩士花約 30 萬讀書、投 600 份 CV 無果、距 IANG 續簽約 11 個月；留言多數踩樓主／外來畢業生資格、指碩士對見工無用，分數淨評分為負。回覆 50。",
+      "replies": 50,
+      "viewpoints": [
+        {
+          "label": "本地優先／質疑外來畢業生",
+          "summary": "留言多數指本地人都未搵到工、洗錢讀書唔等於其他人欠你，並指大陸背景易被一眼睇穿。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "簽證／求職現實",
+          "summary": "有留言指出 IANG 應屆可無條件逗留規則，質疑已玩過大半時間先緊張。",
+          "share": "部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-34",
+          "comparison": "回覆 50；分數負代表踩多過讚；上一輪未見。達哥／JFFT 世代價值觀帖本輪已不在熱門第 1 頁，故改入選本帖。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "青年（高等教育／畢業生求職、IANG 留港青年問題）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對小紅書原文或入境處規則核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4171220/page/1",
+          "platform": "連登",
+          "author": "會員271829",
+          "author_url": "https://lihkg.com/profile/271829",
+          "published_at": null,
+          "observed_at": "2026-10-24T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API 對上該標題；回覆數與淨評分取自熱門卡。"
+        }
+      ],
+      "limits": "不把單一網民經歷擴成整體就業數據；不寫真名。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
