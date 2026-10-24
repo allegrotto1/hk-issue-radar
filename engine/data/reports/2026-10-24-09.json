@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-24T01:00:00Z",
+    "end": "2026-10-24T02:00:00Z"
+  },
+  "generated_at": "2026-10-24T01:10:00Z",
+  "summary": [
+    "09 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 09:08 HKT）為準，共 34 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度排序以熱門卡淨評分為主。對照 08 點版：勞工處本地招聘會帖已不在今輪 34 卡。",
+    "本輪熱門頁未見香港政府官員類。青年：達哥／JFFT 世代價值觀帖追蹤（回覆 63、分數 228；08 點 59／134）。",
+    "香港時事：蔡天鳳碎屍案庭審化驗師供詞帖新入選（回覆 527、分數 108；同頁成田港航粵語帖分數 98 較低故改選本案）。內地：仁愛礁菲防長警告帖追蹤（回覆 142、分數 83）。",
+    "香港經濟：公屋戶權／綠表居屋帖追蹤（回覆 46、分數 16）。四類有帖、官員類缺；每條都有熱門 API 實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-DAGOR-JFFT-GEN-VALUES",
+      "name": "覺唔覺得達哥同JFFT分別代表90後同Gen Z 嘅相反價值觀",
+      "status": "tracking",
+      "seen": "樓主開帖對照達哥（心存善良、長板橋、正氣）同 JFFT（拒絕偽善、地獄梗、躺平擺爛）。早頁有人話兩邊同一班人、JFFT 以前都睇達哥大；亦有踩達哥爛口／扮嘢。末頁有家長視角話達哥正向、JFFT 教壞細路；亦有指達哥其實 80 後、JFFT 係 90 後，同有人話睇 JFFT 嘅同事懶散唔 take responsibility。回覆 63。",
+      "replies": 63,
+      "viewpoints": [
+        {
+          "label": "撐達哥正氣／長板橋",
+          "summary": "樓主同末頁部分留言將達哥寫成正向、有墨水、待人有得著；對照 JFFT 形象差天共地。",
+          "share": "樓主立場＋末頁部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "撐／理解 JFFT 或拒二元",
+          "summary": "早頁有人話兩邊同一圈；末頁有人話年齡對照唔出奇、各年代偶像多係上一代。",
+          "share": "帖內常見對照",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "批評懶散／教壞細路",
+          "summary": "末頁有人話 office 睇 JFFT 嘅人懶散逃避責任；亦有家長視角拒小朋友睇 JFFT。",
+          "share": "末頁部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "228",
+          "comparison": "回覆 63；分數正代表讚多過踩，負代表踩多過讚；上一輪（08 點）淨評分 134、回覆 59。今輪 +94（過 30）、回覆 +4；帖仍在、觀點仍以達哥／JFFT 價值觀對照為主，屬列表刷新而非留言轉向。熱門 API like 285−dislike 57＝淨評分 228。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（90 後／Gen Z 價值觀對照、青年文化偶像議論）。本頁仍見；本輪青年向帖以熱門卡淨評分最高入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對達哥／JFFT 公開內容原文；只記論壇對照。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171574/page/1",
+          "platform": "連登",
+          "author": "インキャ",
+          "author_url": "https://lihkg.com/profile/239195",
+          "published_at": null,
+          "observed_at": "2026-10-24T01:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API（thread/hot cat_id=1）對上該標題；卡淨評分 228；回覆取自熱門 API no_of_reply 63；author_url 由熱門／帖 API user_id。"
+        }
+      ],
+      "limits": "不把論壇對網紅價值觀對照當成世代調查結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CURRENT-ABBY-CHOI-TRIAL-FORENSICS",
+      "name": "蔡天鳳碎屍案｜雙腿連盤骨被放在雪櫃內 政府化驗師形容「骨上面有啲肉」 大部分人肉已被切掉 只有少部份人肉仍在骨上",
+      "status": "new",
+      "seen": "樓主轉庭審：控方傳召政府化驗師譚卓寧等，描述大埔龍尾村膠箱、閉路電視同骸骨「骨上面有啲肉」、大部分人肉已切掉。早頁多黑幽默／食家式留言；末頁有人懷疑被告手法熟練唔係第一次，亦有對照 Hello Kitty 案刑期話睇唔到唔坐終身。回覆 527。",
+      "replies": 527,
+      "viewpoints": [
+        {
+          "label": "黑幽默／食家式嘲",
+          "summary": "早頁多以「球哥兼職豬肉佬」「識食」等玩笑回應肢解細節。",
+          "share": "帖內早頁多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "懷疑累犯／手法熟練",
+          "summary": "末頁有人話劏人好似切菜、懷疑之前已走甩多次。",
+          "share": "末頁部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "刑期應對照重案",
+          "summary": "末頁有人提 Hello Kitty 案誤殺終身／上訴 18 年，話今次三父子睇唔到唔坐終身理由。",
+          "share": "末頁部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "108",
+          "comparison": "回覆 527；分數正代表讚多過踩，負代表踩多過讚；上一輪（08 點）未見本帖入選（08 點時事為成田港航粵語帖）。熱門 API like 114−dislike 6＝淨評分 108。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港時事（名媛碎屍案庭審同法證供詞）。本頁仍見；本輪時事向以熱門卡淨評分同回覆量高過同頁成田港航帖入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對法庭紀錄／傳媒庭審原文逐句核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4171157/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-24T01:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 108；回覆熱門 API 527；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把論壇玩笑同推測當成已核實案情或判決。",
+      "next_steps": "下一輪再睇碎屍案庭審相關帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "MAINLAND-SCS-PH-WARNS-CHINA",
+      "name": "菲律賓警告中國若對仁愛礁有任何行為將會開戰 並啟動美菲共同防衛條約",
+      "status": "tracking",
+      "seen": "樓主轉風暴媒體：菲防長警告若對馬德雷山號動武屬戰爭行為、登艦或觸發菲美共同防禦。留言一面嘲菲「尾巴搖狗」、叫快啲打；一面互指戇鳩／笑美國無著數先理。回覆 142。",
+      "replies": 142,
+      "viewpoints": [
+        {
+          "label": "嘲菲挑釁／撐硬手段",
+          "summary": "早頁末頁多嘲菲防長癲、僕人國指揮美國；有人叫快啲打柒菲律賓。",
+          "share": "帖內多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "質疑大國畏首畏尾",
+          "summary": "有留言問點解中國唔似美國對委內瑞拉／伊朗咁教訓，話大國畏首畏尾先冇人驚。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "反戰嗓門／美國利益論",
+          "summary": "末頁有「咪撚戇鳩」式反駁，亦有話冇著數美國佬唔會理。",
+          "share": "末頁少數對槓",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "83",
+          "comparison": "回覆 142；分數正代表讚多過踩，負代表踩多過讚；上一輪（08 點）淨評分 82、回覆 140。今輪 +1（未過 30）、回覆 +2；帖仍在、觀點仍以嘲菲／開戰吹水為主，屬列表刷新而非留言轉向。熱門 API like 93−dislike 10＝83。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（南海仁愛礁／中菲同美菲條約張力）。本頁仍見；延續 08 點同一帖追蹤。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對菲國防部記者會原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4171564/page/1",
+          "platform": "連登",
+          "author": "友勝武愛",
+          "author_url": "https://lihkg.com/profile/379267",
+          "published_at": null,
+          "observed_at": "2026-10-24T01:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 83；回覆熱門 API 142；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把論壇開戰吹水當成外交或軍事事實。",
+      "next_steps": "下一輪再睇南海／仁愛礁帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-ECON-PUBLIC-HOUSING-GREEN-FORM",
+      "name": "公屋男：父親拒交出戶權以綠表抽居屋     遭喝斥警告「諗都唔好諗！」",
+      "status": "tracking",
+      "seen": "樓主轉 Threads：年輕網民慨嘆父拒交公屋戶權用綠表抽居屋，錯失向上流。留言教 18 歲自己申請、一家人開二開三；亦有釐清租住公屋唔等於租置、笑想登基、同講轉居屋要睇公屋交通。末頁有人話啟陽開賣幾日已掃清、入表唔等於買到。回覆 46。",
+      "replies": 46,
+      "viewpoints": [
+        {
+          "label": "怪老一輩死守戶權",
+          "summary": "樓主同部分留言將拒交戶權寫成阻年輕一代綠表上車；有話公屋淪帝位。",
+          "share": "樓主立場＋部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "自己 18 歲申請／家庭策略",
+          "summary": "有留言話 18 歲申請係常識、老竇帶去申請、一開二二開三。",
+          "share": "帖內常見經驗分享",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "釐清公屋類型／入表唔等於買到",
+          "summary": "有人指租住公屋唔係租置；末頁有人笑登基、同講啟陽掃清光、入表唔等於買到。",
+          "share": "部分＋末頁",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "16",
+          "comparison": "回覆 46；分數正代表讚多過踩，負代表踩多過讚；上一輪（08 點）淨評分 11、回覆 39。今輪 +5（未過 30）、回覆 +7；帖仍在、觀點仍以戶權／綠表策略為主，屬列表刷新而非留言轉向。熱門 API like 17−dislike 1＝淨評分 16。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟（公屋戶權、綠表居屋同置業向上流動）。本頁仍見；延續 08 點同一帖追蹤。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對房委會綠表／戶籍規則原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4171637/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-24T01:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序 API 對上該標題；卡淨評分 16；回覆熱門 API 46；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把個案同論壇置業建議當成房屋政策結論。",
+      "next_steps": "下一輪再睇公屋／綠表／居屋相關帖仲在唔在熱門。"
+    }
+  ]
+}
