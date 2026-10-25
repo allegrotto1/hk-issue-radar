@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-25T07:00:00Z",
+    "end": "2026-10-25T08:00:00Z"
+  },
+  "generated_at": "2026-10-25T07:16:00Z",
+  "summary": [
+    "15 點快報。以 https://lihkg.com/category/1?order=hot 為準（瀏覽器左欄與 api_v2/thread/hot 列表一致；約 15:12–15:16 HKT）。列表淨評分＝讚減踩（like_count−dislike_count），回覆數取自帖文 no_of_reply／末頁最高樓層。熱度先按淨評分、再按回覆數。",
+    "香港時事：成田機場 Johnny Lee 帖追蹤（回覆 456、分數 560；12 點 426／535）。青年：人生意義帖追蹤（回覆 160、分數 306；12 點 130／229）。香港經濟：股評人沈振盈據報逝世新帖（回覆 319、分數 64；上一輪未見）。內地：紅果短劇「變蠢」警告帖（回覆 93、分數 26；上一輪未見）。",
+    "本輪熱門頁未見香港政府官員類。匯豐外判保安、鰂魚涌內地女助理、創科局長孫東三帖本輪已不在熱門第 1 頁，唔再跟。每條都有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "category/1?order=hot 瀏覽器列表與 api_v2/thread/hot 一致；吹水台 category API order=hot 回「沒有相關文章」。淨評分與回覆數取自 API 列表／帖文。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-CURRENT-NARITA-JOHNNY-LEE",
+      "name": "大鬧日本成田機場，1500蚊世紀大賤男，懷疑在南洋商業銀行工作，收入年過百萬，個仔讀國際學校的Johnny Lee",
+      "status": "tracking",
+      "seen": "樓主指成田機場「1500蚊」事件男主疑似南洋商業銀行 DCM Head Johnny Lee，稱其 LinkedIn 已被刪、求證是否同一人；留言多數罵斤斤計較／質疑銀行人品，亦有人玩梗嘲諷。同題投訴信範本帖（thread/4172048）仍在熱門。回覆 456。",
+      "replies": 456,
+      "viewpoints": [
+        {
+          "label": "羞辱／人肉求證",
+          "summary": "樓主與多數留言傾向坐實身份、公開羞辱斤斤計較；亦有人指刪帳作賊心虛。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "嘲諷銀行／階級",
+          "summary": "有留言諷銀行人品、有錢人最孤寒；另帖附投訴信範本擴散。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "560",
+          "comparison": "回覆 456；分數正代表讚多過踩；上一輪 535。分數變動未過 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港人外遊／成田機場糾紛與本地身份議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對銀行人事或機場紀錄核對；不把網民猜測當成已證實身份。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171883/page/1",
+          "platform": "連登",
+          "author": "詐騙主腦習近平",
+          "author_url": "https://lihkg.com/profile/727799",
+          "published_at": null,
+          "observed_at": "2026-10-25T07:16:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot）對上該標題；淨評分 560＝列表 like 572−dislike 12；回覆數取自帖文末頁最高樓層 456。"
+        }
+      ],
+      "limits": "不把標題或留言身份猜測當成事實；不寫真名照片以外的額外識別資料。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "YOUTH-LIFE-MEANING-HK",
+      "name": "香港人係咪唔適合探討人生意義",
+      "status": "tracking",
+      "seen": "樓主指問人生意義時香港人常答交租、供樓、唔好捱窮、唔好遲到；留言多數指生活壓力擠走意義討論，亦有人指向哲學／宗教或謂人生無意義。回覆 160。",
+      "replies": 160,
+      "viewpoints": [
+        {
+          "label": "壓力擠走意義討論",
+          "summary": "多數留言指有壓力就只諗交租返工，無所事事先會諗意義。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "應問專業／宗教",
+          "summary": "有留言建議問哲學系、僧人或直接答人生無意義。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "306",
+          "comparison": "回覆 160；分數正代表讚多過踩；上一輪 229。分數升逾 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "青年（青年價值觀／生活壓力下探討人生意義）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方青年調查或學術文獻核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4171895/page/1",
+          "platform": "連登",
+          "author": "摩擦升cup",
+          "author_url": "https://lihkg.com/profile/173357",
+          "published_at": null,
+          "observed_at": "2026-10-25T07:16:00Z",
+          "read_level": "opened",
+          "note": "熱門列表頁對上該標題；淨評分 306＝like 344−dislike 38；回覆數取自末頁最高樓層 160。"
+        }
+      ],
+      "limits": "不把討論區語氣擴成整體青年價值觀調查。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-SHUM-CHUN-YING-DEATH",
+      "name": "沈振盈據報街頭暈倒送院後逝世 享壽65歲",
+      "status": "new",
+      "seen": "樓主轉星島即時財經指股評人「沈大師」沈振盈據報於 10 月 24 日晚在律敦治醫院離世、享壽 65 歲，稱其近日街頭暈倒送院；留言有人 RIP／由細聽到大，亦有人批評其「燈」港股判斷、三高／煙，另有人調侃 MPF、港股點數。回覆 319。",
+      "replies": 319,
+      "viewpoints": [
+        {
+          "label": "悼念／世代記憶",
+          "summary": "部分留言寫 RIP、由細聽到大、前幾日仲聽緊台。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "批評燈神／健康嘲諷",
+          "summary": "有留言指害得人多、燈咗十几年、三高煲煙、港股四萬點支持者；亦有人調侃拎 MPF。",
+          "share": "留言常見",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "64",
+          "comparison": "回覆 319；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港經濟（股評人離世、港股／美股判斷議論）。本頁仍見（熱門前列另有同題財經台帖）。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對醫院或家屬公告核對；標題「據報」不作已證實死訊。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4172156/page/1",
+          "platform": "連登",
+          "author": "刁腫(私煮食）",
+          "author_url": "https://lihkg.com/profile/618109",
+          "published_at": null,
+          "observed_at": "2026-10-25T07:16:00Z",
+          "read_level": "opened",
+          "note": "熱門列表頁對上該標題；淨評分 64＝like 68−dislike 4；回覆數取自末頁最高樓層 319。"
+        }
+      ],
+      "limits": "不把網民對股評對錯的評價當成投資建議或官方死因。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-HONGUO-SHORT-DRAMA",
+      "name": "內地「紅果短劇」爆紅　專家警告長期追看易變蠢！　附大腦健康4大風險",
+      "status": "new",
+      "seen": "樓主轉述內地微短劇平台「紅果」活躍用戶號稱過億、專家警告高刺激短劇恐「變蠢」；留言多數嘲諷短劇／AI 劇令智商下降或指觀眾本來已蠢，亦有人辯稱生活壓抑睇爽劇正常、或討論內地影視產業跳過基礎難有軟實力。回覆 93。",
+      "replies": 93,
+      "viewpoints": [
+        {
+          "label": "嘲諷短劇／變蠢",
+          "summary": "留言常見把紅果、AI 爽劇同智商下降、多巴胺綁埋一齊嘲。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "辯護或產業評論",
+          "summary": "有留言指壓抑所以睇劇正常；另有長串討論內地難建立有影響力影視輸出。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "26",
+          "comparison": "回覆 93；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "內地（內地短劇平台／文化消費與「變蠢」健康論述）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對專家原文或平台用戶數據核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4171583/page/1",
+          "platform": "連登",
+          "author": "會員271829",
+          "author_url": "https://lihkg.com/profile/271829",
+          "published_at": null,
+          "observed_at": "2026-10-25T07:16:00Z",
+          "read_level": "opened",
+          "note": "熱門列表頁對上該標題；淨評分 26＝like 42−dislike 16；回覆數取自末頁最高樓層 93。"
+        }
+      ],
+      "limits": "不把標題健康警告或留言產業評論當成醫學／文宣結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
