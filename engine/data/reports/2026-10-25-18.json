@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-25T10:00:00Z",
+    "end": "2026-10-25T11:00:00Z"
+  },
+  "generated_at": "2026-10-25T10:12:00Z",
+  "summary": [
+    "18 點快報。以 https://lihkg.com/category/1?order=hot 為準（api_v2/thread/hot 列表；約 18:08–18:12 HKT）。列表淨評分＝讚減踩（like_count−dislike_count），回覆數取自帖文 no_of_reply。熱度先按淨評分、再按回覆數。",
+    "香港時事：成田機場 Johnny Lee 帖追蹤（回覆 478、分數 587；15 點 456／560）。青年：人生意義帖追蹤（回覆 176、分數 361；15 點 160／306）。香港經濟：沈振盈據報逝世帖追蹤（回覆 378、分數 104；15 點 319／64）。內地：京都鰻魚店中國貨冒日本產新帖（回覆 63、分數 64；上一輪未見）。香港政府官員：安柏苑 MiC 居屋滲水批房署帖（回覆 38、分數 5；上一輪未見）。",
+    "五類齊。紅果短劇帖本輪已不在熱門第 1 頁，唔再跟。每條都有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "category/1?order=hot 以 api_v2/thread/hot 為準；吹水台 category API order=hot 回「沒有相關文章」。淨評分與回覆數取自 API 列表／帖文 page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-CURRENT-NARITA-JOHNNY-LEE",
+      "name": "大鬧日本成田機場，1500蚊世紀大賤男，懷疑在南洋商業銀行工作，收入年過百萬，個仔讀國際學校的Johnny Lee",
+      "status": "tracking",
+      "seen": "樓主指成田機場「1500蚊」事件男主疑似南洋商業銀行 DCM Head Johnny Lee，稱其 LinkedIn 已被刪、求證是否同一人；留言多數罵斤斤計較／質疑銀行人品，亦有人玩梗嘲諷。同題投訴信範本帖（thread/4172048，回覆 178、分數 269）仍在熱門。回覆 478。",
+      "replies": 478,
+      "viewpoints": [
+        {
+          "label": "羞辱／人肉求證",
+          "summary": "樓主與多數留言傾向坐實身份、公開羞辱斤斤計較；亦有人指刪帳作賊心虛。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "嘲諷銀行／階級",
+          "summary": "有留言諷銀行人品、有錢人最孤寒；另帖附投訴信範本擴散。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "587",
+          "comparison": "回覆 478；分數正代表讚多過踩；上一輪 560。分數變動未過 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港人外遊／成田機場糾紛與本地身份議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對銀行人事或機場紀錄核對；不把網民猜測當成已證實身份。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171883/page/1",
+          "platform": "連登",
+          "author": "詐騙主腦習近平",
+          "author_url": "https://lihkg.com/profile/727799",
+          "published_at": null,
+          "observed_at": "2026-10-25T10:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot）對上該標題；淨評分 587＝列表 like 599−dislike 12；回覆數取自帖文 no_of_reply 478。"
+        }
+      ],
+      "limits": "不把標題或留言身份猜測當成事實；不寫真名照片以外的額外識別資料。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "YOUTH-LIFE-MEANING-HK",
+      "name": "香港人係咪唔適合探討人生意義",
+      "status": "tracking",
+      "seen": "樓主指問人生意義時香港人常答交租、供樓、唔好捱窮、唔好遲到；留言多數指生活壓力擠走意義討論，亦有人指向哲學／宗教或謂人生無意義。回覆 176。",
+      "replies": 176,
+      "viewpoints": [
+        {
+          "label": "壓力擠走意義討論",
+          "summary": "多數留言指有壓力就只諗交租返工，無所事事先會諗意義。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "應問專業／宗教",
+          "summary": "有留言建議問哲學系、僧人或直接答人生無意義。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "361",
+          "comparison": "回覆 176；分數正代表讚多過踩；上一輪 306。分數升逾 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "青年（青年價值觀／生活壓力下探討人生意義）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方青年調查或學術文獻核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4171895/page/1",
+          "platform": "連登",
+          "author": "摩擦升cup",
+          "author_url": "https://lihkg.com/profile/173357",
+          "published_at": null,
+          "observed_at": "2026-10-25T10:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot）對上該標題；淨評分 361＝列表 like 405−dislike 44；回覆數取自帖文 no_of_reply 176。"
+        }
+      ],
+      "limits": "不把討論區語氣擴成整體青年價值觀調查。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-SHUM-CHUN-YING-DEATH",
+      "name": "沈振盈據報街頭暈倒送院後逝世 享壽65歲",
+      "status": "tracking",
+      "seen": "樓主轉星島即時財經指股評人「沈大師」沈振盈據報離世、享壽 65 歲；留言有人 RIP／由細聽到大，亦有人批評其「燈」港股判斷、調侃 MPF／三萬點，另有相關帖「沈大師死撚左」「沉門弟子上水哀鳴」同頁。回覆 378。",
+      "replies": 378,
+      "viewpoints": [
+        {
+          "label": "悼念／世代記憶",
+          "summary": "部分留言寫 RIP、由細聽到大、前幾日仲聽緊台。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "批評燈神／港股嘲諷",
+          "summary": "有留言指害得人多、燈咗十几年、等三萬點、調侃拎 MPF；沉門相關帖亦有戲仿輓聯。",
+          "share": "留言常見",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "104",
+          "comparison": "回覆 378；分數正代表讚多過踩；上一輪 64。分數升逾 30，屬列表刷新（帖仍在、觀點未變；同題另帖 thread/4172158、4172155、4172187 仍在熱門）。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港經濟（股評人／港股討論圈）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對醫院或家屬聲明核對；標題「據報」保留。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4172156/page/1",
+          "platform": "連登",
+          "author": "刁腫(私煮食）",
+          "author_url": "https://lihkg.com/profile/618109",
+          "published_at": null,
+          "observed_at": "2026-10-25T10:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot）對上該標題；淨評分 104＝列表 like 110−dislike 6；回覆數取自帖文 no_of_reply 378。"
+        }
+      ],
+      "limits": "不把網民評價當成對死者的事實定性。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-KYOTO-EEL-CHINA-ORIGIN",
+      "name": "京都鰻魚名店中國貨冒日本產 藝人美食家「神舌破功」臉丟大了",
+      "status": "new",
+      "seen": "樓主轉述日本京都鰻魚店「土井活鰻」涉嫌以中國鰻魚冒充日本產、社長被捕，並牽連曾大力推薦的藝人美食家急忙下架內容；留言多數指普通人分不出產地、靠舖頭聲譽多過食材本質，亦有人將之比壽司材料。回覆 63。",
+      "replies": 63,
+      "viewpoints": [
+        {
+          "label": "聲譽大於口味",
+          "summary": "多數留言指普通人分唔出中日鰻魚，食舖頭聲譽多過食條魚本質。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "材料決定口味",
+          "summary": "有留言以壽司作比，指材料靚就好食、機握手握分別有限。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "64",
+          "comparison": "回覆 63；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "內地（中國產鰻魚冒充日本產相關報道討論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對日本警方或報道原文逐字核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4171802/page/1",
+          "platform": "連登",
+          "author": "要靜去自修室啦屌",
+          "author_url": "https://lihkg.com/profile/118346",
+          "published_at": null,
+          "observed_at": "2026-10-25T10:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot）對上該標題；淨評分 64＝列表 like 67−dislike 3；回覆數取自帖文 no_of_reply 63。"
+        }
+      ],
+      "limits": "不把單一食安案擴成整體產地刻板印象。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-GOV-MIC-HOUSING-LEAK-HD",
+      "name": "MiC居屋｜安柏苑有單位牆身疑滲水　業主指外牆執修手工參差　管理費$2000　批房署轉嫁監察責任　「好後悔買」",
+      "status": "new",
+      "seen": "樓主轉集誌社報道，安達臣道新居屋安柏苑／安樺苑入伙一年多外牆起泡裂痕，執修後業主仍指唔理想，批評房署轉嫁監察責任、管理費約 $2000；留言多數罵垃圾樓／新香港樓質，亦有人諷搬豪宅。回覆 38。",
+      "replies": 38,
+      "viewpoints": [
+        {
+          "label": "批樓質／後悔購入",
+          "summary": "多數留言指新 MiC 樓同期出問題、垃圾樓、無得避。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "批房署監察",
+          "summary": "標題與轉述指房署轉嫁監察責任；留言呼應對監管不滿。",
+          "share": "部分（與標題一致）",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "5",
+          "comparison": "回覆 38；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港政府官員（房署監察責任／居屋執修爭議）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對房屋署回應或屋苑檢測報告核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4172164/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-10-25T10:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot）對上該標題；淨評分 5＝列表 like 8−dislike 3；回覆數取自帖文 no_of_reply 38。"
+        }
+      ],
+      "limits": "不把單一屋苑投訴擴成全部居屋結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
