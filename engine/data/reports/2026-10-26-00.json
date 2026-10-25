@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-25T16:00:00Z",
+    "end": "2026-10-25T17:00:00Z"
+  },
+  "generated_at": "2026-10-25T16:15:00Z",
+  "summary": [
+    "00 點快報。吹水台 category API order=hot 回「沒有相關文章」；以 https://lihkg.com/category/1?order=hot 對應之 api_v2/thread/hot 列表為準（約 00:12–00:15 HKT）。列表淨評分＝讚減踩（like_count−dislike_count），回覆數取自列表 no_of_reply。熱度先按淨評分、再按回覆數。",
+    "香港經濟：沈振盈「仆街而死」細節帖追蹤（回覆 103、分數 206；21 點同題主帖 4172156 為 400／124，該帖已跌出熱門第 1 頁）。香港時事：廣州人談保留雙層電車帖新上榜（回覆 60、分數 120）。青年：居屋僅 25% 適合有小朋友家庭帖新上榜（回覆 57、分數 104）。內地：內地旅客蘭桂坊即晚回深圳帖新上榜（回覆 101、分數 80）。",
+    "本輪熱門頁未見香港政府官員類。21 點五帖（Johnny Lee／人生意義／沈主帖 4172156／京都鰻魚／安柏苑 MiC）均已跌出熱門第 1 頁。每條都有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "category/1?order=hot 以 api_v2/thread/hot 為準；吹水台 category API order=hot 回「沒有相關文章」。淨評分與回覆數取自 API 熱門列表；帖文 page/1–2 只用於觀點摘要。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-ECON-SHUM-CHUN-YING-DEATH",
+      "name": "大顛！沈振盈原來正宗仆街而死！",
+      "status": "tracking",
+      "seen": "樓主轉述沈振盈於灣仔聚會後往的士站途中街頭向前晕倒、臉朝下一度滾動後送院的說法，標題強調「正宗仆街而死」；留言多數玩梗中風／心臟病／夠肥／未能見三萬或四萬點，亦有人指睇節目時太激動遲早出事，同題沉門哀鳴帖（thread/4172187，回覆 96、分數 66）仍在熱門。回覆 103。",
+      "replies": 103,
+      "viewpoints": [
+        {
+          "label": "死因／身體調侃",
+          "summary": "留言常見猜中風、心臟病、又煙又酒又肥，並以「仆街」「滾動」字眼玩梗。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "港股／燈神梗",
+          "summary": "有留言諷未能見證三萬或四萬點、同恒指一樣、與美股比較，延續沉門燈神討論。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "206",
+          "comparison": "回覆 103；分數正代表讚多過踩；上一輪同題主帖 thread/4172156 淨評分 124（回覆 400），該帖本輪已跌出熱門第 1 頁；本輪改以仍在熱門的 thread/4172219 為準（淨評分 206）。分數變動逾 30 且換帖，屬同題熱門焦點轉移（觀點仍以調侃死因／燈神為主）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（股評人／港股討論圈）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對醫院或家屬聲明核對；標題與留言細節保留「據報／消息稱」性質。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172219/page/1",
+          "platform": "連登",
+          "author": "毒者萌宅",
+          "author_url": "https://lihkg.com/profile/37730",
+          "published_at": null,
+          "observed_at": "2026-10-25T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 206＝列表 like 231−dislike 25；回覆數取自列表 no_of_reply 103。"
+        }
+      ],
+      "limits": "不把網民評價或死因猜測當成對死者的事實定性。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CURRENT-GZ-TRAM-KEEP",
+      "name": "有廣州人認為香港雙層電車應該永遠保留下去",
+      "status": "new",
+      "seen": "樓主貼廣州網民指香港雙層電車應永久保留的討論截圖；留言有人嘲「天龍人品味／垃圾車」、建議可保留但要 upgrade、亦有人指部分電車已換交流電牽引、批評「非遺」說法係一知半解，另有留言謂「廣州人仲清醒過某部份香港人」。回覆 60。",
+      "replies": 60,
+      "viewpoints": [
+        {
+          "label": "保留但要升級",
+          "summary": "部分留言認同保留電車符號，但嫌焗熱、慢、應引入新技術或 upgrade。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "嘲品味／非遺話術",
+          "summary": "有留言斥天龍品味、垃圾車，或指把仍在營運嘅電車講成非遺係大陸仔一知半解。",
+          "share": "留言常見",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "120",
+          "comparison": "回覆 60；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港時事（本地交通／城市符號討論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對截圖原討論或電車公司官方計劃核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4172019/page/1",
+          "platform": "連登",
+          "author": "花雨落",
+          "author_url": "https://lihkg.com/profile/293648",
+          "published_at": null,
+          "observed_at": "2026-10-25T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 120＝列表 like 125−dislike 5；回覆數取自列表 no_of_reply 60。"
+        }
+      ],
+      "limits": "不把單一截圖討論擴成廣州或香港整體民意。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "YOUTH-HOS-FAMILY-FLAT-MIX",
+      "name": "原來今年居屋只有25%單位適合有小朋友家庭",
+      "status": "new",
+      "seen": "樓主指一對夫婦加一個小朋友最少要兩房，但新一期居屋兩房約僅 25%，質疑一邊鼓勵生育一邊起細單位；留言多數罵狗屋呎數、一房多餘、政府 on9，亦有人指中產唔想生／買居屋又冇資格、或謂細單位好賣係 KPI。回覆 57。",
+      "replies": 57,
+      "viewpoints": [
+        {
+          "label": "政策自相矛盾／唔生",
+          "summary": "多數留言指鼓勵生育與居屋戶型比例衝突，直言比我都唔生、做最後一代。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "戶型／賣樓邏輯",
+          "summary": "有留言指一房多餘、細單位好賣／衝供應 KPI，或話可以自己間房、等以後單位大少少。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "104",
+          "comparison": "回覆 57；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "青年（青年家庭住屋／生育誘因與居屋戶型）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對房委會最新一期居屋戶型比例官方數字逐項核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4172305/page/1",
+          "platform": "連登",
+          "author": "會員名稱不存在",
+          "author_url": "https://lihkg.com/profile/399652",
+          "published_at": null,
+          "observed_at": "2026-10-25T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 104＝列表 like 107−dislike 3；回覆數取自列表 no_of_reply 57。"
+        }
+      ],
+      "limits": "不把討論區語氣擴成整體青年生育意願調查。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-LKF-HALLOWEEN-DAYTRIP",
+      "name": "TVB News 內地旅客蘭桂坊遊玩完後即晚回深圳：「體驗過就不再來了！」",
+      "status": "new",
+      "seen": "樓主轉 TVB News：萬聖節周末有內地旅客蘭桂坊遊玩後即晚回深圳，訪問稱「體驗過就不再來了，人太多了」；留言多數嘲窮遊／打卡當體驗／傳媒剪裁，亦有人指大陸禁 Halloween 先過嚟、或話唔使咁串因為好多旅行都係一日遊。回覆 101。",
+      "replies": 101,
+      "viewpoints": [
+        {
+          "label": "嘲窮遊／假體驗",
+          "summary": "多數留言指只係行斜路睇同胞、唔飲酒唔入吧、小紅書 show off，體驗完唔再嚟唔出奇。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "媒體剪裁／唔好太串",
+          "summary": "有留言罵傳媒專搵講「好玩但唔再嚟」的受訪者；亦有人指一日遊好常見、唔使咁串。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "80",
+          "comparison": "回覆 101；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "內地（內地旅客在港 consum／觀感）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對 TVB 原文逐字或旅客樣本代表性核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4172235/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-25T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 80＝列表 like 92−dislike 12；回覆數取自列表 no_of_reply 101。"
+        }
+      ],
+      "limits": "不把單一新聞訪問擴成全部內地旅客結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
