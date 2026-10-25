@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-25T01:00:00Z",
+    "end": "2026-10-25T02:00:00Z"
+  },
+  "generated_at": "2026-10-25T01:15:00Z",
+  "summary": [
+    "09 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 09:15 HKT）為準，共 36 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度排序以熱門卡淨評分為主。對照 08 點版：五類原帖本輪仍在熱門第 1 頁，全部追蹤。",
+    "香港時事：成田機場 Johnny Lee 帖追蹤（回覆 391、分數 506；08 點 380／491）。香港經濟：匯豐外判保安帖追蹤（回覆 79、分數 194；08 點 76／189）。青年：人生意義帖追蹤（回覆 80、分數 145；08 點 75／129）。",
+    "內地：鰂魚涌內地女助理倒斃帖追蹤（回覆 119、分數 121；08 點 116／115）。香港政府官員：創科局長孫東科技城撥款帖追蹤（回覆 75、分數 -95；08 點 58／-82）。",
+    "五類均有帖；每條都有熱門 API 實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "列表數據取自 api_v2/thread/hot?cat_id=1（吹水台熱門入口）；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-CURRENT-NARITA-JOHNNY-LEE",
+      "name": "大鬧日本成田機場，1500蚊世紀大賤男，懷疑在南洋商業銀行工作，收入年過百萬，個仔讀國際學校的Johnny Lee",
+      "status": "tracking",
+      "seen": "樓主指成田機場「1500蚊」事件男主疑似南洋商業銀行 DCM Head Johnny Lee，稱其 LinkedIn 已被刪、求證是否同一人；留言多數罵乞兒／孤寒、質疑銀行人品，亦有人玩梗嘲諷。回覆 391。",
+      "replies": 391,
+      "viewpoints": [
+        {
+          "label": "羞辱／人肉求證",
+          "summary": "樓主與多數留言傾向坐實身份、公開羞辱斤斤計較；亦有人指刪帳作賊心虛。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "嘲諷銀行／階級",
+          "summary": "有留言諷「乞兒都可以做銀行」、有錢人最孤寒。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "506",
+          "comparison": "回覆 391；分數正代表讚多過踩；上一輪 491。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港人外遊／成田機場糾紛與本地身份議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對銀行人事或機場紀錄核對；不把網民猜測當成已證實身份。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171883/page/1",
+          "platform": "連登",
+          "author": "詐騙主腦習近平",
+          "author_url": "https://lihkg.com/profile/727799",
+          "published_at": null,
+          "observed_at": "2026-10-25T01:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API api_v2/thread/hot?cat_id=1 對上該標題；回覆數與淨評分取自同一熱門卡；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+        }
+      ],
+      "limits": "不把標題或留言身份猜測當成事實；不寫真名照片以外的額外識別資料。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-HSBC-SECURITY-OUTSOURCE",
+      "name": "良心顧主！香港匯豐銀行炒過百保安員",
+      "status": "tracking",
+      "seen": "樓主指匯豐為慳錢外判保安、社會責任得個講字；留言多數嘲「賺大錢先要外判無技術位」、亦有人指政府保安都外判、高清 CAM／AI 減少人力。回覆 79。",
+      "replies": 79,
+      "viewpoints": [
+        {
+          "label": "批評大行慳錢卸責",
+          "summary": "留言多數指匯豐賺錢仍外判保安、社會責任是口號。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "技術替代／行業常態",
+          "summary": "有留言指 AI／高清鏡頭減少人手，低技術外判是常態，政府亦然。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "194",
+          "comparison": "回覆 79；分數正代表讚多過踩；上一輪 189。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港經濟（銀行裁員／外判保安、本地就業與企業社會責任議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對匯豐官方聲明或討論區原文核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4171724/page/1",
+          "platform": "連登",
+          "author": "毒者萌宅",
+          "author_url": "https://lihkg.com/profile/37730",
+          "published_at": null,
+          "observed_at": "2026-10-25T01:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API api_v2/thread/hot?cat_id=1 對上該標題；回覆數與淨評分取自同一熱門卡；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+        }
+      ],
+      "limits": "不把單一帖文擴成整間銀行人力政策結論。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "YOUTH-LIFE-MEANING-HK",
+      "name": "香港人係咪唔適合探討人生意義",
+      "status": "tracking",
+      "seen": "樓主指問香港人人生意義多數答交租／供樓／唔好遲到；留言多數指生活壓力令討論無謂、應問哲學系或僧人，亦有人答人生無意義／生仔。回覆 80。",
+      "replies": 80,
+      "viewpoints": [
+        {
+          "label": "壓力擠走意義討論",
+          "summary": "多數留言指有壓力就只諗交租返工，無所事事先會諗意義。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "應問專業／宗教",
+          "summary": "有留言建議問哲學系、僧人或直接答人生無意義。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "145",
+          "comparison": "回覆 80；分數正代表讚多過踩；上一輪 129。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "青年（青年價值觀／生活壓力下探討人生意義）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對學術或民調核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4171895/page/1",
+          "platform": "連登",
+          "author": "摩擦升cup",
+          "author_url": "https://lihkg.com/profile/173357",
+          "published_at": null,
+          "observed_at": "2026-10-25T01:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API api_v2/thread/hot?cat_id=1 對上該標題；回覆數與淨評分取自同一熱門卡；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+        }
+      ],
+      "limits": "不把討論區語氣擴成整體青年價值觀調查。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-QUARRYBAY-AIDE-DEATH",
+      "name": "鰂魚涌27歲議員內地女助理倒斃英皇道單位內  業主揭發報警",
+      "status": "tracking",
+      "seen": "樓主轉述鰂魚涌英皇道單位發現27歲內地來港議員助理倒斃、案件暫列屍體發現；留言多數扯外勞／議員助理用工，亦有人致 RIP。回覆 119。",
+      "replies": 119,
+      "viewpoints": [
+        {
+          "label": "外勞／助理用工議論",
+          "summary": "留言常見把事件扯到議員助理用外勞、國際外勞中心等說法。",
+          "share": "留言常見",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "哀悼／等待驗屍",
+          "summary": "有留言只寫 RIP，死因仍待驗屍。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "121",
+          "comparison": "回覆 119；分數正代表讚多過踩；上一輪 115。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "內地（內地來港人士／議員助理跨境人事案件議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對警方或報導原文核對；死因未明。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4171954/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-25T01:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API api_v2/thread/hot?cat_id=1 對上該標題；回覆數與淨評分取自同一熱門卡；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+        }
+      ],
+      "limits": "不把死因或用工說法當成已證實事實；不寫真名。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-SUN-DONG-TECH-CITY",
+      "name": "創科局長孫東：100億元只夠起三幢科技城樓，之後一定要問立會拎錢撥款",
+      "status": "tracking",
+      "seen": "樓主轉述創科局長孫東稱約90億用於開發土地建樓、100億「就蓋3幢樓」、之後仍要向立會攞錢；留言多數批評燒錢／搶錢、指溶入國家大局、質疑上任以來創科撥款成效。回覆 75。",
+      "replies": 75,
+      "viewpoints": [
+        {
+          "label": "批評燒錢／再撥款",
+          "summary": "留言多數指同西九鬥燒錢、唔係攞係搶、質疑起完未必好用。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "質疑創科政績",
+          "summary": "有留言估算上任以來創科相關資金累計數百億，問究竟做了什麼。",
+          "share": "部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-95",
+          "comparison": "回覆 75；分數負代表踩多過讚；上一輪 -82。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港政府官員（創科局長孫東、新田科技城撥款／立會問款議論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對局長原文或立會文件核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4171921/page/1",
+          "platform": "連登",
+          "author": "移民保全家",
+          "author_url": "https://lihkg.com/profile/132380",
+          "published_at": null,
+          "observed_at": "2026-10-25T01:15:00Z",
+          "read_level": "opened",
+          "note": "熱門 API api_v2/thread/hot?cat_id=1 對上該標題；回覆數與淨評分取自同一熱門卡；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+        }
+      ],
+      "limits": "不把留言金額估算當成官方審計數字。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
