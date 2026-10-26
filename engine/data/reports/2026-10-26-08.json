@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-26T00:00:00Z",
+    "end": "2026-10-26T01:00:00Z"
+  },
+  "generated_at": "2026-10-26T00:15:00Z",
+  "summary": [
+    "08 點早上快報。以熱門 API api_v2/thread/hot?cat_id=1（約 08:13–08:15 HKT）為準，共 33 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "香港時事：Johnny Lee 成田機場帖重返熱門並居首（回覆 541、分數 640；00 點未見，昨日 08 為 380／491）。香港經濟：沈振盈「仆街而死」細節帖續追（回覆 121、分數 275；00 點 103／206）。內地：蘭桂坊即晚回深圳帖續追（回覆 113、分數 94；00 點 101／80）。青年：出生香港好彩定唔好彩帖新上榜（回覆 143、分數 37）。",
+    "本輪熱門頁未見香港政府官員類。00 點廣州雙層電車／居屋 25% 適合有小朋友家庭兩帖本輪已跌出熱門第 1 頁。每條都有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-CURRENT-NARITA-JOHNNY-LEE",
+      "name": "大鬧日本成田機場，1500蚊世紀大賤男，懷疑在南洋商業銀行工作，收入年過百萬，個仔讀國際學校的Johnny Lee",
+      "status": "tracking",
+      "seen": "樓主指大鬧成田機場、被稱為「1500蚊世紀大賤男」的 Johnny Lee，懷疑任職南洋商業銀行 DCM Head、收入年過百萬、兒子讀國際學校，並稱其 LinkedIn 已被刪、尋求連登確認身份；留言以乞兒／孤寒有錢人、坐實賤男、銀行投訴等嘲諷為主，亦有人跟進投訴信帖。同題續帖 thread/4172048（淨評分 332、回覆 233）仍在熱門。回覆 541。",
+      "replies": 541,
+      "viewpoints": [
+        {
+          "label": "嘲諷／坐實身份",
+          "summary": "留言多數以乞兒、孤寒、刪 LinkedIn 作賊心虛等嘲諷，認為已坐實係當日機場事主。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "投訴／跟進行動",
+          "summary": "部分留言討論向銀行投訴、跟進極品西客續帖與投訴信範本。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "640",
+          "comparison": "回覆 541；分數正代表讚多過踩；上一輪（00）熱門第 1 頁未見本帖；昨日 08 同帖淨評分 491、回覆 380。分數變動逾 30，屬列表刷新後重返熱門（觀點仍以嘲諷西客／跟進投訴為主）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港人外遊爭議／機場行為討論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對銀行或當事人以官方渠道核對身份；僅記錄連登熱門討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171883/page/1",
+          "platform": "連登",
+          "author": "詐騙主腦習近平",
+          "author_url": "https://lihkg.com/profile/727799",
+          "published_at": null,
+          "observed_at": "2026-10-26T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 640＝列表 like 652−dislike 12；回覆數取自列表 no_of_reply 541。"
+        }
+      ],
+      "limits": "不把網民指控或猜測身份當成已核實事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-SHUM-CHUN-YING-DEATH",
+      "name": "大顛！沈振盈原來正宗仆街而死！",
+      "status": "tracking",
+      "seen": "樓主轉述沈振盈於灣仔聚會後往的士站途中街頭向前晕倒、臉朝下一度滾動後送院的說法，標題強調「正宗仆街而死」；留言多數玩梗中風／心臟病／夠肥／睇節目太激動，同題沉門哀鳴帖（thread/4172187，回覆 109、分數 80）仍在熱門。回覆 121。",
+      "replies": 121,
+      "viewpoints": [
+        {
+          "label": "死因／身體調侃",
+          "summary": "留言常見猜中風、心臟病、又煙又酒又肥，並以「仆街」「滾動」字眼玩梗。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "港股／燈神梗",
+          "summary": "有留言延續沉門弟子、港股討論圈對「大師」的調侃。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "275",
+          "comparison": "回覆 121；分數正代表讚多過踩；上一輪同帖淨評分 206（回覆 103）。分數變動逾 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港經濟（股評人／港股討論圈）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對醫院或家屬聲明核對；標題與留言細節保留「據報／消息稱」性質。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4172219/page/1",
+          "platform": "連登",
+          "author": "毒者萌宅",
+          "author_url": "https://lihkg.com/profile/37730",
+          "published_at": null,
+          "observed_at": "2026-10-26T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 275＝列表 like 300−dislike 25；回覆數取自列表 no_of_reply 121。"
+        }
+      ],
+      "limits": "不把網民評價或死因猜測當成對死者的事實定性。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-LKF-HALLOWEEN-DAYTRIP",
+      "name": "TVB News 內地旅客蘭桂坊遊玩完後即晚回深圳：「體驗過就不再來了！」",
+      "status": "tracking",
+      "seen": "樓主轉載 TVB News：萬聖節周末有內地旅客蘭桂坊遊玩後即晚回深圳，受訪者稱「體驗過就不再來了」並指人多；留言多數嘲諷旅客窮／行斜路就叫體驗、質疑傳媒剪輯，亦有人指小紅書 show off。回覆 113。",
+      "replies": 113,
+      "viewpoints": [
+        {
+          "label": "嘲諷旅客／體驗質素",
+          "summary": "留言常見指窮、只行斜路睇同胞、唔入吧，質疑「體驗過」含金量。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "傳媒剪輯質疑",
+          "summary": "有留言指香港傳媒專搵「香港好玩」受訪者，質疑報導角度。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "94",
+          "comparison": "回覆 113；分數正代表讚多過踩；上一輪同帖淨評分 80（回覆 101）。分數變動未逾 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（內地旅客在港 consum／觀感）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "新聞引述已見於帖內連結；未獨立覆核受訪者原話。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4172235/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-26T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 94＝列表 like 107−dislike 13；回覆數取自列表 no_of_reply 113。"
+        }
+      ],
+      "limits": "不把個別受訪者說法推成全部內地旅客態度。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "YOUTH-BORN-HK-LUCK",
+      "name": "其實出生喺香港係好彩定唔好彩",
+      "status": "new",
+      "seen": "樓主問出生喺香港係好彩定唔好彩：指一般家庭衣食無憂、有教育機會，但快樂指數低、童年比較同補習多；留言多數認為以全球計屬 easy mode／有底、可移民或北上 FIRE，亦有人強調出身地區與是否適合讀書嘅個體差異。回覆 143。",
+      "replies": 143,
+      "viewpoints": [
+        {
+          "label": "整體算好彩",
+          "summary": "留言多數指收入稅制、教育、選擇多，以全球人口計出世香港算幸運。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "出身／路徑差異",
+          "summary": "有留言指山頂同深水埗差很遠，唔適合讀書者可能喺藍領待遇更好嘅地方更啱。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "37",
+          "comparison": "回覆 143；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "青年（青年人生出路／教育與快樂指數討論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "屬態度討論帖，非政策原文核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4172480/page/1",
+          "platform": "連登",
+          "author": "大雄維尼不換肩",
+          "author_url": "https://lihkg.com/profile/530434",
+          "published_at": null,
+          "observed_at": "2026-10-26T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 37＝列表 like 51−dislike 14；回覆數取自列表 no_of_reply 143。"
+        }
+      ],
+      "limits": "不把個別心情帖推成全港青年代表觀點。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
