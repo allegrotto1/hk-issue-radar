@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-26T10:00:00Z",
+    "end": "2026-10-26T11:00:00Z"
+  },
+  "generated_at": "2026-10-26T10:15:00Z",
+  "summary": [
+    "18 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 18:12 HKT）為準，共 37 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "香港時事：Johnny Lee 成田機場帖續居前列（回覆 596、分數 686；15 點 581／675）。青年：出生香港好彩定唔好彩帖續追並再升（回覆 557、分數 394；15 點 505／327）。香港經濟：沈振盈「街頭暈倒送院後逝世」帖上榜（回覆 231、分數 114）；15 點 Raga「永遠的沈大師」帖仍在本頁但熱度較低，本輪改以更高分逝世報道為經濟主條。香港政府官員：食環衛生督察凌浚庭被同事追討六合彩彩金帖上榜（回覆 206、分數 74）；15 點張國鈞「香港加深圳」帖已跌出熱門第 1 頁。內地：央視點名《Vivant》辱華日劇帖上榜（回覆 43、分數 27）；15 點紅果短劇帖已跌出本頁。",
+    "五類齊。每條都有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-CURRENT-NARITA-JOHNNY-LEE",
+      "name": "大鬧日本成田機場，1500蚊世紀大賤男，懷疑在南洋商業銀行工作，收入年過百萬，個仔讀國際學校的Johnny Lee",
+      "status": "tracking",
+      "seen": "樓主指大鬧成田機場、被稱為「1500蚊世紀大賤男」的 Johnny Lee，懷疑任職南洋商業銀行 DCM Head、收入年過百萬、兒子讀國際學校，並稱其 LinkedIn 已被刪、尋求連登確認身份；留言仍以乞兒／孤寒有錢人、坐實賤男、要幫佢出名、向銀行投訴等嘲諷同跟進為主。回覆 596。",
+      "replies": 596,
+      "viewpoints": [
+        {
+          "label": "嘲諷／坐實身份",
+          "summary": "留言多數以乞兒、孤寒、刪 LinkedIn 作賊心虛、年收百萬卻計較 1500 蚊機票等嘲諷，認為已坐實係當日機場事主。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "投訴／跟進行動",
+          "summary": "部分留言討論向銀行查詢或投訴、要幫佢出名；亦有少數叫停起底語氣。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "686",
+          "comparison": "回覆 596；分數正代表讚多過踩；上一輪（15）同帖淨評分 675、回覆 581。分數變動未逾 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港人外遊爭議／機場行為討論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對銀行或當事人以官方渠道核對身份；僅記錄連登熱門討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171883/page/1",
+          "platform": "連登",
+          "author": "詐騙主腦習近平",
+          "author_url": "https://lihkg.com/profile/727799",
+          "published_at": null,
+          "observed_at": "2026-10-26T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 686＝列表 like 698−dislike 12；回覆數取自列表 no_of_reply 596。"
+        }
+      ],
+      "limits": "不把網民指控或猜測身份當成已核實事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "YOUTH-BORN-HK-LUCK",
+      "name": "其實出生喺香港係好彩定唔好彩",
+      "status": "tracking",
+      "seen": "樓主問出生喺香港係好彩定唔好彩：指一般家庭衣食無憂、有教育機會，但快樂指數低、童年比較同補習多；留言多數認為以全球計屬 easy mode／有底、可移民或北上 FIRE，亦有人強調出身地區與是否適合讀書嘅個體差異。回覆 557。",
+      "replies": 557,
+      "viewpoints": [
+        {
+          "label": "整體算好彩",
+          "summary": "留言多數指收入稅制、教育、選擇多，以全球人口計出世香港算幸運。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "出身／路徑差異",
+          "summary": "有留言指山頂同深水埗差很遠，唔適合讀書者可能喺藍領待遇更好嘅地方更啱。",
+          "share": "部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "394",
+          "comparison": "回覆 557；分數正代表讚多過踩；上一輪（15）同帖淨評分 327、回覆 505。分數變動逾 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "青年（青年人生出路／教育與快樂指數討論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "屬態度討論帖，非政策原文核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4172480/page/1",
+          "platform": "連登",
+          "author": "大雄維尼不換肩",
+          "author_url": "https://lihkg.com/profile/530434",
+          "published_at": null,
+          "observed_at": "2026-10-26T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 394＝列表 like 423−dislike 29；回覆數取自列表 no_of_reply 557。"
+        }
+      ],
+      "limits": "不把個別心情帖推成全港青年代表觀點。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-SHUM-CHUN-YING-DEATH",
+      "name": "沈振盈據報街頭暈倒送院後逝世-享壽65歲",
+      "status": "new",
+      "seen": "樓主轉述沈振盈據報街頭暈倒送院後逝世、享壽 65 歲；留言夾雜港股「等 30000 點」、嘲笑／怨懟財演害老人家棺材本、亦有人指唔好毒咒同觀點唔同笑下咪算。15 點經濟主條為 Raga 紀念帖，本輪改以更高分逝世報道為主。回覆 231。",
+      "replies": 231,
+      "viewpoints": [
+        {
+          "label": "嘲諷／怨懟財演",
+          "summary": "留言常見以等恒指三萬點、害老人家跟大 C、財演水身家等嘲諷或怨懟。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "勸止過火／存疑",
+          "summary": "有留言指唔知真假、或認為觀點唔同笑下咪算、唔好毒咒人落地獄。",
+          "share": "部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "114",
+          "comparison": "回覆 231；分數正代表讚多過踩；上一輪未見此帖為經濟主條（15 點經濟類為 Raga「永遠的沈大師」thread/4172521，本頁仍見但淨評分較低，本輪改以本帖）。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港經濟（股評人／港股討論圈離世話題）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "死因與送院細節見於帖內轉述；未對醫院或家屬聲明核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4172158/page/1",
+          "platform": "連登",
+          "author": "牧師",
+          "author_url": "https://lihkg.com/profile/205377",
+          "published_at": null,
+          "observed_at": "2026-10-26T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 114＝列表 like 117−dislike 3；回覆數取自列表 no_of_reply 231。"
+        }
+      ],
+      "limits": "不把網民評價或嘲諷當成對死者的事實定性。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-GOV-FEHD-MARK-SIX-LAWSUIT",
+      "name": "食環衛生督察凌浚庭被14名同事入稟高院追討2891萬六合彩彩金！！！",
+      "status": "new",
+      "seen": "樓主轉述食環署衛生督察凌浚庭被 14 名同事入稟高院，追討據稱應按出資比例分配的六合彩彩金（報道數字約二千多萬）；留言多數嘲笑夾錢買飛／埋堆文化變官司、質疑公務員得閒程度，亦有人想睇法律機會同政府會否介入。回覆 206。",
+      "replies": 206,
+      "viewpoints": [
+        {
+          "label": "嘲諷夾錢／公務員風氣",
+          "summary": "留言多數笑食環同事夾錢買飛變高院訴訟、講 hea、埋堆文化中獎後反臉。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "法律／追討正當性",
+          "summary": "有留言認真問告得入機會、認為中咗大額彩金值得花時間追討。",
+          "share": "部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "74",
+          "comparison": "回覆 206；分數正代表讚多過踩；上一輪未見（15 點官員類為張國鈞「香港加深圳」帖，已跌出本頁）。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港政府官員（食環署公務員／高院追討彩金爭議）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "入稟細節見於帖內轉述；未獨立覆核法院文件原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4172620/page/1",
+          "platform": "連登",
+          "author": "不賣隔夜肉",
+          "author_url": "https://lihkg.com/profile/47226",
+          "published_at": null,
+          "observed_at": "2026-10-26T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 74＝列表 like 76−dislike 2；回覆數取自列表 no_of_reply 206。"
+        }
+      ],
+      "limits": "不把報道指控當成已審結事實；不寫真名以外的額外身份資料。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-CCTV-VIVANT-DRAMA",
+      "name": "又要煲劇了！央視點名批評日星堺雅人主演的《Vivant》為辱華日劇！",
+      "status": "new",
+      "seen": "樓主轉述央視點名批評日星堺雅人主演日劇《Vivant》為辱華、稱「認知投毒」；留言多數反而當推介、話多謝推廣立即搵 S2 睇，亦有人以抗日神劇、辱華遲早會嚟等嘲諷官方跳腳。回覆 43。",
+      "replies": 43,
+      "viewpoints": [
+        {
+          "label": "反諷當推介",
+          "summary": "留言常見以「中國官方推介一定大力支持」「多謝推廣原來有 S2」等反諷，把點名當睇劇動機。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "批評官方／辱華話術",
+          "summary": "有留言指辱華只是遲早、或嘲抗日神劇手撕日軍等官方文宣。",
+          "share": "部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "27",
+          "comparison": "回覆 43；分數正代表讚多過踩；上一輪未見（15 點內地類為紅果短劇帖，已跌出本頁）。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "內地（央視／內地官媒點名文藝作品）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "央視批評說法見於帖內轉述連結；未獨立覆核央視原文全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4172570/page/1",
+          "platform": "連登",
+          "author": "茉莉花園",
+          "author_url": "https://lihkg.com/profile/28114",
+          "published_at": null,
+          "observed_at": "2026-10-26T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（order=hot／api_v2/thread/hot）對上該標題；淨評分 27＝列表 like 32−dislike 5；回覆數取自列表 no_of_reply 43。"
+        }
+      ],
+      "limits": "不把網民反諷或轉載標題當成官方全文。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
