@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-26T13:00:00Z",
+    "end": "2026-10-26T14:00:00Z"
+  },
+  "generated_at": "2026-10-26T13:30:00Z",
+  "summary": [
+    "21 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 21:25 HKT）為準，共 35 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "青年：出生香港好彩定唔好彩帖續升（回覆 693、分數 480；18 點 557／394）。香港經濟：沈振盈後續改由羅尚沛悼念帖上榜（回覆 155、分數 155），另新見珍妮曲奇增購尖沙咀舖帖（回覆 96、分數 -31）。香港政府官員：食環督察六合彩彩金官司帖續追（回覆 238、分數 96；18 點 206／74）。香港時事：Johnny Lee 成田機場帖已跌出熱門第 1 頁；新見旺角毒窟墮樓帖（回覆 66、分數 61）同中環怡和大廈吊船下墮突發（回覆 111、分數 6）。內地：央視點名《Vivant》帖續升（回覆 72、分數 46；18 點 43／27）。",
+    "五類齊。每條都有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-BORN-HK-LUCK",
+      "name": "其實出生喺香港係好彩定唔好彩",
+      "status": "tracking",
+      "seen": "樓主問出生香港係好彩定唔好彩：一般家庭衣食無憂、有教育機會，但快樂指數低、童年充滿比較同補習。高讚留言多數認為算好彩：免費教育、大學有認受性、人工高稅率低、移民容易；亦有留言指香港壓力大、居住空間細、好多問題係人禍造成。回覆 693。",
+      "replies": 693,
+      "viewpoints": [
+        {
+          "label": "算好彩",
+          "summary": "高讚留言多數認為以全球計出生香港算幸運，教育、稅率、移民選擇都有優勢，「比上不足，比下有餘」。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "壓力大／人禍",
+          "summary": "部分留言指香港壓力大、居住環境差、問題多屬人禍；亦有留言講冇民主但被踩。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "互相反駁",
+          "summary": "有留言反駁居住空間比不上外國；另有人話一有比較心就輸。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "480",
+          "comparison": "回覆 693；分數正代表讚多過踩；上一輪（18）同帖淨評分 394、回覆 557。分數升 86，逾 30，屬列表刷新（帖仍在、觀點未變，仍以「算好彩」為主）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（青年人生出路／教育與快樂指數討論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "屬網民觀點討論，無官方數據可核。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172480/page/1",
+          "platform": "連登",
+          "author": "大雄維尼不換肩",
+          "author_url": "https://lihkg.com/profile/530434",
+          "published_at": null,
+          "observed_at": "2026-10-26T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:25 HKT）對上該標題；淨評分 480＝列表 like−dislike；回覆數取自列表 no_of_reply 693。"
+        }
+      ],
+      "limits": "留言比例按第 1 頁高讚留言粗略判斷，不代表全帖。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-SHUM-CHUN-YING-DEATH",
+      "name": "羅尚沛泣述見沈振盈最後一面 曾接受通波仔手術 籲黑粉高抬貴手「對與錯都好俱往矣」「我代大師講 佢輸咗你哋贏咗 佢投降啦」",
+      "status": "shift",
+      "seen": "樓主轉載報道：股評人羅尚沛在網台節目悼念沈振盈，憶述佢與友人聚會後不適、往乘的士途中在灣仔暈倒，送院不治，並籲黑粉高抬貴手。留言多數 RIP、讚兩人友情，有人話從來冇憎過佢、只當笑料；亦有少數講健康習慣（可樂、吸煙）同八卦地點。回覆 155。",
+      "replies": 155,
+      "viewpoints": [
+        {
+          "label": "悼念／讚友情",
+          "summary": "高讚留言多數 RIP，話有咁嘅朋友無憾、睇 live 都眼濕濕，從來冇真係憎佢。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "健康／生死討論",
+          "summary": "部分留言講 65 歲唔算老、可樂吸煙習慣，或話咁走好過長期病折磨。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "八卦揣測",
+          "summary": "少數留言揣測倒地地點，被踩。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "155",
+          "comparison": "回覆 155；分數正代表讚多過踩；上一輪（18）同帖未見（18 點主條為另一帖 4172158 逝世報道，本輪已跌出第 1 頁），屬上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（股評人／港股討論圈人物離世後續）。本頁仍見；同頁另有「沈大師：我身家接近8位數」帖（回覆 96、分數 36）。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對死因作官方核實；僅記錄連登轉載報道及討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172644/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-26T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:25 HKT）對上該標題；淨評分 155＝列表 like−dislike；回覆數取自列表 no_of_reply 155。"
+        }
+      ],
+      "limits": "不把報道細節或網民揣測當成已核實事實。",
+      "next_steps": "下一輪再睇沈振盈相關帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-GOV-FEHD-MARK-SIX-LAWSUIT",
+      "name": "食環衛生督察凌浚庭被14名同事入稟高院追討2891萬六合彩彩金！！！",
+      "status": "tracking",
+      "seen": "樓主轉載報道：食環署街市活化組高級總監聯同 13 名現任或前同事入稟高院，指被告違反夾錢買六合彩協議、私吞彩金。高讚留言嘲諷街市活化組公務唔繁重、得閒搞咁多嘢；亦有人話幾百萬點都值得追；少數留言（被踩）質疑原告證據不足、告唔入。回覆 238。",
+      "replies": 238,
+      "viewpoints": [
+        {
+          "label": "嘲諷公務員得閒",
+          "summary": "高讚留言多數揶揄食環署街市活化組工作唔繁重、高級總監月薪高仲有時間打官司。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "支持追討／好奇結果",
+          "summary": "部分留言認為幾百萬值得追，想知法庭點判、政府會唔會分一杯羹。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "質疑告唔入",
+          "summary": "少數留言指證據不足、被告可能係自己另買中獎，被踩，形成反駁。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "96",
+          "comparison": "回覆 238；分數正代表讚多過踩；上一輪（18）同帖淨評分 74、回覆 206。分數升 22，未逾 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（食環署公務員／高院追討彩金爭議）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對高等法院入稟文件核對；僅記錄連登轉載報道及討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172620/page/1",
+          "platform": "連登",
+          "author": "不賣隔夜肉",
+          "author_url": "https://lihkg.com/profile/47226",
+          "published_at": null,
+          "observed_at": "2026-10-26T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:25 HKT）對上該標題；淨評分 96＝列表 like−dislike；回覆數取自列表 no_of_reply 238。"
+        }
+      ],
+      "limits": "民事訴訟未審結，不把指控當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CURRENT-MONGKOK-DRUG-DEN",
+      "name": "警方在旺角新填地街搗破一個毒窟，期間多人爬窗逃走！！！",
+      "status": "new",
+      "seen": "樓主轉載消息：警方在旺角新填地街掃毒搗破毒窟，多人爬窗逃走，一人墮下送院不治，約 20 人被帶走。留言大多玩電影《門徒》對白梗，另有高讚留言鄙視吸毒者「死曬對大家都好」，亦有人質疑八樓都要跳、懷疑係毒販。回覆 66。",
+      "replies": 66,
+      "viewpoints": [
+        {
+          "label": "玩電影梗",
+          "summary": "大部分留言引用《門徒》對白（屋企有鬼都唔知等）。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "鄙視吸毒者",
+          "summary": "部分高讚留言話吸毒者係社會垃圾、死咗對大家都好。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "質疑逃走原因",
+          "summary": "少數留言問點解八樓都要跳，估係毒販。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "61",
+          "comparison": "回覆 66；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（警方掃毒／旺角墮樓死亡）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "消息來源為 Threads 轉載，未對警方公布核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172495/page/1",
+          "platform": "連登",
+          "author": "不賣隔夜肉",
+          "author_url": "https://lihkg.com/profile/47226",
+          "published_at": null,
+          "observed_at": "2026-10-26T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:25 HKT）對上該標題；淨評分 61＝列表 like−dislike；回覆數取自列表 no_of_reply 66。"
+        }
+      ],
+      "limits": "不把網民揣測（毒販身份）當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-CCTV-VIVANT-DRAMA",
+      "name": "又要煲劇了！央視點名批評日星堺雅人主演的《Vivant》為辱華日劇！",
+      "status": "tracking",
+      "seen": "樓主轉載央視批評日劇《VIVANT》第二季「認知投毒」報道。高讚留言反諷「央視推薦一定要睇」、多謝宣傳要即刻煲；亦有人以抗日神劇手撕日軍反駁辱華指控，並擔心本港當局會跟住禁播或為難外國片來港拍攝。回覆 72。",
+      "replies": 72,
+      "viewpoints": [
+        {
+          "label": "反諷變宣傳",
+          "summary": "多數留言話央視點名等於推介，即刻搵 S2 嚟睇。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反駁辱華指控",
+          "summary": "部分留言以抗日神劇、「人人最後都會辱華」反諷。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "擔心香港跟風",
+          "summary": "少數留言擔心本港當局禁播相關作品或影響外國拍攝。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "46",
+          "comparison": "回覆 72；分數正代表讚多過踩；上一輪（18）同帖淨評分 27、回覆 43。分數升 19，未逾 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地（央視／內地官媒點名文藝作品）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對央視原片核對；僅記錄連登轉載及討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172570/page/1",
+          "platform": "連登",
+          "author": "茉莉花園",
+          "author_url": "https://lihkg.com/profile/28114",
+          "published_at": null,
+          "observed_at": "2026-10-26T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:25 HKT）對上該標題；淨評分 46＝列表 like−dislike；回覆數取自列表 no_of_reply 72。"
+        }
+      ],
+      "limits": "不把網民推測（本港禁播）當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CURRENT-CENTRAL-GONDOLA",
+      "name": "突發 中環怡和大廈巴士站好多警車同消防",
+      "status": "new",
+      "seen": "兩帖同講中環怡和大廈外牆吊船下墮：轉載報道指兩名工人被困逾 30 層高空，消防「飛將軍」救援；留言關心工人安危、慶幸未跌落巴士站及放工人群，有人提及獨立救生繩，亦有人質疑大廈及吊船安全。主帖回覆 111，直播帖回覆 39。",
+      "replies": 111,
+      "viewpoints": [
+        {
+          "label": "關心安危／慶幸未落地",
+          "summary": "多數留言問工人點、指若跌落巴士站放工時間會好大傷亡，並糾正係吊住未跌落地。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "質疑安全",
+          "summary": "少數留言講吊船安全、救生繩、自救可能，並有「第三世界」等批評。",
+          "share": "少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "6",
+          "comparison": "主帖回覆 111；分數正代表讚多過踩；上一輪未見。直播帖（L2）回覆 39、淨評分 5。突發帖熱度主要見於回覆數，分數仍低。",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港時事（中環工業意外／消防救援）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對消防處公布核實傷亡；僅記錄連登帖及轉載報道。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172711/page/1",
+          "platform": "連登",
+          "author": "kaii_0421",
+          "author_url": "https://lihkg.com/profile/368777",
+          "published_at": null,
+          "observed_at": "2026-10-26T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:25 HKT）對上該標題；淨評分 6＝列表 like−dislike；回覆數取自列表 no_of_reply 111。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4172718/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-26T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:25 HKT）對上該標題；淨評分 5＝列表 like−dislike；回覆數取自列表 no_of_reply 39。直播帖，轉載報道。"
+        }
+      ],
+      "limits": "事件仍在發展，不把留言揣測當成事實。",
+      "next_steps": "下一輪睇有冇救援結果帖。"
+    },
+    {
+      "issue_id": "HK-ECON-JENNY-BAKERY-SHOPS",
+      "name": "珍妮曲奇3980萬增購尖沙咀舖　年內半億掃同廈5舖   大約需賣出約27萬盒曲奇才足以全數支付這筆買舖資金",
+      "status": "new",
+      "seen": "樓主轉載報道：珍妮曲奇以 3,980 萬元增購尖沙咀美麗都大廈 3 個舖位，原業主帳面蝕約 8,500 萬元。留言爭論點解佢做到咁大：有人話靠名氣同旅客手信、只收現金，有人話香港人好少食；亦有留言反駁話未有旅客前香港人已排隊、確係好食，兩邊互踩。回覆 96。",
+      "replies": 96,
+      "viewpoints": [
+        {
+          "label": "靠名氣／旅客",
+          "summary": "較多留言認為靠出名同旅客手信，香港人未必食過，有人揶揄只收現金。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "確係好食",
+          "summary": "少數留言反駁話香港人早已排隊、回頭客多，被踩，形成互相反駁。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "舖市蝕讓",
+          "summary": "部分留言留意原業主蝕讓，講舖市下跌。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-31",
+          "comparison": "回覆 96；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（零售舖位買賣／舖價蝕讓）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對土地註冊處紀錄核實成交。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172624/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-26T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:25 HKT）對上該標題；淨評分 -31＝列表 like−dislike；回覆數取自列表 no_of_reply 96。"
+        }
+      ],
+      "limits": "不把報道估算（需賣 27 萬盒）當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
