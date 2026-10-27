@@ -214,6 +214,20 @@ footer.site .disc{ margin-top:1rem; max-width:44rem; font-size:.8125rem; }
 
 .heads .extra{ display:block; margin-top:2px; color:var(--muted); font:400 .75rem/1.4 var(--sans); }
 
+/* ---- topic tags + homepage topic blocks (青年／教育, 惹火言論, 留言精華) ---- */
+.tag.t-youth{ color:#0b5; border-color:#0b5; font-weight:600; }
+.tag.t-hot{ color:#d33; border-color:#d33; font-weight:600; }
+.heads .essence, .topic-list .essence{ display:block; margin-top:2px; color:var(--fg-2); font-size:.875rem; line-height:1.6; }
+.topic{ padding:16px 0; border-bottom:1px solid var(--line); }
+.topic .label{ margin:0 0 8px; }
+.t-youth-blk{ border-left:4px solid #0b5; }
+.t-hot-blk{ border-left:4px solid #d33; }
+.topic-list{ margin:0; padding-left:1.4em; line-height:1.7; }
+.topic-list li + li{ margin-top:6px; }
+.topic-list .when-sm{ margin-left:8px; font:400 12px/1 var(--mono); color:var(--muted); }
+.topic-list .quote{ display:block; color:var(--fg); }
+.topic-list .why-mad{ display:block; color:var(--fg-2); font-size:.875rem; }
+
 /* ADHD-friendly layout: 重點 block, edition diff, collapsed list overflow */
 .keypts{ margin:0; padding:0; list-style:none; border:1px solid var(--line); border-left:3px solid var(--fg); border-radius:var(--radius); }
 .keypts li{ padding:10px 16px; line-height:1.7; color:var(--fg-2); }
