@@ -273,6 +273,76 @@ def status_of(v) -> tuple[str, str]:
     return (k or "未標示", "s-other")
 
 
+# --------------------------------------------------------------------------- layout inference (no schema change)
+
+YOUTH_KW = ("青年", "年輕人", "教育", "民青局", "教育局", "DSE", "文憑試", "學額", "學位", "大學", "學生", "學校", "教師", "老師")
+HOT_WHO_KW = ("議員", "官員", "局長", "司長", "特首", "立法會", "區議員", "副局長", "總監")
+HOT_MOOD_KW = ("惹火", "爭議", "反感", "鬧", "嬲", "炮轟", "失言", "離地", "怒", "批評", "不滿", "道歉")
+ESSENCE_MAX = 50
+QUOTE_MAX = 60
+
+
+def clip(v, n: int) -> str:
+    t = re.sub(r"\s+", " ", s(v))
+    return t if len(t) <= n else t[: n - 1].rstrip() + "…"
+
+
+def _blob(it: dict, keys=("name", "why", "seen")) -> str:
+    return " ".join(" ".join(paras(it.get(k))) for k in keys)
+
+
+def is_youth(it: dict) -> bool:
+    b = _blob(it, ("name", "why"))  # seen too noisy (passing mentions of 教育)
+    if any(k in b for k in YOUTH_KW):
+        return True
+    return "就業" in b and any(k in b for k in ("青年", "畢業", "年輕"))
+
+
+def is_hot(it: dict) -> bool:
+    who = _blob(it, ("name", "why"))
+    return any(k in who for k in HOT_WHO_KW) and any(k in _blob(it) for k in HOT_MOOD_KW)
+
+
+def first_vp(it: dict) -> str:
+    for v in it.get("viewpoints") or []:
+        t = s(v.get("summary")) if isinstance(v, dict) else s(v)
+        if t:
+            return t
+    return ""
+
+
+def quote_of(it: dict) -> str:
+    """Prefer a 「…」 quote in seen/why; else the first sentence of seen."""
+    for k in ("seen", "why"):
+        m = re.search(r"[「『“\"]([^」』”\"]{4,})[」』”\"]", " ".join(paras(it.get(k))))
+        if m:
+            return "「" + clip(m.group(1), QUOTE_MAX) + "」"
+    ps_ = paras(it.get("seen"))
+    if not ps_:
+        return ""
+    m = re.match(r"^(.+?[。！？!?])", ps_[0])
+    return clip(m.group(1) if m else ps_[0], QUOTE_MAX)
+
+
+def essence(it: dict) -> str:
+    t = first_vp(it)
+    if not t:
+        ps_ = paras(it.get("seen"))
+        if ps_:
+            m = re.match(r"^(.+?[。！？!?])", ps_[0])
+            t = m.group(1) if m else ps_[0]
+    return clip(t, ESSENCE_MAX) if t else ""
+
+
+def topic_tags(it: dict) -> str:
+    out = ""
+    if is_youth(it):
+        out += tag("青年／教育", "t-youth")
+    if is_hot(it):
+        out += tag("惹火言論", "t-hot")
+    return out
+
+
 def tag(label: str, cls: str = "") -> str:
     return f'<span class="tag{(" " + cls) if cls else ""}">{e(label)}</span>'
 
@@ -489,7 +559,7 @@ class Site:
             lab, cls = STATUS["lead"] if lead and not s(it.get("status")) else status_of(it.get("status"))
             sent = self.first_sentence(it.get("why")) or self.first_sentence(it.get("seen"))
             href = href_prefix + "#" + anchors.get(s(it.get("issue_id")), "")
-            lis.append(f'<li>{tag(lab, cls)}<a href="{e(href)}">{e(s(it.get("name")))}</a>'
+            lis.append(f'<li>{tag(lab, cls)}{topic_tags(it)}<a href="{e(href)}">{e(s(it.get("name")))}</a>'
                        f'{"：" + e(sent) if sent else ""}</li>')
         return '<ol class="keypts">' + "".join(lis) + "</ol>"
 
@@ -682,7 +752,9 @@ class Site:
                     label = aname or "樓主"
                     who = '<span class="who">' + (ext_link(aurl, label) if aurl else e(label)) + "</span>"
                 extra = self.head_extra(r, it)
-                bits.append(f"<li>{tag(lab, cls)}{title}{who}{extra}</li>")
+                ess = essence(it)
+                ess_html = f'<span class="essence">留言精華：{e(ess)}</span>' if ess else ""
+                bits.append(f"<li>{tag(lab, cls)}{topic_tags(it)}{title}{who}{extra}{ess_html}</li>")
             lis = "".join(bits)
         else:
             lis = '<li class="bot">本輪未有達門檻的議題</li>'
@@ -708,6 +780,45 @@ class Site:
             items.append(f'      <li class="month"><span class="label">{e(date)} · {en}</span>'
                          f'<a href="{e(self.u(self.day_path(date)))}">{e(zh_date(date))}（{len(rs)} 份）</a></li>\n')
         return '    ' + self.capped(items, '<ul class="months">\n', '    </ul>\n') + '\n'
+
+    def topic_pool(self, reports, pred) -> list[tuple]:
+        """Newest-first matching issues, de-duplicated by issue_id, max LIST_CAP."""
+        seen_ids, out = set(), []
+        for r in reports[:6]:
+            anchors = self.issue_anchors(r)
+            for it in r.issues + r.early_leads:
+                iid = s(it.get("issue_id")) or s(it.get("name"))
+                if iid in seen_ids or not pred(it):
+                    continue
+                seen_ids.add(iid)
+                out.append((r, it, self.u(self.report_path(r.id)) + "#" + anchors.get(s(it.get("issue_id")), "")))
+                if len(out) >= LIST_CAP:
+                    return out
+        return out
+
+    def topic_blocks(self, reports) -> str:
+        html_ = ""
+        youth = self.topic_pool(reports, is_youth)
+        if youth:
+            lis = "".join(f'<li><a href="{e(h)}">{e(s(it.get("name")))}</a>'
+                          f'<span class="when-sm">{e(r.when)}</span>'
+                          + (f'<span class="essence">{e(essence(it))}</span>' if essence(it) else "") + "</li>"
+                          for r, it, h in youth)
+            html_ += ('  <section class="topic t-youth-blk" aria-labelledby="h-youth"><div class="wrap">\n'
+                      '    <h2 id="h-youth" class="label">青年／教育｜最新 5 項</h2>\n'
+                      f'    <ol class="topic-list">{lis}</ol>\n  </div></section>\n')
+        hot = self.topic_pool(reports, is_hot)
+        if hot:
+            lis = []
+            for r, it, h in hot:
+                q, why = quote_of(it), clip(first_vp(it), ESSENCE_MAX)
+                lis.append(f'<li><a href="{e(h)}">{e(s(it.get("name")))}</a>'
+                           + (f'<span class="quote">{e(q)}</span>' if q else "")
+                           + (f'<span class="why-mad">點解嬲：{e(why)}</span>' if why else "") + "</li>")
+            html_ += ('  <section class="topic t-hot-blk" aria-labelledby="h-hot"><div class="wrap">\n'
+                      '    <h2 id="h-hot" class="label">惹火言論｜議員／官員</h2>\n'
+                      f'    <ol class="topic-list">{"".join(lis)}</ol>\n  </div></section>\n')
+        return html_
 
     # pages
     def home(self) -> str:
@@ -744,7 +855,7 @@ class Site:
                        f'    <a class="go" href="{e(self.u(self.report_path(lead.id)))}">閱讀 {e(kind)} 全文 →</a>\n'
                        '  </div></section>\n')
         main = (
-            top +
+            top + self.topic_blocks(hourly or self.reports) +
             '  <section class="hero" aria-labelledby="t"><div class="wrap">\n'
             f'    <p class="label">{e(c.get("hero_label", ""))}</p>\n'
             f'    <h1 id="t">{e(c["site_title"])}</h1>\n'
@@ -857,7 +968,7 @@ class Site:
             f'        <span class="num">{numtxt}</span>\n',
             f'        <h3>{linked}</h3>\n'
             f'        {who}\n',
-            f'        <p class="meta-line">{tag(lab, cls)}{tag("早期線索", "s-lead") if lead and lab != "早期線索" else ""}'
+            f'        <p class="meta-line">{tag(lab, cls)}{topic_tags(it)}{tag("早期線索", "s-lead") if lead and lab != "早期線索" else ""}'
             f'<span>議題 ID <b>{e(iid)}</b></span><span>觀察時段 <b>{e(fmt_window(o_a, o_b))}</b></span></p>\n',
         ]
         seen = self.ps(it.get("seen"))
