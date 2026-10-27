@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-27T13:00:00Z",
+    "end": "2026-10-27T14:00:00Z"
+  },
+  "generated_at": "2026-10-27T13:25:00Z",
+  "summary": [
+    "21 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 21:22 HKT）為準，共 35 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "內地：麥巴比稱毛澤東獨裁者帖再升 50（回覆 330、分數 482），央視叫停轉播帖（195、115）同新見道歉帖（82、-16）跟進。香港時事：百老滙網購後即接詐騙電話帖（回覆 72、分數 82），另見誘騙港女賣去緬甸園區判囚 4 年帖（89、28）。香港經濟：電動車「一換一」告終後油車反超帖（113、56）。",
+    "本輪熱門頁未見香港政府官員類，亦未見民青局、教育局或官員／議員惹火言論帖；18 點嘅新皇崗「喜訊」帖已跌出熱門頁。本輪熱門頁未見青年類：未見教育、DSE、學額或青年就業帖。四條各有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-DICTATOR",
+      "name": "麥巴比叫毛澤東係獨裁者……班小粉紅話佢辱華要封殺佢",
+      "status": "tracking",
+      "seen": "帖文話麥巴比稱毛澤東為獨裁者，內地網民話佢辱華要封殺。高讚留言仍一面倒嘲諷內地反應：最高讚（+477）指毛殺咗幾千萬中國人都唔算獨裁者，次高（+355）問「唔叫獨裁者唔通係自由鬥士」。今輪新見跟進帖「[已跪] 球星麥巴比涉「辱毛」：向所有被我的言論所傷害的人道歉」（淨評分 -16、回覆 82），留言多數話內地網民「玻璃心」、「思想仲停留喺文革」，亦有人（+28）反嘲連登多咗親共留言；央視叫停西甲轉播帖升至淨評分 115、回覆 195，最高讚（+180）笑「咁鍾意獨裁就唔好推翻滿清」，有人（+65）話禁播係懲罰中國人自己。回覆 330。",
+      "replies": 330,
+      "viewpoints": [
+        {
+          "label": "嘲諷小粉紅",
+          "summary": "高讚留言一面倒認為稱毛澤東為獨裁者係事實，取笑內地網民同官媒對號入座。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "笑佢道歉／內地玻璃心",
+          "summary": "道歉帖留言多數話乜都可以辱華、內地思想停留喺文革；少數話道歉完都唔會收貨。",
+          "share": "一部分（道歉帖）",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "話麥巴比玩大咗",
+          "summary": "少數（+81）話麥巴比今次玩大咗、會失去中國市場，但未見有讚嘅撐封殺留言；冇明顯互相反駁。",
+          "share": "少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "482",
+          "comparison": "回覆 330；分數正代表讚多過踩；上一輪（18）同帖淨評分 432、回覆 269，升 50，逾 30，屬列表刷新（帖仍在、觀點未變，仍以讚為主）。L2（央視）淨評分 115、回覆 195（18 點 39／91，升 76，列表刷新，觀點未變）；L3（道歉帖）淨評分 -16、回覆 82，上一輪未見，負代表踩多過讚。",
+          "evidence_ids": [
+            "L1",
+            "L2",
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（內地網民民族情緒、官媒央視叫停轉播、當事人道歉）。本頁仍見，全頁淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "麥巴比道歉同央視叫停轉播只見帖文標題轉述，未對原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172827/page/1",
+          "platform": "連登",
+          "author": "三俘",
+          "author_url": "https://lihkg.com/profile/10338",
+          "published_at": null,
+          "observed_at": "2026-10-27T13:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:22 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173051/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-27T13:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:22 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4173130/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-10-27T13:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:22 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；麥巴比原話、道歉內容同央視聲明未核實。",
+      "next_steps": "下一輪睇道歉帖會唔會令討論轉向，同三帖仲喺唔喺熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-BROADWAY-SCAM-CALL",
+      "name": "百老滙買氣炸鍋收貨後不足1小時即接詐騙電話   疑有內鬼",
+      "status": "new",
+      "seen": "樓主話喺百老滙買氣炸鍋，收貨後唔夠 1 個鐘就接到詐騙電話，懷疑有內鬼洩露客戶資料。留言多數同意資料外洩：最高讚（+68）同次高（+37）將矛頭指向零售同物流前線人手，有人（+32）分享順豐派件當日即收到釣魚短訊，亦有人（+17）指真壞機 call 都唔嚟，主動打嚟一定有問題，另有留言話客服外判內地、私隱保安成疑。回覆 72。",
+      "replies": 72,
+      "viewpoints": [
+        {
+          "label": "懷疑內部洩露資料",
+          "summary": "大多數留言相信係商戶、送貨或外判客服洩露資料，有人分享類似經歷。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "教自保",
+          "summary": "一部分留言建議用後備電話號碼網購，話一訂貨就有騙案電話好明顯。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "82",
+          "comparison": "回覆 72；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（本地騙案、消費者私隱）。本頁仍見，本頁香港時事類淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "只見樓主自述，未見商戶回應或警方資料。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173054/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-27T13:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:22 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把樓主懷疑當成事實，未證實有內鬼。",
+      "next_steps": "下一輪睇有冇商戶回應或更多同類個案。"
+    },
+    {
+      "issue_id": "HK-KK-PARK-TRAFFICKING-SENTENCE",
+      "name": "33歲美容師誘騙兩港女赴泰再賣往緬甸KK園，認欺詐罪判囚4年",
+      "status": "new",
+      "seen": "帖文講一名美容師以免費旅行誘騙兩名港女去泰國再賣到緬甸電詐園區，認欺詐罪判囚 4 年。留言主要嬲刑期太輕：最高讚（+200）話「販賣人口坐少過叫口號」，次高（+99）話係謀殺級罪案、香港法律得啖笑，有人（+38）指 4 年實坐 2 年半；另有留言（+17）轉貼特區政府反駁美國販運人口報告嘅聲明作對比。回覆 89。",
+      "replies": 89,
+      "viewpoints": [
+        {
+          "label": "嫌判得輕",
+          "summary": "大多數高讚留言認為販賣人口只判 4 年太輕，拿嚟同政治案件刑期比較。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "譴責被告",
+          "summary": "一部分留言話經濟再差都唔應該為錢送人去死；冇見有讚嘅留言替被告講說話。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "28",
+          "comparison": "回覆 89；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（法庭判刑、販賣人口／電詐園區）。本頁仍見，本頁香港時事類第二熱。",
+      "verification": {
+        "status": "unverified",
+        "note": "只見帖文轉載，未對判詞原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173077/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-27T13:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:22 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不寫被告及受害人姓名；案情以帖文轉述為準。",
+      "next_steps": "下一輪睇有冇律政司覆核刑期等跟進。"
+    },
+    {
+      "issue_id": "HK-EV-ONE-FOR-ONE-END",
+      "name": "電動車「一換一」告終半年   新登記油車重新反超電動車",
+      "status": "tracking",
+      "seen": "帖文話電動車「一換一」寬免計劃完結半年，新登記油車重新反超電動車。留言兩邊互嘲：最高讚（+102）話電動車車主冇錢、要折扣先買得起；但有人（+51）反駁電動車車主都係由油車轉過嚟；亦有人（+20）話以前 $50 買到依家要 $100，心理上說服唔到自己，市場要冷幾年；另有人（+77）話 hybrid 最正。回覆 113。",
+      "replies": 113,
+      "viewpoints": [
+        {
+          "label": "冇優惠就冇人買",
+          "summary": "較多留言認為電動車銷情靠稅務優惠撐，優惠一停購買力已透支。",
+          "share": "留言較多",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反駁嘲笑電車車主",
+          "summary": "一部分留言反駁「電狗冇錢」嘅講法，雙方有互相反駁。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "揀 hybrid",
+          "summary": "少數留言話油電混合最實際，亦有人話插電混能集兩者缺點。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "56",
+          "comparison": "回覆 113；分數正代表讚多過踩；上一輪（18）只喺另一條 why 提及同題帖（淨評分 10、回覆 27），未記帖號，未能確認同帖；如屬同帖則升 46，屬列表刷新（觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（汽車市場、政府稅務寬免完結）。本頁仍見，本頁香港經濟類淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "登記數字未對運輸署原始數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173016/page/1",
+          "platform": "連登",
+          "author": "hhsk",
+          "author_url": "https://lihkg.com/profile/227801",
+          "published_at": null,
+          "observed_at": "2026-10-27T13:22:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:22 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題數字當成事實。",
+      "next_steps": "下一輪睇仲喺唔喺熱門第 1 頁。"
+    }
+  ]
+}
