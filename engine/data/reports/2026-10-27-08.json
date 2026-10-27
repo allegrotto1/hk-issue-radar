@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-27T00:00:00Z",
+    "end": "2026-10-27T01:00:00Z"
+  },
+  "generated_at": "2026-10-27T00:15:00Z",
+  "summary": [
+    "08 點早上快報。以熱門 API api_v2/thread/hot?cat_id=1（約 08:11 HKT）為準，共 35 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "青年：出生香港好彩定唔好彩帖續升（回覆 853、分數 607；00 點 750／540）。香港經濟：羅尚沛悼念沈振盈帖續見（回覆 205、分數 223；00 點 177／196）。內地：新見麥巴比稱毛澤東獨裁者惹小粉紅帖（回覆 92、分數 176）。香港時事：新見 iPhone Duo 香港首宗爆屏帖（回覆 129、分數 101）。香港政府官員：新見新皇崗塞車促政府打擊白牌車帖（回覆 86、分數 26），連同邵家輝建議旅客留港多一日帖（回覆 67、分數 -26）。",
+    "五類齊，每類取本頁最熱一條（每版只顯示 5 條）；食環督察彩金官司、旺角毒窟兩帖已跌出熱門第 1 頁，深圳雪景小鎮帖仍在（分數 -182）但今輪未列。每條都有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-BORN-HK-LUCK",
+      "name": "其實出生喺香港係好彩定唔好彩",
+      "status": "tracking",
+      "seen": "樓主問出生香港係咪好彩：衣食無憂、有教育機會，但快樂指數低、童年充滿比較同補習。高讚留言多數話以全球計算算幸運：世界級免費教育、本地大學有認受性、人工高稅率低、移民容易，有人話可以返大陸 FIRE；亦有人話視乎出身（山頂同深水埗差好遠）、唔適合讀書嘅人喺藍領待遇好嘅地方會更好；少數話同歐洲比香港贏，被踩較多。回覆 853。",
+      "replies": 853,
+      "viewpoints": [
+        {
+          "label": "算好彩",
+          "summary": "高讚留言多數認為比上不足比下有餘，教育、收入、稅率同移民門檻都有優勢。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "視乎出身／壓力大",
+          "summary": "部分留言指出身差異大、補習同比較壓力大，唔適合讀書嘅人喺其他地方可能更好。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "香港贏歐洲",
+          "summary": "少數留言話相同家庭背景香港好過歐洲，讚踩接近，有人反駁。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "607",
+          "comparison": "回覆 853；分數正代表讚多過踩；上一輪（00）同帖淨評分 540、回覆 750。分數升 67，逾 30，屬列表刷新（帖仍在、觀點未變，仍以讚為主）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（成長、教育、補習壓力同出路）。本頁仍見，全頁淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "屬意見討論，無官方數據可對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172480/page/1",
+          "platform": "連登",
+          "author": "大雄維尼不換肩",
+          "author_url": "https://lihkg.com/profile/530434",
+          "published_at": null,
+          "observed_at": "2026-10-27T00:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:11 HKT）對上該標題；淨評分 607＝列表 like−dislike；回覆數取自列表 no_of_reply 853；已開帖第 1 頁讀留言。"
+        }
+      ],
+      "limits": "留言意見不代表青年整體看法。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-ECON-SHUM-CHUN-YING-DEATH",
+      "name": "羅尚沛泣述見沈振盈最後一面 曾接受通波仔手術 籲黑粉高抬貴手「對與錯都好俱往矣」",
+      "status": "tracking",
+      "seen": "帖文轉載報道：著名股評人沈振盈 24 日與徒弟聚會後感不適，獨自去搭的士途中喺灣仔街頭暈倒，送院不治；羅尚沛喺網台節目悼念時數度落淚。高讚留言多數 RIP、讚佢有咁嘅朋友無憾，有人話「最多當佢係燈神咁笑吓，其實唔想佢死」；少數留言追問倒地地點等八卦，被踩。回覆 205。",
+      "replies": 205,
+      "viewpoints": [
+        {
+          "label": "悼念／感慨友情",
+          "summary": "高讚留言多數表示 RIP，感慨羅尚沛同沈振盈嘅友情，亦反思自己身邊有冇咁嘅朋友。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "過往當佢燈神",
+          "summary": "部分留言承認以前當佢反指標笑，但唔憎佢、唔想佢死。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "八卦細節",
+          "summary": "少數留言追問倒地地點同私生活，被踩多過讚。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "223",
+          "comparison": "回覆 205；分數正代表讚多過踩；上一輪（00）同帖淨評分 196、回覆 177。分數升 27，未逾 30。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（著名股評人離世，財經圈人物）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "帖文轉載報道內容，未對原報道。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172644/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-27T00:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:11 HKT）對上該標題；淨評分 223＝列表 like−dislike；回覆數取自列表 no_of_reply 205；已開帖第 1 頁讀留言。"
+        }
+      ],
+      "limits": "屬人物新聞，唔代表市場走勢。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-DICTATOR",
+      "name": "麥巴比叫毛澤東係獨裁者……班小粉紅話佢辱華要封殺佢",
+      "status": "new",
+      "seen": "體育台帖文話麥巴比稱毛澤東為獨裁者，內地網民話佢辱華要封殺。樓主只寫「留名睇佢跪低」。高讚留言一面倒嘲諷內地反應：問「毛澤東唔叫獨裁者唔通係自由鬥士」、指毛殺咗幾千萬人、話「講事實就砌人辱華」；冇見有高讚留言撐封殺。帖文冇附原話出處。回覆 92。",
+      "replies": 92,
+      "viewpoints": [
+        {
+          "label": "嘲諷小粉紅",
+          "summary": "高讚留言一面倒認為稱毛澤東為獨裁者係事實，取笑內地網民玻璃心。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "等睇道歉",
+          "summary": "少數留言等睇麥巴比會唔會跪低道歉或被下架。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "支持封殺",
+          "summary": "第 1 頁未見有讚嘅支持封殺留言。",
+          "share": "未見",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "176",
+          "comparison": "回覆 92；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地（內地網民民族情緒、辱華爭議）。本頁新見，本頁內地類最熱。",
+      "verification": {
+        "status": "unverified",
+        "note": "帖文冇附麥巴比原話或內地封殺來源，未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172827/page/1",
+          "platform": "連登",
+          "author": "三俘",
+          "author_url": "https://lihkg.com/profile/10338",
+          "published_at": null,
+          "observed_at": "2026-10-27T00:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:11 HKT）對上該標題；淨評分 176＝列表 like−dislike；回覆數取自列表 no_of_reply 92；已開帖第 1 頁讀留言。"
+        }
+      ],
+      "limits": "唔把標題當成事實；麥巴比原話同內地反應規模未見來源。",
+      "next_steps": "下一輪睇有冇原話出處或官方反應。"
+    },
+    {
+      "issue_id": "HK-CURRENT-IPHONE-DUO-SCREEN",
+      "name": "香港終於出現 iPhone Duo 爆屏幕分享首例！",
+      "status": "new",
+      "seen": "帖文轉述 Threads 用戶分享：新機用咗半日，內屏因鉸鏈位異物爆裂，Apple 香港判定非人為後即時處理。高讚留言多數話係鉸鏈設計問題（見人爆嘅綠線都喺同一位、華強北拆機話摺軌有設計錯誤），有人話啱啱到手爆算好彩、好過用一年先爆；少數話買 AppleCare 就得，被踩；亦有人話換機要等到一月、過資料麻煩。回覆 129。",
+      "replies": 129,
+      "viewpoints": [
+        {
+          "label": "設計問題",
+          "summary": "高讚留言多數認為係鉸鏈設計缺陷，唔係個別事件。",
+          "share": "留言大概過半",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "早爆好過遲爆",
+          "summary": "部分留言話新機即爆可即換，好過用一兩年先爆。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "買保養就得",
+          "summary": "少數留言叫人買 AppleCare，被踩多過讚；有人反駁換機要等、過資料麻煩。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "101",
+          "comparison": "回覆 129；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（香港消費者首宗新機故障個案）。本頁新見，本頁香港時事類最熱。",
+      "verification": {
+        "status": "unverified",
+        "note": "屬網上個人分享轉述，未對 Apple 官方說法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172362/page/1",
+          "platform": "連登",
+          "author": "陰乳GStr(真絲)",
+          "author_url": "https://lihkg.com/profile/7076",
+          "published_at": null,
+          "observed_at": "2026-10-27T00:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:11 HKT）對上該標題；淨評分 101＝列表 like−dislike；回覆數取自列表 no_of_reply 129；已開帖第 1 頁讀留言。"
+        }
+      ],
+      "limits": "單一個案，唔代表故障率。",
+      "next_steps": "下一輪睇有冇更多個案或官方回應。"
+    },
+    {
+      "issue_id": "HK-GOV-HUANGGANG-JAM-CROSSBORDER-CARS",
+      "name": "新皇崗連續兩晚塞車　運輸業界質疑太多跨境白牌車所致 呼籲政府加強打擊",
+      "status": "new",
+      "seen": "L1 轉載 Now 新聞：新皇崗口岸連續兩晚擠塞，跨境巴士營辦商認為係跨境白牌車太多，呼籲政府加強打擊。高讚留言多數話演唱會散場時大量跨境車泊住等、白牌車執法鬆，亦諷刺內地旅客「住又唔住香港酒店，車又唔搭香港交通」；少數話香港司機都有份。L2 同期報道：立法會保安事務委員會主席邵家輝建議旅客錯峰、大時大節留港消費多一日住酒店，留言多數反對資助或話旅客窮遊，帖分數為負。回覆 86（L1）、67（L2）。",
+      "replies": 86,
+      "viewpoints": [
+        {
+          "label": "要打擊白牌車",
+          "summary": "L1 高讚留言多數認同跨境白牌車多、警方唔理，要求執法。",
+          "share": "L1 留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "內地旅客唔幫襯本地",
+          "summary": "兩帖都有高讚留言話旅客唔住酒店唔搭本地交通，對經濟幫助有限。",
+          "share": "部分",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "反對議員建議",
+          "summary": "L2 留言多數嘲諷留港多一日住酒店嘅建議，擔心變政府資助；帖淨評分為負。",
+          "share": "L2 留言大多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "26",
+          "comparison": "L1 回覆 86；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-26",
+          "comparison": "L2 回覆 67；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員（業界要求政府打擊白牌車，議員向當局提建議）。本頁新見。本頁未見直接關於官員本人的熱帖，以此政府施政相關帖代表。",
+      "verification": {
+        "status": "unverified",
+        "note": "兩帖轉載新聞，未對原報道或政府回應。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172627/page/1",
+          "platform": "連登",
+          "author": "掃地僧",
+          "author_url": "https://lihkg.com/profile/291865",
+          "published_at": null,
+          "observed_at": "2026-10-27T00:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:11 HKT）對上該標題；淨評分 26＝列表 like−dislike；回覆數取自列表 no_of_reply 86；已開帖第 1 頁讀留言。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4172742/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-27T00:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:11 HKT）對上該標題；淨評分 -26＝列表 like−dislike；回覆數取自列表 no_of_reply 67；已開帖第 1 頁讀留言。"
+        }
+      ],
+      "limits": "塞車成因只係業界同議員說法，未有官方數據。",
+      "next_steps": "下一輪睇政府或警方有冇回應。"
+    }
+  ]
+}
