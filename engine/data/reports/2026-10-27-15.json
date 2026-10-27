@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-27T07:00:00Z",
+    "end": "2026-10-27T08:00:00Z"
+  },
+  "generated_at": "2026-10-27T07:20:00Z",
+  "summary": [
+    "15 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 15:10 HKT）為準，共 37 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "內地：麥巴比稱毛澤東獨裁者帖升 51（回覆 209、分數 375；12 點 166／324），蒙牛終止合作跟進帖升至分數 58、回覆 168。香港時事：港鐵電梯拒絕讓路帖（回覆 467、分數 90）。香港經濟：內地客嫌香港遠比澳門差帖（回覆 59、分數 61）。香港政府官員：立法會議員加薪 1.6% 帖（回覆 44、分數 -32，屬廣義歸類）。青年：學校禁小朋友跑帖（回覆 87、分數 -246）。",
+    "五類齊，每條都有實際回覆數。北大等高校聯署帖、33清水灣銷情帖、畢業生搵工難帖同禁公交大聲播片帖已跌出熱門第 1 頁。另內地男持特區護照大鬧機場帖（回覆 72、分數 32）仍在頁但今輪未列，以保網站只顯示首 5 條。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-DICTATOR",
+      "name": "麥巴比叫毛澤東係獨裁者……班小粉紅話佢辱華要封殺佢",
+      "status": "tracking",
+      "seen": "帖文話麥巴比稱毛澤東為獨裁者，內地網民話佢辱華要封殺；樓主只寫「留名睇佢跪低」。高讚留言一面倒嘲諷內地反應：最高讚（+381）指毛殺咗幾千萬人點會唔係獨裁者，次高（+268）問「唔叫獨裁者唔通係自由鬥士」，亦有人引毛澤東自比秦始皇嘅講話。跟進帖「蒙牛乳業：即日起 終止與麥巴比全部合作！」升至淨評分 58、回覆 168，留言多數笑蒙牛蝕錢、話麥巴比根本冇點名係邊個係網民自己對號入座，亦有人話佢「冇得去中國踢波」。兩帖第 1 頁都未見有讚嘅支持封殺留言。回覆 209。",
+      "replies": 209,
+      "viewpoints": [
+        {
+          "label": "嘲諷小粉紅",
+          "summary": "高讚留言一面倒認為稱毛澤東為獨裁者係事實，取笑內地網民對號入座。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "蒙牛終止合作",
+          "summary": "跟進帖留言多數笑蒙牛蝕錢，少數話麥巴比失去中國市場；帖文冇附來源。",
+          "share": "少數（跟進帖）",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "支持封殺",
+          "summary": "兩帖第 1 頁都未見有讚嘅支持封殺留言，冇互相反駁。",
+          "share": "未見",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "375",
+          "comparison": "回覆 209；分數正代表讚多過踩；上一輪（12）同帖淨評分 324、回覆 166。分數升 51，逾 30，屬列表刷新（帖仍在、觀點未變，仍以讚為主）。跟進帖 L2 淨評分 58、回覆 168（12 點 6／38）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地（內地網民民族情緒、辱華爭議、內地品牌終止合作）。本頁仍見，全頁淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "兩帖都冇附麥巴比原話或蒙牛聲明來源，未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172827/page/1",
+          "platform": "連登",
+          "author": "三俘",
+          "author_url": "https://lihkg.com/profile/10338",
+          "published_at": null,
+          "observed_at": "2026-10-27T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:10 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4172957/page/1",
+          "platform": "連登",
+          "author": "鹿特丹斯巴光年",
+          "author_url": "https://lihkg.com/profile/63113",
+          "published_at": null,
+          "observed_at": "2026-10-27T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:10 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；麥巴比原話同蒙牛聲明未核實。",
+      "next_steps": "下一輪睇兩帖仲喺唔喺熱門第 1 頁，同有冇官方聲明。"
+    },
+    {
+      "issue_id": "HK-CURRENT-MTR-ESCALATOR-STAND",
+      "name": "兩名中年男子於繁忙時間搭電梯引用港鐵條例拒絕讓路",
+      "status": "new",
+      "seen": "樓主轉載 Facebook 帖文：港鐵近年推「左右企穩」，有網民喺 Threads 話繁忙時間兩名中年男子並排企、引用港鐵條例拒絕讓路，引發摩擦。最高讚留言（+1013）引「人性最大的惡，就是在自己最小的權利範圍內為難別人」，話唔係唔守規矩，而係連行一步幫人都唔做；另有高讚（+456）怪港鐵推「唔係規矩嘅規矩」；亦有留言（+143）話條例原意係減少意外，但當事人係為難人。少數留言講班次密度令人趕時間。回覆 467，係全頁回覆最多之一。",
+      "replies": 467,
+      "viewpoints": [
+        {
+          "label": "批評當事人刁難",
+          "summary": "高讚留言認為當事人借條例刁難趕返工嘅人。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "怪港鐵措施",
+          "summary": "部分留言指港鐵「左右企穩」宣傳造成摩擦，係罪魁禍首。",
+          "share": "少數至一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "支持企定定",
+          "summary": "第 1 頁未見有讚嘅留言撐當事人做法；有人承認條例原意係安全，但唔認同用嚟為難人。",
+          "share": "極少",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "90",
+          "comparison": "回覆 467；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港鐵乘客秩序、扶手電梯安全措施爭議）。本頁新見，本頁香港時事類淨評分同回覆最多。",
+      "verification": {
+        "status": "unverified",
+        "note": "事件來自網民轉載社交平台帖文，未見港鐵回應，未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4171552/page/1",
+          "platform": "連登",
+          "author": "浴火重生火鳳凰",
+          "author_url": "https://lihkg.com/profile/226955",
+          "published_at": null,
+          "observed_at": "2026-10-27T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:10 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把轉載帖當成事實；當事人身份資料不寫。",
+      "next_steps": "下一輪睇呢帖仲喺唔喺熱門第 1 頁，同港鐵有冇回應。"
+    },
+    {
+      "issue_id": "HK-ECON-MAINLAND-TOURIST-COMPLAINT",
+      "name": "(HK01）內地客遊港不滿：遠比澳門差  與澳門完全不是一個檔次",
+      "status": "new",
+      "seen": "樓主轉載 HK01 報道：有內地客發文數香港「服務差」「貴得要命」「人沒禮貌」等罪狀，讚澳門完勝香港。留言多數反嗆「咁唔滿意咪唔好嚟」「講咗十年都仲要嚟香港」（+34），亦有人話內地客自己擠迫橫衝直撞；第 1 頁未見有讚嘅留言認同香港服務差或討論旅遊業點改善。回覆 59。",
+      "replies": 59,
+      "viewpoints": [
+        {
+          "label": "叫唔滿意就唔好嚟",
+          "summary": "多數留言反嗆內地客，話唔鍾意就唔好嚟香港。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "認同香港服務要改",
+          "summary": "第 1 頁未見有讚嘅留言認同或討論旅遊業改善。",
+          "share": "未見",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "61",
+          "comparison": "回覆 59；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（旅遊業、內地旅客消費觀感）。本頁新見，本頁香港經濟類唯一可見議題。",
+      "verification": {
+        "status": "unverified",
+        "note": "只見 HK01 社交平台轉述內地客帖文，未對原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172986/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-27T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:10 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "一個內地客嘅帖文唔代表整體旅客觀感。",
+      "next_steps": "下一輪睇仲有冇其他旅遊或零售數據帖。"
+    },
+    {
+      "issue_id": "HK-GOV-LEGCO-PAY-RISE",
+      "name": "立法會議員加人工1.6%   月薪突破11萬元　每年額外200萬公帑開支   李慧琼月薪22萬",
+      "status": "new",
+      "seen": "樓主轉載報道：立法會議員本月起加薪 1.6%，基本月薪突破 11 萬，主席李慧琼月薪 221,060 元；文中提到政府早前宣布公務員加 2%、問責官員加 1.3%。留言唔多，有人批「橡皮圖章憑咩值幾十萬個月」、話一個月唔知有冇發言一次；亦有人（+13）反諷連登只識鬧 ACO、EO 加薪而唔鬧議員，有人預言呢帖「唔過 3 頁」。淨評分負數，留言冷淡。回覆 44。",
+      "replies": 44,
+      "viewpoints": [
+        {
+          "label": "批評議員唔值",
+          "summary": "部分留言話議員係橡皮圖章、唔值十萬月薪。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "諷刺討論區雙重標準",
+          "summary": "有讚留言話連登只鬧公務員加薪，對議員加薪冇反應。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-32",
+          "comparison": "回覆 44；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（立法會議員薪酬同問責官員加薪，屬公帑開支；按廣義歸類，本頁未見其他官員帖）。本頁新見。",
+      "verification": {
+        "status": "unverified",
+        "note": "加幅數字取自帖文轉載報道，未對立法會原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172954/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-27T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:10 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "立法會議員唔係政府官員，屬廣義歸類；樓主轉載數字未核實。",
+      "next_steps": "下一輪睇有冇正式官員帖可取代。"
+    },
+    {
+      "issue_id": "YOUTH-SCHOOL-NO-RUNNING",
+      "name": "一個地方幾撚垃圾先會禁止小朋友跑",
+      "status": "new",
+      "seen": "樓主批學校小息同午飯時間都唔准學生跑，小學生要孭重書包行樓梯而老師搭𨋢，並連到青少年自殺。留言多數唔認同樓主：最高讚（+130）話「驚你跌親姐」，次高（+89）話識跑唔識停、轉角撞傷人邊個賠，亦有人（+66、+35）話學校驚怪獸家長投訴。少數留言撐樓主話外國細路唔會咁易仆。淨評分負數，踩多過讚。回覆 87。",
+      "replies": 87,
+      "viewpoints": [
+        {
+          "label": "學校有理由禁",
+          "summary": "多數高讚留言認為禁跑係為安全同避免家長投訴。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "撐樓主",
+          "summary": "少數留言認同學校過度保護、細路需要放電，有人反駁「你個外國咩外國」。",
+          "share": "少數，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-246",
+          "comparison": "回覆 87；分數負代表踩多過讚；上一輪未見（12 點 summary 有提學校禁小朋友跑帖，但未列卡、未記帖號，唔作同帖比較）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（學校規矩、學童身心健康）。本頁仍見，本頁青年類唯一可見議題。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主個人意見，未對任何學校規例。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172868/page/1",
+          "platform": "連登",
+          "author": "大雄維尼不換肩",
+          "author_url": "https://lihkg.com/profile/530434",
+          "published_at": null,
+          "observed_at": "2026-10-27T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:10 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "樓主觀點唔代表學界現況。",
+      "next_steps": "下一輪睇有冇其他教育或青年政策帖。"
+    }
+  ]
+}
