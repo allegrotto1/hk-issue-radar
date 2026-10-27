@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-27T10:00:00Z",
+    "end": "2026-10-27T11:00:00Z"
+  },
+  "generated_at": "2026-10-27T10:10:00Z",
+  "summary": [
+    "18 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 18:08 HKT）為準，共 37 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "內地：麥巴比稱毛澤東獨裁者帖升 57（回覆 269、分數 432），央視叫停西甲轉播新帖（91、39）同蒙牛帖（188、70）跟進。香港經濟：內地客嫌香港遠比澳門差帖（回覆 85、分數 124）。香港時事：內地男持特區護照大鬧機場帖（回覆 104、分數 55）。香港政府官員：政界稱新皇崗逼爆係「喜訊」帖（回覆 30、分數 -28，屬廣義歸類嘅惹火言論）。",
+    "本輪熱門頁未見青年類：未見教育、DSE、學額、民青局或教育局帖，學校禁小朋友跑帖同立法會議員加薪帖已跌出熱門第 1 頁。四類各有實際回覆數；本輪熱門頁未見民青局、教育局或具名官員惹火言論帖。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-DICTATOR",
+      "name": "麥巴比叫毛澤東係獨裁者……班小粉紅話佢辱華要封殺佢",
+      "status": "tracking",
+      "seen": "帖文話麥巴比稱毛澤東為獨裁者，內地網民話佢辱華要封殺。高讚留言一面倒嘲諷內地反應：最高讚（+446）指毛殺咗幾千萬人點會唔係獨裁者，次高（+325）問「唔叫獨裁者唔通係自由鬥士」。今輪新跟進帖「央視：全面叫停涉及西甲和麥巴比的賽事播出 廣告全部下架」（淨評分 39、回覆 91）樓主轉載報道指蒙牛、東鵬飲料等多個內地品牌已終止合作；留言多數笑內地「咁鍾意獨裁就唔好推翻滿清」（+59）、話叫停轉播係「懲罰中國人」（+26），亦有少數（+25）話麥巴比今次「玩大咗」。蒙牛跟進帖升至淨評分 70、回覆 188。三帖第 1 頁都未見有讚嘅支持封殺留言。回覆 269。",
+      "replies": 269,
+      "viewpoints": [
+        {
+          "label": "嘲諷小粉紅",
+          "summary": "高讚留言一面倒認為稱毛澤東為獨裁者係事實，取笑內地網民對號入座。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1",
+            "L3"
+          ]
+        },
+        {
+          "label": "笑央視叫停轉播",
+          "summary": "央視跟進帖留言多數話禁播西甲係懲罰自己人、民族主義又發作，有人想睇麥巴比企硬。",
+          "share": "一部分（跟進帖）",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "話麥巴比玩大咗",
+          "summary": "少數留言話麥巴比今次失去中國市場，但未見撐封殺；冇明顯互相反駁。",
+          "share": "少數",
+          "evidence_ids": [
+            "L2",
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "432",
+          "comparison": "回覆 269；分數正代表讚多過踩；上一輪（15）同帖淨評分 375、回覆 209。分數升 57，逾 30，屬列表刷新（帖仍在、觀點未變，仍以讚為主）。跟進帖 L2（央視）淨評分 39、回覆 91，上一輪未見；L3（蒙牛）淨評分 70、回覆 188（15 點 58／168）。",
+          "evidence_ids": [
+            "L1",
+            "L2",
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（內地網民民族情緒、官媒央視叫停轉播、內地品牌終止合作）。本頁仍見，全頁淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "央視叫停轉播同品牌終止合作只見帖文轉載報道，未對官方原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172827/page/1",
+          "platform": "連登",
+          "author": "三俘",
+          "author_url": "https://lihkg.com/profile/10338",
+          "published_at": null,
+          "observed_at": "2026-10-27T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173051/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-27T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4172957/page/1",
+          "platform": "連登",
+          "author": "鹿特丹斯巴光年",
+          "author_url": "https://lihkg.com/profile/63113",
+          "published_at": null,
+          "observed_at": "2026-10-27T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；麥巴比原話同央視、蒙牛聲明未核實。",
+      "next_steps": "下一輪睇三帖仲喺唔喺熱門第 1 頁，同有冇再多品牌或官方跟進。"
+    },
+    {
+      "issue_id": "HK-ECON-MAINLAND-TOURIST-COMPLAINT",
+      "name": "(HK01）內地客遊港不滿：遠比澳門差  與澳門完全不是一個檔次",
+      "status": "tracking",
+      "seen": "樓主轉載 HK01 報道：有內地客發文數香港「服務差」「貴得要命」「人沒禮貌」等罪狀，讚澳門完勝香港。高讚留言多數反嗆：「點解咁辛苦過來啫」（+103）、「講左十年都仲要死黎香港」（+96）、「咁唔滿意咪唔好嚟囉」（+30）；少數留言（+17）解釋好多內地人冇護照，遠啲旅行只能揀港澳，亦有人（+7）質疑旅遊業單靠新客撐唔撐得住。第 1 頁仍未見有讚嘅留言認同香港服務要改善。回覆 85。",
+      "replies": 85,
+      "viewpoints": [
+        {
+          "label": "叫唔滿意就唔好嚟",
+          "summary": "多數高讚留言反嗆內地客，話唔鍾意就唔好嚟香港。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "解釋內地客點解仲嚟",
+          "summary": "少數留言話內地人冇護照、年年有新客，亦有人質疑旅遊業單靠新客。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "認同香港服務要改",
+          "summary": "第 1 頁未見有讚嘅留言認同或討論旅遊業改善。",
+          "share": "未見",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "124",
+          "comparison": "回覆 85；分數正代表讚多過踩；上一輪（15）同帖淨評分 61、回覆 59。分數升 63，逾 30，屬列表刷新（帖仍在、觀點未變，仍以讚為主）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（旅遊業、內地旅客消費觀感）。本頁仍見，本頁香港經濟類淨評分最高；另見電動車「一換一」告終後油車反超帖（淨評分 10、回覆 27）。",
+      "verification": {
+        "status": "unverified",
+        "note": "只見 HK01 社交平台轉述內地客帖文，未對原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172986/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-27T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "一個內地客嘅帖文唔代表整體旅客觀感。",
+      "next_steps": "下一輪睇仲有冇旅遊或零售數據帖。"
+    },
+    {
+      "issue_id": "HK-CURRENT-AIRPORT-SAR-PASSPORT",
+      "name": "內地男持特區護照大鬧香港機場 自己塡錯機票姓名 被地勤要求付350港元更改 即刻發癲反質疑「中國人用咩英文名」！",
+      "status": "new",
+      "seen": "樓主貼 Instagram 片：一名持特區護照嘅男子喺香港機場因自己填錯機票姓名，被地勤要求付 350 港元更改，即場發脾氣質疑「中國人用咩英文名」。最高讚留言（+235）話特區護照已經俾呢類人搞到一文不值，亦有高讚問航空公司有冇「靜雞雞跪低」（+97），有人（+10）回覆話最後都收咗 350；亦有留言（+35）扯到大學城、賣香港身份嘅生意。第 1 頁未見有讚留言幫當事人講說話。回覆 104。",
+      "replies": 104,
+      "viewpoints": [
+        {
+          "label": "嘲諷當事人",
+          "summary": "高讚留言一面倒話當事人冇常識，並借題批評特區護照被濫發。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "關注航空公司有冇讓步",
+          "summary": "一部分留言追問航空公司有冇豁免收費，有人話最後照收。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "幫當事人講說話",
+          "summary": "第 1 頁未見有讚嘅支持留言，冇互相反駁。",
+          "share": "未見",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "55",
+          "comparison": "回覆 104；分數正代表讚多過踩；上一輪（15）未列卡（15 點 summary 記淨評分 32、回覆 72），升 23，未逾 30。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（香港機場乘客糾紛、特區護照身份爭議）。本頁仍見，本頁香港時事類淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "只見社交平台短片轉載，未見航空公司或機管局回應。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172941/page/1",
+          "platform": "連登",
+          "author": "茉莉花園",
+          "author_url": "https://lihkg.com/profile/28114",
+          "published_at": null,
+          "observed_at": "2026-10-27T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把短片標題當成事實；當事人身份資料不寫。",
+      "next_steps": "下一輪睇呢帖仲喺唔喺熱門第 1 頁，同航空公司有冇回應。"
+    },
+    {
+      "issue_id": "HK-GOV-HUANGGANG-JAM-REMARK",
+      "name": "信報消息：新皇崗逼爆  政界稱「喜訊」：「會塞先好，證明多人嚟」",
+      "status": "new",
+      "seen": "樓主轉載信報報道：新皇崗口岸本月中開通後即大排長龍，有政界人士形容逼爆係「喜訊」，話「會塞先好，證明多人嚟」。留言主要嬲呢句講法：最高讚（+14）指只係香港嗰邊塞爆、深圳嗰邊暢順，點會唔算甩轆，而且塞即係多人北上、消費流失；亦有人話「白事當紅事」、「設計差就差啦」，有留言要求高官落台。報道未點名講者。淨評分負數，留言唔多。回覆 30。",
+      "replies": 30,
+      "viewpoints": [
+        {
+          "label": "嬲政界將塞車講成喜訊",
+          "summary": "留言點解嬲：認為口岸設計差、香港段塞爆，政界仲話「會塞先好」係白事當紅事，而且多人北上即係香港消費流失。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "要求高官問責",
+          "summary": "少數留言話應該有高官落台。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "認同多人嚟係好事",
+          "summary": "第 1 頁未見有讚嘅留言認同。",
+          "share": "未見",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-28",
+          "comparison": "回覆 30；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（廣義歸類：政界人士對新皇崗口岸塞爆嘅惹火言論，涉及政府口岸規劃）。本頁未見民青局、教育局或具名官員帖，呢條係本頁唯一官員／政界惹火言論帖。本頁新見。",
+      "verification": {
+        "status": "unverified",
+        "note": "講者未點名，原句只見帖文轉載信報，未對原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4172994/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-27T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "講者唔係具名官員，屬廣義歸類；不把轉載當成事實。",
+      "next_steps": "下一輪睇有冇具名官員回應皇崗口岸排隊問題。"
+    }
+  ]
+}
