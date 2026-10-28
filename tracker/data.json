@@ -2,9 +2,9 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-06T00:13:54+08:00",
- "generated_at": "2026-10-06T00:13:54+08:00",
- "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"}],
+ "updated_at": "2026-10-28T11:09:15+08:00",
+ "generated_at": "2026-10-28T11:10:03+08:00",
+ "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"}],
  "posts": [
   {
    "id": "DdyCsmTkt3H",
@@ -132,6 +132,32 @@
     {"taken_at":"2026-10-04T00:10:48+08:00","likes":{"raw":"1.6K","value":1600,"approx":true},"replies":{"raw":"135","value":135,"approx":false},"reposts":{"raw":"126","value":126,"approx":false},"shares":{"raw":"773","value":773,"approx":false},"views":{"raw":"53.8K","value":53800,"approx":true}},
     {"taken_at":"2026-10-05T00:12:36+08:00","likes":{"raw":"1.6K","value":1600,"approx":true},"replies":{"raw":"135","value":135,"approx":false},"reposts":{"raw":"126","value":126,"approx":false},"shares":{"raw":"773","value":773,"approx":false},"views":{"raw":"53.9K","value":53900,"approx":true}},
     {"taken_at":"2026-10-06T00:13:54+08:00","likes":{"raw":"1.6K","value":1600,"approx":true},"replies":{"raw":"135","value":135,"approx":false},"reposts":{"raw":"126","value":126,"approx":false},"shares":{"raw":"773","value":773,"approx":false},"views":{"raw":"53.9K","value":53900,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfBPysVDf2O",
+   "url": "https://www.threads.com/@noho213841/post/DfBPysVDf2O",
+   "platform": "threads",
+   "summary": "五角大廈更新「末日計畫」（本土大戰、民用轉軍用、核攻擊遷移指揮所、基地可獨立運作90日）；作者調侃「親身體驗世界末日也算不枉此生」",
+   "tag": "末日計畫",
+   "group": "prep-doomsday",
+   "first_seen": "2026-10-28T11:08:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-28T09:09:07+08:00","estimate":true,"relative_shown":"2h","observed_at":"2026-10-28T11:09:07+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-28T11:09:07+08:00","likes":{"raw":"364","value":364,"approx":false},"replies":{"raw":"7","value":7,"approx":false},"reposts":{"raw":"34","value":34,"approx":false},"shares":{"raw":"394","value":394,"approx":false},"views":{"raw":"2.0萬","value":20000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfBJ7fmkrJU",
+   "url": "https://www.threads.com/@odinkaer/post/DfBJ7fmkrJU",
+   "platform": "threads",
+   "summary": "列舉英／德／瑞典／挪威／台灣／歐盟等至少17國呼籲民眾預先囤物資（3–10日），問若水電氣中斷72小時是否已準備；附圖／清單",
+   "tag": "應急準備",
+   "group": "prep-doomsday",
+   "first_seen": "2026-10-28T11:08:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-28T09:09:15+08:00","estimate":true,"relative_shown":"2h","observed_at":"2026-10-28T11:09:15+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-28T11:09:15+08:00","likes":{"raw":"1,979","value":1979,"approx":false},"replies":{"raw":"44","value":44,"approx":false},"reposts":{"raw":"221","value":221,"approx":false},"shares":{"raw":"4,614","value":4614,"approx":false},"views":{"raw":"15萬","value":150000,"approx":true}}
    ]
   }
  ]
