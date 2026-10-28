@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-28T00:00:00Z",
+    "end": "2026-10-28T01:00:00Z"
+  },
+  "generated_at": "2026-10-28T00:14:00Z",
+  "summary": [
+    "08 點早上快報。以熱門 API api_v2/thread/hot?cat_id=1（約 08:09 HKT）為準，共 33 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "內地：麥巴比「辱毛」風波主帖淨評分升至 178（回覆 134），新見蒙牛終止合作帖（91、199）同央視「聽其言觀其行」回應帖。香港經濟：電動車「一換一」告終後油車反超（84、138），滙豐 RedCoin 穩定幣帖踩票加深至 -125（139）。香港時事：蔡天鳳案審訊證供（58、125），KK 園誘騙案判囚 4 年（34、109）。",
+    "本輪熱門頁未見香港政府官員類，亦未見民青局、教育局或官員／議員惹火言論帖（只見 KK 園帖留言引用港府反對美國販運人口報告聲明）。本輪熱門頁未見青年類：未見教育、DSE、學額或青年就業帖。五條各有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-DICTATOR",
+      "name": "其實毛澤東有咩值得啲人為佢護航？（麥巴比「辱毛」風波延續）",
+      "status": "tracking",
+      "seen": "麥巴比稱毛澤東為獨裁者嘅風波繼續發酵：主帖「其實毛澤東有咩值得啲人為佢護航？」淨評分升至 178。最高讚（+296）一句「中國人係on9」，其他高讚留言數大躍進、文革，話內地「愚民教育」淡化毛澤東，有人（+19）指內地新聞只講「辱華」唔講內容；少數（+49）話毛係戰略家但治國垃圾。新見「蒙牛乳業終止與麥巴比全部合作」帖（淨評分 91、回覆 199），最高讚（+244）話殺人狂魔得毛澤東被當神拜，次高（+171）笑佢冇講名、係人哋自己對號入座。央視回應道歉「聽其言觀其行，望痛改前非」帖（淨評分 -4、回覆 38）留言嘲「點樣痛改前非，跪喺墳前追思落淚？」。「麥巴比跪左」帖（6、148）最高讚（+208）話佢簽咗咁多中國廣告「緊係跪啦」。主帖回覆 134。",
+      "replies": 134,
+      "viewpoints": [
+        {
+          "label": "毛澤東就係獨裁者",
+          "summary": "高讚留言一面倒認為稱毛為獨裁者係事實，列舉大躍進、文革，嘲內地護航同愚民教育。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "道歉同解約都係錢同政治",
+          "summary": "留言話麥巴比跪係因為中國廣告合約，蒙牛解約係「得蒙牛蝕」，又話內地想周圍叫人道歉去展示影響力；央視「痛改前非」被嘲。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        },
+        {
+          "label": "毛有戰略功績",
+          "summary": "少數話毛係近代戰略家但治國垃圾，未見有人全面護航，帖內冇明顯對罵。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "178",
+          "comparison": "回覆 134；分數正代表讚多過踩；上一輪（00）同帖淨評分 68、回覆 76，升 110，屬列表刷新（帖仍在、觀點未變，讚票持續累積）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "91",
+          "comparison": "蒙牛解約帖回覆 199；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（內地官媒、企業因言論制裁外國球星）。本頁仍見，全頁入選帖中淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "蒙牛公告同央視回應只見帖文轉述，未對原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173183/page/1",
+          "platform": "連登",
+          "author": "不管五毛的連登",
+          "author_url": "https://lihkg.com/profile/415993",
+          "published_at": null,
+          "observed_at": "2026-10-28T00:09:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:09 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4172957/page/1",
+          "platform": "連登",
+          "author": "鹿特丹斯巴光年",
+          "author_url": "https://lihkg.com/profile/63113",
+          "published_at": null,
+          "observed_at": "2026-10-28T00:09:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:09 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4173225/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-28T00:09:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:09 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4173127/page/1",
+          "platform": "連登",
+          "author": "只買角大",
+          "author_url": "https://lihkg.com/profile/48",
+          "published_at": null,
+          "observed_at": "2026-10-28T00:09:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:09 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；留言反映連登用戶取態。",
+      "next_steps": "下一輪睇蒙牛帖同主帖仲在唔在熱門第 1 頁，有冇其他品牌跟進。"
+    },
+    {
+      "issue_id": "HK-EV-ONE-FOR-ONE-END",
+      "name": "電動車「一換一」告終半年   新登記油車重新反超電動車",
+      "status": "tracking",
+      "seen": "樓主引報道指「一換一」喺預算案宣布唔延續後，電動車佔新登記私家車由 3 月 87.59% 跌至 9 月 48.78%，油車反超。留言爭電車車主係咪「無錢」：最高讚（+142）話電車車主十個有九個唔掂、要折扣先買；次高（+128）「hybrid最正」；有人（+97）反駁電車車主多數係油轉電。理性一派（+46）話價錢由 $50 變 $100 心理上難接受，購買力已透支，要冷幾年。回覆 138。",
+      "replies": 138,
+      "viewpoints": [
+        {
+          "label": "冇優惠就冇人買",
+          "summary": "多數留言認為電車銷量靠「一換一」同免費充電撐起，優惠一停就冷卻，購買力已提早透支。",
+          "share": "留言較多",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "油車派嘲電車車主窮",
+          "summary": "最高讚留言話電車車主「無錢」，即有人反駁呢種優越感，話大部分都係油轉電，互相反駁。",
+          "share": "一部分，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "充電仍係硬傷",
+          "summary": "少數話香港已係最啱電車嘅地方但充電太耐，PHEV 亦被指集兩者缺點。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "84",
+          "comparison": "回覆 138；分數正代表讚多過踩；上一輪（00）同帖淨評分 75、回覆 121，升 9，未逾 30。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（汽車市場、政府優惠退場後效應）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "佔比數字只見帖文轉述，未對運輸署原始數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173016/page/1",
+          "platform": "連登",
+          "author": "hhsk",
+          "author_url": "https://lihkg.com/profile/227801",
+          "published_at": null,
+          "observed_at": "2026-10-28T00:09:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:09 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；留言反映連登用戶取態。",
+      "next_steps": "下一輪睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-TSOI-CASE-TRIAL-EVIDENCE",
+      "name": "蔡天鳳碎屍案︱警方破門蒐證見房內膠箱有砧板肉碎 房內亦散發濃烈香精氣味 雪櫃發現雙腿殘肢後封鎖現場",
+      "status": "tracking",
+      "seen": "帖文轉述審訊第 24 日現場證物警員供詞：破門入龍尾村單位見膠箱有砧板同肉碎、電鋸，房內有濃烈香精味。留言以驚嚇同譴責為主：最高讚（+218）話「睇字都覺得好恐怖，三父子真係魔鬼」，多條（+44、+40）話手法咁熟練，懷疑唔止殺過一個；亦有人（+37）理解警員當時唔開煲係等法醫處理。回覆 125。",
+      "replies": 125,
+      "viewpoints": [
+        {
+          "label": "恐怖、譴責被告",
+          "summary": "大多數留言對案情感震驚，直斥被告係魔鬼。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "懷疑有前科",
+          "summary": "部分留言因手法純熟，揣測被告殺過其他人（屬留言推測，未有證據）。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "討論蒐證程序",
+          "summary": "少數討論警員為何唔即場打開膠箱同煲，認為係留俾法醫。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "58",
+          "comparison": "回覆 125；分數正代表讚多過踩；上一輪（00）同帖淨評分 46、回覆 101，升 12，未逾 30。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（法庭、刑事案）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "案情只見帖文轉述報道，案件仍在審訊，被告未定罪。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173052/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-28T00:09:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:09 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "案件審訊中，留言推測不等於事實。",
+      "next_steps": "下一輪睇審訊帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-KK-PARK-TRAFFICKING-SENTENCE",
+      "name": "33歲美容師誘騙兩港女赴泰再賣往緬甸KK園，認欺詐罪判囚4年",
+      "status": "tracking",
+      "seen": "帖文轉述被告以免費旅行誘騙兩名港女赴泰，再被賣往緬甸 KK 園，認欺詐罪判囚 4 年。留言一面倒嫌判得輕：最高讚（+326）「販賣人口坐少過叫口號」，次高（+166）話係謀殺級罪案、香港法律得啖笑，有人（+80）指扣減後實坐約 2 年半。另有留言（+22）引港府早前強烈反對《2026年美國販運人口報告》嘅聲明作對比嘲諷。回覆 109。",
+      "replies": 109,
+      "viewpoints": [
+        {
+          "label": "判刑太輕",
+          "summary": "大多數留言認為販賣人口只判 4 年過輕，並拿政治案件刑期對比。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "嘲港府否認販運問題",
+          "summary": "部分留言引港府反駁美國報告嘅聲明，話官方唔肯認香港有販運人口問題。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "譴責被告為錢害人",
+          "summary": "少數留言集中鬧被告為錢賣人去送死。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "34",
+          "comparison": "回覆 109；分數正代表讚多過踩；上一輪（00）同帖淨評分 28、回覆 99，升 6，未逾 30。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（法庭判刑、跨境販運）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "案情只見帖文轉述報道，未對判詞。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173077/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-28T00:09:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:09 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；刑期對比屬留言意見。",
+      "next_steps": "下一輪睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-HSBC-REDCOIN-STABLECOIN",
+      "name": "滙豐正式推出港元穩定幣「RedCoin」一枚代幣對應一港元、冇利息 、不受存款保障計劃保護",
+      "status": "tracking",
+      "seen": "樓主轉載滙豐 RedCoin 白皮書介紹：港元 1:1 掛鈎、冇利息、唔受存保保障。留言多數質疑用途：最高讚（+129）「其實有乜用，又買唔到crypto」，（+93）「到底有啲咩用」；有人（+42）諷刺用途係走資、洗黑錢、印錢，亦有人（+18）反駁有監管、上鏈有紀錄洗唔到黑錢。帖分數為負。回覆 139。",
+      "replies": 139,
+      "viewpoints": [
+        {
+          "label": "唔知有咩用",
+          "summary": "大多數留言認為對一般用家冇實際用途，冇利息又冇存保。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "懷疑係走資、印錢工具",
+          "summary": "部分留言諷刺穩定幣方便走資、洗黑錢或同受制裁國家轉錢。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "有監管反而難洗錢",
+          "summary": "少數反駁指區塊鏈有紀錄、有政府監管，洗黑錢說法唔成立。",
+          "share": "少數，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-125",
+          "comparison": "回覆 139；分數負代表踩多過讚；上一輪（00）同帖淨評分 -68、回覆 98，跌 57，屬列表刷新（帖仍在、觀點未變，踩票持續累積，冇由讚轉踩）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（金融、穩定幣）。本頁仍見，淨評分全頁入選帖最低。",
+      "verification": {
+        "status": "unverified",
+        "note": "產品細節只見帖文轉載，未對滙豐白皮書原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173194/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-28T00:09:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 08:09 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；踩多可能反映對帖或對產品反感，未能分開。",
+      "next_steps": "下一輪睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
