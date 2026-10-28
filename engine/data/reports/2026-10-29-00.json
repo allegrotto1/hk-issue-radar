@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-28T16:00:00Z",
+    "end": "2026-10-28T17:00:00Z"
+  },
+  "generated_at": "2026-10-28T16:20:00Z",
+  "summary": [
+    "00 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 00:15 HKT）為準，共 36 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "香港時事：港鐵指示牌倒轉帖再升至 319（69），仍係香港帖最高。香港政府官員：議員倡打擊綜援家庭「不合理高消費」帖升至 161（158），屬議員惹火言論；新見宏福苑問責「誰落鑊」鄧炳強帖（8、79）。內地：麥巴比帖升至 156（166）；拿破崙帖本輪已跌出熱門頁。香港經濟：新見 Samsung 家電撤港帖（38、79）；外勞帖本輪已不在熱門頁。",
+    "本輪熱門頁未見民青局、教育局帖。本輪熱門頁未見青年類：未見教育、DSE、學額或青年就業帖。五條各有實際回覆數。",
+    "情緒觀察：升＋怒／嘲諷＋大家嬲綜援「高消費」、冷嘲宏福苑問責冇人落鑊（情緒觀察，事件未核實；只見連登，未對照 Threads）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-MTR-SIGN-UPSIDE-DOWN",
+      "name": "港鐵做嘢真係求求其其",
+      "status": "tracking",
+      "seen": "樓主貼港鐵指示牌裝倒轉嘅相，淨評分再升至 319、回覆 69，仍係全頁最高嘅香港帖。最高讚（+174）拉埋藍田站連續兩日著火，質疑有經驗技術嘅人係咪走晒；（+170）笑「MTR roadster」；（+68）話壟斷就唔理你。少數留言反駁「批評香港差就要移民」嘅講法，亦有人怪外判同輸入外勞。",
+      "replies": 69,
+      "viewpoints": [
+        {
+          "label": "嘲港鐵質素下滑",
+          "summary": "多數高讚留言借倒轉牌同藍田站火警，笑港鐵維修求其、技術人員流失。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "怪壟斷同外判",
+          "summary": "部分留言話港鐵壟斷冇競爭、工程外判師傅求其。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "互相反駁「唔滿就移民」",
+          "summary": "少數留言爭論批評香港係咪等於要移民，有人反擊呢種邏輯。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "319",
+          "comparison": "回覆 69；分數正代表讚多過踩；上一輪（21）269、回覆 65，升 50，屬列表刷新（帖仍在、觀點未變，讚票持續累積）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港鐵設施管理）。本頁仍見，香港帖中淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "相片未核實拍攝地點同時間。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173287/page/1",
+          "platform": "連登",
+          "author": "茅野愛衣",
+          "author_url": "https://lihkg.com/profile/8269",
+          "published_at": null,
+          "observed_at": "2026-10-28T16:16:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 00:15 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪睇港鐵有冇回應、帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CSSA-HIGH-SPENDING",
+      "name": "議員倡打擊綜援家庭「不合理高消費」",
+      "status": "tracking",
+      "seen": "樓主轉載新聞：有議員倡打擊綜援家庭「不合理高消費」，勞福局局長孫玉菡回應「生活模式不同難設限」；起因係屯門富泰邨女童挽兩大袋啤酒、繼父母被捕案。淨評分升至 161、回覆 158。最高讚（+124）支持綜援金只可當年金提取；（+111）提議轉做飯券、逐項審批；（+66）要實名食物券。少數留言反駁：有人話咁講即係連免費教育都要還錢，係雙重標準；亦有人指逐項審批行政費會多過派錢。",
+      "replies": 158,
+      "viewpoints": [
+        {
+          "label": "嬲綜援被濫用",
+          "summary": "留言嬲嘅主要唔係議員，而係覺得綜援家庭用公帑「高消費」（啤酒、旅行），多數支持收緊：改飯券、食物券、消費卡、每月審計。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反駁雙重標準",
+          "summary": "少數留言指拎免費教育、公屋嘅人都係受資助，用同一邏輯鬧綜援係雙標。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "質疑可行性",
+          "summary": "有人指逐項審批行政費比直接派錢更貴，又擔心濫用舉報同 KPI。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "161",
+          "comparison": "回覆 158；分數正代表讚多過踩；上一輪（21）88、回覆 102，升 73，屬列表刷新（帖仍在、觀點未變，仍以支持收緊為主，冇由讚轉踩）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（議員惹火言論、勞福局局長回應）。本頁仍見；熱門頁未見民青局／教育局，改以議員惹火帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對立法會紀錄或官方原文；議員姓名本輪未核。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173541/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-28T16:16:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 00:15 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；留言對綜援家庭嘅指控未經核實。",
+      "next_steps": "下一輪睇勞福局有冇進一步回應、分數仲升唔升。"
+    },
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-MEME",
+      "name": "麥巴比越玩越大，美法國出聲支援",
+      "status": "tracking",
+      "seen": "樓主轉 X 帖，指麥巴比玩毛主席 meme 風波擴大、美法出聲支援。淨評分升至 156、回覆 166；上一輪同組嘅拿破崙帖本輪已跌出熱門頁。最高讚（+111）問美法一齊唔賣飛機會點；（+91）反串「咱们还有C919」；（+80）話小粉紅愈想壓人就愈顯得野蠻無知。有留言反駁 C919 引擎同零件都靠美法；另有長留言提醒唔好被撐內地帳號分化港台。",
+      "replies": 166,
+      "viewpoints": [
+        {
+          "label": "嘲內地施壓反效果",
+          "summary": "多數高讚留言笑官方同小粉紅施壓，愈搞愈令外國睇清楚。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "質疑卡脖子講法",
+          "summary": "有人指 C919 引擎零件依賴美法，亦有人話美法唔會為一個球星禁售飛機。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反串同胞",
+          "summary": "部分留言扮內地人口吻（C919）作諷刺。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "156",
+          "comparison": "回覆 166；分數正代表讚多過踩；上一輪（21）119、回覆 151，升 37，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地（麥巴比毛主席 meme 風波、內地官方反應）。本頁仍見，內地帖中最熱；上一輪拿破崙帖（4173316）本輪已不在熱門頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "美法出聲支援只見轉載，未對原始報道。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173454/page/1",
+          "platform": "連登",
+          "author": "來自篤精的你",
+          "author_url": "https://lihkg.com/profile/44171",
+          "published_at": null,
+          "observed_at": "2026-10-28T16:16:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 00:15 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪睇風波有冇新發展、帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-SAMSUNG-APPLIANCE-EXIT",
+      "name": "Samsung家電撤港 豐澤店員指8.31已撤港 據悉不敵內地低廉產品",
+      "status": "new",
+      "seen": "樓主轉載報道：三星據報撤出香港家電市場，停售雪櫃、冷氣機、洗衣機、吸塵機，原因據稱係不敵內地平價品牌，豐澤店員指 8 月 31 日已撤。淨評分 38、回覆 79。最高讚（+73）「劣幣驅逐良幣」；（+53）怪香港人貪平；但亦有唔少留言反駁三星家電本身唔好，話係「劣幣驅逐劣幣」，貴價歐洲牌照樣好賣。有用家擔心保養同維修。",
+      "replies": 79,
+      "viewpoints": [
+        {
+          "label": "怪貪平劣幣驅逐良幣",
+          "summary": "高讚留言話消費者貪平，內地平價家電擠走外國牌。",
+          "share": "留言較多",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反駁：三星本身唔掂",
+          "summary": "唔少留言話三星家電質素一般、易壞，係劣幣驅逐劣幣，高檔品牌冇受影響。",
+          "share": "相當部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "擔心售後",
+          "summary": "有現有用家問保養、維修點算。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "38",
+          "comparison": "回覆 79；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（外資家電撤出、內地品牌價格競爭）。本頁仍見；熱門頁經濟類以此帖最貼題（上一輪外勞帖本輪已不在熱門頁）。",
+      "verification": {
+        "status": "unverified",
+        "note": "撤港消息來自韓媒及店員口述，未見三星正式公告。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173501/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-28T16:16:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 00:15 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪睇有冇官方確認、帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-WANGFUK-ACCOUNTABILITY",
+      "name": "HK01: 政圈熱議「誰落鑊」 一局長走唔甩？ 據稱鄧炳強近日轉趨低調",
+      "status": "new",
+      "seen": "樓主轉 HK01：大埔宏福苑五級大火獨立委員會最快 29 日公開報告並展開問責，政圈私下議論要有問責官員「落鑊」，報道指鄧炳強近日轉趨低調、婉拒活動。淨評分 8、回覆 79。最高讚（+122）「落馬又點，轉頭去做特首」；（+58）（+52）都唔信會郁鄧炳強，話佢 2019 年立大功；（+43）話甯漢豪咁都留得低。少數留言點名房署同發展局要負責，亦有人提皇崗過關塞車。",
+      "replies": 79,
+      "viewpoints": [
+        {
+          "label": "唔信有人真問責",
+          "summary": "多數高讚留言冷嘲：就算落台都會升職或做特首，認為唔會有人真係負責。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "點名其他官員",
+          "summary": "部分留言話應該係甯漢豪或房署、發展局負責，而唔係保安局。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "借題鬧施政",
+          "summary": "少數留言順帶鬧皇崗過關安排。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "8",
+          "comparison": "回覆 79；分數正代表讚多過踩（本帖只係略正，讚踩接近）；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（宏福苑火災問責、局長去留）。本頁仍見；屬真官員帖，但淨評分低。",
+      "verification": {
+        "status": "unverified",
+        "note": "「落鑊」人選屬媒體吹風，報告未公開。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173579/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-10-28T16:16:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 00:15 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；報道屬消息人士說法。",
+      "next_steps": "29 日報告公開後睇留言有冇轉向、熱度會唔會急升。"
+    }
+  ]
+}
