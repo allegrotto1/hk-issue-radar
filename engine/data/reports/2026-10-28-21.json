@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-28T13:00:00Z",
+    "end": "2026-10-28T14:00:00Z"
+  },
+  "generated_at": "2026-10-28T13:21:00Z",
+  "summary": [
+    "21 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 21:21 HKT）為準，共 37 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "內地：拿破崙帖再升至 451（125）仍全頁最高；新見麥巴比「美法出聲支援」帖（119、151）。上一輪外交部／央視帖本輪已不在熱門頁。香港時事：港鐵指示牌倒轉帖升至 269（65）；沙田史路比公園帖升至 113（138）。香港經濟：新見輸入外勞×建造業失業升五成帖（98、167）；上一輪郵政虧蝕帖本輪已不在熱門頁。",
+    "香港政府官員：新見選委界議員倡打擊綜援家庭「不合理高消費」帖（88、102），屬議員惹火言論；長糧帖再跌至 -82（216）仍在頁。本輪熱門頁未見民青局、教育局帖。本輪熱門頁未見青年類：未見教育、DSE、學額或青年就業帖。五條各有實際回覆數。",
+    "情緒觀察：升＋怒／飯碗焦慮＋議員打綜援「不合理高消費」同外勞失業並行（情緒觀察，事件未核實）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-DICTATOR",
+      "name": "中國人係X問可唔可以笑鳩拿破崙 震驚7億歐洲人／麥巴比越玩越大，美法國出聲支援",
+      "status": "tracking",
+      "seen": "「可唔可以笑鳩拿破崙」帖淨評分再升至 451、回覆 125，仍係全頁最高：樓主諷刺歐洲人可以隨便鬧領導。最高讚（+287）仍係美蘇笑話，嘲內地只可以鬧外國領袖；（+157）反串「支持同胞出大絕」；（+132）話外國人無論拿破崙做好定壞事都可以隨意鬧，你愈認真佢哋愈覺得好笑。新見麥巴比帖（119、151）轉 X：美法出聲支援；最高讚（+73）反串「還有 C919」；（+68）問美法一齊唔賣飛機會點；（+66）話小粉紅愈搞愈顯得野蠻無知。",
+      "replies": 125,
+      "viewpoints": [
+        {
+          "label": "嘲內地只准鬧外國人",
+          "summary": "多數高讚留言借拿破崙同美蘇笑話，笑內地人對自己領袖唔容批評、對外國領袖就隨便笑。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "笑官方施壓愈搞愈僵",
+          "summary": "麥巴比帖留言多數嘲小粉紅同官方施壓，反問飛機卡脖子同野蛮形象。",
+          "share": "麥巴比帖大多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "反串同胞",
+          "summary": "部分留言扮內地人口吻「出大絕」「C919」，屬反串諷刺。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "451",
+          "comparison": "回覆 125；分數正代表讚多過踩；上一輪（18）397、回覆 120，升 54，屬列表刷新（帖仍在、觀點未變，讚票持續累積）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "119",
+          "comparison": "麥巴比帖回覆 151；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（麥巴比辱華風波、內地對批評領袖嘅反應）。本頁仍見，淨評分全頁最高。上一輪外交部帖（4173447）本輪已不在熱門頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "美法出聲支援只見轉載；拿破崙帖同麥巴比事件嘅關係只係推斷。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173316/page/1",
+          "platform": "連登",
+          "author": "三俘",
+          "author_url": "https://lihkg.com/profile/10338",
+          "published_at": null,
+          "observed_at": "2026-10-28T13:21:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:21 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173454/page/1",
+          "platform": "連登",
+          "author": "來自篤精的你",
+          "author_url": "https://lihkg.com/profile/44171",
+          "published_at": null,
+          "observed_at": "2026-10-28T13:21:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:21 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪睇風波有冇新發展、兩帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-MTR-SIGN-UPSIDE-DOWN",
+      "name": "港鐵做嘢真係求求其其",
+      "status": "tracking",
+      "seen": "樓主貼圖：扶手電梯上方指示牌嘅列車圖案上下倒轉。淨評分升至 269、回覆 65。最高讚（+146）笑「MTR roadster 黎架」；（+137）借藍田站接連著火，質疑有經驗技術嘅人移晒民；（+59）「壟斷咗係咁嘅啦」；（+12）怪外判師傅求其；（+13）反駁「其他地方都衰」嘅講法，話住香港有衰嘢就要屌。",
+      "replies": 65,
+      "viewpoints": [
+        {
+          "label": "嘲港鐵質素下降",
+          "summary": "多數留言借倒轉指示牌笑港鐵求其，連結藍田站著火，質疑人才流失。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "壟斷同外判",
+          "summary": "部分留言話港鐵壟斷唔使負責，或怪工程外判。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "唔好比較其他地方",
+          "summary": "少數留言反駁「外國更差」講法，有互相反駁。",
+          "share": "少數，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "269",
+          "comparison": "回覆 65；分數正代表讚多過踩；上一輪（18）232、回覆 64，升 37，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港鐵設施管理）。本頁仍見，香港帖中淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "只見樓主相片，未知車站同港鐵回應；藍田站著火只係留言講法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173287/page/1",
+          "platform": "連登",
+          "author": "茅野愛衣",
+          "author_url": "https://lihkg.com/profile/8269",
+          "published_at": null,
+          "observed_at": "2026-10-28T13:21:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:21 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-SHATIN-SNOOPY-WORLD",
+      "name": "沙田史路比公園，完了吧，如無意外",
+      "status": "tracking",
+      "seen": "樓主話沙田史路比公園「完了吧」。淨評分升至 113、回覆 138。最高讚（+183）話廿幾年算歷史文物級；（+146）問係咪 M 記熱潮下嘅歷史遺物；（+121）憶述當年食完雲吞麵出去睇史努比；（+103）嫌香港商場倒模但特色嘢又唔支持，去到最後先一窩蜂話唔捨得；（+66）澄清呢個係免費公園。",
+      "replies": 138,
+      "viewpoints": [
+        {
+          "label": "懷舊唔捨得",
+          "summary": "多數留言懷舊，當史路比公園係免費主題公園／歷史遺物。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "怪市民臨尾先撑",
+          "summary": "部分留言怪平時唔支持特色設施，執笠前先湧去打卡。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "113",
+          "comparison": "回覆 138；分數正代表讚多過踩；上一輪（18）92、回覆 132，升 21。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（本地公共／商場設施結業討論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "結業時間同業權安排未對官方／商場通告。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173305/page/1",
+          "platform": "連登",
+          "author": "花雨落",
+          "author_url": "https://lihkg.com/profile/293648",
+          "published_at": null,
+          "observed_at": "2026-10-28T13:21:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:21 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-IMPORT-LABOUR-CONSTRUCTION",
+      "name": "輸入外勞不足三年  建造業失業率升五成  六成工種工資全面倒退",
+      "status": "new",
+      "seen": "樓主引用統計：自 2023 建造業輸入勞工計劃以來，建造業失業率由 3.9% 升至 5.9%（升五成），逾六成工種工資倒退；並批評發展局局長甯漢豪「離地」講私人工程回暖。淨評分 98、回覆 167。最高讚（+91）人身攻擊局長樣貌同言論；（+53）反串「保（外勞）就業」；（+47）話入外勞目標就係壓低本地議價、地盤佬抵死；（+49）反駁「overpaid」奴隸思維；（+14）問樓價有冇平到。",
+      "replies": 167,
+      "viewpoints": [
+        {
+          "label": "外勞搶飯碗／壓工資",
+          "summary": "多數留言指輸入外勞令本地建造業失業升、工資跌，批評官方理據同甯漢豪言論。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反串挺政府",
+          "summary": "部分留言反串「再入幾萬外勞」「政府做咩都支持」。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反駁 overpaid",
+          "summary": "少數留言反駁地盤人工過高講法，有互相反駁。",
+          "share": "少數，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "98",
+          "comparison": "回覆 167；分數正代表讚多過踩；上一輪未見。上一輪經濟類郵政虧蝕帖（4173395）本輪已不在熱門頁。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（輸入外勞、建造業就業／工資）。本頁仍見；熱門頁經濟類以此帖最熱。",
+      "verification": {
+        "status": "unverified",
+        "note": "失業率同工資數字只見樓主轉述統計處／報道，未對原文；甯漢豪講法未對官方紀錄。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173383/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-28T13:21:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:21 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁，有冇官方回應。"
+    },
+    {
+      "issue_id": "HK-CSSA-HIGH-SPENDING-LAWMAKER",
+      "name": "議員倡打擊綜援家庭「不合理高消費」",
+      "status": "new",
+      "seen": "選委界樓家強在立法會質詢，倡設機制打擊綜援家庭「不合理高消費」，並引內地低保預警；勞福局局長孫玉菡指各家庭消費模式不同難劃一標準，鼓勵舉報濫用。淨評分 88、回覆 102。最高讚（+61）支持夾埋公屋綜援強制儲蓄當年金；（+60）（+47）主張改做飯券／實名食物券逐項審批；（+18）禁買貴價手機；（+7）公屋都應禁出境旅遊；（+9）反駁連登仔對綜援雙標、自己都受免費教育。",
+      "replies": 102,
+      "viewpoints": [
+        {
+          "label": "嬲有人領綜援仲高消費",
+          "summary": "多數高讚留言支持議員打擊「不合理高消費」，主張食物券、強制儲蓄、禁貴價消費或出境，覺得公帑被濫用。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反駁雙標",
+          "summary": "少數留言指批評綜援嘅人自己都受公帑資助（如免費教育），屬雙標，有互相反駁。",
+          "share": "少數，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "88",
+          "comparison": "回覆 102；分數正代表讚多過踩；上一輪未見。上一輪官員類長糧帖（4173398）本輪仍在頁但改以本帖作惹火優先；長糧淨評分 -82、回覆 216。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（議員質詢／勞福局回應、惹火言論）。本頁仍見；熱門頁未見民青局／教育局，改以議員惹火帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "質詢同孫玉菡回應只見轉載，未對立法會／政府原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173541/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-28T13:21:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:21 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；不把留言當成政策事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁；長糧帖分數走勢。"
+    }
+  ]
+}
