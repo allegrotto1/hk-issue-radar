@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-28T07:00:00Z",
+    "end": "2026-10-28T08:00:00Z"
+  },
+  "generated_at": "2026-10-28T07:25:00Z",
+  "summary": [
+    "15 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 15:17 HKT）為準，共 37 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "內地：新見「可唔可以笑鳩拿破崙」帖（338、111）全頁最高，辱毛主帖升至 320（247）。香港時事：港鐵指示牌倒轉帖升至 211（63）。香港經濟：新見建造業外勞壓低人工帖（47、83）同三星據報撤出香港家電市場（30、88）。",
+    "香港政府官員：公務員事務局局長楊何蓓茵就長糧講「不應也不可輕言更改」惹留言反感（-40、115）。本輪熱門頁未見民青局、教育局帖。本輪熱門頁未見青年類：未見教育、DSE、學額或青年就業帖。五條各有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-DICTATOR",
+      "name": "中國人係X問可唔可以笑鳩拿破崙 震驚7億歐洲人／其實毛澤東有咩值得啲人為佢護航？",
+      "status": "tracking",
+      "seen": "新帖「中國人係X問可唔可以笑鳩拿破崙」淨評分 338、回覆 111，全頁最高：樓主諷刺歐洲人可以隨便鬧領導。最高讚（+214）引美蘇笑話，嘲內地只可以鬧外國領袖；（+92）話外國人眼中拿破崙點都可以隨意鬧，你愈認真佢哋愈覺得好笑；（+103、+28）反串「支持同胞出大絕」。標題未提麥巴比，係咪同一風波延伸未核實。原「辱毛」主帖仍在，淨評分 320、回覆 247，最高讚（+558）仍係「中國人係on9，講完」，（+61）話「愚民教育」淡化毛澤東負面嘢，少數（+93）話毛係戰略家但治國垃圾。",
+      "replies": 111,
+      "viewpoints": [
+        {
+          "label": "嘲內地只准鬧外國人",
+          "summary": "多數高讚留言借拿破崙同毛澤東對比，笑內地人對自己領袖唔容批評、對外國領袖就隨便笑。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "毛澤東就係獨裁者",
+          "summary": "辱毛主帖高讚留言一面倒話毛係獨裁者，怪愚民教育淡化歷史。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "反串同胞",
+          "summary": "部分留言扮內地人口吻「出大絕」「笑歐豬」，屬反串諷刺。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "338",
+          "comparison": "回覆 111；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "320",
+          "comparison": "辱毛主帖回覆 247；分數正代表讚多過踩；上一輪（12）271、回覆 208，升 49，屬列表刷新（帖仍在、觀點未變，讚票持續累積）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（內地網民對批評領袖嘅反應、中共歷史評價）。本頁仍見，淨評分全頁最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "帖文同留言講法未核實；拿破崙帖同麥巴比事件嘅關係只係推斷。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173316/page/1",
+          "platform": "連登",
+          "author": "三俘",
+          "author_url": "https://lihkg.com/profile/10338",
+          "published_at": null,
+          "observed_at": "2026-10-28T07:17:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:17 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173183/page/1",
+          "platform": "連登",
+          "author": "不管五毛的連登",
+          "author_url": "https://lihkg.com/profile/415993",
+          "published_at": null,
+          "observed_at": "2026-10-28T07:17:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:17 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪睇兩帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-MTR-SIGN-UPSIDE-DOWN",
+      "name": "港鐵做嘢真係求求其其",
+      "status": "tracking",
+      "seen": "樓主貼圖：扶手電梯上方指示牌嘅列車圖案上下倒轉，冇其他文字。淨評分再升至 211。最高讚（+102）笑「MTR roadster 黎架」；（+98）借藍田站接連著火，質疑有經驗技術嘅人移晒民；（+43）「壟斷咗係咁嘅啦，理撚得你」；（+10）怪外判師傅求其。回覆 63。",
+      "replies": 63,
+      "viewpoints": [
+        {
+          "label": "嘲港鐵質素下降",
+          "summary": "多數留言借倒轉指示牌笑港鐵求其，連結藍田站著火，質疑人才流失。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "壟斷同外判",
+          "summary": "部分留言話港鐵壟斷唔使負責，或怪工程外判。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "純搞笑",
+          "summary": "不少留言只係改圖、笑出限量版公仔。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "211",
+          "comparison": "回覆 63；分數正代表讚多過踩；上一輪（12）124、回覆 52，升 87，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港鐵設施管理）。本頁仍見，香港帖中淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "只見樓主相片，未知車站同港鐵回應；藍田站著火只係留言講法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173287/page/1",
+          "platform": "連登",
+          "author": "茅野愛衣",
+          "author_url": "https://lihkg.com/profile/8269",
+          "published_at": null,
+          "observed_at": "2026-10-28T07:17:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:17 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；相片地點未知。",
+      "next_steps": "下一輪睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CONSTRUCTION-IMPORTED-LABOUR-WAGES",
+      "name": "輸入外勞不足三年  建造業失業率升五成  六成工種工資全面倒退",
+      "status": "new",
+      "seen": "樓主轉載文章：建造業輸入勞工計劃 2023 年推出後，建造業失業率由 3.9% 升至 5.9%，39 個工種有 24 個工資下跌；文章話發展局局長甯漢豪「離地聲稱」未來五年人力需求殷切，堅持保留 12,000 配額。最高讚（+41）鬧局長「面目可憎」「濕鳩言論」；（+20、+8、+6）反駁有人話地盤工 overpaid，指係「奴隸思維」，叫人夏天去地盤感受下；（+10）諷刺「保（外勞）就業」。回覆 83。",
+      "replies": 83,
+      "viewpoints": [
+        {
+          "label": "鬧政府輸入外勞壓低人工",
+          "summary": "多數留言認為政府輸入外勞削弱本地工人議價能力，鬧局長同政策。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反駁「地盤工 overpaid」",
+          "summary": "不少留言反駁有人話建造業工人人工過高，有互相反駁。",
+          "share": "一部分，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "樓價冇跌",
+          "summary": "少數留言問人工跌咗，樓價有冇平到。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "47",
+          "comparison": "回覆 83；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（勞工市場、輸入外勞政策）。本頁仍見，新上榜。",
+      "verification": {
+        "status": "unverified",
+        "note": "失業率同工資數字只見帖文轉載，未對統計處原始數據；局長原話未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173383/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-28T07:17:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:17 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪睇有冇官員回應。"
+    },
+    {
+      "issue_id": "HK-SAMSUNG-EXIT-APPLIANCES",
+      "name": "(突發）三星電子據報撤出香港家電市場！",
+      "status": "new",
+      "seen": "兩帖轉載韓國經濟TV同星島報道：三星據報繼 5 月退出內地家電市場後，停售香港雪櫃、洗衣機、冷氣機等大型家電，手機、電視、平板照賣；客服話只係暫時缺貨。留言多數係用家分享：（+8、+4）話三星洗衣機好用，（+2）話雪櫃易漏水結冰中過伏，有人推介其他牌子。另一帖（+28）鬧網民唱衰（「9up」）某啲品牌，（+15、+8）自稱識人喺三星香港家電部「已經收到大信封」，未核實；（+5）話香港市場太細。回覆 88（另一帖 116）。",
+      "replies": 88,
+      "viewpoints": [
+        {
+          "label": "用家可惜／比較牌子",
+          "summary": "多數留言分享三星家電好唔好用，推介替代牌子，冇強烈情緒。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "香港市場細、競爭大",
+          "summary": "部分留言認為香港市場太細，中價位打唔過內地平價牌。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "唔好亂唱衰",
+          "summary": "有留言鬧人借消息唱衰品牌，同另一邊有互相反駁。",
+          "share": "少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "30",
+          "comparison": "回覆 88；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "22",
+          "comparison": "星島轉載帖回覆 116；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港經濟（外資品牌撤出香港零售市場）。本頁仍見兩帖，新上榜。",
+      "verification": {
+        "status": "unverified",
+        "note": "三星未正式公布，只係據報；「收到大信封」係留言自稱。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173407/page/1",
+          "platform": "連登",
+          "author": "以揉制肛",
+          "author_url": "https://lihkg.com/profile/84932",
+          "published_at": null,
+          "observed_at": "2026-10-28T07:17:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:17 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173405/page/1",
+          "platform": "連登",
+          "author": "Hennes小公主",
+          "author_url": "https://lihkg.com/profile/159163",
+          "published_at": null,
+          "observed_at": "2026-10-28T07:17:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:17 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪睇三星有冇正式回應。"
+    },
+    {
+      "issue_id": "HK-CIVIL-SERVANT-PENSION",
+      "name": "公務員每月「長糧」平均增至$20200　公帑承擔退休金料達9,248億",
+      "status": "new",
+      "seen": "樓主轉載 HK01：公務員事務局局長楊何蓓茵今日（28 日）答議員陳宗彝，退休公務員平均每月退休金約 20,200 元，法定退休金承擔額 9,248 億元。局長話政府作為良好僱主，「不應也不可輕言更改」。留言（+36）引呢句反擊「人唔笑狗都吠，牽涉到自己利益就捍衛」；（+45）話退休人員加幅好似多過現職；（+23）反諷「不如加到 $50000」；（+6）話好多人冇人工加，退咗休嘅仲有。另有留言（+12、+11）扯去移民同日本稅制互串。回覆 115。",
+      "replies": 115,
+      "viewpoints": [
+        {
+          "label": "嬲局長維護自身利益",
+          "summary": "留言嬲局長講「不應也不可輕言更改」，認為官員涉及自己利益就捍衛合約精神，打工仔冇得加人工就冇人理。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反諷加得太少",
+          "summary": "部分留言反諷「好心疼佢哋」，叫加到 5 萬。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "扯去移民同稅制",
+          "summary": "少數留言爭論移民日本交稅更多定更好，有互相反駁。",
+          "share": "少數，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-40",
+          "comparison": "回覆 115；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（公務員事務局局長楊何蓓茵就長糧講法惹留言反感）。本輪熱門頁未見民青局、教育局帖，以呢條官員言論帖代替。",
+      "verification": {
+        "status": "unverified",
+        "note": "數字同局長講法只見 HK01 轉載，未對立法會原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173398/page/1",
+          "platform": "連登",
+          "author": "刁腫(私煮食）",
+          "author_url": "https://lihkg.com/profile/618109",
+          "published_at": null,
+          "observed_at": "2026-10-28T07:17:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 15:17 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；淨評分負數原因係推斷。",
+      "next_steps": "下一輪睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
