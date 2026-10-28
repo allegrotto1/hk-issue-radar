@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-28T10:00:00Z",
+    "end": "2026-10-28T11:00:00Z"
+  },
+  "generated_at": "2026-10-28T10:15:00Z",
+  "summary": [
+    "18 點快報。以熱門 API api_v2/thread/hot?cat_id=1（約 18:08 HKT）為準，共 33 卡；卡分數＝like−dislike，回覆取自同一熱門 API no_of_reply；author_url 由 API user_id。熱度先按淨評分、再按回覆數。",
+    "內地：拿破崙帖升至 397（120）仍全頁最高，新見外交部、央視要皇馬道歉帖（-3、71）。香港時事：港鐵指示牌倒轉帖 232（64）；新見沙田史路比公園「完了吧」帖（92、132）。香港經濟：新見香港郵政虧蝕 9.05 億帖（-20、134）。",
+    "香港政府官員：楊何蓓茵長糧「不應也不可輕言更改」帖再跌至 -60（177）。本輪熱門頁未見民青局、教育局帖。本輪熱門頁未見青年類：未見教育、DSE、學額或青年就業帖。五條各有實際回覆數。"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-DICTATOR",
+      "name": "中國人係X問可唔可以笑鳩拿破崙 震驚7億歐洲人／外交部：我們重視當事人道歉　央視：皇馬不道歉一切免談（麥巴比辱華風波）",
+      "status": "tracking",
+      "seen": "「可唔可以笑鳩拿破崙」帖淨評分升至 397、回覆 120，仍係全頁最高：樓主諷刺歐洲人可以隨便鬧領導。最高讚（+245）仍係美蘇笑話，嘲內地只可以鬧外國領袖；（+110）話外國人眼中拿破崙點都可以隨意鬧，你愈認真佢哋愈覺得好笑；（+126）反串「支持同胞出大絕」；（+15）鬧內地人平時歧視人、輪到自己就話唔笑得。新見外交部帖（-3、71）轉載 Now 新聞：外交部話「重視當事人道歉」，央視話「皇馬不道歉一切免談」；最高讚（+45）反問點解法國隊同馬克龍唔使道歉，（+20）笑不如連西甲同西班牙都要道歉，（+8）話西甲主席早已跪低。",
+      "replies": 120,
+      "viewpoints": [
+        {
+          "label": "嘲內地只准鬧外國人",
+          "summary": "多數高讚留言借拿破崙同美蘇笑話，笑內地人對自己領袖唔容批評、對外國領袖就隨便笑。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "笑官方要人道歉",
+          "summary": "外交部帖留言多數嘲央視要皇馬道歉，反問點解唔要法國或西班牙道歉。",
+          "share": "外交部帖大多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "反串同胞",
+          "summary": "部分留言扮內地人口吻「出大絕」「笑歐豬」，屬反串諷刺。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "397",
+          "comparison": "回覆 120；分數正代表讚多過踩；上一輪（15）338、回覆 111，升 59，屬列表刷新（帖仍在、觀點未變，讚票持續累積）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-3",
+          "comparison": "外交部帖回覆 71；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（麥巴比辱華風波、內地對批評領袖嘅反應）。本頁仍見，淨評分全頁最高。上一輪辱毛主帖（4173183）本輪已不在熱門頁。",
+      "verification": {
+        "status": "unverified",
+        "note": "外交部同央視講法只見 Now 新聞轉載，未對原文；拿破崙帖同麥巴比事件嘅關係只係推斷。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173316/page/1",
+          "platform": "連登",
+          "author": "三俘",
+          "author_url": "https://lihkg.com/profile/10338",
+          "published_at": null,
+          "observed_at": "2026-10-28T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173447/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-28T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪睇風波有冇新發展、兩帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-MTR-SIGN-UPSIDE-DOWN",
+      "name": "港鐵做嘢真係求求其其",
+      "status": "tracking",
+      "seen": "樓主貼圖：扶手電梯上方指示牌嘅列車圖案上下倒轉。淨評分升至 232、回覆 64。最高讚（+119）笑「MTR roadster 黎架」；（+115）借藍田站接連著火，質疑有經驗技術嘅人移晒民；（+51）「壟斷咗係咁嘅啦」；（+10）怪外判師傅求其；（+10）反駁「其他地方都衰」嘅講法，話住香港有衰嘢就要屌。",
+      "replies": 64,
+      "viewpoints": [
+        {
+          "label": "嘲港鐵質素下降",
+          "summary": "多數留言借倒轉指示牌笑港鐵求其，連結藍田站著火，質疑人才流失。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "壟斷同外判",
+          "summary": "部分留言話港鐵壟斷唔使負責，或怪工程外判。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "唔好比較其他地方",
+          "summary": "少數留言反駁「外國更差」講法，有互相反駁。",
+          "share": "少數，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "232",
+          "comparison": "回覆 64；分數正代表讚多過踩；上一輪（15）211、回覆 63，升 21。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（港鐵設施管理）。本頁仍見，香港帖中淨評分最高。",
+      "verification": {
+        "status": "unverified",
+        "note": "只見樓主相片，未知車站同港鐵回應；藍田站著火只係留言講法。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173287/page/1",
+          "platform": "連登",
+          "author": "茅野愛衣",
+          "author_url": "https://lihkg.com/profile/8269",
+          "published_at": null,
+          "observed_at": "2026-10-28T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；相片地點未知。",
+      "next_steps": "下一輪睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-SHATIN-SNOOPY-WORLD",
+      "name": "沙田史路比公園，完了吧，如無意外",
+      "status": "new",
+      "seen": "樓主話沙田新城市廣場史路比公園「完了吧，如無意外」，帖內冇官方消息。淨評分 92、回覆 132。最高讚（+167）話廿幾年「算歷史文物級」；（+125）問係咪麥記熱潮遺物；（+113）懷念食完雲吞麵去睇史努比；（+84）反鬧「嫌香港商場倒模，特色嘢又唔支持，最後幾日先一窩蜂話唔捨得」；（+55）反駁話係免費公園，問點支持。",
+      "replies": 132,
+      "viewpoints": [
+        {
+          "label": "集體懷舊",
+          "summary": "多數留言分享細個同家人、初戀去玩嘅回憶，覺得可惜。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "鬧港人平時唔支持",
+          "summary": "部分留言話港人嫌商場倒模但又唔幫襯特色設施，另一邊反駁免費公園無從支持，有互相反駁。",
+          "share": "一部分，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "92",
+          "comparison": "回覆 132；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（社區設施、商場轉型）。本頁仍見，新上榜。",
+      "verification": {
+        "status": "unverified",
+        "note": "是否結業只係樓主講法，未見商場或官方公布。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173305/page/1",
+          "platform": "連登",
+          "author": "花雨落",
+          "author_url": "https://lihkg.com/profile/293648",
+          "published_at": null,
+          "observed_at": "2026-10-28T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；「完了」未證實。",
+      "next_steps": "下一輪睇有冇商場正式消息。"
+    },
+    {
+      "issue_id": "HK-POST-DEFICIT",
+      "name": "香港郵政年度虧蝕9.05億創新高 收入23.33億開支32.38億 固定資產回報率負41.4%",
+      "status": "new",
+      "seen": "樓主轉載報道：香港郵政 2025/26 年報錄得 9.05 億元赤字創新高，收入 23.33 億、開支 32.38 億；署長吳文傑話主因係「保護主義湧現、各地海關政策收緊、終端費上升」。最高讚（+85）話郵政係公共服務，而家拎嚟開刀只因政府其他方面做得差；（+39、+28）建議加郵費、政府部門寄信收貴啲；（+23）鬧管理層浪費、花幾十億翻新空郵中心；（+8）反問「香港人又要平又要唔蝕錢，有咩計」。回覆 134。",
+      "replies": 134,
+      "viewpoints": [
+        {
+          "label": "公共服務唔應以盈利計",
+          "summary": "最高讚留言認為郵政屬公共服務，蝕錢唔係問題，反鬧政府其他開支。",
+          "share": "一部分（最高讚）",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "加價或改革",
+          "summary": "不少留言建議加郵費、外判、賣地盤，或鬧管理層浪費。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "又要平又唔蝕",
+          "summary": "少數留言反問市民又要平又要唔蝕錢冇可能，同其他人互相反駁。",
+          "share": "少數，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-20",
+          "comparison": "回覆 134；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（公營機構財政）。本頁仍見，新上榜；另三星撤出家電市場兩帖仍在頁（52、125；33、146）。",
+      "verification": {
+        "status": "unverified",
+        "note": "數字同署長講法只見帖文轉載，未對年報原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173395/page/1",
+          "platform": "連登",
+          "author": "銅鑼灣項少龍",
+          "author_url": "https://lihkg.com/profile/754701",
+          "published_at": null,
+          "observed_at": "2026-10-28T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；淨評分負數原因未明。",
+      "next_steps": "下一輪睇有冇加價或改革消息。"
+    },
+    {
+      "issue_id": "HK-CIVIL-SERVANT-PENSION",
+      "name": "公務員每月「長糧」平均增至$20200　公帑承擔退休金料達9,248億",
+      "status": "tracking",
+      "seen": "樓主轉載 HK01：公務員事務局局長楊何蓓茵答議員質詢，退休公務員平均每月退休金約 20,200 元，承擔額 9,248 億元；局長話政府作為良好僱主「不應也不可輕言更改」。回覆升至 177，淨評分再跌至 -60。留言（+70）引呢句反擊「人唔笑狗都吠，牽涉到自己利益就捍衛」；（+104）話退休人員加幅好似多過現職；（+15）建議一刀切，因新公務員已冇呢福利；（+11）話好多人冇人工加，退咗休嘅仲有。另有（+33、+30）扯去日本稅制互串。",
+      "replies": 177,
+      "viewpoints": [
+        {
+          "label": "嬲局長維護自身利益",
+          "summary": "留言嬲局長講「不應也不可輕言更改」，認為官員涉及自己利益就捍衛合約精神，打工仔冇得加人工就冇人理。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "新舊不公",
+          "summary": "部分留言話新入職公務員冇長俸，問點解舊人仲有，建議削減。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "扯去移民同稅制",
+          "summary": "少數留言爭論移民日本交稅更多定更好，有互相反駁。",
+          "share": "少數，有互相反駁",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-60",
+          "comparison": "回覆 177；分數負代表踩多過讚；上一輪（15）-40、回覆 115，跌 20。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（公務員事務局局長楊何蓓茵就長糧講法惹留言反感）。本輪熱門頁未見民青局、教育局帖，以呢條官員惹火言論帖代替。",
+      "verification": {
+        "status": "unverified",
+        "note": "數字同局長講法只見 HK01 轉載，未對立法會原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173398/page/1",
+          "platform": "連登",
+          "author": "刁腫(私煮食）",
+          "author_url": "https://lihkg.com/profile/618109",
+          "published_at": null,
+          "observed_at": "2026-10-28T10:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 18:08 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；已開帖第 1 頁（按讚排序）讀留言。"
+        }
+      ],
+      "limits": "不把標題當成事實；淨評分負數原因係推斷。",
+      "next_steps": "下一輪睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
