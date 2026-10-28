@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-28T11:16:22+08:00",
- "generated_at": "2026-10-28T11:16:22+08:00",
+ "updated_at": "2026-10-28T11:18:09+08:00",
+ "generated_at": "2026-10-28T11:18:09+08:00",
  "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"}],
  "posts": [
   {
@@ -197,6 +197,19 @@
    "estimated_posted_at": {"value":"2026-10-27T22:16:00+08:00","estimate":true,"relative_shown":"13h","observed_at":"2026-10-28T11:16:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:16:22+08:00","likes":{"raw":"533","value":533,"approx":false},"replies":{"raw":"59","value":59,"approx":false},"reposts":{"raw":"34","value":34,"approx":false},"shares":{"raw":"1,754","value":1754,"approx":false},"views":{"raw":"10萬","value":100000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfBDsrVk_92",
+   "url": "https://www.threads.com/@zibing007/post/DfBDsrVk_92",
+   "platform": "threads",
+   "summary": "稱美國悄悄備戰：停 EVS-TAP 堵北馬里亞納中國人免簽；「堡壘計劃」要求本土基地可獨立硬撐90日（發電／抽水／囤彈藥），解讀為防本土癱瘓同裡應外合",
+   "tag": "美國備戰",
+   "group": "prep-doomsday",
+   "first_seen": "2026-10-28T11:18:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-28T08:18:00+08:00","estimate":true,"relative_shown":"3h","observed_at":"2026-10-28T11:18:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-28T11:18:09+08:00","likes":{"raw":"793","value":793,"approx":false},"replies":{"raw":"12","value":12,"approx":false},"reposts":{"raw":"34","value":34,"approx":false},"shares":{"raw":"123","value":123,"approx":false},"views":{"raw":"2.8萬","value":28000,"approx":true}}
    ]
   }
  ]
