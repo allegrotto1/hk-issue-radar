@@ -22,7 +22,7 @@ jobs:
         run: bash engine/republish.sh "$GITHUB_WORKSPACE"
       - name: Commit if the homepage changed
         run: |
-          git add index.html 404.html sitemap.xml favicon.svg assets days reports tracker
+          git add index.html 404.html sitemap.xml favicon.svg assets days reports tracker/index.html tracker/tracker.css
           if git diff --cached --quiet; then
             echo "nothing to republish"
             exit 0

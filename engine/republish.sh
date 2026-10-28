@@ -8,7 +8,13 @@ ENGINE="$REPO/engine"
 SITE=$(mktemp -d)
 python3 "$ENGINE/build.py" --strict --out "$SITE"
 mkdir -p "$SITE/tracker"
-cp -a "$ENGINE/tracker/index.html" "$ENGINE/tracker/tracker.css" "$ENGINE/tracker/data.json" "$SITE/tracker/"
+cp -a "$ENGINE/tracker/index.html" "$ENGINE/tracker/tracker.css" "$SITE/tracker/"
+# Never let the engine seed overwrite live tracker data from the checkout.
+if [ -f "$REPO/tracker/data.json" ]; then
+  cp -a "$REPO/tracker/data.json" "$SITE/tracker/data.json"
+else
+  cp -a "$ENGINE/tracker/data.json" "$SITE/tracker/data.json"
+fi
 cp -a "$SITE/index.html" "$SITE/404.html" "$SITE/sitemap.xml" "$SITE/favicon.svg" "$REPO/"
 mkdir -p "$REPO/assets" "$REPO/days" "$REPO/reports" "$REPO/tracker"
 cp -a "$SITE/assets/site.css" "$REPO/assets/site.css"
