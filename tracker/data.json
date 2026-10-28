@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-28T11:18:09+08:00",
- "generated_at": "2026-10-28T11:18:09+08:00",
+ "updated_at": "2026-10-28T11:18:56+08:00",
+ "generated_at": "2026-10-28T11:18:57+08:00",
  "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"}],
  "posts": [
   {
@@ -210,6 +210,19 @@
    "estimated_posted_at": {"value":"2026-10-28T08:18:00+08:00","estimate":true,"relative_shown":"3h","observed_at":"2026-10-28T11:18:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:18:09+08:00","likes":{"raw":"793","value":793,"approx":false},"replies":{"raw":"12","value":12,"approx":false},"reposts":{"raw":"34","value":34,"approx":false},"shares":{"raw":"123","value":123,"approx":false},"views":{"raw":"2.8萬","value":28000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfAVXMOkniv",
+   "url": "https://www.threads.com/@shopahypo/post/DfAVXMOkniv",
+   "platform": "threads",
+   "summary": "問「如果真係三個月 global shutdown 要準備啲乜」，驚冇電；留言有人反問來源、笑稱夜晚見銀河／買望遠鏡、講美股、甚至 AK；作者回來源係 Threads，並話「一個禮拜都大鑊」",
+   "tag": "3個月shutdown",
+   "group": "prep-doomsday",
+   "first_seen": "2026-10-28T11:18:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-28T01:18:00+08:00","estimate":true,"relative_shown":"10h","observed_at":"2026-10-28T11:18:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-28T11:18:56+08:00","likes":{"raw":"43","value":43,"approx":false},"replies":{"raw":"10","value":10,"approx":false},"reposts":null,"shares":{"raw":"24","value":24,"approx":false},"views":{"raw":"3.1萬","value":31000,"approx":true}}
    ]
   }
  ]
