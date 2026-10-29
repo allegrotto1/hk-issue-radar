@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-29T10:08:58+08:00",
- "generated_at": "2026-10-29T10:09:14+08:00",
+ "updated_at": "2026-10-29T12:01:14+08:00",
+ "generated_at": "2026-10-29T12:01:20+08:00",
  "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"}],
  "posts": [
   {
@@ -107,8 +107,8 @@
    "estimated_posted_at": {"value":"2026-10-28T09:09:07+08:00","estimate":true,"relative_shown":"2h","observed_at":"2026-10-28T11:09:07+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:09:07+08:00","likes":{"raw":"364","value":364,"approx":false},"replies":{"raw":"7","value":7,"approx":false},"reposts":{"raw":"34","value":34,"approx":false},"shares":{"raw":"394","value":394,"approx":false},"views":{"raw":"2.0萬","value":20000,"approx":true}},
-    {"taken_at":"2026-10-29T00:03:55+08:00","likes":{"raw":"2,464","value":2464,"approx":false},"replies":{"raw":"56","value":56,"approx":false},"reposts":{"raw":"217","value":217,"approx":false},"shares":{"raw":"3,499","value":3499,"approx":false},"views":{"raw":"18萬","value":180000,"approx":true}},
-    {"taken_at":"2026-10-29T10:06:25+08:00","likes":{"raw":"2,885","value":2885,"approx":false},"replies":{"raw":"68","value":68,"approx":false},"reposts":{"raw":"255","value":255,"approx":false},"shares":{"raw":"3,964","value":3964,"approx":false},"views":{"raw":"22萬","value":220000,"approx":true}}
+    {"taken_at":"2026-10-29T10:06:25+08:00","likes":{"raw":"2,885","value":2885,"approx":false},"replies":{"raw":"68","value":68,"approx":false},"reposts":{"raw":"255","value":255,"approx":false},"shares":{"raw":"3,964","value":3964,"approx":false},"views":{"raw":"22萬","value":220000,"approx":true}},
+    {"taken_at":"2026-10-29T11:59:41+08:00","likes":{"raw":"2,890","value":2890,"approx":false},"replies":{"raw":"68","value":68,"approx":false},"reposts":{"raw":"255","value":255,"approx":false},"shares":{"raw":"3,973","value":3973,"approx":false},"views":{"raw":"22萬","value":220000,"approx":true}}
    ]
   },
   {
@@ -122,8 +122,8 @@
    "estimated_posted_at": {"value":"2026-10-28T09:09:15+08:00","estimate":true,"relative_shown":"2h","observed_at":"2026-10-28T11:09:15+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:09:15+08:00","likes":{"raw":"1,979","value":1979,"approx":false},"replies":{"raw":"44","value":44,"approx":false},"reposts":{"raw":"221","value":221,"approx":false},"shares":{"raw":"4,614","value":4614,"approx":false},"views":{"raw":"15萬","value":150000,"approx":true}},
-    {"taken_at":"2026-10-29T00:04:03+08:00","likes":{"raw":"9,914","value":9914,"approx":false},"replies":{"raw":"194","value":194,"approx":false},"reposts":{"raw":"925","value":925,"approx":false},"shares":{"raw":"1.8 萬","value":18000,"approx":true},"views":{"raw":"84萬","value":840000,"approx":true}},
-    {"taken_at":"2026-10-29T10:06:32+08:00","likes":{"raw":"1.1 萬","value":11000,"approx":true},"replies":{"raw":"233","value":233,"approx":false},"reposts":{"raw":"1,016","value":1016,"approx":false},"shares":{"raw":"2.0 萬","value":20000,"approx":true},"views":{"raw":"102.3萬","value":1023000,"approx":true}}
+    {"taken_at":"2026-10-29T10:06:32+08:00","likes":{"raw":"1.1 萬","value":11000,"approx":true},"replies":{"raw":"233","value":233,"approx":false},"reposts":{"raw":"1,016","value":1016,"approx":false},"shares":{"raw":"2.0 萬","value":20000,"approx":true},"views":{"raw":"102.3萬","value":1023000,"approx":true}},
+    {"taken_at":"2026-10-29T11:59:48+08:00","likes":{"raw":"1.1 萬","value":11000,"approx":true},"replies":{"raw":"233","value":233,"approx":false},"reposts":{"raw":"1,017","value":1017,"approx":false},"shares":{"raw":"2.0 萬","value":20000,"approx":true},"views":{"raw":"102.6萬","value":1026000,"approx":true}}
    ]
   },
   {
@@ -137,8 +137,8 @@
    "estimated_posted_at": {"value":"2026-10-28T09:15:00+08:00","estimate":true,"relative_shown":"2h","observed_at":"2026-10-28T11:15:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:15:46+08:00","likes":{"raw":"2,202","value":2202,"approx":false},"replies":{"raw":"60","value":60,"approx":false},"reposts":{"raw":"198","value":198,"approx":false},"shares":{"raw":"2,847","value":2847,"approx":false},"views":{"raw":"17萬","value":170000,"approx":true}},
-    {"taken_at":"2026-10-29T00:04:12+08:00","likes":{"raw":"1.0 萬","value":10000,"approx":true},"replies":{"raw":"149","value":149,"approx":false},"reposts":{"raw":"908","value":908,"approx":false},"shares":{"raw":"1 萬","value":10000,"approx":true},"views":{"raw":"72萬","value":720000,"approx":true}},
-    {"taken_at":"2026-10-29T10:06:40+08:00","likes":{"raw":"1.2 萬","value":12000,"approx":true},"replies":{"raw":"158","value":158,"approx":false},"reposts":{"raw":"1,026","value":1026,"approx":false},"shares":{"raw":"1.2 萬","value":12000,"approx":true},"views":{"raw":"89萬","value":890000,"approx":true}}
+    {"taken_at":"2026-10-29T10:06:40+08:00","likes":{"raw":"1.2 萬","value":12000,"approx":true},"replies":{"raw":"158","value":158,"approx":false},"reposts":{"raw":"1,026","value":1026,"approx":false},"shares":{"raw":"1.2 萬","value":12000,"approx":true},"views":{"raw":"89萬","value":890000,"approx":true}},
+    {"taken_at":"2026-10-29T11:59:58+08:00","likes":{"raw":"1.2 萬","value":12000,"approx":true},"replies":{"raw":"159","value":159,"approx":false},"reposts":{"raw":"1,027","value":1027,"approx":false},"shares":{"raw":"1.2 萬","value":12000,"approx":true},"views":{"raw":"89萬","value":890000,"approx":true}}
    ]
   },
   {
@@ -152,8 +152,8 @@
    "estimated_posted_at": {"value":"2026-10-28T10:15:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-28T11:15:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:15:54+08:00","likes":{"raw":"240","value":240,"approx":false},"replies":null,"reposts":{"raw":"1","value":1,"approx":false},"shares":{"raw":"34","value":34,"approx":false},"views":{"raw":"2.8萬","value":28000,"approx":true}},
-    {"taken_at":"2026-10-29T00:04:20+08:00","likes":{"raw":"1,480","value":1480,"approx":false},"replies":{"raw":"2","value":2,"approx":false},"reposts":{"raw":"10","value":10,"approx":false},"shares":{"raw":"201","value":201,"approx":false},"views":{"raw":"14萬","value":140000,"approx":true}},
-    {"taken_at":"2026-10-29T10:06:48+08:00","likes":{"raw":"1,816","value":1816,"approx":false},"replies":{"raw":"2","value":2,"approx":false},"reposts":{"raw":"13","value":13,"approx":false},"shares":{"raw":"239","value":239,"approx":false},"views":{"raw":"17萬","value":170000,"approx":true}}
+    {"taken_at":"2026-10-29T10:06:48+08:00","likes":{"raw":"1,816","value":1816,"approx":false},"replies":{"raw":"2","value":2,"approx":false},"reposts":{"raw":"13","value":13,"approx":false},"shares":{"raw":"239","value":239,"approx":false},"views":{"raw":"17萬","value":170000,"approx":true}},
+    {"taken_at":"2026-10-29T12:00:05+08:00","likes":{"raw":"1,818","value":1818,"approx":false},"replies":{"raw":"2","value":2,"approx":false},"reposts":{"raw":"13","value":13,"approx":false},"shares":{"raw":"239","value":239,"approx":false},"views":{"raw":"17萬","value":170000,"approx":true}}
    ]
   },
   {
@@ -183,8 +183,8 @@
    "estimated_posted_at": {"value":"2026-10-28T08:18:00+08:00","estimate":true,"relative_shown":"3h","observed_at":"2026-10-28T11:18:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:18:09+08:00","likes":{"raw":"793","value":793,"approx":false},"replies":{"raw":"12","value":12,"approx":false},"reposts":{"raw":"34","value":34,"approx":false},"shares":{"raw":"123","value":123,"approx":false},"views":{"raw":"2.8萬","value":28000,"approx":true}},
-    {"taken_at":"2026-10-29T00:04:36+08:00","likes":{"raw":"4,717","value":4717,"approx":false},"replies":{"raw":"55","value":55,"approx":false},"reposts":{"raw":"213","value":213,"approx":false},"shares":{"raw":"1,067","value":1067,"approx":false},"views":{"raw":"20萬","value":200000,"approx":true}},
-    {"taken_at":"2026-10-29T10:07:03+08:00","likes":{"raw":"5,446","value":5446,"approx":false},"replies":{"raw":"59","value":59,"approx":false},"reposts":{"raw":"243","value":243,"approx":false},"shares":{"raw":"1,231","value":1231,"approx":false},"views":{"raw":"24萬","value":240000,"approx":true}}
+    {"taken_at":"2026-10-29T10:07:03+08:00","likes":{"raw":"5,446","value":5446,"approx":false},"replies":{"raw":"59","value":59,"approx":false},"reposts":{"raw":"243","value":243,"approx":false},"shares":{"raw":"1,231","value":1231,"approx":false},"views":{"raw":"24萬","value":240000,"approx":true}},
+    {"taken_at":"2026-10-29T12:00:14+08:00","likes":{"raw":"5,451","value":5451,"approx":false},"replies":{"raw":"60","value":60,"approx":false},"reposts":{"raw":"244","value":244,"approx":false},"shares":{"raw":"1,232","value":1232,"approx":false},"views":{"raw":"24萬","value":240000,"approx":true}}
    ]
   },
   {
@@ -198,8 +198,8 @@
    "estimated_posted_at": {"value":"2026-10-28T01:18:00+08:00","estimate":true,"relative_shown":"10h","observed_at":"2026-10-28T11:18:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:18:56+08:00","likes":{"raw":"43","value":43,"approx":false},"replies":{"raw":"10","value":10,"approx":false},"reposts":null,"shares":{"raw":"24","value":24,"approx":false},"views":{"raw":"3.1萬","value":31000,"approx":true}},
-    {"taken_at":"2026-10-29T00:04:44+08:00","likes":{"raw":"767","value":767,"approx":false},"replies":{"raw":"122","value":122,"approx":false},"reposts":{"raw":"5","value":5,"approx":false},"shares":{"raw":"409","value":409,"approx":false},"views":{"raw":"16萬","value":160000,"approx":true}},
-    {"taken_at":"2026-10-29T10:07:10+08:00","likes":{"raw":"868","value":868,"approx":false},"replies":{"raw":"132","value":132,"approx":false},"reposts":{"raw":"6","value":6,"approx":false},"shares":{"raw":"484","value":484,"approx":false},"views":{"raw":"18萬","value":180000,"approx":true}}
+    {"taken_at":"2026-10-29T10:07:10+08:00","likes":{"raw":"868","value":868,"approx":false},"replies":{"raw":"132","value":132,"approx":false},"reposts":{"raw":"6","value":6,"approx":false},"shares":{"raw":"484","value":484,"approx":false},"views":{"raw":"18萬","value":180000,"approx":true}},
+    {"taken_at":"2026-10-29T12:00:22+08:00","likes":{"raw":"871","value":871,"approx":false},"replies":{"raw":"132","value":132,"approx":false},"reposts":{"raw":"6","value":6,"approx":false},"shares":{"raw":"495","value":495,"approx":false},"views":{"raw":"18萬","value":180000,"approx":true}}
    ]
   },
   {
@@ -213,8 +213,8 @@
    "estimated_posted_at": {"value":"2026-10-28T06:20:00+08:00","estimate":true,"relative_shown":"5h","observed_at":"2026-10-28T11:20:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:20:23+08:00","likes":{"raw":"4,197","value":4197,"approx":false},"replies":{"raw":"58","value":58,"approx":false},"reposts":{"raw":"86","value":86,"approx":false},"shares":{"raw":"2,369","value":2369,"approx":false},"views":{"raw":"31萬","value":310000,"approx":true}},
-    {"taken_at":"2026-10-29T00:04:53+08:00","likes":{"raw":"1.5 萬","value":15000,"approx":true},"replies":{"raw":"82","value":82,"approx":false},"reposts":{"raw":"334","value":334,"approx":false},"shares":{"raw":"5,553","value":5553,"approx":false},"views":{"raw":"70萬","value":700000,"approx":true}},
-    {"taken_at":"2026-10-29T10:07:18+08:00","likes":{"raw":"1.8 萬","value":18000,"approx":true},"replies":{"raw":"83","value":83,"approx":false},"reposts":{"raw":"373","value":373,"approx":false},"shares":{"raw":"6,152","value":6152,"approx":false},"views":{"raw":"81萬","value":810000,"approx":true}}
+    {"taken_at":"2026-10-29T10:07:18+08:00","likes":{"raw":"1.8 萬","value":18000,"approx":true},"replies":{"raw":"83","value":83,"approx":false},"reposts":{"raw":"373","value":373,"approx":false},"shares":{"raw":"6,152","value":6152,"approx":false},"views":{"raw":"81萬","value":810000,"approx":true}},
+    {"taken_at":"2026-10-29T12:00:31+08:00","likes":{"raw":"1.8 萬","value":18000,"approx":true},"replies":{"raw":"83","value":83,"approx":false},"reposts":{"raw":"373","value":373,"approx":false},"shares":{"raw":"6,156","value":6156,"approx":false},"views":{"raw":"81萬","value":810000,"approx":true}}
    ]
   },
   {
@@ -244,8 +244,8 @@
    "estimated_posted_at": {"value":"2026-10-28T03:20:00+08:00","estimate":true,"relative_shown":"8h","observed_at":"2026-10-28T11:20:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:20:40+08:00","likes":{"raw":"42","value":42,"approx":false},"replies":null,"reposts":{"raw":"2","value":2,"approx":false},"shares":{"raw":"151","value":151,"approx":false},"views":{"raw":"1萬","value":10000,"approx":true}},
-    {"taken_at":"2026-10-29T00:05:11+08:00","likes":{"raw":"124","value":124,"approx":false},"replies":{"raw":"11","value":11,"approx":false},"reposts":{"raw":"6","value":6,"approx":false},"shares":{"raw":"513","value":513,"approx":false},"views":{"raw":"4.0萬","value":40000,"approx":true}},
-    {"taken_at":"2026-10-29T10:07:34+08:00","likes":{"raw":"137","value":137,"approx":false},"replies":{"raw":"11","value":11,"approx":false},"reposts":{"raw":"9","value":9,"approx":false},"shares":{"raw":"539","value":539,"approx":false},"views":{"raw":"4.4萬","value":44000,"approx":true}}
+    {"taken_at":"2026-10-29T10:07:34+08:00","likes":{"raw":"137","value":137,"approx":false},"replies":{"raw":"11","value":11,"approx":false},"reposts":{"raw":"9","value":9,"approx":false},"shares":{"raw":"539","value":539,"approx":false},"views":{"raw":"4.4萬","value":44000,"approx":true}},
+    {"taken_at":"2026-10-29T12:00:40+08:00","likes":{"raw":"139","value":139,"approx":false},"replies":{"raw":"11","value":11,"approx":false},"reposts":{"raw":"9","value":9,"approx":false},"shares":{"raw":"541","value":541,"approx":false},"views":{"raw":"4.4萬","value":44000,"approx":true}}
    ]
   },
   {
@@ -259,8 +259,8 @@
    "estimated_posted_at": {"value":"2026-10-28T10:21:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-28T11:21:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:21:59+08:00","likes":{"raw":"85","value":85,"approx":false},"replies":{"raw":"2","value":2,"approx":false},"reposts":{"raw":"5","value":5,"approx":false},"shares":{"raw":"10","value":10,"approx":false},"views":{"raw":"2,094","value":2094,"approx":false}},
-    {"taken_at":"2026-10-29T00:05:20+08:00","likes":{"raw":"326","value":326,"approx":false},"replies":{"raw":"15","value":15,"approx":false},"reposts":{"raw":"43","value":43,"approx":false},"shares":{"raw":"114","value":114,"approx":false},"views":{"raw":"1.1萬","value":11000,"approx":true}},
-    {"taken_at":"2026-10-29T10:07:42+08:00","likes":{"raw":"395","value":395,"approx":false},"replies":{"raw":"25","value":25,"approx":false},"reposts":{"raw":"58","value":58,"approx":false},"shares":{"raw":"141","value":141,"approx":false},"views":{"raw":"1.4萬","value":14000,"approx":true}}
+    {"taken_at":"2026-10-29T10:07:42+08:00","likes":{"raw":"395","value":395,"approx":false},"replies":{"raw":"25","value":25,"approx":false},"reposts":{"raw":"58","value":58,"approx":false},"shares":{"raw":"141","value":141,"approx":false},"views":{"raw":"1.4萬","value":14000,"approx":true}},
+    {"taken_at":"2026-10-29T12:00:48+08:00","likes":{"raw":"396","value":396,"approx":false},"replies":{"raw":"25","value":25,"approx":false},"reposts":{"raw":"58","value":58,"approx":false},"shares":{"raw":"141","value":141,"approx":false},"views":{"raw":"1.4萬","value":14000,"approx":true}}
    ]
   },
   {
@@ -274,8 +274,8 @@
    "estimated_posted_at": {"value":"2026-10-28T09:29:00+08:00","estimate":true,"relative_shown":"2h","observed_at":"2026-10-28T11:29:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:29:12+08:00","likes":{"raw":"117","value":117,"approx":false},"replies":{"raw":"8","value":8,"approx":false},"reposts":{"raw":"8","value":8,"approx":false},"shares":{"raw":"277","value":277,"approx":false},"views":{"raw":"1.8萬","value":18000,"approx":true}},
-    {"taken_at":"2026-10-29T00:05:29+08:00","likes":{"raw":"476","value":476,"approx":false},"replies":{"raw":"15","value":15,"approx":false},"reposts":{"raw":"31","value":31,"approx":false},"shares":{"raw":"1,076","value":1076,"approx":false},"views":{"raw":"8.8萬","value":88000,"approx":true}},
-    {"taken_at":"2026-10-29T10:07:51+08:00","likes":{"raw":"513","value":513,"approx":false},"replies":{"raw":"17","value":17,"approx":false},"reposts":{"raw":"36","value":36,"approx":false},"shares":{"raw":"1,158","value":1158,"approx":false},"views":{"raw":"10萬","value":100000,"approx":true}}
+    {"taken_at":"2026-10-29T10:07:51+08:00","likes":{"raw":"513","value":513,"approx":false},"replies":{"raw":"17","value":17,"approx":false},"reposts":{"raw":"36","value":36,"approx":false},"shares":{"raw":"1,158","value":1158,"approx":false},"views":{"raw":"10萬","value":100000,"approx":true}},
+    {"taken_at":"2026-10-29T12:00:58+08:00","likes":{"raw":"513","value":513,"approx":false},"replies":{"raw":"17","value":17,"approx":false},"reposts":{"raw":"36","value":36,"approx":false},"shares":{"raw":"1,158","value":1158,"approx":false},"views":{"raw":"10萬","value":100000,"approx":true}}
    ]
   },
   {
@@ -305,8 +305,8 @@
    "estimated_posted_at": {"value":"2026-10-27T11:29:00+08:00","estimate":true,"relative_shown":"1d","observed_at":"2026-10-28T11:29:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:29:30+08:00","likes":{"raw":"1,331","value":1331,"approx":false},"replies":{"raw":"210","value":210,"approx":false},"reposts":{"raw":"13","value":13,"approx":false},"shares":{"raw":"1,906","value":1906,"approx":false},"views":{"raw":"20萬","value":200000,"approx":true}},
-    {"taken_at":"2026-10-29T00:05:47+08:00","likes":{"raw":"1,839","value":1839,"approx":false},"replies":{"raw":"306","value":306,"approx":false},"reposts":{"raw":"25","value":25,"approx":false},"shares":{"raw":"2,886","value":2886,"approx":false},"views":{"raw":"27萬","value":270000,"approx":true}},
-    {"taken_at":"2026-10-29T10:08:06+08:00","likes":{"raw":"1,984","value":1984,"approx":false},"replies":{"raw":"344","value":344,"approx":false},"reposts":{"raw":"30","value":30,"approx":false},"shares":{"raw":"3,094","value":3094,"approx":false},"views":{"raw":"30萬","value":300000,"approx":true}}
+    {"taken_at":"2026-10-29T10:08:06+08:00","likes":{"raw":"1,984","value":1984,"approx":false},"replies":{"raw":"344","value":344,"approx":false},"reposts":{"raw":"30","value":30,"approx":false},"shares":{"raw":"3,094","value":3094,"approx":false},"views":{"raw":"30萬","value":300000,"approx":true}},
+    {"taken_at":"2026-10-29T12:01:06+08:00","likes":{"raw":"1,988","value":1988,"approx":false},"replies":{"raw":"344","value":344,"approx":false},"reposts":{"raw":"30","value":30,"approx":false},"shares":{"raw":"3,103","value":3103,"approx":false},"views":{"raw":"30萬","value":300000,"approx":true}}
    ]
   },
   {
@@ -352,8 +352,8 @@
    "estimated_posted_at": {"value":"2026-10-28T11:09:00+08:00","estimate":true,"relative_shown":"48m","observed_at":"2026-10-28T11:57:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-28T11:57:05+08:00","likes":{"raw":"20","value":20,"approx":false},"replies":{"raw":"2","value":2,"approx":false},"reposts":{"raw":"4","value":4,"approx":false},"shares":{"raw":"59","value":59,"approx":false},"views":{"raw":"1,999","value":1999,"approx":false}},
-    {"taken_at":"2026-10-29T00:06:12+08:00","likes":{"raw":"125","value":125,"approx":false},"replies":{"raw":"5","value":5,"approx":false},"reposts":{"raw":"11","value":11,"approx":false},"shares":{"raw":"373","value":373,"approx":false},"views":{"raw":"2.9萬","value":29000,"approx":true}},
-    {"taken_at":"2026-10-29T10:08:32+08:00","likes":{"raw":"139","value":139,"approx":false},"replies":{"raw":"6","value":6,"approx":false},"reposts":{"raw":"11","value":11,"approx":false},"shares":{"raw":"428","value":428,"approx":false},"views":{"raw":"3.5萬","value":35000,"approx":true}}
+    {"taken_at":"2026-10-29T10:08:32+08:00","likes":{"raw":"139","value":139,"approx":false},"replies":{"raw":"6","value":6,"approx":false},"reposts":{"raw":"11","value":11,"approx":false},"shares":{"raw":"428","value":428,"approx":false},"views":{"raw":"3.5萬","value":35000,"approx":true}},
+    {"taken_at":"2026-10-29T12:01:14+08:00","likes":{"raw":"140","value":140,"approx":false},"replies":{"raw":"6","value":6,"approx":false},"reposts":{"raw":"11","value":11,"approx":false},"shares":{"raw":"436","value":436,"approx":false},"views":{"raw":"3.6萬","value":36000,"approx":true}}
    ]
   }
  ]
