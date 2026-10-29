@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-29T16:26:00+08:00",
- "generated_at": "2026-10-29T16:27:39+08:00",
+ "updated_at": "2026-10-29T16:28:00+08:00",
+ "generated_at": "2026-10-29T16:28:17+08:00",
  "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"},{"id":"wangfuk-accountability","title":"宏福苑問責側欄"}],
  "posts": [
   {
@@ -431,6 +431,58 @@
    "snapshots": [
     {"taken_at":"2026-10-29T16:22:00+08:00","likes":{"raw":"2266","value":2266,"approx":false},"replies":{"raw":"49","value":49,"approx":false},"reposts":{"raw":"133","value":133,"approx":false},"shares":{"raw":"281","value":281,"approx":false},"views":{"raw":"2.4萬","value":24000,"approx":true}},
     {"taken_at":"2026-10-29T16:26:00+08:00","likes":{"raw":"2266","value":2266,"approx":false},"replies":{"raw":"49","value":49,"approx":false},"reposts":{"raw":"133","value":133,"approx":false},"shares":{"raw":"281","value":281,"approx":false},"views":{"raw":"2.4萬","value":24000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfEdIBxj_Qz",
+   "url": "https://www.threads.com/@sswirll/post/DfEdIBxj_Qz",
+   "platform": "threads",
+   "summary": "11個月後先道歉／解釋；168命／1984戶邊個還（宏福苑問責）",
+   "tag": "宏福苑問責",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:28:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T15:28:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:28:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:28:00+08:00","likes":{"raw":"1568","value":1568,"approx":false},"replies":{"raw":"95","value":95,"approx":false},"reposts":{"raw":"44","value":44,"approx":false},"shares":{"raw":"68","value":68,"approx":false},"views":{"raw":"3萬","value":30000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfEb0exH3zj",
+   "url": "https://www.threads.com/@offshore_reporter.introvert/post/DfEb0exH3zj",
+   "platform": "threads",
+   "summary": "遲來道歉無誠意；何永賢離職前收薪逾400萬（宏福苑問責）",
+   "tag": "宏福苑問責",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:28:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T15:28:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:28:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:28:00+08:00","likes":{"raw":"861","value":861,"approx":false},"replies":null,"reposts":null,"shares":null,"views":{"raw":"3.8萬","value":38000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfEcTkDmsSf",
+   "url": "https://www.threads.com/@chengszelut.public/post/DfEcTkDmsSf",
+   "platform": "threads",
+   "summary": "十一個月遲職；迫賣樓跑數；傷口未癒先扮可憐（宏福苑問責｜熱度較低）",
+   "tag": "宏福苑問責",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:28:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T15:28:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:28:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:28:00+08:00","likes":{"raw":"39","value":39,"approx":false},"replies":{"raw":"2","value":2,"approx":false},"reposts":null,"shares":null,"views":{"raw":"1158","value":1158,"approx":false}}
+   ]
+  },
+  {
+   "id": "DfDP0vLkWBq",
+   "url": "https://www.threads.com/@funfair.64/post/DfDP0vLkWBq",
+   "platform": "threads",
+   "summary": "【未核實】傳黃碧嬌28/10搭CX251赴倫敦；帖內有接機洗塵號召——勿當事實、勿放大",
+   "tag": "黃碧嬌未核實離境謠",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:28:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-28T16:28:00+08:00","estimate":true,"relative_shown":"1d","observed_at":"2026-10-29T16:28:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:28:00+08:00","likes":{"raw":"801","value":801,"approx":false},"replies":null,"reposts":null,"shares":null,"views":{"raw":"8.9萬","value":89000,"approx":true}}
    ]
   }
  ]
