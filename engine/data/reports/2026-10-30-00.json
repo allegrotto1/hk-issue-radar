@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-29T16:00:00Z",
+    "end": "2026-10-29T17:00:00Z"
+  },
+  "generated_at": "2026-10-29T16:15:00Z",
+  "summary": [
+    "00 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準（約 00:12 HKT），列表頁可見分數同頁數。入選帖打開第 1 頁讀樓主同頭頁留言。API 被 Cloudflare 擋，回覆數以最後一頁 #編號為準。",
+    "香港政府官員：消防處處長居然最後武士（淨評分 +612、回覆約 176），留言多數嬲防火部門無事、168 人死一年先有人落台。香港時事：有傳何永賢今日宣布下台（+61、約 254），留言話「有傳」當假新聞或問點解唔係其他局長。香港經濟：公務員退休金完全係英國埋下既最大炸彈（+546、約 123），留言指應取消舊制、問英國拎。內地：大體老師｜內地醫科生標本寫「你好可怜哦 死了骨头还被我玩」（-40、約 62），留言批評缺醫德、唔應從醫。青年：本輪熱門頁未見青年政策、教育、民青局、教育局或青年問題相關帖，summary 寫明，唔好撰。",
+    "本輪熱門頁未見民青局／教育局帖；官員以宏福苑問責持續（處長「最後武士」）為主，另有李家超「係我個人政治決定」帖仍在但未入選。五類中青年缺席，其餘都有實際回覆數。",
+    "情緒觀察：升＋怒／嘲諷＋大家繼續嬲宏福苑問責得一個人落台、退休金「英國炸彈」、內地醫學生輕慢大體老師（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": ["api_v2/thread/hot blocked by Cloudflare"]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-WFC-FIRE-CHIEF",
+      "name": "消防處處長居然最後武士，明明失職最嚴重嘅係佢",
+      "status": "tracking",
+      "seen": "樓主指 2025 年 10 月華懋大廈三級大火後續引發宏福苑五級大火，暴露棚網不阻燃、檢測造假；留言指消防裝置熄咗、消防鐘唔響，處長卻無事。淨評分 +612、回覆約 176。第 1 頁多讚留言（#3 +385）話「大火燒死百幾人竟然 in charge 防火嗰個就乜事都冇」；（#4）「消防鐘唔響，消防處真係失職最重」。",
+      "replies": 176,
+      "viewpoints": [
+        {
+          "label": "嬲消防處失職最重",
+          "summary": "留言主要嬲嘅係負責防火嘅部門無事，168 人死一年先有人落台，覺得處長係「最後武士」都未夠。",
+          "share": "留言大多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "指管理處責任",
+          "summary": "一部分留言話消防裝置熄咗係管理處責任，但整體仍指向處長。",
+          "share": "一部分",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "612",
+          "comparison": "回覆約 176；分數正代表讚多過踩；上一輪 +434，升幅大過 30，列表刷新（帖仍在、留言觀點未變，仍係嬲失職）。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港政府官員（宏福苑問責、消防處處長）。本頁仍見；熱門頁未見民青局／教育局帖，改用今日最熱官員問責帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對獨立調查委員會報告原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173886/page/1",
+          "platform": "連登",
+          "author": "大毒梟高可晴",
+          "author_url": "https://lihkg.com/profile/70786",
+          "published_at": null,
+          "observed_at": "2026-10-29T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分＝列表頁擁指旁邊數字；回覆數以最後一頁 #176 為準；author_url 由帖文個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對失職嘅指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-HO-YUNG-YIN-RUMOR",
+      "name": "有傳何永賢今日宣布下台",
+      "status": "new",
+      "seen": "樓主發「有傳」何永賢今日宣布下台。淨評分 +61、回覆約 254。第 1 頁留言（#2 +275）話「下屆政府再請返」；（#8）「樓主發放假新聞」；（#9）問點解唔係保安局局長下台。",
+      "replies": 254,
+      "viewpoints": [
+        {
+          "label": "當假新聞或有傳唔算",
+          "summary": "不少留言話「有傳」唔算數，或者樓主發放假新聞。",
+          "share": "一部分",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "問其他官員點解唔落",
+          "summary": "有留言反問點解唔係消防／保安局等其他被點名官員下台。",
+          "share": "一部分",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "61",
+          "comparison": "回覆約 254；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港時事（何永賢下台傳聞）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "只係「有傳」，未見官方確認。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173777/page/1",
+          "platform": "連登",
+          "author": "共你好好地相處",
+          "author_url": "https://lihkg.com/profile/64634",
+          "published_at": null,
+          "observed_at": "2026-10-29T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分＝列表頁數字；回覆數以最後一頁 #254 為準；author_url 由帖文個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把「有傳」當事實。",
+      "next_steps": "下一輪睇有冇官方消息。"
+    },
+    {
+      "issue_id": "HK-CIVIL-PENSION-BOMB",
+      "name": "公務員退休金完全係英國埋下既最大炸彈，完全係拖死中國香港",
+      "status": "tracking",
+      "seen": "樓主指英國埋下退休金炸彈，愛國公務員唔應該收。淨評分 +546、回覆約 123。第 1 頁留言（#5 +196）話「歷史文件，叫佢地問英國拎啦」；（#7）「拎退休金既都係戀殖」。",
+      "replies": 123,
+      "viewpoints": [
+        {
+          "label": "應取消舊制退休金",
+          "summary": "留言多數支持取消舊制、問英國拎，或指收退休金係戀殖。",
+          "share": "留言大多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "新制已取消",
+          "summary": "有留言指出新制已經取消，舊的才需要處理。",
+          "share": "一部分",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "546",
+          "comparison": "回覆約 123；分數正代表讚多過踩；上一輪 +451，升幅大過 30，列表刷新（帖仍在、留言觀點未變）。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港經濟（公務員退休金公帑）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對公務員事務局最新數字。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4173703/page/1",
+          "platform": "連登",
+          "author": "天呀！幾時開眼",
+          "author_url": "https://lihkg.com/profile/403836",
+          "published_at": null,
+          "observed_at": "2026-10-29T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分＝列表頁數字；回覆數以最後一頁 #123 為準；author_url 由帖文個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對退休金制度的指控當事實。",
+      "next_steps": "下一輪再睇分數變化。"
+    },
+    {
+      "issue_id": "CN-MEDICAL-STUDENT-SPECIMEN",
+      "name": "大體老師｜內地醫科生標本寫「你好可怜哦 死了骨头还被我玩」 頭骨戴眼鏡引眾怒",
+      "status": "new",
+      "seen": "樓主引內媒報道，內地醫學生在骨骼標本寫「死了骨头还被我玩」、頭骨戴眼鏡擺拍，引網民怒。淨評分 -40、回覆約 62。第 1 頁留言批評缺醫德、唔應畢業從醫，有人嘲「分分鐘拎嚿骨打飛機」。",
+      "replies": 62,
+      "viewpoints": [
+        {
+          "label": "批評缺醫德唔應從醫",
+          "summary": "留言主要批評涉事學生缺乏敬畏之心，要求追究，擔心日後當醫生唔負責任。",
+          "share": "留言大多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "黑暗幽默",
+          "summary": "少數留言用黑色幽默回應，例如「拎嚿骨打飛機」。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-40",
+          "comparison": "回覆約 62；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "內地（醫學生輕慢大體老師）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "引內媒報道，未對原報道全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174027/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-29T16:15:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分＝列表頁數字；回覆數以最後一頁 #62 為準；author_url 由帖文個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把內媒報道當全部事實。",
+      "next_steps": "下一輪睇有冇校方回應。"
+    }
+  ]
+}
