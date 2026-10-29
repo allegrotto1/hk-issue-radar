@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-29T16:29:00+08:00",
- "generated_at": "2026-10-29T16:29:56+08:00",
+ "updated_at": "2026-10-29T16:32:00+08:00",
+ "generated_at": "2026-10-29T16:32:52+08:00",
  "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"},{"id":"wangfuk-accountability","title":"宏福苑問責側欄"}],
  "posts": [
   {
@@ -423,8 +423,8 @@
    "id": "DfEcryqGGq_",
    "url": "https://www.threads.com/@jojo__wu/post/DfEcryqGGq_",
    "platform": "threads",
-   "summary": "差唔多成年先道歉，哈。",
-   "tag": "宏福苑問責",
+   "summary": "差唔多成年先道歉；留言「Big嬌」線掛主人定調：道歉潑火→黃碧嬌焦點",
+   "tag": "黃碧嬌主焦｜道歉反彈",
    "group": "wangfuk-accountability",
    "first_seen": "2026-10-29T16:24:00+08:00",
    "estimated_posted_at": {"value":"2026-10-29T15:24:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:24:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
@@ -476,7 +476,7 @@
    "id": "DfDP0vLkWBq",
    "url": "https://www.threads.com/@funfair.64/post/DfDP0vLkWBq",
    "platform": "threads",
-   "summary": "【未核實】傳黃碧嬌28/10搭CX251赴倫敦；帖內有接機洗塵號召——勿當事實、勿放大",
+   "summary": "【未核實】傳黃碧嬌28/10搭CX251赴倫敦；接機號召勿放大——主焦點：道歉反彈→離境／旅行",
    "tag": "黃碧嬌未核實離境謠",
    "group": "wangfuk-accountability",
    "first_seen": "2026-10-29T16:28:00+08:00",
@@ -496,6 +496,20 @@
    "estimated_posted_at": {"value":"2026-10-29T15:54:00+08:00","estimate":true,"relative_shown":"35m","observed_at":"2026-10-29T16:29:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-29T16:29:00+08:00","likes":{"raw":"224","value":224,"approx":false},"replies":{"raw":"32","value":32,"approx":false},"reposts":{"raw":"20","value":20,"approx":false},"shares":{"raw":"133","value":133,"approx":false},"views":{"raw":"1.7萬","value":17000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfEkQfDlNp3",
+   "url": "https://www.threads.com/@anewbrand2025/post/DfEkQfDlNp3",
+   "platform": "threads",
+   "summary": "【未核實】假授權信無事＋出發英國；天網／詛咒語氣；印證「道歉潑火→黃碧嬌旅行焦點」——低讚",
+   "tag": "黃碧嬌旅行未核實",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:32:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T16:17:00+08:00","estimate":true,"relative_shown":"15m","observed_at":"2026-10-29T16:32:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "author": "anewbrand2025",
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:32:00+08:00","likes":{"raw":"8","value":8,"approx":false},"replies":{"raw":"0","value":0,"approx":false},"reposts":{"raw":"0","value":0,"approx":false},"shares":{"raw":"2","value":2,"approx":false},"views":null}
    ]
   }
  ]
