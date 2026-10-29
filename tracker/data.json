@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-29T16:22:13+08:00",
- "generated_at": "2026-10-29T16:23:49+08:00",
+ "updated_at": "2026-10-29T16:25:46+08:00",
+ "generated_at": "2026-10-29T16:25:46+08:00",
  "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"},{"id":"wangfuk-accountability","title":"宏福苑問責側欄"}],
  "posts": [
   {
@@ -378,6 +378,58 @@
    "estimated_posted_at": {"value":"2026-10-29T15:22:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:22:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-29T16:22:13+08:00","likes":{"raw":"85","value":85,"approx":false},"replies":{"raw":"4","value":4,"approx":false},"reposts":{"raw":"1","value":1,"approx":false},"shares":{"raw":"3","value":3,"approx":false},"views":{"raw":"5.3K","value":5300,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfEebU4kv1U",
+   "url": "https://www.threads.com/@matthew.cwc/post/DfEebU4kv1U",
+   "platform": "threads",
+   "summary": "公司瞓覺可即炒；死168人過一年講sorry仍有得做（宏福苑問責）",
+   "tag": "宏福苑問責",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:24:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T15:24:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:24:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:24:58+08:00","likes":{"raw":"84","value":84,"approx":false},"replies":{"raw":"1","value":1,"approx":false},"reposts":{"raw":"4","value":4,"approx":false},"shares":{"raw":"1","value":1,"approx":false},"views":{"raw":"1.7K","value":1700,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfEjxSwm0hT",
+   "url": "https://www.threads.com/@iamdev/post/DfEjxSwm0hT",
+   "platform": "threads",
+   "summary": "168等1年鞠躬道歉只得何局長請辭；質疑司長局長罷免；勸辭≠開除；提中央接管",
+   "tag": "宏福苑問責",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:24:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T15:24:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:24:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:25:28+08:00","likes":{"raw":"2","value":2,"approx":false},"replies":null,"reposts":null,"shares":{"raw":"1","value":1,"approx":false},"views":null}
+   ]
+  },
+  {
+   "id": "DfEd4jwknuM",
+   "url": "https://www.threads.com/@beme.beabnormal/post/DfEd4jwknuM",
+   "platform": "threads",
+   "summary": "未搞掂宏福苑呢一單就講修例？",
+   "tag": "宏福苑問責",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:24:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T15:24:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:24:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:25:36+08:00","likes":{"raw":"63","value":63,"approx":false},"replies":{"raw":"26","value":26,"approx":false},"reposts":null,"shares":{"raw":"8","value":8,"approx":false},"views":{"raw":"7.1K","value":7100,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfEcryqGGq_",
+   "url": "https://www.threads.com/@jojo__wu/post/DfEcryqGGq_",
+   "platform": "threads",
+   "summary": "差唔多成年先道歉，哈。",
+   "tag": "宏福苑問責",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:24:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T15:24:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:24:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:25:46+08:00","likes":{"raw":"2.3K","value":2300,"approx":true},"replies":{"raw":"50","value":50,"approx":false},"reposts":{"raw":"142","value":142,"approx":false},"shares":{"raw":"290","value":290,"approx":false},"views":{"raw":"20.6K","value":20600,"approx":true}}
    ]
   }
  ]
