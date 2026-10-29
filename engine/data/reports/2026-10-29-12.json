@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-29T04:00:00Z",
+    "end": "2026-10-29T05:00:00Z"
+  },
+  "generated_at": "2026-10-29T04:20:00Z",
+  "summary": [
+    "12 點版。以熱門 API api_v2/thread/hot?cat_id=1（約 12:12 HKT）為準，共 33 卡；卡分數＝like−dislike，回覆取自同一 API no_of_reply；author_url 由 API user_id；五條入選帖都由 api_v2/thread 開第 1 頁讀留言。熱度按淨評分排序，再看回覆數。",
+    "內地：麥巴比毛澤東迷因帖（204、191），連央視封殺西甲帖（42、67）。香港時事：FB 傳黃碧嬌飛倫敦（22、168）。香港政府官員：有傳何永賢下台（6、112），連宏福苑「誰落鑊」帖（16、162）。青年：鄧炳強「國安概念」推廣至幼稚園帖（-134、79），屬教育政策兼官員惹火言論，被大量反諷。香港經濟：華員會「唔畀好唔道義」長糧帖再被踩至 -208（-137），回覆 202。",
+    "本輪熱門頁未見民青局、教育局帖；教育類只見保安局局長幼稚園國安繪本。出世率 0.59 帖（52、239，上一輪 36、131）仍在、留言歸咎樓價人工，因版面只列五條未入選。綜援「高消費」帖、Samsung 撤港帖、長糧數字帖本輪已跌出熱門頁。五條各有實際回覆數。",
+    "情緒觀察：升＋怒／嘲諷＋大家嬲公帑長糧同「國安入幼稚園」，官員去留傳聞多（情緒觀察，事件未核實；只見連登，未對照 Threads）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "MAINLAND-MBAPPE-MAO-MEME",
+      "name": "麥巴比越玩越大，美法國出聲支援",
+      "status": "tracking",
+      "seen": "樓主貼 X 帖，講麥巴比（姆巴佩）用毛澤東迷因、講「獨裁者」後，美、法出聲支援。淨評分 204、回覆 191。第 1 頁多讚留言（+172）問美法若唔賣飛機俾中國會點；（+154）（+130）嘲小粉紅；（+119）指越想屈服對方越顯得野蠻。少數（+54／-149，被大踩）話中國有能力要對方跪低；亦有人爭拗飛機供應鏈邊個依賴邊個。另一同題帖講央視停播西甲、皇馬，內地贊助商終止合作（淨評分 42、回覆 67），留言（+133）話正因道歉先會咁，應該企硬。",
+      "replies": 191,
+      "viewpoints": [
+        {
+          "label": "嘲小粉紅玻璃心",
+          "summary": "大多數留言嘲笑內地網民同官媒反應過激，認為封殺只顯得野蠻。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "唔應道歉",
+          "summary": "一部分留言指麥巴比道歉反而令對方得寸進尺，舉 NBA 企硬為例。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "中國有籌碼",
+          "summary": "少數留言話中國市場大、可以逼對方低頭，但呢類留言被大量踩。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "204",
+          "comparison": "回覆 191；分數正代表讚多過踩；09 點版未入選，00 點版 156，較之 +48，大過 30，屬列表刷新（帖仍在、觀點未變）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "42",
+          "comparison": "央視封殺西甲帖：回覆 67；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（央視、內地贊助商封殺）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對央視或官方原文；美法表態未核。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173454/page/1",
+          "platform": "連登",
+          "author": "來自篤精的你",
+          "author_url": "https://lihkg.com/profile/44171",
+          "published_at": null,
+          "observed_at": "2026-10-29T04:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 12:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀（約 12:13 HKT）。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173550/page/1",
+          "platform": "連登",
+          "author": "靜靜地の贏家",
+          "author_url": "https://lihkg.com/profile/386200",
+          "published_at": null,
+          "observed_at": "2026-10-29T04:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 12:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀（約 12:13 HKT）。"
+        }
+      ],
+      "limits": "不把標題當成事實；轉載自 X 帖，未核原出處。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-WONG-PIK-KIU-LONDON",
+      "name": "FB傳黃碧嬌於28/10飛往倫敦",
+      "status": "new",
+      "seen": "樓主貼 now 新聞連結，標題指 FB 流傳黃碧嬌 10 月 28 日飛往倫敦。淨評分 22、回覆 168。第 1 頁多讚留言（+126）嘲「愛國只係工作，外國先係生活」，問國安處唔做嘢；（+101）話「後台硬到，保佢都唔保局長」；（+99）嘲「移民英國唯一出路」；（+82）問坐頭等定商務。少數（+8／-20）質疑呢類傳聞由 2019 傳到而家，有邊次係中。",
+      "replies": 168,
+      "viewpoints": [
+        {
+          "label": "嘲愛國者走佬",
+          "summary": "大多數留言借傳聞嘲諷愛國人士自己往外國走。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "質疑傳聞",
+          "summary": "少數留言指 FB 傳聞未證實，呢類消息多數唔中。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "22",
+          "comparison": "回覆 168；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（政界人物行蹤傳聞）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "FB 傳聞，未核實；未對新聞原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173719/page/1",
+          "platform": "連登",
+          "author": "曦霄",
+          "author_url": "https://lihkg.com/profile/49295",
+          "published_at": null,
+          "observed_at": "2026-10-29T04:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 12:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀（約 12:13 HKT）。"
+        }
+      ],
+      "limits": "傳聞未證實，不當事實。",
+      "next_steps": "下一輪睇有冇官方或本人回應。"
+    },
+    {
+      "issue_id": "HK-HO-WING-YIN-RUMOUR",
+      "name": "有傳何永賢今日宣布下台",
+      "status": "new",
+      "seen": "樓主只寫標題「有傳何永賢今日宣布下台」，冇附來源。淨評分 6、回覆 112。第 1 頁多讚留言（+38）嘲「下屆政府再請返」；（+22）問點解唔係保安局局長下台；（+14）指樓主發假新聞，亦有人問 Source；（+14）（+10）批評佢冇實績、簡約公屋同 MIC 漏水。少數（+5／-20，被踩）話佢收回公屋、起樓快算做到嘢。同時「誰落鑊」帖（淨評分 16、回覆 162）講宏福苑獨立委員會報告最快今日公開，留言（+294）話「落馬又點，轉頭去做特首」，（+200）（+142）認為鄧炳強唔會被郁，（+100）指甯漢豪都有得留低。",
+      "replies": 112,
+      "viewpoints": [
+        {
+          "label": "質疑傳聞同嘲問責",
+          "summary": "多數留言唔信傳聞，或嘲落台都會再獲任用。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "問點解唔係保安局",
+          "summary": "一部分留言認為宏福苑問責應該落到鄧炳強，而非房屋局。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "為何永賢辯護",
+          "summary": "少數留言指佢起樓快、收回公屋，但被踩。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "6",
+          "comparison": "回覆 112；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "16",
+          "comparison": "「誰落鑊」帖：回覆 162（上一輪 133）；分數正代表讚多過踩；上一輪 15，變動 +1，未過 30。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員（房屋局局長下台傳聞、宏福苑問責）。本頁仍見；熱門頁未見民青局／教育局帖，教育相關官員言論帖放咗青年類。",
+      "verification": {
+        "status": "unverified",
+        "note": "下台傳聞冇來源，未核實；報告公開日期出自 HK01 轉載。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173777/page/1",
+          "platform": "連登",
+          "author": "共你好好地相處",
+          "author_url": "https://lihkg.com/profile/64634",
+          "published_at": null,
+          "observed_at": "2026-10-29T04:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 12:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀（約 12:13 HKT）。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173579/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-10-29T04:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 12:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀（約 12:13 HKT）。"
+        }
+      ],
+      "limits": "傳聞未證實，不當事實。",
+      "next_steps": "今日宏福苑報告公開後再睇問責帖走向。"
+    },
+    {
+      "issue_id": "HK-TANG-NATSEC-KINDERGARTEN",
+      "name": "鄧炳強：希望將「國安概念」推廣至幼稚園",
+      "status": "new",
+      "seen": "樓主貼 am730 報道：鄧炳強推一套三冊幼稚園教育繪本，講「希望將『國安概念』推廣至幼稚園」，主題包括尊重別人、分辨是非、「安仔學會愛家國」。淨評分 -134、回覆 79。第 1 頁多讚留言（+104）反諷「唔夠，應該推廣到產房甚至胎教」；（+41）嘲「你哋係炸彈包呀」；（+17）嘲「超級國安人」；亦有人問算唔算政治入侵校園、點解來來去去都搞學生。少數（+0／-4）話細細個就要教唔好港獨。",
+      "replies": 79,
+      "viewpoints": [
+        {
+          "label": "嬲國安入侵幼稚園",
+          "summary": "留言主要嬲國安教育落到幼兒，覺得係洗腦、政治入侵校園，大量用反諷（胎教、產房）表達。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "問點解只搞學生",
+          "summary": "一部分留言問點解成年人唔使學，只係針對細路。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "支持及早教育",
+          "summary": "少數留言支持細細個教國安，但被踩。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-134",
+          "comparison": "回覆 79；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（幼稚園教育政策；官員惹火言論）。本頁仍見；屬保安局局長言論，非教育局。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對保安局或教育局原文；引述出自 am730 轉載。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173750/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-29T04:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 12:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀（約 12:13 HKT）。"
+        }
+      ],
+      "limits": "不把標題當成事實；繪本內容只據報道撮要。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁、踩數有冇再加。"
+    },
+    {
+      "issue_id": "HK-CIVIL-PENSION",
+      "name": "公務員退休金承擔破9千億 華員會籲勿眼紅：長糧如「阿媽幫你儲利是錢 當時約定咗三十幾年 唔畀好唔道義」",
+      "status": "shift",
+      "seen": "樓主轉載：退休公務員長糧平均每月約 20,200 元，法定退休金承擔額料達 9,248 億；華員會會長話長糧如「阿媽幫你儲利是錢，當時約定咗三十幾年，唔畀好唔道義」。淨評分 -208、回覆 202（上一輪 -137、140）。第 1 頁多讚留言（+299）話「係以前政府承諾，同而家政府無關」；（+272）嘲「道義值幾錢？而家家道中落」；（+227）指立法會加完人工即刻 spin 去長糧；（+168）（+154）對比郵局 PT 承諾唔兌現、現職加 1–2% 似施捨。少數（+11／-38）指政府帶頭破壞合約精神更差。原本長糧數字帖本輪已跌出熱門頁。",
+      "replies": 202,
+      "viewpoints": [
+        {
+          "label": "嬲「唔畀好唔道義」",
+          "summary": "留言嬲嘅主要係華員會將長糧比作「阿媽儲利是錢」，覺得公帑負擔大、退休者照加、現職同私營無得加，「道義」一句被大量嘲諷。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "指雙標",
+          "summary": "一部分留言指政府對其他承諾（郵局轉正、現職加薪）唔講道義，偏偏保長糧。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "維護合約",
+          "summary": "少數留言指長糧係合約，政府帶頭毀約更差，但被踩。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-208",
+          "comparison": "回覆 202（上一輪 140）；分數負代表踩多過讚；上一輪 -137，變動 -71，大過 30，屬留言持續踩（帖仍在、觀點未變，踩數再加）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港經濟（公帑退休金承擔）。本頁仍見；華員會係工會，唔係官員。",
+      "verification": {
+        "status": "unverified",
+        "note": "數字來自報道轉載，未對政府文件。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173688/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-29T04:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 12:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀（約 12:13 HKT）。"
+        }
+      ],
+      "limits": "不把留言對公務員嘅指控當事實。",
+      "next_steps": "下一輪再睇踩數有冇再加。"
+    }
+  ]
+}
