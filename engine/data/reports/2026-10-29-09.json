@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-29T01:00:00Z",
+    "end": "2026-10-29T02:00:00Z"
+  },
+  "generated_at": "2026-10-29T01:12:00Z",
+  "summary": [
+    "09 點版。以熱門 API api_v2/thread/hot?cat_id=1（約 09:12 HKT）為準，共 32 卡；卡分數＝like−dislike，回覆取自同一 API no_of_reply；author_url 由 API user_id。熱度按淨評分排序，再看回覆數。本輪 api_v2/thread 讀留言被擋，四條追蹤帖留言沿用 08:14 所讀；新帖用瀏覽器唯讀開第 1 頁。",
+    "香港政府官員：議員倡打擊綜援家庭「不合理高消費」帖續升至 216（207），回覆 214，屬議員惹火言論。青年：新見「點解唔願生？出世率得0.59」（36、131），樓主置頂話 0.59 其實係台灣。內地：Samsung 家電撤港、不敵內地低價帖（45、100）。香港時事：宏福苑問責「誰落鑊」鄧炳強帖（15、133）。香港經濟：公務員長糧帖（-94、233）；華員會「唔畀好唔道義」帖再被踩至 -137（-97），回覆 140。",
+    "本輪熱門頁未見民青局、教育局帖；青年類未見教育、DSE、學額帖，以青年唔願生帖代替。「英日突發警告，家中需備至少3天緊急物資」帖（-44、132）仍在，未入選。五條各有實際回覆數。",
+    "情緒觀察：升＋怒／嘲諷＋大家嬲公帑長糧同「唔畀好唔道義」，綜援「高消費」議題續熱（情緒觀察，事件未核實；只見連登，未對照 Threads）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [
+      "https://lihkg.com/api_v2/thread/<id>/page/1（本輪 error 5／Cloudflare，四條追蹤帖留言沿用 08:14 所讀）"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-CSSA-HIGH-SPENDING",
+      "name": "議員倡打擊綜援家庭「不合理高消費」",
+      "status": "tracking",
+      "seen": "樓主轉載新聞：有議員倡打擊綜援家庭「不合理高消費」，勞福局局長孫玉菡回應「生活模式不同難設限」；起因係屯門富泰邨女童挽兩大袋啤酒、繼父母被捕案。淨評分 216、回覆 214（上一輪 207、199）。第 1 頁最多讚留言（+177）支持綜援只可當年金咁提取；（+157）提議轉做飯券、逐項審批退錢；（+84）要實名食物券；亦有人要消費卡每月審計。少數反駁：有人指案件核心係父母唔識教仔、虐兒，打擊綜援家庭係轉移視線；亦有人嘲「議員同局長人工都不合理高」。",
+      "replies": 214,
+      "viewpoints": [
+        {
+          "label": "嬲綜援被濫用",
+          "summary": "留言嬲嘅主要係覺得綜援家庭用公帑「高消費」，大多支持收緊：飯券、食物券、消費卡、審計，甚至禁出境旅遊。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "指轉移視線",
+          "summary": "少數留言指案件重點係虐兒同家教，議員借題打擊綜援家庭係轉移社會矛盾。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反嘲議員",
+          "summary": "有人反指議員同局長人工先係「不合理高」，又擔心變成濫用舉報、KPI。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "216",
+          "comparison": "回覆 214（上一輪 199）；分數正代表讚多過踩；上一輪 207，變動 +9，未過 30。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（議員惹火言論、勞福局局長回應）。本頁仍見；熱門頁未見民青局／教育局，改以議員惹火帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對立法會紀錄或官方原文；議員姓名本輪未核。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173541/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-29T01:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 09:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id。本輪 api_v2/thread 讀留言被擋（error 5／Cloudflare），留言內容沿用 08:14 HKT 已開第 1 頁所讀。"
+        }
+      ],
+      "limits": "不把標題當成事實；留言對綜援家庭嘅指控未經核實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁，並補讀最新留言。"
+    },
+    {
+      "issue_id": "HK-SAMSUNG-EXIT",
+      "name": "Samsung家電撤港 豐澤店員指8.31已撤港 據悉不敵內地低廉產品",
+      "status": "tracking",
+      "seen": "樓主轉載報道：三星電子撤出香港家電市場，據悉主因係不敵內地品牌低價，停售雪櫃、冷氣機、洗衣機、吸塵機；記者以顧客身份問豐澤，店員指 8 月 31 日已撤。淨評分 45、回覆 100（上一輪 43、91）。第 1 頁最多讚留言（+89）話「劣幣驅逐良幣」；（+70）嘲「香港人食開屎」；（+44）指太多人貪平唔諗耐用同安全。另一邊（+49）反指三星本身就係劣幣，有人分享洗衣機三年就壞；亦有現有用家擔心保養同維修。",
+      "replies": 100,
+      "viewpoints": [
+        {
+          "label": "嘆內地低價驅走好貨",
+          "summary": "多數留言視為內地平價品牌擠走外國品牌，嘆消費者貪平。",
+          "share": "留言較多",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "話三星本身唔掂",
+          "summary": "有人指三星質素差、維修貴，走咗唔可惜，提議其他品牌。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "擔心售後",
+          "summary": "現有用家問保養、零件同維修點算。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "45",
+          "comparison": "回覆 100（上一輪 91）；分數正代表讚多過踩；上一輪 43，變動 +2，未過 30。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地（內地品牌低價衝擊香港市場）。本頁仍見；熱門頁未見其他直接內地議題帖，以內地產品衝擊帖代替。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對三星官方公告。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173501/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-29T01:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 09:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id。本輪 api_v2/thread 讀留言被擋（error 5／Cloudflare），留言內容沿用 08:14 HKT 已開第 1 頁所讀。"
+        }
+      ],
+      "limits": "撤港原因只係報道「據悉」，未經證實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁，並補讀最新留言。"
+    },
+    {
+      "issue_id": "HK-20261029-birthrate-059",
+      "name": "點解唔願生？政府最新出世率得0.59",
+      "status": "new",
+      "seen": "樓主貼圖問「出生率0.59 超過韓國日本點解啲人唔肯生？」，但樓主置頂補充「其實0.59係台灣」，標題講「政府最新」同 0.59 屬邊度有出入。淨評分 36、回覆 131。第 1 頁最多讚留言（+107）講後生人工低、樓價物價升、冇上流路；（+101）粗口嘲「努力殘害後代」；（+79）指生仔即係幫資本家養下一代打工仔；（+40）問「想問政府點撚柒樣生」，搵工唔穩、樓又貴；（+32）「大人自己都住唔掂，生小朋友住邊度？」。少數留言話台灣更慘、香港唔算差，亦有人反駁打工養家冇問題。",
+      "replies": 131,
+      "viewpoints": [
+        {
+          "label": "嬲住屋同收入",
+          "summary": "最多讚嘅留言集中講人工低、樓貴、工作唔穩、冇上流，所以唔敢生；有人直接質問政府。",
+          "share": "第 1 頁約三成，讚數最高",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "唔想殘害下一代",
+          "summary": "有留言認為生仔只係幫資本家養打工仔，或者唔想下一代受苦。",
+          "share": "約兩成",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "指 0.59 係台灣",
+          "summary": "樓主置頂同部分留言指數字其實係台灣，香港冇咁差；有人反駁打工養家冇問題。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "36",
+          "comparison": "回覆 131；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（青年問題：年輕人唔願生，住屋、收入同前途不安）。本頁仍見；熱門頁未見教育、DSE、學額、民青局帖，以呢條青年問題帖代替；上一輪青年帖「供30年樓係人生最大Bug？」仍在熱門頁（63、111）。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主自己置頂話 0.59 係台灣；未對政府統計處或台灣官方數字。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173668/page/1",
+          "platform": "連登",
+          "author": "唔鍾意著衫",
+          "author_url": "https://lihkg.com/profile/672163",
+          "published_at": null,
+          "observed_at": "2026-10-29T01:14:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 09:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；第 1 頁留言由瀏覽器唯讀打開讀取（API 被擋）。"
+        }
+      ],
+      "limits": "不把標題數字當成香港數據；留言比例只係第 1 頁粗略觀察。",
+      "next_steps": "下一輪睇呢帖仲在唔在熱門，並核實 0.59 屬香港定台灣。"
+    },
+    {
+      "issue_id": "HK-WANGFUK-ACCOUNTABILITY",
+      "name": "HK01: 政圈熱議「誰落鑊」 一局長走唔甩？ 據稱鄧炳強近日轉趨低調 婉拒了不少活動邀請",
+      "status": "tracking",
+      "seen": "樓主轉載 HK01：奪去 168 條人命嘅大埔宏福苑五級大火獨立委員會最快 29 日公開報告並展開問責，政圈私下認為要有問責官員「落鑊」，據稱鄧炳強轉趨低調。淨評分 15、回覆 133（上一輪 14、119）。第 1 頁最多讚留言（+224）嘲「落馬又點，轉頭去做特首」；（+148）、（+105）認為佢點會落台、「2019 立大功」；（+82）反而嘲甯漢豪咁都留得低。有人指維修同居屋業權歸房署，應由房屋方面負責；亦有留言話係 HK01 吹風、假新聞。",
+      "replies": 133,
+      "viewpoints": [
+        {
+          "label": "冷嘲冇人會落鑊",
+          "summary": "最多讚留言認定問責只係做樣，鄧炳強唔會落台甚至會升。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "矛頭指向房屋官員",
+          "summary": "有人指宏福苑維修同業權屬房署，甯漢豪等應該負責。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "質疑報道",
+          "summary": "少數留言話係 HK01 吹風或假新聞。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "15",
+          "comparison": "回覆 133（上一輪 119）；分數正代表讚多過踩；上一輪 14，變動 +1，未過 30。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港時事（宏福苑大火問責、獨立委員會報告將公開）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "報告未公開；誰落鑊屬傳聞。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173579/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-10-29T01:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 09:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id。本輪 api_v2/thread 讀留言被擋（error 5／Cloudflare），留言內容沿用 08:14 HKT 已開第 1 頁所讀。"
+        }
+      ],
+      "limits": "不把政圈傳聞當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁，並補讀最新留言。"
+    },
+    {
+      "issue_id": "HK-CIVIL-PENSION",
+      "name": "公務員每月「長糧」平均增至$20200 公帑承擔退休金料達9,248億",
+      "status": "tracking",
+      "seen": "樓主轉載 HK01：退休公務員及司法人員長糧按機制加 2.1%，每月平均約 20,200 元，法定退休金承擔額料達 9,248 億。淨評分 -94、回覆 233（上一輪 -92、228）。第 1 頁最多讚留言（+177）指退休嗰班加幅好似多過現職；（+118）嘲公務員事務局局長講「合約精神」係牽涉自己利益先捍衛；（+90）反諷「不如加到 5 萬」。另一帖華員會會長講長糧如「阿媽幫你儲利是錢……唔畀好唔道義」，回覆 140、淨評分 -137（上一輪 100、-97），留言（+151）話係以前政府承諾、同而家無關，（+131）嘲「道義值幾錢，家道中落」，（+86）對比現職同郵局 PT 承諾唔兌現。少數留言反指長糧係合約、政府不應毀約。",
+      "replies": 233,
+      "viewpoints": [
+        {
+          "label": "嬲長糧不公",
+          "summary": "留言主要嬲退休公務員照加、現職同私營打工仔無得加，覺得公帑負擔太重；華員會「唔畀好唔道義」一句被大量嘲諷。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "嘲官員雙標",
+          "summary": "有人指官員講合約精神只係保自己利益，對其他承諾就唔講道義。",
+          "share": "一部分",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "label": "維護合約",
+          "summary": "少數留言指長糧係當年承諾，政府帶頭毀約更差。",
+          "share": "少數",
+          "evidence_ids": [
+            "L1",
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-94",
+          "comparison": "回覆 233（上一輪 228）；分數負代表踩多過讚；上一輪 -92，變動 -2，未過 30。",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-97",
+          "comparison": "華員會「阿媽幫你儲利是錢」帖：回覆 100；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-137",
+          "comparison": "華員會「唔畀好唔道義」帖：回覆 140（上一輪 100）；負代表踩多過讚；上一輪 -97，變動 -40，大過 30，屬留言持續踩（帖仍在、觀點未變，踩數再加）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港經濟（公帑退休金承擔）。本頁仍見；另有華員會惹火言論帖同題。",
+      "verification": {
+        "status": "unverified",
+        "note": "數字來自報道轉載，未對政府文件。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173398/page/1",
+          "platform": "連登",
+          "author": "刁腫(私煮食）",
+          "author_url": "https://lihkg.com/profile/618109",
+          "published_at": null,
+          "observed_at": "2026-10-29T01:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 09:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id。本輪 api_v2/thread 讀留言被擋（error 5／Cloudflare），留言內容沿用 08:14 HKT 已開第 1 頁所讀。"
+        },
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173688/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-10-29T01:12:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 09:12 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id。本輪 api_v2/thread 讀留言被擋（error 5／Cloudflare），留言內容沿用 08:14 HKT 已開第 1 頁所讀。"
+        }
+      ],
+      "limits": "不把留言對公務員嘅指控當事實；華員會係工會，唔係官員。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁，並補讀最新留言。"
+    }
+  ]
+}
