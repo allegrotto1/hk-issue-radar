@@ -2,9 +2,9 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-29T16:05:41+08:00",
- "generated_at": "2026-10-29T16:05:54+08:00",
- "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"}],
+ "updated_at": "2026-10-29T16:22:13+08:00",
+ "generated_at": "2026-10-29T16:23:49+08:00",
+ "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"},{"id":"wangfuk-accountability","title":"宏福苑問責側欄"}],
  "posts": [
   {
    "id": "DdyCsmTkt3H",
@@ -365,6 +365,19 @@
     {"taken_at":"2026-10-28T11:57:05+08:00","likes":{"raw":"20","value":20,"approx":false},"replies":{"raw":"2","value":2,"approx":false},"reposts":{"raw":"4","value":4,"approx":false},"shares":{"raw":"59","value":59,"approx":false},"views":{"raw":"1,999","value":1999,"approx":false}},
     {"taken_at":"2026-10-29T12:01:14+08:00","likes":{"raw":"140","value":140,"approx":false},"replies":{"raw":"6","value":6,"approx":false},"reposts":{"raw":"11","value":11,"approx":false},"shares":{"raw":"436","value":436,"approx":false},"views":{"raw":"3.6萬","value":36000,"approx":true}},
     {"taken_at":"2026-10-29T16:05:41+08:00","likes":{"raw":"144","value":144,"approx":false},"replies":{"raw":"6","value":6,"approx":false},"reposts":{"raw":"11","value":11,"approx":false},"shares":{"raw":"474","value":474,"approx":false},"views":{"raw":"4.0萬","value":40000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfEbMoPAYol",
+   "url": "https://www.threads.com/@hklancehk/post/DfEbMoPAYol",
+   "platform": "threads",
+   "summary": "何永賢請辭「得一件」；質疑黃碧嬌背後利益；宏福苑問責＝做戲／換人無分別",
+   "tag": "宏福苑問責",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:22:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T15:22:00+08:00","estimate":true,"relative_shown":"1h","observed_at":"2026-10-29T16:22:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:22:13+08:00","likes":{"raw":"85","value":85,"approx":false},"replies":{"raw":"4","value":4,"approx":false},"reposts":{"raw":"1","value":1,"approx":false},"shares":{"raw":"3","value":3,"approx":false},"views":{"raw":"5.3K","value":5300,"approx":true}}
    ]
   }
  ]
