@@ -2,8 +2,8 @@
  "schema": 1,
  "title": "Threads 帖文互動追蹤",
  "timezone": "Asia/Hong_Kong",
- "updated_at": "2026-10-29T16:28:00+08:00",
- "generated_at": "2026-10-29T16:28:17+08:00",
+ "updated_at": "2026-10-29T16:29:00+08:00",
+ "generated_at": "2026-10-29T16:29:26+08:00",
  "groups": [{"id":"grad-labour","title":"有關畢業生對引入外勞的擔憂"},{"id":"prep-doomsday","title":"應急準備／末日敘事"},{"id":"wangfuk-accountability","title":"宏福苑問責側欄"}],
  "posts": [
   {
@@ -483,6 +483,19 @@
    "estimated_posted_at": {"value":"2026-10-28T16:28:00+08:00","estimate":true,"relative_shown":"1d","observed_at":"2026-10-29T16:28:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
    "snapshots": [
     {"taken_at":"2026-10-29T16:28:00+08:00","likes":{"raw":"801","value":801,"approx":false},"replies":null,"reposts":null,"shares":null,"views":{"raw":"8.9萬","value":89000,"approx":true}}
+   ]
+  },
+  {
+   "id": "DfEhCLFkg71",
+   "url": "https://www.threads.com/@hzpolohu/post/DfEhCLFkg71",
+   "platform": "threads",
+   "summary": "整理李家超宏福苑記者會答問：有線／now／商台問問責；李稱宜家先道歉合適、通盤考慮；自評當家人（問責高熱）",
+   "tag": "宏福苑問責",
+   "group": "wangfuk-accountability",
+   "first_seen": "2026-10-29T16:29:00+08:00",
+   "estimated_posted_at": {"value":"2026-10-29T15:54:00+08:00","estimate":true,"relative_shown":"35m","observed_at":"2026-10-29T16:29:00+08:00","note":"由 Threads 顯示嘅相對時間推算（只精確到單位，例如小時），屬估算"},
+   "snapshots": [
+    {"taken_at":"2026-10-29T16:29:00+08:00","likes":{"raw":"224","value":224,"approx":false},"replies":{"raw":"32","value":32,"approx":false},"reposts":{"raw":"20","value":20,"approx":false},"shares":{"raw":"133","value":133,"approx":false},"views":{"raw":"1.7萬","value":17000,"approx":true}}
    ]
   }
  ]
