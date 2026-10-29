@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-29T13:00:00Z",
+    "end": "2026-10-29T14:00:00Z"
+  },
+  "generated_at": "2026-10-29T13:25:00Z",
+  "summary": [
+    "21 點版。以熱門 API api_v2/thread/hot?cat_id=1（約 21:20 HKT）為準，共約 40 卡；卡分數＝like−dislike，回覆取自同一 API no_of_reply；author_url 由 API user_id。入選帖打開第 1 頁讀留言。",
+    "香港政府官員：宏福苑問責持續——消防處處長被指「最後武士」（+434、120），留言多數嬲防火部門無事。香港時事：鄧炳強、甯漢豪、孫玉菡為何不用下台？李家超：係我個人政治決定（-66、56），留言嘲「我做我大事」。香港經濟：公務員退休金被指「英國埋下最大炸彈」（+451、115）。青年：供30年樓係人生最大Bug？（+121、242），留言大多話公屋贏。內地：本輪熱門頁未見明顯內地政策／官員帖，以 KFC 辱華迷因（+424、82）暫代，summary 寫明。",
+    "本輪熱門頁未見民青局、教育局、DSE、學額帖；青年類以置業焦慮帖代替。官員惹火言論以宏福苑問責及李家超「個人政治決定」為主。五類各有交代，入選帖都有實際回覆數。",
+    "情緒觀察：升＋怒／嘲諷＋大家繼續嬲宏福苑「168 人死、一年先有人落台」同李家超「係我個人政治決定」、公帑長糧／退休金（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-WFC-FIRE-CHIEF",
+      "name": "消防處處長居然最後武士，明明失職最嚴重嘅係佢",
+      "status": "tracking",
+      "seen": "樓主指 2025 年 10 月華懋大廈三級大火後續引發宏福苑五級大火，暴露棚網不阻燃、檢測造假；留言指消防裝置熄咗、消防鐘唔響，處長卻無事。淨評分 +434、回覆 120。第 1 頁多讚留言（+263）話「大火燒死百幾人竟然 in charge 防火嗰個就乜事都冇」；（+192）「消防鐘唔響，消防處真係失職最重」；（+174）嘲當咗消防處淨係負責救火。",
+      "replies": 120,
+      "viewpoints": [
+        {
+          "label": "嬲消防處失職最重",
+          "summary": "留言主要嬲嘅係負責防火嘅部門無事，168 人死一年先有人落台，覺得處長係「最後武士」都未夠。",
+          "share": "留言大多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "指管理處責任",
+          "summary": "一部分留言話消防裝置熄咗係管理處責任，但整體仍指向處長。",
+          "share": "一部分",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "434",
+          "comparison": "回覆 120；分數正代表讚多過踩；上一輪 +139，升幅大過 30，列表刷新（帖仍在、留言觀點未變，仍係嬲失職）。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "香港政府官員（宏福苑問責、消防處處長）。本頁仍見；熱門頁未見民青局／教育局帖，改用今日最熱官員問責帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對獨立調查委員會報告原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173886/page/1",
+          "platform": "連登",
+          "author": "大毒梟高可晴",
+          "author_url": "https://lihkg.com/profile/70786",
+          "published_at": null,
+          "observed_at": "2026-10-29T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:20 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對失職嘅指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-LEE-PERSONAL-DECISION",
+      "name": "鄧炳強、甯漢豪、孫玉菡為何不用下台？ 李家超：係我個人政治決定",
+      "status": "new",
+      "seen": "樓主引 HK01 報道，問宏福苑問責點解只有何永賢落台，鄧炳強、甯漢豪、孫玉菡唔用下台。李家超答「呢個係我個人政治決定」。淨評分 -66、回覆 56。第 1 頁留言（+104）嘲「我做我大事 我話我話事」；（+35）「唐超：吹呀！你可以點」。",
+      "replies": 56,
+      "viewpoints": [
+        {
+          "label": "嘲李家超個人決定",
+          "summary": "留言主要嘲諷李家超話「係我個人政治決定」，覺得問責由佢一人話事，唔服眾。",
+          "share": "留言大多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "其他政治聯想",
+          "summary": "少數留言扯到其他政治人物或制度比較。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-66",
+          "comparison": "回覆 56；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港時事／香港政府官員（宏福苑問責、李家超惹火言論「係我個人政治決定」）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對記者會原文逐字核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173954/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-29T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:20 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對問責嘅指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-CIVIL-PENSION-BOMB",
+      "name": "公務員退休金完全係英國埋下既最大炸彈，完全係拖死中國香港",
+      "status": "tracking",
+      "seen": "樓主指公務員退休金係英國殖民地埋下嘅最大炸彈，拖死中國香港；呼籲愛國公務員帶頭唔接受。淨評分 +451、回覆 115。第 1 頁留言（+143）話「歷史文件，叫佢地問英國拎啦。這裡是中國香港啊」；（+54）「新制咪取消左囉」。",
+      "replies": 115,
+      "viewpoints": [
+        {
+          "label": "支持取消舊制長糧",
+          "summary": "留言多數支持取消舊制退休金，覺得係公帑負擔，應該由英國負責。",
+          "share": "留言大多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "新制已取消",
+          "summary": "一部分留言指出新制已經取消，舊制先係問題。",
+          "share": "一部分",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "451",
+          "comparison": "回覆 115；分數正代表讚多過踩；上一輪 +265，升幅大過 30，列表刷新（帖仍在、留言觀點未變，仍支持取消舊制）。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港經濟（公務員退休金、公帑負擔）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對政府退休金數據原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4173703/page/1",
+          "platform": "連登",
+          "author": "天呀！幾時開眼",
+          "author_url": "https://lihkg.com/profile/403836",
+          "published_at": null,
+          "observed_at": "2026-10-29T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:20 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對退休金制度嘅指控當事實。",
+      "next_steps": "下一輪再睇分數同觀點有冇變。"
+    },
+    {
+      "issue_id": "HK-30YR-MORTGAGE-BUG",
+      "name": "供30年樓係人生最大Bug？",
+      "status": "tracking",
+      "seen": "樓主（年過30先儲夠首期）感嘆香港職場變幻、健康風險，30年長線供樓風險大。淨評分 +121、回覆 242。第 1 頁留言（+204）「公屋嬴, 有窗口,又旅行, 又享受生活」；（+155）「大把人一嚟就有公屋 享受生活」；（+120）「仲有梗廚光廁」。",
+      "replies": 242,
+      "viewpoints": [
+        {
+          "label": "公屋贏過私樓供30年",
+          "summary": "留言大多數話有公屋就贏，可以享受生活，唔使長線供樓風險。",
+          "share": "留言大多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "同意供樓係Bug",
+          "summary": "一部分認同樓主，覺得長線供樓同健康、工作風險大。",
+          "share": "一部分",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "121",
+          "comparison": "回覆 242；分數正代表讚多過踩；上一輪 +117，升幅細，列表刷新（帖仍在、留言觀點未變，仍係公屋贏）。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "青年（青年問題、置業焦慮）。本頁仍見；熱門頁未見民青局／教育局帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對樓市數據原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4173533/page/1",
+          "platform": "連登",
+          "author": "西晉宣王",
+          "author_url": "https://lihkg.com/profile/468418",
+          "published_at": null,
+          "observed_at": "2026-10-29T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:20 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對公屋／私樓比較當事實。",
+      "next_steps": "下一輪再睇青年相關有冇更接近教育／政策帖。"
+    },
+    {
+      "issue_id": "CN-KFC-ZILA-MEME",
+      "name": "KFC辱華？！新廣告驚現「芝辣人」",
+      "status": "tracking",
+      "seen": "樓主指 KFC 新廣告有「芝辣人」被指辱華。淨評分 +424、回覆 82。第 1 頁留言（+374）「唔通叫辣芝人咩 無聊」；（+90）「「垃圾」人.......」；（+75）「辱華流量密碼gogogo」。",
+      "replies": 82,
+      "viewpoints": [
+        {
+          "label": "覺得無聊／流量密碼",
+          "summary": "留言多數話「芝辣人」唔通叫辣芝人，無聊，或者當辱華流量密碼。",
+          "share": "留言大多數",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "認真當辱華",
+          "summary": "少數留言認真當係辱華。",
+          "share": "少數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "424",
+          "comparison": "回覆 82；分數正代表讚多過踩；上一輪 +412，升幅細，列表刷新（帖仍在、留言觀點未變）。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "內地（暫代，熱門頁未見明顯內地政策／官員帖，以迷因暫代）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對廣告原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4173192/page/1",
+          "platform": "連登",
+          "author": "電車之狼振英",
+          "author_url": "https://lihkg.com/profile/412013",
+          "published_at": null,
+          "observed_at": "2026-10-29T13:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁（api_v2/thread/hot?cat_id=1，約 21:20 HKT）對上該標題；淨評分＝列表 like−dislike；回覆數取自列表 no_of_reply；author_url 由 API user_id；留言由 api_v2/thread 第 1 頁讀。"
+        }
+      ],
+      "limits": "不把迷因指控當事實。",
+      "next_steps": "下一輪再睇有冇真正內地政策帖。"
+    }
+  ]
+}
