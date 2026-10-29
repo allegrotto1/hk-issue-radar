@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-29T10:00:00Z",
+    "end": "2026-10-29T11:00:00Z"
+  },
+  "generated_at": "2026-10-29T10:10:00Z",
+  "summary": "18 點版（人手補刊）。來源：lihkg.com/category/1?order=hot 畫面卡＋api_v2/thread 補回覆／淨評分／author_url（約 18:10 HKT）。熱度按淨評分（like−dislike）排序。\n內地：KFC「芝辣人」辱華爭議。香港經濟：公務員退休金／長糧公帑。香港政府官員：消防處處長問責質疑。青年：供30年樓人生Bug。香港時事：李家超宏福苑鞠躬道歉（留言嘲遲）。\n本輪熱門頁未見民青局、教育局、DSE、學額帖；青年以置業焦慮帖入選。官員惹火以宏福苑問責簇為主。五條各有實際回覆數。\n情緒觀察：升＋怒／嘲諷＋大家嬲宏福苑問責「遲道歉／有人避責」同公帑長糧（只見連登；事件經報道，細節未核）",
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-20261029-18-1",
+      "name": "KFC辱華？！新廣告驚現「芝辣人」",
+      "status": "new",
+      "seen": "樓主貼 KFC 新廣告「芝辣人」質疑辱華。留言爭廣告係咪歧視／玩中國元素。回覆 82。熱評方向：唔通叫辣芝人咩 無聊",
+      "replies": 82,
+      "viewpoints": [
+        {
+          "label": "指辱華要封殺",
+          "summary": "留言指廣告「芝辣人」侮辱華人／玩中國元素，要求品牌道歉或下架。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "覺得過敏",
+          "summary": "少數覺得過度敏感、廣告本意搞笑。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "410",
+          "comparison": "回覆 82；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "內地。本頁仍見。KFC廣告「芝辣人」被指辱華",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方原文；只反映連登熱門討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173192/page/1",
+          "platform": "連登",
+          "author": "電車之狼振英",
+          "author_url": "https://lihkg.com/profile/412013",
+          "published_at": null,
+          "observed_at": "2026-10-29T10:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；分數／回覆取自 api_v2/thread。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-20261029-18-2",
+      "name": "公務員退休金完全係英國埋下既最大炸彈，完全係拖死中國香港",
+      "status": "new",
+      "seen": "樓主指公務員退休金係英國留下炸彈拖死香港。留言多數嬲公帑負擔、叫向英國攞。回覆 79。",
+      "replies": 79,
+      "viewpoints": [
+        {
+          "label": "怨長糧拖死公帑",
+          "summary": "留言指公務員退休金／長糧係歷史包袱，應向英國追究或改革。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "反媒體炒作",
+          "summary": "有留言嫌傳媒／受眾過激。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "260",
+          "comparison": "回覆 79；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港經濟。本頁仍見。公務員長糧／退休金公帑負擔",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方原文；只反映連登熱門討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173703/page/1",
+          "platform": "連登",
+          "author": "天呀！幾時開眼",
+          "author_url": "https://lihkg.com/profile/403836",
+          "published_at": null,
+          "observed_at": "2026-10-29T10:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；分數／回覆取自 api_v2/thread。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-20261029-18-3",
+      "name": "消防處處長居然最後武士，明明失職最嚴重嘅係佢",
+      "status": "new",
+      "seen": "樓主質疑消防處處長失職最重卻未問責。留言提「鐘唔響」「防火嗰個乜事都冇」。回覆 57。",
+      "replies": 57,
+      "viewpoints": [
+        {
+          "label": "嬲消防首長冇人責",
+          "summary": "留言指防火／警報失職最重，卻似「最後武士」冇人落台。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "134",
+          "comparison": "回覆 57；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港政府官員。本頁仍見。消防處處長問責質疑",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方原文；只反映連登熱門討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4173886/page/1",
+          "platform": "連登",
+          "author": "大毒梟高可晴",
+          "author_url": "https://lihkg.com/profile/70786",
+          "published_at": null,
+          "observed_at": "2026-10-29T10:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；分數／回覆取自 api_v2/thread。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-20261029-18-4",
+      "name": "供30年樓係人生最大Bug？",
+      "status": "tracking",
+      "seen": "樓主問供30年樓係咪人生最大Bug。留言多數覺得供樓蝕底、公屋／唔買贏。回覆 233。",
+      "replies": 233,
+      "viewpoints": [
+        {
+          "label": "供樓係人生陷阱",
+          "summary": "留言指供30年綁死人生，公屋／唔買先贏。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "置業仍必要",
+          "summary": "少數仍覺置業保值。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "117",
+          "comparison": "回覆 233；分數正代表讚多過踩；上一輪 104。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "青年。本頁仍見。供30年樓人生Bug",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方原文；只反映連登熱門討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4173533/page/1",
+          "platform": "連登",
+          "author": "西晉宣王",
+          "author_url": "https://lihkg.com/profile/468418",
+          "published_at": null,
+          "observed_at": "2026-10-29T10:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；分數／回覆取自 api_v2/thread。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-20261029-18-5",
+      "name": "李家超就宏福苑火災，代表政府向災民及廣大市民鞠躬道歉",
+      "status": "new",
+      "seen": "樓主轉李家超就宏福苑代表政府鞠躬道歉。留言多數嘲遲同無誠意。回覆 57。爭議氣氛圍繞「道歉＝潑火／做戲」。",
+      "replies": 57,
+      "viewpoints": [
+        {
+          "label": "嘲遲來道歉",
+          "summary": "留言嘲「差唔多等成年先道歉」、鞠躬無誠意。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "問責做show",
+          "summary": "留言質疑只道歉換人、無人真正負責。",
+          "share": "留言常見",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-139",
+          "comparison": "回覆 57；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港時事。本頁仍見。李家超宏福苑鞠躬道歉",
+      "verification": {
+        "status": "unverified",
+        "note": "未對官方原文；只反映連登熱門討論。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4173857/page/1",
+          "platform": "連登",
+          "author": "Meropenem",
+          "author_url": "https://lihkg.com/profile/4312",
+          "published_at": null,
+          "observed_at": "2026-10-29T10:10:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；分數／回覆取自 api_v2/thread。"
+        }
+      ],
+      "limits": "不把標題當成事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    }
+  ]
+}
