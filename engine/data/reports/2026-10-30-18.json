@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-30T10:00:00Z",
+    "end": "2026-10-30T11:00:00Z"
+  },
+  "generated_at": "2026-10-30T10:20:00Z",
+  "summary": [
+    "18 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器內 fetch api_v2/thread/hot 取得列表（回覆數 no_of_reply、淨評分 like-dislike），並開帖讀樓主及頭頁留言。",
+    "青年：有讀大學同無讀大學，最大嘅分別係？（淨評分 -24、回覆 61），樓主問邏輯思維差異與搵工，留言多數嘲諷「讀過大學就唔會開post問d咁無聊ge問題」、指樓主自爆。香港政府官員：被問有否考慮請辭，鄧炳強指跟特首指示去做，自己不重要，香港重要、國家重要（-16、回覆 33），留言嘲諷「叫得你走，咪就係我地覺得你對香港對國家都唔撚重要囉」。內地：內地生 小紅書轟香港租樓被欺負「年付租金」如交智商稅，決轉租深圳（+30、回覆 46），留言有指香港租樓智商稅、部分反指大陸人做壞規矩。香港時事：【有圖慎入】上水房署地盤32歲「高級工程師」跣腳　鐵枝插下顎　連人帶鐵枝送院搶救（更新）（+6、回覆 43），留言關注安全裝備、32歲已高級工程師。香港經濟：政府首6個月錄162億盈餘　主要由於發行「銀色債券所得收入」（-5、回覆 49），留言多指借錢當收入、實際蝕。",
+    "本輪熱門頁有青年／教育相關帖（大學分別），優先入選。官員以鄧炳強「自己不重要」言論為主（惹火言論）。五類都有實際回覆數。黃碧嬌帖仍在熱門但本輪未入選五類主帖。",
+    "情緒觀察：跌＋嘲諷／怒＋鄧炳強「自己不重要」被踩、大學帖被嘲問無聊問題、盈餘帖指借錢當收入（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": ["direct curl api Cloudflare blocked, used browser context fetch and page scrape"]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-UNI-DIFF",
+      "name": "有讀大學同無讀大學，最大嘅分別係？",
+      "status": "new",
+      "seen": "樓主問讀大學同無讀最大分別，除英文外邏輯思維有冇具體例子，定純粹搵工容易。淨評分 -24、回覆 61。第 1 頁留言（#3）嘲「讀過大學就唔會開post問d咁無聊ge問題」；（#4）指樓主自爆讀唔到U；（#5）指2026年大學唔係神科出嚟有乜特別。",
+      "replies": 61,
+      "viewpoints": [
+        {
+          "label": "嘲諷樓主問題無聊／自爆",
+          "summary": "留言大多數覺得問題無聊，讀過大學就唔會問，指樓主自爆自己讀唔到，或指大學唔係神科分別有限。",
+          "share": "留言大多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "討論實際分別如搵工或公務員跳點",
+          "summary": "少數指最大分別係公務員繼續跳point，或搵工容易啲，唔使諗太複雜。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-24",
+          "comparison": "回覆 61；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（青年政策、教育、青年問題，大學教育分別）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "討論帖，未核教育統計或就業數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4174316/page/1",
+          "platform": "連登",
+          "author": "Guniqlo",
+          "author_url": "https://lihkg.com/profile/227650",
+          "published_at": null,
+          "observed_at": "2026-10-30T10:20:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -24、回覆 61；author_url 由 API user_id；開帖讀樓主及第 1 頁留言。"
+        }
+      ],
+      "limits": "不把留言對樓主或教育的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-DENG-RESIGN",
+      "name": "被問有否考慮請辭，鄧炳強指跟特首指示去做，自己不重要，香港重要、國家重要",
+      "status": "new",
+      "seen": "保安局局長鄧炳強被問宏福苑後有否考慮請辭，指跟特首指示去做，「自己不重要，香港重要、國家重要」。淨評分 -16、回覆 33。留言嘲諷「叫得你走，咪就係我地覺得你對香港對國家都唔撚重要囉」，有指人工重要、國家安全重要。",
+      "replies": 33,
+      "viewpoints": [
+        {
+          "label": "嘲諷推責任、自己不重要言論",
+          "summary": "留言多數覺得官員無擔當，用「自己不重要」同跟指示比喻推卸，認為如果唔重要就應該走。",
+          "share": "留言大多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "提及國家安全或人工",
+          "summary": "少數強調國家安全最重要，或指人工重要，唔再深挖。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-16",
+          "comparison": "回覆 33；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（鄧炳強惹火言論「自己不重要」）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載新聞，未對官方原文全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4174307/page/1",
+          "platform": "連登",
+          "author": "掃地僧",
+          "author_url": "https://lihkg.com/profile/291865",
+          "published_at": null,
+          "observed_at": "2026-10-30T10:20:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -16、回覆 33；author_url 由 API user_id；開帖讀樓主及第 1 頁留言。爭議句：「跟特首指示去做，自己不重要，香港重要、國家重要」。"
+        }
+      ],
+      "limits": "不把留言對官員的指控當事實。宏福苑相關未核實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-ACCIDENT-ENGINEER",
+      "name": "【有圖慎入】上水房署地盤32歲「高級工程師」跣腳　鐵枝插下顎　連人帶鐵枝送院搶救（更新）",
+      "status": "new",
+      "seen": "上水清曉路房署地盤工業意外，32歲高級工程師巡地盤時跣腳，鐵枝插下顎，連人帶鐵枝送院。淨評分 +6、回覆 43。留言問有冇戴頭盔安全鞋、指地盤佬預咗風險、有人驚訝32歲已高級工程師。",
+      "replies": 43,
+      "viewpoints": [
+        {
+          "label": "關注安全裝備與風險",
+          "summary": "留言問有冇戴頭盔同安全鞋，指地盤出現就要承受風險，部分驚訝後生已高級工程師。",
+          "share": "留言大多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "同情傷者或討論職級",
+          "summary": "少數指毀容、或比較工程師職級年齡，無大反駁。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "6",
+          "comparison": "回覆 43；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事（地盤工業意外）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載新聞，未核官方事故報告細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4174334/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-30T10:20:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 +6、回覆 43；author_url 由 API user_id；開帖讀樓主及第 1 頁留言。"
+        }
+      ],
+      "limits": "不把留言對傷者或安全的推測當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-BUDGET-SURPLUS",
+      "name": "政府首6個月錄162億盈餘　主要由於發行「銀色債券所得收入」",
+      "status": "new",
+      "seen": "財政司公布首6個月錄162億盈餘，主要由於發行銀色債券所得收入，發言人解釋稅收後期收取。淨評分 -5、回覆 49。留言多指「借錢當收入」、計入債券後實際蝕成千億。",
+      "replies": 49,
+      "viewpoints": [
+        {
+          "label": "指借錢當收入、實際虧損",
+          "summary": "留言大多數認為發行債券所得唔係真收入，借錢當盈餘，計入後其實蝕，批評會計手法。",
+          "share": "留言大多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "解釋或淡化",
+          "summary": "少數指按以往模式稅收後期收取，或唔過2頁，無強烈反駁。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-5",
+          "comparison": "回覆 49；分數負代表踩多過讚；上一輪未見。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟（財政盈餘與債券）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載政府數字，未核官方財政報告全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174328/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-30T10:20:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -5、回覆 49；author_url 由 API user_id；開帖讀樓主及第 1 頁留言。"
+        }
+      ],
+      "limits": "不把留言對財政的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-RENT",
+      "name": "內地生 小紅書轟香港租樓被欺負「年付租金」如交智商稅，決轉租深圳",
+      "status": "new",
+      "seen": "內地學生小紅書發文指來港讀書租樓被業主扣按金，覺得年付租金似交智商稅，決定轉租深圳。淨評分 +30、回覆 46。留言有指香港租樓智商稅、大陸進步香港下行，部分反指太多大陸人做壞規矩。",
+      "replies": 46,
+      "viewpoints": [
+        {
+          "label": "認同香港租樓貴／智商稅",
+          "summary": "留言部分同意香港租樓等於智商稅，指大陸進步、香港下行，質疑有冇必要來香港。",
+          "share": "部分",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "反指大陸人做壞規矩或公屋綜援",
+          "summary": "部分反駁指太多大陸人做壞規矩，或指來香港目的係公屋老綜醫療，業主問題。",
+          "share": "部分",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "30",
+          "comparison": "回覆 46；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "內地（內地生租樓體驗）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載小紅書帖，未核當事人身份或租約細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4174198/page/1",
+          "platform": "連登",
+          "author": "老貓再世_",
+          "author_url": "https://lihkg.com/profile/19454",
+          "published_at": null,
+          "observed_at": "2026-10-30T10:20:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 +30、回覆 46；author_url 由 API user_id；開帖讀樓主及第 1 頁留言。"
+        }
+      ],
+      "limits": "不把留言對內地生或租樓的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
