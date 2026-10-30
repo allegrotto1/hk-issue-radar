@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-30T00:00:00Z",
+    "end": "2026-10-30T01:00:00Z"
+  },
+  "generated_at": "2026-10-30T00:25:00Z",
+  "summary": [
+    "08 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準（約 08:15 HKT），列表頁可見淨評分。入選帖打開第 1 頁讀樓主同頭頁留言。API 被 Cloudflare 擋，回覆數以最後一頁 #編號為準。",
+    "青年：小六男童因為玩傳紙仔話老師係「抖奶姐、小奶貓」而被告性騷擾判賠（淨評分 +25、回覆 53），留言多數嘲諷台灣法律以言入罪、老師小氣。香港政府官員：消防處處長居然最後武士（+770、回覆 233），留言繼續嬲防火部門無事。香港經濟：公務員退休金完全係英國埋下既最大炸彈（+673、回覆 138），留言支持取消舊制、問英國拎。內地：香港經濟日報：內地專才 真喺有好多假文件（+64、回覆 34），留言批評假文件普遍。香港時事：覺唔覺宏福苑災民好唔知足？（-200、回覆 173），留言反駁問責不足、批評樓主。",
+    "本輪熱門頁有青年／教育相關帖（小六男童性騷擾判賠），優先入選。官員以宏福苑問責持續（處長「最後武士」）為主。五類都有實際回覆數。",
+    "情緒觀察：升＋怒／嘲諷＋大家繼續嬲宏福苑只得一個人落台、退休金「英國炸彈」、青年帖嘲諷台灣法律（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": ["api_v2/thread/hot blocked by Cloudflare"]
+  },
+  "issues": [
+    {
+      "issue_id": "TW-P6-SEX-HARASS",
+      "name": "小六男童因為玩傳紙仔話老師係「抖奶姐、小奶貓」而被告性騷擾判賠",
+      "status": "new",
+      "seen": "樓主轉台中國小六年級男童上課傳紙條稱音樂老師「抖奶姐、小奶貓」，學校性平會認定性騷擾，老師起訴，法院判家長與男童連帶賠約 5.5 萬台幣。淨評分 +25、回覆 53。第 1 頁留言（#2 +111）「死八婆余老師」；（#4）「痴媽根咁樣以言入罪小氣到，重點係玩傳紙仔本身就唔係想俾老師睇」；（#7）「台灣啲法律真係好撚奇怪，小朋友有刑責不特止，仲要有連坐法」。",
+      "replies": 53,
+      "viewpoints": [
+        {
+          "label": "嘲諷老師小氣同台灣法律",
+          "summary": "留言大多數覺得老師反應過大、以言入罪，批評台灣法律對小朋友有刑責兼連坐家長，認為紙條是同儕間私人傳話。",
+          "share": "留言大多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "指行為確屬貶抑",
+          "summary": "少數按判決書指男童已高年級、曾上性平課，知道用詞有性暗示。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "25",
+          "comparison": "回覆 53；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（教育、青年問題，小六男童性騷擾判賠個案）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載台中法院判決報道，未核判決書原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173927/page/1",
+          "platform": "連登",
+          "author": "irregular",
+          "author_url": "https://lihkg.com/profile/192517",
+          "published_at": null,
+          "observed_at": "2026-10-30T00:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分＝列表頁擁指旁邊數字；回覆數以最後一頁 #53 為準；author_url 由帖文個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對老師或法律嘅指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-WFC-FIRE-CHIEF",
+      "name": "消防處處長居然最後武士，明明失職最嚴重嘅係佢",
+      "status": "tracking",
+      "seen": "樓主指 2025 年 10 月華懋大廈三級大火後續引發宏福苑五級大火，暴露棚網不阻燃、檢測造假；留言指消防裝置熄咗、消防鐘唔響，處長卻無事。淨評分 +770、回覆 233。第 1 頁多讚留言（#3 +508）話「大火燒死百幾人竟然 in charge 防火嗰個就乜事都冇」；（#4）「消防鐘唔響，消防處真係失職最重」。",
+      "replies": 233,
+      "viewpoints": [
+        {
+          "label": "嬲消防處失職最重",
+          "summary": "留言主要嬲嘅係負責防火嘅部門無事，168 人死一年先有人落台，覺得處長係「最後武士」都未夠。",
+          "share": "留言大多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "指管理處責任",
+          "summary": "一部分留言話消防裝置熄咗係管理處責任，但整體仍指向處長。",
+          "share": "一部分",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "770",
+          "comparison": "回覆 233；分數正代表讚多過踩；上一輪 +612，升幅大過 30，列表刷新（帖仍在、留言觀點未變，仍係嬲失職）。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（宏福苑問責、消防處處長）。本頁仍見；熱門頁未見民青局／教育局帖，改用今日最熱官員問責帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "未對獨立調查委員會報告原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173886/page/1",
+          "platform": "連登",
+          "author": "大毒梟高可晴",
+          "author_url": "https://lihkg.com/profile/70786",
+          "published_at": null,
+          "observed_at": "2026-10-30T00:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分＝列表頁擁指旁邊數字；回覆數以最後一頁 #233 為準；author_url 由帖文個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對失職嘅指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門第 1 頁。"
+    },
+    {
+      "issue_id": "HK-CIVIL-PENSION-BOMB",
+      "name": "公務員退休金完全係英國埋下既最大炸彈，完全係拖死中國香港",
+      "status": "tracking",
+      "seen": "樓主指英國殖民地留下公務員退休金係最大炸彈，愛國公務員不應接受，應帶頭取消。淨評分 +673、回覆 138。第 1 頁留言（#5 +255）「歷史文件，叫佢地問英國拎啦」；（#14）解釋長糧一半政府 keep、要交稅、無長生津等。",
+      "replies": 138,
+      "viewpoints": [
+        {
+          "label": "支持取消舊制退休金",
+          "summary": "不少留言同意應取消舊制、問英國拎，或指新制已取消。",
+          "share": "一部分",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "解釋制度細節",
+          "summary": "有留言指出長糧要交稅、一半政府保管、不能領長生津等，反駁「政府出晒」。",
+          "share": "一部分",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "673",
+          "comparison": "回覆 138；分數正代表讚多過踩；上一輪 +546，升幅大過 30，列表刷新（帖仍在、留言觀點未變）。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港經濟（公務員退休金、財政負擔）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "未核退休金制度官方數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4173703/page/1",
+          "platform": "連登",
+          "author": "天呀！幾時開眼",
+          "author_url": "https://lihkg.com/profile/403836",
+          "published_at": null,
+          "observed_at": "2026-10-30T00:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分＝列表頁擁指旁邊數字；回覆數以最後一頁 #138 為準；author_url 由帖文個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對制度嘅指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-TALENT-FAKE",
+      "name": "香港經濟日報：內地專才 真喺有好多假文件",
+      "status": "new",
+      "seen": "樓主轉香港經濟日報報道，內地專才租樓用假僱傭合約、假文件，親戚發現後中止交易。淨評分 +64、回覆 34。第 1 頁留言（#2 +64）「今時今日有專才用真文件先係新聞嚟啦」；（#4）「中國出嘅證明邊有真過」。",
+      "replies": 34,
+      "viewpoints": [
+        {
+          "label": "批評假文件普遍",
+          "summary": "留言多數認為內地人用假文件租樓常見，建議收全年租金，或指「專才用真文件先係新聞」。",
+          "share": "留言大多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "指業主貪心",
+          "summary": "少數留言話冇人叫你租畀大陸人。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "64",
+          "comparison": "回覆 34；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "內地（內地專才在港用假文件）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載香港經濟日報，未核原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174010/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-30T00:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分＝列表頁擁指旁邊數字；回覆數以最後一頁 #34 為準；author_url 由帖文個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對專才嘅指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-WFC-VICTIMS-UNGRATEFUL",
+      "name": "覺唔覺宏福苑災民好唔知足？",
+      "status": "new",
+      "seen": "樓主指特首帶高官鞠躬道歉、房屋局局長落台，有啲嘢追唔返，問災民係咪唔知足。淨評分 -200、回覆 173。第 1 頁留言多數反駁，指問責不足、應有交代，而非只 resign 走人；（#3）用保安例子說明責任。",
+      "replies": 173,
+      "viewpoints": [
+        {
+          "label": "反駁問責不足",
+          "summary": "留言主要批評樓主，認為只鞠躬同一人落台唔夠，需要真正問責同交代，唔係「知足」。",
+          "share": "留言大多數",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "個人攻擊樓主",
+          "summary": "一部分留言直接人身攻擊樓主。",
+          "share": "一部分",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-200",
+          "comparison": "回覆 173；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港時事（宏福苑災民問責）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主觀點，未核官方道歉詳情。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4174111/page/1",
+          "platform": "連登",
+          "author": "sam31611",
+          "author_url": "https://lihkg.com/profile/166230",
+          "published_at": null,
+          "observed_at": "2026-10-30T00:25:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分＝列表頁擁指旁邊數字；回覆數以最後一頁 #173 為準；author_url 由帖文個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對樓主或官員嘅指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ],
+  "clues": [
+    {
+      "name": "大體老師｜內地醫科生標本寫「你好可怜哦 死了骨头还被我玩」 頭骨戴眼鏡引眾怒",
+      "url": "https://lihkg.com/thread/4174027/page/1",
+      "score": "-80",
+      "note": "內地醫學生輕慢大體老師標本，留言批評缺醫德。上一輪 -40。",
+      "evidence_id": "L6"
+    },
+    {
+      "name": "鄧炳強、甯漢豪、孫玉菡為何不用下台？ 李家超：係我個人政治決定",
+      "url": "https://lihkg.com/thread/4173954/page/1",
+      "score": "-207",
+      "note": "李家超稱係個人政治決定，留言爭議。",
+      "evidence_id": "L7"
+    }
+  ]
+}
