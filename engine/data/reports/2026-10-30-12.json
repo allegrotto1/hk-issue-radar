@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-30T04:00:00Z",
+    "end": "2026-10-30T05:00:00Z"
+  },
+  "generated_at": "2026-10-30T04:08:00Z",
+  "summary": [
+    "12 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器讀列表同開帖。API 429 限流，回覆數用最後一頁留言編號，淨評分用列表頁擁指旁邊數字。",
+    "青年：小六男童因為玩傳紙仔話老師係「抖奶姐、小奶貓」而被告性騷擾判賠（淨評分 +64、回覆 79），留言繼續嘲諷台灣法律以言入罪、連坐家長。香港政府官員：消防處處長居然最後武士（-101、回覆 100），留言仍批評防火部門責任最大、問責不足，分數由正轉負。香港經濟：議員倡打擊綜援家庭「不合理高消費」（+66、回覆 100），留言討論濫用同設限難度。內地：香港經濟日報：內地專才 真喺有好多假文件（+258、回覆 50），留言批評假僱傭合約、假文件普遍。香港時事：柬埔寨直連中國香港開始登陸作業（+823、回覆開唔到最後頁），留言聯想到西港園區、電騙。",
+    "本輪熱門頁有青年／教育相關帖（小六男童性騷擾判賠），優先入選。官員以宏福苑問責持續（處長「最後武士」分數大跌）為主。五類都有實際回覆數（柬埔寨最後頁載入不全，標開唔到）。",
+    "情緒觀察：跌＋怒／嘲諷＋處長帖由高讚轉負分、大家繼續嬲問責不足；青年帖嘲諷法律；柬埔寨帖高分但聯想園區（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": ["api_v2 429 rate limited, used browser page scrape and last-page comment numbers"]
+  },
+  "issues": [
+    {
+      "issue_id": "TW-P6-SEX-HARASS",
+      "name": "小六男童因為玩傳紙仔話老師係「抖奶姐、小奶貓」而被告性騷擾判賠",
+      "status": "tracking",
+      "seen": "樓主轉台中國小六年級男童上課傳紙條稱音樂老師「抖奶姐、小奶貓」，學校性平會認定性騷擾，老師起訴，法院判家長與男童連帶賠約 5.5 萬台幣。淨評分 +64、回覆 79。留言繼續嘲諷「台灣啲法律真係好撚奇怪，小朋友有刑責不特止，仲要有連坐法」。",
+      "replies": 79,
+      "viewpoints": [
+        {
+          "label": "嘲諷老師小氣同台灣法律",
+          "summary": "留言大多數覺得老師反應過大、以言入罪，批評台灣法律對小朋友有刑責兼連坐家長，認為紙條是同儕間私人傳話。",
+          "share": "留言大多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "指行為確屬貶抑",
+          "summary": "少數按判決書指男童已高年級、曾上性平課，知道用詞有性暗示。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "64",
+          "comparison": "回覆 79；分數正代表讚多過踩；上一輪 +27，變動細，列表刷新（帖仍在、留言觀點未變）。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（教育、青年問題，小六男童性騷擾判賠個案）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載台中法院判決報道，未核判決書原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4173927/page/1",
+          "platform": "連登",
+          "author": "irregular",
+          "author_url": "https://lihkg.com/profile/192517",
+          "published_at": null,
+          "observed_at": "2026-10-30T04:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分用列表擁指數字；回覆數最後頁 #79；author_url 由頁面個人頁；留言由第 1 頁同最後頁讀。"
+        }
+      ],
+      "limits": "不把留言對老師或法律嘅指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-FIRE-CHIEF-LAST",
+      "name": "消防處處長居然最後武士，明明失職最嚴重嘅係佢",
+      "status": "shift",
+      "seen": "樓主指宏福苑大火暴露棚網不阻燃、檢測造假，消防裝置熄咗好耐冇跟進，處長卻無事。淨評分 -101、回覆 100。第 1 頁留言（#3）「大火燒死百幾人竟然in charge 防火嗰個就乜事都冇，真係好撚嘢」；（#4）「消防鐘唔響，消防處真係失職最重啦」。",
+      "replies": 100,
+      "viewpoints": [
+        {
+          "label": "繼續嬲防火部門無事",
+          "summary": "留言大多數覺得消防處失職最嚴重，裝置唔響、預防責任推卸，問責不足，分數由高讚轉負。",
+          "share": "留言大多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "指責任在管理處或其他",
+          "summary": "少數指前面 ICU 職責或法團問題，消防只負責救火。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-101",
+          "comparison": "回覆 100；分數負代表踩多過讚；上一輪 +792，變動大過 30，留言轉向（觀點由讚變踩）。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（消防處處長問責，宏福苑相關惹火持續）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "宏福苑問責討論，事件經報道，未核細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4173886/page/1",
+          "platform": "連登",
+          "author": "大毒梟高可晴",
+          "author_url": "https://lihkg.com/profile/70786",
+          "published_at": null,
+          "observed_at": "2026-10-30T04:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分用列表擁指數字 -101；回覆數最後頁 #100；author_url 由頁面個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對部門或官員嘅指控當事實。",
+      "next_steps": "下一輪再睇分數有冇再變。"
+    },
+    {
+      "issue_id": "HK-CSSA-HIGH-SPEND",
+      "name": "議員倡打擊綜援家庭「不合理高消費」",
+      "status": "new",
+      "seen": "樓主轉立法會質詢，選委界樓家強問有無機制打擊綜援家庭不合理高消費，孫玉菡指生活模式不同難設限，鼓勵舉報。淨評分 +66、回覆 100。留言討論濫用個案同內地低保比較。",
+      "replies": 100,
+      "viewpoints": [
+        {
+          "label": "支持打擊高消費濫用",
+          "summary": "留言多數認為綜援不應有高消費旅行等，應有機制監察。",
+          "share": "留言多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "指難設一刀切標準",
+          "summary": "少數同意局長說法，各家庭情況不同，難劃一。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "66",
+          "comparison": "回覆 100；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港經濟（綜援政策、福利開支）。本頁見，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載立法會質詢報道，未核全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4173541/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-30T04:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分用列表擁指數字；回覆數最後頁 #100；author_url 由頁面個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把個別個案當普遍現象。",
+      "next_steps": "下一輪再睇仲在唔在熱門。"
+    },
+    {
+      "issue_id": "ML-TALENT-FAKE-DOCS",
+      "name": "香港經濟日報：內地專才 真喺有好多假文件",
+      "status": "tracking",
+      "seen": "樓主轉經濟日報，指內地專才租樓用假僱傭合約、空殼公司、假文件，有人月入聲稱高但戶口餘額低。淨評分 +258、回覆 50。留言批評假文件普遍，建議收全年租。",
+      "replies": 50,
+      "viewpoints": [
+        {
+          "label": "批評假文件普遍",
+          "summary": "留言大多數指不少內地專才用假資料租樓，包括基層工作、假合約，覺得離譜。",
+          "share": "留言大多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "指個別事件",
+          "summary": "少數認為不是全部，或經紀也有責任。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "258",
+          "comparison": "回覆 50；分數正代表讚多過踩；上一輪 +87，變動大過 30，列表刷新（帖仍在、留言觀點未變）。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "內地（內地專才來港、假文件問題）。本頁仍見，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載經濟日報報道，未核原文細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174010/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-10-30T04:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分用列表擁指數字；回覆數最後頁 #50；author_url 由頁面個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把個別例子當所有專才。",
+      "next_steps": "下一輪再睇分數同帖是否仍在。"
+    },
+    {
+      "issue_id": "HK-CAMBODIA-CABLE",
+      "name": "柬埔寨直連中國香港開始登陸作業！！！",
+      "status": "new",
+      "seen": "樓主轉中國媒體，西哈努克港至香港海底光纜登陸站動工，預計 2027 完工，頻寬 80Tbps。淨評分 +823、回覆開唔到最後頁。留言聯想到西港園區、賣豬仔、電騙大本營。",
+      "replies": null,
+      "viewpoints": [
+        {
+          "label": "聯想到電騙園區",
+          "summary": "留言多數指西港是園區、賣豬仔、電騙大本營，對直連有保留。",
+          "share": "留言多數",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "視作基建合作",
+          "summary": "少數認為是一帶一路數碼基建，對經濟發展有意義。",
+          "share": "少數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "823",
+          "comparison": "回覆開唔到最後頁（頁面載入不全）；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港時事（國際基建、中柬香港連接）。本頁見高分，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載中國媒體報道，未核項目詳情；不放大相關號召。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4173965/page/1",
+          "platform": "連登",
+          "author": "陰乳(G)String",
+          "author_url": "https://lihkg.com/profile/7076",
+          "published_at": null,
+          "observed_at": "2026-10-30T04:08:00Z",
+          "read_level": "opened",
+          "note": "熱門排序頁對上該標題；淨評分用列表擁指數字 823；回覆數最後頁載入失敗標 null；author_url 由頁面個人頁；留言由第 1 頁讀。"
+        }
+      ],
+      "limits": "不把留言對園區嘅指控當全部事實。",
+      "next_steps": "下一輪再睇仲在唔在熱門。"
+    }
+  ]
+}
