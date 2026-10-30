@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-30T16:00:00Z",
+    "end": "2026-10-31T00:00:00Z"
+  },
+  "generated_at": "2026-10-30T16:13:00Z",
+  "summary": [
+    "00 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器 scrape 列表取得淨評分（擁指旁邊數字），並開帖讀樓主及留言。API 限流 429。",
+    "青年：有讀大學同無讀大學，最大嘅分別係？（淨評分 134、回覆 150），樓主問邏輯思維差異與搵工，留言多數嘲諷問題無聊。香港政府官員：鄧炳強：我想再警告企圖從事圍標嘅人已再無機會，我哋一定會將你揪出嚟，將你拘捕、將你檢控。（-108），留言質疑空談或執法。內地：元朗警區掃黃拘23內地女 最細19歲（+372），留言關注跨境賣淫。香港時事：上水房署地盤32歲「高級工程師」跣腳　鐵枝插下顎（-136），留言質疑安全。香港經濟：又派錢 intel 盤後大跌23% 低見70$（-16），留言指過熱炒作。",
+    "本輪熱門頁有青年／教育帖（大學分別），優先入選。官員以鄧炳強圍標警告為主（惹火言論，分數由正轉負）。五類都有。",
+    "情緒觀察：跌＋嘲諷／質疑＋大學帖分數大升但仍嘲諷、官員帖由正轉大負、掃黃持續正分（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": ["api_v2 429 rate limit, used page scrape and thread open"]
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-UNI-DIFF",
+      "name": "有讀大學同無讀大學，最大嘅分別係？",
+      "status": "tracking",
+      "seen": "樓主問讀大學同無讀最大分別，除英文外邏輯思維有冇具體例子，定純粹搵工容易。淨評分 134、回覆 150。留言嘲諷「讀過大學就唔會開post問d咁無聊ge問題」，有指神科與工作選擇分別。",
+      "replies": 150,
+      "viewpoints": [
+        {
+          "label": "嘲諷樓主問題無聊／自爆",
+          "summary": "留言多數覺得問題無聊，讀過大學就唔會問，指樓主自爆或大學分別有限。",
+          "share": "留言大多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "討論實際分別如搵工或神科",
+          "summary": "部分指最大分別係工作選擇自由度、神科經驗或公務員跳點。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "134",
+          "comparison": "回覆 150；分數正代表讚多過踩；上一輪 4，列表刷新分數大升但觀點仍以嘲諷為主。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（青年政策、教育、青年問題，大學教育分別）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "討論大學教育價值，未核具體就業數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4174316/page/1",
+          "platform": "連登",
+          "author": "Guniqlo",
+          "author_url": "https://lihkg.com/profile/227650",
+          "published_at": null,
+          "observed_at": "2026-10-30T16:13:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 134、回覆 150（最後一頁 #150）；author_url 由頁面個人頁；開帖讀樓主及留言。"
+        }
+      ],
+      "limits": "不把留言對教育或樓主的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-TANG-WARNING",
+      "name": "鄧炳強：我想再警告企圖從事圍標嘅人已再無機會，我哋一定會將你揪出嚟，將你拘捕、將你檢控。",
+      "status": "shift",
+      "seen": "保安局局長鄧炳強警告企圖從事圍標嘅人已再無機會，一定揪出拘捕檢控。淨評分 -108。留言對硬line警告有支持有質疑空談，有人問「幾時釘死黃碧嬌？唔好選擇性執法。」",
+      "replies": null,
+      "viewpoints": [
+        {
+          "label": "質疑空談或選擇性執法",
+          "summary": "部分留言指官員話講得多、實際行動待觀察，或嘲諷，有提其他事件。",
+          "share": "留言多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "支持硬line打擊圍標",
+          "summary": "部分留言認同警告，認為應嚴厲執法。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-108",
+          "comparison": "分數負代表踩多過讚；上一輪 27，列表刷新分數由正轉大負，觀點轉向質疑。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（保安局局長鄧炳強圍標警告，惹火言論）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "官員公開警告，事件經報道，未核執法細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4174382/page/1",
+          "platform": "連登",
+          "author": "睇戲嘈死全家",
+          "author_url": "https://lihkg.com/profile/727113",
+          "published_at": null,
+          "observed_at": "2026-10-30T16:13:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -108；author_url 由頁面個人頁；開帖讀樓主及留言。回覆數開唔到最後頁 #。"
+        }
+      ],
+      "limits": "不把留言對官員的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-SEXWORK",
+      "name": "（圖）元朗警區掃黃拘23內地女 最細19歲",
+      "status": "tracking",
+      "seen": "元朗警區特別職務隊聯同相關部門展開打擊非法賣淫活動，拘捕23名內地女子，年齡介乎19至49歲，涉嫌違反逗留條件。淨評分 372。留言關注跨境賣淫與執法，有嘲諷或問點解次次搵到。",
+      "replies": null,
+      "viewpoints": [
+        {
+          "label": "關注跨境賣淫與執法",
+          "summary": "留言討論行動、內地女來港賣淫問題及執法力度。",
+          "share": "留言多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "嘲諷或輕浮回應",
+          "summary": "部分留言輕浮或問點解次次搵到妹豬。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "372",
+          "comparison": "分數正代表讚多過踩；上一輪 70，列表刷新分數大升。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "內地（元朗掃黃拘內地女，跨境賣淫）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "警方行動，事件經報道，未核細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4174282/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-30T16:13:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 372；author_url 由頁面個人頁；開帖讀樓主及留言。回覆數開唔到最後頁 #。"
+        }
+      ],
+      "limits": "不把留言對事件的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-CONSTRUCTION-ACCIDENT",
+      "name": "【有圖慎入】上水房署地盤32歲「高級工程師」跣腳　鐵枝插下顎　連人帶鐵枝送院搶救（更新）",
+      "status": "tracking",
+      "seen": "上水清曉路一個地盤發生工業意外，32歲高級工程師跣腳遭鐵枝插傷下顎，連人帶鐵枝送院。淨評分 -136。留言質疑安全裝備及「高級」職銜。",
+      "replies": null,
+      "viewpoints": [
+        {
+          "label": "質疑安全與職銜",
+          "summary": "留言質疑地盤安全、工程師職銜是否匹配，或嘲諷。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "關注意外細節",
+          "summary": "部分關注傷者情況及後續。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-136",
+          "comparison": "分數負代表踩多過讚；上一輪 -124，列表刷新分數相近，觀點未變。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港時事（地盤工業意外）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "工業意外，事件經報道，未核細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174334/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-30T16:13:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -136；author_url 由頁面個人頁；開帖讀樓主及留言。回覆數開唔到最後頁 #。"
+        }
+      ],
+      "limits": "不把留言對事件的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-INTEL-DROP",
+      "name": "又派錢 intel 盤後大跌23% 低見70$",
+      "status": "tracking",
+      "seen": "Intel 盤後大跌23% 低見70$，留言指過熱炒作、韭菜與指引悲觀。淨評分 -16。",
+      "replies": null,
+      "viewpoints": [
+        {
+          "label": "指過熱炒作與韭菜",
+          "summary": "留言認為之前炒作過熱，現在下跌是合理，或嘲諷追高者。",
+          "share": "留言多數",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "討論指引與基本面",
+          "summary": "部分討論公司指引悲觀或長期影響。",
+          "share": "少數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-16",
+          "comparison": "分數負代表踩多過讚；上一輪 2，列表刷新分數轉負。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港經濟（Intel 股價大跌，派錢討論）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "股價變動，事件經報道，未核細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4174137/page/1",
+          "platform": "連登",
+          "author": "東升西降",
+          "author_url": "https://lihkg.com/profile/700221",
+          "published_at": null,
+          "observed_at": "2026-10-30T16:13:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -16；author_url 由頁面個人頁；開帖讀樓主及留言。回覆數開唔到最後頁 #。"
+        }
+      ],
+      "limits": "不把留言對股價的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
