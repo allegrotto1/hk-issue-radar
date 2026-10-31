@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-31T04:00:00Z",
+    "end": "2026-10-31T12:00:00Z"
+  },
+  "generated_at": "2026-10-31T04:05:00Z",
+  "summary": [
+    "12 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器 extract 列表，用 api_v2/thread/hot 取得淨評分及回覆數（桌面 UA 成功）。開帖讀內文及留言觀點。",
+    "青年：有讀大學同無讀大學，最大嘅分別係？（淨評分 -147、回覆 187），樓主問邏輯思維差異，留言持續嘲諷問題無聊。香港政府官員：甯漢豪：要依從「船長」指示（-72、回覆 60），比喻船員依從船長（行政長官），留言質疑。香港時事：借問聲點解大埔消防局可以完全冇事？（+244、回覆 118），討論宏福苑相關投訴未轉介。香港經濟：領展擬23億元蝕讓旺角商場T.O.P 八年前59億買入（+36、回覆 81）。內地：（圖）元朗警區掃黃拘23內地女 最細19歲（+50、回覆 96）。",
+    "本輪熱門頁有青年／教育帖（大學分別），優先入選。官員以甯漢豪船長指示為主（惹火言論）。五類齊全。",
+    "情緒觀察：跌＋質疑／嘲諷＋官員船長比喻負分加深、大學帖持續負分嘲諷、消防局帖高正分討論失職（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-UNI-DIFF",
+      "name": "有讀大學同無讀大學，最大嘅分別係？",
+      "status": "tracking",
+      "seen": "樓主問成日話讀過大學諗嘢邏輯思維會唔同啲，有冇具體例子。淨評分 -147、回覆 187。留言多數嘲諷問題無聊或自爆讀唔到大學，部分討論公務員跳點。",
+      "replies": 187,
+      "viewpoints": [
+        {
+          "label": "嘲諷樓主問題無聊／自爆",
+          "summary": "留言多數覺得問題無聊，讀過大學就唔會問，指樓主自爆或大學分別有限。",
+          "share": "留言大多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "討論實際分別",
+          "summary": "部分指最大分別係公務員跳point、專業知識或搵工容易。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-147",
+          "comparison": "回覆 187；分數負代表踩多過讚；上一輪 -139，列表刷新分數略加深（變動 <30），觀點持續嘲諷。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（青年政策、教育、青年問題，大學教育分別）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "討論大學教育價值，未核具體就業數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4174316/page/1",
+          "platform": "連登",
+          "author": "Guniqlo",
+          "author_url": "https://lihkg.com/profile/227650",
+          "published_at": null,
+          "observed_at": "2026-10-31T04:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -147、回覆 187（API no_of_reply）；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對教育或樓主的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-NING-CAPTAIN",
+      "name": "甯漢豪：要依從「船長」指示",
+      "status": "tracking",
+      "seen": "發展局局長甯漢豪於跟進宏福苑火災措施記者會，被問會否因火災請辭；她表示曾有考慮，但以船員比喻，要依從「船長」（行政長官）指示。淨評分 -72、回覆 60。留言質疑船長是誰、嘲諷交波。",
+      "replies": 60,
+      "viewpoints": [
+        {
+          "label": "質疑依從船長／嘲諷",
+          "summary": "留言質疑官員為何要依從船長指示，嘲諷「全世界交波比鳩超」、同其他官員一樣。",
+          "share": "留言多數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-72",
+          "comparison": "回覆 60；分數負代表踩多過讚；上一輪 -30，變動 >30，列表刷新（帖仍在、留言觀點仍質疑未明顯轉向）。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（甯漢豪「船長」指示，惹火言論）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "官員公開言論，未核完整語境。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4174516/page/1",
+          "platform": "連登",
+          "author": "Awesome",
+          "author_url": "https://lihkg.com/profile/401345",
+          "published_at": null,
+          "observed_at": "2026-10-31T04:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -72、回覆 60（API no_of_reply）；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對官員的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-FIRE-TAIPO",
+      "name": "借問聲點解大埔消防局可以完全冇事？",
+      "status": "new",
+      "seen": "討論宏福苑大火前多次投訴工程物料、工人吸煙等，消防處未將投訴轉介合適部門。展示2024年電郵投訴發泡膠易燃。淨評分 +244、回覆 118。留言批評失職、升職冇分別。",
+      "replies": 118,
+      "viewpoints": [
+        {
+          "label": "批評消防未轉介／失職",
+          "summary": "留言指消防列為查詢而非投訴，未協助轉介屋宇署等，嘲諷有事移民退休。",
+          "share": "留言多數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "244",
+          "comparison": "回覆 118；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事（大埔消防局處理宏福苑相關投訴）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "涉及宏福苑火災相關聽證會，只見連登討論，未核官方記錄。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4174092/page/1",
+          "platform": "連登",
+          "author": "Denji",
+          "author_url": "https://lihkg.com/profile/518524",
+          "published_at": null,
+          "observed_at": "2026-10-31T04:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 244、回覆 118（API no_of_reply）；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對消防處的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-LINK-TOP",
+      "name": "領展擬23億元蝕讓旺角商場T.O.P 八年前59億買入",
+      "status": "tracking",
+      "seen": "領展宣布以約23億元出售旺角T.O.P商場全部權益，八年前以59.1億買入前工業貿易署大樓翻新。淨評分 +36、回覆 81。留言批評前CEO deal差、業務循環。",
+      "replies": 81,
+      "viewpoints": [
+        {
+          "label": "批評收購／蝕讓",
+          "summary": "留言指前CEO做差deal後走人，賣完又可能買樓擴充。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "36",
+          "comparison": "回覆 81；分數正代表讚多過踩；上一輪 +19，列表刷新分數略升（變動 <30），觀點持續批評。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟（領展出售商場）。本頁仍見，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "商業交易公告，未核詳細財務。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174444/page/1",
+          "platform": "連登",
+          "author": "人生可否重來",
+          "author_url": "https://lihkg.com/profile/41818",
+          "published_at": null,
+          "observed_at": "2026-10-31T04:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 36、回覆 81（API no_of_reply）；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對領展的批評當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-YL-SEX",
+      "name": "（圖）元朗警區掃黃拘23內地女 最細19歲",
+      "status": "new",
+      "seen": "元朗警區聯同部門打擊非法賣淫，拘捕23名內地女子，年齡19至49歲，涉嫌違反逗留條件。淨評分 +50、回覆 96。留言多為看圖玩笑。",
+      "replies": 96,
+      "viewpoints": [
+        {
+          "label": "看圖玩笑／討論年齡",
+          "summary": "留言多聚焦照片、年齡、玩笑稱呼。",
+          "share": "留言多數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "50",
+          "comparison": "回覆 96；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "內地（元朗掃黃拘內地女）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "警方行動報道，未核詳細個案。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4174282/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-10-31T04:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 50、回覆 96（API no_of_reply）；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對被捕人的描述當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
