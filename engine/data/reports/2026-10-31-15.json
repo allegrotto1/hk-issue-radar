@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-31T04:00:00Z",
+    "end": "2026-10-31T07:00:00Z"
+  },
+  "generated_at": "2026-10-31T07:10:00Z",
+  "summary": [
+    "15 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器 extract 列表，開帖讀內文及最後一頁留言編號作回覆數（API 429 限流）。",
+    "青年：香港真實失業率有幾高?用數據解析青年失業現狀（淨評分 73、回覆 161），樓主指官方 3.9% 低估青年失業高達 14.6%。香港政府官員：田北辰：鄧炳強三人就算留任，都應要「餘下任期免費為港服務」，以體現問責（+121、回覆 47），建議捐薪問責。香港時事：黃偉綸：政府明年立法，收回宏福苑餘下13戶業權。（-38、回覆 88），討論立法可能性高。香港經濟：領展擬23億元蝕讓旺角商場T.O.P 八年前59億買入（+45、回覆 88）。內地：有無人覺得內地越來越好（-107、回覆 133），樓主指餐廳景點交通民生改善，留言反駁。",
+    "本輪熱門頁有青年失業數據帖，優先入選。官員以田北辰惹火言論（免費為港服務）為主。五類齊全。宏福苑相關帖標未核實。",
+    "情緒觀察：平＋質疑／討論＋官員問責建議正分、青年失業帖正分討論數據、內地改善帖負分反駁（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-UNEMPLOY",
+      "name": "香港真實失業率有幾高?用數據解析青年失業現狀",
+      "status": "new",
+      "seen": "樓主分享影片及分析，指香港官方失業率約 3.9%，但青年（20-24歲）高達 14.6%，因兼職等計法低估，AI 及外來人才加劇競爭。淨評分 73、回覆 161。留言討論統計定義、警戒線及移民比較。",
+      "replies": 161,
+      "viewpoints": [
+        {
+          "label": "討論統計方法及青年問題",
+          "summary": "部分指出失業與就業不足分別，或質疑 4% 警戒線，樓主強調數字唔準。",
+          "share": "留言多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "比較其他地方",
+          "summary": "有留言問香港人移民地方的失業率。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "73",
+          "comparison": "回覆 161；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（青年政策、教育、青年問題，青年失業現狀）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "討論官方失業率數據及青年就業，未核最新統計。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4174105/page/1",
+          "platform": "連登",
+          "author": "結網主義教主",
+          "author_url": "https://lihkg.com/profile/86509",
+          "published_at": null,
+          "observed_at": "2026-10-31T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 73；回覆數由最後一頁 #161；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把留言對統計或政府的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-TIN-FREE-SERVICE",
+      "name": "田北辰：鄧炳強三人就算留任，都應要「餘下任期免費為港服務」，以體現問責",
+      "status": "new",
+      "seen": "實政圓桌田北辰稱，宏福苑火災涉事較輕的局長可留任，但應「餘下任期免費為香港服務」體現問責，而非只稱留任改革。淨評分 121、回覆 47。留言有指倒貼都唔想見到，或應追回薪酬。",
+      "replies": 47,
+      "viewpoints": [
+        {
+          "label": "支持加強問責",
+          "summary": "部分留言認為應追回火災後薪酬，或同意免費服務建議。",
+          "share": "留言部分",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "質疑或玩笑",
+          "summary": "有指倒貼都唔想見到局長，或覺得搶口。",
+          "share": "留言部分",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "121",
+          "comparison": "回覆 47；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（議員田北辰惹火言論，建議官員免費為港服務問責）。本頁熱門，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "議員言論及宏福苑問責討論，未核詳細。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4174582/page/1",
+          "platform": "連登",
+          "author": "一晚長大",
+          "author_url": "https://lihkg.com/profile/33869",
+          "published_at": null,
+          "observed_at": "2026-10-31T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 121；回覆數由最後一頁 #47；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把留言對官員的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-WONG-LEGISLATION",
+      "name": "黃偉綸：政府明年立法，收回宏福苑餘下13戶業權。",
+      "status": "new",
+      "seen": "財政司副司長兼署理房屋局局長黃偉綸稱，宏福苑近九成半業主已簽署，13戶不接受，立法收回可能性很高，預計明年進行。淨評分 -38、回覆 88。留言有指當日唔賣下年冇屋，或建議用國安法。",
+      "replies": 88,
+      "viewpoints": [
+        {
+          "label": "討論立法必要性",
+          "summary": "部分指唔賣就輸多，或建議更強硬手段。",
+          "share": "留言多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "質疑時機",
+          "summary": "樓主置頂指銀行唔要可能係鬥氣。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-38",
+          "comparison": "回覆 88；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事（宏福苑業權收回立法）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "官員言論及宏福苑事件，未核詳細進度。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4174585/page/1",
+          "platform": "連登",
+          "author": "建興昆水豪",
+          "author_url": "https://lihkg.com/profile/245856",
+          "published_at": null,
+          "observed_at": "2026-10-31T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -38；回覆數由最後一頁 #88；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把留言對業主或政府的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-LINK-TOP",
+      "name": "領展擬23億元蝕讓旺角商場T.O.P 八年前59億買入",
+      "status": "tracking",
+      "seen": "領展宣布以約23億元出售旺角T.O.P商場全部權益，八年前以59.1億買入前工業貿易署大樓翻新。淨評分 45、回覆 88。留言批評前CEO deal差、賣完又可能買樓。",
+      "replies": 88,
+      "viewpoints": [
+        {
+          "label": "批評收購／蝕讓",
+          "summary": "留言指前CEO做差deal後走人，賣完又可能買樓擴充，或討論安達臣。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "45",
+          "comparison": "回覆 88；分數正代表讚多過踩；上一輪 +36，列表刷新分數略升（變動 <30），觀點持續批評。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟（領展出售商場）。本頁仍見，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "商業交易公告，未核詳細財務。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174444/page/1",
+          "platform": "連登",
+          "author": "人生可否重來",
+          "author_url": "https://lihkg.com/profile/41818",
+          "published_at": null,
+          "observed_at": "2026-10-31T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 45；回覆數由最後一頁 #88；author_url 沿用上一輪。"
+        }
+      ],
+      "limits": "不把留言對領展的批評當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-BETTER",
+      "name": "有無人覺得內地越來越好",
+      "status": "new",
+      "seen": "樓主指無論餐廳、景點、交通、民生，內地已經做得越來越好。淨評分 -107、回覆 133。留言有同意周邊改善但人民質素差，或指比較冇意思。",
+      "replies": 133,
+      "viewpoints": [
+        {
+          "label": "反駁或 nuanced",
+          "summary": "部分指國家強唔代表人民強，深圳外賣仔多，或去台灣比較質素。",
+          "share": "留言多數",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "部分同意",
+          "summary": "有指周邊環境係改善，或人類每日改善。",
+          "share": "少數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-107",
+          "comparison": "回覆 133；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "內地（討論內地改善）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "主觀討論內地發展，未核具體數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4174587/page/1",
+          "platform": "連登",
+          "author": "圖片連結",
+          "author_url": "https://lihkg.com/profile/773873",
+          "published_at": null,
+          "observed_at": "2026-10-31T07:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -107；回覆數由最後一頁 #133；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把留言對內地的描述當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
