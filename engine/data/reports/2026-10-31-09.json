@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-31T01:00:00Z",
+    "end": "2026-10-31T09:00:00Z"
+  },
+  "generated_at": "2026-10-31T01:10:00Z",
+  "summary": [
+    "09 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器 extract 列表，部分用 api_v2/thread 取得淨評分及回覆數（桌面 UA）。開帖讀內文部分受限。",
+    "青年：有讀大學同無讀大學，最大嘅分別係？（淨評分 -139、回覆 179），樓主問邏輯思維差異，留言持續嘲諷。香港政府官員：甯漢豪：要依從「船長」指示（-30、回覆 33），新帖，留言質疑依從船長。香港時事：宏福苑圍標時, 羅淑佩時任房屋署署長（+321、回覆 93），討論前官員責任。香港經濟：領展擬23億元蝕讓旺角商場T.O.P 八年前59億買入（+19、回覆 58）。內地：本輪熱門頁未見明顯內地專題帖。",
+    "本輪熱門頁有青年／教育帖（大學分別），優先入選。官員以甯漢豪船長指示為主（惹火言論）。五類中內地本輪未見。",
+    "情緒觀察：平＋嘲諷／質疑＋大學帖負分持續嘲諷、官員新帖負分質疑指示、宏福苑高正分討論責任（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-UNI-DIFF",
+      "name": "有讀大學同無讀大學，最大嘅分別係？",
+      "status": "tracking",
+      "seen": "樓主問成日話讀過大學諗嘢邏輯思維會唔同啲，有冇具體例子。淨評分 -139、回覆 179。留言多數嘲諷問題無聊或自爆，部分討論實際分別如跳點。開帖讀內文部分受限。",
+      "replies": 179,
+      "viewpoints": [
+        {
+          "label": "嘲諷樓主問題無聊／自爆",
+          "summary": "留言多數覺得問題無聊，讀過大學就唔會問，指樓主自爆或大學分別有限。",
+          "share": "留言大多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "討論實際分別",
+          "summary": "部分指最大分別係公務員跳point、專業知識或能力。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-139",
+          "comparison": "回覆 179；分數負代表踩多過讚；上一輪 -133，列表刷新分數略加深（變動 <30），觀點持續嘲諷。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（青年政策、教育、青年問題，大學教育分別）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "討論大學教育價值，未核具體就業數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4174316/page/1",
+          "platform": "連登",
+          "author": "Guniqlo",
+          "author_url": "https://lihkg.com/profile/227650",
+          "published_at": null,
+          "observed_at": "2026-10-31T01:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -139、回覆 179（API no_of_reply）；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對教育或樓主的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-NING-CAPTAIN",
+      "name": "甯漢豪：要依從「船長」指示",
+      "status": "new",
+      "seen": "甯漢豪表示要依從「船長」指示。淨評分 -30、回覆 33。留言質疑點解要依從船長、邊個船長。開帖讀內文受限。",
+      "replies": 33,
+      "viewpoints": [
+        {
+          "label": "質疑依從船長",
+          "summary": "留言質疑官員為何要依從船長指示，嘲諷或問船長是誰。",
+          "share": "留言多數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-30",
+          "comparison": "回覆 33；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（甯漢豪「船長」指示，惹火言論）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "官員公開言論，未核完整語境。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4174516/page/1",
+          "platform": "連登",
+          "author": "Awesome",
+          "author_url": "https://lihkg.com/profile/401345",
+          "published_at": null,
+          "observed_at": "2026-10-31T01:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -30、回覆 33（API）；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對官員的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-WANG-FUK-LO",
+      "name": "宏福苑圍標時, 羅淑佩時任房屋署署長",
+      "status": "new",
+      "seen": "討論宏福苑圍標時羅淑佩時任房屋署署長。淨評分 +321、回覆 93。留言討論前官員責任。標未核實。",
+      "replies": 93,
+      "viewpoints": [
+        {
+          "label": "討論前官員責任",
+          "summary": "留言討論圍標時相關官員責任，部分追問問責。",
+          "share": "留言多數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "321",
+          "comparison": "回覆 93；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事（宏福苑圍標相關，前房屋署署長）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "宏福苑事件相關，標未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4174255/page/1",
+          "platform": "連登",
+          "author": "6.16HK",
+          "author_url": "https://lihkg.com/profile/268271",
+          "published_at": null,
+          "observed_at": "2026-10-31T01:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 +321、回覆 93（API）；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對官員的指控當事實。不放大未核實內容。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-LINK-TOP",
+      "name": "領展擬23億元蝕讓旺角商場T.O.P 八年前59億買入",
+      "status": "tracking",
+      "seen": "領展擬23億元蝕讓旺角商場T.O.P，八年前59億買入。淨評分 +19、回覆 58。留言討論蝕讓原因或地產市場。",
+      "replies": 58,
+      "viewpoints": [
+        {
+          "label": "討論蝕讓與市場",
+          "summary": "留言討論領展蝕讓商場的原因，部分指市場情況或管理問題。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "19",
+          "comparison": "回覆 58；分數正代表讚多過踩；上一輪 +15，列表刷新分數略升。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟（領展商場交易）。本頁仍見。",
+      "verification": {
+        "status": "unverified",
+        "note": "商業交易報道，未核財務細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174444/page/1",
+          "platform": "連登",
+          "author": "人生可否重來",
+          "author_url": "https://lihkg.com/profile/41818",
+          "published_at": null,
+          "observed_at": "2026-10-31T01:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 +19、回覆 58（API）；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對公司的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
