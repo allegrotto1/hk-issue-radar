@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-10-31T10:00:00Z",
+    "end": "2026-10-31T13:00:00Z"
+  },
+  "generated_at": "2026-10-31T13:27:00Z",
+  "summary": [
+    "21 點版。以熱門頁 https://lihkg.com/category/1?order=hot 及 api_v2/thread/hot 為準，瀏覽器 fetch API 取得列表及內文。",
+    "青年：小學課程框架：小二生要學拼音輸入法打字。委員解釋：速成拆字太難，學生「普教中」下已懂拼音（淨評分 -180、回覆 125），樓主引委員指拼音較易，留言多批評拼音慢或笑普教中。香港時事：警方：蘭桂坊一帶已非常擠迫 呼籲市民轉到其他地方慶祝萬聖節（-13、回覆 82），討論人流及大陸人，留言多吐槽擠迫或無意義。香港經濟：供30年樓係人生最大Bug？（+149、回覆 363），樓主感嘆30年風險，留言多比較公屋優勢。內地：有無人覺得內地越來越好（-291、回覆 263），樓主指改善，留言反駁質素或建議唔好返。",
+    "本輪熱門頁有小學拼音課程框架帖，優先入選青年／教育。香港政府官員：本輪熱門頁未見明顯官員／惹火言論帖。五類中官員類不見。宏福苑相關未見本頁。",
+    "情緒觀察：跌＋質疑／反駁＋青年教育帖大幅負分批評拼音、內地改善帖大幅負分反駁（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-PINYIN",
+      "name": "小學課程框架：小二生要學拼音輸入法打字。委員解釋：速成拆字太難，學生「普教中」下已懂拼音",
+      "status": "tracking",
+      "seen": "樓主引述課程發展議會委員李安迪解釋，小學資訊與創新科技課程框架規定小二生應能用漢語拼音輸入法打字，因字量有限拆字難，普教中下學生已懂拼音較易上手。淨評分 -180、回覆 125。留言多笑拼音慢過語音、或批評普教中殘體。",
+      "replies": 125,
+      "viewpoints": [
+        {
+          "label": "批評拼音輸入法",
+          "summary": "留言指語音更快、拼音慢、或笑呢一代廢物用語音，或直接講繁體難用殘體。",
+          "share": "留言多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "討論輸入法比較",
+          "summary": "有指拼音可成句打，速成要逐隻揀，或以前笑手寫板。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-180",
+          "comparison": "回覆 125；分數負代表踩多過讚；上一輪 -68，變動大過 30，列表刷新（帖仍在、留言觀點未變，仍多批評拼音／普教中）。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（青年政策、教育、青年問題，小學課程框架及普教中）。本頁仍見，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "討論課程框架及委員解釋，未核正式文件。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4174635/page/1",
+          "platform": "連登",
+          "author": "一晚長大",
+          "author_url": "https://lihkg.com/profile/33869",
+          "published_at": null,
+          "observed_at": "2026-10-31T13:27:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -180；回覆數 API no_of_reply 125；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對課程或普教中的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-LANKWAI-HALLOWEEN",
+      "name": "警方：蘭桂坊一帶已非常擠迫 呼籲市民轉到其他地方慶祝萬聖節",
+      "status": "new",
+      "seen": "樓主轉載警方指蘭桂坊一帶已非常擠迫，呼籲市民轉到其他地方慶祝萬聖節。淨評分 -13、回覆 82。留言多指大陸人慶祝、擠迫無意義、或問轉去邊。",
+      "replies": 82,
+      "viewpoints": [
+        {
+          "label": "吐槽擠迫及人流",
+          "summary": "留言指去到都係行圈圈、傻鳩死逼、天氣熱沙甸魚，或大陸人佔位。",
+          "share": "留言多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "其他反應",
+          "summary": "有問轉去邊度，或提鄧炳強叫飲多杯。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-13",
+          "comparison": "回覆 82；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港時事（警方呼籲萬聖節蘭桂坊人流）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "警方聲明，未核現場情況。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4174741/page/1",
+          "platform": "連登",
+          "author": "掃地僧",
+          "author_url": "https://lihkg.com/profile/291865",
+          "published_at": null,
+          "observed_at": "2026-10-31T13:27:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -13；回覆數 API no_of_reply 82；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對人流或國籍的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-HOUSING-30YEARS",
+      "name": "供30年樓係人生最大Bug？",
+      "status": "new",
+      "seen": "樓主感嘆年過30才儲夠首期上車，香港職場變幻、健康風險，30年長，抬頭見高樓為一細格窗。淨評分 149、回覆 363。留言多指公屋優勢、享受生活，或比較租屋。",
+      "replies": 363,
+      "viewpoints": [
+        {
+          "label": "公屋／租屋較好",
+          "summary": "留言指大把人一嚟就有公屋享受、公屋嬴有窗口又旅行，或一定拎公屋／租細屋。",
+          "share": "留言多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "其他觀點",
+          "summary": "有指人生已完、驚早死買人壽，或以前人唔擔心97都供樓。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "149",
+          "comparison": "回覆 363；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港經濟（房屋、供樓30年風險）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "個人感嘆及討論，未核統計。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4173533/page/1",
+          "platform": "連登",
+          "author": "西晉宣王",
+          "author_url": "https://lihkg.com/profile/468418",
+          "published_at": null,
+          "observed_at": "2026-10-31T13:27:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 149；回覆數 API no_of_reply 363；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對公屋或人生的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-MAINLAND-BETTER",
+      "name": "有無人覺得內地越來越好",
+      "status": "tracking",
+      "seen": "樓主指無論餐廳、景點、交通、民生，內地已經做得越來越好。淨評分 -291、回覆 263。留言多反駁人民質素、食品、或建議唔好返落黎。",
+      "replies": 263,
+      "viewpoints": [
+        {
+          "label": "反駁或質疑",
+          "summary": "留言指真唔好返、人民質素差、黑心食品、元素味精假味，或比較台灣禮貌。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "部分認同",
+          "summary": "有指最好果面的確好，工科項目強，但國家強唔代表人民強。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-291",
+          "comparison": "回覆 263；分數負代表踩多過讚；上一輪 -202，變動大過 30，列表刷新（帖仍在、留言觀點未變，仍多反駁）。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "內地（討論內地改善）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "主觀討論，未核數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174587/page/1",
+          "platform": "連登",
+          "author": "圖片連結",
+          "author_url": "https://lihkg.com/profile/773873",
+          "published_at": null,
+          "observed_at": "2026-10-31T13:27:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -291；回覆數 API no_of_reply 263；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對內地的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
