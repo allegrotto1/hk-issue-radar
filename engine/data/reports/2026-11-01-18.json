@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-01T10:00:00Z",
+    "end": "2026-11-01T13:00:00Z"
+  },
+  "generated_at": "2026-11-01T10:15:00Z",
+  "summary": [
+    "18 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器 fetch api_v2/thread/hot 取列表分數同回覆數，開帖取樓主第一則同頭頁留言觀點。",
+    "內地：內地人心聲：想服務好內地旅客，不如地鐵/口岸多增加幾個小時讓大家回深圳（淨評分 -67、回覆 57），樓主轉載內地人指延長通關時間，留言多批評零消費、嫌貴。香港政府官員：我正式宣佈羅局長經過萬聖節一戰封神（-353、回覆 204），樓主讚羅局長萬聖節佈局，留言大幅反駁指乜都冇做過。香港時事：從來未見過香港萬聖節咁撚有氣氛 咁撚多人 多過中秋（237、回覆 117），樓主指屋邨公園氣氛好，留言有指星期六效應、或政府unlike洋節。香港經濟：政府真係再諗諗定萬聖節做假期（246、回覆 107），樓主指氣氛好吸引遊客，留言支持放星期六效果強。",
+    "青年：12歲用iPhone 18 Pro Max 心酸 好可惜（-128、回覆 73），樓主見12歲用貴機心酸，留言多數指唔關事、或反駁資源不公。本輪熱門頁未見明顯青年政策／教育／民青局帖，以呢條青年消費問題入選。宏福苑相關未見本頁。",
+    "情緒觀察：跌＋嘲諷官員／節日氣氛＋羅局長帖大幅負分反駁封神、萬聖節氣氛帖正分但有質疑（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "CN-MAINLAND-BORDER",
+      "name": "內地人心聲：想服務好內地旅客，不如地鐵/口岸多增加幾個小時讓大家回深圳",
+      "status": "new",
+      "seen": "樓主轉載內地人心聲，指想服務好內地旅客，不如地鐵／口岸多增加幾個小時讓大家回深圳。淨評分 -67、回覆 57。留言多批評食又嫌貴、酒店唔住零消費、正苦比天龍人當狗。",
+      "replies": 57,
+      "viewpoints": [
+        {
+          "label": "批評零消費",
+          "summary": "留言指食又嫌貴帶嘢落嚟食，酒店都唔住零消費，點解要你過嚟。",
+          "share": "留言多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "其他議論",
+          "summary": "有指深圳酒店污糟、或行返以前個套。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-67",
+          "comparison": "回覆 57；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地（內地人對港服務、通關時間意見）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載內地人心聲，未核原帖。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4175053/page/1",
+          "platform": "連登",
+          "author": "陰乳(G)String",
+          "author_url": "https://lihkg.com/profile/7076",
+          "published_at": null,
+          "observed_at": "2026-11-01T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -67；回覆數 API no_of_reply 57；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對內地旅客消費的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-LUO",
+      "name": "我正式宣佈羅局長經過萬聖節一戰封神",
+      "status": "new",
+      "seen": "樓主指以前甜筒雄邊有咁多人出街慶祝哈佬喂，Ian嫂今次真係精準佈局，The Weeknd首Hong Kong完全係賣廣告，羅局長今次真係交到功課，宣佈封神。淨評分 -353、回覆 204。留言大幅反駁指乜都冇做過就有靚畫面、似甯漢豪林鄭2.0。",
+      "replies": 204,
+      "viewpoints": [
+        {
+          "label": "反駁封神",
+          "summary": "留言指乜都冇做過就有靚畫面睇佢真係官運亨通、或似甯漢豪林鄭2.0做特首。",
+          "share": "留言多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "諷刺或支持",
+          "summary": "有指最美特首、希望選特首，但多數被踩。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-353",
+          "comparison": "回覆 204；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（羅局長萬聖節一戰被樓主稱封神，但留言大幅反駁惹火）。本頁熱門，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主主觀封神，未核羅局長具體行動。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4174935/page/1",
+          "platform": "連登",
+          "author": "Qaniit",
+          "author_url": "https://lihkg.com/profile/27553",
+          "published_at": null,
+          "observed_at": "2026-11-01T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -353；回覆數 API no_of_reply 204；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把樓主封神或留言嘲諷當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-CURRENT-HALLOWEEN",
+      "name": "從來未見過香港萬聖節咁撚有氣氛 咁撚多人 多過中秋",
+      "status": "new",
+      "seen": "樓主指從來未見過香港萬聖節咁有氣氛，咁多人，多過中秋，唔係講緊蘭桂坊嗰啲大陸人慶祝而係好多屋邨公園。淨評分 237、回覆 117。留言有指星期六效應、洋人節日港府unlike、或開始覺得好厭。",
+      "replies": 117,
+      "viewpoints": [
+        {
+          "label": "星期六效應",
+          "summary": "留言指That's because Halloween falls on a Saturday。",
+          "share": "留言多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "質疑或厭",
+          "summary": "有指洗唔洗咁多「撚」字、啱啱先過完中秋又係咁上下開始覺得好厭、或洋人節日港府班刷鞋既表示unlike。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "237",
+          "comparison": "回覆 117；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事（萬聖節氣氛好、屋邨公園多人）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主觀察氣氛，未核實際人數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4174897/page/1",
+          "platform": "連登",
+          "author": ".0.",
+          "author_url": "https://lihkg.com/profile/13936",
+          "published_at": null,
+          "observed_at": "2026-11-01T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 237；回覆數 API no_of_reply 117；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對節日氣氛的比較當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-ECON-HALLOWEEN-HOLIDAY",
+      "name": "政府真係再諗諗定萬聖節做假期",
+      "status": "new",
+      "seen": "樓主指政府真係再諗諗定萬聖節做假期，幾好氣氛，迫爆香港，大陸又感受唔到，吸引遊客。淨評分 246、回覆 107。留言多指只要一放喺星期六效果咁強、完美示範香港有大陸冇就輕易搞得好。",
+      "replies": 107,
+      "viewpoints": [
+        {
+          "label": "支持放假期",
+          "summary": "留言指真係原來只要一放喺星期六效果咁撚強、完美示範香港有大陸冇就輕易搞得好。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "其他",
+          "summary": "有指11月1日求其作一個掛羊頭賣狗肉公眾假期、或年頭先話酒吧結業潮宜家到底咩境環。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "246",
+          "comparison": "回覆 107；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟（萬聖節氣氛吸引遊客、討論做公眾假期）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主建議做假期，未核政府意向。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174817/page/1",
+          "platform": "連登",
+          "author": "李家俏秘書",
+          "author_url": "https://lihkg.com/profile/9793",
+          "published_at": null,
+          "observed_at": "2026-11-01T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 246；回覆數 API no_of_reply 107；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把樓主建議或留言效果當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-YOUTH-IPHONE",
+      "name": "12歲用iPhone 18 Pro Max 心酸 好可惜",
+      "status": "new",
+      "seen": "樓主見12歲用iPhone 18 Pro Max，心酸好可惜，自己打工都唔捨得買，問算唔算鮮花踩在牛糞上、真係用得到啲功能咩。淨評分 -128、回覆 73。留言多數指關你撚事、或反駁社會資源分配不公。",
+      "replies": 73,
+      "viewpoints": [
+        {
+          "label": "唔關事",
+          "summary": "留言指關你撚事，佢用部機黎抆屎都唔關你事啦。",
+          "share": "留言多數",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "反駁資源不公",
+          "summary": "樓主指社會資源分配不公我開始明點解，被多數踩。",
+          "share": "少數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-128",
+          "comparison": "回覆 73；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "青年（青年問題，12歲用貴機心酸）。本頁熱門，未見更接近青年政策／教育帖，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主見IG觀察，未核實際情況。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4174721/page/1",
+          "platform": "連登",
+          "author": "Awesome",
+          "author_url": "https://lihkg.com/profile/401345",
+          "published_at": null,
+          "observed_at": "2026-11-01T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -128；回覆數 API no_of_reply 73；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對青年消費的意見當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
