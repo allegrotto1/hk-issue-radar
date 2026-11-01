@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-01T00:00:00Z",
+    "end": "2026-11-01T03:00:00Z"
+  },
+  "generated_at": "2026-11-01T00:15:00Z",
+  "summary": [
+    "08 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器讀列表及開帖取作者個人頁、最後一頁留言編號作回覆數。",
+    "青年：香港真實失業率有幾高?用數據解析青年失業現狀（淨評分 99、回覆 192），樓主用數據分析青年失業，留言討論外勞、市場因素及同情與否。香港政府官員：田北辰：鄧炳強三人就算留任，都應要「餘下任期免費為港服務」，以體現問責（471、回覆 107），樓主轉載田北辰言論，留言多支持問責或更極端。香港時事：中大生家人離世後申請退修 遭問「如何避免同類情況再發生」（119、回覆 83），批評大學官僚；政府籲旅客留港過夜（-39、回覆 35）。香港經濟：sam 哥真係基層的表表者（213、回覆 135）。",
+    "本輪熱門頁有青年失業數據帖及田北辰問責言論，優先入選青年及官員。內地類熱門頁未見明顯帖（「有無人覺得內地越來越好」較後且大幅負分，未優先）。宏福苑相關未見本頁。",
+    "情緒觀察：升＋支持問責／分析＋田北辰帖大幅正分支持免費服務問責、青年失業帖正分討論數據（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-UNEMPLOY",
+      "name": "香港真實失業率有幾高?用數據解析青年失業現狀",
+      "status": "new",
+      "seen": "樓主用數據解析香港真實失業率，聚焦青年失業現狀。淨評分 99、回覆 192。留言討論外勞取代、市場因素、消費者與勞工、傷殘老人就業等，有互相反駁。",
+      "replies": 192,
+      "viewpoints": [
+        {
+          "label": "討論外勞及市場",
+          "summary": "留言指外勞係政府因素唔係市場、消費者利益極大化、政治控制唔到股東同消費者。",
+          "share": "留言多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "反駁同理",
+          "summary": "有指唔洗同情、傷殘老人唔會被取替、或笑幻想症。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "99",
+          "comparison": "回覆 192；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（青年政策、教育、青年問題，青年失業數據分析）。本頁熱門，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "討論失業率數據，未核官方統計。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4174105/page/1",
+          "platform": "連登",
+          "author": "結網主義教主",
+          "author_url": "https://lihkg.com/profile/86509",
+          "published_at": null,
+          "observed_at": "2026-11-01T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 99；回覆數最後一頁 #192；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把留言對失業原因的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-TIAN",
+      "name": "田北辰：鄧炳強三人就算留任，都應要「餘下任期免費為港服務」，以體現問責",
+      "status": "new",
+      "seen": "樓主轉載田北辰指鄧炳強三人就算留任，都應要「餘下任期免費為港服務」，以體現問責。淨評分 471、回覆 107。留言多支持問責、指應交返人工、或稱千古罪人。",
+      "replies": 107,
+      "viewpoints": [
+        {
+          "label": "支持免費服務問責",
+          "summary": "留言指特首司長房長餘下任期一律免費、或交返咁多年人工先合理。",
+          "share": "留言多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "更極端或討論後台",
+          "summary": "有指千古罪人、強哥有元朗國做後台可兵變。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "471",
+          "comparison": "回覆 107；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（田北辰惹火言論要求免費服務體現問責）。本頁熱門，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載田北辰言論，未核原話。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4174582/page/1",
+          "platform": "連登",
+          "author": "一晚長大",
+          "author_url": "https://lihkg.com/profile/33869",
+          "published_at": null,
+          "observed_at": "2026-11-01T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 471；回覆數最後一頁 #107；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把留言對官員的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-EDU-CUHK",
+      "name": "中大生家人離世後申請退修 遭問「如何避免同類情況再發生」",
+      "status": "new",
+      "seen": "樓主轉載中大生家人離世後申請退修，遭問「如何避免同類情況再發生」。淨評分 119、回覆 83。留言多批評大學官僚、無情。",
+      "replies": 83,
+      "viewpoints": [
+        {
+          "label": "批評大學官僚",
+          "summary": "留言指問法離譜、如何避免家人離世、大學無情。",
+          "share": "留言多數",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "其他反應",
+          "summary": "有討論退修程序或其他院校例子。",
+          "share": "少數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "119",
+          "comparison": "回覆 83；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "青年（教育，中大退修官僚問題）。本頁熱門，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "討論大學回覆，未核原件。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4174703/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-11-01T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 119；回覆數最後一頁 #83；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把留言對大學的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-ECON-SAM",
+      "name": "sam 哥真係基層的表表者",
+      "status": "new",
+      "seen": "樓主指 sam 哥真係基層的表表者。淨評分 213、回覆 135。留言多認同或討論基層例子。",
+      "replies": 135,
+      "viewpoints": [
+        {
+          "label": "認同基層代表",
+          "summary": "留言認同 sam 哥代表基層，或分享類似例子。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "其他討論",
+          "summary": "有討論真實性或其他人物。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "213",
+          "comparison": "回覆 135；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟（基層生活例子）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "討論人物，未核身份。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4174689/page/1",
+          "platform": "連登",
+          "author": "三和犬神",
+          "author_url": "https://lihkg.com/profile/173942",
+          "published_at": null,
+          "observed_at": "2026-11-01T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 213；回覆數最後一頁 #135；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把留言對人物的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-TOURISM-OVERNIGHT",
+      "name": "政府籲旅客留港過夜",
+      "status": "new",
+      "seen": "樓主轉載政府籲旅客留港過夜。淨評分 -39、回覆 35。留言多批評旅遊政策或效果。",
+      "replies": 35,
+      "viewpoints": [
+        {
+          "label": "批評旅遊政策",
+          "summary": "留言指效果有限、或質疑為何要留過夜。",
+          "share": "留言多數",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "其他反應",
+          "summary": "有討論旅客來源或其他措施。",
+          "share": "少數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-39",
+          "comparison": "回覆 35；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港時事（政府旅遊政策）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "政府呼籲，未核細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4174849/page/1",
+          "platform": "連登",
+          "author": "花雨落",
+          "author_url": "https://lihkg.com/profile/293648",
+          "published_at": null,
+          "observed_at": "2026-11-01T00:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -39；回覆數最後一頁 #35；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把留言對政策的指控當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ],
+  "clues": [
+    {
+      "clue_id": "C1",
+      "text": "西九龍擎天半島男子飛墮平台　壓中途經外傭（淨評分 25、回覆約 55），時事事故。",
+      "evidence_ids": []
+    },
+    {
+      "clue_id": "C2",
+      "text": "內地類熱門頁未見明顯帖，較後有「有無人覺得內地越來越好」大幅負分。",
+      "evidence_ids": []
+    }
+  ]
+}
