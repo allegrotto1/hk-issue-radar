@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-02T10:00:00Z",
+    "end": "2026-11-02T11:00:00Z"
+  },
+  "generated_at": "2026-11-02T10:15:00Z",
+  "summary": [
+    "18 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器 fetch api_v2/thread/hot 取列表分數同回覆數，開帖取樓主第一則同頭頁留言觀點。",
+    "內地：珠爆，珠海最大國企違約，4千億債務逾期（淨評分 19、回覆 60），樓主轉載珠海華發等國企債務逾期消息，留言有指爆嘅係公司唔影響高層、或銀行有份。香港政府官員：周一鳴：電話騙案急升　已要求電訊商緊急停用涉案網絡電話號碼（-32、回覆 62），樓主轉載警務處長周一鳴指詐騙案佔過半，已要求停用涉案號碼，留言多指實名制冇用、早十年就應該做。香港時事：（突發）橫頭磡邨45歲女子攬狗墮樓雙亡　據悉愛犬被鄰居投訴後與男友爭執（16、回覆 65），樓主報導橫頭磡邨女子攬狗墮樓，據悉因愛犬被投訴後與男友爭執。香港經濟：朋友搬咗去深圳住，租金平左好多（3、回覆 34），樓主指朋友由大西北劏房搬皇崗兩房租金平，留言多質疑皇崗3000兩房真實性及來回車費。",
+    "青年：dse根本係搞衰香港教育制度的其中一個元兇（91、回覆 113），樓主指DSE搞到教育高不成低不就，建議返舊制，留言有支持恢復升中試、有指專上普及係大勢。宏福苑／黃碧嬌相關未見本頁。",
+    "情緒觀察：平＋質疑官員成效／內地債務＋周一鳴帖負分、珠海帖正分（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "CN-ZHUHAI-SOE",
+      "name": "珠爆，珠海最大國企違約，4千億債務逾期",
+      "status": "new",
+      "seen": "樓主轉載珠海最大國企（華發等）違約、4千億債務逾期消息，附X連結。淨評分 19、回覆 60。留言有指爆嘅係公司唔影響高層個人資產、銀行有份、或中國存款提唔到。",
+      "replies": 60,
+      "viewpoints": [
+        {
+          "label": "公司爆唔影響高層",
+          "summary": "留言指爆嘅係公司，唔是高層個人資產，唔影響。",
+          "share": "留言部分",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "銀行有份",
+          "summary": "有指少極2千億銀行都會有份、中國存款提唔到。",
+          "share": "留言部分",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "19",
+          "comparison": "回覆 60；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地（珠海國企債務違約）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主轉載消息，未核具體債務數字。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4175415/page/1",
+          "platform": "連登",
+          "author": "來自篤精的你",
+          "author_url": "https://lihkg.com/profile/44171",
+          "published_at": null,
+          "observed_at": "2026-11-02T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 19；回覆數 API no_of_reply 60；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把轉載數字當已核事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-ZHOU",
+      "name": "周一鳴：電話騙案急升　已要求電訊商緊急停用涉案網絡電話號碼",
+      "status": "new",
+      "seen": "樓主轉載警務處長周一鳴指今年首9個月詐騙案34679宗佔整體罪案過半，已要求電訊商緊急停用涉案網絡電話號碼。淨評分 -32、回覆 62。留言多指實名制冇撚用、早十年就應該做、或有FOR國安用。",
+      "replies": 62,
+      "viewpoints": [
+        {
+          "label": "實名制冇用",
+          "summary": "留言指簡單講過實名制唔係防騙子、停得唔夠人開number快。",
+          "share": "留言多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "太遲先做",
+          "summary": "有指早10年就應該要、宜家先做野。",
+          "share": "留言部分",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-32",
+          "comparison": "回覆 62；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（警務處長周一鳴就電話騙案發言）。本頁熱門，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主轉載報道，未核周一鳴原話全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4175437/page/1",
+          "platform": "連登",
+          "author": "刁腫(私煮食）",
+          "author_url": "https://lihkg.com/profile/618109",
+          "published_at": null,
+          "observed_at": "2026-11-02T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -32；回覆數 API no_of_reply 62；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對政策的指控當事實。",
+      "next_steps": "下一輪再睇呢帖分數同觀點有無轉向。"
+    },
+    {
+      "issue_id": "HK-CURRENT-WANGTAU",
+      "name": "（突發）橫頭磡邨45歲女子攬狗墮樓雙亡　據悉愛犬被鄰居投訴後與男友爭執",
+      "status": "new",
+      "seen": "樓主報導橫頭磡邨45歲女子攬狗墮樓雙亡，據悉愛犬被鄰居投訴後與男友爭執。淨評分 16、回覆 65。因API限流，未能讀頭頁留言細節，觀點以標題為準。",
+      "replies": 65,
+      "viewpoints": [
+        {
+          "label": "本地突發",
+          "summary": "標題報導橫頭磡邨女子攬狗墮樓，據悉因狗被投訴爭執。",
+          "share": "標題為主",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "16",
+          "comparison": "回覆 65；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事（橫頭磡邨墮樓事件）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主報導，未核事件細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4175419/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-02T10:15:00Z",
+          "read_level": "partial",
+          "note": "熱門列表淨評分 16；回覆數 API no_of_reply 65；author_url 由列表 API user_id。頭頁因限流未全開。"
+        }
+      ],
+      "limits": "不把報導細節當已核事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-ECON-SHENZHEN-RENT",
+      "name": "朋友搬咗去深圳住，租金平左好多",
+      "status": "new",
+      "seen": "樓主指朋友由大西北劏房開放式$7000搬去皇崗口岸附近兩房$3000，返工多30分鐘。淨評分 3、回覆 34。留言多質疑皇崗3000兩房是否城中村、來回車費、或笑撚咗。",
+      "replies": 34,
+      "viewpoints": [
+        {
+          "label": "質疑租金真實",
+          "summary": "留言指皇崗附近3000兩房笑撚咗、係咪城中村、來回車費一個月4千幾。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "質素提升",
+          "summary": "樓主指劏房變兩房，每日30分鐘換生活質素。",
+          "share": "少數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "3",
+          "comparison": "回覆 34；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟（跨境租金比較及生活成本）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主轉述朋友經歷，未核實際租金。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4175398/page/1",
+          "platform": "連登",
+          "author": "國寶級花花",
+          "author_url": "https://lihkg.com/profile/35361",
+          "published_at": null,
+          "observed_at": "2026-11-02T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 3；回覆數 API no_of_reply 34；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把個別經歷當普遍事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-YOUTH-DSE",
+      "name": "dse根本係搞衰香港教育制度的其中一個元兇",
+      "status": "new",
+      "seen": "樓主指回歸後教育越搞越差，DSE係元兇之一，搞到高不成低不就，考慮AI普及建議返舊制，讀唔掂就認命，VTC有時實用過大學。淨評分 91、回覆 113。留言有指專上教育普及係大勢、應恢復升中試、或香港人去外國都屈機。",
+      "replies": 113,
+      "viewpoints": [
+        {
+          "label": "支持舊制或減大學",
+          "summary": "留言指應恢復升中試、拓展專上浪費資源、最頂尖先有免費大學。",
+          "share": "留言部分",
+          "evidence_ids": ["L5"]
+        },
+        {
+          "label": "專上普及大勢",
+          "summary": "有指專上教育普及係大勢所趨、香港人去外國讀書都知幾屈機。",
+          "share": "留言部分",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "91",
+          "comparison": "回覆 113；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "青年（DSE及教育制度問題）。本頁熱門，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主主觀意見，未核教育政策細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4175317/page/1",
+          "platform": "連登",
+          "author": "LamKwanYin",
+          "author_url": "https://lihkg.com/profile/355237",
+          "published_at": null,
+          "observed_at": "2026-11-02T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 91；回覆數 API no_of_reply 113；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對教育制度的評價當事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ]
+}
