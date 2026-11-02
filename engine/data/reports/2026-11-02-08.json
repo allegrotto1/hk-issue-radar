@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T01:00:00Z"
+  },
+  "generated_at": "2026-11-02T00:10:00Z",
+  "summary": [
+    "08 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器 fetch api_v2/thread/hot 取列表分數同回覆數，開帖取樓主第一則同頭頁留言觀點。",
+    "內地： 「紅果短劇」太毒了！觀眾驚呼要進勒戒所 Netflix股價重挺28% 將推AI短劇應戰（淨評分 -35、回覆 68），樓主指抖音紅果短劇高產量AI短劇攻台下載榜及大陸觀看時數，留言有指毒過tiktok、有啲好睇。香港政府官員：我正式宣佈羅局長經過萬聖節一戰封神（-484、回覆 247），樓主稱羅局長交到功課封神，留言大幅反駁指乜都冇做過、行運超人。香港時事：從來未見過香港萬聖節咁撚有氣氛 咁撚多人 多過中秋（333、回覆 142），樓主指屋邨公園氣氛好過中秋，留言有指星期六效應、或開始厭。香港經濟：香港飲食業沉淪真係抵撚死（207、回覆 111），樓主屌牛奶冰室加費無飲管，留言多嘲樓主幫襯垃圾店。",
+    "青年：本輪熱門頁未見明顯青年政策／教育／民青局／拼音課程等帖。以其他時事補充。宏福苑／黃碧嬌相關未見本頁。",
+    "情緒觀察：跌＋嘲諷官員／節日氣氛＋羅局長帖負分擴大反駁封神、萬聖節氣氛帖正分上升（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "CN-SHORT-DRAMA",
+      "name": "「紅果短劇」太毒了！觀眾驚呼要進勒戒所 Netflix股價重挺28% 將推AI短劇應戰",
+      "status": "new",
+      "seen": "樓主指抖音集團紅果短劇靠免費高產量AI短劇上月攻下台灣iPhone免費App下載榜龍頭，中國大陸年化逾1200億小時觀看，Netflix股價重挫近28%將推AI短劇應戰。淨評分 -35、回覆 68。留言有指個App又係字節跳動、有啲係幾好睇、仲毒過tiktok。",
+      "replies": 68,
+      "viewpoints": [
+        {
+          "label": "批評上癮",
+          "summary": "留言指紅果仲毒過tiktok、要進勒戒所。",
+          "share": "留言多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "有啲好睇",
+          "summary": "有指講真有啲係幾好睇、好過Netflix無dei。",
+          "share": "少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-35",
+          "comparison": "回覆 68；分數負代表踩多過讚；上一輪未見此帖。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "內地（紅果短劇大陸內容及AI短劇市場）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主轉載市場數據，未核具體數字。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4175180/page/1",
+          "platform": "連登",
+          "author": "金正男",
+          "author_url": "https://lihkg.com/profile/592151",
+          "published_at": null,
+          "observed_at": "2026-11-02T00:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -35；回覆數 API no_of_reply 68；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把市場數字當已核事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-LUO",
+      "name": "我正式宣佈羅局長經過萬聖節一戰封神",
+      "status": "tracking",
+      "seen": "樓主指以前甜筒雄邊有咁多人出街慶祝哈佬喂，Ian嫂今次真係精準佈局，The Weeknd首Hong Kong完全係賣廣告，羅局長今次真係交到功課，宣佈封神。淨評分 -484、回覆 247。留言大幅反駁指乜都冇做過就有靚畫面、行運超人、似甯漢豪林鄭2.0。",
+      "replies": 247,
+      "viewpoints": [
+        {
+          "label": "反駁封神",
+          "summary": "留言指乜都冇做過就有靚畫面睇佢真係官運亨通、行運超人、或似甯漢豪林鄭2.0做特首。",
+          "share": "留言多數",
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "諷刺希望選特首",
+          "summary": "有指希望佢選特首啦，但多數被反駁。",
+          "share": "少數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-484",
+          "comparison": "回覆 247；分數負代表踩多過讚；對照上一輪 -353，變動大過 30，列表刷新（帖仍在、留言觀點仍反駁封神，未見轉向）。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "香港政府官員（羅局長萬聖節一戰被樓主稱封神，但留言大幅反駁惹火）。本頁熱門，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主主觀封神，未核羅局長具體行動。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4174935/page/1",
+          "platform": "連登",
+          "author": "Qaniit",
+          "author_url": "https://lihkg.com/profile/27553",
+          "published_at": null,
+          "observed_at": "2026-11-02T00:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -484；回覆數 API no_of_reply 247；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把留言對官員的指控當事實。",
+      "next_steps": "下一輪再睇呢帖分數同觀點有無轉向。"
+    },
+    {
+      "issue_id": "HK-CURRENT-HALLOWEEN",
+      "name": "從來未見過香港萬聖節咁撚有氣氛 咁撚多人 多過中秋",
+      "status": "tracking",
+      "seen": "樓主指從來未見過香港萬聖節咁有氣氛，咁多人，多過中秋，唔係講緊蘭桂坊嗰啲大陸人慶祝而係好多屋邨公園，氣氛一流。淨評分 333、回覆 142。留言有指星期六效應、洋人節日港府unlike、或開始覺得好厭。",
+      "replies": 142,
+      "viewpoints": [
+        {
+          "label": "星期六效應",
+          "summary": "留言指That's because Halloween falls on a Saturday。",
+          "share": "留言部分",
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "質疑或厭",
+          "summary": "有指開始覺得好厭、真不嬲唔重視萬聖節。",
+          "share": "留言部分",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "333",
+          "comparison": "回覆 142；分數正代表讚多過踩；對照上一輪 237，變動大過 30，列表刷新（帖仍在、留言觀點未大變）。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港時事（萬聖節氣氛）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主主觀感覺，未核實際人數。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4174897/page/1",
+          "platform": "連登",
+          "author": ".0.",
+          "author_url": "https://lihkg.com/profile/13936",
+          "published_at": null,
+          "observed_at": "2026-11-02T00:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 333；回覆數 API no_of_reply 142；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把氣氛描述當官方統計。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    },
+    {
+      "issue_id": "HK-ECONOMY-DINING",
+      "name": "香港飲食業沉淪真係抵撚死",
+      "status": "new",
+      "seen": "樓主屌牛奶冰室呢啲咁嘅垃圾，加2蚊外盒盒費比個濕鳩紙袋你一打開成手油，凍飲無飲管，仲要越開越多分店。淨評分 207、回覆 111。留言多嘲樓主幫襯垃圾店、或指底層垃圾食埋哂啲垃圾預制菜。",
+      "replies": 111,
+      "viewpoints": [
+        {
+          "label": "嘲樓主幫襯",
+          "summary": "留言指多得樓主你幫襯佢地先可以開到咁多分店、柒頭邊屌邊食。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        },
+        {
+          "label": "同意沉淪",
+          "summary": "有指就係你呢種底層垃圾食埋哂啲垃圾預制菜餐廳先開到咁多分店。",
+          "share": "留言部分",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "207",
+          "comparison": "回覆 111；分數正代表讚多過踩；上一輪未見此帖。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港經濟（飲食業沉淪）。本頁熱門，入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主主觀體驗，未核行業數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4175068/page/1",
+          "platform": "連登",
+          "author": "牛15",
+          "author_url": "https://lihkg.com/profile/527561",
+          "published_at": null,
+          "observed_at": "2026-11-02T00:10:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 207；回覆數 API no_of_reply 111；author_url 由 API user_id。"
+        }
+      ],
+      "limits": "不把個別店舖體驗當全行業。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門。"
+    }
+  ],
+  "clues": [
+    {
+      "clue_id": "C1",
+      "name": "HK01：萬聖節蘭桂坊一帶　通宵狂歡滿地垃圾",
+      "seen": "淨評分 50、回覆 52。樓主轉載HK01報道蘭桂坊通宵狂歡滿地垃圾。",
+      "why": "香港時事線索。"
+    },
+    {
+      "clue_id": "C2",
+      "name": "廢老末日，報紙$12加到$15咁大件事無人井？",
+      "seen": "淨評分 -67、回覆 160。樓主指報紙加價無人井。",
+      "why": "香港經濟線索。"
+    }
+  ]
+}
