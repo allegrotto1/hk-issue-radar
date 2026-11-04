@@ -5,12 +5,12 @@
     "start": "2026-11-04T07:00:00Z",
     "end": "2026-11-04T08:00:00Z"
   },
-  "generated_at": "2026-11-04T07:35:00Z",
+  "generated_at": "2026-11-04T07:32:00Z",
   "summary": [
-    "15 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器 fetch api_v2/thread/hot?cat_id=1 抄列表淨評分同回覆數，開帖取樓主第一則同頭頁留言觀點。",
-    "青年：低學歷嘅人應該認命（淨評分 188、回覆 144），樓主指低學歷無權利競爭高學歷職位、談吐深度同尊嚴問題。香港政府官員：黃碧嬌傳赴英後現身大埔酒樓（-44、回覆 60），樓主轉載知情人士話機場係接機、唔係離港，標未核實。",
-    "內地：朋友搬咗去深圳住，租金平左好多（117、回覆 416），樓主分享由西北劏房搬皇崗兩房慳租。香港經濟：美股認真討論區（0、回覆 121），樓主開盤討論美股。香港時事：蔡天鳳碎屍案｜政府總化驗師指圓頭鎚上DNA與鄺港智是「唯一吻合」（14、回覆 104），樓主轉載審訊化驗師供詞。",
-    "情緒觀察：升＋教育認命／內地租金＋低學歷高正分、深圳租金高正分（只見連登，未對照 Threads；黃碧嬌事件未核實）"
+    "15 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器讀列表抄淨評分，開帖取樓主個人頁、第一頁留言同最後一頁留言編號作回覆數。",
+    "青年：低學歷嘅人應該認命（淨評分 188、回覆 144），樓主指低學歷無權利競爭高學歷職位，留言有支持認命同反駁技術更重要。香港政府官員：鄧家彪講人話（26、回覆 27），樓主引述工程問題可能貪污，留言多嘲諷或質疑動機。內地：朋友搬咗去深圳住，租金平左好多（117、回覆 418），樓主分享深圳兩房三千對比香港劏房，留言熱議真實性同成本。",
+    "香港經濟：美股認真討論區（0、回覆 125），樓主貼SPY長期回報同免責，留言討論SOXL等。香港時事：蔡天鳳碎屍案｜政府總化驗師指圓頭鎚上DNA與鄺港智是「唯一吻合」（14、回覆 104），樓主轉載審訊DNA比對細節。黃碧嬌相關帖在頁但未選，標未核實。",
+    "情緒觀察：升＋青年教育／內地居住＋低學歷認命高正分、深圳租金高正分（只見連登，未對照 Threads；事件經報道或轉載，報告內容未核）"
   ],
   "sources": {
     "url": "https://lihkg.com/category/1?order=hot",
@@ -21,18 +21,24 @@
       "issue_id": "HK-YOUTH-LOWEDU",
       "name": "低學歷嘅人應該認命",
       "status": "new",
-      "seen": "樓主指低學歷根本無權利同高學歷競爭，好多公司見低學歷就唔俾機會，所謂「讀大學無用」只係低學歷打飛機。舉例月入兩三萬地產經紀談吐無深度、地盤佬粗人，要用厚面皮健康換嘢，無尊嚴。淨評分 188、回覆 144。留言有認同學歷差距、有話技術值錢、有嘲樓主自己認命。",
+      "seen": "樓主「日夜都返工」指低學歷嘅人根本無權利同高學歷競爭，好多公司唔會畀低學歷入，月入兩三萬既地產經紀談吐無深度、地盤佬粗人，要用厚面皮健康換東西，無尊嚴。淨評分 188、回覆 144。留言有支持「細個唔讀書捱窮天經地義」、有反駁「技術應該值錢過學歷」、有嘲樓主自己都應該認命。",
       "replies": 144,
       "viewpoints": [
         {
-          "label": "認同學歷決定機會",
-          "summary": "高正分反映多數留言認同低學歷難同高學歷競爭，或嘲諷所謂「醒目重要過讀書」。",
+          "label": "認同低學歷應認命",
+          "summary": "高正分反映多數留言認同無學歷競爭力弱、要認命，讚多過踩。",
           "share": "留言多數",
           "evidence_ids": ["L1"]
         },
         {
-          "label": "技術或AI改變差距",
-          "summary": "部分留言話技術值錢過學歷，或指AI/AGI年代學歷收入差距會縮。",
+          "label": "技術或經驗更重要",
+          "summary": "部分留言反駁技術值錢過學歷，或經驗比學位重要。",
+          "share": "留言少數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "嘲諷樓主",
+          "summary": "有留言指樓主自己都應該認命，或質疑其學歷。",
           "share": "留言少數",
           "evidence_ids": ["L1"]
         }
@@ -45,10 +51,10 @@
           "evidence_ids": ["L1"]
         }
       ],
-      "why": "青年（教育、青年問題、學歷）。本頁上班台高相關，優先入選。",
+      "why": "青年（教育、青年問題）。本頁上班台相關，優先入選。",
       "verification": {
         "status": "unverified",
-        "note": "樓主個人觀點，未核數據。"
+        "note": "樓主個人觀點，未核社會數據。"
       },
       "evidence": [
         {
@@ -58,173 +64,130 @@
           "author": "日夜都返工",
           "author_url": "https://lihkg.com/profile/530329",
           "published_at": null,
-          "observed_at": "2026-11-04T07:35:00Z",
+          "observed_at": "2026-11-04T07:32:00Z",
           "read_level": "opened",
-          "note": "熱門列表淨評分 188；回覆數 API no_of_reply 144；author_url 由 API user_id。"
+          "note": "熱門列表淨評分 188；回覆數最後一頁留言編號 144；author_url 由帖文個人頁。"
         }
       ],
-      "limits": "不把樓主觀點當已核社會數據。",
+      "limits": "不把樓主觀點當已核社會事實。留言觀點提取自第一頁。",
       "next_steps": "下一輪再睇呢帖仲在唔在熱門及分數變化。"
     },
     {
-      "issue_id": "HK-OFFICIAL-WONGBIKJIU",
-      "name": "黃碧嬌傳赴英後現身大埔酒樓 知情人士：現身機場那天是接機",
-      "status": "new",
-      "seen": "樓主轉載《香港01》報導，已辭職的黃碧嬌並無去英國，有知情人士直言純屬謠言，被拍到再在酒樓現身飲茶。淨評分 -44、回覆 60。留言有質疑相片日期、嘲諷關愛隊、話THREADS信謠言。標未核實，唔放大接機號召。",
-      "replies": 60,
-      "viewpoints": [
-        {
-          "label": "質疑或嘲諷",
-          "summary": "負分反映留言多質疑報導真假、相片日期或嘲諷當事人同支持者。",
-          "share": "留言多數",
-          "evidence_ids": ["L2"]
-        },
-        {
-          "label": "接受澄清",
-          "summary": "少數可能接受知情人士說法，但整體踩多過讚。",
-          "share": "留言少數",
-          "evidence_ids": ["L2"]
-        }
-      ],
-      "data": [
-        {
-          "metric": "連登熱門列表淨評分（讚減踩）",
-          "value": "-44",
-          "comparison": "回覆 60；分數負代表踩多過讚；上一輪未見。",
-          "evidence_ids": ["L2"]
-        }
-      ],
-      "why": "香港政府官員（前區議員黃碧嬌，熱門爭議）。本頁時事台高相關，優先入選，標未核實。",
-      "verification": {
-        "status": "unverified",
-        "note": "樓主轉載報導同知情人士，事件未核實。"
-      },
-      "evidence": [
-        {
-          "evidence_id": "L2",
-          "url": "https://lihkg.com/thread/4176151/page/1",
-          "platform": "連登",
-          "author": "極速神驅",
-          "author_url": "https://lihkg.com/profile/240362",
-          "published_at": null,
-          "observed_at": "2026-11-04T07:35:00Z",
-          "read_level": "opened",
-          "note": "熱門列表淨評分 -44；回覆數 API no_of_reply 60；author_url 由 API user_id。標未核實。"
-        }
-      ],
-      "limits": "不把轉載當已核離境或現身事件。唔放大接機號召。",
-      "next_steps": "下一輪再睇呢帖仲在唔在熱門及分數變化。"
-    },
-    {
-      "issue_id": "CN-SHENZHEN-RENT",
+      "issue_id": "CN-SZ-RENT",
       "name": "朋友搬咗去深圳住，租金平左好多",
       "status": "new",
-      "seen": "樓主話朋友由大西北劏房開放式月租$7000搬去皇崗口岸附近兩房$3000，返工時間每日多30分鐘，換生活質素。淨評分 117、回覆 416。留言有問來回車費、質疑$3000兩房真假、話皇崗附近笑死。",
-      "replies": 416,
+      "seen": "樓主「國寶級花花」分享朋友原本住大西北劏房開放式月租七千，搬去皇崗口岸附近兩房三千，每日返工多三十分鐘。淨評分 117、回覆 418。留言熱議三千兩房是否真實（城中村？）、車費成本、是否值得。",
+      "replies": 418,
       "viewpoints": [
         {
-          "label": "認同平租",
-          "summary": "高正分反映多數留言認同或討論內地租金優勢。",
+          "label": "質疑租金真實性",
+          "summary": "多留言質疑皇崗附近三千兩房太平，可能城中村或誇張。",
           "share": "留言多數",
-          "evidence_ids": ["L3"]
+          "evidence_ids": ["L2"]
         },
         {
-          "label": "質疑價錢或成本",
-          "summary": "部分留言質疑兩房$3000是否城中村、來回車費抵消慳錢。",
+          "label": "認同生活質素提升",
+          "summary": "部分認同劏房變兩房，時間換質素值得。",
           "share": "留言少數",
-          "evidence_ids": ["L3"]
+          "evidence_ids": ["L2"]
+        },
+        {
+          "label": "計算成本",
+          "summary": "有留言計車費一個月四千幾，抵銷租金節省。",
+          "share": "留言少數",
+          "evidence_ids": ["L2"]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "117",
-          "comparison": "回覆 416；分數正代表讚多過踩；上一輪未見。",
-          "evidence_ids": ["L3"]
+          "comparison": "回覆 418；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L2"]
         }
       ],
-      "why": "內地。本頁房屋台高相關內地租金帖，優先入選。",
+      "why": "內地。本頁房屋台深圳居住帖，高互動優先。",
       "verification": {
         "status": "unverified",
-        "note": "樓主個人分享，未核租金數字。"
+        "note": "樓主轉述朋友經歷，未核租金數字。"
       },
       "evidence": [
         {
-          "evidence_id": "L3",
+          "evidence_id": "L2",
           "url": "https://lihkg.com/thread/4175398/page/1",
           "platform": "連登",
           "author": "國寶級花花",
           "author_url": "https://lihkg.com/profile/35361",
           "published_at": null,
-          "observed_at": "2026-11-04T07:35:00Z",
+          "observed_at": "2026-11-04T07:32:00Z",
           "read_level": "opened",
-          "note": "熱門列表淨評分 117；回覆數 API no_of_reply 416；author_url 由 API user_id。"
+          "note": "熱門列表淨評分 117；回覆數最後一頁留言編號 418；author_url 由帖文個人頁。"
         }
       ],
-      "limits": "不把樓主分享當已核租金市場。",
+      "limits": "不把樓主轉述當已核內地租務數據。",
       "next_steps": "下一輪再睇呢帖仲在唔在熱門及分數變化。"
     },
     {
-      "issue_id": "HK-ECON-USSTOCK",
-      "name": "美股認真討論區",
+      "issue_id": "HK-OFFICIAL-DENG",
+      "name": "鄧家彪講人話",
       "status": "new",
-      "seen": "樓主開美股認真討論區。淨評分 0、回覆 121。帖文討論美股走勢，留言方向混合。",
-      "replies": 121,
+      "seen": "樓主「陳嘉A」指「10個工程11個有問題 唔一定係圍標，可能係貪污 如果貪污都識用成個香港監獄要擴建 大把中X工程公司」。淨評分 26、回覆 27。留言多嘲「聲大大無貨賣」、「屎忽招」、質疑為投票或幫自己收價。",
+      "replies": 27,
       "viewpoints": [
         {
-          "label": "討論走勢",
-          "summary": "零分反映讚踩接近，留言多討論美股具體走勢或開倉。",
+          "label": "嘲諷或質疑動機",
+          "summary": "多數留言認為係做戲認真、為投票歸隊或幫自己，讚少踩多傾向。",
           "share": "留言多數",
-          "evidence_ids": ["L4"]
+          "evidence_ids": ["L3"]
+        },
+        {
+          "label": "認同問題存在",
+          "summary": "少數可能認同工程有問題，但整體分數不高。",
+          "share": "留言少數",
+          "evidence_ids": ["L3"]
         }
       ],
       "data": [
         {
           "metric": "連登熱門列表淨評分（讚減踩）",
-          "value": "0",
-          "comparison": "回覆 121；分數零代表讚踩接近；上一輪未見。",
-          "evidence_ids": ["L4"]
+          "value": "26",
+          "comparison": "回覆 27；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L3"]
         }
       ],
-      "why": "香港經濟。本頁財經台美股討論帖，作為經濟類入選。",
+      "why": "香港政府官員。本頁時事台議員言論帖，優先惹火言論。",
       "verification": {
         "status": "unverified",
-        "note": "樓主討論區，未核市場。"
+        "note": "樓主引述或觀點，未核鄧家彪原話。"
       },
       "evidence": [
         {
-          "evidence_id": "L4",
-          "url": "https://lihkg.com/thread/4176234/page/1",
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4176143/page/1",
           "platform": "連登",
-          "author": "抄底後一分鐘",
-          "author_url": "https://lihkg.com/profile/284820",
+          "author": "陳嘉A",
+          "author_url": "https://lihkg.com/profile/326592",
           "published_at": null,
-          "observed_at": "2026-11-04T07:35:00Z",
+          "observed_at": "2026-11-04T07:32:00Z",
           "read_level": "opened",
-          "note": "熱門列表淨評分 0；回覆數 API no_of_reply 121；author_url 由 API user_id。"
+          "note": "熱門列表淨評分 26；回覆數最後一頁留言編號 27；author_url 由帖文個人頁。"
         }
       ],
-      "limits": "不把討論當已核投資建議。",
+      "limits": "不把樓主引述當已核官員發言。",
       "next_steps": "下一輪再睇呢帖仲在唔在熱門及分數變化。"
     },
     {
-      "issue_id": "HK-NEWS-CAITIANFENG",
+      "issue_id": "HK-CASE-ABBY",
       "name": "蔡天鳳碎屍案｜政府總化驗師指圓頭鎚上DNA與鄺港智是「唯一吻合」",
       "status": "new",
-      "seen": "樓主轉載審訊，政府總化驗師衛永剛供稱圓頭鎚上DNA屬單一來源男性，全部數字與鄺港智吻合，與鄺球及鄺港傑不太吻合。淨評分 14、回覆 104。留言討論DNA留底條件、誰落手、會否打甩謀殺。",
+      "seen": "樓主「DoctorDoom」轉載審訊第29日，政府總化驗師衛永剛指圓頭鎚上DNA為男性單一來源，26個系統全部與鄺港智吻合，與鄺球及鄺港傑不太吻合。淨評分 14、回覆 104。帖文詳細化驗過程。",
       "replies": 104,
       "viewpoints": [
         {
-          "label": "關注DNA證據",
-          "summary": "正分反映留言多關注化驗結果同推論誰落手。",
+          "label": "關注證據",
+          "summary": "留言主要跟進DNA證據同審訊進展，分數正但不高。",
           "share": "留言多數",
-          "evidence_ids": ["L5"]
-        },
-        {
-          "label": "質疑或補充",
-          "summary": "部分留言討論買鎚時有無手套、其他DNA可能。",
-          "share": "留言少數",
-          "evidence_ids": ["L5"]
+          "evidence_ids": ["L4"]
         }
       ],
       "data": [
@@ -232,28 +195,71 @@
           "metric": "連登熱門列表淨評分（讚減踩）",
           "value": "14",
           "comparison": "回覆 104；分數正代表讚多過踩；上一輪未見。",
-          "evidence_ids": ["L5"]
+          "evidence_ids": ["L4"]
         }
       ],
-      "why": "香港時事。本頁時事台本地案件高相關帖，入選。",
+      "why": "香港時事。本頁重大刑事案件進展，優先。",
       "verification": {
         "status": "unverified",
-        "note": "樓主轉載審訊報道，未核庭上供詞細節。"
+        "note": "樓主轉載星島報導，未核原審細節。"
       },
       "evidence": [
         {
-          "evidence_id": "L5",
+          "evidence_id": "L4",
           "url": "https://lihkg.com/thread/4176069/page/1",
           "platform": "連登",
           "author": "DoctorDoom",
           "author_url": "https://lihkg.com/profile/364767",
           "published_at": null,
-          "observed_at": "2026-11-04T07:35:00Z",
+          "observed_at": "2026-11-04T07:32:00Z",
           "read_level": "opened",
-          "note": "熱門列表淨評分 14；回覆數 API no_of_reply 104；author_url 由 API user_id。"
+          "note": "熱門列表淨評分 14；回覆數最後一頁留言編號 104；author_url 由帖文個人頁。"
         }
       ],
-      "limits": "不把轉載當已核庭審結論。",
+      "limits": "不把轉載當已核法庭事實。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "HK-ECON-USSTOCK",
+      "name": "美股認真討論區 V̄DCCCLXXXI",
+      "status": "new",
+      "seen": "樓主「抄底後一分鐘」貼SPY長期平均回報、對比FXI/KWEB等圖表、基金13F資料同免責聲明。淨評分 0、回覆 125。留言討論SOXL夜盤、德州藍對馬斯克影響等。",
+      "replies": 125,
+      "viewpoints": [
+        {
+          "label": "討論交易機會",
+          "summary": "留言多談SOXL/SOXS入場、德州選舉對市場影響，分數平。",
+          "share": "留言多數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "0",
+          "comparison": "回覆 125；分數正代表讚多過踩（此為零）；上一輪未見。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港經濟。本頁財經台美股討論，相關。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主討論區帖，未核市場數據。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4176234/page/1",
+          "platform": "連登",
+          "author": "抄底後一分鐘",
+          "author_url": "https://lihkg.com/profile/284820",
+          "published_at": null,
+          "observed_at": "2026-11-04T07:32:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 0；回覆數最後一頁留言編號 125；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把討論當投資建議或已核數據。",
       "next_steps": "下一輪再睇呢帖仲在唔在熱門及分數變化。"
     }
   ]
