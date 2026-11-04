@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T01:00:00Z"
+  },
+  "generated_at": "2026-11-04T00:05:00Z",
+  "summary": [
+    "08 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，瀏覽器讀列表抄淨評分同頁數，開帖取樓主個人頁同最後一頁留言編號作回覆數。",
+    "青年：中大印尼生因財困向學校求助 獲中大學生資助處職員勸告 「你該留在家鄉讀書的」（淨評分 162、回覆 226），樓主轉載中大印尼生求助被職員勸留在家鄉。香港政府官員：本頁熱門未見明顯官員／議員惹火言論帖。內地：河南「排骨仔」拒食住家飯 醫生買KFC測試後揭：屋企餸菜太難食（419、回覆 137），樓主轉載河南個案。",
+    "香港經濟：沙田禾輋美心MX 11.5結業 屹立近40載老店也難敵消費收縮？（17、回覆 29），樓主討論老店結業與消費收縮。香港時事：淘多多賣大陸飲品「佳得乐」　營養標籤違反規例　食環：「當場檢控並要求下架」（57、回覆 64），樓主轉載食環檢控；歐洲超市冷藏系統被調高至50度（48、回覆 66）。宏福苑／黃碧嬌相關未見本頁。",
+    "情緒觀察：升＋教育／內地消費＋中大印尼生高正分、河南KFC高正分（只見連登，未對照 Threads；事件經報道，報告內容未核）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": []
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-CUHK-INDO",
+      "name": "中大印尼生因財困向學校求助 獲中大學生資助處職員勸告 「你該留在家鄉讀書的」",
+      "status": "tracking",
+      "seen": "樓主轉載中大印尼生因財困向學校求助，獲學生資助處職員勸告「你該留在家鄉讀書的」。淨評分 162、回覆 226。帖文討論校園資助同非本地生處境，留言方向以支持職員說法為主。",
+      "replies": 226,
+      "viewpoints": [
+        {
+          "label": "職員說法合理",
+          "summary": "高正分反映多數留言認同無足夠資助應留在家鄉，本地生有grant loan。",
+          "share": "留言多數",
+          "evidence_ids": ["L1"]
+        },
+        {
+          "label": "同情學生",
+          "summary": "部分留言可能同情財困學生，但整體分數顯示讚多過踩。",
+          "share": "留言少數",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "162",
+          "comparison": "回覆 226；分數正代表讚多過踩；上一版（11-03-18）淨評分 17，今輪大幅上升，列表刷新（帖仍在、觀點大致未變）。",
+          "evidence_ids": ["L1"]
+        }
+      ],
+      "why": "青年（教育、校園、青年問題）。本頁校園台高相關，優先入選。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主轉載，未核事件細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4175867/page/1",
+          "platform": "連登",
+          "author": "以揉制肛",
+          "author_url": "https://lihkg.com/profile/84932",
+          "published_at": null,
+          "observed_at": "2026-11-04T00:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 162；回覆數最後一頁留言編號 226；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把樓主轉載當已核校園事件。留言觀點提取受頁面渲染限制。",
+      "next_steps": "下一輪再睇呢帖仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "CN-KFC-HENAN",
+      "name": "河南「排骨仔」拒食住家飯 醫生買KFC測試後揭：屋企餸菜太難食",
+      "status": "new",
+      "seen": "樓主轉載河南「排骨仔」拒食住家飯，醫生買KFC測試後揭屋企餸菜太難食。淨評分 419、回覆 137。帖文討論內地飲食同家庭，高正分顯示多數讚成或嘲諷。",
+      "replies": 137,
+      "viewpoints": [
+        {
+          "label": "嘲諷或認同測試",
+          "summary": "高正分反映留言多認同KFC測試結果或嘲屋企餸，讚多過踩。",
+          "share": "留言多數",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "419",
+          "comparison": "回覆 137；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L2"]
+        }
+      ],
+      "why": "內地。本頁熱門內地相關帖，高分優先。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主轉載，未核個案細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4175474/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-11-04T00:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 419；回覆數最後一頁留言編號 137；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把樓主轉載當已核內地事件。",
+      "next_steps": "下一輪再睇分數變化。"
+    },
+    {
+      "issue_id": "HK-ECON-MAXIM",
+      "name": "沙田禾輋美心MX 11.5結業 屹立近40載老店也難敵消費收縮？",
+      "status": "new",
+      "seen": "樓主討論沙田禾輋美心MX結業，屹立近40載老店也難敵消費收縮。淨評分 17、回覆 29。帖文關注本地經濟同老店生存。",
+      "replies": 29,
+      "viewpoints": [
+        {
+          "label": "消費收縮影響",
+          "summary": "正分反映留言多認同消費收縮令老店難捱。",
+          "share": "留言多數",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "17",
+          "comparison": "回覆 29；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L3"]
+        }
+      ],
+      "why": "香港經濟。本頁時事台相關經濟帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主討論，未核結業細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4175974/page/1",
+          "platform": "連登",
+          "author": "LamKwanYin",
+          "author_url": "https://lihkg.com/profile/355237",
+          "published_at": null,
+          "observed_at": "2026-11-04T00:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 17；回覆數最後一頁留言編號 29；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把討論當已核經濟數據。",
+      "next_steps": "下一輪再睇。"
+    },
+    {
+      "issue_id": "HK-CURRENT-TAOBAO",
+      "name": "淘多多賣大陸飲品「佳得乐」　營養標籤違反規例　食環：「當場檢控並要求下架」",
+      "status": "new",
+      "seen": "樓主轉載淘多多賣大陸飲品「佳得乐」，營養標籤違反規例，食環當場檢控並要求下架。淨評分 57、回覆 64。帖文關注食品安全同規例執行。",
+      "replies": 64,
+      "viewpoints": [
+        {
+          "label": "支持執法",
+          "summary": "正分反映留言多支持食環檢控。",
+          "share": "留言多數",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "57",
+          "comparison": "回覆 64；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L4"]
+        }
+      ],
+      "why": "香港時事。本頁時事台相關執法帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主轉載，未核執法細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4175949/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-04T00:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 57；回覆數最後一頁留言編號 64；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把轉載當已核執法。",
+      "next_steps": "下一輪再睇。"
+    },
+    {
+      "issue_id": "HK-CURRENT-EURO-SUPER",
+      "name": "歐洲至少9國超市冷藏系統再被調高溫度 被調高至50度 Coop、家樂福亦中招",
+      "status": "new",
+      "seen": "樓主轉載歐洲至少9國超市冷藏系統再被調高溫度至50度，Coop、家樂福亦中招。淨評分 48、回覆 66。帖文討論國際時事同可能影響。",
+      "replies": 66,
+      "viewpoints": [
+        {
+          "label": "關注事件",
+          "summary": "正分反映留言關注事件發展。",
+          "share": "留言多數",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "48",
+          "comparison": "回覆 66；分數正代表讚多過踩；上一輪未見。",
+          "evidence_ids": ["L5"]
+        }
+      ],
+      "why": "香港時事。本頁時事台相關國際帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主轉載，未核事件細節。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4175863/page/1",
+          "platform": "連登",
+          "author": "hhsk",
+          "author_url": "https://lihkg.com/profile/227801",
+          "published_at": null,
+          "observed_at": "2026-11-04T00:05:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 48；回覆數最後一頁留言編號 66；author_url 由帖文個人頁。"
+        }
+      ],
+      "limits": "不把轉載當已核國際事件。",
+      "next_steps": "下一輪再睇。"
+    }
+  ]
+}
