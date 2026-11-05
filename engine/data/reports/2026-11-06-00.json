@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-05T16:00:00Z",
+    "end": "2026-11-05T17:00:00Z"
+  },
+  "generated_at": "2026-11-05T16:17:45Z",
+  "summary": [
+    "00 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，經 api_v2/thread/hot 及 thread/{id}/page/1（桌面 UA＋Referer）讀淨評分、no_of_reply、user_id；五帖已開第 1 頁。",
+    "青年：有人喺 Threads 捉人出軌（579、回覆 631），留言多數嘲綠帽／三方都要檢討、少數嫌咩都上網。香港政府官員：本輪熱門無民青局／教育局／具名局長或議員帖，改用「李澤楷：未來行政長官要懂世界大局」（200、回覆 78）；留言多數讀成指桑罵槐「而家嗰個唔識」。",
+    "內地：跟進觀塘 APM「從觀塘APM單野 就知香港搞鳩自己友最叻」（116、回覆 53），樓主對照「大陸婆打阿婆」同阿婆判監；留言多數撐阿婆／嬲雙標，亦有反指樓主五毛。香港時事：「黃之鋒：唉，攪錯。。。」（455、回覆 184；21 點 145／98），留言仍圍繞政治罪起點約 10 年、律師老點。香港經濟：Lunch 得一個鐘點生存（298、回覆 128；21 點 234／124），留言仍教舊雞胸／公司瞓教。21 點五旬節 iPad、徐洋原帖已跌出本輪熱門 top，改跟 APM 跟帖。",
+    "情緒觀察：升＋嘲諷／憤怒＋暫名「黃之鋒『攪錯』熱度再升同李澤楷談未來特首指桑罵槐」（只見連登；李澤楷原話據報轉述；官員類用商界談特首帖代，非民青／教育局）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "列表數據取自 api_v2/thread/hot?cat_id=1（吹水台熱門）；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-THREADS-AFFAIR",
+      "name": "黐撚線，有人喺 Threads 上面捉人出軌",
+      "status": "new",
+      "seen": "樓主「比達老師」轉 Threads 連結，指有人公開捉人出軌，話「條仔大心臟」。淨評分 579（613讚−34踩）、回覆 631。第一頁留言多數嘲綠帽、話三個都要檢討、笑條仔靚過「籃波撚」都收綠帽；少數嫌「乜鳩都要擺上網」、亦有求片／人身討論。屬青年社交平台／關係討論。",
+      "replies": 631,
+      "viewpoints": [
+        {
+          "label": "嘲綠帽／三方檢討",
+          "summary": "多數留言嘲男方收綠帽、指三方都有責任要檢討，語氣以取笑為主。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "嫌公開擺上網",
+          "summary": "少數留言覺得私事唔該成日擺上網，或轉去人身／求片討論。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "579",
+          "comparison": "回覆 631；上一輪（21 點）未見此帖入選。正數代表讚多過踩（613讚−34踩）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（Threads 社交、青年關係／出軌討論）。本輪熱門無教育局／民青局／校園器材帖（五旬節 iPad 已跌出），按優先改用此青年平台熱帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載 Threads 連結同當事人身份未核；屬吹水娛樂帖。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4176488/page/1",
+          "platform": "連登",
+          "author": "比達老師",
+          "author_url": "https://lihkg.com/profile/308020",
+          "published_at": null,
+          "observed_at": "2026-11-05T16:17:45Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 579（613讚−34踩）；回覆數 631 由熱門列表 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-LI-CE-WORLD",
+      "name": "李澤楷：未來行政長官要懂世界大局",
+      "status": "new",
+      "seen": "樓主「芝麻仁冇蘑菇」轉經濟日報／截圖，引李澤楷指「未來行政長官要懂世界大局」。淨評分 200（205讚−5踩）、回覆 78。第一頁留言多數讀成指桑罵槐，爭議解讀「咁啫係話而家嗰個唔識」、有人叫「軟對抗」、亦有講「一陣封埋你間電視台」、問「餅強？」。屬商界談特首條件、非民青／教育局原帖。",
+      "replies": 78,
+      "viewpoints": [
+        {
+          "label": "讀成指桑罵槐現任",
+          "summary": "多數留言怒／嘲現任：解讀成「而家嗰個唔識世界大局」、指桑罵槐，亦有叫軟對抗。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "憂封台／政治風險",
+          "summary": "少數留言笑「一陣封埋你間電視台」或聯想其他政治人物名，視言論有風險。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "200",
+          "comparison": "回覆 78；上一輪未見此帖。正數代表讚多過踩（205讚−5踩）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員（談未來行政長官條件）。本輪熱門無民青局／教育局／議員惹火原帖，改用此真特首相關熱帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載新聞截圖／連結；李澤楷原話未逐句核全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4176869/page/1",
+          "platform": "連登",
+          "author": "芝麻仁冇蘑菇",
+          "author_url": "https://lihkg.com/profile/358086",
+          "published_at": null,
+          "observed_at": "2026-11-05T16:17:45Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 200（205讚−5踩）；回覆數 78 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "不把商界評論當政府政策；留言觀點提取自第一頁。",
+      "next_steps": "下一輪睇仲在唔在熱門及有冇官方／本人澄清。"
+    },
+    {
+      "issue_id": "CN-APM-SELF-FRIEND",
+      "name": "從觀塘 APM 單野 就知香港搞鳩自己友最叻",
+      "status": "shift",
+      "seen": "樓主「TVB打手」跟進觀塘 APM 三婦打架後續情緒：寫「大陸賤種蝦香港細佬，冇人幫」「大陸婆打阿婆，睇唔到」，並強調「阿婆打細路女就一定唔岩」。淨評分 116（141讚−25踩）、回覆 53。第一頁留言多數撐阿婆／嬲雙標、話大6細路曳；亦有反指樓主五毛／食屎、質疑「明明係佢兩個自己認罪」。21 點徐洋求情原帖（4176670）已跌出本輪熱門，改跟此情緒帖。",
+      "replies": 53,
+      "viewpoints": [
+        {
+          "label": "撐阿婆／嬲雙標",
+          "summary": "多數留言認阿婆教細路反而坐監唔妥，對照內地一方待遇，怒雙標。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "反指樓主五毛／自己認罪",
+          "summary": "少數留言反罵樓主五毛，或指兩名本地人係自己認罪、唔關「搞自己友」。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "116",
+          "comparison": "回覆 53；上一輪未見此帖（21 點跟 thread/4176670 徐洋求情 −92／162，本輪該帖跌出熱門）。正數代表讚多過踩（141讚−25踩）；屬同題情緒跟帖、非留言由踩轉讚。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（觀塘 APM 涉內地一方、跨境雙標觀感延續）。",
+      "verification": {
+        "status": "unverified",
+        "note": "樓主情緒帖；判决細節據先前報道／連登轉述，未核法庭書面全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4176866/page/1",
+          "platform": "連登",
+          "author": "TVB打手",
+          "author_url": "https://lihkg.com/profile/205506",
+          "published_at": null,
+          "observed_at": "2026-11-05T16:17:45Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 116（141讚−25踩）；回覆數 53 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔放大接機或其他未核實號召。",
+      "next_steps": "下一輪睇仲在唔在熱門；唔跟未核實接機。"
+    },
+    {
+      "issue_id": "HK-CURRENT-JOSHUA-OOPS",
+      "name": "黃之鋒：唉，攪錯。。。",
+      "status": "tracking",
+      "seen": "樓主「金正男」開帖標題「黃之鋒：唉，攪錯。。。」，內文「以為已經接受，原來都好痛苦」「係咪以為認錯會判幾年就算」。淨評分 455（473讚−18踩）、回覆 184。第一頁留言多數指政治罪量刑起點約 10 年、貼住 10 年已係最低消費，嘲「又畀邊個律師老點」；亦有講成年人要承擔後果、乖乖坐或可能坐五年。",
+      "replies": 184,
+      "viewpoints": [
+        {
+          "label": "政治罪起點／律師老點",
+          "summary": "多數高讚留言指此類政治罪起點約 10 年，並嘲以為認罪減刑、律師／法律意見老點。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "承擔後果／坐完算",
+          "summary": "部分留言指做錯就要承擔，或估乖乖坐或可早啲走。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "455",
+          "comparison": "回覆 184；21 點同帖為 145／98。正數代表讚多過踩（473讚−18踩）。淨評分升逾 30，帖仍在、觀點未變（仍嘲起點／律師），屬列表刷新／熱度上升。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港時事（黃之鋒判刑後熱門討論延續）。",
+      "verification": {
+        "status": "unverified",
+        "note": "標題屬連登戲仿／情緒帖；判刑年期據報道轉述，未核判決書全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4176814/page/1",
+          "platform": "連登",
+          "author": "金正男",
+          "author_url": "https://lihkg.com/profile/592151",
+          "published_at": null,
+          "observed_at": "2026-11-05T16:17:45Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 455（473讚−18踩）；回覆數 184 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁。",
+      "next_steps": "下一輪睇『攪錯』帖仲企唔企熱門。"
+    },
+    {
+      "issue_id": "HK-ECON-LUNCH-1HR",
+      "name": "Lunch 得一個鐘嘅大家係點生存？",
+      "status": "tracking",
+      "seen": "樓主「銀影」計 lift／行路／等位後實際食飯可能得 10 分鐘，問發明一小時 lunch 係咩心態。淨評分 298（333讚−35踩）、回覆 128。第一頁留言多數教食舊雞胸 4 分鐘＋瞓教、買麥記返公司慢慢食；亦有由返學起已覺社會迫人狼吞虎嚥、或話提早食完即訓。",
+      "replies": 128,
+      "viewpoints": [
+        {
+          "label": "慳時間／公司瞓教術",
+          "summary": "多數留言分享快食舊雞胸、外賣返公司、lunch 瞓教補眠。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "覺一小時太賤／社會迫食",
+          "summary": "部分留言由返學起已覺得被迫狼吞虎嚥，覺得一小時 lunch 設計唔人道。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "298",
+          "comparison": "回覆 128；21 點同帖為 234／124。正數代表讚多過踩（333讚−35踩）。淨評分升逾 30，帖仍在、觀點未變，屬列表刷新／熱度上升。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港經濟（打工午餐時長、職場生存成本感）。",
+      "verification": {
+        "status": "unverified",
+        "note": "屬職場吹水帖；無官方工時統計核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4176614/page/1",
+          "platform": "連登",
+          "author": "銀影",
+          "author_url": "https://lihkg.com/profile/430712",
+          "published_at": null,
+          "observed_at": "2026-11-05T16:17:45Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 298（333讚−35踩）；回覆數 128 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁。",
+      "next_steps": "下一輪睇仲在唔在熱門。"
+    }
+  ]
+}
