@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-05T10:00:00Z",
+    "end": "2026-11-05T11:00:00Z"
+  },
+  "generated_at": "2026-11-05T10:15:00Z",
+  "summary": [
+    "18 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，經 api_v2/thread/hot 及 thread/{id}/page/1（桌面 UA＋Referer）讀淨評分、no_of_reply、user_id；四帖已開第 1 頁。",
+    "青年：何文田五旬節中學失 58 部 iPad 等教學器材、警通緝剛離職 IT 鎖匙保管人（36、回覆 98），留言多數質疑值唔值得偷、估內鬼／賭錢變現。香港政府官員：本輪熱門無民青局／教育局／具名局長或議員帖，官員類從缺（15 點宏福苑問責／鄧炳強帖已跌出）。",
+    "內地：觀塘 apm 三婦打架，內地女子徐洋求改簽守行為獲批，爭議句「我确实有打阿婆，但我忍了好久才打」（−71、回覆 112），留言多數嬲「天龍人」待遇、老婦判監 20 日。香港時事：黃之鋒認串謀勾結判囚 10 年、料服刑至 2036（−163、回覆 213；同頁另帖討論出獄後職業 −46／52），撐判留言被大量踩。香港經濟：Lunch 得一個鐘點生存（103、回覆 87），留言多數教訓教／外賣慳時間。",
+    "情緒觀察：升＋憤怒／反感＋暫名「黃之鋒判十年同 apm 打架雙標」（只見連登；官員類從缺；徐洋求情原話據報道轉述）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "列表數據取自 api_v2/thread/hot?cat_id=1（吹水台熱門）；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-PENTECOST-IPAD",
+      "name": "何文田五旬節中學失 58 部 iPad 等器材 總值約 28 萬 警通緝剛離職 IT 鎖匙保管人",
+      "status": "new",
+      "seen": "樓主「mnmmnn」報：何文田五旬節中學盤點時發現上鎖 IT 機房一批全新教學電子器材失竊，包括 58 部 iPad、MacBook Pro 及相機，總值約 $286,508；警方通緝剛離職、曾保管機房鎖匙的 IT 人員。淨評分 36、回覆 98。第一頁留言多數質疑「賣晒都唔夠 30 萬、IT 狗傻咗」、估賭錢變現再買番頂數、或新舊 IT 交接甩漏；亦有話「除非移民否則一定捉到」。",
+      "replies": 98,
+      "viewpoints": [
+        {
+          "label": "質疑值唔值／內鬼必捉",
+          "summary": "多數留言覺得總值偏低唔值得冒坐牢風險，並估計係剛離職保管鎖匙者所為，若未移民終會被捉。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "估賭錢變現／交接甩漏",
+          "summary": "部分留言估先賣貨套現再賭大翻本買番同款頂數，或新入職 IT 接手盤點先爆煲。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "36",
+          "comparison": "回覆 98；上一輪未見此帖。正數代表讚多過踩（37讚−1踩）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（中學、教學器材、校園管理）。熱門頁教育／學校相關帖，按優先入選青年類；15 點教育局拼音帖已跌出熱門。",
+      "verification": {
+        "status": "unverified",
+        "note": "據連登轉述報案細節；失竊清單、通緝對象身份未逐項核官方公報。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4176657/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-05T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 36（37讚−1踩）；回覆數 98 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；通緝是否已落案未跟進其他來源。",
+      "next_steps": "下一輪睇仲在唔在熱門及有冇被捕消息。"
+    },
+    {
+      "issue_id": "CN-APM-FIGHT-XU",
+      "name": "觀塘 apm 三婦打架：內地女子徐洋求改簽守行為獲批「我确实有打阿婆，但我忍了好久才打」",
+      "status": "new",
+      "seen": "樓主「mnmmnn」報觀塘裁判法院提訊：觀塘 apm 三女打鬥案，被指推撞掌摑女童的六旬婦梁某認襲擊判囚 20 日及罰款 $3,000；內地母親徐洋（雙程證）求改簽保守行為獲批，報道引其爭議句「我确实有打阿婆，但我忍了好久才打」。淨評分 −71、回覆 112。第一頁留言多數嬲「天龍人」待遇、話「廢老輸咗」、指打尖搶波慣犯女童同母親反而甩身；同頁另帖「香港賤種呀婆」判監 20 日（−32、回覆 187）一併討論雙標。",
+      "replies": 112,
+      "viewpoints": [
+        {
+          "label": "嬲雙標／「天龍人」待遇",
+          "summary": "多數留言認為內地女子打阿婆仍獲守行為、老婦卻判監，係身分待遇唔公平；嬲因係「我确实有打阿婆，但我忍了好久才打」被視為理直氣壯。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "理清誰先動手",
+          "summary": "少數留言指片中或報道顯示徐先摑梁，梁再襲擊並波及女童，案情唔係單方面。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-71",
+          "comparison": "回覆 112；上一輪未見此帖。負數代表踩多過讚（2讚−73踩），留言顯示踩多屬嬲判決／求情而非撐徐。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（赴港內地人士、法庭待遇爭議）。熱門頁有相關帖；爭議句用引號標出，惹火優先。",
+      "verification": {
+        "status": "unverified",
+        "note": "庭上原話、改簽理由據連登／報道轉述，未核判決書全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4176670/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-05T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -71（2讚−73踩）；回覆數 112 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；同案另一帖未並列為獨立議題。",
+      "next_steps": "下一輪睇仲在唔在熱門及守行為條件有冇後續。"
+    },
+    {
+      "issue_id": "HK-CURRENT-JOSHUA-SENTENCE",
+      "name": "黃之鋒認串謀勾結外國勢力判囚 10 年 料須服刑至 2036 年屆時 40 歲",
+      "status": "tracking",
+      "seen": "樓主「九龍治水」報：正就 47 人案服刑的黃之鋒，涉 2020 年串謀勾結羅冠聰等危害國安，今年 9 月認罪，周四在高等法院被判囚 10 年（報道指量刑起點較高、部分與現有刑期處理有關），料服刑至約 2036 年、屆時 40 歲。淨評分 −163、回覆 213。第一頁留言多數估「拆開嚟告、放監前再加料」、計 14 歲出道坐到 40 歲；少數撐判或嘲「手作人」遭大量踩。同頁另帖問「10 年後可做咩職業」（−46、回覆 52）。",
+      "replies": 213,
+      "viewpoints": [
+        {
+          "label": "反感判刑／嘲會再加控",
+          "summary": "多數高讚留言認為刑期殘酷或預期出獄前再被加控，對「一世都坐」表達無奈或憤怒；嬲因係覺得司法程序被用作持續收監。",
+          "share": "留言多數（按讚踩）",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "撐判／計刑期",
+          "summary": "少數留言撐判或計實際還押／刑期折抵；相關留言讚少踩多。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-163",
+          "comparison": "回覆 213；15 點同題另一帖 thread/4176590 為 −93／332，本帖上一輪未見。負數代表踩多過讚（40讚−203踩）；按留言讚踩分佈，踩多較似對判刑消息反感，而非撐判。列表刷新兼情緒延續。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事（國安案件量刑、社運人物）。熱門頁持續高回覆；15 點已跟同題，本輪改跟仍在榜、淨踩更高嘅本帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "判詞細節、與現有刑期如何併罰據報道轉述，未核判決書。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4176599/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-11-05T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 -163（40讚−203踩）；回覆數 213 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；同頁職業討論帖未並列。",
+      "next_steps": "下一輪睇仲在唔在熱門及有冇上訴／併罰澄清。"
+    },
+    {
+      "issue_id": "HK-ECON-LUNCH-1HR",
+      "name": "Lunch 得一個鐘嘅大家係點生存？",
+      "status": "new",
+      "seen": "樓主「銀影」訴苦：公司等升降機、行去餐廳、等位、落單再行返，扣完之後實際食飯可能得 10 分鐘，唔明點解標準 lunch 只有一小時。淨評分 103、回覆 87。第一頁留言多數教「食雞胸 4 分鐘訓教 56 分鐘」、公司瞓醒再買麥記邊做邊食，或話 office 一小時 lunch 好平常；少數嫌樓主懶、自己 30 分鐘已夠。",
+      "replies": 87,
+      "viewpoints": [
+        {
+          "label": "教慳時間／訓教頂",
+          "summary": "多數留言分享自備餐、外賣返公司、或 lunch 時間訓教嘅生存法，認同一小時好趕。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "嫌樓主懶／30 分夠",
+          "summary": "少數留言認為唔使投訴，食完繼續做嘢就得。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "103",
+          "comparison": "回覆 87；上一輪未見此帖。正數代表讚多過踩（121讚−18踩）。15 點袁記雲餃／股災相關經濟帖已跌出熱門。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟（工時、午餐制度、打工日常成本時間）。熱門頁無股市／銀行監管帖，改用此高分打工經濟帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "個人職場訴求帖，非統計或政策原文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4176614/page/1",
+          "platform": "連登",
+          "author": "銀影",
+          "author_url": "https://lihkg.com/profile/430712",
+          "published_at": null,
+          "observed_at": "2026-11-05T10:15:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 103（121讚−18踩）；回覆數 87 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；行業差異大。",
+      "next_steps": "下一輪睇仲在唔在熱門；若有工時／最低工資政策帖優先替換。"
+    }
+  ]
+}
