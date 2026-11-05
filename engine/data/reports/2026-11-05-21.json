@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-05T13:00:00Z",
+    "end": "2026-11-05T14:00:00Z"
+  },
+  "generated_at": "2026-11-05T13:14:48Z",
+  "summary": [
+    "21 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，經 api_v2/thread/hot 及 thread/{id}/page/1（桌面 UA＋Referer）讀淨評分、no_of_reply、user_id；四帖已開第 1 頁。",
+    "青年：何文田五旬節中學失 58 部 iPad 等教學器材、警通緝剛離職 IT 鎖匙保管人（49、回覆 115），留言多數質疑值唔值得偷、估內鬼／賭錢變現。香港政府官員：本輪熱門無民青局／教育局／具名局長或議員帖，官員類從缺（15 點宏福苑問責／鄧炳強帖仍未返熱門）。",
+    "內地：觀塘 apm 三婦打架，內地女子徐洋求改簽守行為獲批，爭議句「我确实有打阿婆，但我忍了好久才打」（−92、回覆 162），留言多數嬲「天龍人」待遇、對照阿婆判監 20 日。香港時事：熱門首帖「黃之鋒：唉，攪錯。。。」（145、回覆 98），留言多數圍繞政治罪起點約 10 年、律師／齊上齊落；同頁判囚 10 年帖仍在（−226／266）。香港經濟：Lunch 得一個鐘點生存（234、回覆 124），留言多數教食舊雞胸／公司瞓教／外賣慳時間。",
+    "情緒觀察：升＋憤怒／反感＋暫名「黃之鋒『攪錯』熱帖同 apm 徐洋雙標延續」（只見連登；官員類從缺；徐洋求情原話據報道轉述）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "列表數據取自 api_v2/thread/hot?cat_id=1（吹水台熱門）；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-PENTECOST-IPAD",
+      "name": "何文田五旬節中學失 58 部 iPad 等器材 總值約 28 萬 警通緝剛離職 IT 鎖匙保管人",
+      "status": "tracking",
+      "seen": "樓主「mnmmnn」報：何文田五旬節中學盤點時發現上鎖 IT 機房一批全新教學電子器材失竊，包括 58 部 iPad、MacBook Pro 及相機，總值約 $286,508；警方通緝剛離職、曾保管機房鎖匙的 IT 人員。淨評分 49、回覆 115。第一頁留言多數質疑「賣晒都唔夠 30 萬、IT 狗傻咗」、估賭錢變現再買番頂數、或新舊 IT 交接甩漏；亦有話「除非移民否則一定捉到」。",
+      "replies": 115,
+      "viewpoints": [
+        {
+          "label": "質疑值唔值／內鬼必捉",
+          "summary": "多數留言覺得總值偏低唔值得冒坐牢風險，並估計係剛離職保管鎖匙者所為，若未移民終會被捉。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "估賭錢變現／交接甩漏",
+          "summary": "部分留言估先賣貨套現再賭大翻本買番同款頂數，或新入職 IT 接手盤點先爆煲；亦有提學校應雷射校名／用 SN 封機。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "49",
+          "comparison": "回覆 115；18 點同帖為 36／98。正數代表讚多過踩（51讚−2踩）。變動未過 30，列表刷新、觀點未變。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（中學、教學器材、校園管理）。熱門頁教育／學校相關帖，按優先入選青年類。",
+      "verification": {
+        "status": "unverified",
+        "note": "據連登轉述報案細節；失竊清單、通緝對象身份未逐項核官方公報。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4176657/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-05T13:14:48Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 49（51讚−2踩）；回覆數 115 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；通緝是否已落案未跟進其他來源。",
+      "next_steps": "下一輪睇仲在唔在熱門及有冇被捕消息。"
+    },
+    {
+      "issue_id": "CN-APM-FIGHT-XU",
+      "name": "觀塘 apm 三婦打架 內地女子徐洋求改簽守行為獲批「我确实有打阿婆，但我忍了好久才打」",
+      "status": "tracking",
+      "seen": "樓主「mnmmnn」轉述：觀塘 apm 三婦打架案，內地女子徐洋求改簽守行為獲法庭批准；爭議句「我确实有打阿婆，但我忍了好久才打」。淨評分 −92、回覆 162。第一頁留言多數標「天龍人」、對照阿婆／本地一方判監 20 日同罰款，怒法庭對內地被告較輕。",
+      "replies": 162,
+      "viewpoints": [
+        {
+          "label": "嬲「天龍人」雙標",
+          "summary": "多數留言指同樣打人，內地一方守行為、本地阿婆入監，認為官偏袒「天龍人」。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "嘲求情理由",
+          "summary": "部分留言嘲「忍咗好耐先打」唔成求情；亦有提同場其他涉打尖／推跌幼童個案被指無事。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-92",
+          "comparison": "回覆 162；18 點同帖為 −71／112。負數代表踩多過讚（3讚−95踩）；按留言，踩多屬嬲判決／求情而非撐徐。變動未過 30，情緒延續。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（涉內地被告、跨境觀感／雙標敘事）。",
+      "verification": {
+        "status": "unverified",
+        "note": "求情原話及改簽細節據報道／連登轉述；未核法庭書面判決全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4176670/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-05T13:14:48Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 −92（3讚−95踩）；回覆數 162 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；判决書原文未核。",
+      "next_steps": "下一輪睇仲在唔在熱門；唔放大接機或其他未核實號召。"
+    },
+    {
+      "issue_id": "HK-CURRENT-JOSHUA-OOPS",
+      "name": "黃之鋒：唉，攪錯。。。（熱門首帖）",
+      "status": "new",
+      "seen": "樓主「金正男」開帖標題「黃之鋒：唉，攪錯。。。」，掛在黃之鋒認串謀勾結判囚 10 年後的熱門討論。淨評分 145、回覆 98。第一頁留言多數圍繞「政治罪量刑起點約 10 年已經係最低消費」、律師仲有邊個接、齊上齊落只得一人坐；同頁另帖「認串謀勾結囚 10 年　料服刑至 2036」仍在熱門（−226、回覆 266），撐「繼續告／一世坐」留言高讚、原帖被大量踩。",
+      "replies": 98,
+      "viewpoints": [
+        {
+          "label": "政治罪起點／法律意見嘲諷",
+          "summary": "多數高讚留言指此類政治罪起點約 10 年，貼住 10 年已係最低；並嘲「法律意見勁過律師」、政府可派律師。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "齊上齊落／前線打卡批判",
+          "summary": "部分留言指以前上前線打卡、而家只剩一人坐，親密戰友「風流快活」、網上吠當齊上齊落。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "145",
+          "comparison": "回覆 98；上一輪未見此帖（18 點主帖為 thread/4176599 −163／213，本輪同題另帖仍在 −226／266）。正數代表讚多過踩（153讚−8踩）。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事（黃之鋒判刑後熱門首帖討論）。",
+      "verification": {
+        "status": "unverified",
+        "note": "標題屬連登戲仿／情緒帖；判刑年期據報道轉述，未核判決書全文。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4176814/page/1",
+          "platform": "連登",
+          "author": "金正男",
+          "author_url": "https://lihkg.com/profile/592151",
+          "published_at": null,
+          "observed_at": "2026-11-05T13:14:48Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 145（153讚−8踩）；回覆數 98 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；同題另帖 4176599 未另開卡，只在 seen／summary 交代。",
+      "next_steps": "下一輪睇『攪錯』帖同判刑帖邊條仲企熱門。"
+    },
+    {
+      "issue_id": "HK-ECON-LUNCH-1HR",
+      "name": "Lunch 得一個鐘嘅大家係點生存？",
+      "status": "tracking",
+      "seen": "樓主「銀影」問上班族 Lunch 只得一小時點生存。淨評分 234、回覆 124。第一頁留言多數教食舊雞胸／公司瞓教、買外賣返公司慢慢食、彈性 lunch 窗口實際食超過一小時；亦有話「準時一個鐘返真係好低賤」。",
+      "replies": 124,
+      "viewpoints": [
+        {
+          "label": "慳時間／公司瞓教術",
+          "summary": "多數留言分享快食舊雞胸、麥記外賣返公司、瞓教補眠，或用彈性時段實際延長休息。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "覺一小時太賤／社會迫食",
+          "summary": "部分留言由返學起已覺得被迫狼吞虎嚥，覺得準時收一小時好低賤。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "234",
+          "comparison": "回覆 124；18 點同帖為 103／87。正數代表讚多過踩（264讚−30踩）。淨評分升逾 30，帖仍在、觀點未變，屬列表刷新／熱度上升。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟（打工午餐時長、職場生存成本感）。",
+      "verification": {
+        "status": "unverified",
+        "note": "屬職場吹水帖；無官方工時統計核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4176614/page/1",
+          "platform": "連登",
+          "author": "銀影",
+          "author_url": "https://lihkg.com/profile/430712",
+          "published_at": null,
+          "observed_at": "2026-11-05T13:14:48Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 234（264讚−30踩）；回覆數 124 由 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁。",
+      "next_steps": "下一輪睇仲在唔在熱門。"
+    }
+  ]
+}
