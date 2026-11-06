@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-06T04:00:00Z",
+    "end": "2026-11-06T05:00:00Z"
+  },
+  "generated_at": "2026-11-06T04:18:00Z",
+  "summary": [
+    "12 點版。以熱門頁 https://lihkg.com/category/1?order=hot 為準，經 api_v2/thread/hot 及 thread/{id}/page/1（桌面 UA 以及 Referer）讀淨評分、no_of_reply、user_id；五帖已開第 1 頁。本輪熱門仍無民青局／教育局／校園器材帖。",
+    "青年：續跟「有人喺 Threads 捉人出軌」（649、回覆 717；09 點 638／673），留言仍多數嘲綠帽／三方檢討、少數嫌咩都上網。香港政府官員：09 點跟國安處促羅冠聰自首已跌出熱門；本輪改跟「政府：將依法充公 黃之鋒 犯罪相關財產」（−80、回覆 68），留言多數嘲充公無用／冇錢可充；李澤楷談未來特首仍在熱門（490、回覆 145）但非官員本人發言，故跟真政府執法帖。",
+    "內地：續跟觀塘 APM「從觀塘APM單野 就知香港搞鳩自己友最叻」（375、回覆 116；09 點 293／91），留言多數撐阿婆／嬲雙標，亦有反指樓主五毛。香港時事：「黃之鋒：唉，攪錯。。。」（771、回覆 263；09 點 703／240），留言仍圍繞政治罪起點約 10 年、「以為認罪會減刑」／律師老點。香港經濟：09 點跟股災帖已跌出熱門；本輪改跟「有無人既消費開始愈來愈降級?」（−76、回覆 91），留言多數認早已降級／輸錢要慳。",
+    "情緒觀察：升＋嘲諷／憤怒＋暫名「黃之鋒『攪錯』再升、政府充公遭踩、消費降級入榜」（只見連登；充公說法據轉述；未核實接機或旅行線本輪熱門未見）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "列表數據取自 api_v2/thread/hot?cat_id=1（吹水台熱門）；帖文摘錄取自 api_v2/thread/{id}/page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-THREADS-AFFAIR",
+      "name": "黐撚線，有人喺threads上面捉人出軌",
+      "status": "tracking",
+      "seen": "樓主「比達老師」轉 Threads 連結，指有人公開捉人出軌，話「條仔大心臟」。淨評分 649（685讚−36踩）、回覆 717。第一頁留言多數嘲綠帽／三方檢討、笑條仔靚過籃波撚都收綠帽；少數嫌「乜鳩都要擺上網」、亦有求片／人身討論。屬青年社交平台／關係討論。",
+      "replies": 717,
+      "viewpoints": [
+        {
+          "label": "嘲綠帽／三方檢討",
+          "summary": "多數留言嘲男方收綠帽、指三方都有責任要檢討，語氣以取笑為主。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "嫌公開擺上網",
+          "summary": "少數留言覺得私事唔該成日擺上網，或轉去人身／求片討論。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "649",
+          "comparison": "回覆 717；上一輪（09 點）638。淨評分升 11（≤30），帖仍在、觀點未變，屬列表刷新。正數代表讚多過踩（685讚−36踩）。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（Threads 社交、青年關係／出軌討論）。本輪熱門無教育局／民青局／校園器材帖，續跟此青年平台熱帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "轉載 Threads 連結同當事人身份未核；屬吹水娛樂帖。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4176488/page/1",
+          "platform": "連登",
+          "author": "比達老師",
+          "author_url": "https://lihkg.com/profile/308020",
+          "published_at": null,
+          "observed_at": "2026-11-06T04:18:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 649（685讚−36踩）；回覆數 717 由熱門列表 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-CONFISCATE-JOSHUA",
+      "name": "政府：將依法充公 黃之鋒 犯罪相關財產。",
+      "status": "new",
+      "seen": "樓主「建興昆水豪」轉政府說法，標題即爭議句：「將依法充公 黃之鋒 犯罪相關財產」。淨評分 −80（18讚−98踩）、回覆 68。第一頁留言多數質疑充公實際用途／笑佢應該冇錢、扯 USAID／資金凍結舊聞；亦有喊「自首認罪伏法賠償」或叫等正式新聞稿。屬香港政府官員／執法機關財產充公言論。",
+      "replies": 68,
+      "viewpoints": [
+        {
+          "label": "嬲／嘲充公無用或冇錢可充",
+          "summary": "多數留言質疑充公實際意義，指當事人未必有錢、或笑政府講完等公佈，語氣以嘲諷為主。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "扯外國資金／要伏法賠償",
+          "summary": "少數留言扯 USAID 或舊年美方凍結香港相關項目資金，或以「自首認罪伏法賠償」口號回應。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-80",
+          "comparison": "回覆 68；上一輪未見（09 點跟國安處促羅冠聰自首已跌出本輪熱門）。負數代表踩多過讚（18讚−98踩）。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員（政府依法充公黃之鋒犯罪相關財產言論）。本輪熱門無民青局／教育局；國安處促自首帖已跌出熱門；李澤楷談未來特首仍在熱門（490、回覆 145）但非官員本人發言，故改跟此真政府執法帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "連登轉述政府說法；正式憲報／新聞稿措辭未逐字核對。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4176727/page/1",
+          "platform": "連登",
+          "author": "建興昆水豪",
+          "author_url": "https://lihkg.com/profile/245856",
+          "published_at": null,
+          "observed_at": "2026-11-06T04:18:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 −80（18讚−98踩）；回覆數 68 由熱門列表 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "CN-APM-SELF-FRIEND",
+      "name": "從觀塘APM單野 就知香港搞鳩自己友最叻",
+      "status": "tracking",
+      "seen": "樓主「TVB打手」以觀塘 APM 事件批評「香港搞鳩自己友最叻」，對照大陸人蝦香港細佬／大陸婆打阿婆無人幫，稱唔理細節只知阿婆打細路女一定唔岩。淨評分 375（425讚−50踩）、回覆 116。第一頁留言多數撐阿婆／罵大陸細路、指香港人唔夠團結；亦有反指樓主五毛、或指雙方認罪唔關香港人推倒。屬內地／港陸對立情緒。",
+      "replies": 116,
+      "viewpoints": [
+        {
+          "label": "撐阿婆／嬲雙標",
+          "summary": "多數留言撐阿婆、嬲大陸細路／雙標，或以「自己友」框架罵港人互相踩。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "反指樓主／講雙方責任",
+          "summary": "少數留言指樓主五毛，或指雙方認罪、唔關「香港人搞自己友」。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "375",
+          "comparison": "回覆 116；上一輪（09 點）293。淨評分升 82（>30），帖仍在、觀點未變，屬列表刷新／熱度續升。正數代表讚多過踩（425讚−50踩）。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（港陸衝突／觀塘 APM 事件引發對內地與「自己友」雙標討論）。",
+      "verification": {
+        "status": "unverified",
+        "note": "事件細節同片段來源未逐一核對；屬連登吹水情緒帖。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4176866/page/1",
+          "platform": "連登",
+          "author": "TVB打手",
+          "author_url": "https://lihkg.com/profile/205506",
+          "published_at": null,
+          "observed_at": "2026-11-06T04:18:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 375（425讚−50踩）；回覆數 116 由熱門列表 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "HK-CURRENT-JOSHUA-OOPS",
+      "name": "黃之鋒：唉，攪錯。。。",
+      "status": "tracking",
+      "seen": "樓主「金正男」以「黃之鋒：唉，攪錯。。。」為題，正文寫「以為已經接受，原來都好痛苦」「係咪以為認錯會判幾年就算」。淨評分 771（800讚−29踩）、回覆 263。第一頁留言多數圍繞政治罪量刑起點約 10 年、指「以為認罪會減刑」／律師老點；亦有反指做錯要承擔、諷以後案例個個 10yrs up。屬香港時事／國安案判刑討論。",
+      "replies": 263,
+      "viewpoints": [
+        {
+          "label": "以為認罪減刑／律師老點",
+          "summary": "多數留言嘲「以為認罪會減刑」、指政治罪起點貼近 10 年，或怪律師／「老點」。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "做錯要承擔／案例定調",
+          "summary": "少數留言指成年人做錯要承擔，或諷以後個個政治罪 10 年起跳。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "771",
+          "comparison": "回覆 263；上一輪（09 點）703。淨評分升 68（>30），帖仍在、觀點未變，屬列表刷新／熱度續升。正數代表讚多過踩（800讚−29踩）。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港時事（黃之鋒國安案判刑後連登熱議「攪錯」／認罪預期）。",
+      "verification": {
+        "status": "unverified",
+        "note": "標題同正文屬連登轉述／戲仿語氣；判刑細節以公開報道為準，本帖未逐字核。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4176814/page/1",
+          "platform": "連登",
+          "author": "金正男",
+          "author_url": "https://lihkg.com/profile/592151",
+          "published_at": null,
+          "observed_at": "2026-11-06T04:18:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 771（800讚−29踩）；回覆數 263 由熱門列表 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "HK-ECON-CONSUMPTION-DOWNGRADE",
+      "name": "有無人既消費開始愈來愈降級?",
+      "status": "new",
+      "seen": "樓主「慘過番印度」問「有無人既消費開始愈來愈降級」，自述由 Nike／星巴克／新 game／Apple 轉去回力李寧、拼多多過期特價咖啡、離線 Steam、性價比電子產品。淨評分 −76（37讚−113踩）、回覆 91。第一頁留言多數認早已降級（快餐／淘寶拼多多）或扯近日輸錢要降級；亦有反指 Apple Store 仍多人、笑「明明係升級」。屬香港經濟／消費情緒。",
+      "replies": 91,
+      "viewpoints": [
+        {
+          "label": "認早已降級／輸錢要慳",
+          "summary": "多數留言認消費早已降級，或指近日股市輸錢令開支再收緊，語氣以呻窮為主。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "反指未降／笑升級",
+          "summary": "少數留言指 Apple Store 仍旺、或反諷「明明係升級」、要求拼多多連結。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-76",
+          "comparison": "回覆 91；上一輪未見（09 點跟「今次真係股災了」已跌出本輪熱門）。負數代表踩多過讚（37讚−113踩）。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港經濟（本地消費降級／慳錢討論，反映市民開支情緒）。",
+      "verification": {
+        "status": "unverified",
+        "note": "個人消費自述未核；屬吹水經濟情緒帖。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4177046/page/1",
+          "platform": "連登",
+          "author": "慘過番印度",
+          "author_url": "https://lihkg.com/profile/33359",
+          "published_at": null,
+          "observed_at": "2026-11-06T04:18:00Z",
+          "read_level": "opened",
+          "note": "熱門列表淨評分 −76（37讚−113踩）；回覆數 91 由熱門列表 API no_of_reply；author_url 由 api user_id；已開回覆第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    }
+  ]
+}
