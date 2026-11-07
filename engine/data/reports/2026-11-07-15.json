@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-07T07:00:00Z",
+    "end": "2026-11-07T08:00:00Z"
+  },
+  "generated_at": "2026-11-07T07:12:00Z",
+  "summary": [
+    "15 點版（2026-11-07）。以熱門頁 https://lihkg.com/category/1?order=hot 為準；本輪 api_v2/thread/hot?cat_id=1 及 thread/{id}/page/1 均成功（桌面 UA 加 Referer），淨評分與回覆數取自熱門 API（like−dislike／no_of_reply），五帖已開第 1 頁。本輪熱門仍無民青局／教育局帖；上一輪內地淘多多佳得乐帖已跌出熱門，內地改跟煙台馬拉松海鮮補給遭哄搶。",
+    "青年：續跟「threads 出軌事件上咗twitter熱門，已經千五萬views」（483、回覆 416；12 點 432／382），高讚仍係「莫勸他人善／出軌抵受回報」，並指已上大陸熱搜。香港政府官員：續跟「李澤楷狠批家超：無謂阿茂整餅，去做冇競爭力嘅嘢」（242、回覆 114；12 點 202／103），爭議句「無謂阿茂整餅，去支持一啲冇競爭力嘅嘢」；留言多數認真話難聽、施政原地退步，少數指李家搶口。",
+    "內地：改跟「煙台馬拉松　設6000kg海鮮補給遭哄搶　大媽湧入掃貨　跑手零收穫」（33、回覆 33；上一輪未見），留言一面倒嘲「中國特色0元購」。香港時事：續跟「黃之鋒求情信流出」（623、回覆 291；12 點 573／271），高讚仍偏「理解極限／比機會」，另有愛國KOL出路之說。香港經濟：續跟「CLS出年啲紅假蝕撚哂」（383、回覆 97；12 點 365／93），呻蝕假要立法補假，兼有人糾正復活節日曆。",
+    "情緒觀察：升＋同情與嘲諷並行（求情信、Threads 出軌、李澤楷阿茂整餅三線淨評再升逾 40）＋暫名「求情信續升、Threads出軌續熱、阿茂整餅再升、煙台海鮮哄搶頂上內地、CLS紅假續經濟」（只見連登；宏福苑／接機線本輪熱門未見、未核實；事件細節未獨立核對）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "熱門淨評分與回覆數取自 api_v2/thread/hot?cat_id=1（桌面 UA）；author_url 取自 API response.user.user_id；留言觀點取自各帖 api_v2/thread/{id}/page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "HK-YOUTH-THREADS-CHEAT",
+      "name": "threads 出軌事件上咗twitter熱門，已經千五萬views",
+      "status": "tracking",
+      "seen": "樓主「屠猶肉餅」轉 X 連結，指 Threads 出軌事件已上 Twitter／X 熱門、逾千五萬 views，並寫「說好香港故事，柒出國際」。熱門列表淨評分 483；回覆 416（API no_of_reply）。留言最高讚仍係「未經他人苦，莫勸他人善……出軌本來就係唔啱，佢只係受返應得嘅回報」，其次指「大陸熱搜，有4千幾萬人睇左」、正評男友斯文冷靜、多國語言留言；另有留言指男方已刪帖、問當事人有冇原諒。屬青年感情與網絡曝光出圈討論。本輪熱門仍無民青局／教育局帖，故青年續跟此線。",
+      "replies": 416,
+      "viewpoints": [
+        {
+          "label": "認出軌抵受回報／莫勸他人善",
+          "summary": "高讚留言側多數認為出軌本來就不對，被公開屬應得回報，並反問若自己被背叛能否笑著分手。",
+          "share": "留言高讚側較多",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "驚出圈／大陸熱搜與多國食花生",
+          "summary": "部分留言聚焦事件已上大陸熱搜、多國語言留言，討論「香港故事」國際化；少數留意男方刪帖、追問後續。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "483",
+          "comparison": "回覆 416；上一輪（12 點）432。淨評分升 51（>30），帖仍在、高讚觀點仍以認出軌抵受回報為主，屬列表刷新。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（Threads 出軌事件上 X 熱門、青年感情與網絡曝光出圈）。本輪熱門無民青局／教育局／校園教育帖，故續跟此線。",
+      "verification": {
+        "status": "unverified",
+        "note": "連登轉 X 熱度與截圖；瀏覽量與當事人說法未獨立核對；唔寫真名／相。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4177383/page/1",
+          "platform": "連登",
+          "author": "屠猶肉餅",
+          "author_url": "https://lihkg.com/profile/714715",
+          "published_at": null,
+          "observed_at": "2026-11-07T07:12:00Z",
+          "read_level": "opened",
+          "note": "熱門 API 淨評分 483（501讚−18踩）；回覆 416＝no_of_reply；author_url 由 API user_id；已開第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "HK-OFFICIAL-LI-AMO",
+      "name": "李澤楷狠批家超：無謂阿茂整餅，去做冇競爭力嘅嘢",
+      "status": "tracking",
+      "seen": "樓主「移民保全家」轉傳媒專訪：李澤楷開出未來特首三條件（團結香港、了解民心、「懂得世界大局，知道香港的脆弱同長處喺邊」），評北上消費「如果深圳中菜館又平又好食……你係阻擋唔住嘅」，並呼籲政府「無謂阿茂整餅，去支持一啲冇競爭力嘅嘢」。熱門列表淨評分 242；回覆 114（API no_of_reply）。留言高讚側寫「真話永遠難聽又虛耗左幾年 原地退步」、拆解其守住法律會計專業優勢之說；少數指李家「被大陸邊緣化所以先出黎咁搶口」。本輪熱門無民青局／教育局帖，官員類續跟此特首相關惹火言論帖。",
+      "replies": 114,
+      "viewpoints": [
+        {
+          "label": "點解嬲：施政原地踏步／阿茂整餅講中",
+          "summary": "高讚側認為「阿茂整餅」直指政府撐冇競爭力產業、虛耗幾年原地退步，真話難聽但講中。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "質疑動機：李家被邊緣化搶口",
+          "summary": "少數留言認為李家近年與中央關係疏離，突然高調係搶口，未必有官方溝通渠道。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "242",
+          "comparison": "回覆 114；上一輪（12 點）202。淨評分升 40（>30），帖仍在、觀點仍以認阿茂整餅講中為主，屬列表刷新。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員（李澤楷公開評現屆／未來特首條件，「阿茂整餅」批政府政策惹議）。本輪熱門無民青局／教育局，故續跟此特首相關熱帖。",
+      "verification": {
+        "status": "unverified",
+        "note": "連登轉述傳媒專訪；原話與語境以原始訪問為準；宏福苑／接機未見。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4177370/page/1",
+          "platform": "連登",
+          "author": "移民保全家",
+          "author_url": "https://lihkg.com/profile/132380",
+          "published_at": null,
+          "observed_at": "2026-11-07T07:12:00Z",
+          "read_level": "opened",
+          "note": "熱門 API 淨評分 242（247讚−5踩）；回覆 114＝no_of_reply；author_url 由 API user_id；已開第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相；唔放大接機。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "CN-YANTAI-MARATHON-SEAFOOD",
+      "name": "煙台馬拉松　設6000kg海鮮補給遭哄搶　大媽湧入掃貨　跑手零收穫",
+      "status": "new",
+      "seen": "樓主「會員271829」轉載報道：山東 2026 煙台馬拉松（11 月 1 日）終點備逾 1 萬斤現蒸扇貝花蛤慰勞跑手，海鮮上桌即遭圍觀市民及「大媽」持膠袋哄搶、餐桌被壓塌，完賽跑手零收穫。熱門列表淨評分 33；回覆 33（API no_of_reply）。留言高讚側一面倒嘲諷，如「这就是中国.jpg」「中國特色0元購」「支那人會守秩序 簡直天方夜譚」，亦有人話下次搵解放軍守住。上一輪內地跟嘅淘多多佳得乐帖已跌出熱門，故改跟此帖。",
+      "replies": 33,
+      "viewpoints": [
+        {
+          "label": "嘲內地公德／「0元購」",
+          "summary": "高讚留言幾乎一面倒以哄搶事件嘲諷內地秩序與公德，用「中國特色0元購」等字眼。",
+          "share": "留言絕大多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "建議加強秩序管理",
+          "summary": "少量留言半開玩笑話要派人（解放軍）守住補給，指主辦方管理不足；未見有人為搶食者辯護。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "33",
+          "comparison": "回覆 33；上一輪未見（12 點內地跟淘多多佳得乐標籤帖；該帖本輪跌出熱門）。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（山東煙台馬拉松海鮮補給遭市民哄搶，屬內地社會秩序新聞）。本輪改跟。",
+      "verification": {
+        "status": "unverified",
+        "note": "連登轉載傳媒報道；現場情況與主辦方回應以原始報道／官方為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4177379/page/1",
+          "platform": "連登",
+          "author": "會員271829",
+          "author_url": "https://lihkg.com/profile/271829",
+          "published_at": null,
+          "observed_at": "2026-11-07T07:12:00Z",
+          "read_level": "opened",
+          "note": "熱門 API 淨評分 33（34讚−1踩）；回覆 33＝no_of_reply；author_url 由 API user_id；已開第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "HK-CURRENT-JOSHUA-PLEA",
+      "name": "黃之鋒求情信流出",
+      "status": "tracking",
+      "seen": "樓主「九龍治水」貼出黃之鋒求情信全文連結（「本人自 2020 年 11 月 23 日起在囚，至今將近六年，服刑之時年僅 24 歲……」）。熱門列表淨評分 623；回覆 291（API no_of_reply）。留言高讚仍偏同情理解：「每個人都有極限……我理解佢做法」「好誠懇 比個機會啦」「坐監仲耐過昂山素姬」；亦有留言估政府想佢做「愛國kol」、提認識祖國計劃，少數反問「你代佢坐？」。",
+      "replies": 291,
+      "viewpoints": [
+        {
+          "label": "理解極限／比機會",
+          "summary": "高讚側認為長期在囚有極限，求情可以理解，信寫得誠懇，應比機會。",
+          "share": "留言高讚側較多",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "愛國KOL出路／揶揄",
+          "summary": "部分留言估政府會利用其政治價值做愛國宣傳，或以張敬軒作比；少數反駁同情者「你代佢坐？」。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "623",
+          "comparison": "回覆 291；上一輪（12 點）573。淨評分升 50（>30），帖仍在、觀點仍以理解極限／比機會為高讚主軸，屬列表刷新。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港時事（黃之鋒國安案求情信流出後連登熱議；本輪分數再升故續跟）。",
+      "verification": {
+        "status": "unverified",
+        "note": "連登轉載求情信文本；信文真偽與法庭採納情況以官方紀錄為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4177331/page/1",
+          "platform": "連登",
+          "author": "九龍治水",
+          "author_url": "https://lihkg.com/profile/362827",
+          "published_at": null,
+          "observed_at": "2026-11-07T07:12:00Z",
+          "read_level": "opened",
+          "note": "熱門 API 淨評分 623（652讚−29踩）；回覆 291＝no_of_reply；author_url 由 API user_id；已開第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    },
+    {
+      "issue_id": "HK-ECON-RED-HOLIDAY-SAT",
+      "name": "CLS出年啲紅假蝕撚哂",
+      "status": "tracking",
+      "seen": "樓主「鴨脷洲吳彥祖」列出來年年初一、復活假、勞動節、聖誕節都撞星期六。熱門列表淨評分 383；回覆 97（API no_of_reply）。留言高讚側一邊糾正「Easter 唔係不嬲都放good fri 同easter monday???」、指受難節翌日必定係星期六，一邊呻「幾時立法總之唔係工作天都要補假」；亦有人預告會有人話星期六都大把人返工。",
+      "replies": 97,
+      "viewpoints": [
+        {
+          "label": "呻蝕假／要立法補假",
+          "summary": "多數留言認同撞星期六蝕假，要求非工作天公眾假期都要補假。",
+          "share": "留言多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "糾正日曆／輪班反例",
+          "summary": "部分留言糾正復活節假期安排，或指星期六仍有大量人返工、樓主誇大。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "383",
+          "comparison": "回覆 97；上一輪（12 點）365。淨評分升 18（≤30），帖仍在、觀點仍以呻蝕假／要補假為主。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港經濟（來年公眾假期多撞星期六、打工族蝕假與補假訴求，反映工時／假期成本情緒）。",
+      "verification": {
+        "status": "unverified",
+        "note": "吹水假期日曆帖；實際補假安排以政府憲報為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4176765/page/1",
+          "platform": "連登",
+          "author": "鴨脷洲吳彥祖",
+          "author_url": "https://lihkg.com/profile/228894",
+          "published_at": null,
+          "observed_at": "2026-11-07T07:12:00Z",
+          "read_level": "opened",
+          "note": "熱門 API 淨評分 383（410讚−27踩）；回覆 97＝no_of_reply；author_url 由 API user_id；已開第 1 頁。"
+        }
+      ],
+      "limits": "留言觀點提取自第一頁；唔寫真名／相。",
+      "next_steps": "下一輪睇仲在唔在熱門及分數變化。"
+    }
+  ]
+}
