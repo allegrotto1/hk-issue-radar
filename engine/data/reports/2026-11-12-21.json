@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-12T12:00:00Z",
+    "end": "2026-11-12T13:00:00Z"
+  },
+  "generated_at": "2026-11-12T13:15:00Z",
+  "summary": [
+    "21 點版（2026-11-12）。以熱門頁 https://lihkg.com/category/1?order=hot 為準；本輪 api_v2/thread/hot?cat_id=1 成功（返 35 帖），淨評分同回覆數取自熱門 API（like−dislike／no_of_reply）；五條帖全部重開第 1 頁讀留言。熱門仍由黃仁勳／輝達風波（多帖）同成人展取消、女優入境事件主導。",
+    "青年：熱門未見民青局／教育局專帖，用李家超孫中山誕辰致詞「持續豐富愛國主義教育資源」（−52、回覆 92，涉延安青少年教育基地）；上一輪教師非禮案帖仍在熱門（9／82）未入選。香港政府官員：沿用議員惹火言論帖「何敬康：個別事件無損盛事之都」（−185、回覆 137，由 −79 跌，列表刷新）。內地：「黃樂據報身在北京」（103、回覆 114，tracking）。",
+    "香港時事：「日媒：入境女優被關入房間審查、連水都唔准飲」（179、回覆 233，新）。香港經濟：熱門未見本地經濟專帖，滙豐帖跌出，用散戶討論「NVDA 現價 168 入唔入得過」（−9、回覆 97）代替。熱門未見宏福苑或黃碧嬌旅行線帖名，只有何敬康帖一則留言提及宏福苑（未核實）。五條全部有實際回覆數。",
+    "情緒觀察：升，主情緒係對入境處同議員護航嘅憤怒加嘲諷（何敬康帖 −185、女優帖高讚反駁「選擇離港」），夾雜對愛國教育嘅反感；暫名「困住你等你自己走」（房間審查說法同成人展取消原因均未核實）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "熱門淨評分與回覆數取自 api_v2/thread/hot?cat_id=1（35 帖）；author_url 取自 API user_id；留言觀點取自 api_v2/thread/{id}/page/1。"
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-EDU-PATRIOTIC-EDUCATION-YANAN-BASE",
+      "name": "李家超孫中山誕辰儀式：持續豐富愛國主義教育資源、延安列青少年教育基地",
+      "status": "new",
+      "seen": "樓主「極速神驅」轉貼報道：特區政府舉行孫中山誕辰160周年紀念儀式，現場先奏唱中華人民共和國國歌；行政長官李家超致詞稱會「持續豐富愛國主義教育資源」，包括將陝西延安革命紀念館列為第二個香港特區在內地的青少年愛國主義教育基地，並繼續透過學校辦內地考察同青年交流。熱門列表淨評分 −52（負數代表踩多過讚）；回覆 92。留言主調係借孫中山反諷：「國安重犯、勾結外國勢力、收日本錢搞事」（76 讚）、「孫中山建立嘅係….？」（60 讚）、「孫中山既祖國」（35 讚）、「Taiwan 🇹🇼」（16 讚）、「唔係《三民主義歌》」（15 讚），有人列出孫中山按今日標準「條條都中」國安罪（28 讚）；「嘥鳩氣，整埋呢啲大龍鳳意識形態」（7 讚）直接批評政治教育；少數討論聯俄容共歷史。",
+      "replies": 92,
+      "viewpoints": [
+        {
+          "label": "反感政治化愛國教育",
+          "summary": "主流覺得政府借孫中山搞意識形態同把青少年送去延安做國情教育係整色整水，所以踩。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "以國安法反諷孫中山",
+          "summary": "部分留言指孫中山搞革命、收外國錢，用今日標準就係國安重犯，嘲諷紀念儀式自相矛盾。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "歷史考據",
+          "summary": "少數討論聯俄容共、三民主義歌同中華民國、台灣歸屬。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-52",
+          "comparison": "回覆 92；上一輪未見。負數代表踩多過讚。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（教育政策：愛國主義教育、內地青少年教育基地同學校考察）；亦屬特首言論。",
+      "verification": {
+        "status": "unverified",
+        "note": "致詞內容屬帖文轉貼報道，未對照政府新聞稿。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4179517/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-11-12T13:15:00Z",
+          "read_level": "thread",
+          "note": "淨評分同回覆數取自熱門 API（like−dislike／no_of_reply）；author_url 由 API user_id；已重開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "熱門未見民青局／教育局專帖，以特首教育相關講話代替。",
+      "next_steps": "睇教育局有冇公布延安基地考察安排。"
+    },
+    {
+      "issue_id": "HKGOV-LEGCO-HO-KING-HONG-MEGA-EXPO",
+      "name": "新民黨議員何敬康：成人展取消「個別事件無損盛事之都形象」",
+      "status": "tracking",
+      "seen": "樓主「mnmmnn」轉貼《有線新聞》：香港首個成人展邀約約 28 名日本女優、突然取消，有市民花逾 4,000 元買票擔心退款；新民黨立法會議員何敬康稱「個別事件無損盛事之都形象」，「籲網民勿太陰謀論」。熱門列表淨評分 −185（負數代表踩多過讚）；回覆 137。最高讚「有無影響形象唔係自己講係人地點樣睇你」（185 讚）；「衝出黎洗地，擺到明此地無銀」（59 讚）、「係囉係囉 咩都係個別事件」（61 讚）、「基本上所有事件都一定係個別事件」（28 讚）嘲諷講法；「APEC都唔喺香港搞仲講乜鬼盛事之都」（21 讚）；另有留言指另一 11 月活動亦以不可抗力取消（9 讚）；有留言把宏福苑扯入「個別事件」嘲諷（9 讚，未核實，唔延伸）。",
+      "replies": 137,
+      "viewpoints": [
+        {
+          "label": "嬲議員洗地",
+          "summary": "主流認為何敬康用「個別事件」「勿陰謀論」為政府護航，形象好壞要由外界判斷，所以嬲。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "嘲諷「盛事之都」",
+          "summary": "部分留言以 APEC 同其他取消活動反問香港仲算唔算盛事之都。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "調侃買票市民",
+          "summary": "少數留言取笑受訪女士買咁多周邊，偏離議題。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-185",
+          "comparison": "回覆 137；上一輪（18 點）−79、回覆 73，跌 106，屬列表刷新（帖仍在熱門、踩聲累積，觀點未變，冇由讚轉踩）。負數代表踩多過讚。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員（以立法會議員惹火言論代替；熱門未見民青局／教育局官員帖）。",
+      "verification": {
+        "status": "unverified",
+        "note": "成人展取消原因未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4179534/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-12T13:15:00Z",
+          "read_level": "thread",
+          "note": "淨評分同回覆數取自熱門 API（like−dislike／no_of_reply）；author_url 由 API user_id；已重開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "屬議員而非官員；宏福苑留言未核實，唔延伸。",
+      "next_steps": "睇主辦退款同入境處後續回應。"
+    },
+    {
+      "issue_id": "MAINLAND-ALICE-HUANG-IN-BEIJING",
+      "name": "黃仁勳婚外情風波主角黃樂據報身在北京",
+      "status": "tracking",
+      "seen": "樓主「極速神驅」轉貼報道引彭博：捲入輝達行政總裁黃仁勳婚外情風波嘅中國女商人黃樂（持香港永久居民身份）據知情人士指已返回內地、身在北京，內地相關部門知悉其行蹤。熱門列表淨評分 103（正數代表讚多過踩）；回覆 114。高讚「安全了」（167 讚）、「中國民族英雄」（109 讚）、「Mission Completed」（69 讚）、「任務成功」（34 讚）以反諷暗示間諜任務；「那讓老黃快樂的一夜，應記一功」（152 讚）調侃；「白手套應該俾人雙規緊驚佢走去美領館爆大鑊」（89 讚）揣測被控制；「呢D重犯間諜，點解全部都有香港身份證」（21 讚）扯到香港身份；一則「中央有情有義」留言被踩（45 讚 60 踩）。",
+      "replies": 114,
+      "viewpoints": [
+        {
+          "label": "反諷「任務完成」",
+          "summary": "主流以「安全了」「民族英雄」等語氣暗示涉間諜，屬調侃。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "揣測被內地控制",
+          "summary": "部分留言認為返京係被雙規或防止爆料。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "質疑香港身份被濫用",
+          "summary": "少數留言不滿涉事人持香港身份。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "103",
+          "comparison": "回覆 114；上一輪（18 點）87、回覆 105，升 16，屬正常波動。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（內地商人行蹤、內地部門角色）。",
+      "verification": {
+        "status": "unverified",
+        "note": "行蹤屬彭博引述知情人士，未核實；間諜說法屬網民揣測。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4179433/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-11-12T13:15:00Z",
+          "read_level": "thread",
+          "note": "淨評分同回覆數取自熱門 API（like−dislike／no_of_reply）；author_url 由 API user_id；已重開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "唔寫個人身份資料以外細節。",
+      "next_steps": "睇輝達董事會調查結果。"
+    },
+    {
+      "issue_id": "HKNEWS-AV-ACTRESS-IMMIGRATION-ROOM",
+      "name": "日媒：入境女優被關入房間審查、連水都唔准飲",
+      "status": "new",
+      "seen": "樓主「天蠍座」轉貼日本集英社網媒報道：原定來港出席成人展嘅日本女優，據報入境時被帶入房間審查、連水都唔准飲，有女優激動落淚；香港粉絲在社交網哀嘆被拒入境。熱門列表淨評分 179（正數代表讚多過踩），係本輪回覆最多嘅帖；回覆 233。最高讚「真係呢招 跟住就自願搭飛機走」（212 讚）同「困住你等你自己走=冇拒絕入境」（53 讚）、「困住係房，無話拒絕你入境」（9 讚）反駁入境處「選擇離港」講法；「當初原本預定在澳門舉辦…香港澳門無下次台灣見啦」（111 讚）；「入境處班冚家鏟」（81 讚）、「我屌你老母，咁樣對我偶像」（78 讚）直接發火；「強哥連av女優都驚」（51 讚）、「羅局長！回應下」（4 讚）點名官員；少數留言（被踩 21、14）幸災樂禍。",
+      "replies": 233,
+      "viewpoints": [
+        {
+          "label": "質疑入境處「選擇離港」講法",
+          "summary": "主流認為困住人等佢自己走，即係變相拒絕入境，入境處講法唔老實。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "擔心香港國際形象",
+          "summary": "部分留言指活動以後只會去台灣，嘲諷說好香港故事同盛事之都。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "幸災樂禍／支持攔截",
+          "summary": "少數留言話抵、以 AV 亂港要攔，但被踩。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "179",
+          "comparison": "回覆 233；上一輪未見（同一事件之前有入境處否認帖 4179290／4179291，但係另一 thread）。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港時事（入境處處理來港藝人、成人展取消後續）。",
+      "verification": {
+        "status": "unverified",
+        "note": "房間審查同唔准飲水屬日媒報道，入境處未回應此說法，未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4179572/page/1",
+          "platform": "連登",
+          "author": "天蠍座",
+          "author_url": "https://lihkg.com/profile/80481",
+          "published_at": null,
+          "observed_at": "2026-11-12T13:15:00Z",
+          "read_level": "thread",
+          "note": "淨評分同回覆數取自熱門 API（like−dislike／no_of_reply）；author_url 由 API user_id；已重開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只引用帖文轉述，未讀原日文全文。",
+      "next_steps": "睇入境處或保安局有冇回應。"
+    },
+    {
+      "issue_id": "HKECON-NVDA-DIP-RETAIL",
+      "name": "NVDA 現價 168 入唔入得過（散戶撈底討論）",
+      "status": "new",
+      "seen": "樓主「腳巴」問 NVDA 跌到約 168 好唔好入市。熱門列表淨評分 −9（負數代表踩略多過讚，差距細）；回覆 97。高讚「入咗半球，NVDA 基本面差唔多冇變過，下個月就會上返$200」（51 讚 14 踩）睇好反彈；「100再諗」（15 讚）、「最驚佢唔撈到時又跌多獲」（18 讚）、「140-150穩陣d」等觀望再跌；有人持 2028 年 put、「一定會離職，所以實會跌多鑊」（3 讚）睇淡，認為黃仁勳風波未完；「CPI 超預期 等多幾日先入」講宏觀因素。",
+      "replies": 97,
+      "viewpoints": [
+        {
+          "label": "等再跌先入",
+          "summary": "最多留言認為黃仁勳去留未明，應等 150 或更低先撈。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "基本面冇變、即撈",
+          "summary": "部分散戶已入市，認為短期風波唔影響業務。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "AI 泡沫睇淡",
+          "summary": "少數持長期 put，認為 AI 泡沫遲早爆。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-9",
+          "comparison": "回覆 97；上一輪未見。負數代表踩多過讚。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港經濟（香港散戶美股投資情緒；熱門未見本地經濟專帖，以此代替）。",
+      "verification": {
+        "status": "unverified",
+        "note": "股價數字屬樓主所寫，未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4178899/page/1",
+          "platform": "連登",
+          "author": "腳巴",
+          "author_url": "https://lihkg.com/profile/44884",
+          "published_at": null,
+          "observed_at": "2026-11-12T13:15:00Z",
+          "read_level": "thread",
+          "note": "淨評分同回覆數取自熱門 API（like−dislike／no_of_reply）；author_url 由 API user_id；已重開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "非香港本地經濟議題；滙豐帖已跌出熱門。",
+      "next_steps": "睇輝達董事會調查同股價反應。"
+    }
+  ]
+}
