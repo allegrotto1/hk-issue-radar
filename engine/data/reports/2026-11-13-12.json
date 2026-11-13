@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-13T03:00:00Z",
+    "end": "2026-11-13T04:00:00Z"
+  },
+  "generated_at": "2026-11-13T04:15:00Z",
+  "summary": [
+    "12 點版（2026-11-13）。以熱門頁 https://lihkg.com/category/1?order=hot 為準；本輪 api_v2/thread/hot?cat_id=1 成功（返 34 帖），淨評分同回覆數取自熱門 API（like−dislike／no_of_reply）；四條帖全部重開第 1 頁讀留言。熱門仍由黃仁勳婚外情同下台傳聞（多帖）主導，Microsoft 全球故障帖（4179829，148／213；4179808，80／219）亦上榜；民青局／教育局帖未見。",
+    "青年：從缺，上兩輪嘅「嶺南中學校園欺凌」（4179635）已跌出熱門，本輪熱門冇青年、教育或民青局帖。香港政府官員：熱門冇官員或議員發言帖，以「瑪麗醫院28部升降機出事、建築署將啟動紀律程序」（19、回覆 66）代替。內地：上一輪嘅「新加坡禁黃樂入境」跌出，改用「台灣驗出中國大閘蟹二噁英超標」（43、回覆 45）。",
+    "香港時事：續跟「日媒指入境女優被困房審查」（388、回覆 400）。香港經濟：熱門冇香港本地經濟帖，以美股「我正式宣佈, NVDA 已經玩撚完」（58、回覆 98）代替，黃仁勳辭職原因未核實。將軍澳港鐵職員遇襲（4179661，185／118）同小馬病逝帖未入選；熱門未見宏福苑或黃碧嬌旅行線帖名。",
+    "情緒觀察：平，主情緒仍係對入境處說法嘅嘲諷（女優帖升至 388、回覆 400），夾雜對政府部門驗收失職嘅不信任；暫名「困房即係自願走」（困房審查屬日媒報道，未核實）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "熱門淨評分與回覆數取自 api_v2/thread/hot?cat_id=1（34 帖）；author_url 取自 API user_id；留言觀點取自 api_v2/thread/{id}/page/1（order=score）。青年從缺；官員同經濟欄以代替帖。"
+  },
+  "issues": [
+    {
+      "issue_id": "HKGOV-ARCHSD-QMH-LIFTS",
+      "name": "瑪麗醫院新大樓28部升降機全出事，建築署人員未裝好就發完工證明，將啟動紀律程序",
+      "status": "new",
+      "seen": "樓主「會員271829」轉貼有線新聞：立法會發展事務委員會周五討論瑪麗醫院新臨床大樓升降機驗收事故，發展局59頁調查報告指28部升降機均有不同程度問題，井道施工失準（呈平行四邊形），承建商同分判商有責，建築署有人員喺升降機未裝好就發出完工證明書，將啟動紀律程序。熱門列表淨評分 19（正數代表讚多過踩）；回覆 66（API no_of_reply）。最高讚「最後咪又當冇事, 標準既野唔洗捉得咁緊既」（40 讚）反諷問責會不了了之；「乜9野中文黎報告又指建築署監管和驗收不到位」（24 讚）批評報告用語；「整嘅痴線簽嘅都痴線」（10 讚）、「求鳩其簽」（6 讚）矛頭指向簽證明嘅公務員；另有「公道講正方形同長方形都係平行四邊形」（4 讚）玩笑。",
+      "replies": 66,
+      "viewpoints": [
+        {
+          "label": "不信會真正問責",
+          "summary": "主流認為紀律程序最後會當冇事，嬲點在於政府部門驗收失職卻似乎無人負責。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "批評建築署亂簽證明",
+          "summary": "部分留言直指簽發完工證明嘅人員同承建商一樣有問題。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "技術玩笑",
+          "summary": "少數拿「平行四邊形」講笑。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "19",
+          "comparison": "回覆 66；上一輪未見。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "香港政府官員（代替：本輪熱門冇官員或議員發言帖，以發展局報告同建築署紀律程序帖代替）。",
+      "verification": {
+        "status": "unverified",
+        "note": "調查報告內容屬新聞轉述，未逐一核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4179853/page/1",
+          "platform": "連登",
+          "author": "會員271829",
+          "author_url": "https://lihkg.com/profile/271829",
+          "published_at": null,
+          "observed_at": "2026-11-13T04:15:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 19；回覆 66＝no_of_reply；author_url 由 API user_id；已重開第 1 頁（按分數排）。"
+        }
+      ],
+      "limits": "唔點名涉事人員。",
+      "next_steps": "睇立法會跟進同紀律程序結果。"
+    },
+    {
+      "issue_id": "MAINLAND-HAIRY-CRAB-DIOXIN",
+      "name": "台灣食藥署驗出中國進口大閘蟹二噁英超標，7千公斤攔截銷毀",
+      "status": "new",
+      "seen": "樓主「香江19」轉貼台灣報道：衛福部食藥署11月10日公布邊境查驗不合格名單，一批自中國進口嘅大閘蟹檢出二噁英超標，約7000公斤須退運或銷毀。熱門列表淨評分 43（正數代表讚多過踩）；回覆 45（API no_of_reply）。最高讚「北上撚食多啲」（77 讚）嘲諷北上消費；有留言（51 讚）列出台灣同歐盟二噁英限量作比較；「中國食物邊d 係無毒？」（35 讚）、「錢沒了可以再賺 良心沒了就可以賺更多」（13 讚）表達對內地食品安全不信任；「運唔到去台灣，你估佢係銷毀定係運黎香港」（15 讚）擔心轉流香港；另有帶貶稱嘅留言，本版唔轉引。",
+      "replies": 45,
+      "viewpoints": [
+        {
+          "label": "不信內地食品安全",
+          "summary": "主流對內地食品安全一貫不信任，以「北上食多啲」反諷。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "擔心流入香港",
+          "summary": "部分留言擔心被台灣拒收嘅貨轉運來港。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "比較檢測標準",
+          "summary": "少數留言貼出各地限量數字作比較。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "43",
+          "comparison": "回覆 45；08 點版有提及但未入選，今輪首次入選，上一輪未計分。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "內地（內地食品安全）。",
+      "verification": {
+        "status": "unverified",
+        "note": "檢測結果屬台灣報道轉述；香港是否有同批貨未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4179296/page/1",
+          "platform": "連登",
+          "author": "香江19",
+          "author_url": "https://lihkg.com/profile/62127",
+          "published_at": null,
+          "observed_at": "2026-11-13T04:15:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 43；回覆 45＝no_of_reply；author_url 由 API user_id；已重開第 1 頁（按分數排）。"
+        }
+      ],
+      "limits": "唔轉引貶稱留言，唔寫商戶名。",
+      "next_steps": "睇食安中心有冇跟進抽驗。"
+    },
+    {
+      "issue_id": "HK-NEWS-AV-ACTRESSES-ROOM",
+      "name": "日媒：入境女優被關入房間審查，連水都不被允許喝，有女優激動落淚",
+      "status": "tracking",
+      "seen": "樓主「天蠍座」轉貼日本集英社網媒報道：原定11月13至15日舉行嘅成人展取消，多名女優抵港後被帶入房間審查，報道指連水都唔准飲，有女優激動落淚；報道並提及活動原本計劃喺澳門舉辦，籌備中途改來香港。熱門列表淨評分 388（正數代表讚多過踩）；回覆 400（API no_of_reply），全台回覆最多嘅非長駐帖。最高讚「真係呢招 跟住就自願搭飛機走」（633 讚）同「困住你等你自己走=冇拒絕入境」（122 讚）直接拆解入境處早前「選擇離港」講法；「香港澳門無下次台灣見啦」（297 讚）擔心盛事流失；「入境處班冚家鏟」（260 讚）情緒性辱罵；另有粗口同戲謔留言。",
+      "replies": 400,
+      "viewpoints": [
+        {
+          "label": "拆解「選擇離港」講法",
+          "summary": "主流認為困房審查等同變相拒入境，入境處說法唔成立。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "憂香港形象同盛事流失",
+          "summary": "部分留言認為活動以後會轉去台灣或其他地方。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "戲謔同粗口",
+          "summary": "不少留言以黃色笑話或粗口回應。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "388",
+          "comparison": "回覆 400；上一輪（09 點）369／377。升 19，未過 30，主調未變。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "香港時事（成人展取消後續，入境安排爭議）。",
+      "verification": {
+        "status": "unverified",
+        "note": "困房審查、唔准飲水屬日媒轉述，入境處未回應此說法，未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4179572/page/1",
+          "platform": "連登",
+          "author": "天蠍座",
+          "author_url": "https://lihkg.com/profile/80481",
+          "published_at": null,
+          "observed_at": "2026-11-13T04:15:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 388；回覆 400＝no_of_reply；author_url 由 API user_id；已重開第 1 頁（按分數排）。"
+        }
+      ],
+      "limits": "唔判斷入境處做法是否合法。",
+      "next_steps": "睇入境處或保安局有冇回應日媒報道。"
+    },
+    {
+      "issue_id": "ECON-NVDA-CEO-EXIT-STOCK",
+      "name": "「我正式宣佈, NVDA 已經玩撚完」：黃仁勳去職後股價討論",
+      "status": "new",
+      "seen": "樓主「吉田の寶」以反話開帖，話 NVDA forward PE 約 11、「平到笑」、係時候 all in。熱門列表淨評分 58（正數代表讚多過踩）；回覆 98（API no_of_reply）。最高讚「其實係搵個CFO 做 CEO, 完全唔識技術嘢」（70 讚）質疑新管理層；「NVDA 跌其他AI 會唔會跟住跌」（28 讚）擔心AI板塊連鎖下跌；「桃色糾紛引發金融海嘯真係比後世人笑撚死」（24 讚）、「AI泡沫直接爆破」（20 讚）偏戲謔；亦有留言估計董事局日後會請返黃仁勳（16 讚）。熱門頁另有多條黃仁勳婚外情同下台內幕帖，均屬未核實傳聞。",
+      "replies": 98,
+      "viewpoints": [
+        {
+          "label": "唱淡新管理層",
+          "summary": "主流質疑由財務出身者接任，唔睇好公司前景。",
+          "share": "留言較多",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "擔心AI板塊連鎖跌",
+          "summary": "部分留言關心其他AI股會否跟跌。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "戲謔同抄底論",
+          "summary": "少數以反話講抄底或估黃仁勳回朝。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "58",
+          "comparison": "回覆 98；上一輪未見此帖（09 點版經濟欄為另一帖 4179683，51／123，今輪已跌出熱門）。正數代表讚多過踩。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港經濟（代替：本輪熱門冇香港本地經濟帖，以港人熱議美股 NVDA 帖代替）。",
+      "verification": {
+        "status": "unverified",
+        "note": "黃仁勳辭職同下台原因屬網上流傳，本版未核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4179685/page/1",
+          "platform": "連登",
+          "author": "吉田の寶",
+          "author_url": "https://lihkg.com/profile/353278",
+          "published_at": null,
+          "observed_at": "2026-11-13T04:15:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 58；回覆 98＝no_of_reply；author_url 由 API user_id；已重開第 1 頁（按分數排）。"
+        }
+      ],
+      "limits": "唔作投資建議。",
+      "next_steps": "睇正式公告同股價走勢。"
+    }
+  ]
+}
