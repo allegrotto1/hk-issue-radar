@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-13T12:00:00Z",
+    "end": "2026-11-13T13:00:00Z"
+  },
+  "generated_at": "2026-11-13T13:20:00Z",
+  "summary": [
+    "21 點版（2026-11-13）。以熱門頁 https://lihkg.com/category/1?order=hot 為準；本輪 api_v2/thread/hot?cat_id=1 成功（返 35 帖），淨評分同回覆數取自熱門 API（like−dislike／no_of_reply）；五條帖全部開第 1 頁讀留言。熱門仍有多帖黃仁勳辭職傳聞同 Microsoft 365 故障帖，蔡天鳳案有兩帖。",
+    "青年：喇沙小學呈分試英文默書漏讀字全級重默（6、回覆 28），另有聖米迦勒小學疑欺凌帖（4180073，22／83）未入選。香港政府官員：熱門冇民青局／教育局或官員惹火言論帖，續以「建築署署長如何是好」（106、回覆 115）代替。內地：趙麗穎告紅果短劇侵肖像權（29、回覆 51）；上一版黃樂帖跌出。",
+    "香港時事：柴灣興華邨失業男斬母（72、回覆 153）；蔡天鳳案兩帖（4180016、4180035）同將軍澳港鐵職員遇襲（4179661，248／158）未入選。香港經濟：續跟新世界停牌傳擬供股（24、回覆 65），供股規模未核實。另有信報稱成人展「夭折」質疑入境處說法帖（4180064，29／65）未入選；熱門未見宏福苑或黃碧嬌旅行線帖名。",
+    "情緒觀察：升，主情緒係對官員問責同失業處境嘅憤怒（建築署帖由 74 升至 106，斬母帖留言把事件連到失業同外勞）；暫名「冇人負責」（建築署責任未核實）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "熱門淨評分與回覆數取自 api_v2/thread/hot?cat_id=1（35 帖）；author_url 取自 API user_id；留言觀點取自 api_v2/thread/{id}/page/1。官員欄以代替帖。"
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-LASALLE-PRIMARY-DICTATION-RETAKE",
+      "name": "喇沙小學呈分試英文默書老師漏讀字，全級重默惹家長不滿",
+      "status": "new",
+      "seen": "樓主「mnmmnn」轉貼《星島教育》報道：喇沙小學小六英文默書屬呈分試一部分，其中一班老師讀漏「tell」字，校方決定全級重默，考試延長一日，有家長稱「不能接受」。熱門列表淨評分 6；回覆 28（API no_of_reply）。留言意見分散：有人話「默書啫 會考出錯題都唔駛重考」（7 讚），認為小題大做；有人借題批評默書本身，指「默書呢啲乜嘢優點都冇嘅學習方法就好心取消咗佢啦」（5 讚）；亦有人嘲老師「照住讀都讀錯」，或話學生細細個就體會「老細講錯嘢都要俾佢屌」（8 讚）；少數認為漏字影響文句理解，重默合理，並指呈分試名校家長特別緊張。",
+      "replies": 28,
+      "viewpoints": [
+        {
+          "label": "覺得小題大做",
+          "summary": "主流認為只係默書漏字，全級重默同家長投訴過火，名校家長太緊張。",
+          "share": "留言較多",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "借題批評默書制度",
+          "summary": "部分留言認為默書學習方法落後，應取消。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "認同重默公平",
+          "summary": "少數指漏字影響理解，重默跟監管要求合理。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "6",
+          "comparison": "回覆 28；上一輪未見此帖。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（教育：小學呈分試安排，影響升中）。",
+      "verification": {
+        "status": "reported",
+        "note": "內容引自《星島教育》轉貼，校方安排以學校公布為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4180099/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-13T13:20:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 6；回覆 28＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言。",
+      "next_steps": "睇校方或教育局有冇回應呈分試重默安排。"
+    },
+    {
+      "issue_id": "OFFICIAL-ARCHSD-DIRECTOR-LIFT",
+      "name": "瑪麗醫院𨋢井出事，網民續追建築署署長同發展局責任",
+      "status": "tracking",
+      "seen": "樓主「花雨落」開帖「建築署署長如何是好」（主帖冇內文），延續瑪麗醫院升降機出事、建築署將啟動紀律程序一線。熱門列表淨評分 106；回覆 115（API no_of_reply）。高讚留言「以往標準太高」（165 讚）同「燒死百幾人都冇事啦…唔好成日覺得人哋會有事先啦」（158 讚）反諷官員唔會問責；「發展局可否交代一下香港建築／工程是否成行都有問題」（110 讚）；「原來個𨋢井出事 即係builder佬問題 但一開頭就…拉撚左個lift佬先」（94 讚）不滿先怪升降機承辦商；亦有人嘲「直接修例降低標準咪可以照常使用」，及追問建築署收貨前點解冇檢查。",
+      "replies": 115,
+      "viewpoints": [
+        {
+          "label": "不信官員會被問責",
+          "summary": "主流反諷官員最後無人負責，只會話「標準太高」或修例降標準。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "質疑驗收同發展局監管",
+          "summary": "部分留言追問建築署收貨前有冇檢查，要求發展局交代工程質素。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "替升降機承辦商不平",
+          "summary": "有留言指𨋢井屬建造問題，一開始怪升降機承辦商唔公道。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "106",
+          "comparison": "回覆 115；上一輪（18點）淨評分 74、回覆 90，升 32，屬列表刷新（帖仍在、觀點未變，讚數持續累積）。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員（建築署署長及發展局問責）；熱門冇民青局／教育局或官員惹火言論帖，以此代替。",
+      "verification": {
+        "status": "unverified",
+        "note": "紀律程序同𨋢井問題詳情以官方公布為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4179956/page/1",
+          "platform": "連登",
+          "author": "花雨落",
+          "author_url": "https://lihkg.com/profile/293648",
+          "published_at": null,
+          "observed_at": "2026-11-13T13:20:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 106；回覆 115＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言。",
+      "next_steps": "睇建築署紀律程序同發展局交代。"
+    },
+    {
+      "issue_id": "MAINLAND-ZHAO-LIYING-PORTRAIT-RIGHTS",
+      "name": "趙麗穎告紅果短劇侵肖像權獲賠81萬，網民嘲平台慳錢",
+      "status": "new",
+      "seen": "樓主「大角倔喜」轉貼企查查資料：內地女星趙麗穎就肖像權糾紛起訴北京筆墨留香科技等被告，涉及紅果短劇，標題稱獲賠81萬人民幣。熱門列表淨評分 29；回覆 51（API no_of_reply）。最高讚留言「紅果on9姐，抄個咁大嘅明星都唔識3千蚊搵個似似地樣嘅廠妹簽約」（159 讚），另有留言列出由一線到素人嘅簽約價，嘲內地平台慳錢心態（64 讚）；有人話用AI生成更平，但被踩多過讚（16 讚 23 踩）；亦有人認為81萬對紅果流量只係宣傳費，「抵撚到爆」。",
+      "replies": 51,
+      "viewpoints": [
+        {
+          "label": "嘲平台貪平侵權",
+          "summary": "主流認為平台用大明星樣貌係慳錢又蠢，應另簽相似演員。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "賠償太少當宣傳",
+          "summary": "部分留言指81萬對平台流量微不足道。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "AI生成無需授權",
+          "summary": "少數認為用AI生成就唔使簽人，但被踩多過讚。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "29",
+          "comparison": "回覆 51；上一輪未見此帖。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（內地明星肖像權訴訟及短劇平台）。",
+      "verification": {
+        "status": "unverified",
+        "note": "賠償金額出自帖文標題，未核實判決。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4179828/page/1",
+          "platform": "連登",
+          "author": "大角倔喜",
+          "author_url": "https://lihkg.com/profile/460821",
+          "published_at": null,
+          "observed_at": "2026-11-13T13:20:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 29；回覆 51＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言。",
+      "next_steps": "睇判決詳情。"
+    },
+    {
+      "issue_id": "CURRENT-CHAI-WAN-SON-ATTACKS-MOTHER",
+      "name": "柴灣興華邨失業男斬母，網民爭責任在個人定就業環境",
+      "status": "new",
+      "seen": "樓主「建興昆水豪」開帖講31歲男失業約一年、屢被母親責罵後持刀斬母（同日另有報道帖 4179919）。熱門列表淨評分 72；回覆 153（API no_of_reply）。留言兩邊對立：「只會愈來愈多 多謝比卡超」（130 讚）、「宜家係咪真係咁難搵工」（43 讚）同「有冇可能就係老母平時俾太大壓力」（35 讚）把事件連到失業同輸入外勞；但責怪兒子嘅留言被大量踩，例如「成年都無工 肯定無心搵工」（15 讚 89 踩）、「失業嘟 咁都要斬人」（11 讚 62 踩）；亦有反諷「支持政府繼續引入多d外勞，好好鍛鍊下香港人」（29 讚）。",
+      "replies": 153,
+      "viewpoints": [
+        {
+          "label": "怪失業同外勞政策",
+          "summary": "主流把事件連到就業困難同輸入外勞，借題批評政府。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "同情家庭壓力",
+          "summary": "部分留言認為長期責罵令人崩潰。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "怪兒子無心搵工",
+          "summary": "少數認為兒子自己責任大，但相關留言踩多過讚。",
+          "share": "留言少數，被踩",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "72",
+          "comparison": "回覆 153；上一輪未見此帖（18點版提及同案另一帖 4179919）。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港時事（家庭暴力刑事案件，牽涉失業議題）。",
+      "verification": {
+        "status": "reported",
+        "note": "案情以警方及法庭資料為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4179991/page/1",
+          "platform": "連登",
+          "author": "建興昆水豪",
+          "author_url": "https://lihkg.com/profile/245856",
+          "published_at": null,
+          "observed_at": "2026-11-13T13:20:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 72；回覆 153＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言；不寫當事人身份資料。",
+      "next_steps": "睇提堂進展。"
+    },
+    {
+      "issue_id": "ECON-NWD-SUSPENSION-RIGHTS-ISSUE",
+      "name": "新世界停牌傳擬供股近250億，網民嘲小股東做水魚",
+      "status": "tracking",
+      "seen": "樓主「東升西降」轉貼報道：新世界發展今早停牌待發內幕消息，停牌前報4.87元、市值約122.56億，多隻擔保債券暫停交易；外電引述消息稱擬供股籌最多近250億，意味至少「一供二」。熱門列表淨評分 24；回覆 65（API no_of_reply）。留言幾乎一面倒嘲諷：「123億但供250億 仲要再輸多一倍」（32 讚）、「當小股東水魚」（35 讚）、「賣走堆賺錢野去自己既私人公司先痴線…港股實際係慈善活動」（49 讚）；有人引報道指銀行只考慮「軟包銷」，未有發現支持供股嘅聲音。",
+      "replies": 65,
+      "viewpoints": [
+        {
+          "label": "嘲大股東剝削小股東",
+          "summary": "主流認為供股係合股玩小股東，港股似賭場。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "質疑供股規模同包銷",
+          "summary": "部分留言指供股額高過市值，銀行只肯軟包銷，反映風險。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "24",
+          "comparison": "回覆 65；上一輪（18點）淨評分 5、回覆 28，升 19。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港經濟（本地發展商停牌及供股融資）。",
+      "verification": {
+        "status": "unverified",
+        "note": "供股規模屬外電引述消息，以公司公告為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4179889/page/1",
+          "platform": "連登",
+          "author": "東升西降",
+          "author_url": "https://lihkg.com/profile/700221",
+          "published_at": null,
+          "observed_at": "2026-11-13T13:20:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 24；回覆 65＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言。",
+      "next_steps": "睇新世界復牌公告。"
+    }
+  ]
+}
