@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "window": {
+    "start": "2026-11-13T23:00:00Z",
+    "end": "2026-11-14T00:00:00Z"
+  },
+  "generated_at": "2026-11-14T00:15:00Z",
+  "summary": [
+    "08 點版（2026-11-14）。以熱門頁 https://lihkg.com/category/1?order=hot 為準；本輪 api_v2/thread/hot?cat_id=1 成功（返 31 帖，第 2、3 頁冇內容），淨評分同回覆數取自熱門 API（like−dislike／no_of_reply）；五條帖全部開第 1 頁讀留言。熱門仍有多帖黃仁勳辭職傳聞。",
+    "青年：續跟喇沙小學呈分試默書漏讀字全級重默（25、回覆 75）；14歲少女失蹤帖（4180004）未入選。香港政府官員：文體旅局長羅淑佩睇BIGBANG稱「自己不是VIP」（−123、回覆 77），留言嬲局長只喺成功活動攞彩；熱門未見民青局／教育局帖。內地：台灣擬嚴審大陸出生港人入境（99、回覆 75）；黃樂司法部帖（4179820）未入選。",
+    "香港時事：續跟失業男斬母（108、回覆 211）；蔡天鳳案鄺港傑信件帖（4180036，25／70）未入選。香港經濟：熱門未見本地經濟帖（新世界停牌帖已跌出），以英偉達員工聯署要求黃仁勳復職傳聞（495、回覆 192）代替，未核實。熱門未見宏福苑或黃碧嬌旅行線帖名。",
+    "情緒觀察：升，主情緒係對官員攞彩同失業處境嘅不滿（羅淑佩帖踩多過讚 123；斬母帖怪政府留言最高讚）；暫名「搞唔成就失蹤」（成人展相關說法屬網民留言，未核實）"
+  ],
+  "sources": {
+    "url": "https://lihkg.com/category/1?order=hot",
+    "failed": [],
+    "note": "熱門淨評分與回覆數取自 api_v2/thread/hot?cat_id=1（31 帖）；author_url 取自 API user_id；留言觀點取自 api_v2/thread/{id}/page/1。經濟欄以代替帖。"
+  },
+  "issues": [
+    {
+      "issue_id": "YOUTH-LASALLE-PRIMARY-DICTATION-RETAKE",
+      "name": "喇沙小學呈分試英文默書老師漏讀字，全級重默惹家長不滿",
+      "status": "tracking",
+      "seen": "樓主「mnmmnn」轉貼《星島教育》報道：喇沙小學小六英文默書屬呈分試一部分，其中一班老師漏讀「tell」字，收卷後發還試卷重讀，校方諮詢教育局後將默書作廢，安排全級下周四（19日）重默；家長稱「簡直係離譜」，並引述兒子指係老師講稿漏字。熱門列表淨評分 25；回覆 75（API no_of_reply）。高讚留言「默書啫 會考出錯題都唔駛重考」（162 讚）認為小題大做；「照住讀都讀錯？讀得一次？」（145 讚）嘲老師；「最撚白痴係派返份卷個下」（32 讚）指發還試卷先係問題；「默書呢啲乜嘢優點都冇嘅學習方法就好心取消咗佢啦」（31 讚 16 踩）有爭議，有人反駁「第二語言黎講有用」。",
+      "replies": 75,
+      "viewpoints": [
+        {
+          "label": "覺得小題大做",
+          "summary": "主流認為只係默書漏字，全級重默過火，並嘲老師照住讀都讀錯。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "批評發還試卷處理",
+          "summary": "部分留言指收卷後派返份卷畀學生改先係真正出錯，亦有人指係講稿漏字。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L1"
+          ]
+        },
+        {
+          "label": "爭論默書制度",
+          "summary": "有人主張取消默書，另有人反駁第二語言默生字有用，雙方互相反駁。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "25",
+          "comparison": "回覆 75；上一輪（00點）淨評分 22、回覆 65，升 3，未超過 30。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L1"
+          ]
+        }
+      ],
+      "why": "青年（教育：小學呈分試安排，影響升中；校方稱已諮詢教育局）。",
+      "verification": {
+        "status": "reported",
+        "note": "內容引自《星島教育》轉貼，校方安排以學校公布為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L1",
+          "url": "https://lihkg.com/thread/4180099/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-14T00:15:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 25；回覆 75＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言。",
+      "next_steps": "睇校方或教育局有冇回應呈分試重默安排。"
+    },
+    {
+      "issue_id": "OFFICIAL-KEVIN-YEUNG-BIGBANG-NOT-VIP",
+      "name": "羅淑佩到場睇BIGBANG演唱會稱「自己不是VIP」，網民借成人展夭折開火",
+      "status": "new",
+      "seen": "樓主「極速神驅」轉貼報道：BIGBANG 13日起喺啟德體育園開4場演唱會，文化體育及旅遊局局長羅淑佩到場並喺社交平台貼相，標題引述佢稱「自己不是VIP 也看得非常興奮 這些好口碑就是我們繼續努力的能量所在啊」。熱門列表淨評分 −123（踩多過讚）；回覆 77（API no_of_reply）。最高讚留言「成人展搞唔成就影都唔見搞得成嗰d先出黎影相上次AiA熱氣球搞唔成又係失左蹤」（150 讚）指局長只喺成功活動攞彩；「屌你老母…我要睇河北彩花呀」（84 讚）、「個av女優展呀 而家香港冇撚曬口碑啦」（15 讚）將怒氣連到成人展夭折；另有多條人身攻擊局長外貌同飲食，以及「真係 下下死出黎攞彩」。留言未見有人替局長辯護。",
+      "replies": 77,
+      "viewpoints": [
+        {
+          "label": "嬲局長只喺成功活動攞彩",
+          "summary": "主流嬲點：成人展、AIA熱氣球等搞唔成時局長失蹤，BIGBANG搞得成就出嚟影相講「好口碑」，被視為叨光。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "借成人展夭折質疑「口碑」",
+          "summary": "部分留言將成人展夭折同局長講「好口碑」對比，認為香港盛事口碑已冇晒。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        },
+        {
+          "label": "人身攻擊為主",
+          "summary": "不少留言只係罵局長外貌、飲食，未有政策論點。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "-123",
+          "comparison": "回覆 77；上一輪未見此帖。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L2"
+          ]
+        }
+      ],
+      "why": "香港政府官員（文體旅局長羅淑佩惹火言論「自己不是VIP」；熱門未見民青局／教育局帖）。",
+      "verification": {
+        "status": "reported",
+        "note": "局長言論引自報道轉貼標題；成人展相關說法屬網民留言。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L2",
+          "url": "https://lihkg.com/thread/4180201/page/1",
+          "platform": "連登",
+          "author": "極速神驅",
+          "author_url": "https://lihkg.com/profile/240362",
+          "published_at": null,
+          "observed_at": "2026-11-14T00:15:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 -123；回覆 77＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言。",
+      "next_steps": "睇文體旅局有冇回應成人展同盛事安排質疑。"
+    },
+    {
+      "issue_id": "MAINLAND-TAIWAN-ANTI-INFILTRATION-HK-BORN-MAINLAND",
+      "name": "台灣擬修《反滲透法》，研擬嚴審大陸出生港人入境",
+      "status": "new",
+      "seen": "樓主「mnmmnn」轉貼報道：台灣陸委會副主委沈有忠證實研擬收緊兩類香港居民入境審查，包括具黑幫背景或刑事紀錄者，以及喺大陸出生後取得香港身分人士，稱唔會「一刀切」；國台辦批評台灣當局推行「綠色恐怖」。熱門列表淨評分 99；回覆 75（API no_of_reply）。高讚留言「白卡之子班雙非…但而家分分鐘冇得再去」（48 讚）、「『港仔』無謂去呢個國家自取其辱」（36 讚 5 踩）；有人認為「用出生地論已經係最低成本執行」但會攬炒早年由大陸走難來港老人、雙非仍可混水摸魚（11 讚），亦有人話「五眼聯盟都要嚴審」；另有少數「咁香港真心柒喎」（11 讚 9 踩）。",
+      "replies": 75,
+      "viewpoints": [
+        {
+          "label": "支持嚴審大陸出生港人",
+          "summary": "主流認同台方針對新來港人士，並嘲諷雙非、港漂以後去唔到台灣。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "質疑出生地標準",
+          "summary": "部分留言指以出生地篩選成本最低，但會誤傷早年走難來港老人，雙非反而漏網。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L3"
+          ]
+        },
+        {
+          "label": "反台情緒",
+          "summary": "少數留言叫港人唔好去台灣，批評台灣落後，同主流互相反駁。",
+          "share": "留言少數",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "99",
+          "comparison": "回覆 75；上一輪未見此帖（上一版內地帖 4180100 已跌出）。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L3"
+          ]
+        }
+      ],
+      "why": "內地（兩岸關係同大陸出生港人身分；涉國台辦回應）。",
+      "verification": {
+        "status": "reported",
+        "note": "措施仍屬研擬，細節以台灣陸委會公布為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L3",
+          "url": "https://lihkg.com/thread/4179900/page/1",
+          "platform": "連登",
+          "author": "mnmmnn",
+          "author_url": "https://lihkg.com/profile/16522",
+          "published_at": null,
+          "observed_at": "2026-11-14T00:15:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 99；回覆 75＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言。",
+      "next_steps": "睇陸委會有冇公布具體審查細則同港府回應。"
+    },
+    {
+      "issue_id": "HK-CHAIWAN-SON-ATTACKS-MOTHER",
+      "name": "失業一年屢被責罵，31歲男持刀斬母",
+      "status": "tracking",
+      "seen": "樓主「建興昆水豪」開帖「失業一年屢被責罵，31歲男擸刀斬母親！！」（主帖冇內文），延續柴灣興華邨案。熱門列表淨評分 108；回覆 211（API no_of_reply）。最高讚「只會愈來愈多多謝比卡超」（237 讚）將事件歸咎政府；「宜家係咪真係咁難搵工」（75 讚）、「比卡超唔無限引入外勞 呀仔唔使失業…」（27 讚）連到輸入外勞；有人指母親壓力太大「谷埋谷埋爆」（49 讚）；反諷「失業一年就頂唔順…支持政府繼續引入多d外勞」（42 讚）。責怪當事人嘅留言被大量踩：「成年都無工肯定無心搵工…」（18 讚 129 踩）、「失業嘟咁都要斬人…」（17 讚 103 踩）。",
+      "replies": 211,
+      "viewpoints": [
+        {
+          "label": "怪政府同輸入外勞",
+          "summary": "主流將失業同慘劇歸咎政府政策同輸入外勞，認為只會愈來愈多。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "同情失業壓力",
+          "summary": "部分留言講搵工難、家人壓力大，令人爆煲。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L4"
+          ]
+        },
+        {
+          "label": "責怪當事人",
+          "summary": "少數留言指佢無心搵工、斬母無理由，但被大量踩。",
+          "share": "留言少數，被踩",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "108",
+          "comparison": "回覆 211；上一輪（00點）淨評分 91、回覆 177，升 17，未超過 30。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L4"
+          ]
+        }
+      ],
+      "why": "香港時事（家庭倫常案件，牽涉失業同輸入外勞爭議）。",
+      "verification": {
+        "status": "reported",
+        "note": "案情以警方公布同法庭程序為準。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L4",
+          "url": "https://lihkg.com/thread/4179991/page/1",
+          "platform": "連登",
+          "author": "建興昆水豪",
+          "author_url": "https://lihkg.com/profile/245856",
+          "published_at": null,
+          "observed_at": "2026-11-14T00:15:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 108；回覆 211＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言。",
+      "next_steps": "睇案件提堂同失業數字討論。"
+    },
+    {
+      "issue_id": "ECON-NVDA-STAFF-PETITION-HUANG-RETURN",
+      "name": "傳英偉達員工聯署要求黃仁勳復職並解散董事會",
+      "status": "new",
+      "seen": "樓主「三星首席打手」轉貼《香港經濟日報》連結，稱黃仁勳因婚外情醜聞辭去英偉達行政總裁、由財務總監Colette Kress暫代，網上傳出員工聯署要求黃仁勳復職同董事會全體辭職，聯署信又聲稱馬斯克承諾為英偉達員工提供職位。熱門列表淨評分 495；回覆 192（API no_of_reply）。最高讚「皮褸黃拉埋d𡃁起返間中偉達…淨係搞你英偉達」（620 讚）、「拉班員工開檔新英偉達」（120 讚）、「間公司可以收皮開過第二間啦」（120 讚）都撐黃仁勳另起爐灶；亦有人以陰謀論角度講董事會「逼宮」，「elon like this post」（80 讚）。熱門另有多帖同一傳聞（4180061、4179936、4180001 等）。",
+      "replies": 192,
+      "viewpoints": [
+        {
+          "label": "撐黃仁勳另起爐灶",
+          "summary": "主流叫黃仁勳帶員工開新公司，唱淡英偉達董事會。",
+          "share": "留言大多數",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "陰謀論逼宮",
+          "summary": "部分留言指董事會有政治或背景勢力逼宮。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        },
+        {
+          "label": "戲謔玩梗",
+          "summary": "不少留言只係玩Elon同新公司名嘅梗。",
+          "share": "留言部分",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "data": [
+        {
+          "metric": "連登熱門列表淨評分（讚減踩）",
+          "value": "495",
+          "comparison": "回覆 192；上一輪未見此帖。正數代表讚多過踩，負數代表踩多過讚。",
+          "evidence_ids": [
+            "L5"
+          ]
+        }
+      ],
+      "why": "香港經濟（代替：熱門未見本地經濟帖，以美股NVDA傳聞代替；新世界停牌帖 4179889 已跌出）。",
+      "verification": {
+        "status": "unverified",
+        "note": "辭職、醜聞同員工聯署屬網上傳聞及轉貼，未經核實。"
+      },
+      "evidence": [
+        {
+          "evidence_id": "L5",
+          "url": "https://lihkg.com/thread/4180015/page/1",
+          "platform": "連登",
+          "author": "三星首席打手",
+          "author_url": "https://lihkg.com/profile/141060",
+          "published_at": null,
+          "observed_at": "2026-11-14T00:15:00Z",
+          "read_level": "thread",
+          "note": "熱門 API 淨評分 495；回覆 192＝no_of_reply；author_url 由 API user_id；已開第 1 頁讀留言。"
+        }
+      ],
+      "limits": "只讀第 1 頁留言。",
+      "next_steps": "睇英偉達官方公告同股價反應。"
+    }
+  ]
+}
